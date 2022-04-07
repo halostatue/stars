@@ -1,0 +1,19 @@
+name: Regenerate stars
+
+on:
+  workflow_dispatch:
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: halostatue/starlist@main
+        with:
+          token: ${{ secrets.API_TOKEN }}
+          config: |
+            git:
+              email: ${{ secrets.USER_EMAIL }}
+              name: ${{ github.repository_owner }}
+            stars:
+              source: file

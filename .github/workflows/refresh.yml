@@ -1,0 +1,19 @@
+name: Refresh stars and regenerate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: halostatue/starlist@v1.1.2
+        with:
+          token: ${{ secrets.API_TOKEN }}
+          config: |
+            git:
+              email: ${{ secrets.USER_EMAIL }}
+              name: ${{ github.repository_owner }}
