@@ -1468,7 +1468,7 @@
 *   [infracost/infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests💰📉 Love your cloud bill!
 *   [cbuschka/tfvm](https://github.com/cbuschka/tfvm) - Terraform Version Manager - Always the right terraform version for your project
 *   [charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line🍦
-*   [prabhatsharma/zinc](https://github.com/prabhatsharma/zinc) - Zinc Search engine. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+*   [zinclabs/zinc](https://github.com/zinclabs/zinc) - Zinc Search engine. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
 *   [earthly/earthly](https://github.com/earthly/earthly) - Repeatable builds
 *   [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 *   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
@@ -2191,7 +2191,7 @@
 *   [Bash-it/bash-it](https://github.com/Bash-it/bash-it) - A community Bash framework.
 *   [iaindooley/pickdrop](https://github.com/iaindooley/pickdrop) - A unix shell script which allows you to "pick" files one at a time and then drop them in one place
 *   [vincentbernat/zshrc](https://github.com/vincentbernat/zshrc) - My .zshrc
-*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - Terminal countdown timer with several modes written in Zsh shell script.
+*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - ⏰ Countdown timer with several modes written in Zsh shell script.
 *   [paulirish/dotfiles](https://github.com/paulirish/dotfiles) - paul's shell, git, etc config files. also homebrew, migration setup. good stuff.
 *   [simonwhitaker/gibo](https://github.com/simonwhitaker/gibo) - Easy access to gitignore boilerplates
 *   [catenate/credo](https://github.com/catenate/credo) - Many small scripts generate, comprise, and run a build system. (An adaptation of djb's "redo" build-tool idea.)
