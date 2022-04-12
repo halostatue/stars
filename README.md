@@ -1461,7 +1461,7 @@
 *   [slackhq/nebula](https://github.com/slackhq/nebula) - A scalable overlay networking tool with a focus on performance, simplicity and security
 *   [antoniomika/sish](https://github.com/antoniomika/sish) - HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.
 *   [derailed/k9s](https://github.com/derailed/k9s) - 🐶 Kubernetes CLI To Manage Your Clusters In Style!
-*   [werf/werf](https://github.com/werf/werf) - A solution for implementing efficient and consistent software delivery to Kubernetes. It covers the entire life cycle of CI/CD and related artifacts, gluing commonly used tools (such as Git, Docker, Helm, K8s) and facilitating best practices.
+*   [werf/werf](https://github.com/werf/werf) - A solution for implementing efficient and consistent software delivery to Kubernetes facilitating best practices.
 *   [benthosdev/benthos](https://github.com/benthosdev/benthos) - Fancy stream processing made operationally mundane
 *   [benhoyt/goawk](https://github.com/benhoyt/goawk) - A POSIX-compliant AWK interpreter written in Go
 *   [multiprocessio/dsq](https://github.com/multiprocessio/dsq) - Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
@@ -3150,7 +3150,7 @@
 *   [stripe-archive/einhorn](https://github.com/stripe-archive/einhorn) - Einhorn: the language-independent shared socket manager
 *   [ahoward/sekrets](https://github.com/ahoward/sekrets) -     sekrets is a command line tool and library used to securely manage encrypted files and settings in your rails' applications and git repositories.
 *   [moserrya/knod](https://github.com/moserrya/knod) - A Tiny HTTP server for your current directory
-*   [xinminlabs/synvert-ruby](https://github.com/xinminlabs/synvert-ruby) - write snippet code to change your project code
+*   [xinminlabs/synvert-ruby](https://github.com/xinminlabs/synvert-ruby) - write snippet code to rewrite your project code
 *   [ankane/pretender](https://github.com/ankane/pretender) - Log in as another user in Rails
 *   [collectiveidea/audited](https://github.com/collectiveidea/audited) - Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models.
 *   [jgaskins/perpetuity](https://github.com/jgaskins/perpetuity) - Persistence gem for Ruby objects using the Data Mapper pattern
