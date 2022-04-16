@@ -4,12 +4,12 @@
 
 ## Table of Contents
 
+*   [C](#c)
 *   [Python](#python)
 *   [JavaScript](#javascript)
 *   [Elixir](#elixir)
 *   [Svelte](#svelte)
 *   [Go](#go)
-*   [C](#c)
 *   [Rust](#rust)
 *   [Shell](#shell)
 *   [generic](#generic)
@@ -85,6 +85,113 @@
 *   [Gherkin](#gherkin)
 *   [Oz](#oz)
 *   [TeX](#tex)
+
+## C
+
+*   [skarnet/s6](https://github.com/skarnet/s6) - The s6 supervision suite.
+*   [czekster/markov](https://github.com/czekster/markov) - Materials for book: "Markov Chains for programmers"
+*   [DrPostgres/pg_plan_guarantee](https://github.com/DrPostgres/pg_plan_guarantee) - Postgres Query Optimizer Extension that guarantees your desired plan will not change
+*   [burrito-elixir/burrito](https://github.com/burrito-elixir/burrito) - Wrap your application in a BEAM Burrito!
+*   [pmq20/ruby-packer](https://github.com/pmq20/ruby-packer) - Packing your Ruby application into a single executable.
+*   [ahrm/sioyek](https://github.com/ahrm/sioyek) - Sioyek is a PDF viewer designed for reading research papers and technical books.
+*   [file/file](https://github.com/file/file) - Read-only mirror of file CVS repository, updated every half hour. NOTE: do not make pull requests here, nor comment any commits, submit them usual way to bug tracker or to the mailing list. Maintainer(s) are not tracking  this git mirror.
+*   [agroal/pgagroal](https://github.com/agroal/pgagroal) - High-performance connection pool for PostgreSQL
+*   [webview/webview](https://github.com/webview/webview) - Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)
+*   [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) - The high-performance distributed SQL database for global, internet-scale apps.
+*   [jart/cosmopolitan](https://github.com/jart/cosmopolitan) - build-once run-anywhere c library
+*   [machyve/xhyve](https://github.com/machyve/xhyve) - xhyve, a lightweight OS X virtualization solution
+*   [woltapp/blurhash](https://github.com/woltapp/blurhash) - A very compact representation of a placeholder for an image.
+*   [bake-bake-bake/bakeware](https://github.com/bake-bake-bake/bakeware) - Compile Elixir applications into single, easily distributed executable binaries
+*   [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
+*   [moretension/duti](https://github.com/moretension/duti) - A command-line tool to select default applications for document types and URL schemes on Mac OS X
+*   [jsoftware/jsource](https://github.com/jsoftware/jsource) - J engine source mirror
+*   [gabordemooij/citrine](https://github.com/gabordemooij/citrine) - Citrine Programming Language
+*   [shinh/elvm](https://github.com/shinh/elvm) - EsoLangVM Compiler Infrastructure
+*   [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
+*   [cybertec-postgresql/pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - A PostgreSQL extension for automatic bloat cleanup
+*   [postgrespro/rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
+*   [mpope9/exor_filter](https://github.com/mpope9/exor_filter) - Erlang nif for xor_filter.  'Faster and Smaller Than Bloom and Cuckoo Filters'.
+*   [canonical/dqlite](https://github.com/canonical/dqlite) - Embeddable, replicated and fault tolerant SQL engine.
+*   [krallin/tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
+*   [HypoPG/hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes for PostgreSQL
+*   [pganalyze/libpg_query](https://github.com/pganalyze/libpg_query) - C library for accessing the PostgreSQL parser outside of the server environment
+*   [pganalyze/pg_query](https://github.com/pganalyze/pg_query) - Ruby extension to parse, deparse and normalize SQL queries using the PostgreSQL query parser
+*   [andrewchambers/janetsh](https://github.com/andrewchambers/janetsh) - A powerful new shell that uses the janet programming language for both the implementation and repl.
+*   [laurenz/pgreplay](https://github.com/laurenz/pgreplay) - pgreplay reads a PostgreSQL log file (*not* a WAL file), extracts the SQL statements and executes them in the same order and relative time against a PostgreSQL database cluster.
+*   [janet-lang/janet](https://github.com/janet-lang/janet) - A dynamic language and bytecode vm
+*   [snowballstem/snowball](https://github.com/snowballstem/snowball) - Snowball compiler and stemming algorithms
+*   [atomvm/AtomVM](https://github.com/atomvm/AtomVM) - Tiny Erlang VM
+*   [matz/streem](https://github.com/matz/streem) - prototype of stream based programming language
+*   [VirusTotal/yara](https://github.com/VirusTotal/yara) - The pattern matching swiss knife
+*   [yandex/odyssey](https://github.com/yandex/odyssey) - Scalable PostgreSQL connection pooler
+*   [hasura/skor](https://github.com/hasura/skor) - Now part of Hasura GraphQL Engine. Listen to postgres events and forward them as JSON payloads to a webhook
+*   [boazsegev/iodine](https://github.com/boazsegev/iodine) - iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support
+*   [ohler55/agoo](https://github.com/ohler55/agoo) - A High Performance HTTP Server for Ruby
+*   [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
+*   [martanne/vis](https://github.com/martanne/vis) - A vi-like editor based on Plan 9's structural regular expressions
+*   [google/wuffs](https://github.com/google/wuffs) - Wrangling Untrusted File Formats Safely
+*   [df7cb/postgresql-unit](https://github.com/df7cb/postgresql-unit) - SI Units for PostgreSQL
+*   [skeeto/branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
+*   [timescale/timescaledb](https://github.com/timescale/timescaledb) - An open-source time-series SQL database optimized for fast ingest and complex queries.  Packaged as a PostgreSQL extension.
+*   [rebol/rebol](https://github.com/rebol/rebol) - Source code for the Rebol interpreter
+*   [IoLanguage/io](https://github.com/IoLanguage/io) - Io programming language. Inspired by Self, Smalltalk and LISP.
+*   [tectonic-typesetting/tectonic](https://github.com/tectonic-typesetting/tectonic) - A modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive.
+*   [sck/localmemcache](https://github.com/sck/localmemcache) - mmap -> lmc_valloc -> hashtable. BAM database
+*   [vozlt/nginx-module-sysguard](https://github.com/vozlt/nginx-module-sysguard) - Nginx sysguard module
+*   [skeeto/enchive](https://github.com/skeeto/enchive) - Encrypted personal archives
+*   [marcobambini/gravity](https://github.com/marcobambini/gravity) - Gravity Programming Language
+*   [RhodiumToad/ip4r](https://github.com/RhodiumToad/ip4r) - ip4r current and new development
+*   [allinurl/goaccess](https://github.com/allinurl/goaccess) - GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser.
+*   [netdata/netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://www.netdata.cloud
+*   [libmpack/libmpack](https://github.com/libmpack/libmpack) - Simple implementation of msgpack in C
+*   [dun/munge](https://github.com/dun/munge) - MUNGE (MUNGE Uid 'N' Gid Emporium) is an authentication service for creating and validating user credentials.
+*   [reorg/pg_repack](https://github.com/reorg/pg_repack) - Reorganize tables in PostgreSQL databases with minimal locks
+*   [facebook/zstd](https://github.com/facebook/zstd) - Zstandard - Fast real-time compression algorithm
+*   [socketry/nio4r](https://github.com/socketry/nio4r) - Cross-platform asynchronous I/O primitives for scalable network clients and servers.
+*   [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
+*   [nsntrace/nsntrace](https://github.com/nsntrace/nsntrace) - Perform network trace of a single process by using network namespaces.
+*   [yrutschle/sslh](https://github.com/yrutschle/sslh) - Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port)
+*   [pipelinedb/pipelinedb](https://github.com/pipelinedb/pipelinedb) - High-performance time-series aggregation for PostgreSQL
+*   [imatix/gsl](https://github.com/imatix/gsl) - iMatix GSL code generator
+*   [msantos/procket](https://github.com/msantos/procket) - Erlang interface to low level socket operations
+*   [citusdata/citus](https://github.com/citusdata/citus) - Distributed PostgreSQL as an extension
+*   [satori-com/tcpkali](https://github.com/satori-com/tcpkali) - Fast multi-core TCP and WebSockets load generator.
+*   [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
+*   [github/brubeck](https://github.com/github/brubeck) - A Statsd-compatible metrics aggregator
+*   [cabo/cbor-ruby](https://github.com/cabo/cbor-ruby) - CBOR (RFC 7049) extension for Ruby
+*   [citusdata/pg_paxos](https://github.com/citusdata/pg_paxos) - Basic implementation of Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
+*   [graemedouglas/LittleD](https://github.com/graemedouglas/LittleD) - A relational database for embedded devices and sensors nodes
+*   [iondbproject/iondb](https://github.com/iondbproject/iondb) - IonDB, a key-value datastore for resource constrained systems.
+*   [plasma-umass/coz](https://github.com/plasma-umass/coz) - Coz: Causal Profiling
+*   [mptre/yank](https://github.com/mptre/yank) - Yank terminal output to clipboard
+*   [fcambus/logswan](https://github.com/fcambus/logswan) - Fast Web log analyzer using probabilistic data structures
+*   [dbro/csvquote](https://github.com/dbro/csvquote) - Enables common unix utlities like cut, awk, wc, head to work correctly with csv data containing delimiters and newlines
+*   [leahneukirchen/nq](https://github.com/leahneukirchen/nq) - Unix command line queue utility
+*   [libgit2/rugged](https://github.com/libgit2/rugged) - ruby bindings to libgit2
+*   [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
+*   [silentbicycle/sample](https://github.com/silentbicycle/sample) - filter for random sampling of input
+*   [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
+*   [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language. Wren is a small, fast, class-based concurrent scripting language.
+*   [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
+*   [robertdavidgraham/isowall](https://github.com/robertdavidgraham/isowall) - This is a mini-firewall that completely isolates a target device from the local network.
+*   [hroptatyr/dateutils](https://github.com/hroptatyr/dateutils) - nifty command line date and time utilities; fast date calculations and conversion in the shell
+*   [robotmedia/RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases
+*   [curl/curl](https://github.com/curl/curl) - A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP. libcurl offers a myriad of powerful features
+*   [deplinenoise/tundra](https://github.com/deplinenoise/tundra) - Tundra is a code build system that tries to be accurate and fast for incremental builds
+*   [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
+*   [stedolan/jq](https://github.com/stedolan/jq) - Command-line JSON processor
+*   [jedisct1/libsodium](https://github.com/jedisct1/libsodium) - A modern, portable, easy to use crypto library.
+*   [bruceg/daemontools-encore](https://github.com/bruceg/daemontools-encore) - A collection of tools for managing UNIX services
+*   [tj/mon](https://github.com/tj/mon) - mon(1) - Simple single-process process monitoring program written in C
+*   [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
+*   [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
+*   [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
+*   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
+*   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
+*   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
+*   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
+*   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
+*   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
 ## Python
 
@@ -344,7 +451,6 @@
 *   [thesephist/pico](https://github.com/thesephist/pico) - Lightweight notepad for ephemeral memos, todos, meeting notes, and more
 *   [thesephist/polyx](https://github.com/thesephist/polyx) - Productivity suite written from scratch in Ink on the backend and Torus on the web
 *   [Alephbet/alephbet](https://github.com/Alephbet/alephbet) - AlephBet is a pure-javascript A/B (multivariate) testing framework for developers.
-*   [kasta-ua/twinspark-js](https://github.com/kasta-ua/twinspark-js) - Declarative enhancement for HTML: simple, composable, lean.
 *   [johno/normalize-email](https://github.com/johno/normalize-email) - Normalize + and . emails -- ex.ample+foobar@gmail.com => example@gmail.com
 *   [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) - Connect APIs, remarkably fast.  Free for developers.
 *   [vue-a11y/vue-accessible-multiselect](https://github.com/vue-a11y/vue-accessible-multiselect) - Vue.js accessible multiselect component
@@ -1956,112 +2062,6 @@
 *   [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
 *   [github/hub](https://github.com/github/hub) - A command-line tool that makes git easier to use with GitHub.
 
-## C
-
-*   [czekster/markov](https://github.com/czekster/markov) - Materials for book: "Markov Chains for programmers"
-*   [DrPostgres/pg_plan_guarantee](https://github.com/DrPostgres/pg_plan_guarantee) - Postgres Query Optimizer Extension that guarantees your desired plan will not change
-*   [burrito-elixir/burrito](https://github.com/burrito-elixir/burrito) - Wrap your application in a BEAM Burrito!
-*   [pmq20/ruby-packer](https://github.com/pmq20/ruby-packer) - Packing your Ruby application into a single executable.
-*   [ahrm/sioyek](https://github.com/ahrm/sioyek) - Sioyek is a PDF viewer designed for reading research papers and technical books.
-*   [file/file](https://github.com/file/file) - Read-only mirror of file CVS repository, updated every half hour. NOTE: do not make pull requests here, nor comment any commits, submit them usual way to bug tracker or to the mailing list. Maintainer(s) are not tracking  this git mirror.
-*   [agroal/pgagroal](https://github.com/agroal/pgagroal) - High-performance connection pool for PostgreSQL
-*   [webview/webview](https://github.com/webview/webview) - Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)
-*   [yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db) - The high-performance distributed SQL database for global, internet-scale apps.
-*   [jart/cosmopolitan](https://github.com/jart/cosmopolitan) - build-once run-anywhere c library
-*   [machyve/xhyve](https://github.com/machyve/xhyve) - xhyve, a lightweight OS X virtualization solution
-*   [woltapp/blurhash](https://github.com/woltapp/blurhash) - A very compact representation of a placeholder for an image.
-*   [bake-bake-bake/bakeware](https://github.com/bake-bake-bake/bakeware) - Compile Elixir applications into single, easily distributed executable binaries
-*   [Tarsnap/kivaloo](https://github.com/Tarsnap/kivaloo) - Kivaloo is a collection of utilities which together form a data store associating keys of up to 255 bytes with values of up to 255 bytes.
-*   [moretension/duti](https://github.com/moretension/duti) - A command-line tool to select default applications for document types and URL schemes on Mac OS X
-*   [jsoftware/jsource](https://github.com/jsoftware/jsource) - J engine source mirror
-*   [gabordemooij/citrine](https://github.com/gabordemooij/citrine) - Citrine Programming Language
-*   [shinh/elvm](https://github.com/shinh/elvm) - EsoLangVM Compiler Infrastructure
-*   [k-takata/Onigmo](https://github.com/k-takata/Onigmo) - Onigmo is a regular expressions library forked from Oniguruma.
-*   [cybertec-postgresql/pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - A PostgreSQL extension for automatic bloat cleanup
-*   [postgrespro/rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
-*   [mpope9/exor_filter](https://github.com/mpope9/exor_filter) - Erlang nif for xor_filter.  'Faster and Smaller Than Bloom and Cuckoo Filters'.
-*   [canonical/dqlite](https://github.com/canonical/dqlite) - Embeddable, replicated and fault tolerant SQL engine.
-*   [krallin/tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
-*   [HypoPG/hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes for PostgreSQL
-*   [pganalyze/libpg_query](https://github.com/pganalyze/libpg_query) - C library for accessing the PostgreSQL parser outside of the server environment
-*   [pganalyze/pg_query](https://github.com/pganalyze/pg_query) - Ruby extension to parse, deparse and normalize SQL queries using the PostgreSQL query parser
-*   [andrewchambers/janetsh](https://github.com/andrewchambers/janetsh) - A powerful new shell that uses the janet programming language for both the implementation and repl.
-*   [laurenz/pgreplay](https://github.com/laurenz/pgreplay) - pgreplay reads a PostgreSQL log file (*not* a WAL file), extracts the SQL statements and executes them in the same order and relative time against a PostgreSQL database cluster.
-*   [janet-lang/janet](https://github.com/janet-lang/janet) - A dynamic language and bytecode vm
-*   [snowballstem/snowball](https://github.com/snowballstem/snowball) - Snowball compiler and stemming algorithms
-*   [atomvm/AtomVM](https://github.com/atomvm/AtomVM) - Tiny Erlang VM
-*   [matz/streem](https://github.com/matz/streem) - prototype of stream based programming language
-*   [VirusTotal/yara](https://github.com/VirusTotal/yara) - The pattern matching swiss knife
-*   [yandex/odyssey](https://github.com/yandex/odyssey) - Scalable PostgreSQL connection pooler
-*   [hasura/skor](https://github.com/hasura/skor) - Now part of Hasura GraphQL Engine. Listen to postgres events and forward them as JSON payloads to a webhook
-*   [boazsegev/iodine](https://github.com/boazsegev/iodine) - iodine - HTTP / WebSockets Server for Ruby with Pub/Sub support
-*   [ohler55/agoo](https://github.com/ohler55/agoo) - A High Performance HTTP Server for Ruby
-*   [jakogut/tinyvm](https://github.com/jakogut/tinyvm) - TinyVM is a small, fast, lightweight virtual machine written in pure ANSI C.
-*   [martanne/vis](https://github.com/martanne/vis) - A vi-like editor based on Plan 9's structural regular expressions
-*   [google/wuffs](https://github.com/google/wuffs) - Wrangling Untrusted File Formats Safely
-*   [df7cb/postgresql-unit](https://github.com/df7cb/postgresql-unit) - SI Units for PostgreSQL
-*   [skeeto/branchless-utf8](https://github.com/skeeto/branchless-utf8) - Branchless UTF-8 decoder
-*   [timescale/timescaledb](https://github.com/timescale/timescaledb) - An open-source time-series SQL database optimized for fast ingest and complex queries.  Packaged as a PostgreSQL extension.
-*   [rebol/rebol](https://github.com/rebol/rebol) - Source code for the Rebol interpreter
-*   [IoLanguage/io](https://github.com/IoLanguage/io) - Io programming language. Inspired by Self, Smalltalk and LISP.
-*   [tectonic-typesetting/tectonic](https://github.com/tectonic-typesetting/tectonic) - A modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive.
-*   [sck/localmemcache](https://github.com/sck/localmemcache) - mmap -> lmc_valloc -> hashtable. BAM database
-*   [vozlt/nginx-module-sysguard](https://github.com/vozlt/nginx-module-sysguard) - Nginx sysguard module
-*   [skeeto/enchive](https://github.com/skeeto/enchive) - Encrypted personal archives
-*   [marcobambini/gravity](https://github.com/marcobambini/gravity) - Gravity Programming Language
-*   [RhodiumToad/ip4r](https://github.com/RhodiumToad/ip4r) - ip4r current and new development
-*   [allinurl/goaccess](https://github.com/allinurl/goaccess) - GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in \*nix systems or through your browser.
-*   [netdata/netdata](https://github.com/netdata/netdata) - Real-time performance monitoring, done right! https://www.netdata.cloud
-*   [libmpack/libmpack](https://github.com/libmpack/libmpack) - Simple implementation of msgpack in C
-*   [dun/munge](https://github.com/dun/munge) - MUNGE (MUNGE Uid 'N' Gid Emporium) is an authentication service for creating and validating user credentials.
-*   [reorg/pg_repack](https://github.com/reorg/pg_repack) - Reorganize tables in PostgreSQL databases with minimal locks
-*   [facebook/zstd](https://github.com/facebook/zstd) - Zstandard - Fast real-time compression algorithm
-*   [socketry/nio4r](https://github.com/socketry/nio4r) - Cross-platform asynchronous I/O primitives for scalable network clients and servers.
-*   [clibs/clib](https://github.com/clibs/clib) - C package manager-ish
-*   [nsntrace/nsntrace](https://github.com/nsntrace/nsntrace) - Perform network trace of a single process by using network namespaces.
-*   [yrutschle/sslh](https://github.com/yrutschle/sslh) - Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port)
-*   [pipelinedb/pipelinedb](https://github.com/pipelinedb/pipelinedb) - High-performance time-series aggregation for PostgreSQL
-*   [imatix/gsl](https://github.com/imatix/gsl) - iMatix GSL code generator
-*   [msantos/procket](https://github.com/msantos/procket) - Erlang interface to low level socket operations
-*   [citusdata/citus](https://github.com/citusdata/citus) - Distributed PostgreSQL as an extension
-*   [satori-com/tcpkali](https://github.com/satori-com/tcpkali) - Fast multi-core TCP and WebSockets load generator.
-*   [openvenues/libpostal](https://github.com/openvenues/libpostal) - A C library for parsing/normalizing street addresses around the world. Powered by statistical NLP and open geo data.
-*   [github/brubeck](https://github.com/github/brubeck) - A Statsd-compatible metrics aggregator
-*   [cabo/cbor-ruby](https://github.com/cabo/cbor-ruby) - CBOR (RFC 7049) extension for Ruby
-*   [citusdata/pg_paxos](https://github.com/citusdata/pg_paxos) - Basic implementation of Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
-*   [graemedouglas/LittleD](https://github.com/graemedouglas/LittleD) - A relational database for embedded devices and sensors nodes
-*   [iondbproject/iondb](https://github.com/iondbproject/iondb) - IonDB, a key-value datastore for resource constrained systems.
-*   [plasma-umass/coz](https://github.com/plasma-umass/coz) - Coz: Causal Profiling
-*   [mptre/yank](https://github.com/mptre/yank) - Yank terminal output to clipboard
-*   [fcambus/logswan](https://github.com/fcambus/logswan) - Fast Web log analyzer using probabilistic data structures
-*   [dbro/csvquote](https://github.com/dbro/csvquote) - Enables common unix utlities like cut, awk, wc, head to work correctly with csv data containing delimiters and newlines
-*   [leahneukirchen/nq](https://github.com/leahneukirchen/nq) - Unix command line queue utility
-*   [libgit2/rugged](https://github.com/libgit2/rugged) - ruby bindings to libgit2
-*   [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
-*   [silentbicycle/sample](https://github.com/silentbicycle/sample) - filter for random sampling of input
-*   [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
-*   [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language. Wren is a small, fast, class-based concurrent scripting language.
-*   [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
-*   [robertdavidgraham/isowall](https://github.com/robertdavidgraham/isowall) - This is a mini-firewall that completely isolates a target device from the local network.
-*   [hroptatyr/dateutils](https://github.com/hroptatyr/dateutils) - nifty command line date and time utilities; fast date calculations and conversion in the shell
-*   [robotmedia/RMStore](https://github.com/robotmedia/RMStore) - A lightweight iOS library for In-App Purchases
-*   [curl/curl](https://github.com/curl/curl) - A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP. libcurl offers a myriad of powerful features
-*   [deplinenoise/tundra](https://github.com/deplinenoise/tundra) - Tundra is a code build system that tries to be accurate and fast for incremental builds
-*   [keenerd/jshon](https://github.com/keenerd/jshon) - Jshon is a JSON parser designed for maximum convenience within the shell.
-*   [stedolan/jq](https://github.com/stedolan/jq) - Command-line JSON processor
-*   [jedisct1/libsodium](https://github.com/jedisct1/libsodium) - A modern, portable, easy to use crypto library.
-*   [bruceg/daemontools-encore](https://github.com/bruceg/daemontools-encore) - A collection of tools for managing UNIX services
-*   [tj/mon](https://github.com/tj/mon) - mon(1) - Simple single-process process monitoring program written in C
-*   [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
-*   [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
-*   [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
-*   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
-*   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
-*   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
-*   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
-*   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
-*   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
-
 ## Rust
 
 *   [tarikeshaq/update-notifier](https://github.com/tarikeshaq/update-notifier) - Update notifier for crates on crates.io
@@ -3315,7 +3315,6 @@
 *   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
 *   [halostatue/transaction-simple](https://github.com/halostatue/transaction-simple) - Transaction::Simple for Ruby
 *   [halostatue/text-formatting](https://github.com/halostatue/text-formatting) - Text Formatting tools for Ruby
-*   [halostatue/ruwiki](https://github.com/halostatue/ruwiki) - Ruwiki. This is a dead project and is only preserved for historical reasons.
 
 ## Vim script
 
@@ -3507,6 +3506,7 @@
 *   [tracker1/asdfgh](https://github.com/tracker1/asdfgh) - asdfgh - Lightweight (616 byte min+gz) asynchronous wrapper/loader for zxcvbn
 *   [thesephist/paper.css](https://github.com/thesephist/paper.css) - Lightweight, modern CSS to add some flair to your web-things 📜
 *   [thesephist/blocks.css](https://github.com/thesephist/blocks.css) - Add some dimension to your page with blocks 🚀
+*   [kasta-ua/twinspark-js](https://github.com/kasta-ua/twinspark-js) - Declarative enhancement for HTML: simple, composable, lean.
 *   [jdrouet/mrml](https://github.com/jdrouet/mrml) - Implementation of mjml in rust
 *   [tabatkins/symbols](https://github.com/tabatkins/symbols) - https://tabatkins.github.io/symbols Easy access to commonly-needed symbols that aren't on your keyboard.
 *   [foambubble/foam-template](https://github.com/foambubble/foam-template) - Foam workpace template
