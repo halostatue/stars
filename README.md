@@ -451,6 +451,7 @@
 *   [thesephist/pico](https://github.com/thesephist/pico) - Lightweight notepad for ephemeral memos, todos, meeting notes, and more
 *   [thesephist/polyx](https://github.com/thesephist/polyx) - Productivity suite written from scratch in Ink on the backend and Torus on the web
 *   [Alephbet/alephbet](https://github.com/Alephbet/alephbet) - AlephBet is a pure-javascript A/B (multivariate) testing framework for developers.
+*   [kasta-ua/twinspark-js](https://github.com/kasta-ua/twinspark-js) - Declarative enhancement for HTML: simple, composable, lean.
 *   [johno/normalize-email](https://github.com/johno/normalize-email) - Normalize + and . emails -- ex.ample+foobar@gmail.com => example@gmail.com
 *   [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream) - Connect APIs, remarkably fast.  Free for developers.
 *   [vue-a11y/vue-accessible-multiselect](https://github.com/vue-a11y/vue-accessible-multiselect) - Vue.js accessible multiselect component
@@ -3506,7 +3507,6 @@
 *   [tracker1/asdfgh](https://github.com/tracker1/asdfgh) - asdfgh - Lightweight (616 byte min+gz) asynchronous wrapper/loader for zxcvbn
 *   [thesephist/paper.css](https://github.com/thesephist/paper.css) - Lightweight, modern CSS to add some flair to your web-things 📜
 *   [thesephist/blocks.css](https://github.com/thesephist/blocks.css) - Add some dimension to your page with blocks 🚀
-*   [kasta-ua/twinspark-js](https://github.com/kasta-ua/twinspark-js) - Declarative enhancement for HTML: simple, composable, lean.
 *   [jdrouet/mrml](https://github.com/jdrouet/mrml) - Implementation of mjml in rust
 *   [tabatkins/symbols](https://github.com/tabatkins/symbols) - https://tabatkins.github.io/symbols Easy access to commonly-needed symbols that aren't on your keyboard.
 *   [foambubble/foam-template](https://github.com/foambubble/foam-template) - Foam workpace template
