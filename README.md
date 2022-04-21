@@ -2475,7 +2475,7 @@
 *   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
 *   [leighmcculloch/dockerhost](https://github.com/leighmcculloch/dockerhost) - A tool for simply creating a docker host vm on macOS.
 *   [phusion/traveling-ruby](https://github.com/phusion/traveling-ruby) - Self-contained Ruby binaries that can run on any Linux distribution and any macOS machine.
-*   [bevry/dorothy](https://github.com/bevry/dorothy) - 🧙🏻‍♀️ A better dotfile ecosystem with cross-platform automations. Supports fish, zsh, bash, mac and linux. Zero to hero in minutes on new and existing machines.
+*   [bevry/dorothy](https://github.com/bevry/dorothy) - 🧙🏻‍♀️ A better dotfile ecosystem with cross-platform automations. Supports fish, zsh, bash, mac, linux, windows. Zero to hero in minutes on new and existing machines.
 *   [0xmachos/macos-scripts](https://github.com/0xmachos/macos-scripts) - Various scripts for macOS tasks
 *   [space-sh/space](https://github.com/space-sh/space) - Single-file dependency-free automation tool written in Bash
 *   [robsheldon/golem](https://github.com/robsheldon/golem) -
