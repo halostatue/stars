@@ -2017,7 +2017,7 @@
 *   [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) - DockerSlim (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
 *   [nginx-proxy/docker-gen](https://github.com/nginx-proxy/docker-gen) - Generate files from docker container meta-data
 *   [cue-lang/cue](https://github.com/cue-lang/cue) - The new home of the CUE language! Validate and define text-based and dynamic configuration
-*   [authzed/spicedb](https://github.com/authzed/spicedb) - Inspired by Google's Zanzibar paper, SpiceDB is an open source database system for managing security-critical application permissions.
+*   [authzed/spicedb](https://github.com/authzed/spicedb) - Open source database system for managing security-critical application permissions inspired by Google's Zanzibar paper.
 *   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
 *   [tilt-dev/tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes.
 *   [DarthSim/overmind](https://github.com/DarthSim/overmind) - Process manager for Procfile-based applications and tmux
@@ -2052,7 +2052,7 @@
 *   [goharbor/harbor](https://github.com/goharbor/harbor) - An open source trusted cloud native registry project that stores, signs, and scans content.
 *   [ohler55/ojg](https://github.com/ohler55/ojg) - Optimized JSON for Go
 *   [UHN/ggql](https://github.com/UHN/ggql) - GraphQL implementation for golang.
-*   [securitybunker/databunker](https://github.com/securitybunker/databunker) - Secure Active Directory for Developers built with GDPR compliance
+*   [securitybunker/databunker](https://github.com/securitybunker/databunker) - A secure user directory built for developers to comply with the GDPR
 *   [filhodanuvem/gitql](https://github.com/filhodanuvem/gitql) - 💊 A git query language
 *   [whytheplatypus/switchboard](https://github.com/whytheplatypus/switchboard) - Simple mDNS based reverse proxy for personal infrastructure.
 *   [timbray/topfew](https://github.com/timbray/topfew) - Finds the fields (or combinations of fields) which appear most often in a stream of records.
@@ -4047,7 +4047,7 @@
 *   [paragonie/paseto](https://github.com/paragonie/paseto) - Platform-Agnostic Security Tokens
 *   [mobingi/alm](https://github.com/mobingi/alm) - Cloud-Native Application Lifecycle Management (ALM)
 *   [wallabag/wallabag](https://github.com/wallabag/wallabag) - wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.
-*   [craftcms/cms](https://github.com/craftcms/cms) - Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond.
+*   [craftcms/cms](https://github.com/craftcms/cms) - Craft is a flexible, extensible platform for creating bespoke digital experiences.
 *   [paragonie/airship](https://github.com/paragonie/airship) - Secure Content Management for the Modern Web - "The sky is only the beginning"
 *   [TidalLabs/Slacker](https://github.com/TidalLabs/Slacker) - Simple Slack client for the CLI
 *   [komarserjio/notejam](https://github.com/komarserjio/notejam) - Unified sample web app. The easy way to learn web frameworks.
