@@ -201,6 +201,7 @@
 *   [grafoojs/grafoo](https://github.com/grafoojs/grafoo) - A GraphQL Client and Toolkit
 *   [prisma-labs/graphql-request](https://github.com/prisma-labs/graphql-request) - Minimal GraphQL client supporting Node and browsers for scripts or simple apps
 *   [BrainJS/brain.js](https://github.com/BrainJS/brain.js) - 🤖 GPU accelerated Neural networks in JavaScript for Browsers and Node.js
+*   [Kong/httpsnippet](https://github.com/Kong/httpsnippet) - HTTP Request snippet generator for many languages & libraries
 *   [ClickerMonkey/vuex-router-actions](https://github.com/ClickerMonkey/vuex-router-actions) - Streamline complex Vuex actions and have fast and secure asynchronous routing in your app.
 *   [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) - 📟  Command line tool for common GraphQL development workflows
 *   [nexe/nexe](https://github.com/nexe/nexe) - 🎉 create a single executable out of your node.js apps
@@ -439,7 +440,6 @@
 *   [davesag/amqp-delegate](https://github.com/davesag/amqp-delegate) - A simple, but performant, remote worker system that uses AMQP to coordinate jobs.
 *   [fvdm/nodejs-haveibeenpwned](https://github.com/fvdm/nodejs-haveibeenpwned) - API methods for HaveIBeenPwnd.com (unofficial)
 *   [vuejs/vue-router](https://github.com/vuejs/vue-router) - 🚦 The official router for Vue 2
-*   [Kong/httpsnippet](https://github.com/Kong/httpsnippet) - HTTP Request snippet generator for many languages & libraries
 *   [ktsn/vuex-connect](https://github.com/ktsn/vuex-connect) - A binding utility for a Vue component and a Vuex store.
 *   [ResiliaDev/Planga](https://github.com/ResiliaDev/Planga) - Planga: Seamless Instant Chat Service
 *   [mprasil/bitwarden_rs](https://github.com/mprasil/bitwarden_rs) - Bitwarden compatible server written in Rust
