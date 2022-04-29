@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+*   [Rust](#rust)
 *   [TypeScript](#typescript)
 *   [JavaScript](#javascript)
 *   [Svelte](#svelte)
@@ -12,7 +13,6 @@
 *   [Python](#python)
 *   [Elixir](#elixir)
 *   [Go](#go)
-*   [Rust](#rust)
 *   [Shell](#shell)
 *   [generic](#generic)
 *   [Ruby](#ruby)
@@ -84,6 +84,170 @@
 *   [Gherkin](#gherkin)
 *   [Oz](#oz)
 *   [TeX](#tex)
+
+## Rust
+
+*   [Qovery/replibyte](https://github.com/Qovery/replibyte) - Seed your development database with real data ⚡️
+*   [tarikeshaq/update-notifier](https://github.com/tarikeshaq/update-notifier) - Update notifier for crates on crates.io
+*   [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
+*   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
+*   [yoav-lavi/melody](https://github.com/yoav-lavi/melody) - Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
+*   [svix/svix-webhooks](https://github.com/svix/svix-webhooks) - The enterprise-ready webhooks service 🦀
+*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session-lived containers for advanced browser-based applications.
+*   [gitext-rs/git-stack](https://github.com/gitext-rs/git-stack) - Stacked branch management for Git
+*   [arxanas/git-branchless](https://github.com/arxanas/git-branchless) - High-velocity, monorepo-scale workflow for Git
+*   [osohq/oso](https://github.com/osohq/oso) - Oso is a batteries-included framework for building authorization in your application.
+*   [tummychow/git-absorb](https://github.com/tummychow/git-absorb) - git commit --fixup, but automatic
+*   [mthom/scryer-prolog](https://github.com/mthom/scryer-prolog) - A modern Prolog implementation written mostly in Rust.
+*   [dprint/dprint](https://github.com/dprint/dprint) - Pluggable and configurable code formatting platform written in Rust.
+*   [TaKO8Ki/awesome-alternatives-in-rust](https://github.com/TaKO8Ki/awesome-alternatives-in-rust) - A curated list of replacements for existing software written in Rust
+*   [ezrosent/frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
+*   [fcsonline/drill](https://github.com/fcsonline/drill) - Drill is an HTTP load testing application written in Rust
+*   [raphlinus/pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) -
+*   [Doctave/doctave-markdown](https://github.com/Doctave/doctave-markdown) - Doctave-specific markdown parser
+*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - Powerful, fast, and an easy to use search engine
+*   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a diff that understands syntax 🟥🟩
+*   [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust.
+*   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+*   [federico-terzi/espanso](https://github.com/federico-terzi/espanso) - Cross-platform Text Expander written in Rust
+*   [tonarino/innernet](https://github.com/tonarino/innernet) - A private network system that uses WireGuard under the hood.
+*   [EmbarkStudios/cargo-deny](https://github.com/EmbarkStudios/cargo-deny) - ❌ Cargo plugin for linting your dependencies 🦀
+*   [vrtbl/passerine](https://github.com/vrtbl/passerine) - A small extensible programming language designed for concise expression with little code.
+*   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
+*   [ducaale/xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
+*   [neovide/neovide](https://github.com/neovide/neovide) - No Nonsense Neovim Client in Rust
+*   [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
+*   [JelteF/derive_more](https://github.com/JelteF/derive_more) - Some more derive(Trait) options
+*   [yaahc/color-eyre](https://github.com/yaahc/color-eyre) - Custom hooks for colorful human oriented error reports via panics and the eyre crate
+*   [hauleth/ernie](https://github.com/hauleth/ernie) - Efficient binary encoding for your data (based on Erlang's External Terms Format)
+*   [jameslittle230/stork](https://github.com/jameslittle230/stork) - 🔎 Impossibly fast web search, made for static sites.
+*   [WerWolv/ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) - Hex patterns, include patterns and magic files for the use with the ImHex Hex Editor
+*   [mareknowak/cardsnif](https://github.com/mareknowak/cardsnif) - Card game of War written in Elixir and Rust.
+*   [lunatic-solutions/lunatic](https://github.com/lunatic-solutions/lunatic) - Lunatic is an Erlang-inspired runtime for WebAssembly
+*   [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
+*   [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs) - Statistics-driven benchmarking library for Rust
+*   [ogham/dog](https://github.com/ogham/dog) - A command-line DNS client.
+*   [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
+*   [rust-shell-script/rust_cmd_lib](https://github.com/rust-shell-script/rust_cmd_lib) - Common rust command-line macros and utilities, to write shell-script like tasks in a clean, natural and rusty way
+*   [dtolnay/cxx](https://github.com/dtolnay/cxx) - Safe interop between Rust and C++
+*   [tcdi/pgx](https://github.com/tcdi/pgx) - Build Postgres Extensions with Rust!
+*   [rust-secure-code/cargo-geiger](https://github.com/rust-secure-code/cargo-geiger) - Detects usage of unsafe Rust in a Rust crate and its dependencies.
+*   [TeXitoi/structopt](https://github.com/TeXitoi/structopt) - Parse command line arguments by defining a struct.
+*   [daboross/fern](https://github.com/daboross/fern) - Simple, efficient logging for Rust
+*   [rust-lang/socket2](https://github.com/rust-lang/socket2) - Advanced configuration options for sockets.
+*   [tokio-rs/bytes](https://github.com/tokio-rs/bytes) - Utilities for working with bytes
+*   [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) - Compact and efficient synchronization primitives for Rust. Also provides an API for creating custom synchronization primitives.
+*   [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) - Tools for concurrent programming in Rust
+*   [djc/topfew-rs](https://github.com/djc/topfew-rs) - Rust implementation of Tim Bray's topfew tool
+*   [penelopezone/rubyfmt](https://github.com/penelopezone/rubyfmt) - Ruby Autoformatter!
+*   [zacps/blocked](https://github.com/zacps/blocked) - A proc-macro that checks if blockers (issues) have been resolved.
+*   [phated/twentyfive-stars](https://github.com/phated/twentyfive-stars) - (On-Hold until they fix Context) GraphQL server written in Rust.
+*   [async-graphql/examples](https://github.com/async-graphql/examples) -
+*   [async-graphql/async-graphql](https://github.com/async-graphql/async-graphql) - A GraphQL server library implemented in Rust
+*   [akeru-inc/xcnotary](https://github.com/akeru-inc/xcnotary) - the missing macOS app notarization helper, built with Rust
+*   [archseer/enigma](https://github.com/archseer/enigma) - An Erlang VM implementation in Rust
+*   [antifuchs/chars](https://github.com/antifuchs/chars) - cha(rs) is a commandline tool to display information about unicode characters
+*   [bootandy/dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
+*   [watchexec/watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
+*   [wezm/titlecase](https://github.com/wezm/titlecase) - A tool and Rust crate for transforming text into Title Case.
+*   [nerdypepper/eva](https://github.com/nerdypepper/eva) - a calculator REPL, similar to bc(1)
+*   [lotabout/skim](https://github.com/lotabout/skim) - Fuzzy Finder in rust!
+*   [sharkdp/hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
+*   [lunaryorn/mdcat](https://github.com/lunaryorn/mdcat) - cat for markdown
+*   [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+*   [ubnt-intrepid/dot](https://github.com/ubnt-intrepid/dot) - Yet another management tool for dotfiles
+*   [lumen/lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation, designed for WebAssembly
+*   [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
+*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
+*   [artichoke/artichoke](https://github.com/artichoke/artichoke) - 💎 Artichoke is a Ruby made with Rust
+*   [rustsec/rustsec](https://github.com/rustsec/rustsec) - Audit Cargo.lock files for dependencies with security vulnerabilities
+*   [iqlusioninc/sear](https://github.com/iqlusioninc/sear) - Signed/Encrypted ARchive: always-encrypted tar-like archive tool with optional signature support
+*   [iqlusioninc/abscissa](https://github.com/iqlusioninc/abscissa) - Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions
+*   [bastion-rs/bastion](https://github.com/bastion-rs/bastion) - Highly-available Distributed Fault-tolerant Runtime
+*   [lrlna/femme](https://github.com/lrlna/femme) - Not just a pretty (inter)face: pretty-printer + ndjson logger for log crate.
+*   [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+*   [vectordotdev/vector](https://github.com/vectordotdev/vector) - A high-performance observability data pipeline.
+*   [zhihu/rucene](https://github.com/zhihu/rucene) - Rust port of Lucene
+*   [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+*   [rust-lang-deprecated/failure](https://github.com/rust-lang-deprecated/failure) - Error management
+*   [rust-lang-deprecated/error-chain](https://github.com/rust-lang-deprecated/error-chain) - Error boilerplate for Rust
+*   [danielpclark/rutie](https://github.com/danielpclark/rutie) - “The Tie Between Ruby and Rust.”
+*   [woothee/woothee-rust](https://github.com/woothee/woothee-rust) - Rust user-agent strings parser
+*   [steveklabnik/ruby-sys](https://github.com/steveklabnik/ruby-sys) - Low-level bindings to Ruby
+*   [org-rs/org-rs](https://github.com/org-rs/org-rs) - org-mode parser rewrite in Rust
+*   [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) - 🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
+*   [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) - A Rust library for PDF document manipulation.
+*   [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
+*   [gleam-lang/gleam](https://github.com/gleam-lang/gleam) - ⭐️ A friendly language for building type-safe, scalable systems!
+*   [kyren/luster](https://github.com/kyren/luster) - An experimental Lua VM implemented in pure Rust
+*   [Keats/kickstart](https://github.com/Keats/kickstart) - A scaffolding tool to get new projects up and running quickly
+*   [rcoh/angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
+*   [cantino/mcfly](https://github.com/cantino/mcfly) - Fly through your shell history. Great Scott!
+*   [fschutt/azul](https://github.com/fschutt/azul) - Desktop GUI Framework
+*   [Geal/nom](https://github.com/Geal/nom) - Rust parser combinator framework
+*   [rubytogether/kirby](https://github.com/rubytogether/kirby) -
+*   [crate-ci/cargo-tarball](https://github.com/crate-ci/cargo-tarball) - Package pre-built binaries for Rust
+*   [assert-rs/docmatic](https://github.com/assert-rs/docmatic) - Enforce Rust documentation correctness
+*   [assert-rs/assert_cli](https://github.com/assert-rs/assert_cli) - See instead assert_cmd
+*   [assert-rs/predicates-rs](https://github.com/assert-rs/predicates-rs) - Boolean-valued predicate functions in Rust
+*   [assert-rs/assert_cmd](https://github.com/assert-rs/assert_cmd) - Assert process::Command - Easy command initialization and assertions
+*   [assert-rs/dir-diff](https://github.com/assert-rs/dir-diff) - Are the contents of two directories different?
+*   [assert-rs/assert_fs](https://github.com/assert-rs/assert_fs) - Filesystem fixtures and assertions.
+*   [rust-cli/confy](https://github.com/rust-cli/confy) - 🛋 Zero-boilerplate configuration management in Rust
+*   [rust-cli/clap-port-flag](https://github.com/rust-cli/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
+*   [rust-cli/clap-md](https://github.com/rust-cli/clap-md) - Generate Markdown documentation for clap application definitions
+*   [rust-cli/man](https://github.com/rust-cli/man) - Generate structured man pages
+*   [rust-cli/clap-permission-flag](https://github.com/rust-cli/clap-permission-flag) - Drop permissions of a CLI using structopt
+*   [rust-cli/cli-template](https://github.com/rust-cli/cli-template) - Cargo template for generating CLIs
+*   [rust-cli/clap-log-flag](https://github.com/rust-cli/clap-log-flag) - Add a logger to CLIs using structopt
+*   [rust-cli/human-panic](https://github.com/rust-cli/human-panic) - 😱 Panic messages for humans.
+*   [rust-cli/clap-verbosity-flag](https://github.com/rust-cli/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
+*   [thuleqaid/rust-chardet](https://github.com/thuleqaid/rust-chardet) - rust version of chardet
+*   [actix/actix](https://github.com/actix/actix) - Actor framework for Rust.
+*   [nuew/postgres-inet](https://github.com/nuew/postgres-inet) - Cidr and Inet support for rust-postgres
+*   [mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink) - OpenSSL compatibility layer for the Rust SSL/TLS stack
+*   [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) - A modern editor with a backend written in Rust.
+*   [neithernut/git-dit](https://github.com/neithernut/git-dit) - Decentralized Issue Tracking for git
+*   [yewstack/yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
+*   [tikv/rust-prometheus](https://github.com/tikv/rust-prometheus) - Prometheus instrumentation library for Rust applications
+*   [koute/stdweb](https://github.com/koute/stdweb) - A standard library for the client-side Web
+*   [frankmcsherry/columnar](https://github.com/frankmcsherry/columnar) - High-throughput columnar serialization in Rust
+*   [antiguru/column-rs](https://github.com/antiguru/column-rs) - Columnar type support for Rust
+*   [casey/remote](https://github.com/casey/remote) - 📡 Generate remote repository strings
+*   [gluon-lang/gluon](https://github.com/gluon-lang/gluon) - A static, type inferred and embeddable language written in Rust.
+*   [rust-locale/rust-locale](https://github.com/rust-locale/rust-locale) - Library for getting the user's localisation settings
+*   [Keats/tera](https://github.com/Keats/tera) - A template engine for Rust based on Jinja2/Django
+*   [cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust) - Liquid templating for Rust
+*   [sile/eetf](https://github.com/sile/eetf) - A Rust implementation of Erlang External Term Format
+*   [seriyps/rust-erl-ext](https://github.com/seriyps/rust-erl-ext) - Erlang external term format codec for Rust language.
+*   [rhysd/git-brws](https://github.com/rhysd/git-brws) - Command line tool to open repository, file, commit, diff, tag, pull request, blame, issue or project's website in browser for various repository hosting services.
+*   [rhysd/reading-pfds](https://github.com/rhysd/reading-pfds) - Reading 'Purely Functional Data Structures' with Rust
+*   [kevinmehall/rust-peg](https://github.com/kevinmehall/rust-peg) - Parsing Expression Grammar (PEG) parser generator for Rust
+*   [casey/just](https://github.com/casey/just) - 🤖 Just a command runner
+*   [dalance/amber](https://github.com/dalance/amber) - A code search / replace tool
+*   [kornelski/rust-file](https://github.com/kornelski/rust-file) - Trivial 1-liner for reading files
+*   [twmb/rsfs](https://github.com/twmb/rsfs) - RuSt FileSystem
+*   [manuel-woelker/rust-vfs](https://github.com/manuel-woelker/rust-vfs) - A virtual filesystem for Rust
+*   [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) - A pure rust YAML implementation.
+*   [dnsl48/yamlette](https://github.com/dnsl48/yamlette) - Comprehensive and user friendly YAML 1.2 processor written in Rust
+*   [goertzenator/cargo-erlangapp](https://github.com/goertzenator/cargo-erlangapp) - Build Rust crates embedded in an Erlang application
+*   [EbTech/rust-algorithms](https://github.com/EbTech/rust-algorithms) - Common data structures and algorithms in Rust
+*   [vmware-archive/haret](https://github.com/vmware-archive/haret) - A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust.
+*   [graphql-rust/juniper](https://github.com/graphql-rust/juniper) - GraphQL server library for Rust
+*   [PumpkinDB/PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) - Immutable Ordered Key-Value Database Engine
+*   [mozilla/mentat](https://github.com/mozilla/mentat) - UNMAINTAINED A persistent, relational store inspired by Datomic and DataScript.
+*   [dflemstr/rq](https://github.com/dflemstr/rq) - Record Query - A tool for doing record analysis and transformation
+*   [google/rustcxx](https://github.com/google/rustcxx) - rustcxx: Using C++ from Rust made easy
+*   [rbspy/rbspy](https://github.com/rbspy/rbspy) - Sampling CPU profiler for Ruby
+*   [mmstick/parallel](https://github.com/mmstick/parallel) - This project now lives on in a rewrite at https://gitlab.redox-os.org/redox-os/parallel
+*   [rusterlium/rustler](https://github.com/rusterlium/rustler) - Safe Rust bridge for creating Erlang NIF functions
+*   [dirk/metrics_distributor](https://github.com/dirk/metrics_distributor) - Ingest logs and forward aggregated data to APIs/services
+*   [anima-engine/mrusty](https://github.com/anima-engine/mrusty) - mruby safe bindings for Rust
+*   [d-unseductable/ruru](https://github.com/d-unseductable/ruru) - Native Ruby extensions written in Rust
+*   [iron/iron](https://github.com/iron/iron) - An Extensible, Concurrent Web Framework for Rust
+*   [nickel-org/nickel.rs](https://github.com/nickel-org/nickel.rs) - An expressjs inspired web framework for Rust
+*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
+*   [eholk/Boot2Rust](https://github.com/eholk/Boot2Rust) - EFI applications in Rust
 
 ## TypeScript
 
@@ -720,6 +884,8 @@
 *   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
 *   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
 *   [schacon/showoff-wrangling-git](https://github.com/schacon/showoff-wrangling-git) - Wrangling Git ShowOff presentation from LCA2010
+*   [tonytomov/jqGrid](https://github.com/tonytomov/jqGrid) - jQuery grid plugin
+*   [runpaint/vim-recipes](https://github.com/runpaint/vim-recipes) - A cookbook for the Vim text editor.
 
 ## Svelte
 
@@ -903,6 +1069,9 @@
 *   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
 *   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
 *   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
+*   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
+*   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
+*   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
 ## Python
 
@@ -1090,6 +1259,7 @@
 *   [bitly/data_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
 *   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
 *   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
+*   [schacon/hg-git](https://github.com/schacon/hg-git) - mercurial to git bridge, pushed to directly from the hg-git plugin in Hg
 
 ## Elixir
 
@@ -2006,7 +2176,7 @@
 *   [cbuschka/tfvm](https://github.com/cbuschka/tfvm) - Terraform Version Manager - Always the right terraform version for your project
 *   [charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line🍦
 *   [zinclabs/zinc](https://github.com/zinclabs/zinc) - Zinc Search engine. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
-*   [earthly/earthly](https://github.com/earthly/earthly) - Repeatable builds
+*   [earthly/earthly](https://github.com/earthly/earthly) - The effortless CI/CD framework that runs anywhere
 *   [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 *   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
 *   [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Fast and secure standalone server for resizing and converting remote images
@@ -2305,169 +2475,6 @@
 *   [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
 *   [github/hub](https://github.com/github/hub) - A command-line tool that makes git easier to use with GitHub.
 
-## Rust
-
-*   [tarikeshaq/update-notifier](https://github.com/tarikeshaq/update-notifier) - Update notifier for crates on crates.io
-*   [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
-*   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
-*   [yoav-lavi/melody](https://github.com/yoav-lavi/melody) - Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
-*   [svix/svix-webhooks](https://github.com/svix/svix-webhooks) - The enterprise-ready webhooks service 🦀
-*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session-lived containers for advanced browser-based applications.
-*   [gitext-rs/git-stack](https://github.com/gitext-rs/git-stack) - Stacked branch management for Git
-*   [arxanas/git-branchless](https://github.com/arxanas/git-branchless) - High-velocity, monorepo-scale workflow for Git
-*   [osohq/oso](https://github.com/osohq/oso) - Oso is a batteries-included framework for building authorization in your application.
-*   [tummychow/git-absorb](https://github.com/tummychow/git-absorb) - git commit --fixup, but automatic
-*   [mthom/scryer-prolog](https://github.com/mthom/scryer-prolog) - A modern Prolog implementation written mostly in Rust.
-*   [dprint/dprint](https://github.com/dprint/dprint) - Pluggable and configurable code formatting platform written in Rust.
-*   [TaKO8Ki/awesome-alternatives-in-rust](https://github.com/TaKO8Ki/awesome-alternatives-in-rust) - A curated list of replacements for existing software written in Rust
-*   [ezrosent/frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
-*   [fcsonline/drill](https://github.com/fcsonline/drill) - Drill is an HTTP load testing application written in Rust
-*   [raphlinus/pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) -
-*   [Doctave/doctave-markdown](https://github.com/Doctave/doctave-markdown) - Doctave-specific markdown parser
-*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - Powerful, fast, and an easy to use search engine
-*   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a diff that understands syntax 🟥🟩
-*   [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust.
-*   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
-*   [federico-terzi/espanso](https://github.com/federico-terzi/espanso) - Cross-platform Text Expander written in Rust
-*   [tonarino/innernet](https://github.com/tonarino/innernet) - A private network system that uses WireGuard under the hood.
-*   [EmbarkStudios/cargo-deny](https://github.com/EmbarkStudios/cargo-deny) - ❌ Cargo plugin for linting your dependencies 🦀
-*   [vrtbl/passerine](https://github.com/vrtbl/passerine) - A small extensible programming language designed for concise expression with little code.
-*   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
-*   [ducaale/xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
-*   [neovide/neovide](https://github.com/neovide/neovide) - No Nonsense Neovim Client in Rust
-*   [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
-*   [JelteF/derive_more](https://github.com/JelteF/derive_more) - Some more derive(Trait) options
-*   [yaahc/color-eyre](https://github.com/yaahc/color-eyre) - Custom hooks for colorful human oriented error reports via panics and the eyre crate
-*   [hauleth/ernie](https://github.com/hauleth/ernie) - Efficient binary encoding for your data (based on Erlang's External Terms Format)
-*   [jameslittle230/stork](https://github.com/jameslittle230/stork) - 🔎 Impossibly fast web search, made for static sites.
-*   [WerWolv/ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) - Hex patterns, include patterns and magic files for the use with the ImHex Hex Editor
-*   [mareknowak/cardsnif](https://github.com/mareknowak/cardsnif) - Card game of War written in Elixir and Rust.
-*   [lunatic-solutions/lunatic](https://github.com/lunatic-solutions/lunatic) - Lunatic is an Erlang-inspired runtime for WebAssembly
-*   [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
-*   [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs) - Statistics-driven benchmarking library for Rust
-*   [ogham/dog](https://github.com/ogham/dog) - A command-line DNS client.
-*   [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
-*   [rust-shell-script/rust_cmd_lib](https://github.com/rust-shell-script/rust_cmd_lib) - Common rust command-line macros and utilities, to write shell-script like tasks in a clean, natural and rusty way
-*   [dtolnay/cxx](https://github.com/dtolnay/cxx) - Safe interop between Rust and C++
-*   [tcdi/pgx](https://github.com/tcdi/pgx) - Build Postgres Extensions with Rust!
-*   [rust-secure-code/cargo-geiger](https://github.com/rust-secure-code/cargo-geiger) - Detects usage of unsafe Rust in a Rust crate and its dependencies.
-*   [TeXitoi/structopt](https://github.com/TeXitoi/structopt) - Parse command line arguments by defining a struct.
-*   [daboross/fern](https://github.com/daboross/fern) - Simple, efficient logging for Rust
-*   [rust-lang/socket2](https://github.com/rust-lang/socket2) - Advanced configuration options for sockets.
-*   [tokio-rs/bytes](https://github.com/tokio-rs/bytes) - Utilities for working with bytes
-*   [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) - Compact and efficient synchronization primitives for Rust. Also provides an API for creating custom synchronization primitives.
-*   [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) - Tools for concurrent programming in Rust
-*   [djc/topfew-rs](https://github.com/djc/topfew-rs) - Rust implementation of Tim Bray's topfew tool
-*   [penelopezone/rubyfmt](https://github.com/penelopezone/rubyfmt) - Ruby Autoformatter!
-*   [zacps/blocked](https://github.com/zacps/blocked) - A proc-macro that checks if blockers (issues) have been resolved.
-*   [phated/twentyfive-stars](https://github.com/phated/twentyfive-stars) - (On-Hold until they fix Context) GraphQL server written in Rust.
-*   [async-graphql/examples](https://github.com/async-graphql/examples) -
-*   [async-graphql/async-graphql](https://github.com/async-graphql/async-graphql) - A GraphQL server library implemented in Rust
-*   [akeru-inc/xcnotary](https://github.com/akeru-inc/xcnotary) - the missing macOS app notarization helper, built with Rust
-*   [archseer/enigma](https://github.com/archseer/enigma) - An Erlang VM implementation in Rust
-*   [antifuchs/chars](https://github.com/antifuchs/chars) - cha(rs) is a commandline tool to display information about unicode characters
-*   [bootandy/dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
-*   [watchexec/watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
-*   [wezm/titlecase](https://github.com/wezm/titlecase) - A tool and Rust crate for transforming text into Title Case.
-*   [nerdypepper/eva](https://github.com/nerdypepper/eva) - a calculator REPL, similar to bc(1)
-*   [lotabout/skim](https://github.com/lotabout/skim) - Fuzzy Finder in rust!
-*   [sharkdp/hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
-*   [lunaryorn/mdcat](https://github.com/lunaryorn/mdcat) - cat for markdown
-*   [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
-*   [ubnt-intrepid/dot](https://github.com/ubnt-intrepid/dot) - Yet another management tool for dotfiles
-*   [lumen/lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation, designed for WebAssembly
-*   [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
-*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
-*   [artichoke/artichoke](https://github.com/artichoke/artichoke) - 💎 Artichoke is a Ruby made with Rust
-*   [rustsec/rustsec](https://github.com/rustsec/rustsec) - Audit Cargo.lock files for dependencies with security vulnerabilities
-*   [iqlusioninc/sear](https://github.com/iqlusioninc/sear) - Signed/Encrypted ARchive: always-encrypted tar-like archive tool with optional signature support
-*   [iqlusioninc/abscissa](https://github.com/iqlusioninc/abscissa) - Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions
-*   [bastion-rs/bastion](https://github.com/bastion-rs/bastion) - Highly-available Distributed Fault-tolerant Runtime
-*   [lrlna/femme](https://github.com/lrlna/femme) - Not just a pretty (inter)face: pretty-printer + ndjson logger for log crate.
-*   [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-*   [vectordotdev/vector](https://github.com/vectordotdev/vector) - A high-performance observability data pipeline.
-*   [zhihu/rucene](https://github.com/zhihu/rucene) - Rust port of Lucene
-*   [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-*   [rust-lang-deprecated/failure](https://github.com/rust-lang-deprecated/failure) - Error management
-*   [rust-lang-deprecated/error-chain](https://github.com/rust-lang-deprecated/error-chain) - Error boilerplate for Rust
-*   [danielpclark/rutie](https://github.com/danielpclark/rutie) - “The Tie Between Ruby and Rust.”
-*   [woothee/woothee-rust](https://github.com/woothee/woothee-rust) - Rust user-agent strings parser
-*   [steveklabnik/ruby-sys](https://github.com/steveklabnik/ruby-sys) - Low-level bindings to Ruby
-*   [org-rs/org-rs](https://github.com/org-rs/org-rs) - org-mode parser rewrite in Rust
-*   [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) - 🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
-*   [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) - A Rust library for PDF document manipulation.
-*   [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
-*   [gleam-lang/gleam](https://github.com/gleam-lang/gleam) - ⭐️ A friendly language for building type-safe, scalable systems!
-*   [kyren/luster](https://github.com/kyren/luster) - An experimental Lua VM implemented in pure Rust
-*   [Keats/kickstart](https://github.com/Keats/kickstart) - A scaffolding tool to get new projects up and running quickly
-*   [rcoh/angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
-*   [cantino/mcfly](https://github.com/cantino/mcfly) - Fly through your shell history. Great Scott!
-*   [fschutt/azul](https://github.com/fschutt/azul) - Desktop GUI Framework
-*   [Geal/nom](https://github.com/Geal/nom) - Rust parser combinator framework
-*   [rubytogether/kirby](https://github.com/rubytogether/kirby) -
-*   [crate-ci/cargo-tarball](https://github.com/crate-ci/cargo-tarball) - Package pre-built binaries for Rust
-*   [assert-rs/docmatic](https://github.com/assert-rs/docmatic) - Enforce Rust documentation correctness
-*   [assert-rs/assert_cli](https://github.com/assert-rs/assert_cli) - See instead assert_cmd
-*   [assert-rs/predicates-rs](https://github.com/assert-rs/predicates-rs) - Boolean-valued predicate functions in Rust
-*   [assert-rs/assert_cmd](https://github.com/assert-rs/assert_cmd) - Assert process::Command - Easy command initialization and assertions
-*   [assert-rs/dir-diff](https://github.com/assert-rs/dir-diff) - Are the contents of two directories different?
-*   [assert-rs/assert_fs](https://github.com/assert-rs/assert_fs) - Filesystem fixtures and assertions.
-*   [rust-cli/confy](https://github.com/rust-cli/confy) - 🛋 Zero-boilerplate configuration management in Rust
-*   [rust-cli/clap-port-flag](https://github.com/rust-cli/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
-*   [rust-cli/clap-md](https://github.com/rust-cli/clap-md) - Generate Markdown documentation for clap application definitions
-*   [rust-cli/man](https://github.com/rust-cli/man) - Generate structured man pages
-*   [rust-cli/clap-permission-flag](https://github.com/rust-cli/clap-permission-flag) - Drop permissions of a CLI using structopt
-*   [rust-cli/cli-template](https://github.com/rust-cli/cli-template) - Cargo template for generating CLIs
-*   [rust-cli/clap-log-flag](https://github.com/rust-cli/clap-log-flag) - Add a logger to CLIs using structopt
-*   [rust-cli/human-panic](https://github.com/rust-cli/human-panic) - 😱 Panic messages for humans.
-*   [rust-cli/clap-verbosity-flag](https://github.com/rust-cli/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
-*   [thuleqaid/rust-chardet](https://github.com/thuleqaid/rust-chardet) - rust version of chardet
-*   [actix/actix](https://github.com/actix/actix) - Actor framework for Rust.
-*   [nuew/postgres-inet](https://github.com/nuew/postgres-inet) - Cidr and Inet support for rust-postgres
-*   [mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink) - OpenSSL compatibility layer for the Rust SSL/TLS stack
-*   [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) - A modern editor with a backend written in Rust.
-*   [neithernut/git-dit](https://github.com/neithernut/git-dit) - Decentralized Issue Tracking for git
-*   [yewstack/yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
-*   [tikv/rust-prometheus](https://github.com/tikv/rust-prometheus) - Prometheus instrumentation library for Rust applications
-*   [koute/stdweb](https://github.com/koute/stdweb) - A standard library for the client-side Web
-*   [frankmcsherry/columnar](https://github.com/frankmcsherry/columnar) - High-throughput columnar serialization in Rust
-*   [antiguru/column-rs](https://github.com/antiguru/column-rs) - Columnar type support for Rust
-*   [casey/remote](https://github.com/casey/remote) - 📡 Generate remote repository strings
-*   [gluon-lang/gluon](https://github.com/gluon-lang/gluon) - A static, type inferred and embeddable language written in Rust.
-*   [rust-locale/rust-locale](https://github.com/rust-locale/rust-locale) - Library for getting the user's localisation settings
-*   [Keats/tera](https://github.com/Keats/tera) - A template engine for Rust based on Jinja2/Django
-*   [cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust) - Liquid templating for Rust
-*   [sile/eetf](https://github.com/sile/eetf) - A Rust implementation of Erlang External Term Format
-*   [seriyps/rust-erl-ext](https://github.com/seriyps/rust-erl-ext) - Erlang external term format codec for Rust language.
-*   [rhysd/git-brws](https://github.com/rhysd/git-brws) - Command line tool to open repository, file, commit, diff, tag, pull request, blame, issue or project's website in browser for various repository hosting services.
-*   [rhysd/reading-pfds](https://github.com/rhysd/reading-pfds) - Reading 'Purely Functional Data Structures' with Rust
-*   [kevinmehall/rust-peg](https://github.com/kevinmehall/rust-peg) - Parsing Expression Grammar (PEG) parser generator for Rust
-*   [casey/just](https://github.com/casey/just) - 🤖 Just a command runner
-*   [dalance/amber](https://github.com/dalance/amber) - A code search / replace tool
-*   [kornelski/rust-file](https://github.com/kornelski/rust-file) - Trivial 1-liner for reading files
-*   [twmb/rsfs](https://github.com/twmb/rsfs) - RuSt FileSystem
-*   [manuel-woelker/rust-vfs](https://github.com/manuel-woelker/rust-vfs) - A virtual filesystem for Rust
-*   [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) - A pure rust YAML implementation.
-*   [dnsl48/yamlette](https://github.com/dnsl48/yamlette) - Comprehensive and user friendly YAML 1.2 processor written in Rust
-*   [goertzenator/cargo-erlangapp](https://github.com/goertzenator/cargo-erlangapp) - Build Rust crates embedded in an Erlang application
-*   [EbTech/rust-algorithms](https://github.com/EbTech/rust-algorithms) - Common data structures and algorithms in Rust
-*   [vmware-archive/haret](https://github.com/vmware-archive/haret) - A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust.
-*   [graphql-rust/juniper](https://github.com/graphql-rust/juniper) - GraphQL server library for Rust
-*   [PumpkinDB/PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) - Immutable Ordered Key-Value Database Engine
-*   [mozilla/mentat](https://github.com/mozilla/mentat) - UNMAINTAINED A persistent, relational store inspired by Datomic and DataScript.
-*   [dflemstr/rq](https://github.com/dflemstr/rq) - Record Query - A tool for doing record analysis and transformation
-*   [google/rustcxx](https://github.com/google/rustcxx) - rustcxx: Using C++ from Rust made easy
-*   [rbspy/rbspy](https://github.com/rbspy/rbspy) - Sampling CPU profiler for Ruby
-*   [mmstick/parallel](https://github.com/mmstick/parallel) - This project now lives on in a rewrite at https://gitlab.redox-os.org/redox-os/parallel
-*   [rusterlium/rustler](https://github.com/rusterlium/rustler) - Safe Rust bridge for creating Erlang NIF functions
-*   [dirk/metrics_distributor](https://github.com/dirk/metrics_distributor) - Ingest logs and forward aggregated data to APIs/services
-*   [anima-engine/mrusty](https://github.com/anima-engine/mrusty) - mruby safe bindings for Rust
-*   [d-unseductable/ruru](https://github.com/d-unseductable/ruru) - Native Ruby extensions written in Rust
-*   [iron/iron](https://github.com/iron/iron) - An Extensible, Concurrent Web Framework for Rust
-*   [nickel-org/nickel.rs](https://github.com/nickel-org/nickel.rs) - An expressjs inspired web framework for Rust
-*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
-*   [eholk/Boot2Rust](https://github.com/eholk/Boot2Rust) - EFI applications in Rust
-
 ## Shell
 
 *   [ttscoff/fish_files](https://github.com/ttscoff/fish_files) -
@@ -2637,6 +2644,8 @@
 *   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 *   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
 *   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
+*   [halostatue/ryanb-dotfiles-fork](https://github.com/halostatue/ryanb-dotfiles-fork) - config files for zsh, bash, completions, gem, git, irb, rails
+*   [wesabe/git-tools](https://github.com/wesabe/git-tools) - Tools for managing remote git repositories.
 
 ## generic
 
@@ -3403,6 +3412,22 @@
 *   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
 *   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
 *   [mdub/sham_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
+*   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
+*   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
+*   [codeplant/simple-navigation](https://github.com/codeplant/simple-navigation) - A ruby gem for creating navigations (with multiple levels) for your Rails, Sinatra or Padrino applications.  Render your navigation as html list, link list or breadcrumbs.
+*   [brynary/rack-bug](https://github.com/brynary/rack-bug) - Debugging toolbar for Rack applications implemented as middleware
+*   [jackowayed/sentdiff](https://github.com/jackowayed/sentdiff) - Diff that splits the files by sentences first. Made for editting text with somewhat-long paragraphs
+*   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
+*   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
+*   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
+*   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
+*   [halostatue/transaction-simple](https://github.com/halostatue/transaction-simple) - Transaction::Simple for Ruby
+*   [halostatue/text-formatting](https://github.com/halostatue/text-formatting) - Text Formatting tools for Ruby
+*   [halostatue/ruwiki](https://github.com/halostatue/ruwiki) - Ruwiki. This is a dead project and is only preserved for historical reasons.
+*   [mime-types/ruby-mime-types](https://github.com/mime-types/ruby-mime-types) - Ruby MIME type registry library
+*   [halostatue/color](https://github.com/halostatue/color) - Color tools for Ruby.
+*   [ruby-i18n/i18n](https://github.com/ruby-i18n/i18n) - Internationalization (i18n) library for Ruby
+*   [collectiveidea/acts_as_geocodable](https://github.com/collectiveidea/acts_as_geocodable) - Simple geocoding for Active Record models
 
 ## Vim script
 
@@ -3449,6 +3474,8 @@
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
 *   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
 *   [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic) - Syntax checking hacks for vim
+*   [tpope/vim-git](https://github.com/tpope/vim-git) - Vim Git runtime files
+*   [scrooloose/vimfiles](https://github.com/scrooloose/vimfiles) - The ~/.vim directory that we share at work
 
 ## Makefile
 
@@ -3947,6 +3974,7 @@
 *   [cognitect/transit-format](https://github.com/cognitect/transit-format) - A data interchange format.
 *   [Factual/drake](https://github.com/Factual/drake) - Data workflow tool, like a "Make for data"
 *   [cmonty/brainiac](https://github.com/cmonty/brainiac) - An awesome HUD
+*   [mmcgrana/ring](https://github.com/mmcgrana/ring) - Clojure web application library: abstracts HTTP to allow modular and concise webapps
 
 ## C#
 
@@ -3998,6 +4026,7 @@
 *   [ryancdotorg/ssh-chain](https://github.com/ryancdotorg/ssh-chain) -
 *   [sarabander/sicp-pdf](https://github.com/sarabander/sicp-pdf) - SICP PDF with Texinfo and LaTeX source
 *   [unixorn/miyamoto](https://github.com/unixorn/miyamoto) - Masterless puppet with S3
+*   [beyondgrep/ack1](https://github.com/beyondgrep/ack1) - This repository is for ack 1.x, which is **no longer being maintained**.  DO NOT SUBMIT ISSUES HERE.  ack 2.0 has a new GitHub project at
 
 ## OCaml
 
@@ -4135,6 +4164,7 @@
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
 *   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
 *   [msanders/cocoa.vim](https://github.com/msanders/cocoa.vim) - Vim plugin for Cocoa/Objective-C development. No longer actively developed.
+*   [msanders/snipmate.vim](https://github.com/msanders/snipmate.vim) - snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
 
 ## Assembly
 
