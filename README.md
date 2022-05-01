@@ -4,23 +4,23 @@
 
 ## Table of Contents
 
+*   [TypeScript](#typescript)
+*   [Rust](#rust)
+*   [Python](#python)
+*   [Shell](#shell)
+*   [CSS](#css)
 *   [Erlang](#erlang)
 *   [Elixir](#elixir)
-*   [Rust](#rust)
-*   [TypeScript](#typescript)
 *   [JavaScript](#javascript)
 *   [Svelte](#svelte)
 *   [HTML](#html)
 *   [C](#c)
-*   [Python](#python)
 *   [Go](#go)
-*   [Shell](#shell)
 *   [generic](#generic)
 *   [Ruby](#ruby)
 *   [Vim script](#vim-script)
 *   [Makefile](#makefile)
 *   [SCSS](#scss)
-*   [CSS](#css)
 *   [Java](#java)
 *   [Swift](#swift)
 *   [Objective-C](#objective-c)
@@ -84,6 +84,745 @@
 *   [Gherkin](#gherkin)
 *   [Oz](#oz)
 *   [TeX](#tex)
+
+## TypeScript
+
+*   [changesets/changesets](https://github.com/changesets/changesets) - 🦋       A way to manage your versioning and changelogs with a focus on monorepos
+*   [sveltejs/prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte) - Format your svelte components using prettier.
+*   [sveltejs/svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) - A ✨ magical ✨ Svelte preprocessor with sensible defaults and support for: PostCSS, SCSS, Less, Stylus, Coffeescript, TypeScript, Pug and much more.
+*   [Rezi/svelte-gestures](https://github.com/Rezi/svelte-gestures) -
+*   [storybookjs/storybook](https://github.com/storybookjs/storybook) - 📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!
+*   [MacFJA/svelte-invalidable](https://github.com/MacFJA/svelte-invalidable) - A Svelte that can be requested to update itself
+*   [endenwer/svelte-restate](https://github.com/endenwer/svelte-restate) - Immutable store for Svelte with full Typescript support and Redux Devtools integration.
+*   [MacFJA/svelte-undoable](https://github.com/MacFJA/svelte-undoable) - Memento design pattern in Svelte
+*   [MacFJA/svelte-persistent-store](https://github.com/MacFJA/svelte-persistent-store) - A Svelte store that keep its value through pages and reloads
+*   [timhall/svelte-apollo](https://github.com/timhall/svelte-apollo) - Svelte integration for Apollo GraphQL
+*   [pablo-abc/felte](https://github.com/pablo-abc/felte) - An extensible form library for Svelte, Solid and React
+*   [tanepiper/svelte-formula](https://github.com/tanepiper/svelte-formula) - Zero-Configuration Reactive forms for Svelte
+*   [chainlist/svelte-forms](https://github.com/chainlist/svelte-forms) - Svelte forms validation made easy
+*   [cerebral/overmind](https://github.com/cerebral/overmind) - Overmind - Frictionless state management
+*   [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 All in one i18n extension for VS Code
+*   [Panya/svelte-intl](https://github.com/Panya/svelte-intl) - Internationalize your Svelte apps using format-message and Intl object
+*   [maciekgrzybek/svelte-inview](https://github.com/maciekgrzybek/svelte-inview) - A Svelte action that monitors an element enters or leaves the viewport.🔥
+*   [kaisermann/svelte-i18n](https://github.com/kaisermann/svelte-i18n) - Internationalization library for Svelte
+*   [planetscale/beam](https://github.com/planetscale/beam) - A simple message board for your organization or project
+*   [dvcrn/obsidian-filename-heading-sync](https://github.com/dvcrn/obsidian-filename-heading-sync) - Obisdian.md plugin to keep the filename and the first header of the file in sync
+*   [vuejs/petite-vue](https://github.com/vuejs/petite-vue) - 6kb subset of Vue optimized for progressive enhancement
+*   [vuejs/pinia](https://github.com/vuejs/pinia) - 🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support
+*   [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
+*   [phiresky/sql.js-httpvfs](https://github.com/phiresky/sql.js-httpvfs) -
+*   [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) - Container Management and Kubernetes on the Desktop
+*   [saisandeepvaddi/ten-hands](https://github.com/saisandeepvaddi/ten-hands) - ⚡ Simplest way to organize and run command-line tasks
+*   [windicss/windicss](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
+*   [unocss/unocss](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
+*   [tsedio/tsed](https://github.com/tsedio/tsed) -  :triangular_ruler:  Ts.ED is a Node.js and TypeScript framework on top of Express to write your application with TypeScript (or ES6). It provides a lot of decorators and guideline to make your code more readable and less error-prone.
+*   [FormidableLabs/urql](https://github.com/FormidableLabs/urql) - The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.
+*   [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
+*   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.
+*   [adobe/react-spectrum](https://github.com/adobe/react-spectrum) - A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.
+*   [TanStack/react-table](https://github.com/TanStack/react-table) - ⚛️ Hooks for building fast and extendable tables and datagrids for TS/JS, React, Vue, Solid
+*   [aelbore/vite-plugin-test](https://github.com/aelbore/vite-plugin-test) - Vite plugin with mocha and puppeteer
+*   [aelbore/aria-vue](https://github.com/aelbore/aria-vue) - Testing tools for Vue components
+*   [SqrTT/prophet](https://github.com/SqrTT/prophet) - Prophet Debugger (SFCC sandboxes via SDAPI 2.0) extension for VS Code
+*   [tsconfig/bases](https://github.com/tsconfig/bases) - Hosts TSConfigs to extend in a TypeScript app, tuned to a particular runtime environment
+*   [withastro/astro](https://github.com/withastro/astro) - Build fast websites, faster. 🚀🧑‍🚀✨
+*   [nestjs/nest](https://github.com/nestjs/nest) - A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8) 🚀
+*   [cloudflare/miniflare](https://github.com/cloudflare/miniflare) - 🔥 Fully-local simulator for Cloudflare Workers
+*   [twilio/twilio-video-app-react](https://github.com/twilio/twilio-video-app-react) - A collaboration application built with the twilio-video.js SDK and React.js
+*   [RocketChat/Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK) - Utility for apps and bots to interact with Rocket.Chat via DDP and/or API
+*   [johnspurlock/app-privacy-report-viewer](https://github.com/johnspurlock/app-privacy-report-viewer) - Local viewer for App Privacy Reports in iOS 15
+*   [ajv-validator/ajv](https://github.com/ajv-validator/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927)
+*   [honzaap/Systemizer](https://github.com/honzaap/Systemizer) - A system design tool that allows you to simulate data flow of distributed systems.
+*   [edmundhung/maildog](https://github.com/edmundhung/maildog) - 🐶 Hosting your own email forwarding service on AWS and managing it with Github Actions
+*   [obahareth/are-you-es5](https://github.com/obahareth/are-you-es5) - A package to help you find out which of your node_modules aren't ES5 so you can add them to your Webpack/Rollup/Parcel transpilation steps.
+*   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative - turns any MySQL, Postgres, SQLite into a Spreadsheet with REST APIs.
+*   [niieani/hashids.js](https://github.com/niieani/hashids.js) - A small JavaScript library to generate YouTube-like ids from numbers.
+*   [Elderjs/elderjs](https://github.com/Elderjs/elderjs) - Elder.js is an opinionated static site generator and web framework for Svelte built with SEO in mind.
+*   [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) - Browser fingerprinting library with the highest accuracy and stability.
+*   [mattpocock/xstate-catalogue](https://github.com/mattpocock/xstate-catalogue) - Professionally designed, interactive state machines
+*   [Daninet/hash-wasm](https://github.com/Daninet/hash-wasm) - Lightning fast hash functions using hand-tuned WebAssembly binaries
+*   [ever-co/ever-traduora](https://github.com/ever-co/ever-traduora) - Ever® Traduora - Open-Source Translation Management Platform
+*   [ustaxes/UsTaxes](https://github.com/ustaxes/UsTaxes) - Tax filing web application
+*   [opticdev/optic](https://github.com/opticdev/optic) - Track and review API changes as a team
+*   [vscode-neovim/vscode-neovim](https://github.com/vscode-neovim/vscode-neovim) - Vim-mode for Visual Studio Code using embedded Neovim
+*   [timkendall/tql](https://github.com/timkendall/tql) - A GraphQL query builder for TypeScript. Avoid the pain of codegen.
+*   [danger/danger-js](https://github.com/danger/danger-js) - ⚠️ Stop saying "you forgot to …" in code review
+*   [alexreardon/tiny-invariant](https://github.com/alexreardon/tiny-invariant) - A tiny invariant function
+*   [probot/probot](https://github.com/probot/probot) - 🤖 A framework for building GitHub Apps to automate and improve your workflow
+*   [maple3142/vuejs-storage](https://github.com/maple3142/vuejs-storage) - Vue and Vuex plugin to persistence data with localStorage/sessionStorage
+*   [renovatebot/renovate](https://github.com/renovatebot/renovate) - Universal dependency update tool that fits into your workflows.
+*   [egoist/bili](https://github.com/egoist/bili) - Bili makes it easier to bundle JavaScript libraries.
+*   [n8n-io/n8n](https://github.com/n8n-io/n8n) - Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services.
+*   [gcanti/fp-ts](https://github.com/gcanti/fp-ts) - Functional programming in TypeScript
+*   [gcanti/io-ts](https://github.com/gcanti/io-ts) - Runtime type system for IO decoding/encoding
+*   [vue-a11y/eslint-plugin-vuejs-accessibility](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) - An eslint plugin for checking Vue.js files for accessibility
+*   [IBM/graphql-query-generator](https://github.com/IBM/graphql-query-generator) - Randomly generates GraphQL queries from a GraphQL schema
+*   [airtasker/spot](https://github.com/airtasker/spot) - Spot is a concise, developer-friendly way to describe your API contract.
+*   [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Follow to stay updated about our public Beta.
+*   [jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys) - A tiny (~400 B) & modern library for keybindings.
+*   [pikax/vue-composable](https://github.com/pikax/vue-composable) - Vue composition-api composable components. i18n, validation, pagination, fetch, etc. +50 different composables
+*   [runkids/vue-condition-watcher](https://github.com/runkids/vue-condition-watcher) - 🕶 Vue composition API for automatic data fetching. With conditions as the core. Easily control and sync to URL query string by conditions
+*   [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
+*   [solidjs/solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
+*   [grid-js/gridjs](https://github.com/grid-js/gridjs) - Advanced table plugin
+*   [caprover/caprover](https://github.com/caprover/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
+*   [championswimmer/vuex-persist](https://github.com/championswimmer/vuex-persist) - A Vuex plugin to persist the store. (Fully Typescript enabled)
+*   [slorber/awesome-debounce-promise](https://github.com/slorber/awesome-debounce-promise) - Debounce your API calls easily and stay in promised land.
+*   [kamilkisiela/graphql-config](https://github.com/kamilkisiela/graphql-config) - One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)
+*   [vueuse/vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
+*   [logaretm/vee-validate](https://github.com/logaretm/vee-validate) - ✅  Form Validation for Vue.js
+*   [samdenty/gqless](https://github.com/samdenty/gqless) - a GraphQL client without queries
+*   [Novvum/graphql-birdseye](https://github.com/Novvum/graphql-birdseye) - View any GraphQL schema as a dynamic and interactive graph. 🦅
+*   [dalibo/pev2](https://github.com/dalibo/pev2) - Postgres Explain Visualizer 2
+*   [nitram509/macaroons.js](https://github.com/nitram509/macaroons.js) - Javascript implementation of Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud.
+*   [logaretm/villus](https://github.com/logaretm/villus) - 🏎 A tiny and fast GraphQL client for Vue.js
+*   [mostjs/core](https://github.com/mostjs/core) - Most.js core event stream
+*   [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) - A reactive programming library for JavaScript
+*   [staltz/xstream](https://github.com/staltz/xstream) - An extremely intuitive, small, and fast functional reactive stream library for JavaScript
+*   [GoogleChromeLabs/comlink](https://github.com/GoogleChromeLabs/comlink) - Comlink makes WebWorkers enjoyable.
+*   [outline/outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, feature rich, and markdown compatible.
+*   [1milligram/csslayout](https://github.com/1milligram/csslayout) - A collection of popular layouts and patterns made with CSS. Now it has 100+ patterns and continues growing!
+*   [voldikss/coc-todolist](https://github.com/voldikss/coc-todolist) - \[Deprecated due to an unfixable bug and crappy design]🕐 Todolist/task manager extension for (Neo)Vim
+*   [posva/vue-promised](https://github.com/posva/vue-promised) - 💝 Composable Promises & Promises as components
+*   [zalando-incubator/graphql-jit](https://github.com/zalando-incubator/graphql-jit) - GraphQL execution using a JIT compiler
+*   [prisma/prisma-client-js](https://github.com/prisma/prisma-client-js) - Type-safe database client for TypeScript & Node.js (ORM replacement)
+*   [statelyai/xstate](https://github.com/statelyai/xstate) - State machines and statecharts for the modern web.
+*   [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) - The headless editor framework for web artisans.
+*   [lifeomic/axios-fetch](https://github.com/lifeomic/axios-fetch) - A WebAPI Fetch implementation backed by an Axios client
+*   [davestewart/axios-actions](https://github.com/davestewart/axios-actions) - Bundle endpoints as callable, reusable services
+*   [graphql-query-rewriter/core](https://github.com/graphql-query-rewriter/core) - Seamlessly turn breaking GraphQL changes into non-breaking changes
+*   [typewriter-editor/typewriter](https://github.com/typewriter-editor/typewriter) - A rich text editor based off of Quill.js and Ultradom, and using Svelte for UI.
+*   [sveltejs/sapper](https://github.com/sveltejs/sapper) - The next small thing in web development, powered by Svelte
+*   [intlify/vue-i18n-loader](https://github.com/intlify/vue-i18n-loader) - :globe_with_meridians: vue-i18n loader for custom blocks
+*   [codex-team/editor.js](https://github.com/codex-team/editor.js) - A block-styled editor with clean JSON output
+*   [sigle/sigle](https://github.com/sigle/sigle) - A beautiful decentralized and open source blog maker
+*   [loopbackio/loopback-next](https://github.com/loopbackio/loopback-next) - LoopBack makes it easy to build modern API applications that require complex integrations.
+*   [adonisjs/core](https://github.com/adonisjs/core) - 🚀 The Node.js Framework highly focused on developer ergonomics, stability and confidence
+*   [labs42io/clean-code-typescript](https://github.com/labs42io/clean-code-typescript) - Clean Code concepts adapted for TypeScript
+*   [grafoojs/grafoo](https://github.com/grafoojs/grafoo) - A GraphQL Client and Toolkit
+*   [prisma-labs/graphql-request](https://github.com/prisma-labs/graphql-request) - Minimal GraphQL client supporting Node and browsers for scripts or simple apps
+*   [BrainJS/brain.js](https://github.com/BrainJS/brain.js) - 🤖 GPU accelerated Neural networks in JavaScript for Browsers and Node.js
+*   [Kong/httpsnippet](https://github.com/Kong/httpsnippet) - HTTP Request snippet generator for many languages & libraries
+*   [ClickerMonkey/vuex-router-actions](https://github.com/ClickerMonkey/vuex-router-actions) - Streamline complex Vuex actions and have fast and secure asynchronous routing in your app.
+*   [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) - 📟  Command line tool for common GraphQL development workflows
+*   [nexe/nexe](https://github.com/nexe/nexe) - 🎉 create a single executable out of your node.js apps
+*   [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - :zap: The one-liner node.js http-proxy middleware for connect, express and browser-sync
+*   [graphql-editor/graphql-editor](https://github.com/graphql-editor/graphql-editor) - 📺 Visual Editor & GraphQL IDE. Draw GraphQL schemas using visual 🔷 nodes and explore GraphQL API with beautiful UI. Even 🐒 can do that!
+*   [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.
+*   [Redocly/redoc](https://github.com/Redocly/redoc) - 📘  OpenAPI/Swagger-generated API Reference Documentation
+*   [jlfwong/speedscope](https://github.com/jlfwong/speedscope) - 🔬 A fast, interactive web-based viewer for performance profiles.
+*   [FullHuman/purgecss](https://github.com/FullHuman/purgecss) - Remove unused CSS
+*   [cyclejs/cyclejs](https://github.com/cyclejs/cyclejs) - A functional and reactive JavaScript framework for predictable code
+*   [aurelia/framework](https://github.com/aurelia/framework) - The Aurelia 1 framework entry point, bringing together all the required sub-modules of Aurelia.
+*   [facebook/flipper](https://github.com/facebook/flipper) - A desktop debugging platform for mobile developers.
+*   [apollographql/persistgraphql](https://github.com/apollographql/persistgraphql) - A build tool for GraphQL projects.
+*   [2fd/graphdoc](https://github.com/2fd/graphdoc) - Static page generator for documenting GraphQL Schema
+*   [szimek/signature_pad](https://github.com/szimek/signature_pad) - HTML5 canvas based smooth signature drawing
+*   [linkedin/opticss](https://github.com/linkedin/opticss) - A CSS Optimizer
+*   [linkedin/css-blocks](https://github.com/linkedin/css-blocks) - High performance, maintainable stylesheets.
+*   [theintern/intern-a11y](https://github.com/theintern/intern-a11y) - Accessibility testing for Intern
+*   [hotwired/stimulus](https://github.com/hotwired/stimulus) - A modest JavaScript framework for the HTML you already have
+*   [meetalva/alva](https://github.com/meetalva/alva) - Create living prototypes with code components.
+*   [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) - 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!
+*   [APIs-guru/graphql-faker](https://github.com/APIs-guru/graphql-faker) - 🎲 Mock or extend your GraphQL API with faked data. No coding required.
+*   [jiayihu/pretty-algorithms](https://github.com/jiayihu/pretty-algorithms) - 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
+*   [Malpaux/apollo-offline](https://github.com/Malpaux/apollo-offline) - An offline toolkit for the Apollo client
+*   [cdmbase/graphql-rabbitmq-subscriptions](https://github.com/cdmbase/graphql-rabbitmq-subscriptions) - A graphql subscriptions implementation using rabbimq and apollo's graphql-subscriptions
+*   [cdmbase/graphql-server-rabbitmq](https://github.com/cdmbase/graphql-server-rabbitmq) - Production-ready Node.js GraphQL server for RabbitMQ
+*   [antonycourtney/tad](https://github.com/antonycourtney/tad) - A desktop application for viewing and analyzing tabular data
+*   [homebridge/homebridge](https://github.com/homebridge/homebridge) - HomeKit support for the impatient.
+*   [APIs-guru/graphql-voyager](https://github.com/APIs-guru/graphql-voyager) - 🛰️ Represent any GraphQL API as an interactive graph
+*   [apache/superset](https://github.com/apache/superset) - Apache Superset is a Data Visualization and Data Exploration Platform
+*   [bdash-app/bdash](https://github.com/bdash-app/bdash) - Simple SQL Client for lightweight data analysis.
+*   [parrot-translate/parrot](https://github.com/parrot-translate/parrot) - Self-hosted Localization Management Platform built with Go and Angular
+*   [arangodb/arangojs](https://github.com/arangodb/arangojs) - The official ArangoDB JavaScript driver.
+*   [facebook/jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
+*   [date-fns/date-fns](https://github.com/date-fns/date-fns) - ⏳ Modern JavaScript date utility library ⌛️
+*   [sveltejs/svelte](https://github.com/sveltejs/svelte) - Cybernetically enhanced web apps
+*   [danvk/source-map-explorer](https://github.com/danvk/source-map-explorer) - Analyze and debug space usage through source maps
+*   [jahewson/elm-graphql](https://github.com/jahewson/elm-graphql) - GraphQL for Elm
+*   [turbolinks/turbolinks](https://github.com/turbolinks/turbolinks) - Turbolinks makes navigating your web application faster
+*   [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) - A completely customizable framework for building rich text editors. (Currently in beta.)
+*   [tensorflow/playground](https://github.com/tensorflow/playground) - Play with neural networks!
+*   [deepstreamIO/deepstream.io](https://github.com/deepstreamIO/deepstream.io) - deepstream.io server
+*   [witheve/Eve](https://github.com/witheve/Eve) - Better tools for thought
+*   [helmetjs/helmet](https://github.com/helmetjs/helmet) - Help secure Express apps with various HTTP headers
+*   [reduxjs/redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
+
+## Rust
+
+*   [ellie/atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
+*   [Shopify/shadowenv](https://github.com/Shopify/shadowenv) - reversible directory-local environment variable manipulations
+*   [Qovery/replibyte](https://github.com/Qovery/replibyte) - Seed your development database with real data ⚡️
+*   [tarikeshaq/update-notifier](https://github.com/tarikeshaq/update-notifier) - Update notifier for crates on crates.io
+*   [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
+*   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
+*   [yoav-lavi/melody](https://github.com/yoav-lavi/melody) - Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
+*   [svix/svix-webhooks](https://github.com/svix/svix-webhooks) - The enterprise-ready webhooks service 🦀
+*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session-lived containers for advanced browser-based applications.
+*   [gitext-rs/git-stack](https://github.com/gitext-rs/git-stack) - Stacked branch management for Git
+*   [arxanas/git-branchless](https://github.com/arxanas/git-branchless) - High-velocity, monorepo-scale workflow for Git
+*   [osohq/oso](https://github.com/osohq/oso) - Oso is a batteries-included framework for building authorization in your application.
+*   [tummychow/git-absorb](https://github.com/tummychow/git-absorb) - git commit --fixup, but automatic
+*   [mthom/scryer-prolog](https://github.com/mthom/scryer-prolog) - A modern Prolog implementation written mostly in Rust.
+*   [dprint/dprint](https://github.com/dprint/dprint) - Pluggable and configurable code formatting platform written in Rust.
+*   [TaKO8Ki/awesome-alternatives-in-rust](https://github.com/TaKO8Ki/awesome-alternatives-in-rust) - A curated list of replacements for existing software written in Rust
+*   [ezrosent/frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
+*   [fcsonline/drill](https://github.com/fcsonline/drill) - Drill is an HTTP load testing application written in Rust
+*   [raphlinus/pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) -
+*   [Doctave/doctave-markdown](https://github.com/Doctave/doctave-markdown) - Doctave-specific markdown parser
+*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - Powerful, fast, and an easy to use search engine
+*   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a diff that understands syntax 🟥🟩
+*   [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust.
+*   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+*   [federico-terzi/espanso](https://github.com/federico-terzi/espanso) - Cross-platform Text Expander written in Rust
+*   [tonarino/innernet](https://github.com/tonarino/innernet) - A private network system that uses WireGuard under the hood.
+*   [EmbarkStudios/cargo-deny](https://github.com/EmbarkStudios/cargo-deny) - ❌ Cargo plugin for linting your dependencies 🦀
+*   [vrtbl/passerine](https://github.com/vrtbl/passerine) - A small extensible programming language designed for concise expression with little code.
+*   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
+*   [ducaale/xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
+*   [neovide/neovide](https://github.com/neovide/neovide) - No Nonsense Neovim Client in Rust
+*   [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
+*   [JelteF/derive_more](https://github.com/JelteF/derive_more) - Some more derive(Trait) options
+*   [yaahc/color-eyre](https://github.com/yaahc/color-eyre) - Custom hooks for colorful human oriented error reports via panics and the eyre crate
+*   [hauleth/ernie](https://github.com/hauleth/ernie) - Efficient binary encoding for your data (based on Erlang's External Terms Format)
+*   [jameslittle230/stork](https://github.com/jameslittle230/stork) - 🔎 Impossibly fast web search, made for static sites.
+*   [WerWolv/ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) - Hex patterns, include patterns and magic files for the use with the ImHex Hex Editor
+*   [mareknowak/cardsnif](https://github.com/mareknowak/cardsnif) - Card game of War written in Elixir and Rust.
+*   [lunatic-solutions/lunatic](https://github.com/lunatic-solutions/lunatic) - Lunatic is an Erlang-inspired runtime for WebAssembly
+*   [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
+*   [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs) - Statistics-driven benchmarking library for Rust
+*   [ogham/dog](https://github.com/ogham/dog) - A command-line DNS client.
+*   [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
+*   [rust-shell-script/rust_cmd_lib](https://github.com/rust-shell-script/rust_cmd_lib) - Common rust command-line macros and utilities, to write shell-script like tasks in a clean, natural and rusty way
+*   [dtolnay/cxx](https://github.com/dtolnay/cxx) - Safe interop between Rust and C++
+*   [tcdi/pgx](https://github.com/tcdi/pgx) - Build Postgres Extensions with Rust!
+*   [rust-secure-code/cargo-geiger](https://github.com/rust-secure-code/cargo-geiger) - Detects usage of unsafe Rust in a Rust crate and its dependencies.
+*   [TeXitoi/structopt](https://github.com/TeXitoi/structopt) - Parse command line arguments by defining a struct.
+*   [daboross/fern](https://github.com/daboross/fern) - Simple, efficient logging for Rust
+*   [rust-lang/socket2](https://github.com/rust-lang/socket2) - Advanced configuration options for sockets.
+*   [tokio-rs/bytes](https://github.com/tokio-rs/bytes) - Utilities for working with bytes
+*   [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) - Compact and efficient synchronization primitives for Rust. Also provides an API for creating custom synchronization primitives.
+*   [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) - Tools for concurrent programming in Rust
+*   [djc/topfew-rs](https://github.com/djc/topfew-rs) - Rust implementation of Tim Bray's topfew tool
+*   [penelopezone/rubyfmt](https://github.com/penelopezone/rubyfmt) - Ruby Autoformatter!
+*   [zacps/blocked](https://github.com/zacps/blocked) - A proc-macro that checks if blockers (issues) have been resolved.
+*   [phated/twentyfive-stars](https://github.com/phated/twentyfive-stars) - (On-Hold until they fix Context) GraphQL server written in Rust.
+*   [async-graphql/examples](https://github.com/async-graphql/examples) -
+*   [async-graphql/async-graphql](https://github.com/async-graphql/async-graphql) - A GraphQL server library implemented in Rust
+*   [akeru-inc/xcnotary](https://github.com/akeru-inc/xcnotary) - the missing macOS app notarization helper, built with Rust
+*   [archseer/enigma](https://github.com/archseer/enigma) - An Erlang VM implementation in Rust
+*   [antifuchs/chars](https://github.com/antifuchs/chars) - cha(rs) is a commandline tool to display information about unicode characters
+*   [bootandy/dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
+*   [watchexec/watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
+*   [wezm/titlecase](https://github.com/wezm/titlecase) - A tool and Rust crate for transforming text into Title Case.
+*   [nerdypepper/eva](https://github.com/nerdypepper/eva) - a calculator REPL, similar to bc(1)
+*   [lotabout/skim](https://github.com/lotabout/skim) - Fuzzy Finder in rust!
+*   [sharkdp/hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
+*   [lunaryorn/mdcat](https://github.com/lunaryorn/mdcat) - cat for markdown
+*   [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
+*   [ubnt-intrepid/dot](https://github.com/ubnt-intrepid/dot) - Yet another management tool for dotfiles
+*   [lumen/lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation, designed for WebAssembly
+*   [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
+*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
+*   [artichoke/artichoke](https://github.com/artichoke/artichoke) - 💎 Artichoke is a Ruby made with Rust
+*   [rustsec/rustsec](https://github.com/rustsec/rustsec) - Audit Cargo.lock files for dependencies with security vulnerabilities
+*   [iqlusioninc/sear](https://github.com/iqlusioninc/sear) - Signed/Encrypted ARchive: always-encrypted tar-like archive tool with optional signature support
+*   [iqlusioninc/abscissa](https://github.com/iqlusioninc/abscissa) - Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions
+*   [bastion-rs/bastion](https://github.com/bastion-rs/bastion) - Highly-available Distributed Fault-tolerant Runtime
+*   [lrlna/femme](https://github.com/lrlna/femme) - Not just a pretty (inter)face: pretty-printer + ndjson logger for log crate.
+*   [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+*   [vectordotdev/vector](https://github.com/vectordotdev/vector) - A high-performance observability data pipeline.
+*   [zhihu/rucene](https://github.com/zhihu/rucene) - Rust port of Lucene
+*   [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+*   [rust-lang-deprecated/failure](https://github.com/rust-lang-deprecated/failure) - Error management
+*   [rust-lang-deprecated/error-chain](https://github.com/rust-lang-deprecated/error-chain) - Error boilerplate for Rust
+*   [danielpclark/rutie](https://github.com/danielpclark/rutie) - “The Tie Between Ruby and Rust.”
+*   [woothee/woothee-rust](https://github.com/woothee/woothee-rust) - Rust user-agent strings parser
+*   [steveklabnik/ruby-sys](https://github.com/steveklabnik/ruby-sys) - Low-level bindings to Ruby
+*   [org-rs/org-rs](https://github.com/org-rs/org-rs) - org-mode parser rewrite in Rust
+*   [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) - 🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
+*   [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) - A Rust library for PDF document manipulation.
+*   [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
+*   [gleam-lang/gleam](https://github.com/gleam-lang/gleam) - ⭐️ A friendly language for building type-safe, scalable systems!
+*   [kyren/luster](https://github.com/kyren/luster) - An experimental Lua VM implemented in pure Rust
+*   [Keats/kickstart](https://github.com/Keats/kickstart) - A scaffolding tool to get new projects up and running quickly
+*   [rcoh/angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
+*   [cantino/mcfly](https://github.com/cantino/mcfly) - Fly through your shell history. Great Scott!
+*   [fschutt/azul](https://github.com/fschutt/azul) - Desktop GUI Framework
+*   [Geal/nom](https://github.com/Geal/nom) - Rust parser combinator framework
+*   [rubytogether/kirby](https://github.com/rubytogether/kirby) -
+*   [crate-ci/cargo-tarball](https://github.com/crate-ci/cargo-tarball) - Package pre-built binaries for Rust
+*   [assert-rs/docmatic](https://github.com/assert-rs/docmatic) - Enforce Rust documentation correctness
+*   [assert-rs/assert_cli](https://github.com/assert-rs/assert_cli) - See instead assert_cmd
+*   [assert-rs/predicates-rs](https://github.com/assert-rs/predicates-rs) - Boolean-valued predicate functions in Rust
+*   [assert-rs/assert_cmd](https://github.com/assert-rs/assert_cmd) - Assert process::Command - Easy command initialization and assertions
+*   [assert-rs/dir-diff](https://github.com/assert-rs/dir-diff) - Are the contents of two directories different?
+*   [assert-rs/assert_fs](https://github.com/assert-rs/assert_fs) - Filesystem fixtures and assertions.
+*   [rust-cli/confy](https://github.com/rust-cli/confy) - 🛋 Zero-boilerplate configuration management in Rust
+*   [rust-cli/clap-port-flag](https://github.com/rust-cli/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
+*   [rust-cli/clap-md](https://github.com/rust-cli/clap-md) - Generate Markdown documentation for clap application definitions
+*   [rust-cli/man](https://github.com/rust-cli/man) - Generate structured man pages
+*   [rust-cli/clap-permission-flag](https://github.com/rust-cli/clap-permission-flag) - Drop permissions of a CLI using structopt
+*   [rust-cli/cli-template](https://github.com/rust-cli/cli-template) - Cargo template for generating CLIs
+*   [rust-cli/clap-log-flag](https://github.com/rust-cli/clap-log-flag) - Add a logger to CLIs using structopt
+*   [rust-cli/human-panic](https://github.com/rust-cli/human-panic) - 😱 Panic messages for humans.
+*   [rust-cli/clap-verbosity-flag](https://github.com/rust-cli/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
+*   [thuleqaid/rust-chardet](https://github.com/thuleqaid/rust-chardet) - rust version of chardet
+*   [actix/actix](https://github.com/actix/actix) - Actor framework for Rust.
+*   [nuew/postgres-inet](https://github.com/nuew/postgres-inet) - Cidr and Inet support for rust-postgres
+*   [mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink) - OpenSSL compatibility layer for the Rust SSL/TLS stack
+*   [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) - A modern editor with a backend written in Rust.
+*   [neithernut/git-dit](https://github.com/neithernut/git-dit) - Decentralized Issue Tracking for git
+*   [yewstack/yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
+*   [tikv/rust-prometheus](https://github.com/tikv/rust-prometheus) - Prometheus instrumentation library for Rust applications
+*   [koute/stdweb](https://github.com/koute/stdweb) - A standard library for the client-side Web
+*   [frankmcsherry/columnar](https://github.com/frankmcsherry/columnar) - High-throughput columnar serialization in Rust
+*   [antiguru/column-rs](https://github.com/antiguru/column-rs) - Columnar type support for Rust
+*   [casey/remote](https://github.com/casey/remote) - 📡 Generate remote repository strings
+*   [gluon-lang/gluon](https://github.com/gluon-lang/gluon) - A static, type inferred and embeddable language written in Rust.
+*   [rust-locale/rust-locale](https://github.com/rust-locale/rust-locale) - Library for getting the user's localisation settings
+*   [Keats/tera](https://github.com/Keats/tera) - A template engine for Rust based on Jinja2/Django
+*   [cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust) - Liquid templating for Rust
+*   [sile/eetf](https://github.com/sile/eetf) - A Rust implementation of Erlang External Term Format
+*   [seriyps/rust-erl-ext](https://github.com/seriyps/rust-erl-ext) - Erlang external term format codec for Rust language.
+*   [rhysd/git-brws](https://github.com/rhysd/git-brws) - Command line tool to open repository, file, commit, diff, tag, pull request, blame, issue or project's website in browser for various repository hosting services.
+*   [rhysd/reading-pfds](https://github.com/rhysd/reading-pfds) - Reading 'Purely Functional Data Structures' with Rust
+*   [kevinmehall/rust-peg](https://github.com/kevinmehall/rust-peg) - Parsing Expression Grammar (PEG) parser generator for Rust
+*   [casey/just](https://github.com/casey/just) - 🤖 Just a command runner
+*   [dalance/amber](https://github.com/dalance/amber) - A code search / replace tool
+*   [kornelski/rust-file](https://github.com/kornelski/rust-file) - Trivial 1-liner for reading files
+*   [twmb/rsfs](https://github.com/twmb/rsfs) - RuSt FileSystem
+*   [manuel-woelker/rust-vfs](https://github.com/manuel-woelker/rust-vfs) - A virtual filesystem for Rust
+*   [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) - A pure rust YAML implementation.
+*   [dnsl48/yamlette](https://github.com/dnsl48/yamlette) - Comprehensive and user friendly YAML 1.2 processor written in Rust
+*   [goertzenator/cargo-erlangapp](https://github.com/goertzenator/cargo-erlangapp) - Build Rust crates embedded in an Erlang application
+*   [EbTech/rust-algorithms](https://github.com/EbTech/rust-algorithms) - Common data structures and algorithms in Rust
+*   [vmware-archive/haret](https://github.com/vmware-archive/haret) - A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust.
+*   [graphql-rust/juniper](https://github.com/graphql-rust/juniper) - GraphQL server library for Rust
+*   [PumpkinDB/PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) - Immutable Ordered Key-Value Database Engine
+*   [mozilla/mentat](https://github.com/mozilla/mentat) - UNMAINTAINED A persistent, relational store inspired by Datomic and DataScript.
+*   [dflemstr/rq](https://github.com/dflemstr/rq) - Record Query - A tool for doing record analysis and transformation
+*   [google/rustcxx](https://github.com/google/rustcxx) - rustcxx: Using C++ from Rust made easy
+*   [rbspy/rbspy](https://github.com/rbspy/rbspy) - Sampling CPU profiler for Ruby
+*   [mmstick/parallel](https://github.com/mmstick/parallel) - This project now lives on in a rewrite at https://gitlab.redox-os.org/redox-os/parallel
+*   [rusterlium/rustler](https://github.com/rusterlium/rustler) - Safe Rust bridge for creating Erlang NIF functions
+*   [dirk/metrics_distributor](https://github.com/dirk/metrics_distributor) - Ingest logs and forward aggregated data to APIs/services
+*   [anima-engine/mrusty](https://github.com/anima-engine/mrusty) - mruby safe bindings for Rust
+*   [d-unseductable/ruru](https://github.com/d-unseductable/ruru) - Native Ruby extensions written in Rust
+*   [iron/iron](https://github.com/iron/iron) - An Extensible, Concurrent Web Framework for Rust
+*   [nickel-org/nickel.rs](https://github.com/nickel-org/nickel.rs) - An expressjs inspired web framework for Rust
+*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
+*   [eholk/Boot2Rust](https://github.com/eholk/Boot2Rust) - EFI applications in Rust
+
+## Python
+
+*   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
+*   [httpie/httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie
+*   [afroisalreadyinu/miniboss](https://github.com/afroisalreadyinu/miniboss) - The most versatile way to manage containers locally
+*   [djrobstep/migra](https://github.com/djrobstep/migra) - Like diff but for PostgreSQL schemas
+*   [oilshell/oil](https://github.com/oilshell/oil) - Oil is a new Unix shell.  It's our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell!
+*   [typhoon-data-org/typhoon-orchestrator](https://github.com/typhoon-data-org/typhoon-orchestrator) - Create elegant data pipelines and deploy to AWS Lambda or Airflow
+*   [jeroenjanssens/sample](https://github.com/jeroenjanssens/sample) - Filter lines from standard input according to some probability, with a given delay, and for a certain duration.
+*   [mystor/git-revise](https://github.com/mystor/git-revise) - A handy tool for doing efficient in-memory commit rebases & fixups
+*   [stacked-git/stgit](https://github.com/stacked-git/stgit) - Stacked Git
+*   [akornor/playlistor](https://github.com/akornor/playlistor) - 🎶Apple Music  ↔️ Spotify playlist convertor.
+*   [ssh-mitm/ssh-mitm](https://github.com/ssh-mitm/ssh-mitm) - ssh mitm server for security audits supporting public key authentication, session hijacking and file manipulation
+*   [unixorn/lima-xbar-plugin](https://github.com/unixorn/lima-xbar-plugin) - xbar/Swiftbar plugin to control lima-vm
+*   [airbnb/ottr](https://github.com/airbnb/ottr) - Serverless Public Key Infrastructure Framework
+*   [speedyg0nz/MagInkCal](https://github.com/speedyg0nz/MagInkCal) - E-Ink Magic Calendar that automatically syncs to Google Calendar and runs off a battery powered Raspberry Pi Zero
+*   [wanderingstan/Confusables](https://github.com/wanderingstan/Confusables) - Simple library for matching a string to another string that is same but has letters that only *look* the same as original string
+*   [modoboa/modoboa-installer](https://github.com/modoboa/modoboa-installer) - An installer for Modoboa
+*   [transferwise/pipelinewise](https://github.com/transferwise/pipelinewise) - Data Pipeline Framework using the singer.io spec
+*   [transferwise/pipelinewise-target-s3-csv](https://github.com/transferwise/pipelinewise-target-s3-csv) - Singer.io Target for CSV on S3 - PipelineWise compatible
+*   [hauxir/errorpush](https://github.com/hauxir/errorpush) - Minimalist Error collection Service compatible with Rollbar clients. Sentry or Rollbar alternative.
+*   [newren/git-filter-repo](https://github.com/newren/git-filter-repo) - Quickly rewrite git repository history (filter-branch replacement)
+*   [groveco/django-sql-explorer](https://github.com/groveco/django-sql-explorer) - Easily share data across your company via SQL queries. From Grove Collab.
+*   [simonw/django-sql-dashboard](https://github.com/simonw/django-sql-dashboard) - Django app for building dashboards using raw SQL queries
+*   [artperrin/image2csv](https://github.com/artperrin/image2csv) - Convert tables stored as images to an usable .csv file
+*   [Textualize/rich](https://github.com/Textualize/rich) - Rich is a Python library for rich text and beautiful formatting in the terminal.
+*   [blaa/fatjira](https://github.com/blaa/fatjira) - Fat console client for the Atlassian Jira issue tracker
+*   [vishnubob/wait-for-it](https://github.com/vishnubob/wait-for-it) - Pure bash script to test and wait on the availability of a TCP host and port
+*   [simonw/datasette](https://github.com/simonw/datasette) - An open source multi-tool for exploring and publishing data
+*   [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) - dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
+*   [Yggdroot/LeaderF](https://github.com/Yggdroot/LeaderF) - An efficient fuzzy finder that helps to locate files, buffers, mrus, gtags, etc. on the fly for both vim and neovim.
+*   [jefftriplett/kindlestrip](https://github.com/jefftriplett/kindlestrip) - :book: A pip-installable conversion of Paul Durrant's kindlestrip
+*   [wustho/epy](https://github.com/wustho/epy) - CLI Ebook (epub2, epub3, fb2, mobi) Reader
+*   [wustho/epr](https://github.com/wustho/epr) - CLI Epub Reader
+*   [quay/quay](https://github.com/quay/quay) - Build, Store, and Distribute your Applications and Containers
+*   [arrowtype/recursive](https://github.com/arrowtype/recursive) - Recursive Mono & Sans is a variable font family for code & UI
+*   [splitgraph/splitgraph](https://github.com/splitgraph/splitgraph) - Splitgraph command line client and python library
+*   [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) - Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
+*   [standardebooks/tools](https://github.com/standardebooks/tools) - The Standard Ebooks toolset for producing our ebook files.
+*   [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - All Algorithms implemented in Python
+*   [piku/piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
+*   [abhishekkr/gmail-helper](https://github.com/abhishekkr/gmail-helper) - it will contain different utilities for GMail API over OAuth2
+*   [holzschu/a-shell](https://github.com/holzschu/a-shell) - A terminal for iOS, with multiple windows
+*   [City-of-Helsinki/respa](https://github.com/City-of-Helsinki/respa) - Resource reservation and management app and API
+*   [jarun/buku](https://github.com/jarun/buku) - :bookmark: Personal mini-web in text
+*   [mosegontar/Pinku](https://github.com/mosegontar/Pinku) - A Pinboard-to-buku importation utility
+*   [kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
+*   [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
+*   [dogsheep/healthkit-to-sqlite](https://github.com/dogsheep/healthkit-to-sqlite) - Convert an Apple Healthkit export zip to a SQLite database
+*   [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate) - Web based localization tool with tight version control integration.
+*   [KanoComputing/aws-tools](https://github.com/KanoComputing/aws-tools) - A set of tools to make working with AWS easier
+*   [microsoft/presidio](https://github.com/microsoft/presidio) - Context aware, pluggable and customizable data protection and anonymization SDK for text and images
+*   [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+*   [seemoo-lab/opendrop](https://github.com/seemoo-lab/opendrop) - An open Apple AirDrop implementation written in Python
+*   [samschott/maestral](https://github.com/samschott/maestral) - Open-source Dropbox client for macOS and Linux
+*   [hylang/hy](https://github.com/hylang/hy) - A dialect of Lisp that's embedded in Python
+*   [zanaca/docker-dns](https://github.com/zanaca/docker-dns) - DNS server for your docker containers. Allowing you to access them with a domain name, without exposing ANY port. Allowing access from you linux, mac or windows browser!
+*   [kolypto/j2cli](https://github.com/kolypto/j2cli) - Jinja2 Command-Line Tool, reworked
+*   [TheLocehiliosan/yadm](https://github.com/TheLocehiliosan/yadm) - Yet Another Dotfiles Manager
+*   [andreasjansson/envtpl](https://github.com/andreasjansson/envtpl) - Render jinja2 templates on the command line with shell environment variables
+*   [andrewbihl/bsed](https://github.com/andrewbihl/bsed) - Simple SQL-like syntax on top of Perl text processing.
+*   [opsschool/curriculum](https://github.com/opsschool/curriculum) - Ops School Curriculum
+*   [lyft/cartography](https://github.com/lyft/cartography) - Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
+*   [minimaxir/automl-gs](https://github.com/minimaxir/automl-gs) - Provide an input CSV and a target field to predict, generate a model + code to run it.
+*   [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
+*   [BayesWitnesses/m2cgen](https://github.com/BayesWitnesses/m2cgen) - Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies
+*   [mcastorina/graph-cli](https://github.com/mcastorina/graph-cli) - Flexible command line tool to create graphs from CSV data
+*   [SystemsApproach/book](https://github.com/SystemsApproach/book) - Computer Networks: A Systems Approach -- Textbook
+*   [chardet/chardet](https://github.com/chardet/chardet) - Python character encoding detector
+*   [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science) - A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
+*   [imWildCat/scylla](https://github.com/imWildCat/scylla) - Intelligent proxy pool for Humans™
+*   [daedalus/fastBloomFilter](https://github.com/daedalus/fastBloomFilter) - A pure, simple and fast pythonic bloom filter
+*   [daedalus/bloomHIBP](https://github.com/daedalus/bloomHIBP) - Bloom HIBP – check Have i been Pwnd with bloom filters in pure python
+*   [psf/black](https://github.com/psf/black) - The uncompromising Python code formatter
+*   [easy-tensorflow/easy-tensorflow](https://github.com/easy-tensorflow/easy-tensorflow) - Simple and comprehensive tutorials in TensorFlow
+*   [getredash/redash](https://github.com/getredash/redash) - Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.
+*   [alichtman/stronghold](https://github.com/alichtman/stronghold) - Easily configure macOS security settings from the terminal.
+*   [alichtman/shallow-backup](https://github.com/alichtman/shallow-backup) - Git-integrated backup tool for macOS and Linux devs.
+*   [lra/mackup](https://github.com/lra/mackup) - Keep your application settings in sync (OS X/Linux)
+*   [leerob/facebook-data-analyzer](https://github.com/leerob/facebook-data-analyzer) - 📊Python script to analyze the contents of your Facebook data export
+*   [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) - The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.
+*   [wesbos/burner-email-providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers
+*   [rspeer/python-ftfy](https://github.com/rspeer/python-ftfy) - Fixes mojibake and other glitches in Unicode text, after the fact.
+*   [pgexperts/flexible-freeze](https://github.com/pgexperts/flexible-freeze) - Flexible freeze scripts for managing off-hours vacuuming and freezing of PostgreSQL databases.
+*   [pgexperts/find-bad-toast](https://github.com/pgexperts/find-bad-toast) - Find rows in a PostgreSQL table that have corrupted TOAST records.
+*   [ansible/awx](https://github.com/ansible/awx) - AWX Project
+*   [zalandoresearch/fashion-mnist](https://github.com/zalandoresearch/fashion-mnist) - A MNIST-like fashion product database. Benchmark :point_down:
+*   [OmkarPathak/pygorithm](https://github.com/OmkarPathak/pygorithm) - A Python module for learning all major algorithms
+*   [airbnb/binaryalert](https://github.com/airbnb/binaryalert) - BinaryAlert: Serverless, Real-time & Retroactive Malware Detection.
+*   [probcomp/bayeslite](https://github.com/probcomp/bayeslite) - BayesDB on SQLite. A Bayesian database table for querying the probable implications of data as easily as SQL databases query the data itself.
+*   [saulpw/visidata](https://github.com/saulpw/visidata) - A terminal spreadsheet multitool for discovering and arranging data
+*   [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions (see https://exchange.stackstorm.org) and ChatOps. Installer at https://docs.stackstorm.com/install/index.html. Questions? https://forum.stackstorm.com/.
+*   [eeue56/elm-init-scripts](https://github.com/eeue56/elm-init-scripts) -
+*   [NoRedInk/elm-ops-tooling](https://github.com/NoRedInk/elm-ops-tooling) - Tooling for Elm ops (no longer maintained)
+*   [magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) - get things from one computer to another, safely
+*   [Miserlou/Zappa](https://github.com/Miserlou/Zappa) - Serverless Python
+*   [cmu-db/ottertune](https://github.com/cmu-db/ottertune) - The automatic DBMS configuration tool
+*   [grahame/sedge](https://github.com/grahame/sedge) - sharing, templating and enhancements for OpenSSH config
+*   [mcfunley/better-keynote-export](https://github.com/mcfunley/better-keynote-export) - A better export for sharing Keynote presentations, with support for presenter notes.
+*   [yandex/gixy](https://github.com/yandex/gixy) - Nginx configuration static analyzer
+*   [rchakra3/zsh_history](https://github.com/rchakra3/zsh_history) - Backup and restore ZSH history
+*   [python-bonobo/bonobo](https://github.com/python-bonobo/bonobo) - Extract Transform Load for Python 3.5+
+*   [zalando/patroni](https://github.com/zalando/patroni) - A template for PostgreSQL High Availability with Etcd, Consul, ZooKeeper, or Kubernetes
+*   [michaelmior/locomotor](https://github.com/michaelmior/locomotor) - :bullettrain_front: Automatically translate Redis access in Python :snake: to server side scripts in Lua
+*   [gmr/RabbitMQ-in-Depth](https://github.com/gmr/RabbitMQ-in-Depth) - Examples and materials for RabbitMQ in Depth
+*   [alexprengere/FormalSystems](https://github.com/alexprengere/FormalSystems) - A Python implementation of Douglas Hofstadter formal systems, from his book "Gödel, Escher, Bach"
+*   [localstack/localstack](https://github.com/localstack/localstack) - 💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!
+*   [Qix-/better-exceptions](https://github.com/Qix-/better-exceptions) - Pretty and useful exceptions in Python, automatically.
+*   [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical) - List of resources about programming practices for writing safety-critical software.
+*   [google/python-fire](https://github.com/google/python-fire) - Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+*   [mewo2/deserts](https://github.com/mewo2/deserts) - The Deserts of the West - a 2015 NaNoGenMo entry
+*   [dropbox/securitybot](https://github.com/dropbox/securitybot) - Distributed alerting for the masses!
+*   [ubergeek42/lambda-letsencrypt](https://github.com/ubergeek42/lambda-letsencrypt) - Free Lets-Encrypt certificate management for CloudFront/AWS
+*   [ayushoriginal/Optimized-RGB-To-ColorName](https://github.com/ayushoriginal/Optimized-RGB-To-ColorName) - This API gives closest approximation of an RGB value to a set of color names. It is highly optimized for performance and scalability.
+*   [humphd/have-fun-with-machine-learning](https://github.com/humphd/have-fun-with-machine-learning) - An absolute beginner's guide to Machine Learning and Image Classification with Neural Networks
+*   [mwichary/twitter-export-image-fill](https://github.com/mwichary/twitter-export-image-fill) - A script to download (backup locally) all the images accompanying your tweets
+*   [alexflint/stdroots](https://github.com/alexflint/stdroots) - Standard CA roots embedded in a Go package.
+*   [pre-commit/pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker) - Scripts for creating mirror repositories that do not have .pre-commit-hooks.yaml
+*   [pre-commit/pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
+*   [pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks) - Some out-of-the-box hooks for pre-commit
+*   [lightbulb-framework/lightbulb-framework](https://github.com/lightbulb-framework/lightbulb-framework) - Tools for auditing WAFS
+*   [eudicots/Cactus](https://github.com/eudicots/Cactus) - Static site generator for designers. Uses Python and Django templates.
+*   [guyzmo/git-repo](https://github.com/guyzmo/git-repo) - Git-Repo: CLI utility to manage git services from your workspace
+*   [seveas/git-spindle](https://github.com/seveas/git-spindle) - Command-line interface to GitHub and other central git services
+*   [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - Convert scans of handwritten notes to beautiful, compact PDFs
+*   [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
+*   [Netflix/bless](https://github.com/Netflix/bless) - Repository for BLESS, an SSH Certificate Authority that runs as a AWS Lambda function
+*   [Blazemeter/taurus](https://github.com/Blazemeter/taurus) - Automation-friendly framework for Continuous Testing by
+*   [christabor/flask_jsondash](https://github.com/christabor/flask_jsondash) - :snake: :bar_chart: :chart_with_upwards_trend: Build complex dashboards without any front-end code. Use your own endpoints. JSON config only. Ready to go.
+*   [asottile/git-code-debt](https://github.com/asottile/git-code-debt) - A dashboard for monitoring code debt in a git repository.
+*   [vfaronov/httpolice](https://github.com/vfaronov/httpolice) - Validator for HTTP
+*   [nerevu/riko](https://github.com/nerevu/riko) - A Python stream processing engine modeled after Yahoo! Pipes
+*   [alehander92/hatlog](https://github.com/alehander92/hatlog) - custom type systems for python in prolog: http://alehander42.me/prolog_type_systems
+*   [hyiltiz/vim-plugins-profile](https://github.com/hyiltiz/vim-plugins-profile) - :clock4: Profile Vim's plugins, generate awesome statistics and optimize (n)vim startup time
+*   [repleo/bounca](https://github.com/repleo/bounca) - BounCA is a web tool to generate self-signed SSL certificates and setup a key infrastructure
+*   [warpling/Macmoji](https://github.com/warpling/Macmoji) - Slack/GitHub/Trello emoji for your mac! 😁 💥 💻
+*   [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery Meter of AWSome.
+*   [mantl/mantl](https://github.com/mantl/mantl) - Mantl is a modern platform for rapidly deploying globally distributed services
+*   [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
+*   [LoyaltyNZ/alchemy-framework](https://github.com/LoyaltyNZ/alchemy-framework) - Alchemy is a framework for creating highly available systems that are built from micro-services
+*   [lukasz-madon/hackers-job-apply](https://github.com/lukasz-madon/hackers-job-apply) - Reduce the spam you get for your job posting by setting up a micro challenge.
+*   [ccontavalli/ssh-ident](https://github.com/ccontavalli/ssh-ident) - Different agents and different keys for different projects, with ssh.
+*   [foxmask/django-th](https://github.com/foxmask/django-th) - :snake: Trigger Happy - The bus :bus: for your internet services
+*   [TailorDev/Watson](https://github.com/TailorDev/Watson) - :watch: A wonderful CLI to track your time!
+*   [joealcorn/laboratory](https://github.com/joealcorn/laboratory) - Achieving confident refactoring through experimentation with Python 2.7 & 3.3+
+*   [Kinto/kinto](https://github.com/Kinto/kinto) - A generic JSON document store with sharing and synchronisation capabilities.
+*   [ramses-tech/ramses](https://github.com/ramses-tech/ramses) - RAML + Elasticsearch / Postgres / Mongodb / Your Data Store™ + Pyramid = RESTful API
+*   [shanemhansen/graphitetailer](https://github.com/shanemhansen/graphitetailer) - Tail logs to stream data to graphite
+*   [thumbor/thumbor](https://github.com/thumbor/thumbor) - thumbor is an open-source photo thumbnail service by globo.com
+*   [datawire/bakerstreet](https://github.com/datawire/bakerstreet) - Baker Street is a HAProxy based routing engine for microservice architectures
+*   [sourcelair/ceryx](https://github.com/sourcelair/ceryx) - Dynamic reverse proxy based on NGINX OpenResty with an API
+*   [dbcli/pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocompletion and syntax highlighting
+*   [spotify/dh-virtualenv](https://github.com/spotify/dh-virtualenv) - Python virtualenvs in Debian packages
+*   [msiemens/tinydb](https://github.com/msiemens/tinydb) - TinyDB is a lightweight document oriented database optimized for your happiness :)
+*   [pindexis/marker](https://github.com/pindexis/marker) - The terminal command palette
+*   [getsentry/sentry](https://github.com/getsentry/sentry) - Sentry is cross-platform application monitoring, with a focus on error reporting.
+*   [spotify/luigi](https://github.com/spotify/luigi) - Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.
+*   [toabctl/jiracli](https://github.com/toabctl/jiracli) - Simple command line interface for Jira
+*   [peritus/git-remote-couch](https://github.com/peritus/git-remote-couch) - a git-remote-helper that allows you to push source code into a CouchDB
+*   [ampas/aces-dev](https://github.com/ampas/aces-dev) - AMPAS Academy Color Encoding System Developer Resources
+*   [colour-science/colour](https://github.com/colour-science/colour) - Colour Science for Python
+*   [18F/rdbms-subsetter](https://github.com/18F/rdbms-subsetter) - Generates a subset of a relational database that respects foreign key constraints
+*   [munificent/magpie](https://github.com/munificent/magpie) - The Magpie programming language
+*   [facebook/chisel](https://github.com/facebook/chisel) - Chisel is a collection of LLDB commands to assist debugging iOS apps.
+*   [iffy/grace](https://github.com/iffy/grace) - Graceful server restart
+*   [spencergibb/battleschool](https://github.com/spencergibb/battleschool) - Development environment provisioning using ansible, ala boxen -> puppet, kitchenplan -> chef
+*   [jeffkaufman/icdiff](https://github.com/jeffkaufman/icdiff) - improved colored diff
+*   [buildinspace/peru](https://github.com/buildinspace/peru) - a generic package manager, for including other people's code in your projects
+*   [pixie-lang/pixie](https://github.com/pixie-lang/pixie) - A small, fast, native lisp with "magical" powers
+*   [mafrosis/sesame](https://github.com/mafrosis/sesame) - Encryption for your application's config files
+*   [fastmonkeys/stellar](https://github.com/fastmonkeys/stellar) - Fast database snapshot and restore tool for development
+*   [emre/storm](https://github.com/emre/storm) - Manage your SSH like a boss.
+*   [Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) - The awesome document factory
+*   [cwoac/nvvim](https://github.com/cwoac/nvvim) - Notational Velocity inspired mode for vim
+*   [rupa/epub](https://github.com/rupa/epub) - python/curses cli epub reader
+*   [evanpurkhiser/dots](https://github.com/evanpurkhiser/dots) - A portable tool for managing a single set of dotfiles in an organized fashion
+*   [sloria/TextBlob](https://github.com/sloria/TextBlob) - Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.
+*   [vim-vdebug/vdebug](https://github.com/vim-vdebug/vdebug) - Multi-language DBGP debugger client for Vim (PHP, Python, Perl, Ruby, etc.)
+*   [apenwarr/redo](https://github.com/apenwarr/redo) - Smaller, easier, more powerful, and more reliable than make.  An implementation of djb's redo.
+*   [progrium/skypipe](https://github.com/progrium/skypipe) - A magic pipe in the sky for the command line
+*   [AnAppAMonth/FogTracker](https://github.com/AnAppAMonth/FogTracker) - Two-way integration of FogBugz and Pivotal Tracker, written in Python and for Google AppEngine.
+*   [facebookarchive/huxley](https://github.com/facebookarchive/huxley) - A testing system for catching visual regressions in Web applications.
+*   [bslatkin/dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.
+*   [xavierd/clang_complete](https://github.com/xavierd/clang_complete) - Vim plugin that use clang for completing C/C++ code.
+*   [bitly/data_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
+*   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
+*   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
+*   [schacon/hg-git](https://github.com/schacon/hg-git) - mercurial to git bridge, pushed to directly from the hg-git plugin in Hg
+
+## Shell
+
+*   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - 🧽 Clean fish shell command history from typos automatically
+*   [ttscoff/fish_files](https://github.com/ttscoff/fish_files) -
+*   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
+*   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
+*   [leighmcculloch/dockerhost](https://github.com/leighmcculloch/dockerhost) - A tool for simply creating a docker host vm on macOS.
+*   [phusion/traveling-ruby](https://github.com/phusion/traveling-ruby) - Self-contained Ruby binaries that can run on any Linux distribution and any macOS machine.
+*   [bevry/dorothy](https://github.com/bevry/dorothy) - 🧙🏻‍♀️ A better dotfile ecosystem with cross-platform automations. Supports fish, zsh, bash, mac, linux, windows. Zero to hero in minutes on new and existing machines.
+*   [0xmachos/macos-scripts](https://github.com/0xmachos/macos-scripts) - Various scripts for macOS tasks
+*   [space-sh/space](https://github.com/space-sh/space) - Single-file dependency-free automation tool written in Bash
+*   [robsheldon/golem](https://github.com/robsheldon/golem) -
+*   [vitorgalvao/tiny-scripts](https://github.com/vitorgalvao/tiny-scripts) - Collection of small scripts
+*   [Cyclenerd/static_status](https://github.com/Cyclenerd/static_status) - 🚦Bash script to generate a static status page.
+*   [RaymiiOrg/bash-http-monitoring](https://github.com/RaymiiOrg/bash-http-monitoring) - HTTP(s) monitoring webpage via shell script
+*   [docker-library/docs](https://github.com/docker-library/docs) - Documentation for Docker Official Images in docker-library
+*   [richie5um/TextBar-Recipes](https://github.com/richie5um/TextBar-Recipes) - TextBar Recipes
+*   [PatrickF1/fzf.fish](https://github.com/PatrickF1/fzf.fish) - Augment your fish command line with fzf key bindings.
+*   [sdushantha/tmpmail](https://github.com/sdushantha/tmpmail) - A temporary email right from your terminal written in POSIX sh
+*   [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) - 🖥 📊 🕹 🛠 A curated list of command line apps
+*   [switowski/dotfiles](https://github.com/switowski/dotfiles) -
+*   [msikma/dada-shell-theme](https://github.com/msikma/dada-shell-theme) - My personal shell theme and prompt for Fish Shell
+*   [joseluisq/gitnow](https://github.com/joseluisq/gitnow) - Speed up your Git workflow. :tropical_fish:
+*   [frameable/aviary.sh](https://github.com/frameable/aviary.sh) - Minimal distributed configuration management in bash
+*   [dokku/dokku](https://github.com/dokku/dokku) - A docker-powered PaaS that helps you build and manage the lifecycle of applications
+*   [swarmlet/swarmlet](https://github.com/swarmlet/swarmlet) - A self-hosted, open-source Platform as a Service that enables easy swarm deployments, load balancing, automatic SSL, metrics, analytics and more.
+*   [hackerb9/lsix](https://github.com/hackerb9/lsix) - Like "ls", but for images. Shows thumbnails in terminal using sixel graphics.
+*   [techwizrd/fishmarks](https://github.com/techwizrd/fishmarks) - Bookmark and jump to directories faster than a sailfish! Fishmarks is a clone of bashmarks for the Fish shell.
+*   [gjaldon/heroku-buildpack-phoenix-static](https://github.com/gjaldon/heroku-buildpack-phoenix-static) - A Heroku buildpack for building Phoenix's static assets
+*   [mvz/git-subrepo-ng](https://github.com/mvz/git-subrepo-ng) - Experimental re-implementation of git-subrepo in Ruby with Rugged
+*   [ingydotnet/git-subrepo](https://github.com/ingydotnet/git-subrepo) -
+*   [laughedelic/pisces](https://github.com/laughedelic/pisces) - ♓️ Fish shell plugin that helps you to work with paired symbols in the command line
+*   [ttscoff/na](https://github.com/ttscoff/na) - Bash function for displaying next actions in plain-text files per project directory
+*   [ttscoff/reiki](https://github.com/ttscoff/reiki) -
+*   [getsentry/self-hosted](https://github.com/getsentry/self-hosted) - Sentry, feature-complete and packaged up for low-volume deployments and proofs-of-concept
+*   [cyberark/bash-lib](https://github.com/cyberark/bash-lib) - Library for bash utility methods and tools
+*   [envwarden/envwarden](https://github.com/envwarden/envwarden) - Manage your server secrets with Bitwarden
+*   [theory/pgenv](https://github.com/theory/pgenv) - PostgreSQL binary manger
+*   [docker-library/golang](https://github.com/docker-library/golang) - Docker Official Image packaging for golang
+*   [docker-library/ruby](https://github.com/docker-library/ruby) - Docker Official Image packaging for Ruby
+*   [pawelduda/fzf-live-repl](https://github.com/pawelduda/fzf-live-repl) - Turn your fzf into a live REPL
+*   [gothinkster/realworld](https://github.com/gothinkster/realworld) - "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅
+*   [copyconstruct/library](https://github.com/copyconstruct/library) - A collection of the papers, conference talks, articles, blog posts, interesting Twitter threads, HN/reddit comments on systems engineering
+*   [docker-library/postgres](https://github.com/docker-library/postgres) - Docker Official Image packaging for Postgres
+*   [basherpm/basher](https://github.com/basherpm/basher) - A package manager for shell scripts.
+*   [matchai/spacefish](https://github.com/matchai/spacefish) - 🚀🐟 The fish shell prompt for astronauts
+*   [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) - Streamline your git workflow: just type `pull`, `branch`, `merge`, `push`
+*   [asdf-vm/asdf](https://github.com/asdf-vm/asdf) - Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+*   [robisonsantos/evm](https://github.com/robisonsantos/evm) - Erlang Version Manager
+*   [lnav-xenserver-logs/lnav_xenserver_logs](https://github.com/lnav-xenserver-logs/lnav_xenserver_logs) - lnav format file for Citrix Hypervisor (formerly XenServer) logs
+*   [dotphiles/dotzsh](https://github.com/dotphiles/dotzsh) - A community driven framework for zsh
+*   [Kong/docker-kong](https://github.com/Kong/docker-kong) - :monkey: Docker distribution for Kong
+*   [wfxr/formarks](https://github.com/wfxr/formarks) - :bookmark: Quickly navigate your work path!
+*   [wfxr/forgit](https://github.com/wfxr/forgit) - :zzz: A utility tool powered by fzf for using git interactively.
+*   [DanielFGray/fzf-scripts](https://github.com/DanielFGray/fzf-scripts) - a collection of scripts that rely on https://github.com/junegunn/fzf
+*   [atweiden/fzf-extras](https://github.com/atweiden/fzf-extras) - Key bindings from fzf wiki
+*   [changyuheng/zsh-interactive-cd](https://github.com/changyuheng/zsh-interactive-cd) - Fish like interactive tab completion for cd in zsh
+*   [kingkool68/generate-ssl-certs-for-local-development](https://github.com/kingkool68/generate-ssl-certs-for-local-development) - A bash script for generating trusted self-signed SSL certs for local development on your Mac
+*   [npryce/adr-tools](https://github.com/npryce/adr-tools) - Command-line tools for working with Architecture Decision Records
+*   [mhinz/dotfiles](https://github.com/mhinz/dotfiles) - :smiling_imp: Vim, git, zsh, tmux, and other goodies.
+*   [caquino/redis-bash](https://github.com/caquino/redis-bash) - REDIS-BASH - Bash library to access Redis
+*   [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) - 📖 A collection of pure bash alternatives to external processes.
+*   [niieani/bash-oo-framework](https://github.com/niieani/bash-oo-framework) - Bash Infinity is a modern standard library / framework / boilerplate for Bash
+*   [rycus86/githooks](https://github.com/rycus86/githooks) - Githooks: per-repo and global Git hooks with version control
+*   [geoff-nixon/charlotte](https://github.com/geoff-nixon/charlotte) - Pure Ruby character set encoding detection library.
+*   [bats-core/bats-core](https://github.com/bats-core/bats-core) - Bash Automated Testing System
+*   [ghaiklor/backup-my-github](https://github.com/ghaiklor/backup-my-github) - Clones all your repositories to local machine
+*   [Nebo15/annon.infra](https://github.com/Nebo15/annon.infra) - Infrastructure helpers for Annon API Gateway.
+*   [moonglum/dotfiles](https://github.com/moonglum/dotfiles) - The Vagrant Box I do almost all my work in
+*   [ianmiell/gitdags](https://github.com/ianmiell/gitdags) - Create Your Own Git Diagrams
+*   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing) - :zap: From finding text to search and replace, from sorting to beautifying text and more :art:
+*   [modernish/modernish](https://github.com/modernish/modernish) - Modernish is a library for writing robust, portable, readable, and powerful programs for POSIX-based shells and utilities.
+*   [HashNuke/heroku-buildpack-elixir](https://github.com/HashNuke/heroku-buildpack-elixir) - Heroku Buildpack for Elixir with nitro boost
+*   [sb2nov/mac-setup](https://github.com/sb2nov/mac-setup) - Installing Development environment on macOS
+*   [petere/my-gettext-scripts](https://github.com/petere/my-gettext-scripts) - some small wrapper scripts around gettext tools
+*   [pgexperts/pgx_scripts](https://github.com/pgexperts/pgx_scripts) - A collection of useful little scripts for database analysis and administration, created by our team at PostgreSQL Experts.
+*   [kerl/kerl](https://github.com/kerl/kerl) - Easy building and installing of Erlang/OTP instances
+*   [caius/zshrc](https://github.com/caius/zshrc) - My ZSH configs and dotfiles
+*   [inkarkat/git-extensions](https://github.com/inkarkat/git-extensions) - Additions and tweaks to the Git CLI.
+*   [japaric/trust](https://github.com/japaric/trust) - Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows
+*   [postmodern/gem_home](https://github.com/postmodern/gem_home) - A tool for changing your $GEM_HOME
+*   [terlar/fry](https://github.com/terlar/fry) - Simple ruby version manager for fish
+*   [NoRedInk/elm-style-guide](https://github.com/NoRedInk/elm-style-guide) - NoRedInk style guide for our Elm code
+*   [NapoleonWils0n/bashfinder](https://github.com/NapoleonWils0n/bashfinder) - Control the Mac Finder from the Terminal
+*   [jwiegley/git-scripts](https://github.com/jwiegley/git-scripts) - A bunch of random scripts I've either written, downloaded or clipped from #git.
+*   [kedarvj/mysqldumpsplitter](https://github.com/kedarvj/mysqldumpsplitter) - MySQL Dump splitter to split / extract databases & tables from mysqldump
+*   [larkery/zsh](https://github.com/larkery/zsh) -
+*   [larkery/zsh-histdb](https://github.com/larkery/zsh-histdb) - A slightly better history for zsh
+*   [kaitai-io/kaitai_struct](https://github.com/kaitai-io/kaitai_struct) - Kaitai Struct: declarative language to generate binary data parsers in C++ / C# / Go / Java / JavaScript / Lua / Perl / PHP / Python / Ruby
+*   [jcsalterego/historian](https://github.com/jcsalterego/historian) - Command-line utility for managing shell history in a SQLite database.
+*   [robertfoss/audio_shop](https://github.com/robertfoss/audio_shop) - Your friendly neighbourhood script for mangling images or video using audio editing tools
+*   [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Papers from the computer science community to read and discuss.
+*   [k4m4/terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) - 💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.
+*   [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) - Mac setup and configuration via Ansible.
+*   [remy/check](https://github.com/remy/check) - Checks the status of a list of urls
+*   [kamranahmedse/git-standup](https://github.com/kamranahmedse/git-standup) - Recall what you did on the last working day. Psst! or be nosy and find what someone else in your team did ;-)
+*   [Fakerr/git-recall](https://github.com/Fakerr/git-recall) - An interactive way to peruse your git history from the terminal
+*   [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - A collection of ZSH frameworks, plugins, themes and tutorials.
+*   [robbintt/popup-openvpn](https://github.com/robbintt/popup-openvpn) - Make a self hosted OpenVPN server in 15 minutes
+*   [rpereira/dotfiles](https://github.com/rpereira/dotfiles) - :house_with_garden: .files, including zsh, tmux, vim, and git. Also macOS setup. Good stuff.
+*   [MikeMcQuaid/strap](https://github.com/MikeMcQuaid/strap) - 👢 Bootstrap your macOS development system.
+*   [ncuesta/sshok](https://github.com/ncuesta/sshok) - A dependency-free cure for SSH configuration hell :hammer:
+*   [open-guides/og-aws](https://github.com/open-guides/og-aws) - 📙 Amazon Web Services — a practical guide
+*   [mchav/with](https://github.com/mchav/with) - Command prefixing for continuous workflow using a single tool.
+*   [felixSchl/git-fiddle](https://github.com/felixSchl/git-fiddle) - Edit commit messages, authors, and timestamps during git-rebase
+*   [ianheggie/health_check](https://github.com/ianheggie/health_check) - Simple health check of Rails app for use with uptime checking sites like newrelic and pingdom
+*   [edeliver/edeliver](https://github.com/edeliver/edeliver) - Deployment for Elixir and Erlang
+*   [paulirish/git-recent](https://github.com/paulirish/git-recent) - See your latest local git branches, formatted real fancy
+*   [octoai/octo.ai](https://github.com/octoai/octo.ai) - The analytics hypervisor, an operating system to manage all your analytics needs and licensed under Apache 2.0 License.
+*   [bpkg/bpkg](https://github.com/bpkg/bpkg) - Lightweight bash package manager
+*   [mafredri/zsh-async](https://github.com/mafredri/zsh-async) - Because your terminal should be able to perform tasks asynchronously without external tools!
+*   [reedes/vim-one](https://github.com/reedes/vim-one) - Because Vim's +clientserver is awesome
+*   [rgcr/m-cli](https://github.com/rgcr/m-cli) -  Swiss Army Knife for macOS
+*   [jorgebucaran/fisher](https://github.com/jorgebucaran/fisher) - A plugin manager for Fish.
+*   [guarinogabriel/Mac-CLI](https://github.com/guarinogabriel/Mac-CLI) -  OS X command line tools for developers – The ultimate tool to manage your Mac. It provides a huge set of command line commands that automatize the usage of your OS X system.
+*   [doda-zz/twofishes-canned](https://github.com/doda-zz/twofishes-canned) - Free & ready-to-use geocoder
+*   [FusionAuth/security-scripts](https://github.com/FusionAuth/security-scripts) - Scripts built from our Guide to User Data Security
+*   [codelittinc/incubator-resources](https://github.com/codelittinc/incubator-resources) - Processes, policies, and tools for startups and product teams. All open sourced and open for contribution.
+*   [tarjoilija/zgen](https://github.com/tarjoilija/zgen) - A lightweight and simple plugin manager for ZSH
+*   [zplug/zplug](https://github.com/zplug/zplug) - :hibiscus: A next-generation plugin manager for zsh
+*   [joemiller/creds](https://github.com/joemiller/creds) - \[DEPRECATED] Simple local encrypted credential management with GPG 🔐
+*   [tjluoma/reset-app-store-app](https://github.com/tjluoma/reset-app-store-app) - run this when the Mac App Store App Just Spins and Spins
+*   [docker/docker-bench-security](https://github.com/docker/docker-bench-security) - The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.
+*   [jamesob/desk](https://github.com/jamesob/desk) - A lightweight workspace manager for the shell
+*   [Originate/guide](https://github.com/Originate/guide) - A starting point for Originate engineers, product managers, and testers
+*   [alphapapa/bucket](https://github.com/alphapapa/bucket) - A bucket for your shell (like a set of registers, or a clipboard manager)
+*   [nodesocket/jsonlite](https://github.com/nodesocket/jsonlite) - A simple, self-contained, serverless, zero-configuration, json document store.
+*   [stickperson/dotfiles](https://github.com/stickperson/dotfiles) - dotfiles and instructions for setting up a laptop from scratch
+*   [sindresorhus/pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
+*   [gilesbowkett/rewind](https://github.com/gilesbowkett/rewind) - Rewind is an intelligent archivist.
+*   [jleclanche/dotfiles](https://github.com/jleclanche/dotfiles) - .zshrc and other bootstrap files
+*   [CISOfy/lynis](https://github.com/CISOfy/lynis) - Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.
+*   [StreakyCobra/gws](https://github.com/StreakyCobra/gws) - Colorful KISS helper for git workspaces
+*   [lukaszkorecki/DotFiles](https://github.com/lukaszkorecki/DotFiles) - ~/.DotFiles
+*   [SixArm/sixarm_git_gitconfig](https://github.com/SixArm/sixarm_git_gitconfig) - SixArm.com: Git: gitconfig files, aliases, colors, branches, etc.
+*   [felipec/git-remote-hg](https://github.com/felipec/git-remote-hg) - Transparent bidirectional bridge between Git and Mercurial for Git
+*   [myArchivedProjects/git-remote-gcrypt](https://github.com/myArchivedProjects/git-remote-gcrypt) - git-remote-gcrypt: A git remote helper for GPG-encrypted remotes
+*   [shellfire-dev/shellfire](https://github.com/shellfire-dev/shellfire) - A repository of namespaced, composable shell (bash, sh and dash) function libraries. Takes aware the pain of shell scripting, making it robust and reusable. Includes secure curl usage, JSON, XML and Debian control file parsers, dependency documentation via attributes, and more. Batteries ARE included.
+*   [atomantic/dotfiles](https://github.com/atomantic/dotfiles) - 🖥️ Automated Configuration, Preferences and Software Installation for macOS
+*   [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) - :wrench: .files, including ~/.macos — sensible hacker defaults for macOS
+*   [cowboy/dotfiles](https://github.com/cowboy/dotfiles) - My Ubuntu / OS X dotfiles.
+*   [paulmillr/dotfiles](https://github.com/paulmillr/dotfiles) - Colourful & robust configuration files and utilities for Mac, Linux and BSD
+*   [eduardolundgren/dotfiles](https://github.com/eduardolundgren/dotfiles) - \[DEPRECATED] The first JavaScript-based dotfiles powered by Grunt.
+*   [tj/git-extras](https://github.com/tj/git-extras) - GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
+*   [elasticdog/transcrypt](https://github.com/elasticdog/transcrypt) - transparently encrypt files within a git repository
+*   [zsh-users/zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - 🐠 ZSH port of Fish history search (up arrow)
+*   [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto) - The configuration framework for Zsh
+*   [splinesoft/SSBuild](https://github.com/splinesoft/SSBuild) - A build script for continuous integration of iOS apps.
+*   [rtomayko/git-sh](https://github.com/rtomayko/git-sh) - A customized bash environment suitable for git work.
+*   [fagiani/shellstack](https://github.com/fagiani/shellstack) - ShellStack is a collection of bash scripts to install apps on ubuntu linux
+*   [barryclark/bashstrap](https://github.com/barryclark/bashstrap) - A quick way to spruce up your terminal in OSX.
+*   [richo/babashka](https://github.com/richo/babashka) -
+*   [mottram/dotfiles](https://github.com/mottram/dotfiles) - Configuration gubbins
+*   [Bash-it/bash-it](https://github.com/Bash-it/bash-it) - A community Bash framework.
+*   [iaindooley/pickdrop](https://github.com/iaindooley/pickdrop) - A unix shell script which allows you to "pick" files one at a time and then drop them in one place
+*   [vincentbernat/zshrc](https://github.com/vincentbernat/zshrc) - My .zshrc
+*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - ⏰ Countdown timer with several modes written in Zsh shell script.
+*   [paulirish/dotfiles](https://github.com/paulirish/dotfiles) - paul's shell, git, etc config files. also homebrew, migration setup. good stuff.
+*   [simonwhitaker/gibo](https://github.com/simonwhitaker/gibo) - Easy access to gitignore boilerplates
+*   [catenate/credo](https://github.com/catenate/credo) - Many small scripts generate, comprise, and run a build system. (An adaptation of djb's "redo" build-tool idea.)
+*   [jonathanpenn/ui-screen-shooter](https://github.com/jonathanpenn/ui-screen-shooter) - Using UI Automation to automatically generate all screenshots of your iOS app, on different device types, in different locales by running a single command. Hands free.
+*   [treyhunner/tmuxstart](https://github.com/treyhunner/tmuxstart) - Create default configurations for your named tmux sessions
+*   [jgallen23/mongroup](https://github.com/jgallen23/mongroup) - Monitor a group of processes with mon
+*   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
+*   [scmbreeze/scm_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
+*   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
+*   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
+*   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+*   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
+*   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
+*   [halostatue/ryanb-dotfiles-fork](https://github.com/halostatue/ryanb-dotfiles-fork) - config files for zsh, bash, completions, gem, git, irb, rails
+
+## CSS
+
+*   [matthewhowell/reasonable-colors](https://github.com/matthewhowell/reasonable-colors) - Reasonable Colors is an open-source color system that makes it easy to build accessible, nice-looking color palettes.
+*   [evildmp/diataxis-documentation-framework](https://github.com/evildmp/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
+*   [elad2412/the-new-css-reset](https://github.com/elad2412/the-new-css-reset) - The New Simple and Lighter CSS Reset
+*   [robinsloan/perfect-edition](https://github.com/robinsloan/perfect-edition) - A lightweight, responsive web e-book template
+*   [aesmail/kaffy](https://github.com/aesmail/kaffy) - Powerfully simple admin package for phoenix applications
+*   [kognise/water.css](https://github.com/kognise/water.css) - A drop-in collection of CSS styles to make simple websites just a little nicer
+*   [briangraves/ResponsiveEmailPatterns](https://github.com/briangraves/ResponsiveEmailPatterns) - A collection of patterns & modules for responsive emails
+*   [bagder/http2-explained](https://github.com/bagder/http2-explained) - A detailed document explaining and documenting HTTP/2, the successor to the widely popular HTTP/1.1 protocol
+*   [IBM/plex](https://github.com/IBM/plex) - The package of IBM’s typeface, IBM Plex.
+*   [IBM/css-gridish](https://github.com/IBM/css-gridish) - Automatically build your grid design’s CSS Grid code, CSS Flexbox fallback code, Sketch artboards, and Chrome extension.
+*   [jgthms/bulma](https://github.com/jgthms/bulma) - Modern CSS framework based on Flexbox
+*   [heathermiller/dist-prog-book](https://github.com/heathermiller/dist-prog-book) -
+*   [aftertheflood/sparks](https://github.com/aftertheflood/sparks) - A typeface for creating sparklines in text without code.
+*   [kbrsh/wing](https://github.com/kbrsh/wing) - :gem: A beautiful CSS framework designed for minimalists.
+*   [creativetimofficial/now-ui-kit](https://github.com/creativetimofficial/now-ui-kit) - Now UI Kit Bootstrap 4 - Designed by Invision. Coded by Creative Tim
+*   [manton/JSONFeed](https://github.com/manton/JSONFeed) - The JSONFeed.org website
+*   [headius/osx-on-linux](https://github.com/headius/osx-on-linux) - Configurations and guides to making Linux feel like OS X
+*   [littleosbook/littleosbook](https://github.com/littleosbook/littleosbook) - Source for the little book about OS development
+*   [usnistgov/800-63-3](https://github.com/usnistgov/800-63-3) - Home to public development of NIST Special Publication 800-63-3: Digital Authentication Guidelines
+*   [RichardBray/banana-chocolate-chip](https://github.com/RichardBray/banana-chocolate-chip) - Front-end framework for modern web apps  powered by gulp, based on muffin.
+*   [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) - CSS is powerful, you can do a lot of things without JS.
+*   [stribika/stribika.github.io](https://github.com/stribika/stribika.github.io) -
+*   [dencold/hasper](https://github.com/dencold/hasper) - a port of Ghost's casper theme for Hugo
+*   [rohitkrai03/pills](https://github.com/rohitkrai03/pills) - A simple responsive CSS Grid for humans. View Demo -
+*   [tylerchilds/cutestrap](https://github.com/tylerchilds/cutestrap) - A strong, independent CSS Framework. Only 2.7KB minified & gzipped.
+*   [happycog/templatestarter2016](https://github.com/happycog/templatestarter2016) - Happy Cog frontend starter files
+*   [steshaw/plt](https://github.com/steshaw/plt) - Programming Language Theory λΠ
+*   [ageitgey/amplify](https://github.com/ageitgey/amplify) - A Jekyll html theme in the vague style of Medium.com built using Google AMP
+*   [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more
+*   [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) - A meaningful web typography starter kit.
+*   [AlexTatiyants/pev](https://github.com/AlexTatiyants/pev) - Postgres Explain Visualizer
+*   [EthicalSource/contributor_covenant](https://github.com/EthicalSource/contributor_covenant) - Pledge your respect and appreciation for contributors of all kinds to your open source project.
+*   [VitoVan/wonder-color](https://github.com/VitoVan/wonder-color) - Translate Text to Color
+*   [kilianc/rtail](https://github.com/kilianc/rtail) - rtail(1) - Terminal output to the browser in seconds, using UNIX pipes.
+*   [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme) - Tomorrow Theme now lives on at https://github.com/chriskempson/base16
+*   [mquan/lavish](https://github.com/mquan/lavish) - a rails app that generates Bootstrap color scheme from an image
+*   [hahahana/bootstrap_sass_examples](https://github.com/hahahana/bootstrap_sass_examples) - Bootstrap examples done in Rails 4 with bootstrap-sass
+*   [dhg/Skeleton](https://github.com/dhg/Skeleton) - Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development
+*   [furiouscollective/gridforms](https://github.com/furiouscollective/gridforms) - Data entry can be beautiful
+*   [mikekelly/hal_specification](https://github.com/mikekelly/hal_specification) - HAL Specification
+*   [mkaz/lanyon](https://github.com/mkaz/lanyon) - markdown web server
+*   [mozilla/Fira](https://github.com/mozilla/Fira) - Mozilla's new typeface, used in Firefox OS
+*   [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
+*   [mmozuras/git-playback](https://github.com/mmozuras/git-playback) - Create visual playback of your commits
+*   [codeplant/simple-navigation-demo](https://github.com/codeplant/simple-navigation-demo) - This is a sample application demonstrating the use of the simple-navigation gem. There's code for Rails 2, Rails 3, Rails4, Sinatra and Padrino.
 
 ## Erlang
 
@@ -1122,333 +1861,6 @@
 *   [pinterest/riffed](https://github.com/pinterest/riffed) - Provides idiomatic Elixir bindings for Apache Thrift
 *   [pinterest/elixometer](https://github.com/pinterest/elixometer) - A light Elixir wrapper around exometer.
 
-## Rust
-
-*   [Qovery/replibyte](https://github.com/Qovery/replibyte) - Seed your development database with real data ⚡️
-*   [tarikeshaq/update-notifier](https://github.com/tarikeshaq/update-notifier) - Update notifier for crates on crates.io
-*   [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
-*   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
-*   [yoav-lavi/melody](https://github.com/yoav-lavi/melody) - Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
-*   [svix/svix-webhooks](https://github.com/svix/svix-webhooks) - The enterprise-ready webhooks service 🦀
-*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session-lived containers for advanced browser-based applications.
-*   [gitext-rs/git-stack](https://github.com/gitext-rs/git-stack) - Stacked branch management for Git
-*   [arxanas/git-branchless](https://github.com/arxanas/git-branchless) - High-velocity, monorepo-scale workflow for Git
-*   [osohq/oso](https://github.com/osohq/oso) - Oso is a batteries-included framework for building authorization in your application.
-*   [tummychow/git-absorb](https://github.com/tummychow/git-absorb) - git commit --fixup, but automatic
-*   [mthom/scryer-prolog](https://github.com/mthom/scryer-prolog) - A modern Prolog implementation written mostly in Rust.
-*   [dprint/dprint](https://github.com/dprint/dprint) - Pluggable and configurable code formatting platform written in Rust.
-*   [TaKO8Ki/awesome-alternatives-in-rust](https://github.com/TaKO8Ki/awesome-alternatives-in-rust) - A curated list of replacements for existing software written in Rust
-*   [ezrosent/frawk](https://github.com/ezrosent/frawk) - an efficient awk-like language
-*   [fcsonline/drill](https://github.com/fcsonline/drill) - Drill is an HTTP load testing application written in Rust
-*   [raphlinus/pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) -
-*   [Doctave/doctave-markdown](https://github.com/Doctave/doctave-markdown) - Doctave-specific markdown parser
-*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - Powerful, fast, and an easy to use search engine
-*   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a diff that understands syntax 🟥🟩
-*   [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust.
-*   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
-*   [federico-terzi/espanso](https://github.com/federico-terzi/espanso) - Cross-platform Text Expander written in Rust
-*   [tonarino/innernet](https://github.com/tonarino/innernet) - A private network system that uses WireGuard under the hood.
-*   [EmbarkStudios/cargo-deny](https://github.com/EmbarkStudios/cargo-deny) - ❌ Cargo plugin for linting your dependencies 🦀
-*   [vrtbl/passerine](https://github.com/vrtbl/passerine) - A small extensible programming language designed for concise expression with little code.
-*   [tauri-apps/tauri](https://github.com/tauri-apps/tauri) - Build smaller, faster, and more secure desktop applications with a web frontend.
-*   [ducaale/xh](https://github.com/ducaale/xh) - Friendly and fast tool for sending HTTP requests
-*   [neovide/neovide](https://github.com/neovide/neovide) - No Nonsense Neovim Client in Rust
-*   [swc-project/swc](https://github.com/swc-project/swc) - Rust-based platform for the Web
-*   [JelteF/derive_more](https://github.com/JelteF/derive_more) - Some more derive(Trait) options
-*   [yaahc/color-eyre](https://github.com/yaahc/color-eyre) - Custom hooks for colorful human oriented error reports via panics and the eyre crate
-*   [hauleth/ernie](https://github.com/hauleth/ernie) - Efficient binary encoding for your data (based on Erlang's External Terms Format)
-*   [jameslittle230/stork](https://github.com/jameslittle230/stork) - 🔎 Impossibly fast web search, made for static sites.
-*   [WerWolv/ImHex-Patterns](https://github.com/WerWolv/ImHex-Patterns) - Hex patterns, include patterns and magic files for the use with the ImHex Hex Editor
-*   [mareknowak/cardsnif](https://github.com/mareknowak/cardsnif) - Card game of War written in Elixir and Rust.
-*   [lunatic-solutions/lunatic](https://github.com/lunatic-solutions/lunatic) - Lunatic is an Erlang-inspired runtime for WebAssembly
-*   [Schniz/fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
-*   [bheisler/criterion.rs](https://github.com/bheisler/criterion.rs) - Statistics-driven benchmarking library for Rust
-*   [ogham/dog](https://github.com/ogham/dog) - A command-line DNS client.
-*   [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) - A smarter cd command. Supports all major shells.
-*   [rust-shell-script/rust_cmd_lib](https://github.com/rust-shell-script/rust_cmd_lib) - Common rust command-line macros and utilities, to write shell-script like tasks in a clean, natural and rusty way
-*   [dtolnay/cxx](https://github.com/dtolnay/cxx) - Safe interop between Rust and C++
-*   [tcdi/pgx](https://github.com/tcdi/pgx) - Build Postgres Extensions with Rust!
-*   [rust-secure-code/cargo-geiger](https://github.com/rust-secure-code/cargo-geiger) - Detects usage of unsafe Rust in a Rust crate and its dependencies.
-*   [TeXitoi/structopt](https://github.com/TeXitoi/structopt) - Parse command line arguments by defining a struct.
-*   [daboross/fern](https://github.com/daboross/fern) - Simple, efficient logging for Rust
-*   [rust-lang/socket2](https://github.com/rust-lang/socket2) - Advanced configuration options for sockets.
-*   [tokio-rs/bytes](https://github.com/tokio-rs/bytes) - Utilities for working with bytes
-*   [Amanieu/parking_lot](https://github.com/Amanieu/parking_lot) - Compact and efficient synchronization primitives for Rust. Also provides an API for creating custom synchronization primitives.
-*   [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) - Tools for concurrent programming in Rust
-*   [djc/topfew-rs](https://github.com/djc/topfew-rs) - Rust implementation of Tim Bray's topfew tool
-*   [penelopezone/rubyfmt](https://github.com/penelopezone/rubyfmt) - Ruby Autoformatter!
-*   [zacps/blocked](https://github.com/zacps/blocked) - A proc-macro that checks if blockers (issues) have been resolved.
-*   [phated/twentyfive-stars](https://github.com/phated/twentyfive-stars) - (On-Hold until they fix Context) GraphQL server written in Rust.
-*   [async-graphql/examples](https://github.com/async-graphql/examples) -
-*   [async-graphql/async-graphql](https://github.com/async-graphql/async-graphql) - A GraphQL server library implemented in Rust
-*   [akeru-inc/xcnotary](https://github.com/akeru-inc/xcnotary) - the missing macOS app notarization helper, built with Rust
-*   [archseer/enigma](https://github.com/archseer/enigma) - An Erlang VM implementation in Rust
-*   [antifuchs/chars](https://github.com/antifuchs/chars) - cha(rs) is a commandline tool to display information about unicode characters
-*   [bootandy/dust](https://github.com/bootandy/dust) - A more intuitive version of du in rust
-*   [watchexec/watchexec](https://github.com/watchexec/watchexec) - Executes commands in response to file modifications
-*   [wezm/titlecase](https://github.com/wezm/titlecase) - A tool and Rust crate for transforming text into Title Case.
-*   [nerdypepper/eva](https://github.com/nerdypepper/eva) - a calculator REPL, similar to bc(1)
-*   [lotabout/skim](https://github.com/lotabout/skim) - Fuzzy Finder in rust!
-*   [sharkdp/hexyl](https://github.com/sharkdp/hexyl) - A command-line hex viewer
-*   [lunaryorn/mdcat](https://github.com/lunaryorn/mdcat) - cat for markdown
-*   [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
-*   [ubnt-intrepid/dot](https://github.com/ubnt-intrepid/dot) - Yet another management tool for dotfiles
-*   [lumen/lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation, designed for WebAssembly
-*   [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
-*   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
-*   [artichoke/artichoke](https://github.com/artichoke/artichoke) - 💎 Artichoke is a Ruby made with Rust
-*   [rustsec/rustsec](https://github.com/rustsec/rustsec) - Audit Cargo.lock files for dependencies with security vulnerabilities
-*   [iqlusioninc/sear](https://github.com/iqlusioninc/sear) - Signed/Encrypted ARchive: always-encrypted tar-like archive tool with optional signature support
-*   [iqlusioninc/abscissa](https://github.com/iqlusioninc/abscissa) - Application microframework with command-line option parsing, configuration, error handling, logging, and shell interactions
-*   [bastion-rs/bastion](https://github.com/bastion-rs/bastion) - Highly-available Distributed Fault-tolerant Runtime
-*   [lrlna/femme](https://github.com/lrlna/femme) - Not just a pretty (inter)face: pretty-printer + ndjson logger for log crate.
-*   [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-*   [vectordotdev/vector](https://github.com/vectordotdev/vector) - A high-performance observability data pipeline.
-*   [zhihu/rucene](https://github.com/zhihu/rucene) - Rust port of Lucene
-*   [starship/starship](https://github.com/starship/starship) - ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-*   [rust-lang-deprecated/failure](https://github.com/rust-lang-deprecated/failure) - Error management
-*   [rust-lang-deprecated/error-chain](https://github.com/rust-lang-deprecated/error-chain) - Error boilerplate for Rust
-*   [danielpclark/rutie](https://github.com/danielpclark/rutie) - “The Tie Between Ruby and Rust.”
-*   [woothee/woothee-rust](https://github.com/woothee/woothee-rust) - Rust user-agent strings parser
-*   [steveklabnik/ruby-sys](https://github.com/steveklabnik/ruby-sys) - Low-level bindings to Ruby
-*   [org-rs/org-rs](https://github.com/org-rs/org-rs) - org-mode parser rewrite in Rust
-*   [valeriansaliou/sonic](https://github.com/valeriansaliou/sonic) - 🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM.
-*   [J-F-Liu/lopdf](https://github.com/J-F-Liu/lopdf) - A Rust library for PDF document manipulation.
-*   [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter) - An incremental parsing system for programming tools
-*   [gleam-lang/gleam](https://github.com/gleam-lang/gleam) - ⭐️ A friendly language for building type-safe, scalable systems!
-*   [kyren/luster](https://github.com/kyren/luster) - An experimental Lua VM implemented in pure Rust
-*   [Keats/kickstart](https://github.com/Keats/kickstart) - A scaffolding tool to get new projects up and running quickly
-*   [rcoh/angle-grinder](https://github.com/rcoh/angle-grinder) - Slice and dice logs on the command line
-*   [cantino/mcfly](https://github.com/cantino/mcfly) - Fly through your shell history. Great Scott!
-*   [fschutt/azul](https://github.com/fschutt/azul) - Desktop GUI Framework
-*   [Geal/nom](https://github.com/Geal/nom) - Rust parser combinator framework
-*   [rubytogether/kirby](https://github.com/rubytogether/kirby) -
-*   [crate-ci/cargo-tarball](https://github.com/crate-ci/cargo-tarball) - Package pre-built binaries for Rust
-*   [assert-rs/docmatic](https://github.com/assert-rs/docmatic) - Enforce Rust documentation correctness
-*   [assert-rs/assert_cli](https://github.com/assert-rs/assert_cli) - See instead assert_cmd
-*   [assert-rs/predicates-rs](https://github.com/assert-rs/predicates-rs) - Boolean-valued predicate functions in Rust
-*   [assert-rs/assert_cmd](https://github.com/assert-rs/assert_cmd) - Assert process::Command - Easy command initialization and assertions
-*   [assert-rs/dir-diff](https://github.com/assert-rs/dir-diff) - Are the contents of two directories different?
-*   [assert-rs/assert_fs](https://github.com/assert-rs/assert_fs) - Filesystem fixtures and assertions.
-*   [rust-cli/confy](https://github.com/rust-cli/confy) - 🛋 Zero-boilerplate configuration management in Rust
-*   [rust-cli/clap-port-flag](https://github.com/rust-cli/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
-*   [rust-cli/clap-md](https://github.com/rust-cli/clap-md) - Generate Markdown documentation for clap application definitions
-*   [rust-cli/man](https://github.com/rust-cli/man) - Generate structured man pages
-*   [rust-cli/clap-permission-flag](https://github.com/rust-cli/clap-permission-flag) - Drop permissions of a CLI using structopt
-*   [rust-cli/cli-template](https://github.com/rust-cli/cli-template) - Cargo template for generating CLIs
-*   [rust-cli/clap-log-flag](https://github.com/rust-cli/clap-log-flag) - Add a logger to CLIs using structopt
-*   [rust-cli/human-panic](https://github.com/rust-cli/human-panic) - 😱 Panic messages for humans.
-*   [rust-cli/clap-verbosity-flag](https://github.com/rust-cli/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
-*   [thuleqaid/rust-chardet](https://github.com/thuleqaid/rust-chardet) - rust version of chardet
-*   [actix/actix](https://github.com/actix/actix) - Actor framework for Rust.
-*   [nuew/postgres-inet](https://github.com/nuew/postgres-inet) - Cidr and Inet support for rust-postgres
-*   [mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink) - OpenSSL compatibility layer for the Rust SSL/TLS stack
-*   [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) - A modern editor with a backend written in Rust.
-*   [neithernut/git-dit](https://github.com/neithernut/git-dit) - Decentralized Issue Tracking for git
-*   [yewstack/yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
-*   [tikv/rust-prometheus](https://github.com/tikv/rust-prometheus) - Prometheus instrumentation library for Rust applications
-*   [koute/stdweb](https://github.com/koute/stdweb) - A standard library for the client-side Web
-*   [frankmcsherry/columnar](https://github.com/frankmcsherry/columnar) - High-throughput columnar serialization in Rust
-*   [antiguru/column-rs](https://github.com/antiguru/column-rs) - Columnar type support for Rust
-*   [casey/remote](https://github.com/casey/remote) - 📡 Generate remote repository strings
-*   [gluon-lang/gluon](https://github.com/gluon-lang/gluon) - A static, type inferred and embeddable language written in Rust.
-*   [rust-locale/rust-locale](https://github.com/rust-locale/rust-locale) - Library for getting the user's localisation settings
-*   [Keats/tera](https://github.com/Keats/tera) - A template engine for Rust based on Jinja2/Django
-*   [cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust) - Liquid templating for Rust
-*   [sile/eetf](https://github.com/sile/eetf) - A Rust implementation of Erlang External Term Format
-*   [seriyps/rust-erl-ext](https://github.com/seriyps/rust-erl-ext) - Erlang external term format codec for Rust language.
-*   [rhysd/git-brws](https://github.com/rhysd/git-brws) - Command line tool to open repository, file, commit, diff, tag, pull request, blame, issue or project's website in browser for various repository hosting services.
-*   [rhysd/reading-pfds](https://github.com/rhysd/reading-pfds) - Reading 'Purely Functional Data Structures' with Rust
-*   [kevinmehall/rust-peg](https://github.com/kevinmehall/rust-peg) - Parsing Expression Grammar (PEG) parser generator for Rust
-*   [casey/just](https://github.com/casey/just) - 🤖 Just a command runner
-*   [dalance/amber](https://github.com/dalance/amber) - A code search / replace tool
-*   [kornelski/rust-file](https://github.com/kornelski/rust-file) - Trivial 1-liner for reading files
-*   [twmb/rsfs](https://github.com/twmb/rsfs) - RuSt FileSystem
-*   [manuel-woelker/rust-vfs](https://github.com/manuel-woelker/rust-vfs) - A virtual filesystem for Rust
-*   [chyh1990/yaml-rust](https://github.com/chyh1990/yaml-rust) - A pure rust YAML implementation.
-*   [dnsl48/yamlette](https://github.com/dnsl48/yamlette) - Comprehensive and user friendly YAML 1.2 processor written in Rust
-*   [goertzenator/cargo-erlangapp](https://github.com/goertzenator/cargo-erlangapp) - Build Rust crates embedded in an Erlang application
-*   [EbTech/rust-algorithms](https://github.com/EbTech/rust-algorithms) - Common data structures and algorithms in Rust
-*   [vmware-archive/haret](https://github.com/vmware-archive/haret) - A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust.
-*   [graphql-rust/juniper](https://github.com/graphql-rust/juniper) - GraphQL server library for Rust
-*   [PumpkinDB/PumpkinDB](https://github.com/PumpkinDB/PumpkinDB) - Immutable Ordered Key-Value Database Engine
-*   [mozilla/mentat](https://github.com/mozilla/mentat) - UNMAINTAINED A persistent, relational store inspired by Datomic and DataScript.
-*   [dflemstr/rq](https://github.com/dflemstr/rq) - Record Query - A tool for doing record analysis and transformation
-*   [google/rustcxx](https://github.com/google/rustcxx) - rustcxx: Using C++ from Rust made easy
-*   [rbspy/rbspy](https://github.com/rbspy/rbspy) - Sampling CPU profiler for Ruby
-*   [mmstick/parallel](https://github.com/mmstick/parallel) - This project now lives on in a rewrite at https://gitlab.redox-os.org/redox-os/parallel
-*   [rusterlium/rustler](https://github.com/rusterlium/rustler) - Safe Rust bridge for creating Erlang NIF functions
-*   [dirk/metrics_distributor](https://github.com/dirk/metrics_distributor) - Ingest logs and forward aggregated data to APIs/services
-*   [anima-engine/mrusty](https://github.com/anima-engine/mrusty) - mruby safe bindings for Rust
-*   [d-unseductable/ruru](https://github.com/d-unseductable/ruru) - Native Ruby extensions written in Rust
-*   [iron/iron](https://github.com/iron/iron) - An Extensible, Concurrent Web Framework for Rust
-*   [nickel-org/nickel.rs](https://github.com/nickel-org/nickel.rs) - An expressjs inspired web framework for Rust
-*   [uutils/coreutils](https://github.com/uutils/coreutils) - Cross-platform Rust rewrite of the GNU coreutils
-*   [eholk/Boot2Rust](https://github.com/eholk/Boot2Rust) - EFI applications in Rust
-
-## TypeScript
-
-*   [sveltejs/prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte) - Format your svelte components using prettier.
-*   [sveltejs/svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) - A ✨ magical ✨ Svelte preprocessor with sensible defaults and support for: PostCSS, SCSS, Less, Stylus, Coffeescript, TypeScript, Pug and much more.
-*   [Rezi/svelte-gestures](https://github.com/Rezi/svelte-gestures) -
-*   [storybookjs/storybook](https://github.com/storybookjs/storybook) - 📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!
-*   [MacFJA/svelte-invalidable](https://github.com/MacFJA/svelte-invalidable) - A Svelte that can be requested to update itself
-*   [endenwer/svelte-restate](https://github.com/endenwer/svelte-restate) - Immutable store for Svelte with full Typescript support and Redux Devtools integration.
-*   [MacFJA/svelte-undoable](https://github.com/MacFJA/svelte-undoable) - Memento design pattern in Svelte
-*   [MacFJA/svelte-persistent-store](https://github.com/MacFJA/svelte-persistent-store) - A Svelte store that keep its value through pages and reloads
-*   [timhall/svelte-apollo](https://github.com/timhall/svelte-apollo) - Svelte integration for Apollo GraphQL
-*   [pablo-abc/felte](https://github.com/pablo-abc/felte) - An extensible form library for Svelte, Solid and React
-*   [tanepiper/svelte-formula](https://github.com/tanepiper/svelte-formula) - Zero-Configuration Reactive forms for Svelte
-*   [chainlist/svelte-forms](https://github.com/chainlist/svelte-forms) - Svelte forms validation made easy
-*   [cerebral/overmind](https://github.com/cerebral/overmind) - Overmind - Frictionless state management
-*   [lokalise/i18n-ally](https://github.com/lokalise/i18n-ally) - 🌍 All in one i18n extension for VS Code
-*   [Panya/svelte-intl](https://github.com/Panya/svelte-intl) - Internationalize your Svelte apps using format-message and Intl object
-*   [maciekgrzybek/svelte-inview](https://github.com/maciekgrzybek/svelte-inview) - A Svelte action that monitors an element enters or leaves the viewport.🔥
-*   [kaisermann/svelte-i18n](https://github.com/kaisermann/svelte-i18n) - Internationalization library for Svelte
-*   [planetscale/beam](https://github.com/planetscale/beam) - A simple message board for your organization or project
-*   [dvcrn/obsidian-filename-heading-sync](https://github.com/dvcrn/obsidian-filename-heading-sync) - Obisdian.md plugin to keep the filename and the first header of the file in sync
-*   [vuejs/petite-vue](https://github.com/vuejs/petite-vue) - 6kb subset of Vue optimized for progressive enhancement
-*   [vuejs/pinia](https://github.com/vuejs/pinia) - 🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support
-*   [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
-*   [phiresky/sql.js-httpvfs](https://github.com/phiresky/sql.js-httpvfs) -
-*   [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) - Container Management and Kubernetes on the Desktop
-*   [saisandeepvaddi/ten-hands](https://github.com/saisandeepvaddi/ten-hands) - ⚡ Simplest way to organize and run command-line tasks
-*   [windicss/windicss](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
-*   [unocss/unocss](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
-*   [tsedio/tsed](https://github.com/tsedio/tsed) -  :triangular_ruler:  Ts.ED is a Node.js and TypeScript framework on top of Express to write your application with TypeScript (or ES6). It provides a lot of decorators and guideline to make your code more readable and less error-prone.
-*   [FormidableLabs/urql](https://github.com/FormidableLabs/urql) - The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.
-*   [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
-*   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.
-*   [adobe/react-spectrum](https://github.com/adobe/react-spectrum) - A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.
-*   [TanStack/react-table](https://github.com/TanStack/react-table) - ⚛️ Hooks for building fast and extendable tables and datagrids for TS/JS, React, Vue, Solid
-*   [aelbore/vite-plugin-test](https://github.com/aelbore/vite-plugin-test) - Vite plugin with mocha and puppeteer
-*   [aelbore/aria-vue](https://github.com/aelbore/aria-vue) - Testing tools for Vue components
-*   [SqrTT/prophet](https://github.com/SqrTT/prophet) - Prophet Debugger (SFCC sandboxes via SDAPI 2.0) extension for VS Code
-*   [tsconfig/bases](https://github.com/tsconfig/bases) - Hosts TSConfigs to extend in a TypeScript app, tuned to a particular runtime environment
-*   [withastro/astro](https://github.com/withastro/astro) - Build fast websites, faster. 🚀🧑‍🚀✨
-*   [nestjs/nest](https://github.com/nestjs/nest) - A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8) 🚀
-*   [cloudflare/miniflare](https://github.com/cloudflare/miniflare) - 🔥 Fully-local simulator for Cloudflare Workers
-*   [twilio/twilio-video-app-react](https://github.com/twilio/twilio-video-app-react) - A collaboration application built with the twilio-video.js SDK and React.js
-*   [RocketChat/Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK) - Utility for apps and bots to interact with Rocket.Chat via DDP and/or API
-*   [johnspurlock/app-privacy-report-viewer](https://github.com/johnspurlock/app-privacy-report-viewer) - Local viewer for App Privacy Reports in iOS 15
-*   [ajv-validator/ajv](https://github.com/ajv-validator/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927)
-*   [honzaap/Systemizer](https://github.com/honzaap/Systemizer) - A system design tool that allows you to simulate data flow of distributed systems.
-*   [edmundhung/maildog](https://github.com/edmundhung/maildog) - 🐶 Hosting your own email forwarding service on AWS and managing it with Github Actions
-*   [obahareth/are-you-es5](https://github.com/obahareth/are-you-es5) - A package to help you find out which of your node_modules aren't ES5 so you can add them to your Webpack/Rollup/Parcel transpilation steps.
-*   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative - turns any MySQL, Postgres, SQLite into a Spreadsheet with REST APIs.
-*   [niieani/hashids.js](https://github.com/niieani/hashids.js) - A small JavaScript library to generate YouTube-like ids from numbers.
-*   [Elderjs/elderjs](https://github.com/Elderjs/elderjs) - Elder.js is an opinionated static site generator and web framework for Svelte built with SEO in mind.
-*   [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) - Browser fingerprinting library with the highest accuracy and stability.
-*   [mattpocock/xstate-catalogue](https://github.com/mattpocock/xstate-catalogue) - Professionally designed, interactive state machines
-*   [Daninet/hash-wasm](https://github.com/Daninet/hash-wasm) - Lightning fast hash functions using hand-tuned WebAssembly binaries
-*   [ever-co/ever-traduora](https://github.com/ever-co/ever-traduora) - Ever® Traduora - Open-Source Translation Management Platform
-*   [ustaxes/UsTaxes](https://github.com/ustaxes/UsTaxes) - Tax filing web application
-*   [opticdev/optic](https://github.com/opticdev/optic) - Track and review API changes as a team
-*   [vscode-neovim/vscode-neovim](https://github.com/vscode-neovim/vscode-neovim) - Vim-mode for Visual Studio Code using embedded Neovim
-*   [timkendall/tql](https://github.com/timkendall/tql) - A GraphQL query builder for TypeScript. Avoid the pain of codegen.
-*   [danger/danger-js](https://github.com/danger/danger-js) - ⚠️ Stop saying "you forgot to …" in code review
-*   [alexreardon/tiny-invariant](https://github.com/alexreardon/tiny-invariant) - A tiny invariant function
-*   [probot/probot](https://github.com/probot/probot) - 🤖 A framework for building GitHub Apps to automate and improve your workflow
-*   [maple3142/vuejs-storage](https://github.com/maple3142/vuejs-storage) - Vue and Vuex plugin to persistence data with localStorage/sessionStorage
-*   [renovatebot/renovate](https://github.com/renovatebot/renovate) - Universal dependency update tool that fits into your workflows.
-*   [egoist/bili](https://github.com/egoist/bili) - Bili makes it easier to bundle JavaScript libraries.
-*   [n8n-io/n8n](https://github.com/n8n-io/n8n) - Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services.
-*   [gcanti/fp-ts](https://github.com/gcanti/fp-ts) - Functional programming in TypeScript
-*   [gcanti/io-ts](https://github.com/gcanti/io-ts) - Runtime type system for IO decoding/encoding
-*   [vue-a11y/eslint-plugin-vuejs-accessibility](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility) - An eslint plugin for checking Vue.js files for accessibility
-*   [IBM/graphql-query-generator](https://github.com/IBM/graphql-query-generator) - Randomly generates GraphQL queries from a GraphQL schema
-*   [airtasker/spot](https://github.com/airtasker/spot) - Spot is a concise, developer-friendly way to describe your API contract.
-*   [supabase/supabase](https://github.com/supabase/supabase) - The open source Firebase alternative. Follow to stay updated about our public Beta.
-*   [jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys) - A tiny (~400 B) & modern library for keybindings.
-*   [pikax/vue-composable](https://github.com/pikax/vue-composable) - Vue composition-api composable components. i18n, validation, pagination, fetch, etc. +50 different composables
-*   [runkids/vue-condition-watcher](https://github.com/runkids/vue-condition-watcher) - 🕶 Vue composition API for automatic data fetching. With conditions as the core. Easily control and sync to URL query string by conditions
-*   [vitejs/vite](https://github.com/vitejs/vite) - Next generation frontend tooling. It's fast!
-*   [solidjs/solid](https://github.com/solidjs/solid) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
-*   [grid-js/gridjs](https://github.com/grid-js/gridjs) - Advanced table plugin
-*   [caprover/caprover](https://github.com/caprover/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids
-*   [championswimmer/vuex-persist](https://github.com/championswimmer/vuex-persist) - A Vuex plugin to persist the store. (Fully Typescript enabled)
-*   [slorber/awesome-debounce-promise](https://github.com/slorber/awesome-debounce-promise) - Debounce your API calls easily and stay in promised land.
-*   [kamilkisiela/graphql-config](https://github.com/kamilkisiela/graphql-config) - One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)
-*   [vueuse/vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
-*   [logaretm/vee-validate](https://github.com/logaretm/vee-validate) - ✅  Form Validation for Vue.js
-*   [samdenty/gqless](https://github.com/samdenty/gqless) - a GraphQL client without queries
-*   [Novvum/graphql-birdseye](https://github.com/Novvum/graphql-birdseye) - View any GraphQL schema as a dynamic and interactive graph. 🦅
-*   [dalibo/pev2](https://github.com/dalibo/pev2) - Postgres Explain Visualizer 2
-*   [nitram509/macaroons.js](https://github.com/nitram509/macaroons.js) - Javascript implementation of Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud.
-*   [logaretm/villus](https://github.com/logaretm/villus) - 🏎 A tiny and fast GraphQL client for Vue.js
-*   [mostjs/core](https://github.com/mostjs/core) - Most.js core event stream
-*   [ReactiveX/rxjs](https://github.com/ReactiveX/rxjs) - A reactive programming library for JavaScript
-*   [staltz/xstream](https://github.com/staltz/xstream) - An extremely intuitive, small, and fast functional reactive stream library for JavaScript
-*   [GoogleChromeLabs/comlink](https://github.com/GoogleChromeLabs/comlink) - Comlink makes WebWorkers enjoyable.
-*   [outline/outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, feature rich, and markdown compatible.
-*   [1milligram/csslayout](https://github.com/1milligram/csslayout) - A collection of popular layouts and patterns made with CSS. Now it has 100+ patterns and continues growing!
-*   [voldikss/coc-todolist](https://github.com/voldikss/coc-todolist) - \[Deprecated due to an unfixable bug and crappy design]🕐 Todolist/task manager extension for (Neo)Vim
-*   [posva/vue-promised](https://github.com/posva/vue-promised) - 💝 Composable Promises & Promises as components
-*   [zalando-incubator/graphql-jit](https://github.com/zalando-incubator/graphql-jit) - GraphQL execution using a JIT compiler
-*   [prisma/prisma-client-js](https://github.com/prisma/prisma-client-js) - Type-safe database client for TypeScript & Node.js (ORM replacement)
-*   [statelyai/xstate](https://github.com/statelyai/xstate) - State machines and statecharts for the modern web.
-*   [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) - The headless editor framework for web artisans.
-*   [lifeomic/axios-fetch](https://github.com/lifeomic/axios-fetch) - A WebAPI Fetch implementation backed by an Axios client
-*   [davestewart/axios-actions](https://github.com/davestewart/axios-actions) - Bundle endpoints as callable, reusable services
-*   [graphql-query-rewriter/core](https://github.com/graphql-query-rewriter/core) - Seamlessly turn breaking GraphQL changes into non-breaking changes
-*   [typewriter-editor/typewriter](https://github.com/typewriter-editor/typewriter) - A rich text editor based off of Quill.js and Ultradom, and using Svelte for UI.
-*   [sveltejs/sapper](https://github.com/sveltejs/sapper) - The next small thing in web development, powered by Svelte
-*   [intlify/vue-i18n-loader](https://github.com/intlify/vue-i18n-loader) - :globe_with_meridians: vue-i18n loader for custom blocks
-*   [codex-team/editor.js](https://github.com/codex-team/editor.js) - A block-styled editor with clean JSON output
-*   [sigle/sigle](https://github.com/sigle/sigle) - A beautiful decentralized and open source blog maker
-*   [loopbackio/loopback-next](https://github.com/loopbackio/loopback-next) - LoopBack makes it easy to build modern API applications that require complex integrations.
-*   [adonisjs/core](https://github.com/adonisjs/core) - 🚀 The Node.js Framework highly focused on developer ergonomics, stability and confidence
-*   [labs42io/clean-code-typescript](https://github.com/labs42io/clean-code-typescript) - Clean Code concepts adapted for TypeScript
-*   [grafoojs/grafoo](https://github.com/grafoojs/grafoo) - A GraphQL Client and Toolkit
-*   [prisma-labs/graphql-request](https://github.com/prisma-labs/graphql-request) - Minimal GraphQL client supporting Node and browsers for scripts or simple apps
-*   [BrainJS/brain.js](https://github.com/BrainJS/brain.js) - 🤖 GPU accelerated Neural networks in JavaScript for Browsers and Node.js
-*   [Kong/httpsnippet](https://github.com/Kong/httpsnippet) - HTTP Request snippet generator for many languages & libraries
-*   [ClickerMonkey/vuex-router-actions](https://github.com/ClickerMonkey/vuex-router-actions) - Streamline complex Vuex actions and have fast and secure asynchronous routing in your app.
-*   [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) - 📟  Command line tool for common GraphQL development workflows
-*   [nexe/nexe](https://github.com/nexe/nexe) - 🎉 create a single executable out of your node.js apps
-*   [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - :zap: The one-liner node.js http-proxy middleware for connect, express and browser-sync
-*   [graphql-editor/graphql-editor](https://github.com/graphql-editor/graphql-editor) - 📺 Visual Editor & GraphQL IDE. Draw GraphQL schemas using visual 🔷 nodes and explore GraphQL API with beautiful UI. Even 🐒 can do that!
-*   [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) - Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.
-*   [Redocly/redoc](https://github.com/Redocly/redoc) - 📘  OpenAPI/Swagger-generated API Reference Documentation
-*   [jlfwong/speedscope](https://github.com/jlfwong/speedscope) - 🔬 A fast, interactive web-based viewer for performance profiles.
-*   [FullHuman/purgecss](https://github.com/FullHuman/purgecss) - Remove unused CSS
-*   [cyclejs/cyclejs](https://github.com/cyclejs/cyclejs) - A functional and reactive JavaScript framework for predictable code
-*   [aurelia/framework](https://github.com/aurelia/framework) - The Aurelia 1 framework entry point, bringing together all the required sub-modules of Aurelia.
-*   [facebook/flipper](https://github.com/facebook/flipper) - A desktop debugging platform for mobile developers.
-*   [apollographql/persistgraphql](https://github.com/apollographql/persistgraphql) - A build tool for GraphQL projects.
-*   [2fd/graphdoc](https://github.com/2fd/graphdoc) - Static page generator for documenting GraphQL Schema
-*   [szimek/signature_pad](https://github.com/szimek/signature_pad) - HTML5 canvas based smooth signature drawing
-*   [linkedin/opticss](https://github.com/linkedin/opticss) - A CSS Optimizer
-*   [linkedin/css-blocks](https://github.com/linkedin/css-blocks) - High performance, maintainable stylesheets.
-*   [theintern/intern-a11y](https://github.com/theintern/intern-a11y) - Accessibility testing for Intern
-*   [hotwired/stimulus](https://github.com/hotwired/stimulus) - A modest JavaScript framework for the HTML you already have
-*   [meetalva/alva](https://github.com/meetalva/alva) - Create living prototypes with code components.
-*   [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) - 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!
-*   [APIs-guru/graphql-faker](https://github.com/APIs-guru/graphql-faker) - 🎲 Mock or extend your GraphQL API with faked data. No coding required.
-*   [jiayihu/pretty-algorithms](https://github.com/jiayihu/pretty-algorithms) - 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
-*   [Malpaux/apollo-offline](https://github.com/Malpaux/apollo-offline) - An offline toolkit for the Apollo client
-*   [cdmbase/graphql-rabbitmq-subscriptions](https://github.com/cdmbase/graphql-rabbitmq-subscriptions) - A graphql subscriptions implementation using rabbimq and apollo's graphql-subscriptions
-*   [cdmbase/graphql-server-rabbitmq](https://github.com/cdmbase/graphql-server-rabbitmq) - Production-ready Node.js GraphQL server for RabbitMQ
-*   [antonycourtney/tad](https://github.com/antonycourtney/tad) - A desktop application for viewing and analyzing tabular data
-*   [homebridge/homebridge](https://github.com/homebridge/homebridge) - HomeKit support for the impatient.
-*   [APIs-guru/graphql-voyager](https://github.com/APIs-guru/graphql-voyager) - 🛰️ Represent any GraphQL API as an interactive graph
-*   [apache/superset](https://github.com/apache/superset) - Apache Superset is a Data Visualization and Data Exploration Platform
-*   [bdash-app/bdash](https://github.com/bdash-app/bdash) - Simple SQL Client for lightweight data analysis.
-*   [parrot-translate/parrot](https://github.com/parrot-translate/parrot) - Self-hosted Localization Management Platform built with Go and Angular
-*   [arangodb/arangojs](https://github.com/arangodb/arangojs) - The official ArangoDB JavaScript driver.
-*   [facebook/jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
-*   [date-fns/date-fns](https://github.com/date-fns/date-fns) - ⏳ Modern JavaScript date utility library ⌛️
-*   [sveltejs/svelte](https://github.com/sveltejs/svelte) - Cybernetically enhanced web apps
-*   [danvk/source-map-explorer](https://github.com/danvk/source-map-explorer) - Analyze and debug space usage through source maps
-*   [jahewson/elm-graphql](https://github.com/jahewson/elm-graphql) - GraphQL for Elm
-*   [turbolinks/turbolinks](https://github.com/turbolinks/turbolinks) - Turbolinks makes navigating your web application faster
-*   [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) - A completely customizable framework for building rich text editors. (Currently in beta.)
-*   [tensorflow/playground](https://github.com/tensorflow/playground) - Play with neural networks!
-*   [deepstreamIO/deepstream.io](https://github.com/deepstreamIO/deepstream.io) - deepstream.io server
-*   [witheve/Eve](https://github.com/witheve/Eve) - Better tools for thought
-*   [helmetjs/helmet](https://github.com/helmetjs/helmet) - Help secure Express apps with various HTTP headers
-*   [reduxjs/redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
-
 ## JavaScript
 
 *   [srmullen/svelte-reactive-css-preprocess](https://github.com/srmullen/svelte-reactive-css-preprocess) - Automatically update your styles when a svelte variable changes.
@@ -2110,194 +2522,6 @@
 *   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
 *   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
-## Python
-
-*   [httpie/httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie
-*   [afroisalreadyinu/miniboss](https://github.com/afroisalreadyinu/miniboss) - The most versatile way to manage containers locally
-*   [djrobstep/migra](https://github.com/djrobstep/migra) - Like diff but for PostgreSQL schemas
-*   [oilshell/oil](https://github.com/oilshell/oil) - Oil is a new Unix shell.  It's our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell!
-*   [typhoon-data-org/typhoon-orchestrator](https://github.com/typhoon-data-org/typhoon-orchestrator) - Create elegant data pipelines and deploy to AWS Lambda or Airflow
-*   [jeroenjanssens/sample](https://github.com/jeroenjanssens/sample) - Filter lines from standard input according to some probability, with a given delay, and for a certain duration.
-*   [mystor/git-revise](https://github.com/mystor/git-revise) - A handy tool for doing efficient in-memory commit rebases & fixups
-*   [stacked-git/stgit](https://github.com/stacked-git/stgit) - Stacked Git
-*   [akornor/playlistor](https://github.com/akornor/playlistor) - 🎶Apple Music  ↔️ Spotify playlist convertor.
-*   [ssh-mitm/ssh-mitm](https://github.com/ssh-mitm/ssh-mitm) - ssh mitm server for security audits supporting public key authentication, session hijacking and file manipulation
-*   [unixorn/lima-xbar-plugin](https://github.com/unixorn/lima-xbar-plugin) - xbar/Swiftbar plugin to control lima-vm
-*   [airbnb/ottr](https://github.com/airbnb/ottr) - Serverless Public Key Infrastructure Framework
-*   [speedyg0nz/MagInkCal](https://github.com/speedyg0nz/MagInkCal) - E-Ink Magic Calendar that automatically syncs to Google Calendar and runs off a battery powered Raspberry Pi Zero
-*   [wanderingstan/Confusables](https://github.com/wanderingstan/Confusables) - Simple library for matching a string to another string that is same but has letters that only *look* the same as original string
-*   [modoboa/modoboa-installer](https://github.com/modoboa/modoboa-installer) - An installer for Modoboa
-*   [transferwise/pipelinewise](https://github.com/transferwise/pipelinewise) - Data Pipeline Framework using the singer.io spec
-*   [transferwise/pipelinewise-target-s3-csv](https://github.com/transferwise/pipelinewise-target-s3-csv) - Singer.io Target for CSV on S3 - PipelineWise compatible
-*   [hauxir/errorpush](https://github.com/hauxir/errorpush) - Minimalist Error collection Service compatible with Rollbar clients. Sentry or Rollbar alternative.
-*   [newren/git-filter-repo](https://github.com/newren/git-filter-repo) - Quickly rewrite git repository history (filter-branch replacement)
-*   [groveco/django-sql-explorer](https://github.com/groveco/django-sql-explorer) - Easily share data across your company via SQL queries. From Grove Collab.
-*   [simonw/django-sql-dashboard](https://github.com/simonw/django-sql-dashboard) - Django app for building dashboards using raw SQL queries
-*   [artperrin/image2csv](https://github.com/artperrin/image2csv) - Convert tables stored as images to an usable .csv file
-*   [Textualize/rich](https://github.com/Textualize/rich) - Rich is a Python library for rich text and beautiful formatting in the terminal.
-*   [blaa/fatjira](https://github.com/blaa/fatjira) - Fat console client for the Atlassian Jira issue tracker
-*   [vishnubob/wait-for-it](https://github.com/vishnubob/wait-for-it) - Pure bash script to test and wait on the availability of a TCP host and port
-*   [simonw/datasette](https://github.com/simonw/datasette) - An open source multi-tool for exploring and publishing data
-*   [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) - dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.
-*   [Yggdroot/LeaderF](https://github.com/Yggdroot/LeaderF) - An efficient fuzzy finder that helps to locate files, buffers, mrus, gtags, etc. on the fly for both vim and neovim.
-*   [jefftriplett/kindlestrip](https://github.com/jefftriplett/kindlestrip) - :book: A pip-installable conversion of Paul Durrant's kindlestrip
-*   [wustho/epy](https://github.com/wustho/epy) - CLI Ebook (epub2, epub3, fb2, mobi) Reader
-*   [wustho/epr](https://github.com/wustho/epr) - CLI Epub Reader
-*   [quay/quay](https://github.com/quay/quay) - Build, Store, and Distribute your Applications and Containers
-*   [arrowtype/recursive](https://github.com/arrowtype/recursive) - Recursive Mono & Sans is a variable font family for code & UI
-*   [splitgraph/splitgraph](https://github.com/splitgraph/splitgraph) - Splitgraph command line client and python library
-*   [JaidedAI/EasyOCR](https://github.com/JaidedAI/EasyOCR) - Ready-to-use OCR with 80+ supported languages and all popular writing scripts including Latin, Chinese, Arabic, Devanagari, Cyrillic and etc.
-*   [standardebooks/tools](https://github.com/standardebooks/tools) - The Standard Ebooks toolset for producing our ebook files.
-*   [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - All Algorithms implemented in Python
-*   [piku/piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
-*   [abhishekkr/gmail-helper](https://github.com/abhishekkr/gmail-helper) - it will contain different utilities for GMail API over OAuth2
-*   [holzschu/a-shell](https://github.com/holzschu/a-shell) - A terminal for iOS, with multiple windows
-*   [City-of-Helsinki/respa](https://github.com/City-of-Helsinki/respa) - Resource reservation and management app and API
-*   [jarun/buku](https://github.com/jarun/buku) - :bookmark: Personal mini-web in text
-*   [mosegontar/Pinku](https://github.com/mosegontar/Pinku) - A Pinboard-to-buku importation utility
-*   [kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
-*   [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
-*   [dogsheep/healthkit-to-sqlite](https://github.com/dogsheep/healthkit-to-sqlite) - Convert an Apple Healthkit export zip to a SQLite database
-*   [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate) - Web based localization tool with tight version control integration.
-*   [KanoComputing/aws-tools](https://github.com/KanoComputing/aws-tools) - A set of tools to make working with AWS easier
-*   [microsoft/presidio](https://github.com/microsoft/presidio) - Context aware, pluggable and customizable data protection and anonymization SDK for text and images
-*   [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
-*   [seemoo-lab/opendrop](https://github.com/seemoo-lab/opendrop) - An open Apple AirDrop implementation written in Python
-*   [samschott/maestral](https://github.com/samschott/maestral) - Open-source Dropbox client for macOS and Linux
-*   [hylang/hy](https://github.com/hylang/hy) - A dialect of Lisp that's embedded in Python
-*   [zanaca/docker-dns](https://github.com/zanaca/docker-dns) - DNS server for your docker containers. Allowing you to access them with a domain name, without exposing ANY port. Allowing access from you linux, mac or windows browser!
-*   [kolypto/j2cli](https://github.com/kolypto/j2cli) - Jinja2 Command-Line Tool, reworked
-*   [TheLocehiliosan/yadm](https://github.com/TheLocehiliosan/yadm) - Yet Another Dotfiles Manager
-*   [andreasjansson/envtpl](https://github.com/andreasjansson/envtpl) - Render jinja2 templates on the command line with shell environment variables
-*   [andrewbihl/bsed](https://github.com/andrewbihl/bsed) - Simple SQL-like syntax on top of Perl text processing.
-*   [opsschool/curriculum](https://github.com/opsschool/curriculum) - Ops School Curriculum
-*   [lyft/cartography](https://github.com/lyft/cartography) - Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
-*   [minimaxir/automl-gs](https://github.com/minimaxir/automl-gs) - Provide an input CSV and a target field to predict, generate a model + code to run it.
-*   [great-expectations/great_expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
-*   [BayesWitnesses/m2cgen](https://github.com/BayesWitnesses/m2cgen) - Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies
-*   [mcastorina/graph-cli](https://github.com/mcastorina/graph-cli) - Flexible command line tool to create graphs from CSV data
-*   [SystemsApproach/book](https://github.com/SystemsApproach/book) - Computer Networks: A Systems Approach -- Textbook
-*   [chardet/chardet](https://github.com/chardet/chardet) - Python character encoding detector
-*   [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science) - A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
-*   [imWildCat/scylla](https://github.com/imWildCat/scylla) - Intelligent proxy pool for Humans™
-*   [daedalus/fastBloomFilter](https://github.com/daedalus/fastBloomFilter) - A pure, simple and fast pythonic bloom filter
-*   [daedalus/bloomHIBP](https://github.com/daedalus/bloomHIBP) - Bloom HIBP – check Have i been Pwnd with bloom filters in pure python
-*   [psf/black](https://github.com/psf/black) - The uncompromising Python code formatter
-*   [easy-tensorflow/easy-tensorflow](https://github.com/easy-tensorflow/easy-tensorflow) - Simple and comprehensive tutorials in TensorFlow
-*   [getredash/redash](https://github.com/getredash/redash) - Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.
-*   [alichtman/stronghold](https://github.com/alichtman/stronghold) - Easily configure macOS security settings from the terminal.
-*   [alichtman/shallow-backup](https://github.com/alichtman/shallow-backup) - Git-integrated backup tool for macOS and Linux devs.
-*   [lra/mackup](https://github.com/lra/mackup) - Keep your application settings in sync (OS X/Linux)
-*   [leerob/facebook-data-analyzer](https://github.com/leerob/facebook-data-analyzer) - 📊Python script to analyze the contents of your Facebook data export
-*   [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) - The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.
-*   [wesbos/burner-email-providers](https://github.com/wesbos/burner-email-providers) - A list of temporary email providers
-*   [rspeer/python-ftfy](https://github.com/rspeer/python-ftfy) - Fixes mojibake and other glitches in Unicode text, after the fact.
-*   [pgexperts/flexible-freeze](https://github.com/pgexperts/flexible-freeze) - Flexible freeze scripts for managing off-hours vacuuming and freezing of PostgreSQL databases.
-*   [pgexperts/find-bad-toast](https://github.com/pgexperts/find-bad-toast) - Find rows in a PostgreSQL table that have corrupted TOAST records.
-*   [ansible/awx](https://github.com/ansible/awx) - AWX Project
-*   [zalandoresearch/fashion-mnist](https://github.com/zalandoresearch/fashion-mnist) - A MNIST-like fashion product database. Benchmark :point_down:
-*   [OmkarPathak/pygorithm](https://github.com/OmkarPathak/pygorithm) - A Python module for learning all major algorithms
-*   [airbnb/binaryalert](https://github.com/airbnb/binaryalert) - BinaryAlert: Serverless, Real-time & Retroactive Malware Detection.
-*   [probcomp/bayeslite](https://github.com/probcomp/bayeslite) - BayesDB on SQLite. A Bayesian database table for querying the probable implications of data as easily as SQL databases query the data itself.
-*   [saulpw/visidata](https://github.com/saulpw/visidata) - A terminal spreadsheet multitool for discovering and arranging data
-*   [StackStorm/st2](https://github.com/StackStorm/st2) - StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, security responses, troubleshooting, deployments, and more. Includes rules engine, workflow, 160 integration packs with 6000+ actions (see https://exchange.stackstorm.org) and ChatOps. Installer at https://docs.stackstorm.com/install/index.html. Questions? https://forum.stackstorm.com/.
-*   [eeue56/elm-init-scripts](https://github.com/eeue56/elm-init-scripts) -
-*   [NoRedInk/elm-ops-tooling](https://github.com/NoRedInk/elm-ops-tooling) - Tooling for Elm ops (no longer maintained)
-*   [magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) - get things from one computer to another, safely
-*   [Miserlou/Zappa](https://github.com/Miserlou/Zappa) - Serverless Python
-*   [cmu-db/ottertune](https://github.com/cmu-db/ottertune) - The automatic DBMS configuration tool
-*   [grahame/sedge](https://github.com/grahame/sedge) - sharing, templating and enhancements for OpenSSH config
-*   [mcfunley/better-keynote-export](https://github.com/mcfunley/better-keynote-export) - A better export for sharing Keynote presentations, with support for presenter notes.
-*   [yandex/gixy](https://github.com/yandex/gixy) - Nginx configuration static analyzer
-*   [rchakra3/zsh_history](https://github.com/rchakra3/zsh_history) - Backup and restore ZSH history
-*   [python-bonobo/bonobo](https://github.com/python-bonobo/bonobo) - Extract Transform Load for Python 3.5+
-*   [zalando/patroni](https://github.com/zalando/patroni) - A template for PostgreSQL High Availability with Etcd, Consul, ZooKeeper, or Kubernetes
-*   [michaelmior/locomotor](https://github.com/michaelmior/locomotor) - :bullettrain_front: Automatically translate Redis access in Python :snake: to server side scripts in Lua
-*   [gmr/RabbitMQ-in-Depth](https://github.com/gmr/RabbitMQ-in-Depth) - Examples and materials for RabbitMQ in Depth
-*   [alexprengere/FormalSystems](https://github.com/alexprengere/FormalSystems) - A Python implementation of Douglas Hofstadter formal systems, from his book "Gödel, Escher, Bach"
-*   [localstack/localstack](https://github.com/localstack/localstack) - 💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!
-*   [Qix-/better-exceptions](https://github.com/Qix-/better-exceptions) - Pretty and useful exceptions in Python, automatically.
-*   [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical) - List of resources about programming practices for writing safety-critical software.
-*   [google/python-fire](https://github.com/google/python-fire) - Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
-*   [mewo2/deserts](https://github.com/mewo2/deserts) - The Deserts of the West - a 2015 NaNoGenMo entry
-*   [dropbox/securitybot](https://github.com/dropbox/securitybot) - Distributed alerting for the masses!
-*   [ubergeek42/lambda-letsencrypt](https://github.com/ubergeek42/lambda-letsencrypt) - Free Lets-Encrypt certificate management for CloudFront/AWS
-*   [ayushoriginal/Optimized-RGB-To-ColorName](https://github.com/ayushoriginal/Optimized-RGB-To-ColorName) - This API gives closest approximation of an RGB value to a set of color names. It is highly optimized for performance and scalability.
-*   [humphd/have-fun-with-machine-learning](https://github.com/humphd/have-fun-with-machine-learning) - An absolute beginner's guide to Machine Learning and Image Classification with Neural Networks
-*   [mwichary/twitter-export-image-fill](https://github.com/mwichary/twitter-export-image-fill) - A script to download (backup locally) all the images accompanying your tweets
-*   [alexflint/stdroots](https://github.com/alexflint/stdroots) - Standard CA roots embedded in a Go package.
-*   [pre-commit/pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker) - Scripts for creating mirror repositories that do not have .pre-commit-hooks.yaml
-*   [pre-commit/pre-commit](https://github.com/pre-commit/pre-commit) - A framework for managing and maintaining multi-language pre-commit hooks.
-*   [pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks) - Some out-of-the-box hooks for pre-commit
-*   [lightbulb-framework/lightbulb-framework](https://github.com/lightbulb-framework/lightbulb-framework) - Tools for auditing WAFS
-*   [eudicots/Cactus](https://github.com/eudicots/Cactus) - Static site generator for designers. Uses Python and Django templates.
-*   [guyzmo/git-repo](https://github.com/guyzmo/git-repo) - Git-Repo: CLI utility to manage git services from your workspace
-*   [seveas/git-spindle](https://github.com/seveas/git-spindle) - Command-line interface to GitHub and other central git services
-*   [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - Convert scans of handwritten notes to beautiful, compact PDFs
-*   [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
-*   [Netflix/bless](https://github.com/Netflix/bless) - Repository for BLESS, an SSH Certificate Authority that runs as a AWS Lambda function
-*   [Blazemeter/taurus](https://github.com/Blazemeter/taurus) - Automation-friendly framework for Continuous Testing by
-*   [christabor/flask_jsondash](https://github.com/christabor/flask_jsondash) - :snake: :bar_chart: :chart_with_upwards_trend: Build complex dashboards without any front-end code. Use your own endpoints. JSON config only. Ready to go.
-*   [asottile/git-code-debt](https://github.com/asottile/git-code-debt) - A dashboard for monitoring code debt in a git repository.
-*   [vfaronov/httpolice](https://github.com/vfaronov/httpolice) - Validator for HTTP
-*   [nerevu/riko](https://github.com/nerevu/riko) - A Python stream processing engine modeled after Yahoo! Pipes
-*   [alehander92/hatlog](https://github.com/alehander92/hatlog) - custom type systems for python in prolog: http://alehander42.me/prolog_type_systems
-*   [hyiltiz/vim-plugins-profile](https://github.com/hyiltiz/vim-plugins-profile) - :clock4: Profile Vim's plugins, generate awesome statistics and optimize (n)vim startup time
-*   [repleo/bounca](https://github.com/repleo/bounca) - BounCA is a web tool to generate self-signed SSL certificates and setup a key infrastructure
-*   [warpling/Macmoji](https://github.com/warpling/Macmoji) - Slack/GitHub/Trello emoji for your mac! 😁 💥 💻
-*   [donnemartin/awesome-aws](https://github.com/donnemartin/awesome-aws) - A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery Meter of AWSome.
-*   [mantl/mantl](https://github.com/mantl/mantl) - Mantl is a modern platform for rapidly deploying globally distributed services
-*   [public-apis/public-apis](https://github.com/public-apis/public-apis) - A collective list of free APIs
-*   [LoyaltyNZ/alchemy-framework](https://github.com/LoyaltyNZ/alchemy-framework) - Alchemy is a framework for creating highly available systems that are built from micro-services
-*   [lukasz-madon/hackers-job-apply](https://github.com/lukasz-madon/hackers-job-apply) - Reduce the spam you get for your job posting by setting up a micro challenge.
-*   [ccontavalli/ssh-ident](https://github.com/ccontavalli/ssh-ident) - Different agents and different keys for different projects, with ssh.
-*   [foxmask/django-th](https://github.com/foxmask/django-th) - :snake: Trigger Happy - The bus :bus: for your internet services
-*   [TailorDev/Watson](https://github.com/TailorDev/Watson) - :watch: A wonderful CLI to track your time!
-*   [joealcorn/laboratory](https://github.com/joealcorn/laboratory) - Achieving confident refactoring through experimentation with Python 2.7 & 3.3+
-*   [Kinto/kinto](https://github.com/Kinto/kinto) - A generic JSON document store with sharing and synchronisation capabilities.
-*   [ramses-tech/ramses](https://github.com/ramses-tech/ramses) - RAML + Elasticsearch / Postgres / Mongodb / Your Data Store™ + Pyramid = RESTful API
-*   [shanemhansen/graphitetailer](https://github.com/shanemhansen/graphitetailer) - Tail logs to stream data to graphite
-*   [thumbor/thumbor](https://github.com/thumbor/thumbor) - thumbor is an open-source photo thumbnail service by globo.com
-*   [datawire/bakerstreet](https://github.com/datawire/bakerstreet) - Baker Street is a HAProxy based routing engine for microservice architectures
-*   [sourcelair/ceryx](https://github.com/sourcelair/ceryx) - Dynamic reverse proxy based on NGINX OpenResty with an API
-*   [dbcli/pgcli](https://github.com/dbcli/pgcli) - Postgres CLI with autocompletion and syntax highlighting
-*   [spotify/dh-virtualenv](https://github.com/spotify/dh-virtualenv) - Python virtualenvs in Debian packages
-*   [msiemens/tinydb](https://github.com/msiemens/tinydb) - TinyDB is a lightweight document oriented database optimized for your happiness :)
-*   [pindexis/marker](https://github.com/pindexis/marker) - The terminal command palette
-*   [getsentry/sentry](https://github.com/getsentry/sentry) - Sentry is cross-platform application monitoring, with a focus on error reporting.
-*   [spotify/luigi](https://github.com/spotify/luigi) - Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.
-*   [toabctl/jiracli](https://github.com/toabctl/jiracli) - Simple command line interface for Jira
-*   [peritus/git-remote-couch](https://github.com/peritus/git-remote-couch) - a git-remote-helper that allows you to push source code into a CouchDB
-*   [ampas/aces-dev](https://github.com/ampas/aces-dev) - AMPAS Academy Color Encoding System Developer Resources
-*   [colour-science/colour](https://github.com/colour-science/colour) - Colour Science for Python
-*   [18F/rdbms-subsetter](https://github.com/18F/rdbms-subsetter) - Generates a subset of a relational database that respects foreign key constraints
-*   [munificent/magpie](https://github.com/munificent/magpie) - The Magpie programming language
-*   [facebook/chisel](https://github.com/facebook/chisel) - Chisel is a collection of LLDB commands to assist debugging iOS apps.
-*   [iffy/grace](https://github.com/iffy/grace) - Graceful server restart
-*   [spencergibb/battleschool](https://github.com/spencergibb/battleschool) - Development environment provisioning using ansible, ala boxen -> puppet, kitchenplan -> chef
-*   [jeffkaufman/icdiff](https://github.com/jeffkaufman/icdiff) - improved colored diff
-*   [buildinspace/peru](https://github.com/buildinspace/peru) - a generic package manager, for including other people's code in your projects
-*   [pixie-lang/pixie](https://github.com/pixie-lang/pixie) - A small, fast, native lisp with "magical" powers
-*   [mafrosis/sesame](https://github.com/mafrosis/sesame) - Encryption for your application's config files
-*   [fastmonkeys/stellar](https://github.com/fastmonkeys/stellar) - Fast database snapshot and restore tool for development
-*   [emre/storm](https://github.com/emre/storm) - Manage your SSH like a boss.
-*   [Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) - The awesome document factory
-*   [cwoac/nvvim](https://github.com/cwoac/nvvim) - Notational Velocity inspired mode for vim
-*   [rupa/epub](https://github.com/rupa/epub) - python/curses cli epub reader
-*   [evanpurkhiser/dots](https://github.com/evanpurkhiser/dots) - A portable tool for managing a single set of dotfiles in an organized fashion
-*   [sloria/TextBlob](https://github.com/sloria/TextBlob) - Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.
-*   [vim-vdebug/vdebug](https://github.com/vim-vdebug/vdebug) - Multi-language DBGP debugger client for Vim (PHP, Python, Perl, Ruby, etc.)
-*   [apenwarr/redo](https://github.com/apenwarr/redo) - Smaller, easier, more powerful, and more reliable than make.  An implementation of djb's redo.
-*   [progrium/skypipe](https://github.com/progrium/skypipe) - A magic pipe in the sky for the command line
-*   [AnAppAMonth/FogTracker](https://github.com/AnAppAMonth/FogTracker) - Two-way integration of FogBugz and Pivotal Tracker, written in Python and for Google AppEngine.
-*   [facebookarchive/huxley](https://github.com/facebookarchive/huxley) - A testing system for catching visual regressions in Web applications.
-*   [bslatkin/dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.
-*   [xavierd/clang_complete](https://github.com/xavierd/clang_complete) - Vim plugin that use clang for completing C/C++ code.
-*   [bitly/data_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
-*   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
-*   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
-*   [schacon/hg-git](https://github.com/schacon/hg-git) - mercurial to git bridge, pushed to directly from the hg-git plugin in Hg
-
 ## Go
 
 *   [benbjohnson/postlite](https://github.com/benbjohnson/postlite) - Postgres wire compatible SQLite proxy.
@@ -2612,178 +2836,6 @@
 *   [bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) - Go Memcached client library #golang
 *   [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
 *   [github/hub](https://github.com/github/hub) - A command-line tool that makes git easier to use with GitHub.
-
-## Shell
-
-*   [ttscoff/fish_files](https://github.com/ttscoff/fish_files) -
-*   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
-*   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
-*   [leighmcculloch/dockerhost](https://github.com/leighmcculloch/dockerhost) - A tool for simply creating a docker host vm on macOS.
-*   [phusion/traveling-ruby](https://github.com/phusion/traveling-ruby) - Self-contained Ruby binaries that can run on any Linux distribution and any macOS machine.
-*   [bevry/dorothy](https://github.com/bevry/dorothy) - 🧙🏻‍♀️ A better dotfile ecosystem with cross-platform automations. Supports fish, zsh, bash, mac, linux, windows. Zero to hero in minutes on new and existing machines.
-*   [0xmachos/macos-scripts](https://github.com/0xmachos/macos-scripts) - Various scripts for macOS tasks
-*   [space-sh/space](https://github.com/space-sh/space) - Single-file dependency-free automation tool written in Bash
-*   [robsheldon/golem](https://github.com/robsheldon/golem) -
-*   [vitorgalvao/tiny-scripts](https://github.com/vitorgalvao/tiny-scripts) - Collection of small scripts
-*   [Cyclenerd/static_status](https://github.com/Cyclenerd/static_status) - 🚦Bash script to generate a static status page.
-*   [RaymiiOrg/bash-http-monitoring](https://github.com/RaymiiOrg/bash-http-monitoring) - HTTP(s) monitoring webpage via shell script
-*   [docker-library/docs](https://github.com/docker-library/docs) - Documentation for Docker Official Images in docker-library
-*   [richie5um/TextBar-Recipes](https://github.com/richie5um/TextBar-Recipes) - TextBar Recipes
-*   [PatrickF1/fzf.fish](https://github.com/PatrickF1/fzf.fish) - Augment your fish command line with fzf key bindings.
-*   [sdushantha/tmpmail](https://github.com/sdushantha/tmpmail) - A temporary email right from your terminal written in POSIX sh
-*   [agarrharr/awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) - 🖥 📊 🕹 🛠 A curated list of command line apps
-*   [switowski/dotfiles](https://github.com/switowski/dotfiles) -
-*   [msikma/dada-shell-theme](https://github.com/msikma/dada-shell-theme) - My personal shell theme and prompt for Fish Shell
-*   [joseluisq/gitnow](https://github.com/joseluisq/gitnow) - Speed up your Git workflow. :tropical_fish:
-*   [frameable/aviary.sh](https://github.com/frameable/aviary.sh) - Minimal distributed configuration management in bash
-*   [dokku/dokku](https://github.com/dokku/dokku) - A docker-powered PaaS that helps you build and manage the lifecycle of applications
-*   [swarmlet/swarmlet](https://github.com/swarmlet/swarmlet) - A self-hosted, open-source Platform as a Service that enables easy swarm deployments, load balancing, automatic SSL, metrics, analytics and more.
-*   [hackerb9/lsix](https://github.com/hackerb9/lsix) - Like "ls", but for images. Shows thumbnails in terminal using sixel graphics.
-*   [techwizrd/fishmarks](https://github.com/techwizrd/fishmarks) - Bookmark and jump to directories faster than a sailfish! Fishmarks is a clone of bashmarks for the Fish shell.
-*   [gjaldon/heroku-buildpack-phoenix-static](https://github.com/gjaldon/heroku-buildpack-phoenix-static) - A Heroku buildpack for building Phoenix's static assets
-*   [mvz/git-subrepo-ng](https://github.com/mvz/git-subrepo-ng) - Experimental re-implementation of git-subrepo in Ruby with Rugged
-*   [ingydotnet/git-subrepo](https://github.com/ingydotnet/git-subrepo) -
-*   [laughedelic/pisces](https://github.com/laughedelic/pisces) - ♓️ Fish shell plugin that helps you to work with paired symbols in the command line
-*   [ttscoff/na](https://github.com/ttscoff/na) - Bash function for displaying next actions in plain-text files per project directory
-*   [ttscoff/reiki](https://github.com/ttscoff/reiki) -
-*   [getsentry/self-hosted](https://github.com/getsentry/self-hosted) - Sentry, feature-complete and packaged up for low-volume deployments and proofs-of-concept
-*   [cyberark/bash-lib](https://github.com/cyberark/bash-lib) - Library for bash utility methods and tools
-*   [envwarden/envwarden](https://github.com/envwarden/envwarden) - Manage your server secrets with Bitwarden
-*   [theory/pgenv](https://github.com/theory/pgenv) - PostgreSQL binary manger
-*   [docker-library/golang](https://github.com/docker-library/golang) - Docker Official Image packaging for golang
-*   [docker-library/ruby](https://github.com/docker-library/ruby) - Docker Official Image packaging for Ruby
-*   [pawelduda/fzf-live-repl](https://github.com/pawelduda/fzf-live-repl) - Turn your fzf into a live REPL
-*   [gothinkster/realworld](https://github.com/gothinkster/realworld) - "The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅
-*   [copyconstruct/library](https://github.com/copyconstruct/library) - A collection of the papers, conference talks, articles, blog posts, interesting Twitter threads, HN/reddit comments on systems engineering
-*   [docker-library/postgres](https://github.com/docker-library/postgres) - Docker Official Image packaging for Postgres
-*   [basherpm/basher](https://github.com/basherpm/basher) - A package manager for shell scripts.
-*   [matchai/spacefish](https://github.com/matchai/spacefish) - 🚀🐟 The fish shell prompt for astronauts
-*   [git-friendly/git-friendly](https://github.com/git-friendly/git-friendly) - Streamline your git workflow: just type `pull`, `branch`, `merge`, `push`
-*   [asdf-vm/asdf](https://github.com/asdf-vm/asdf) - Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
-*   [robisonsantos/evm](https://github.com/robisonsantos/evm) - Erlang Version Manager
-*   [lnav-xenserver-logs/lnav_xenserver_logs](https://github.com/lnav-xenserver-logs/lnav_xenserver_logs) - lnav format file for Citrix Hypervisor (formerly XenServer) logs
-*   [dotphiles/dotzsh](https://github.com/dotphiles/dotzsh) - A community driven framework for zsh
-*   [Kong/docker-kong](https://github.com/Kong/docker-kong) - :monkey: Docker distribution for Kong
-*   [wfxr/formarks](https://github.com/wfxr/formarks) - :bookmark: Quickly navigate your work path!
-*   [wfxr/forgit](https://github.com/wfxr/forgit) - :zzz: A utility tool powered by fzf for using git interactively.
-*   [DanielFGray/fzf-scripts](https://github.com/DanielFGray/fzf-scripts) - a collection of scripts that rely on https://github.com/junegunn/fzf
-*   [atweiden/fzf-extras](https://github.com/atweiden/fzf-extras) - Key bindings from fzf wiki
-*   [changyuheng/zsh-interactive-cd](https://github.com/changyuheng/zsh-interactive-cd) - Fish like interactive tab completion for cd in zsh
-*   [kingkool68/generate-ssl-certs-for-local-development](https://github.com/kingkool68/generate-ssl-certs-for-local-development) - A bash script for generating trusted self-signed SSL certs for local development on your Mac
-*   [npryce/adr-tools](https://github.com/npryce/adr-tools) - Command-line tools for working with Architecture Decision Records
-*   [mhinz/dotfiles](https://github.com/mhinz/dotfiles) - :smiling_imp: Vim, git, zsh, tmux, and other goodies.
-*   [caquino/redis-bash](https://github.com/caquino/redis-bash) - REDIS-BASH - Bash library to access Redis
-*   [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) - 📖 A collection of pure bash alternatives to external processes.
-*   [niieani/bash-oo-framework](https://github.com/niieani/bash-oo-framework) - Bash Infinity is a modern standard library / framework / boilerplate for Bash
-*   [rycus86/githooks](https://github.com/rycus86/githooks) - Githooks: per-repo and global Git hooks with version control
-*   [geoff-nixon/charlotte](https://github.com/geoff-nixon/charlotte) - Pure Ruby character set encoding detection library.
-*   [bats-core/bats-core](https://github.com/bats-core/bats-core) - Bash Automated Testing System
-*   [ghaiklor/backup-my-github](https://github.com/ghaiklor/backup-my-github) - Clones all your repositories to local machine
-*   [Nebo15/annon.infra](https://github.com/Nebo15/annon.infra) - Infrastructure helpers for Annon API Gateway.
-*   [moonglum/dotfiles](https://github.com/moonglum/dotfiles) - The Vagrant Box I do almost all my work in
-*   [ianmiell/gitdags](https://github.com/ianmiell/gitdags) - Create Your Own Git Diagrams
-*   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing) - :zap: From finding text to search and replace, from sorting to beautifying text and more :art:
-*   [modernish/modernish](https://github.com/modernish/modernish) - Modernish is a library for writing robust, portable, readable, and powerful programs for POSIX-based shells and utilities.
-*   [HashNuke/heroku-buildpack-elixir](https://github.com/HashNuke/heroku-buildpack-elixir) - Heroku Buildpack for Elixir with nitro boost
-*   [sb2nov/mac-setup](https://github.com/sb2nov/mac-setup) - Installing Development environment on macOS
-*   [petere/my-gettext-scripts](https://github.com/petere/my-gettext-scripts) - some small wrapper scripts around gettext tools
-*   [pgexperts/pgx_scripts](https://github.com/pgexperts/pgx_scripts) - A collection of useful little scripts for database analysis and administration, created by our team at PostgreSQL Experts.
-*   [kerl/kerl](https://github.com/kerl/kerl) - Easy building and installing of Erlang/OTP instances
-*   [caius/zshrc](https://github.com/caius/zshrc) - My ZSH configs and dotfiles
-*   [inkarkat/git-extensions](https://github.com/inkarkat/git-extensions) - Additions and tweaks to the Git CLI.
-*   [japaric/trust](https://github.com/japaric/trust) - Travis CI and AppVeyor template to test your Rust crate on 5 architectures and publish binary releases of it for Linux, macOS and Windows
-*   [postmodern/gem_home](https://github.com/postmodern/gem_home) - A tool for changing your $GEM_HOME
-*   [terlar/fry](https://github.com/terlar/fry) - Simple ruby version manager for fish
-*   [NoRedInk/elm-style-guide](https://github.com/NoRedInk/elm-style-guide) - NoRedInk style guide for our Elm code
-*   [NapoleonWils0n/bashfinder](https://github.com/NapoleonWils0n/bashfinder) - Control the Mac Finder from the Terminal
-*   [jwiegley/git-scripts](https://github.com/jwiegley/git-scripts) - A bunch of random scripts I've either written, downloaded or clipped from #git.
-*   [kedarvj/mysqldumpsplitter](https://github.com/kedarvj/mysqldumpsplitter) - MySQL Dump splitter to split / extract databases & tables from mysqldump
-*   [larkery/zsh](https://github.com/larkery/zsh) -
-*   [larkery/zsh-histdb](https://github.com/larkery/zsh-histdb) - A slightly better history for zsh
-*   [kaitai-io/kaitai_struct](https://github.com/kaitai-io/kaitai_struct) - Kaitai Struct: declarative language to generate binary data parsers in C++ / C# / Go / Java / JavaScript / Lua / Perl / PHP / Python / Ruby
-*   [jcsalterego/historian](https://github.com/jcsalterego/historian) - Command-line utility for managing shell history in a SQLite database.
-*   [robertfoss/audio_shop](https://github.com/robertfoss/audio_shop) - Your friendly neighbourhood script for mangling images or video using audio editing tools
-*   [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Papers from the computer science community to read and discuss.
-*   [k4m4/terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) - 💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.
-*   [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook) - Mac setup and configuration via Ansible.
-*   [remy/check](https://github.com/remy/check) - Checks the status of a list of urls
-*   [kamranahmedse/git-standup](https://github.com/kamranahmedse/git-standup) - Recall what you did on the last working day. Psst! or be nosy and find what someone else in your team did ;-)
-*   [Fakerr/git-recall](https://github.com/Fakerr/git-recall) - An interactive way to peruse your git history from the terminal
-*   [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) - A collection of ZSH frameworks, plugins, themes and tutorials.
-*   [robbintt/popup-openvpn](https://github.com/robbintt/popup-openvpn) - Make a self hosted OpenVPN server in 15 minutes
-*   [rpereira/dotfiles](https://github.com/rpereira/dotfiles) - :house_with_garden: .files, including zsh, tmux, vim, and git. Also macOS setup. Good stuff.
-*   [MikeMcQuaid/strap](https://github.com/MikeMcQuaid/strap) - 👢 Bootstrap your macOS development system.
-*   [ncuesta/sshok](https://github.com/ncuesta/sshok) - A dependency-free cure for SSH configuration hell :hammer:
-*   [open-guides/og-aws](https://github.com/open-guides/og-aws) - 📙 Amazon Web Services — a practical guide
-*   [mchav/with](https://github.com/mchav/with) - Command prefixing for continuous workflow using a single tool.
-*   [felixSchl/git-fiddle](https://github.com/felixSchl/git-fiddle) - Edit commit messages, authors, and timestamps during git-rebase
-*   [ianheggie/health_check](https://github.com/ianheggie/health_check) - Simple health check of Rails app for use with uptime checking sites like newrelic and pingdom
-*   [edeliver/edeliver](https://github.com/edeliver/edeliver) - Deployment for Elixir and Erlang
-*   [paulirish/git-recent](https://github.com/paulirish/git-recent) - See your latest local git branches, formatted real fancy
-*   [octoai/octo.ai](https://github.com/octoai/octo.ai) - The analytics hypervisor, an operating system to manage all your analytics needs and licensed under Apache 2.0 License.
-*   [bpkg/bpkg](https://github.com/bpkg/bpkg) - Lightweight bash package manager
-*   [mafredri/zsh-async](https://github.com/mafredri/zsh-async) - Because your terminal should be able to perform tasks asynchronously without external tools!
-*   [reedes/vim-one](https://github.com/reedes/vim-one) - Because Vim's +clientserver is awesome
-*   [rgcr/m-cli](https://github.com/rgcr/m-cli) -  Swiss Army Knife for macOS
-*   [jorgebucaran/fisher](https://github.com/jorgebucaran/fisher) - A plugin manager for Fish.
-*   [guarinogabriel/Mac-CLI](https://github.com/guarinogabriel/Mac-CLI) -  OS X command line tools for developers – The ultimate tool to manage your Mac. It provides a huge set of command line commands that automatize the usage of your OS X system.
-*   [doda-zz/twofishes-canned](https://github.com/doda-zz/twofishes-canned) - Free & ready-to-use geocoder
-*   [FusionAuth/security-scripts](https://github.com/FusionAuth/security-scripts) - Scripts built from our Guide to User Data Security
-*   [codelittinc/incubator-resources](https://github.com/codelittinc/incubator-resources) - Processes, policies, and tools for startups and product teams. All open sourced and open for contribution.
-*   [tarjoilija/zgen](https://github.com/tarjoilija/zgen) - A lightweight and simple plugin manager for ZSH
-*   [zplug/zplug](https://github.com/zplug/zplug) - :hibiscus: A next-generation plugin manager for zsh
-*   [joemiller/creds](https://github.com/joemiller/creds) - \[DEPRECATED] Simple local encrypted credential management with GPG 🔐
-*   [tjluoma/reset-app-store-app](https://github.com/tjluoma/reset-app-store-app) - run this when the Mac App Store App Just Spins and Spins
-*   [docker/docker-bench-security](https://github.com/docker/docker-bench-security) - The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.
-*   [jamesob/desk](https://github.com/jamesob/desk) - A lightweight workspace manager for the shell
-*   [Originate/guide](https://github.com/Originate/guide) - A starting point for Originate engineers, product managers, and testers
-*   [alphapapa/bucket](https://github.com/alphapapa/bucket) - A bucket for your shell (like a set of registers, or a clipboard manager)
-*   [nodesocket/jsonlite](https://github.com/nodesocket/jsonlite) - A simple, self-contained, serverless, zero-configuration, json document store.
-*   [stickperson/dotfiles](https://github.com/stickperson/dotfiles) - dotfiles and instructions for setting up a laptop from scratch
-*   [sindresorhus/pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
-*   [gilesbowkett/rewind](https://github.com/gilesbowkett/rewind) - Rewind is an intelligent archivist.
-*   [jleclanche/dotfiles](https://github.com/jleclanche/dotfiles) - .zshrc and other bootstrap files
-*   [CISOfy/lynis](https://github.com/CISOfy/lynis) - Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.
-*   [StreakyCobra/gws](https://github.com/StreakyCobra/gws) - Colorful KISS helper for git workspaces
-*   [lukaszkorecki/DotFiles](https://github.com/lukaszkorecki/DotFiles) - ~/.DotFiles
-*   [SixArm/sixarm_git_gitconfig](https://github.com/SixArm/sixarm_git_gitconfig) - SixArm.com: Git: gitconfig files, aliases, colors, branches, etc.
-*   [felipec/git-remote-hg](https://github.com/felipec/git-remote-hg) - Transparent bidirectional bridge between Git and Mercurial for Git
-*   [myArchivedProjects/git-remote-gcrypt](https://github.com/myArchivedProjects/git-remote-gcrypt) - git-remote-gcrypt: A git remote helper for GPG-encrypted remotes
-*   [shellfire-dev/shellfire](https://github.com/shellfire-dev/shellfire) - A repository of namespaced, composable shell (bash, sh and dash) function libraries. Takes aware the pain of shell scripting, making it robust and reusable. Includes secure curl usage, JSON, XML and Debian control file parsers, dependency documentation via attributes, and more. Batteries ARE included.
-*   [atomantic/dotfiles](https://github.com/atomantic/dotfiles) - 🖥️ Automated Configuration, Preferences and Software Installation for macOS
-*   [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) - :wrench: .files, including ~/.macos — sensible hacker defaults for macOS
-*   [cowboy/dotfiles](https://github.com/cowboy/dotfiles) - My Ubuntu / OS X dotfiles.
-*   [paulmillr/dotfiles](https://github.com/paulmillr/dotfiles) - Colourful & robust configuration files and utilities for Mac, Linux and BSD
-*   [eduardolundgren/dotfiles](https://github.com/eduardolundgren/dotfiles) - \[DEPRECATED] The first JavaScript-based dotfiles powered by Grunt.
-*   [tj/git-extras](https://github.com/tj/git-extras) - GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
-*   [elasticdog/transcrypt](https://github.com/elasticdog/transcrypt) - transparently encrypt files within a git repository
-*   [zsh-users/zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - 🐠 ZSH port of Fish history search (up arrow)
-*   [sorin-ionescu/prezto](https://github.com/sorin-ionescu/prezto) - The configuration framework for Zsh
-*   [splinesoft/SSBuild](https://github.com/splinesoft/SSBuild) - A build script for continuous integration of iOS apps.
-*   [rtomayko/git-sh](https://github.com/rtomayko/git-sh) - A customized bash environment suitable for git work.
-*   [fagiani/shellstack](https://github.com/fagiani/shellstack) - ShellStack is a collection of bash scripts to install apps on ubuntu linux
-*   [barryclark/bashstrap](https://github.com/barryclark/bashstrap) - A quick way to spruce up your terminal in OSX.
-*   [richo/babashka](https://github.com/richo/babashka) -
-*   [mottram/dotfiles](https://github.com/mottram/dotfiles) - Configuration gubbins
-*   [Bash-it/bash-it](https://github.com/Bash-it/bash-it) - A community Bash framework.
-*   [iaindooley/pickdrop](https://github.com/iaindooley/pickdrop) - A unix shell script which allows you to "pick" files one at a time and then drop them in one place
-*   [vincentbernat/zshrc](https://github.com/vincentbernat/zshrc) - My .zshrc
-*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - ⏰ Countdown timer with several modes written in Zsh shell script.
-*   [paulirish/dotfiles](https://github.com/paulirish/dotfiles) - paul's shell, git, etc config files. also homebrew, migration setup. good stuff.
-*   [simonwhitaker/gibo](https://github.com/simonwhitaker/gibo) - Easy access to gitignore boilerplates
-*   [catenate/credo](https://github.com/catenate/credo) - Many small scripts generate, comprise, and run a build system. (An adaptation of djb's "redo" build-tool idea.)
-*   [jonathanpenn/ui-screen-shooter](https://github.com/jonathanpenn/ui-screen-shooter) - Using UI Automation to automatically generate all screenshots of your iOS app, on different device types, in different locales by running a single command. Hands free.
-*   [treyhunner/tmuxstart](https://github.com/treyhunner/tmuxstart) - Create default configurations for your named tmux sessions
-*   [jgallen23/mongroup](https://github.com/jgallen23/mongroup) - Monitor a group of processes with mon
-*   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
-*   [scmbreeze/scm_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
-*   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
-*   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
-*   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
-*   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
-*   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
-*   [halostatue/ryanb-dotfiles-fork](https://github.com/halostatue/ryanb-dotfiles-fork) - config files for zsh, bash, completions, gem, git, irb, rails
-*   [wesabe/git-tools](https://github.com/wesabe/git-tools) - Tools for managing remote git repositories.
 
 ## generic
 
@@ -3198,6 +3250,7 @@
 *   [halogenandtoast/oath](https://github.com/halogenandtoast/oath) - Oath is rails authentication made simple. Previously known as Monban
 *   [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
 *   [DamirSvrtan/fasterer](https://github.com/DamirSvrtan/fasterer) - :zap: Don't make your Rubies go fast. Make them go fasterer ™. :zap:
+*   [DamirSvrtan/fasterer](https://github.com/DamirSvrtan/fasterer) - :zap: Don't make your Rubies go fast. Make them go fasterer ™. :zap:
 *   [rails/rails-perftest](https://github.com/rails/rails-perftest) - Benchmark and profile your Rails apps
 *   [fastruby/fast-ruby](https://github.com/fastruby/fast-ruby) - :dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.
 *   [projectblacklight/blacklight](https://github.com/projectblacklight/blacklight) - Blacklight provides a discovery interface for any Solr (http://lucene.apache.org/solr) index.
@@ -3560,11 +3613,6 @@
 *   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
 *   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
 *   [halostatue/transaction-simple](https://github.com/halostatue/transaction-simple) - Transaction::Simple for Ruby
-*   [halostatue/text-formatting](https://github.com/halostatue/text-formatting) - Text Formatting tools for Ruby
-*   [halostatue/ruwiki](https://github.com/halostatue/ruwiki) - Ruwiki. This is a dead project and is only preserved for historical reasons.
-*   [mime-types/ruby-mime-types](https://github.com/mime-types/ruby-mime-types) - Ruby MIME type registry library
-*   [halostatue/color](https://github.com/halostatue/color) - Color tools for Ruby.
-*   [ruby-i18n/i18n](https://github.com/ruby-i18n/i18n) - Internationalization (i18n) library for Ruby
 
 ## Vim script
 
@@ -3611,7 +3659,6 @@
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
 *   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
 *   [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic) - Syntax checking hacks for vim
-*   [tpope/vim-git](https://github.com/tpope/vim-git) - Vim Git runtime files
 
 ## Makefile
 
@@ -3637,53 +3684,6 @@
 *   [sass-mq/sass-mq](https://github.com/sass-mq/sass-mq) - A Sass mixin that helps you compose media queries in an elegant way.
 *   [zellwk/mappy-breakpoints](https://github.com/zellwk/mappy-breakpoints) - Breakpoints with Maps in Sass
 *   [slatedocs/slate](https://github.com/slatedocs/slate) - Beautiful static documentation for your API
-
-## CSS
-
-*   [evildmp/diataxis-documentation-framework](https://github.com/evildmp/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
-*   [elad2412/the-new-css-reset](https://github.com/elad2412/the-new-css-reset) - The New Simple and Lighter CSS Reset
-*   [robinsloan/perfect-edition](https://github.com/robinsloan/perfect-edition) - A lightweight, responsive web e-book template
-*   [aesmail/kaffy](https://github.com/aesmail/kaffy) - Powerfully simple admin package for phoenix applications
-*   [kognise/water.css](https://github.com/kognise/water.css) - A drop-in collection of CSS styles to make simple websites just a little nicer
-*   [briangraves/ResponsiveEmailPatterns](https://github.com/briangraves/ResponsiveEmailPatterns) - A collection of patterns & modules for responsive emails
-*   [bagder/http2-explained](https://github.com/bagder/http2-explained) - A detailed document explaining and documenting HTTP/2, the successor to the widely popular HTTP/1.1 protocol
-*   [IBM/plex](https://github.com/IBM/plex) - The package of IBM’s typeface, IBM Plex.
-*   [IBM/css-gridish](https://github.com/IBM/css-gridish) - Automatically build your grid design’s CSS Grid code, CSS Flexbox fallback code, Sketch artboards, and Chrome extension.
-*   [jgthms/bulma](https://github.com/jgthms/bulma) - Modern CSS framework based on Flexbox
-*   [heathermiller/dist-prog-book](https://github.com/heathermiller/dist-prog-book) -
-*   [aftertheflood/sparks](https://github.com/aftertheflood/sparks) - A typeface for creating sparklines in text without code.
-*   [kbrsh/wing](https://github.com/kbrsh/wing) - :gem: A beautiful CSS framework designed for minimalists.
-*   [creativetimofficial/now-ui-kit](https://github.com/creativetimofficial/now-ui-kit) - Now UI Kit Bootstrap 4 - Designed by Invision. Coded by Creative Tim
-*   [manton/JSONFeed](https://github.com/manton/JSONFeed) - The JSONFeed.org website
-*   [headius/osx-on-linux](https://github.com/headius/osx-on-linux) - Configurations and guides to making Linux feel like OS X
-*   [littleosbook/littleosbook](https://github.com/littleosbook/littleosbook) - Source for the little book about OS development
-*   [usnistgov/800-63-3](https://github.com/usnistgov/800-63-3) - Home to public development of NIST Special Publication 800-63-3: Digital Authentication Guidelines
-*   [RichardBray/banana-chocolate-chip](https://github.com/RichardBray/banana-chocolate-chip) - Front-end framework for modern web apps  powered by gulp, based on muffin.
-*   [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) - CSS is powerful, you can do a lot of things without JS.
-*   [stribika/stribika.github.io](https://github.com/stribika/stribika.github.io) -
-*   [dencold/hasper](https://github.com/dencold/hasper) - a port of Ghost's casper theme for Hugo
-*   [rohitkrai03/pills](https://github.com/rohitkrai03/pills) - A simple responsive CSS Grid for humans. View Demo -
-*   [tylerchilds/cutestrap](https://github.com/tylerchilds/cutestrap) - A strong, independent CSS Framework. Only 2.7KB minified & gzipped.
-*   [happycog/templatestarter2016](https://github.com/happycog/templatestarter2016) - Happy Cog frontend starter files
-*   [steshaw/plt](https://github.com/steshaw/plt) - Programming Language Theory λΠ
-*   [ageitgey/amplify](https://github.com/ageitgey/amplify) - A Jekyll html theme in the vague style of Medium.com built using Google AMP
-*   [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) - Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more
-*   [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) - A meaningful web typography starter kit.
-*   [AlexTatiyants/pev](https://github.com/AlexTatiyants/pev) - Postgres Explain Visualizer
-*   [EthicalSource/contributor_covenant](https://github.com/EthicalSource/contributor_covenant) - Pledge your respect and appreciation for contributors of all kinds to your open source project.
-*   [VitoVan/wonder-color](https://github.com/VitoVan/wonder-color) - Translate Text to Color
-*   [kilianc/rtail](https://github.com/kilianc/rtail) - rtail(1) - Terminal output to the browser in seconds, using UNIX pipes.
-*   [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme) - Tomorrow Theme now lives on at https://github.com/chriskempson/base16
-*   [mquan/lavish](https://github.com/mquan/lavish) - a rails app that generates Bootstrap color scheme from an image
-*   [hahahana/bootstrap_sass_examples](https://github.com/hahahana/bootstrap_sass_examples) - Bootstrap examples done in Rails 4 with bootstrap-sass
-*   [dhg/Skeleton](https://github.com/dhg/Skeleton) - Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development
-*   [furiouscollective/gridforms](https://github.com/furiouscollective/gridforms) - Data entry can be beautiful
-*   [mikekelly/hal_specification](https://github.com/mikekelly/hal_specification) - HAL Specification
-*   [mkaz/lanyon](https://github.com/mkaz/lanyon) - markdown web server
-*   [mozilla/Fira](https://github.com/mozilla/Fira) - Mozilla's new typeface, used in Firefox OS
-*   [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
-*   [mmozuras/git-playback](https://github.com/mmozuras/git-playback) - Create visual playback of your commits
-*   [codeplant/simple-navigation-demo](https://github.com/codeplant/simple-navigation-demo) - This is a sample application demonstrating the use of the simple-navigation gem. There's code for Rails 2, Rails 3, Rails4, Sinatra and Padrino.
 
 ## Java
 
