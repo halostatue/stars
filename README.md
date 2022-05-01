@@ -4,7 +4,9 @@
 
 ## Table of Contents
 
+*   [Go](#go)
 *   [TypeScript](#typescript)
+*   [generic](#generic)
 *   [Rust](#rust)
 *   [Python](#python)
 *   [Shell](#shell)
@@ -15,8 +17,6 @@
 *   [Svelte](#svelte)
 *   [HTML](#html)
 *   [C](#c)
-*   [Go](#go)
-*   [generic](#generic)
 *   [Ruby](#ruby)
 *   [Vim script](#vim-script)
 *   [Makefile](#makefile)
@@ -85,8 +85,325 @@
 *   [Oz](#oz)
 *   [TeX](#tex)
 
+## Go
+
+*   [sourcegraph/doctree](https://github.com/sourcegraph/doctree) - First-class library docs tool: supports every language, symbol search, finds usage examples automagically. Based on tree-sitter, runnable standalone or via http://doctree.org
+*   [benbjohnson/postlite](https://github.com/benbjohnson/postlite) - Postgres wire compatible SQLite proxy.
+*   [bitfield/script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
+*   [ariga/atlas](https://github.com/ariga/atlas) - A database toolkit
+*   [slackhq/nebula](https://github.com/slackhq/nebula) - A scalable overlay networking tool with a focus on performance, simplicity and security
+*   [antoniomika/sish](https://github.com/antoniomika/sish) - HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.
+*   [derailed/k9s](https://github.com/derailed/k9s) - 🐶 Kubernetes CLI To Manage Your Clusters In Style!
+*   [werf/werf](https://github.com/werf/werf) - A solution for implementing efficient and consistent software delivery to Kubernetes facilitating best practices.
+*   [benthosdev/benthos](https://github.com/benthosdev/benthos) - Fancy stream processing made operationally mundane
+*   [benhoyt/goawk](https://github.com/benhoyt/goawk) - A POSIX-compliant AWK interpreter written in Go
+*   [multiprocessio/dsq](https://github.com/multiprocessio/dsq) - Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
+*   [infracost/infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests💰📉 Love your cloud bill!
+*   [cbuschka/tfvm](https://github.com/cbuschka/tfvm) - Terraform Version Manager - Always the right terraform version for your project
+*   [charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line🍦
+*   [zinclabs/zinc](https://github.com/zinclabs/zinc) - Zinc Search engine. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+*   [earthly/earthly](https://github.com/earthly/earthly) - The effortless CI/CD framework that runs anywhere
+*   [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
+*   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
+*   [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Fast and secure standalone server for resizing and converting remote images
+*   [ycd/dstp](https://github.com/ycd/dstp) - 🧪 Run common networking tests against your site.
+*   [apptainer/singularity](https://github.com/apptainer/singularity) - Singularity has been EOL'ed, see Apptainer
+*   [gotify/server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
+*   [benhoyt/simplelists](https://github.com/benhoyt/simplelists) - Tiny to-do list web app written in Go
+*   [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) - DockerSlim (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
+*   [nginx-proxy/docker-gen](https://github.com/nginx-proxy/docker-gen) - Generate files from docker container meta-data
+*   [cue-lang/cue](https://github.com/cue-lang/cue) - The new home of the CUE language! Validate and define text-based and dynamic configuration
+*   [authzed/spicedb](https://github.com/authzed/spicedb) - SpiceDB: Open source permissions database inspired by Google Zanzibar
+*   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
+*   [tilt-dev/tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes.
+*   [DarthSim/overmind](https://github.com/DarthSim/overmind) - Process manager for Procfile-based applications and tmux
+*   [deref/exo](https://github.com/deref/exo) - A process manager & log viewer for dev
+*   [kovetskiy/mark](https://github.com/kovetskiy/mark) - Sync your markdown files with Confluence pages.
+*   [bouk/babelfish](https://github.com/bouk/babelfish) - Translate bash scripts to fish
+*   [evilmartians/lefthook](https://github.com/evilmartians/lefthook) - Fast and powerful Git hooks manager for any type of projects.
+*   [nelhage/llama](https://github.com/nelhage/llama) -
+*   [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, typically on macOS, for running containerd
+*   [mtlynch/logpaste](https://github.com/mtlynch/logpaste) - A simple web service for storing text log files
+*   [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - VictoriaMetrics: fast, cost-effective monitoring solution and time series database
+*   [matryer/xbar](https://github.com/matryer/xbar) - Put the output from any script or program into your macOS Menu Bar (the BitBar reboot)
+*   [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) - Automatically provision and manage TLS certificates in Kubernetes
+*   [inetaf/netaddr](https://github.com/inetaf/netaddr) - Network address types
+*   [dennis-tra/pcp](https://github.com/dennis-tra/pcp) - 📦 Command line peer-to-peer data transfer tool based on libp2p.
+*   [wagoodman/dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
+*   [benbjohnson/litestream](https://github.com/benbjohnson/litestream) - Streaming replication for SQLite.
+*   [rqlite/rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed relational database built on SQLite
+*   [mr-karan/doggo](https://github.com/mr-karan/doggo) - :dog: Command-line DNS Client for Humans. Written in Golang
+*   [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
+*   [safe-waters/docker-lock](https://github.com/safe-waters/docker-lock) - Automatically manage image digests in Dockerfiles, docker-compose files, and Kubernetes manifests by tracking them in a separate Lockfile
+*   [charmbracelet/bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🍡
+*   [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
+*   [screego/server](https://github.com/screego/server) - screen sharing for developers https://screego.net/
+*   [MichaelMure/git-bug](https://github.com/MichaelMure/git-bug) - Distributed, offline-first bug tracker embedded in git, with bridges
+*   [octoproject/octo-cli](https://github.com/octoproject/octo-cli) - CLI tool to expose data from any database as a serverless web service.
+*   [thesephist/ink](https://github.com/thesephist/ink) - Ink is a minimal programming language inspired by modern JavaScript and Go, with functional style.
+*   [thesephist/lovecroft](https://github.com/thesephist/lovecroft) - Minimal mailing list manager for static sites, with a simple JSON API
+*   [root-gg/plik](https://github.com/root-gg/plik) - Plik is a temporary file upload system (Wetransfer like) in Go.
+*   [dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh) - Easy and fast file sharing from the command-line.
+*   [strongdm/comply](https://github.com/strongdm/comply) - Compliance automation framework, focused on SOC2
+*   [goharbor/harbor](https://github.com/goharbor/harbor) - An open source trusted cloud native registry project that stores, signs, and scans content.
+*   [ohler55/ojg](https://github.com/ohler55/ojg) - Optimized JSON for Go
+*   [UHN/ggql](https://github.com/UHN/ggql) - GraphQL implementation for golang.
+*   [securitybunker/databunker](https://github.com/securitybunker/databunker) - A secure user directory built for developers to comply with the GDPR
+*   [filhodanuvem/gitql](https://github.com/filhodanuvem/gitql) - 💊 A git query language
+*   [whytheplatypus/switchboard](https://github.com/whytheplatypus/switchboard) - Simple mDNS based reverse proxy for personal infrastructure.
+*   [timbray/topfew](https://github.com/timbray/topfew) - Finds the fields (or combinations of fields) which appear most often in a stream of records.
+*   [evanw/esbuild](https://github.com/evanw/esbuild) - An extremely fast JavaScript and CSS bundler and minifier
+*   [Trendyol/four-key](https://github.com/Trendyol/four-key) - four-key is a measurement tool written with golang for your repositories. This project inspired from Accelerate book.
+*   [tj/spa](https://github.com/tj/spa) - Tiny Single Page Application server for Go with `spa` command-line tool.
+*   [nivaldomartinez/link-preview-api](https://github.com/nivaldomartinez/link-preview-api) - Backed to provide information for link-prevue vue component
+*   [ergochat/ergo](https://github.com/ergochat/ergo) - A modern IRC server (daemon/ircd) written in Go.
+*   [keys-pub/keys](https://github.com/keys-pub/keys) - Key management is hard
+*   [mozilla/sops](https://github.com/mozilla/sops) - Simple and flexible tool for managing secrets
+*   [keybase/saltpack](https://github.com/keybase/saltpack) - a modern crypto messaging format
+*   [FiloSottile/age](https://github.com/FiloSottile/age) - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
+*   [moul/totp-keychain](https://github.com/moul/totp-keychain) - :lock: TOTP cli backed by the OS X keychain
+*   [99designs/aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments
+*   [dedis/tlc](https://github.com/dedis/tlc) - Threshold Logical Clocks and Que Sera Consensus
+*   [kingluo/pgcat](https://github.com/kingluo/pgcat) - Enhanced PostgreSQL logical replication
+*   [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) - Building event-driven applications the easy way in Go.
+*   [ThreeDotsLabs/watermill-benchmark](https://github.com/ThreeDotsLabs/watermill-benchmark) - Benchmarking tools for Watermill.
+*   [jcouture/nv](https://github.com/jcouture/nv) - Lightweight utility to load context specific environment variables
+*   [google/licenseclassifier](https://github.com/google/licenseclassifier) - A License Classifier
+*   [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
+*   [CHURPTeam/CHURP](https://github.com/CHURPTeam/CHURP) - Decentralize your secrets!
+*   [cube2222/octosql](https://github.com/cube2222/octosql) - OctoSQL is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL.
+*   [contribsys/faktory](https://github.com/contribsys/faktory) - Language-agnostic persistent background job server
+*   [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob
+*   [ProtonMail/gopenpgp](https://github.com/ProtonMail/gopenpgp) - A high-level OpenPGP library
+*   [schollz/croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another :crocodile: :package:
+*   [jmoiron/sqlx](https://github.com/jmoiron/sqlx) - general purpose extensions to golang's database/sql
+*   [colinjfw/sqlkit](https://github.com/colinjfw/sqlkit) - SQL builder and powerful database toolkit for Golang
+*   [perkeep/perkeep](https://github.com/perkeep/perkeep) - Perkeep (née Camlistore) is your personal storage system for life: a way of storing, syncing, sharing, modelling and backing up content.
+*   [mholt/timeliner](https://github.com/mholt/timeliner) - All your digital life on a single timeline, stored locally
+*   [rsc/diff](https://github.com/rsc/diff) - Diff(1)
+*   [coder/sail](https://github.com/coder/sail) - Deprecated: Instant, pre-configured VS Code development environments.
+*   [1Password/spg](https://github.com/1Password/spg) - 1Password's Strong Password Generator - Go package
+*   [1Password/srp](https://github.com/1Password/srp) - A set of Go functions for Secure Remote Password protocol implementation in 1Password Teams
+*   [dosco/graphjin](https://github.com/dosco/graphjin) - GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.
+*   [eBay/akutan](https://github.com/eBay/akutan) - A distributed knowledge graph store
+*   [getsentry/raven-go](https://github.com/getsentry/raven-go) - Sentry client in Go
+*   [uber/cadence](https://github.com/uber/cadence) - Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way.
+*   [gmemstr/Platypus](https://github.com/gmemstr/Platypus) - Large-scale server monitoring application written in Golang
+*   [gocardless/pgreplay-go](https://github.com/gocardless/pgreplay-go) - Postgres load testing tool
+*   [xyproto/algernon](https://github.com/xyproto/algernon) - :tophat: Small self-contained pure-Go web server with Lua, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support
+*   [runatlantis/atlantis](https://github.com/runatlantis/atlantis) - Terraform Pull Request Automation
+*   [opencontrol/compliance-masonry](https://github.com/opencontrol/compliance-masonry) - Security Documentation Builder
+*   [grafana/loki](https://github.com/grafana/loki) - Like Prometheus, but for logs.
+*   [isacikgoz/gitin](https://github.com/isacikgoz/gitin) - commit/branch/workdir explorer for git
+*   [ergo-services/ergo](https://github.com/ergo-services/ergo) - an actor based Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang
+*   [k3s-io/k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes
+*   [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) - Native GraphQL Database with graph backend
+*   [oklog/run](https://github.com/oklog/run) - A universal mechanism to manage goroutine lifecycles
+*   [golang-migrate/migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
+*   [jsha/minica](https://github.com/jsha/minica) - minica is a small, simple CA intended for use in situations where the CA operator also operates each host where a certificate will be used.
+*   [Kong/kubernetes-ingress-controller](https://github.com/Kong/kubernetes-ingress-controller) - :gorilla: Kong for Kubernetes: The official Ingress Controller for Kubernetes.
+*   [seibert-media/hangouts-jira-bot](https://github.com/seibert-media/hangouts-jira-bot) - Chat Bot to integrate Jira Server into Google Hangouts Chat using Pub/Sub
+*   [ehazlett/stellar](https://github.com/ehazlett/stellar) - Simplified Container System
+*   [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) - A simple zero-config tool to make locally trusted development certificates with any names you'd like.
+*   [errata-ai/vale](https://github.com/errata-ai/vale) - :pencil: A syntax-aware linter for prose built with speed and extensibility in mind.
+*   [magefile/mage](https://github.com/magefile/mage) - a Make/rake-like dev tool using Go
+*   [snakecharmer/sentry_exporter](https://github.com/snakecharmer/sentry_exporter) - Prometheus exporter for Sentry
+*   [kubernetes/minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally
+*   [buzzfeed/sso](https://github.com/buzzfeed/sso) - sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
+*   [ericfreese/rat](https://github.com/ericfreese/rat) - Compose shell commands to build interactive terminal applications
+*   [gomods/athens](https://github.com/gomods/athens) - A Go module datastore and proxy
+*   [segmentio/ksuid](https://github.com/segmentio/ksuid) - K-Sortable Globally Unique IDs
+*   [git-hooks/git-hooks](https://github.com/git-hooks/git-hooks) - git hooks manager
+*   [open-policy-agent/opa](https://github.com/open-policy-agent/opa) - An open source, general-purpose policy engine.
+*   [rapidloop/pgmetrics](https://github.com/rapidloop/pgmetrics) - Collect and display information and stats from a running PostgreSQL server
+*   [attic-labs/noms](https://github.com/attic-labs/noms) - The versioned, forkable, syncable database
+*   [crawshaw/littleboss](https://github.com/crawshaw/littleboss) - littleboss: supervisor construction kit
+*   [golangci/golangci-lint](https://github.com/golangci/golangci-lint) - Fast linters Runner for Go
+*   [rs/curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie.
+*   [AlloyCI/alloy-runner](https://github.com/AlloyCI/alloy-runner) - AlloyCI Runner
+*   [brianm/pwned](https://github.com/brianm/pwned) - Local CLI for checking against https://haveibeenpwned.com/Passwords
+*   [bits-and-blooms/bloom](https://github.com/bits-and-blooms/bloom) - Go package implementing Bloom filters
+*   [dinedal/textql](https://github.com/dinedal/textql) - Execute SQL against structured text like CSV or TSV
+*   [imdario/gluo](https://github.com/imdario/gluo) - Write your Go net/http server once, deploy it everywhere (on-premise & AWS Lambda supported)
+*   [goadapp/goad](https://github.com/goadapp/goad) - Goad is an AWS Lambda powered, highly distributed, load testing tool
+*   [schollz/find3](https://github.com/schollz/find3) - High-precision indoor positioning framework, version 3.
+*   [kryptco/kr](https://github.com/kryptco/kr) - A dev tool for SSH auth + Git commit/tag signing using a key stored in Krypton.
+*   [shurcooL/graphql](https://github.com/shurcooL/graphql) - Package graphql provides a GraphQL client implementation.
+*   [esimov/caire](https://github.com/esimov/caire) - Content aware image resize library
+*   [99designs/gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library
+*   [lmorg/murex](https://github.com/lmorg/murex) - Bash-like shell and scripting environment with advanced features designed for safety and productivity (eg smarter DevOps tooling)
+*   [fireworq/fireworq](https://github.com/fireworq/fireworq) - Fireworq is a lightweight, high-performance, language-independent job queue system.
+*   [Jimdo/aws-health-exporter](https://github.com/Jimdo/aws-health-exporter) - AWS Health API Exporter for Prometheus
+*   [slok/ecs-exporter](https://github.com/slok/ecs-exporter) - Export AWS ECS cluster metrics to Prometheus
+*   [stuartnelson3/passenger_exporter](https://github.com/stuartnelson3/passenger_exporter) - prometheus passenger exporter for nginx integration
+*   [prometheus/node_exporter](https://github.com/prometheus/node_exporter) - Exporter for machine metrics
+*   [prometheus-community/postgres_exporter](https://github.com/prometheus-community/postgres_exporter) - A PostgreSQL metric exporter for Prometheus
+*   [prometheus/client_golang](https://github.com/prometheus/client_golang) - Prometheus instrumentation library for Go applications
+*   [axiomhq/hyperminhash](https://github.com/axiomhq/hyperminhash) - HyperMinHash: Bringing intersections to HyperLogLog
+*   [dbohdan/automatic-api](https://github.com/dbohdan/automatic-api) - A list of software that turns your database into a REST/GraphQL API
+*   [cirocosta/cr](https://github.com/cirocosta/cr) - Runs your tasks at maximum concurrency
+*   [moul/sshportal](https://github.com/moul/sshportal) - :tophat: simple, fun and transparent SSH (and telnet) bastion server
+*   [matthewmueller/joy](https://github.com/matthewmueller/joy) - A delightful Go to Javascript compiler (ON HOLD)
+*   [manifoldco/promptui](https://github.com/manifoldco/promptui) - Interactive prompt for command-line applications
+*   [tidwall/evio](https://github.com/tidwall/evio) - Fast event-loop networking for Go
+*   [gritzko/ron](https://github.com/gritzko/ron) - (dated, see the site) Replicated Object Notation, a distributed live data format, golang/ragel lib
+*   [neugram/ng](https://github.com/neugram/ng) - scripting language integrated with Go
+*   [gomatcha/matcha](https://github.com/gomatcha/matcha) - Build native mobile apps in Go.
+*   [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) - CNCF Jaeger, a Distributed Tracing Platform
+*   [ory/hydra](https://github.com/ory/hydra) - OpenID Certified™ OpenID Connect and OAuth Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language. Works with Hardware Security Modules. Compatible with MITREid.
+*   [tmc/pqstream](https://github.com/tmc/pqstream) - pqstream turns your postgres database into an event stream
+*   [wal-g/wal-g](https://github.com/wal-g/wal-g) - Archival and Restoration for Postgres
+*   [muesli/smartcrop](https://github.com/muesli/smartcrop) - smartcrop finds good image crops for arbitrary crop sizes
+*   [d4l3k/go-pry](https://github.com/d4l3k/go-pry) - An interactive REPL for Go that allows you to drop into your code at any point.
+*   [wcharczuk/go-chart](https://github.com/wcharczuk/go-chart) - go chart is a basic charting library in go.
+*   [rhysd/dotfiles](https://github.com/rhysd/dotfiles) - dotfiles symbolic links management CLI
+*   [DanielMorsing/suss](https://github.com/DanielMorsing/suss) - A property-based testing library
+*   [dgraph-io/badger](https://github.com/dgraph-io/badger) - Fast key-value DB in Go.
+*   [pengwynn/flint](https://github.com/pengwynn/flint) - Check your project for common sources of contributor friction.
+*   [axiomhq/hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog with lots of sugar (Sparse, LogLog-Beta bias correction and TailCut space reduction)
+*   [gilbertchen/duplicacy](https://github.com/gilbertchen/duplicacy) - A new generation cloud backup tool
+*   [moul/assh](https://github.com/moul/assh) - :computer: make your ssh client smarter
+*   [lovoo/goka](https://github.com/lovoo/goka) - Goka is a compact yet powerful distributed stream processing library for Apache Kafka written in Go.
+*   [open-falcon/falcon-plus](https://github.com/open-falcon/falcon-plus) -  An open-source and enterprise-level monitoring system.
+*   [cloudtools/ssh-cert-authority](https://github.com/cloudtools/ssh-cert-authority) - An implementation of an SSH certificate authority.
+*   [awnumar/memguard](https://github.com/awnumar/memguard) - Secure software enclave for storage of sensitive information in memory.
+*   [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) - Find credentials all over the place
+*   [cayleygraph/cayley](https://github.com/cayleygraph/cayley) - An open-source graph database
+*   [ponzu-cms/ponzu](https://github.com/ponzu-cms/ponzu) - Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexible server framework written in Go.
+*   [cheekybits/genny](https://github.com/cheekybits/genny) - Elegant generics for Go
+*   [xo/usql](https://github.com/xo/usql) - Universal command-line interface for SQL databases
+*   [vektra/vega](https://github.com/vektra/vega) - A distributed mailbox system
+*   [muesli/beehive](https://github.com/muesli/beehive) - A flexible event/agent & automation system with lots of bees 🐝
+*   [envoyproxy/ratelimit](https://github.com/envoyproxy/ratelimit) - Go/gRPC service designed to enable generic rate limit scenarios from different types of applications.
+*   [uber/pam-ussh](https://github.com/uber/pam-ussh) - uber's ssh certificate pam module
+*   [gopasspw/gopass](https://github.com/gopasspw/gopass) - The slightly more awesome standard unix password manager for teams
+*   [getantibody/antibody](https://github.com/getantibody/antibody) - The fastest shell plugin manager.
+*   [oklog/oklog](https://github.com/oklog/oklog) - A distributed and coördination-free log management system
+*   [oelmekki/pgrebase](https://github.com/oelmekki/pgrebase) - Easy postgres codebase injection - aka postgres non data live reload
+*   [lastbackend/lastbackend](https://github.com/lastbackend/lastbackend) - System for containerized apps management. From build to scaling.
+*   [hashicorp/vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper) - Vault SSH Agent is used to enable one time keys and passwords
+*   [campoy/jsonenums](https://github.com/campoy/jsonenums) - This tool is similar to golang.org/x/tools/cmd/stringer but generates MarshalJSON and UnmarshalJSON methods.
+*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more. A true successor of expressjs and laravel | 谢谢 https://github.com/kataras/iris/issues/1329 |
+*   [simon-engledew/gocmdpev](https://github.com/simon-engledew/gocmdpev) - A command-line GO Postgres query visualizer, heavily inspired by pev (https://github.com/AlexTatiyants/pev)
+*   [radovskyb/go-packages](https://github.com/radovskyb/go-packages) - A large repository of code and documented examples for Go's standard package library.
+*   [genuinetools/certok](https://github.com/genuinetools/certok) - Command line tool to check the validity and expiration dates of SSL certificates.
+*   [go-playground/colors](https://github.com/go-playground/colors) - :art: Go color manipulation, conversion and printing library/utility
+*   [go-playground/tz](https://github.com/go-playground/tz) - Timezone Country and Zone data generated from timezonedb.com
+*   [go-playground/spoon](https://github.com/go-playground/spoon) - library + program to help making zero downtime, self-upgrading programs and servers.
+*   [go-playground/pool](https://github.com/go-playground/pool) - :speedboat: a limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation
+*   [apex/log](https://github.com/apex/log) - Structured logging package for Go.
+*   [go-playground/log](https://github.com/go-playground/log) - :green_book: Simple, configurable and scalable Structured Logging for Go.
+*   [go-playground/stats](https://github.com/go-playground/stats) - :chart_with_upwards_trend: Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
+*   [go-playground/universal-translator](https://github.com/go-playground/universal-translator) - :speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization rules
+*   [go-playground/pure](https://github.com/go-playground/pure) - :non-potable_water: Is a lightweight  HTTP router that sticks to the std "net/http" implementation
+*   [go-playground/overalls](https://github.com/go-playground/overalls) - :jeans:Multi-Package go project coverprofile for tools like goveralls
+*   [julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) - A high performance HTTP request router that scales well
+*   [go-playground/lars](https://github.com/go-playground/lars) - :rotating_light: Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks.
+*   [dimfeld/httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go.
+*   [go-playground/statics](https://github.com/go-playground/statics) - :file_folder: Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks
+*   [labstack/echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework
+*   [labstack/armor](https://github.com/labstack/armor) - Uncomplicated, modern HTTP server
+*   [davecheney/httpstat](https://github.com/davecheney/httpstat) - It's like curl -v, with colours.
+*   [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files
+*   [kubernetes/gengo](https://github.com/kubernetes/gengo) - gengo library for code generation.
+*   [iamduo/workq](https://github.com/iamduo/workq) - Job server in Go
+*   [nsheridan/cashier](https://github.com/nsheridan/cashier) - A self-service CA for OpenSSH
+*   [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms
+*   [dexidp/dex](https://github.com/dexidp/dex) - OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
+*   [influxdata/kapacitor](https://github.com/influxdata/kapacitor) - Open source framework for processing, monitoring, and alerting on time series data
+*   [influxdata/influxdb](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics
+*   [influxdata/telegraf](https://github.com/influxdata/telegraf) - The plugin-driven server agent for collecting & reporting metrics.
+*   [jamiealquiza/polymur](https://github.com/jamiealquiza/polymur) - A fast carbon-relay with live routing controls + https Graphite forwarder
+*   [direnv/direnv](https://github.com/direnv/direnv) - unclutter your .profile
+*   [variadico/noti](https://github.com/variadico/noti) - Monitor a process and trigger a notification.
+*   [gokcehan/lf](https://github.com/gokcehan/lf) - Terminal file manager
+*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+*   [sourcegraph/thyme](https://github.com/sourcegraph/thyme) - Automatically track which applications you use and for how long.
+*   [sourcegraph/checkup](https://github.com/sourcegraph/checkup) - Distributed, lock-free, self-hosted health checks and status pages
+*   [concourse/concourse](https://github.com/concourse/concourse) - Concourse is a container-based continuous thing-doer written in Go.
+*   [cloudfoundry/binary-buildpack](https://github.com/cloudfoundry/binary-buildpack) - Deploy binaries to Cloud Foundry
+*   [git-time-metric/gtm](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git
+*   [otoolep/hraftd](https://github.com/otoolep/hraftd) - A reference use of Hashicorp's Raft implementation
+*   [gtank/cryptopasta](https://github.com/gtank/cryptopasta) - copy & paste-friendly golang crypto
+*   [ajbouh/qa](https://github.com/ajbouh/qa) - QA is a lightweight tool for running your (Ruby) tests fast.
+*   [google/badwolf](https://github.com/google/badwolf) - Temporal graph store abstraction layer.
+*   [traefik/traefik](https://github.com/traefik/traefik) - The Cloud Native Application Proxy
+*   [rach/pome](https://github.com/rach/pome) - A Postgres Metrics Dashboard
+*   [xo/xo](https://github.com/xo/xo) - Command line tool to generate idiomatic Go code for SQL databases supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server
+*   [slicebit/qb](https://github.com/slicebit/qb) - The database toolkit for go
+*   [vladaionescu/leveros](https://github.com/vladaionescu/leveros) - Serverless + Microservices = ♥
+*   [revel/revel](https://github.com/revel/revel) - A high productivity, full-stack web framework for the Go language.
+*   [go-delve/delve](https://github.com/go-delve/delve) - Delve is a debugger for the Go programming language.
+*   [google/git-appraise](https://github.com/google/git-appraise) - Distributed code review system for Git repos
+*   [carlmjohnson/scattered](https://github.com/carlmjohnson/scattered) - Command line tool for asset hashing
+*   [packetzoom/logzoom](https://github.com/packetzoom/logzoom) - A lightweight replacement for logstash indexer in Go
+*   [future-architect/vuls](https://github.com/future-architect/vuls) - Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices
+*   [gravitational/teleport](https://github.com/gravitational/teleport) - Certificate authority and access plane for SSH, Kubernetes, web apps, databases and desktops
+*   [s3git/s3git](https://github.com/s3git/s3git) - s3git: git for Cloud Storage. Distributed Version Control for Data. Create decentralized and versioned repos that scale infinitely to 100s of millions of files. Clone huge PB-scale repos on your local SSD to make changes, commit and push back. Oh yeah, it dedupes too and offers directory versioning.
+*   [itsabot/itsabot](https://github.com/itsabot/itsabot) - ItsAbot makes it easy and fun to build your own digital assistant, and we include everything you need to get started.
+*   [pressly/sup](https://github.com/pressly/sup) - Super simple deployment tool - think of it like 'make' for a network of servers
+*   [nanomsg/mangos-v1](https://github.com/nanomsg/mangos-v1) - The pure golang implementation of nanomsg (version 1, frozen)
+*   [nsqio/nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform
+*   [mozilla/mig](https://github.com/mozilla/mig) - Distributed & real time digital forensics at the speed of the cloud
+*   [kelseyhightower/confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul
+*   [lukasmartinelli/pipecat](https://github.com/lukasmartinelli/pipecat) - Connect UNIX pipes and message queues
+*   [nlf/dlite](https://github.com/nlf/dlite) - The simplest way to use Docker on OS X
+*   [go-kit/kit](https://github.com/go-kit/kit) - A standard library for microservices.
+*   [SpectoLabs/hoverfly](https://github.com/SpectoLabs/hoverfly) - Lightweight service virtualization/API simulation tool for developers and testers
+*   [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing
+*   [SumoLogic/sumoshell](https://github.com/SumoLogic/sumoshell) - A terminal-only version of Sumo written in Go
+*   [laher/goxc](https://github.com/laher/goxc) - a build tool for Go, with a focus on cross-compiling, packaging and deployment
+*   [noahhl/go-batsd](https://github.com/noahhl/go-batsd) -
+*   [redbooth/ssmperf](https://github.com/redbooth/ssmperf) - Load testing tool for SSMP servers.
+*   [redbooth/lipwig](https://github.com/redbooth/lipwig) - Golang implementation of the Stupid-Simple Messaging Protocol.
+*   [jroes/par](https://github.com/jroes/par) - Run similar commands concurrently
+*   [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) - CockroachDB - the open source, cloud-native distributed SQL database.
+*   [pressly/imgry](https://github.com/pressly/imgry) - On-demand image sizing+delivery for responsive applications
+*   [ibm-security-innovation/libsecurity-go](https://github.com/ibm-security-innovation/libsecurity-go) -
+*   [maximilien/i18n4go](https://github.com/maximilien/i18n4go) - i18n tooling for Golang
+*   [vulcand/vulcand](https://github.com/vulcand/vulcand) -  Programmatic load balancer backed by Etcd
+*   [sirupsen/logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
+*   [levigross/grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library
+*   [rapidloop/rtop](https://github.com/rapidloop/rtop) - rtop is an interactive, remote system monitoring tool based on SSH
+*   [hpcloud/tail](https://github.com/hpcloud/tail) - Go package for reading from continously updated files (tail -f)
+*   [uiri/coreutils](https://github.com/uiri/coreutils) - GNU Coreutils written in Go
+*   [surma/gobox](https://github.com/surma/gobox) - Something like busybox in pure Go
+*   [ericlagergren/go-gnulib](https://github.com/ericlagergren/go-gnulib) - A collection of parts of GNU's libc, POSX libs, and Windows functions ported to Go
+*   [ericlagergren/go-coreutils](https://github.com/ericlagergren/go-coreutils) - A cross-platform port of GNU's coreutils to Go
+*   [boltdb/bolt](https://github.com/boltdb/bolt) - An embedded key/value database for Go.
+*   [codahale/sneaker](https://github.com/codahale/sneaker) - A tool for securely storing secrets on S3 using Amazon KMS.
+*   [square/certstrap](https://github.com/square/certstrap) - Tools to bootstrap CAs, certificate requests, and signed certificates.
+*   [mndrix/golog](https://github.com/mndrix/golog) - Prolog interpreter in Go
+*   [jgrahamc/httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same request against two HTTP servers and diff the results
+*   [pinterest/bender](https://github.com/pinterest/bender) - An easy-to-use library for creating load testing applications
+*   [rovaughn/git-remote-grave](https://github.com/rovaughn/git-remote-grave) - Git remote helper for encrypted repositories with NaCl.
+*   [callumj/weave](https://github.com/callumj/weave) - Configuration packaging with little effort.
+*   [prometheus/prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database.
+*   [zentures/sequence](https://github.com/zentures/sequence) - (Unmaintained) High performance sequential log analyzer and parser
+*   [cdarwin/go-koans](https://github.com/cdarwin/go-koans) - koans for go
+*   [jrallison/go-workers](https://github.com/jrallison/go-workers) - Sidekiq compatible background workers in golang
+*   [dropbox/godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications.
+*   [facebookarchive/grace](https://github.com/facebookarchive/grace) - Graceful restart & zero downtime deploy for Go servers.
+*   [stripe-archive/go-einhorn](https://github.com/stripe-archive/go-einhorn) - Talk to einhorn from your Go worker
+*   [rcrowley/goagain](https://github.com/rcrowley/goagain) - Zero-downtime restarts in Go
+*   [mailgun/manners](https://github.com/mailgun/manners) - A polite Go HTTP server that shuts down gracefully.
+*   [pusher/crank](https://github.com/pusher/crank) - Process slow restarter
+*   [zimbatm/socketmaster](https://github.com/zimbatm/socketmaster) - Zero downtime restarts for your apps
+*   [Scalingo/go-graceful-restart-example](https://github.com/Scalingo/go-graceful-restart-example) - Example of server with graceful restart enable
+*   [git-town/git-town](https://github.com/git-town/git-town) - Generic, high-level Git workflow support!
+*   [rphillips/gosec](https://github.com/rphillips/gosec) - Gosec manages secrets using PGP
+*   [StackExchange/blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git/Mercurial/Subversion
+*   [gogs/gogs](https://github.com/gogs/gogs) - Gogs is a painless self-hosted Git service
+*   [thomasboyt/go-selecta](https://github.com/thomasboyt/go-selecta) - port of @garybernhardt's selecta to go
+*   [pksunkara/alpaca](https://github.com/pksunkara/alpaca) - Given a web API, Generate client libraries in node, php, python, ruby
+*   [HouzuoGuo/DBGo](https://github.com/HouzuoGuo/DBGo) - This is a programming exercise, do not use in serious code.
+*   [bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) - Go Memcached client library #golang
+*   [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
+*   [github/hub](https://github.com/github/hub) - A command-line tool that makes git easier to use with GitHub.
+
 ## TypeScript
 
+*   [shoelace-style/shoelace](https://github.com/shoelace-style/shoelace) - A collection of professionally designed, every day UI components built on Web standards. Works with all framework as well as regular HTML/CSS/JS. 🥾
 *   [changesets/changesets](https://github.com/changesets/changesets) - 🦋       A way to manage your versioning and changelogs with a focus on monorepos
 *   [sveltejs/prettier-plugin-svelte](https://github.com/sveltejs/prettier-plugin-svelte) - Format your svelte components using prettier.
 *   [sveltejs/svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) - A ✨ magical ✨ Svelte preprocessor with sensible defaults and support for: PostCSS, SCSS, Less, Stylus, Coffeescript, TypeScript, Pug and much more.
@@ -248,6 +565,173 @@
 *   [witheve/Eve](https://github.com/witheve/Eve) - Better tools for thought
 *   [helmetjs/helmet](https://github.com/helmetjs/helmet) - Help secure Express apps with various HTTP headers
 *   [reduxjs/redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
+
+## generic
+
+*   [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2022
+*   [simonw/shot-scraper-template](https://github.com/simonw/shot-scraper-template) - Template repository for setting up shot-scraper
+*   [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - How to systematically secure anything: a repository about security engineering
+*   [thenaturalist/awesome-business-intelligence](https://github.com/thenaturalist/awesome-business-intelligence) - Actively curated list of awesome BI tools. PRs welcome!
+*   [cooklang/spec](https://github.com/cooklang/spec) - Home for Cooklang specification and general discussions about the ecosystem
+*   [joelparkerhenderson/git-commit-template](https://github.com/joelparkerhenderson/git-commit-template) - Git commit template for better commit messages
+*   [Aquila-Network/awesome-aquila-network](https://github.com/Aquila-Network/awesome-aquila-network) - Everyting you need to know about Aquila Network Neural Search Ecosystem. Official repositories, client libraries, ecosystem projects, boilerplate, tutorials, learning and more..
+*   [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - A curated list of awesome actions to use on GitHub
+*   [TablePlus/DBngin](https://github.com/TablePlus/DBngin) - DB Engine
+*   [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
+*   [halostatue/nix-env.fish](https://github.com/halostatue/nix-env.fish) - Nix environment setup for the fish shell
+*   [ulid/spec](https://github.com/ulid/spec) - The canonical spec for ulid
+*   [mindreframer/phx-vite-demo](https://github.com/mindreframer/phx-vite-demo) - Showcase integration of Vite.js + Phoenix + LiveView
+*   [los-gordos/BLOKK](https://github.com/los-gordos/BLOKK) - BLOKK is a font for quick mock-ups and wireframing for clients who do not understand latin.
+*   [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.
+*   [pahimar/dot-github](https://github.com/pahimar/dot-github) - Template repo with common GH related files
+*   [lorin/awesome-limits](https://github.com/lorin/awesome-limits) - Examples of OS / system limits
+*   [tuupola/branca-spec](https://github.com/tuupola/branca-spec) - Authenticated and encrypted API tokens using modern crypto
+*   [vue-a11y/awesome-a11y-vue](https://github.com/vue-a11y/awesome-a11y-vue) - A list of awesome things related to accessibility in Vue.js
+*   [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation
+*   [hwayne/awesome-cold-showers](https://github.com/hwayne/awesome-cold-showers) - For when people get too hyped up about things
+*   [bellbind/docker-ruby18-rails2](https://github.com/bellbind/docker-ruby18-rails2) - Dockerfile for ruby-1.8.7 and rails-2.3
+*   [tcnksm/dockerfile-rbenv](https://github.com/tcnksm/dockerfile-rbenv) - Dockerfile to build Image which is installed muliple versions of ruby
+*   [goabstract/Marketing-for-Engineers](https://github.com/goabstract/Marketing-for-Engineers) - A curated collection of marketing articles & tools to grow your product.
+*   [erlef/security-wg](https://github.com/erlef/security-wg) - Repo for the Security Working Group
+*   [fernet/spec](https://github.com/fernet/spec) - Spec and acceptance tests for the Fernet format.
+*   [cyclejs-community/awesome-cyclejs](https://github.com/cyclejs-community/awesome-cyclejs) - A curated list of awesome Cycle.js resources
+*   [Atarity/deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas) - List of "only yours" cloud services for everyday needs :black_flag:
+*   [basecamp/policies](https://github.com/basecamp/policies) - Basecamp policies, terms, and legal. Share them; reuse them; contribute to them.
+*   [pcmarks/mdns_lite](https://github.com/pcmarks/mdns_lite) - A simple implementation of an mDNS (multicast Domain Name System) server.
+*   [planetjekyll/awesome-jekyll-plugins](https://github.com/planetjekyll/awesome-jekyll-plugins) - A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)
+*   [gleam-lang/suggestions](https://github.com/gleam-lang/suggestions) - 📙 A place for ideas and feedback
+*   [threeheartsdigital/email-marketing-regulations](https://github.com/threeheartsdigital/email-marketing-regulations) - A repository of email marketing legislation around the World, compiled by EmailOctopus.
+*   [uber-go/guide](https://github.com/uber-go/guide) - The Uber Go Style Guide.
+*   [google/eng-practices](https://github.com/google/eng-practices) - Google's Engineering Practices documentation
+*   [rollup/awesome](https://github.com/rollup/awesome) - ⚡️ Delightful Rollup Plugins, Packages, and Resources
+*   [ndjson/ndjson-spec](https://github.com/ndjson/ndjson-spec) - Specification
+*   [opencensus-beam/awesome-beam-monitoring](https://github.com/opencensus-beam/awesome-beam-monitoring) - Curated list of awesome BEAM monitoring libraries and resources
+*   [kylelobo/The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium) - 📢 Various README templates & tips on writing high-quality documentation that people want to read.
+*   [arcticicestudio/nord-dircolors](https://github.com/arcticicestudio/nord-dircolors) - An arctic, north-bluish clean and elegant dircolors theme.
+*   [hubertgrzeskowiak/lnav-format-glassfish](https://github.com/hubertgrzeskowiak/lnav-format-glassfish) - LNAV formatter for Glassfish log files
+*   [petispaespea/lnav-tableau-format](https://github.com/petispaespea/lnav-tableau-format) -
+*   [5cmpersec/lnav-logcat-format](https://github.com/5cmpersec/lnav-logcat-format) - format descriptions for android logcat
+*   [bronius/lnav_format_iht_apache](https://github.com/bronius/lnav_format_iht_apache) - lnav format.json file for internal client project apache log format with customizations
+*   [technolinchpin/lnav-dbus-format](https://github.com/technolinchpin/lnav-dbus-format) - dbus monitor log parsing
+*   [technolinchpin/lnav-gst-format](https://github.com/technolinchpin/lnav-gst-format) - the gstreamer log parser format for lnav
+*   [thomasleveil/lnav-formats](https://github.com/thomasleveil/lnav-formats) - Log format description files for lnav 0.8+
+*   [n3x77/lnav-thor](https://github.com/n3x77/lnav-thor) - LNAV log formats for viewing THOR and SPARK log files.
+*   [tstack/fullsail_lnav_config](https://github.com/tstack/fullsail_lnav_config) -
+*   [rsteube/lnav-formats](https://github.com/rsteube/lnav-formats) - Log format description files for lnav
+*   [timnew/lnav-bunyan](https://github.com/timnew/lnav-bunyan) - Lnav format declaration for node-bunyan
+*   [gallna/lnav-formats](https://github.com/gallna/lnav-formats) -
+*   [ianAndrewClark/lnav-configs](https://github.com/ianAndrewClark/lnav-configs) - json configs for https://lnav.readthedocs.io/en/latest/index.html
+*   [nvahalik/drupal-lnav](https://github.com/nvahalik/drupal-lnav) - Drupal log file formats for lnav
+*   [FrancescoFreder/lnav-formats](https://github.com/FrancescoFreder/lnav-formats) -
+*   [rubenqba/lnav-formats](https://github.com/rubenqba/lnav-formats) -
+*   [baelter/lnav-rmq](https://github.com/baelter/lnav-rmq) - RabbitMQ definition for lnav
+*   [aspiers/lnav-formats](https://github.com/aspiers/lnav-formats) - Extra log file format descriptions for the lnav log file reader
+*   [Sebobo/lnav-neosflow](https://github.com/Sebobo/lnav-neosflow) - Neos Flow log file format file for lnav
+*   [hagfelsh/lnav_formats](https://github.com/hagfelsh/lnav_formats) - A place to share my lnav .json formats.  For more information on the incredible Log Navigator, visit http://lnav.org
+*   [dbartolini/data-oriented-design](https://github.com/dbartolini/data-oriented-design) - A curated list of data oriented design resources.
+*   [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) - An evolving how-to guide for securing a Linux server.
+*   [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+*   [bagder/http3-explained](https://github.com/bagder/http3-explained) - A document describing the HTTP/3 and QUIC protocols
+*   [knu/zsh-git-escape-magic](https://github.com/knu/zsh-git-escape-magic) - zle tweak for git command line arguments
+*   [ankane/production_rails](https://github.com/ankane/production_rails) - Best practices for running Rails in production
+*   [grahamjenson/list_of_recommender_systems](https://github.com/grahamjenson/list_of_recommender_systems) - A List of Recommender Systems and Resources
+*   [inaka/guidelines](https://github.com/inaka/guidelines) - General Inaka Guidelines
+*   [elves/awesome-elvish](https://github.com/elves/awesome-elvish) - The official list of awesome unofficial Elvish modules
+*   [InQuest/awesome-yara](https://github.com/InQuest/awesome-yara) - A curated list of awesome YARA rules, tools, and people.
+*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
+*   [caquino/bash-functions](https://github.com/caquino/bash-functions) - A collection of BASH Functions
+*   [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist) - 🎮 The only Front-End Performance Checklist that runs faster than the others
+*   [joelparkerhenderson/ways-of-working](https://github.com/joelparkerhenderson/ways-of-working) - Ways of Working (WoW) a.k.a. ground rules, aspirations, team norms, team values, working agreements, shared expectations, and group understandings
+*   [Nicd/mbu](https://github.com/Nicd/mbu) - Repo moved to:
+*   [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+*   [vue-bulma/vue-admin](https://github.com/vue-bulma/vue-admin) - We are refactoring it, using the latest Vue and Bulma. WIP
+*   [reyronald/awesome-toolkits](https://github.com/reyronald/awesome-toolkits) - A curated list of open source, high-quality, popular and well maintained "zero-configuration" (#0CJS) toolkits
+*   [Jam3/math-as-code](https://github.com/Jam3/math-as-code) - a cheat-sheet for mathematical notation in code form
+*   [petere/pex-packages](https://github.com/petere/pex-packages) - package library for pex (https://github.com/petere/pex)
+*   [dastergon/awesome-chaos-engineering](https://github.com/dastergon/awesome-chaos-engineering) - A curated list of Chaos Engineering resources.
+*   [janlelis/stdgems](https://github.com/janlelis/stdgems) - Ruby's default & bundled gems: The new standard library
+*   [tylergaw/js-osx-app-examples](https://github.com/tylergaw/js-osx-app-examples) - Example OS X applications written in JavaScript.
+*   [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Flight rules for git
+*   [apollographql/apollo-tracing](https://github.com/apollographql/apollo-tracing) - A GraphQL extension for performance tracing
+*   [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) - A simple guide to HTML \<head> elements
+*   [LappleApple/feedmereadmes](https://github.com/LappleApple/feedmereadmes) - Free README editing+feedback to make your open-source projects grow. See the README maturity model to help you keep going.
+*   [llaisdy/beam_languages](https://github.com/llaisdy/beam_languages) - Languages, and about languages, on the BEAM
+*   [jorgebucaran/hyperawesome](https://github.com/jorgebucaran/hyperawesome) - A curated list of awesome projects built with Hyperapp & more.
+*   [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) - Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
+*   [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know about
+*   [nikitavoloboev/my-mac-os](https://github.com/nikitavoloboev/my-mac-os) - List of applications and tools that make my macOS experience even more amazing
+*   [listsfordesign/Lists](https://github.com/listsfordesign/Lists) - Official repository of all the lists for https://lists.design
+*   [jperriere/Lists](https://github.com/jperriere/Lists) - Official repository of all the lists for https://lists.design
+*   [cameronmcefee/rip-license](https://github.com/cameronmcefee/rip-license) - A license for private repos that lets you define what happens to your code when you die
+*   [exercism/exercism](https://github.com/exercism/exercism) - Crowd-sourced code mentorship. Practice having thoughtful conversations about code.
+*   [cloudamqp/rabbitmq-delayed-messages](https://github.com/cloudamqp/rabbitmq-delayed-messages) - Ruby snippet, demonstrates how to implement delayed messages in RabbitMQ
+*   [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) - :link: Some useful websites for programmers.
+*   [karan/Projects](https://github.com/karan/Projects) - :page_with_curl: A list of practical projects that anyone can solve in any programming language.
+*   [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) - :octocat: A collection of APIs
+*   [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Curated list of project-based tutorials
+*   [Gabriel439/post-rfc](https://github.com/Gabriel439/post-rfc) - Blog post previews in need of peer review
+*   [basecamp/handbook](https://github.com/basecamp/handbook) - Basecamp Employee Handbook
+*   [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql) - Awesome list of GraphQL
+*   [github/balanced-employee-ip-agreement](https://github.com/github/balanced-employee-ip-agreement) - GitHub's employee intellectual property agreement, open sourced and reusable
+*   [forter/security-101-for-saas-startups](https://github.com/forter/security-101-for-saas-startups) - security tips for startups
+*   [teesloane/Auth-Boss](https://github.com/teesloane/Auth-Boss) - 🔒 Become an Auth Boss. Learn about different authentication methodologies on the web.
+*   [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) - Use your macOS terminal shell to do awesome things.
+*   [255kb/stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A collection of services with great free tiers for developers on a budget. Sponsored by Mockoon, the best mock API tool. https://mockoon.com
+*   [brettchalupa/developer-interview-questions](https://github.com/brettchalupa/developer-interview-questions) - Questions to ask when interviewing for a software developer position
+*   [rstacruz/webpack-tricks](https://github.com/rstacruz/webpack-tricks) - Tips and tricks in using Webpack
+*   [keon/awesome-bits](https://github.com/keon/awesome-bits) - :computer: A curated list of awesome bitwise operations and tricks
+*   [nothings/single_file_libs](https://github.com/nothings/single_file_libs) - List of single-file C/C++ libraries.
+*   [zalando/zalando-howto-open-source](https://github.com/zalando/zalando-howto-open-source) - Open Source guidance from Zalando, Europe's largest online fashion platform
+*   [etsy/DebriefingFacilitationGuide](https://github.com/etsy/DebriefingFacilitationGuide) - Leading Groups at Etsy to Learn From Accidents
+*   [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - List of Computer Science courses with video lectures.
+*   [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) - A complete daily plan for studying to become a machine learning engineer.
+*   [UKHomeOffice/posters](https://github.com/UKHomeOffice/posters) - Home Office Digital repository of posters covering different topics - research, access needs, accessibility, design.
+*   [aphyr/distsys-class](https://github.com/aphyr/distsys-class) - Class materials for a distributed systems lecture series
+*   [engineerapart/TheRemoteFreelancer](https://github.com/engineerapart/TheRemoteFreelancer) - Listing of community-curated resources to find topical remote freelance & contract work for software developers, web designers, and more!
+*   [postlight/awesome-cms](https://github.com/postlight/awesome-cms) - 📚 A collection of open and closed source Content Management Systems (CMS) for your perusal.
+*   [ossu/computer-science](https://github.com/ossu/computer-science) - :mortar_board: Path to a free self-taught education in Computer Science!
+*   [icecrime/vossibility-stack](https://github.com/icecrime/vossibility-stack) - Visibility for your open source project
+*   [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 😱 Falsehoods Programmers Believe in
+*   [enilsen16/awesome-hedwig](https://github.com/enilsen16/awesome-hedwig) - A curated list of amazingly awesome Hedwig adapters, responders, and resources
+*   [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) - Curated List of React Components & Libraries.
+*   [wagenet/StandardIssueLabels](https://github.com/wagenet/StandardIssueLabels) - A Set of Standardized Labels for Github Issues
+*   [nayafia/lemonade-stand](https://github.com/nayafia/lemonade-stand) - A handy guide to financial support for open source
+*   [nayafia/contributing-template](https://github.com/nayafia/contributing-template) - Template for writing your own contributing guide
+*   [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics
+*   [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon) - Jargon from the functional programming world in simple terms!
+*   [markets/awesome-ruby](https://github.com/markets/awesome-ruby) - :gem: A collection of awesome Ruby libraries, tools, frameworks and software
+*   [OWASP/DevGuide](https://github.com/OWASP/DevGuide) - The OWASP Guide
+*   [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) - Security Guide for Developers (实用性开发人员安全须知)
+*   [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) - A curation of prompts, plugins & other resources for Fish. 🐚
+*   [berneout/authors-certificate](https://github.com/berneout/authors-certificate) - practical provenance for the GitHub-and-npm set
+*   [dbohdan/structured-text-tools](https://github.com/dbohdan/structured-text-tools) - A list of command line tools for manipulating structured text data
+*   [markerikson/react-redux-links](https://github.com/markerikson/react-redux-links) - Curated tutorial and resource links I've collected on React, Redux, ES6, and more
+*   [dhamaniasad/awesome-postgres](https://github.com/dhamaniasad/awesome-postgres) - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
+*   [nuprl/10PL](https://github.com/nuprl/10PL) - 10 papers that all PhD students in programming languages ought to know, for some value of 10
+*   [paul-nechifor/ohmu](https://github.com/paul-nechifor/ohmu) - View space usage in your terminal.
+*   [redbooth/ssmp](https://github.com/redbooth/ssmp) - Stupid-Simple Messaging Protocol.
+*   [chriskempson/base16](https://github.com/chriskempson/base16) - An architecture for building themes
+*   [fastlane-old/deliver](https://github.com/fastlane-old/deliver) - Upload screenshots, metadata and your app to the App Store using a single command
+*   [dustinbrown/ansible-datadog](https://github.com/dustinbrown/ansible-datadog) - Ansible role for data dog agent
+*   [h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx) - Nginx HTTP server boilerplate configs
+*   [lukehoban/es6features](https://github.com/lukehoban/es6features) - Overview of ECMAScript 6 features
+*   [sufianrhazi/cryptogit](https://github.com/sufianrhazi/cryptogit) -
+*   [square/go-jose](https://github.com/square/go-jose) - An implementation of JOSE standards (JWE, JWS, JWT) in Go
+*   [nozzle/hugo-snippets](https://github.com/nozzle/hugo-snippets) - Convenient partials, layouts and shortcodes for Hugo (gohugo.io)
+*   [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - A book series on JavaScript. @YDKJS on twitter.
+*   [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
+*   [sathyamvellal/shenv](https://github.com/sathyamvellal/shenv) - A set of scripts to create custom shell environments for different activities
+*   [zenorocha/alfred-workflows](https://github.com/zenorocha/alfred-workflows) - :metal: A collection of Alfred 3 and 4 workflows that will rock your world
+*   [github/gitignore](https://github.com/github/gitignore) - A collection of useful .gitignore templates
+*   [oreillymedia/open_government](https://github.com/oreillymedia/open_government) - Open Government, released as part of #PDFtribute
+*   [mangini/gdocs2md](https://github.com/mangini/gdocs2md) - Convert a Google Drive Document to the Markdown format, suitable for publishing.
+*   [jsullivan/CSS3-Progress-bars](https://github.com/jsullivan/CSS3-Progress-bars) - Fluid progress bars created entirely with CSS3
+*   [bryanbibat/rails-3\_0-tutorial](https://github.com/bryanbibat/rails-3\_0-tutorial) - A free Rails 3.0 tutorial/manual
+*   [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) - Principles of Writing Consistent, Idiomatic JavaScript
+*   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
+*   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
+*   [schacon/recipes](https://github.com/schacon/recipes) -
+*   [Homebrew/legacy-homebrew](https://github.com/Homebrew/legacy-homebrew) - 💀 The former home of Homebrew/homebrew (deprecated)
 
 ## Rust
 
@@ -2522,487 +3006,6 @@
 *   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
 *   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
-## Go
-
-*   [benbjohnson/postlite](https://github.com/benbjohnson/postlite) - Postgres wire compatible SQLite proxy.
-*   [bitfield/script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
-*   [ariga/atlas](https://github.com/ariga/atlas) - A database toolkit
-*   [slackhq/nebula](https://github.com/slackhq/nebula) - A scalable overlay networking tool with a focus on performance, simplicity and security
-*   [antoniomika/sish](https://github.com/antoniomika/sish) - HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.
-*   [derailed/k9s](https://github.com/derailed/k9s) - 🐶 Kubernetes CLI To Manage Your Clusters In Style!
-*   [werf/werf](https://github.com/werf/werf) - A solution for implementing efficient and consistent software delivery to Kubernetes facilitating best practices.
-*   [benthosdev/benthos](https://github.com/benthosdev/benthos) - Fancy stream processing made operationally mundane
-*   [benhoyt/goawk](https://github.com/benhoyt/goawk) - A POSIX-compliant AWK interpreter written in Go
-*   [multiprocessio/dsq](https://github.com/multiprocessio/dsq) - Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.
-*   [infracost/infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests💰📉 Love your cloud bill!
-*   [cbuschka/tfvm](https://github.com/cbuschka/tfvm) - Terraform Version Manager - Always the right terraform version for your project
-*   [charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line🍦
-*   [zinclabs/zinc](https://github.com/zinclabs/zinc) - Zinc Search engine. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
-*   [earthly/earthly](https://github.com/earthly/earthly) - The effortless CI/CD framework that runs anywhere
-*   [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
-*   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
-*   [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Fast and secure standalone server for resizing and converting remote images
-*   [ycd/dstp](https://github.com/ycd/dstp) - 🧪 Run common networking tests against your site.
-*   [apptainer/singularity](https://github.com/apptainer/singularity) - Singularity has been EOL'ed, see Apptainer
-*   [gotify/server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
-*   [benhoyt/simplelists](https://github.com/benhoyt/simplelists) - Tiny to-do list web app written in Go
-*   [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) - DockerSlim (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
-*   [nginx-proxy/docker-gen](https://github.com/nginx-proxy/docker-gen) - Generate files from docker container meta-data
-*   [cue-lang/cue](https://github.com/cue-lang/cue) - The new home of the CUE language! Validate and define text-based and dynamic configuration
-*   [authzed/spicedb](https://github.com/authzed/spicedb) - SpiceDB: Open source permissions database inspired by Google Zanzibar
-*   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
-*   [tilt-dev/tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes.
-*   [DarthSim/overmind](https://github.com/DarthSim/overmind) - Process manager for Procfile-based applications and tmux
-*   [deref/exo](https://github.com/deref/exo) - A process manager & log viewer for dev
-*   [kovetskiy/mark](https://github.com/kovetskiy/mark) - Sync your markdown files with Confluence pages.
-*   [bouk/babelfish](https://github.com/bouk/babelfish) - Translate bash scripts to fish
-*   [evilmartians/lefthook](https://github.com/evilmartians/lefthook) - Fast and powerful Git hooks manager for any type of projects.
-*   [nelhage/llama](https://github.com/nelhage/llama) -
-*   [lima-vm/lima](https://github.com/lima-vm/lima) - Linux virtual machines, typically on macOS, for running containerd
-*   [mtlynch/logpaste](https://github.com/mtlynch/logpaste) - A simple web service for storing text log files
-*   [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - VictoriaMetrics: fast, cost-effective monitoring solution and time series database
-*   [matryer/xbar](https://github.com/matryer/xbar) - Put the output from any script or program into your macOS Menu Bar (the BitBar reboot)
-*   [cert-manager/cert-manager](https://github.com/cert-manager/cert-manager) - Automatically provision and manage TLS certificates in Kubernetes
-*   [inetaf/netaddr](https://github.com/inetaf/netaddr) - Network address types
-*   [dennis-tra/pcp](https://github.com/dennis-tra/pcp) - 📦 Command line peer-to-peer data transfer tool based on libp2p.
-*   [wagoodman/dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a docker image
-*   [benbjohnson/litestream](https://github.com/benbjohnson/litestream) - Streaming replication for SQLite.
-*   [rqlite/rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed relational database built on SQLite
-*   [mr-karan/doggo](https://github.com/mr-karan/doggo) - :dog: Command-line DNS Client for Humans. Written in Golang
-*   [authelia/authelia](https://github.com/authelia/authelia) - The Single Sign-On Multi-Factor portal for web apps
-*   [safe-waters/docker-lock](https://github.com/safe-waters/docker-lock) - Automatically manage image digests in Dockerfiles, docker-compose files, and Kubernetes manifests by tracking them in a separate Lockfile
-*   [charmbracelet/bubbles](https://github.com/charmbracelet/bubbles) - TUI components for Bubble Tea 🍡
-*   [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
-*   [screego/server](https://github.com/screego/server) - screen sharing for developers https://screego.net/
-*   [MichaelMure/git-bug](https://github.com/MichaelMure/git-bug) - Distributed, offline-first bug tracker embedded in git, with bridges
-*   [octoproject/octo-cli](https://github.com/octoproject/octo-cli) - CLI tool to expose data from any database as a serverless web service.
-*   [thesephist/ink](https://github.com/thesephist/ink) - Ink is a minimal programming language inspired by modern JavaScript and Go, with functional style.
-*   [thesephist/lovecroft](https://github.com/thesephist/lovecroft) - Minimal mailing list manager for static sites, with a simple JSON API
-*   [root-gg/plik](https://github.com/root-gg/plik) - Plik is a temporary file upload system (Wetransfer like) in Go.
-*   [dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh) - Easy and fast file sharing from the command-line.
-*   [strongdm/comply](https://github.com/strongdm/comply) - Compliance automation framework, focused on SOC2
-*   [goharbor/harbor](https://github.com/goharbor/harbor) - An open source trusted cloud native registry project that stores, signs, and scans content.
-*   [ohler55/ojg](https://github.com/ohler55/ojg) - Optimized JSON for Go
-*   [UHN/ggql](https://github.com/UHN/ggql) - GraphQL implementation for golang.
-*   [securitybunker/databunker](https://github.com/securitybunker/databunker) - A secure user directory built for developers to comply with the GDPR
-*   [filhodanuvem/gitql](https://github.com/filhodanuvem/gitql) - 💊 A git query language
-*   [whytheplatypus/switchboard](https://github.com/whytheplatypus/switchboard) - Simple mDNS based reverse proxy for personal infrastructure.
-*   [timbray/topfew](https://github.com/timbray/topfew) - Finds the fields (or combinations of fields) which appear most often in a stream of records.
-*   [evanw/esbuild](https://github.com/evanw/esbuild) - An extremely fast JavaScript and CSS bundler and minifier
-*   [Trendyol/four-key](https://github.com/Trendyol/four-key) - four-key is a measurement tool written with golang for your repositories. This project inspired from Accelerate book.
-*   [tj/spa](https://github.com/tj/spa) - Tiny Single Page Application server for Go with `spa` command-line tool.
-*   [nivaldomartinez/link-preview-api](https://github.com/nivaldomartinez/link-preview-api) - Backed to provide information for link-prevue vue component
-*   [ergochat/ergo](https://github.com/ergochat/ergo) - A modern IRC server (daemon/ircd) written in Go.
-*   [keys-pub/keys](https://github.com/keys-pub/keys) - Key management is hard
-*   [mozilla/sops](https://github.com/mozilla/sops) - Simple and flexible tool for managing secrets
-*   [keybase/saltpack](https://github.com/keybase/saltpack) - a modern crypto messaging format
-*   [FiloSottile/age](https://github.com/FiloSottile/age) - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
-*   [moul/totp-keychain](https://github.com/moul/totp-keychain) - :lock: TOTP cli backed by the OS X keychain
-*   [99designs/aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments
-*   [dedis/tlc](https://github.com/dedis/tlc) - Threshold Logical Clocks and Que Sera Consensus
-*   [kingluo/pgcat](https://github.com/kingluo/pgcat) - Enhanced PostgreSQL logical replication
-*   [ThreeDotsLabs/watermill](https://github.com/ThreeDotsLabs/watermill) - Building event-driven applications the easy way in Go.
-*   [ThreeDotsLabs/watermill-benchmark](https://github.com/ThreeDotsLabs/watermill-benchmark) - Benchmarking tools for Watermill.
-*   [jcouture/nv](https://github.com/jcouture/nv) - Lightweight utility to load context specific environment variables
-*   [google/licenseclassifier](https://github.com/google/licenseclassifier) - A License Classifier
-*   [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
-*   [CHURPTeam/CHURP](https://github.com/CHURPTeam/CHURP) - Decentralize your secrets!
-*   [cube2222/octosql](https://github.com/cube2222/octosql) - OctoSQL is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL.
-*   [contribsys/faktory](https://github.com/contribsys/faktory) - Language-agnostic persistent background job server
-*   [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Fully featured and highly configurable SFTP server with optional HTTP/S, FTP/S and WebDAV support - S3, Google Cloud Storage, Azure Blob
-*   [ProtonMail/gopenpgp](https://github.com/ProtonMail/gopenpgp) - A high-level OpenPGP library
-*   [schollz/croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another :crocodile: :package:
-*   [jmoiron/sqlx](https://github.com/jmoiron/sqlx) - general purpose extensions to golang's database/sql
-*   [colinjfw/sqlkit](https://github.com/colinjfw/sqlkit) - SQL builder and powerful database toolkit for Golang
-*   [perkeep/perkeep](https://github.com/perkeep/perkeep) - Perkeep (née Camlistore) is your personal storage system for life: a way of storing, syncing, sharing, modelling and backing up content.
-*   [mholt/timeliner](https://github.com/mholt/timeliner) - All your digital life on a single timeline, stored locally
-*   [rsc/diff](https://github.com/rsc/diff) - Diff(1)
-*   [coder/sail](https://github.com/coder/sail) - Deprecated: Instant, pre-configured VS Code development environments.
-*   [1Password/spg](https://github.com/1Password/spg) - 1Password's Strong Password Generator - Go package
-*   [1Password/srp](https://github.com/1Password/srp) - A set of Go functions for Secure Remote Password protocol implementation in 1Password Teams
-*   [dosco/graphjin](https://github.com/dosco/graphjin) - GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.
-*   [eBay/akutan](https://github.com/eBay/akutan) - A distributed knowledge graph store
-*   [getsentry/raven-go](https://github.com/getsentry/raven-go) - Sentry client in Go
-*   [uber/cadence](https://github.com/uber/cadence) - Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way.
-*   [gmemstr/Platypus](https://github.com/gmemstr/Platypus) - Large-scale server monitoring application written in Golang
-*   [gocardless/pgreplay-go](https://github.com/gocardless/pgreplay-go) - Postgres load testing tool
-*   [xyproto/algernon](https://github.com/xyproto/algernon) - :tophat: Small self-contained pure-Go web server with Lua, Markdown, HTTP/2, QUIC, Redis and PostgreSQL support
-*   [runatlantis/atlantis](https://github.com/runatlantis/atlantis) - Terraform Pull Request Automation
-*   [opencontrol/compliance-masonry](https://github.com/opencontrol/compliance-masonry) - Security Documentation Builder
-*   [grafana/loki](https://github.com/grafana/loki) - Like Prometheus, but for logs.
-*   [isacikgoz/gitin](https://github.com/isacikgoz/gitin) - commit/branch/workdir explorer for git
-*   [ergo-services/ergo](https://github.com/ergo-services/ergo) - an actor based Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang
-*   [k3s-io/k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes
-*   [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) - Native GraphQL Database with graph backend
-*   [oklog/run](https://github.com/oklog/run) - A universal mechanism to manage goroutine lifecycles
-*   [golang-migrate/migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
-*   [jsha/minica](https://github.com/jsha/minica) - minica is a small, simple CA intended for use in situations where the CA operator also operates each host where a certificate will be used.
-*   [Kong/kubernetes-ingress-controller](https://github.com/Kong/kubernetes-ingress-controller) - :gorilla: Kong for Kubernetes: The official Ingress Controller for Kubernetes.
-*   [seibert-media/hangouts-jira-bot](https://github.com/seibert-media/hangouts-jira-bot) - Chat Bot to integrate Jira Server into Google Hangouts Chat using Pub/Sub
-*   [ehazlett/stellar](https://github.com/ehazlett/stellar) - Simplified Container System
-*   [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) - A simple zero-config tool to make locally trusted development certificates with any names you'd like.
-*   [errata-ai/vale](https://github.com/errata-ai/vale) - :pencil: A syntax-aware linter for prose built with speed and extensibility in mind.
-*   [magefile/mage](https://github.com/magefile/mage) - a Make/rake-like dev tool using Go
-*   [snakecharmer/sentry_exporter](https://github.com/snakecharmer/sentry_exporter) - Prometheus exporter for Sentry
-*   [kubernetes/minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally
-*   [buzzfeed/sso](https://github.com/buzzfeed/sso) - sso, aka S.S.Octopus, aka octoboi, is a single sign-on solution for securing internal services
-*   [ericfreese/rat](https://github.com/ericfreese/rat) - Compose shell commands to build interactive terminal applications
-*   [gomods/athens](https://github.com/gomods/athens) - A Go module datastore and proxy
-*   [segmentio/ksuid](https://github.com/segmentio/ksuid) - K-Sortable Globally Unique IDs
-*   [git-hooks/git-hooks](https://github.com/git-hooks/git-hooks) - git hooks manager
-*   [open-policy-agent/opa](https://github.com/open-policy-agent/opa) - An open source, general-purpose policy engine.
-*   [rapidloop/pgmetrics](https://github.com/rapidloop/pgmetrics) - Collect and display information and stats from a running PostgreSQL server
-*   [attic-labs/noms](https://github.com/attic-labs/noms) - The versioned, forkable, syncable database
-*   [crawshaw/littleboss](https://github.com/crawshaw/littleboss) - littleboss: supervisor construction kit
-*   [golangci/golangci-lint](https://github.com/golangci/golangci-lint) - Fast linters Runner for Go
-*   [rs/curlie](https://github.com/rs/curlie) - The power of curl, the ease of use of httpie.
-*   [AlloyCI/alloy-runner](https://github.com/AlloyCI/alloy-runner) - AlloyCI Runner
-*   [brianm/pwned](https://github.com/brianm/pwned) - Local CLI for checking against https://haveibeenpwned.com/Passwords
-*   [bits-and-blooms/bloom](https://github.com/bits-and-blooms/bloom) - Go package implementing Bloom filters
-*   [dinedal/textql](https://github.com/dinedal/textql) - Execute SQL against structured text like CSV or TSV
-*   [imdario/gluo](https://github.com/imdario/gluo) - Write your Go net/http server once, deploy it everywhere (on-premise & AWS Lambda supported)
-*   [goadapp/goad](https://github.com/goadapp/goad) - Goad is an AWS Lambda powered, highly distributed, load testing tool
-*   [schollz/find3](https://github.com/schollz/find3) - High-precision indoor positioning framework, version 3.
-*   [kryptco/kr](https://github.com/kryptco/kr) - A dev tool for SSH auth + Git commit/tag signing using a key stored in Krypton.
-*   [shurcooL/graphql](https://github.com/shurcooL/graphql) - Package graphql provides a GraphQL client implementation.
-*   [esimov/caire](https://github.com/esimov/caire) - Content aware image resize library
-*   [99designs/gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library
-*   [lmorg/murex](https://github.com/lmorg/murex) - Bash-like shell and scripting environment with advanced features designed for safety and productivity (eg smarter DevOps tooling)
-*   [fireworq/fireworq](https://github.com/fireworq/fireworq) - Fireworq is a lightweight, high-performance, language-independent job queue system.
-*   [Jimdo/aws-health-exporter](https://github.com/Jimdo/aws-health-exporter) - AWS Health API Exporter for Prometheus
-*   [slok/ecs-exporter](https://github.com/slok/ecs-exporter) - Export AWS ECS cluster metrics to Prometheus
-*   [stuartnelson3/passenger_exporter](https://github.com/stuartnelson3/passenger_exporter) - prometheus passenger exporter for nginx integration
-*   [prometheus/node_exporter](https://github.com/prometheus/node_exporter) - Exporter for machine metrics
-*   [prometheus-community/postgres_exporter](https://github.com/prometheus-community/postgres_exporter) - A PostgreSQL metric exporter for Prometheus
-*   [prometheus/client_golang](https://github.com/prometheus/client_golang) - Prometheus instrumentation library for Go applications
-*   [axiomhq/hyperminhash](https://github.com/axiomhq/hyperminhash) - HyperMinHash: Bringing intersections to HyperLogLog
-*   [dbohdan/automatic-api](https://github.com/dbohdan/automatic-api) - A list of software that turns your database into a REST/GraphQL API
-*   [cirocosta/cr](https://github.com/cirocosta/cr) - Runs your tasks at maximum concurrency
-*   [moul/sshportal](https://github.com/moul/sshportal) - :tophat: simple, fun and transparent SSH (and telnet) bastion server
-*   [matthewmueller/joy](https://github.com/matthewmueller/joy) - A delightful Go to Javascript compiler (ON HOLD)
-*   [manifoldco/promptui](https://github.com/manifoldco/promptui) - Interactive prompt for command-line applications
-*   [tidwall/evio](https://github.com/tidwall/evio) - Fast event-loop networking for Go
-*   [gritzko/ron](https://github.com/gritzko/ron) - (dated, see the site) Replicated Object Notation, a distributed live data format, golang/ragel lib
-*   [neugram/ng](https://github.com/neugram/ng) - scripting language integrated with Go
-*   [gomatcha/matcha](https://github.com/gomatcha/matcha) - Build native mobile apps in Go.
-*   [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) - CNCF Jaeger, a Distributed Tracing Platform
-*   [ory/hydra](https://github.com/ory/hydra) - OpenID Certified™ OpenID Connect and OAuth Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language. Works with Hardware Security Modules. Compatible with MITREid.
-*   [tmc/pqstream](https://github.com/tmc/pqstream) - pqstream turns your postgres database into an event stream
-*   [wal-g/wal-g](https://github.com/wal-g/wal-g) - Archival and Restoration for Postgres
-*   [muesli/smartcrop](https://github.com/muesli/smartcrop) - smartcrop finds good image crops for arbitrary crop sizes
-*   [d4l3k/go-pry](https://github.com/d4l3k/go-pry) - An interactive REPL for Go that allows you to drop into your code at any point.
-*   [wcharczuk/go-chart](https://github.com/wcharczuk/go-chart) - go chart is a basic charting library in go.
-*   [rhysd/dotfiles](https://github.com/rhysd/dotfiles) - dotfiles symbolic links management CLI
-*   [DanielMorsing/suss](https://github.com/DanielMorsing/suss) - A property-based testing library
-*   [dgraph-io/badger](https://github.com/dgraph-io/badger) - Fast key-value DB in Go.
-*   [pengwynn/flint](https://github.com/pengwynn/flint) - Check your project for common sources of contributor friction.
-*   [axiomhq/hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog with lots of sugar (Sparse, LogLog-Beta bias correction and TailCut space reduction)
-*   [gilbertchen/duplicacy](https://github.com/gilbertchen/duplicacy) - A new generation cloud backup tool
-*   [moul/assh](https://github.com/moul/assh) - :computer: make your ssh client smarter
-*   [lovoo/goka](https://github.com/lovoo/goka) - Goka is a compact yet powerful distributed stream processing library for Apache Kafka written in Go.
-*   [open-falcon/falcon-plus](https://github.com/open-falcon/falcon-plus) -  An open-source and enterprise-level monitoring system.
-*   [cloudtools/ssh-cert-authority](https://github.com/cloudtools/ssh-cert-authority) - An implementation of an SSH certificate authority.
-*   [awnumar/memguard](https://github.com/awnumar/memguard) - Secure software enclave for storage of sensitive information in memory.
-*   [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) - Find credentials all over the place
-*   [cayleygraph/cayley](https://github.com/cayleygraph/cayley) - An open-source graph database
-*   [ponzu-cms/ponzu](https://github.com/ponzu-cms/ponzu) - Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexible server framework written in Go.
-*   [cheekybits/genny](https://github.com/cheekybits/genny) - Elegant generics for Go
-*   [xo/usql](https://github.com/xo/usql) - Universal command-line interface for SQL databases
-*   [vektra/vega](https://github.com/vektra/vega) - A distributed mailbox system
-*   [muesli/beehive](https://github.com/muesli/beehive) - A flexible event/agent & automation system with lots of bees 🐝
-*   [envoyproxy/ratelimit](https://github.com/envoyproxy/ratelimit) - Go/gRPC service designed to enable generic rate limit scenarios from different types of applications.
-*   [uber/pam-ussh](https://github.com/uber/pam-ussh) - uber's ssh certificate pam module
-*   [gopasspw/gopass](https://github.com/gopasspw/gopass) - The slightly more awesome standard unix password manager for teams
-*   [getantibody/antibody](https://github.com/getantibody/antibody) - The fastest shell plugin manager.
-*   [oklog/oklog](https://github.com/oklog/oklog) - A distributed and coördination-free log management system
-*   [oelmekki/pgrebase](https://github.com/oelmekki/pgrebase) - Easy postgres codebase injection - aka postgres non data live reload
-*   [lastbackend/lastbackend](https://github.com/lastbackend/lastbackend) - System for containerized apps management. From build to scaling.
-*   [hashicorp/vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper) - Vault SSH Agent is used to enable one time keys and passwords
-*   [campoy/jsonenums](https://github.com/campoy/jsonenums) - This tool is similar to golang.org/x/tools/cmd/stringer but generates MarshalJSON and UnmarshalJSON methods.
-*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more. A true successor of expressjs and laravel | 谢谢 https://github.com/kataras/iris/issues/1329 |
-*   [simon-engledew/gocmdpev](https://github.com/simon-engledew/gocmdpev) - A command-line GO Postgres query visualizer, heavily inspired by pev (https://github.com/AlexTatiyants/pev)
-*   [radovskyb/go-packages](https://github.com/radovskyb/go-packages) - A large repository of code and documented examples for Go's standard package library.
-*   [genuinetools/certok](https://github.com/genuinetools/certok) - Command line tool to check the validity and expiration dates of SSL certificates.
-*   [go-playground/colors](https://github.com/go-playground/colors) - :art: Go color manipulation, conversion and printing library/utility
-*   [go-playground/tz](https://github.com/go-playground/tz) - Timezone Country and Zone data generated from timezonedb.com
-*   [go-playground/spoon](https://github.com/go-playground/spoon) - library + program to help making zero downtime, self-upgrading programs and servers.
-*   [go-playground/pool](https://github.com/go-playground/pool) - :speedboat: a limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation
-*   [apex/log](https://github.com/apex/log) - Structured logging package for Go.
-*   [go-playground/log](https://github.com/go-playground/log) - :green_book: Simple, configurable and scalable Structured Logging for Go.
-*   [go-playground/stats](https://github.com/go-playground/stats) - :chart_with_upwards_trend: Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
-*   [go-playground/universal-translator](https://github.com/go-playground/universal-translator) - :speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization rules
-*   [go-playground/pure](https://github.com/go-playground/pure) - :non-potable_water: Is a lightweight  HTTP router that sticks to the std "net/http" implementation
-*   [go-playground/overalls](https://github.com/go-playground/overalls) - :jeans:Multi-Package go project coverprofile for tools like goveralls
-*   [julienschmidt/httprouter](https://github.com/julienschmidt/httprouter) - A high performance HTTP request router that scales well
-*   [go-playground/lars](https://github.com/go-playground/lars) - :rotating_light: Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks.
-*   [dimfeld/httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go.
-*   [go-playground/statics](https://github.com/go-playground/statics) - :file_folder: Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks
-*   [labstack/echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework
-*   [labstack/armor](https://github.com/labstack/armor) - Uncomplicated, modern HTTP server
-*   [davecheney/httpstat](https://github.com/davecheney/httpstat) - It's like curl -v, with colours.
-*   [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files
-*   [kubernetes/gengo](https://github.com/kubernetes/gengo) - gengo library for code generation.
-*   [iamduo/workq](https://github.com/iamduo/workq) - Job server in Go
-*   [nsheridan/cashier](https://github.com/nsheridan/cashier) - A self-service CA for OpenSSH
-*   [tmrts/go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms
-*   [dexidp/dex](https://github.com/dexidp/dex) - OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
-*   [influxdata/kapacitor](https://github.com/influxdata/kapacitor) - Open source framework for processing, monitoring, and alerting on time series data
-*   [influxdata/influxdb](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics
-*   [influxdata/telegraf](https://github.com/influxdata/telegraf) - The plugin-driven server agent for collecting & reporting metrics.
-*   [jamiealquiza/polymur](https://github.com/jamiealquiza/polymur) - A fast carbon-relay with live routing controls + https Graphite forwarder
-*   [direnv/direnv](https://github.com/direnv/direnv) - unclutter your .profile
-*   [variadico/noti](https://github.com/variadico/noti) - Monitor a process and trigger a notification.
-*   [gokcehan/lf](https://github.com/gokcehan/lf) - Terminal file manager
-*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-*   [sourcegraph/thyme](https://github.com/sourcegraph/thyme) - Automatically track which applications you use and for how long.
-*   [sourcegraph/checkup](https://github.com/sourcegraph/checkup) - Distributed, lock-free, self-hosted health checks and status pages
-*   [concourse/concourse](https://github.com/concourse/concourse) - Concourse is a container-based continuous thing-doer written in Go.
-*   [cloudfoundry/binary-buildpack](https://github.com/cloudfoundry/binary-buildpack) - Deploy binaries to Cloud Foundry
-*   [git-time-metric/gtm](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git
-*   [otoolep/hraftd](https://github.com/otoolep/hraftd) - A reference use of Hashicorp's Raft implementation
-*   [gtank/cryptopasta](https://github.com/gtank/cryptopasta) - copy & paste-friendly golang crypto
-*   [ajbouh/qa](https://github.com/ajbouh/qa) - QA is a lightweight tool for running your (Ruby) tests fast.
-*   [google/badwolf](https://github.com/google/badwolf) - Temporal graph store abstraction layer.
-*   [traefik/traefik](https://github.com/traefik/traefik) - The Cloud Native Application Proxy
-*   [rach/pome](https://github.com/rach/pome) - A Postgres Metrics Dashboard
-*   [xo/xo](https://github.com/xo/xo) - Command line tool to generate idiomatic Go code for SQL databases supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server
-*   [slicebit/qb](https://github.com/slicebit/qb) - The database toolkit for go
-*   [vladaionescu/leveros](https://github.com/vladaionescu/leveros) - Serverless + Microservices = ♥
-*   [revel/revel](https://github.com/revel/revel) - A high productivity, full-stack web framework for the Go language.
-*   [go-delve/delve](https://github.com/go-delve/delve) - Delve is a debugger for the Go programming language.
-*   [google/git-appraise](https://github.com/google/git-appraise) - Distributed code review system for Git repos
-*   [carlmjohnson/scattered](https://github.com/carlmjohnson/scattered) - Command line tool for asset hashing
-*   [packetzoom/logzoom](https://github.com/packetzoom/logzoom) - A lightweight replacement for logstash indexer in Go
-*   [future-architect/vuls](https://github.com/future-architect/vuls) - Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices
-*   [gravitational/teleport](https://github.com/gravitational/teleport) - Certificate authority and access plane for SSH, Kubernetes, web apps, databases and desktops
-*   [s3git/s3git](https://github.com/s3git/s3git) - s3git: git for Cloud Storage. Distributed Version Control for Data. Create decentralized and versioned repos that scale infinitely to 100s of millions of files. Clone huge PB-scale repos on your local SSD to make changes, commit and push back. Oh yeah, it dedupes too and offers directory versioning.
-*   [itsabot/itsabot](https://github.com/itsabot/itsabot) - ItsAbot makes it easy and fun to build your own digital assistant, and we include everything you need to get started.
-*   [pressly/sup](https://github.com/pressly/sup) - Super simple deployment tool - think of it like 'make' for a network of servers
-*   [nanomsg/mangos-v1](https://github.com/nanomsg/mangos-v1) - The pure golang implementation of nanomsg (version 1, frozen)
-*   [nsqio/nsq](https://github.com/nsqio/nsq) - A realtime distributed messaging platform
-*   [mozilla/mig](https://github.com/mozilla/mig) - Distributed & real time digital forensics at the speed of the cloud
-*   [kelseyhightower/confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul
-*   [lukasmartinelli/pipecat](https://github.com/lukasmartinelli/pipecat) - Connect UNIX pipes and message queues
-*   [nlf/dlite](https://github.com/nlf/dlite) - The simplest way to use Docker on OS X
-*   [go-kit/kit](https://github.com/go-kit/kit) - A standard library for microservices.
-*   [SpectoLabs/hoverfly](https://github.com/SpectoLabs/hoverfly) - Lightweight service virtualization/API simulation tool for developers and testers
-*   [Shopify/toxiproxy](https://github.com/Shopify/toxiproxy) - :alarm_clock: :fire: A TCP proxy to simulate network and system conditions for chaos and resiliency testing
-*   [SumoLogic/sumoshell](https://github.com/SumoLogic/sumoshell) - A terminal-only version of Sumo written in Go
-*   [laher/goxc](https://github.com/laher/goxc) - a build tool for Go, with a focus on cross-compiling, packaging and deployment
-*   [noahhl/go-batsd](https://github.com/noahhl/go-batsd) -
-*   [redbooth/ssmperf](https://github.com/redbooth/ssmperf) - Load testing tool for SSMP servers.
-*   [redbooth/lipwig](https://github.com/redbooth/lipwig) - Golang implementation of the Stupid-Simple Messaging Protocol.
-*   [jroes/par](https://github.com/jroes/par) - Run similar commands concurrently
-*   [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) - CockroachDB - the open source, cloud-native distributed SQL database.
-*   [pressly/imgry](https://github.com/pressly/imgry) - On-demand image sizing+delivery for responsive applications
-*   [ibm-security-innovation/libsecurity-go](https://github.com/ibm-security-innovation/libsecurity-go) -
-*   [maximilien/i18n4go](https://github.com/maximilien/i18n4go) - i18n tooling for Golang
-*   [vulcand/vulcand](https://github.com/vulcand/vulcand) -  Programmatic load balancer backed by Etcd
-*   [sirupsen/logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
-*   [levigross/grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library
-*   [rapidloop/rtop](https://github.com/rapidloop/rtop) - rtop is an interactive, remote system monitoring tool based on SSH
-*   [hpcloud/tail](https://github.com/hpcloud/tail) - Go package for reading from continously updated files (tail -f)
-*   [uiri/coreutils](https://github.com/uiri/coreutils) - GNU Coreutils written in Go
-*   [surma/gobox](https://github.com/surma/gobox) - Something like busybox in pure Go
-*   [ericlagergren/go-gnulib](https://github.com/ericlagergren/go-gnulib) - A collection of parts of GNU's libc, POSX libs, and Windows functions ported to Go
-*   [ericlagergren/go-coreutils](https://github.com/ericlagergren/go-coreutils) - A cross-platform port of GNU's coreutils to Go
-*   [boltdb/bolt](https://github.com/boltdb/bolt) - An embedded key/value database for Go.
-*   [codahale/sneaker](https://github.com/codahale/sneaker) - A tool for securely storing secrets on S3 using Amazon KMS.
-*   [square/certstrap](https://github.com/square/certstrap) - Tools to bootstrap CAs, certificate requests, and signed certificates.
-*   [mndrix/golog](https://github.com/mndrix/golog) - Prolog interpreter in Go
-*   [jgrahamc/httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same request against two HTTP servers and diff the results
-*   [pinterest/bender](https://github.com/pinterest/bender) - An easy-to-use library for creating load testing applications
-*   [rovaughn/git-remote-grave](https://github.com/rovaughn/git-remote-grave) - Git remote helper for encrypted repositories with NaCl.
-*   [callumj/weave](https://github.com/callumj/weave) - Configuration packaging with little effort.
-*   [prometheus/prometheus](https://github.com/prometheus/prometheus) - The Prometheus monitoring system and time series database.
-*   [zentures/sequence](https://github.com/zentures/sequence) - (Unmaintained) High performance sequential log analyzer and parser
-*   [cdarwin/go-koans](https://github.com/cdarwin/go-koans) - koans for go
-*   [jrallison/go-workers](https://github.com/jrallison/go-workers) - Sidekiq compatible background workers in golang
-*   [dropbox/godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications.
-*   [facebookarchive/grace](https://github.com/facebookarchive/grace) - Graceful restart & zero downtime deploy for Go servers.
-*   [stripe-archive/go-einhorn](https://github.com/stripe-archive/go-einhorn) - Talk to einhorn from your Go worker
-*   [rcrowley/goagain](https://github.com/rcrowley/goagain) - Zero-downtime restarts in Go
-*   [mailgun/manners](https://github.com/mailgun/manners) - A polite Go HTTP server that shuts down gracefully.
-*   [pusher/crank](https://github.com/pusher/crank) - Process slow restarter
-*   [zimbatm/socketmaster](https://github.com/zimbatm/socketmaster) - Zero downtime restarts for your apps
-*   [Scalingo/go-graceful-restart-example](https://github.com/Scalingo/go-graceful-restart-example) - Example of server with graceful restart enable
-*   [git-town/git-town](https://github.com/git-town/git-town) - Generic, high-level Git workflow support!
-*   [rphillips/gosec](https://github.com/rphillips/gosec) - Gosec manages secrets using PGP
-*   [StackExchange/blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git/Mercurial/Subversion
-*   [gogs/gogs](https://github.com/gogs/gogs) - Gogs is a painless self-hosted Git service
-*   [thomasboyt/go-selecta](https://github.com/thomasboyt/go-selecta) - port of @garybernhardt's selecta to go
-*   [pksunkara/alpaca](https://github.com/pksunkara/alpaca) - Given a web API, Generate client libraries in node, php, python, ruby
-*   [HouzuoGuo/DBGo](https://github.com/HouzuoGuo/DBGo) - This is a programming exercise, do not use in serious code.
-*   [bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) - Go Memcached client library #golang
-*   [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
-*   [github/hub](https://github.com/github/hub) - A command-line tool that makes git easier to use with GitHub.
-
-## generic
-
-*   [simonw/shot-scraper-template](https://github.com/simonw/shot-scraper-template) - Template repository for setting up shot-scraper
-*   [veeral-patel/how-to-secure-anything](https://github.com/veeral-patel/how-to-secure-anything) - How to systematically secure anything: a repository about security engineering
-*   [thenaturalist/awesome-business-intelligence](https://github.com/thenaturalist/awesome-business-intelligence) - Actively curated list of awesome BI tools. PRs welcome!
-*   [cooklang/spec](https://github.com/cooklang/spec) - Home for Cooklang specification and general discussions about the ecosystem
-*   [joelparkerhenderson/git-commit-template](https://github.com/joelparkerhenderson/git-commit-template) - Git commit template for better commit messages
-*   [Aquila-Network/awesome-aquila-network](https://github.com/Aquila-Network/awesome-aquila-network) - Everyting you need to know about Aquila Network Neural Search Ecosystem. Official repositories, client libraries, ecosystem projects, boilerplate, tutorials, learning and more..
-*   [sdras/awesome-actions](https://github.com/sdras/awesome-actions) - A curated list of awesome actions to use on GitHub
-*   [TablePlus/DBngin](https://github.com/TablePlus/DBngin) - DB Engine
-*   [ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
-*   [halostatue/nix-env.fish](https://github.com/halostatue/nix-env.fish) - Nix environment setup for the fish shell
-*   [ulid/spec](https://github.com/ulid/spec) - The canonical spec for ulid
-*   [mindreframer/phx-vite-demo](https://github.com/mindreframer/phx-vite-demo) - Showcase integration of Vite.js + Phoenix + LiveView
-*   [los-gordos/BLOKK](https://github.com/los-gordos/BLOKK) - BLOKK is a font for quick mock-ups and wireframing for clients who do not understand latin.
-*   [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.
-*   [pahimar/dot-github](https://github.com/pahimar/dot-github) - Template repo with common GH related files
-*   [lorin/awesome-limits](https://github.com/lorin/awesome-limits) - Examples of OS / system limits
-*   [tuupola/branca-spec](https://github.com/tuupola/branca-spec) - Authenticated and encrypted API tokens using modern crypto
-*   [vue-a11y/awesome-a11y-vue](https://github.com/vue-a11y/awesome-a11y-vue) - A list of awesome things related to accessibility in Vue.js
-*   [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record) - Architecture decision record (ADR) examples for software planning, IT leadership, and template documentation
-*   [hwayne/awesome-cold-showers](https://github.com/hwayne/awesome-cold-showers) - For when people get too hyped up about things
-*   [bellbind/docker-ruby18-rails2](https://github.com/bellbind/docker-ruby18-rails2) - Dockerfile for ruby-1.8.7 and rails-2.3
-*   [tcnksm/dockerfile-rbenv](https://github.com/tcnksm/dockerfile-rbenv) - Dockerfile to build Image which is installed muliple versions of ruby
-*   [goabstract/Marketing-for-Engineers](https://github.com/goabstract/Marketing-for-Engineers) - A curated collection of marketing articles & tools to grow your product.
-*   [erlef/security-wg](https://github.com/erlef/security-wg) - Repo for the Security Working Group
-*   [fernet/spec](https://github.com/fernet/spec) - Spec and acceptance tests for the Fernet format.
-*   [cyclejs-community/awesome-cyclejs](https://github.com/cyclejs-community/awesome-cyclejs) - A curated list of awesome Cycle.js resources
-*   [Atarity/deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas) - List of "only yours" cloud services for everyday needs :black_flag:
-*   [basecamp/policies](https://github.com/basecamp/policies) - Basecamp policies, terms, and legal. Share them; reuse them; contribute to them.
-*   [pcmarks/mdns_lite](https://github.com/pcmarks/mdns_lite) - A simple implementation of an mDNS (multicast Domain Name System) server.
-*   [planetjekyll/awesome-jekyll-plugins](https://github.com/planetjekyll/awesome-jekyll-plugins) - A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)
-*   [gleam-lang/suggestions](https://github.com/gleam-lang/suggestions) - 📙 A place for ideas and feedback
-*   [threeheartsdigital/email-marketing-regulations](https://github.com/threeheartsdigital/email-marketing-regulations) - A repository of email marketing legislation around the World, compiled by EmailOctopus.
-*   [uber-go/guide](https://github.com/uber-go/guide) - The Uber Go Style Guide.
-*   [google/eng-practices](https://github.com/google/eng-practices) - Google's Engineering Practices documentation
-*   [rollup/awesome](https://github.com/rollup/awesome) - ⚡️ Delightful Rollup Plugins, Packages, and Resources
-*   [ndjson/ndjson-spec](https://github.com/ndjson/ndjson-spec) - Specification
-*   [opencensus-beam/awesome-beam-monitoring](https://github.com/opencensus-beam/awesome-beam-monitoring) - Curated list of awesome BEAM monitoring libraries and resources
-*   [kylelobo/The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium) - 📢 Various README templates & tips on writing high-quality documentation that people want to read.
-*   [arcticicestudio/nord-dircolors](https://github.com/arcticicestudio/nord-dircolors) - An arctic, north-bluish clean and elegant dircolors theme.
-*   [hubertgrzeskowiak/lnav-format-glassfish](https://github.com/hubertgrzeskowiak/lnav-format-glassfish) - LNAV formatter for Glassfish log files
-*   [petispaespea/lnav-tableau-format](https://github.com/petispaespea/lnav-tableau-format) -
-*   [5cmpersec/lnav-logcat-format](https://github.com/5cmpersec/lnav-logcat-format) - format descriptions for android logcat
-*   [bronius/lnav_format_iht_apache](https://github.com/bronius/lnav_format_iht_apache) - lnav format.json file for internal client project apache log format with customizations
-*   [technolinchpin/lnav-dbus-format](https://github.com/technolinchpin/lnav-dbus-format) - dbus monitor log parsing
-*   [technolinchpin/lnav-gst-format](https://github.com/technolinchpin/lnav-gst-format) - the gstreamer log parser format for lnav
-*   [thomasleveil/lnav-formats](https://github.com/thomasleveil/lnav-formats) - Log format description files for lnav 0.8+
-*   [n3x77/lnav-thor](https://github.com/n3x77/lnav-thor) - LNAV log formats for viewing THOR and SPARK log files.
-*   [tstack/fullsail_lnav_config](https://github.com/tstack/fullsail_lnav_config) -
-*   [rsteube/lnav-formats](https://github.com/rsteube/lnav-formats) - Log format description files for lnav
-*   [timnew/lnav-bunyan](https://github.com/timnew/lnav-bunyan) - Lnav format declaration for node-bunyan
-*   [gallna/lnav-formats](https://github.com/gallna/lnav-formats) -
-*   [ianAndrewClark/lnav-configs](https://github.com/ianAndrewClark/lnav-configs) - json configs for https://lnav.readthedocs.io/en/latest/index.html
-*   [nvahalik/drupal-lnav](https://github.com/nvahalik/drupal-lnav) - Drupal log file formats for lnav
-*   [FrancescoFreder/lnav-formats](https://github.com/FrancescoFreder/lnav-formats) -
-*   [rubenqba/lnav-formats](https://github.com/rubenqba/lnav-formats) -
-*   [baelter/lnav-rmq](https://github.com/baelter/lnav-rmq) - RabbitMQ definition for lnav
-*   [aspiers/lnav-formats](https://github.com/aspiers/lnav-formats) - Extra log file format descriptions for the lnav log file reader
-*   [Sebobo/lnav-neosflow](https://github.com/Sebobo/lnav-neosflow) - Neos Flow log file format file for lnav
-*   [hagfelsh/lnav_formats](https://github.com/hagfelsh/lnav_formats) - A place to share my lnav .json formats.  For more information on the incredible Log Navigator, visit http://lnav.org
-*   [dbartolini/data-oriented-design](https://github.com/dbartolini/data-oriented-design) - A curated list of data oriented design resources.
-*   [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) - An evolving how-to guide for securing a Linux server.
-*   [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) - A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
-*   [bagder/http3-explained](https://github.com/bagder/http3-explained) - A document describing the HTTP/3 and QUIC protocols
-*   [knu/zsh-git-escape-magic](https://github.com/knu/zsh-git-escape-magic) - zle tweak for git command line arguments
-*   [ankane/production_rails](https://github.com/ankane/production_rails) - Best practices for running Rails in production
-*   [grahamjenson/list_of_recommender_systems](https://github.com/grahamjenson/list_of_recommender_systems) - A List of Recommender Systems and Resources
-*   [inaka/guidelines](https://github.com/inaka/guidelines) - General Inaka Guidelines
-*   [elves/awesome-elvish](https://github.com/elves/awesome-elvish) - The official list of awesome unofficial Elvish modules
-*   [InQuest/awesome-yara](https://github.com/InQuest/awesome-yara) - A curated list of awesome YARA rules, tools, and people.
-*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
-*   [caquino/bash-functions](https://github.com/caquino/bash-functions) - A collection of BASH Functions
-*   [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist) - 🎮 The only Front-End Performance Checklist that runs faster than the others
-*   [joelparkerhenderson/ways-of-working](https://github.com/joelparkerhenderson/ways-of-working) - Ways of Working (WoW) a.k.a. ground rules, aspirations, team norms, team values, working agreements, shared expectations, and group understandings
-*   [Nicd/mbu](https://github.com/Nicd/mbu) - Repo moved to:
-*   [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
-*   [vue-bulma/vue-admin](https://github.com/vue-bulma/vue-admin) - We are refactoring it, using the latest Vue and Bulma. WIP
-*   [reyronald/awesome-toolkits](https://github.com/reyronald/awesome-toolkits) - A curated list of open source, high-quality, popular and well maintained "zero-configuration" (#0CJS) toolkits
-*   [Jam3/math-as-code](https://github.com/Jam3/math-as-code) - a cheat-sheet for mathematical notation in code form
-*   [petere/pex-packages](https://github.com/petere/pex-packages) - package library for pex (https://github.com/petere/pex)
-*   [dastergon/awesome-chaos-engineering](https://github.com/dastergon/awesome-chaos-engineering) - A curated list of Chaos Engineering resources.
-*   [janlelis/stdgems](https://github.com/janlelis/stdgems) - Ruby's default & bundled gems: The new standard library
-*   [tylergaw/js-osx-app-examples](https://github.com/tylergaw/js-osx-app-examples) - Example OS X applications written in JavaScript.
-*   [k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules) - Flight rules for git
-*   [apollographql/apollo-tracing](https://github.com/apollographql/apollo-tracing) - A GraphQL extension for performance tracing
-*   [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) - A simple guide to HTML \<head> elements
-*   [LappleApple/feedmereadmes](https://github.com/LappleApple/feedmereadmes) - Free README editing+feedback to make your open-source projects grow. See the README maturity model to help you keep going.
-*   [llaisdy/beam_languages](https://github.com/llaisdy/beam_languages) - Languages, and about languages, on the BEAM
-*   [jorgebucaran/hyperawesome](https://github.com/jorgebucaran/hyperawesome) - A curated list of awesome projects built with Hyperapp & more.
-*   [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) - Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
-*   [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know about
-*   [nikitavoloboev/my-mac-os](https://github.com/nikitavoloboev/my-mac-os) - List of applications and tools that make my macOS experience even more amazing
-*   [listsfordesign/Lists](https://github.com/listsfordesign/Lists) - Official repository of all the lists for https://lists.design
-*   [jperriere/Lists](https://github.com/jperriere/Lists) - Official repository of all the lists for https://lists.design
-*   [cameronmcefee/rip-license](https://github.com/cameronmcefee/rip-license) - A license for private repos that lets you define what happens to your code when you die
-*   [exercism/exercism](https://github.com/exercism/exercism) - Crowd-sourced code mentorship. Practice having thoughtful conversations about code.
-*   [cloudamqp/rabbitmq-delayed-messages](https://github.com/cloudamqp/rabbitmq-delayed-messages) - Ruby snippet, demonstrates how to implement delayed messages in RabbitMQ
-*   [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit) - :link: Some useful websites for programmers.
-*   [karan/Projects](https://github.com/karan/Projects) - :page_with_curl: A list of practical projects that anyone can solve in any programming language.
-*   [TonnyL/Awesome_APIs](https://github.com/TonnyL/Awesome_APIs) - :octocat: A collection of APIs
-*   [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) - Curated list of project-based tutorials
-*   [Gabriel439/post-rfc](https://github.com/Gabriel439/post-rfc) - Blog post previews in need of peer review
-*   [basecamp/handbook](https://github.com/basecamp/handbook) - Basecamp Employee Handbook
-*   [chentsulin/awesome-graphql](https://github.com/chentsulin/awesome-graphql) - Awesome list of GraphQL
-*   [github/balanced-employee-ip-agreement](https://github.com/github/balanced-employee-ip-agreement) - GitHub's employee intellectual property agreement, open sourced and reusable
-*   [forter/security-101-for-saas-startups](https://github.com/forter/security-101-for-saas-startups) - security tips for startups
-*   [teesloane/Auth-Boss](https://github.com/teesloane/Auth-Boss) - 🔒 Become an Auth Boss. Learn about different authentication methodologies on the web.
-*   [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) - Use your macOS terminal shell to do awesome things.
-*   [255kb/stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A collection of services with great free tiers for developers on a budget. Sponsored by Mockoon, the best mock API tool. https://mockoon.com
-*   [brettchalupa/developer-interview-questions](https://github.com/brettchalupa/developer-interview-questions) - Questions to ask when interviewing for a software developer position
-*   [rstacruz/webpack-tricks](https://github.com/rstacruz/webpack-tricks) - Tips and tricks in using Webpack
-*   [keon/awesome-bits](https://github.com/keon/awesome-bits) - :computer: A curated list of awesome bitwise operations and tricks
-*   [nothings/single_file_libs](https://github.com/nothings/single_file_libs) - List of single-file C/C++ libraries.
-*   [zalando/zalando-howto-open-source](https://github.com/zalando/zalando-howto-open-source) - Open Source guidance from Zalando, Europe's largest online fashion platform
-*   [etsy/DebriefingFacilitationGuide](https://github.com/etsy/DebriefingFacilitationGuide) - Leading Groups at Etsy to Learn From Accidents
-*   [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses) - List of Computer Science courses with video lectures.
-*   [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) - A complete daily plan for studying to become a machine learning engineer.
-*   [UKHomeOffice/posters](https://github.com/UKHomeOffice/posters) - Home Office Digital repository of posters covering different topics - research, access needs, accessibility, design.
-*   [aphyr/distsys-class](https://github.com/aphyr/distsys-class) - Class materials for a distributed systems lecture series
-*   [engineerapart/TheRemoteFreelancer](https://github.com/engineerapart/TheRemoteFreelancer) - Listing of community-curated resources to find topical remote freelance & contract work for software developers, web designers, and more!
-*   [postlight/awesome-cms](https://github.com/postlight/awesome-cms) - 📚 A collection of open and closed source Content Management Systems (CMS) for your perusal.
-*   [ossu/computer-science](https://github.com/ossu/computer-science) - :mortar_board: Path to a free self-taught education in Computer Science!
-*   [icecrime/vossibility-stack](https://github.com/icecrime/vossibility-stack) - Visibility for your open source project
-*   [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood) - 😱 Falsehoods Programmers Believe in
-*   [enilsen16/awesome-hedwig](https://github.com/enilsen16/awesome-hedwig) - A curated list of amazingly awesome Hedwig adapters, responders, and resources
-*   [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) - Curated List of React Components & Libraries.
-*   [wagenet/StandardIssueLabels](https://github.com/wagenet/StandardIssueLabels) - A Set of Standardized Labels for Github Issues
-*   [nayafia/lemonade-stand](https://github.com/nayafia/lemonade-stand) - A handy guide to financial support for open source
-*   [nayafia/contributing-template](https://github.com/nayafia/contributing-template) - Template for writing your own contributing guide
-*   [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - 😎 Awesome lists about all kinds of interesting topics
-*   [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon) - Jargon from the functional programming world in simple terms!
-*   [markets/awesome-ruby](https://github.com/markets/awesome-ruby) - :gem: A collection of awesome Ruby libraries, tools, frameworks and software
-*   [OWASP/DevGuide](https://github.com/OWASP/DevGuide) - The OWASP Guide
-*   [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) - Security Guide for Developers (实用性开发人员安全须知)
-*   [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) - A curation of prompts, plugins & other resources for Fish. 🐚
-*   [berneout/authors-certificate](https://github.com/berneout/authors-certificate) - practical provenance for the GitHub-and-npm set
-*   [dbohdan/structured-text-tools](https://github.com/dbohdan/structured-text-tools) - A list of command line tools for manipulating structured text data
-*   [markerikson/react-redux-links](https://github.com/markerikson/react-redux-links) - Curated tutorial and resource links I've collected on React, Redux, ES6, and more
-*   [dhamaniasad/awesome-postgres](https://github.com/dhamaniasad/awesome-postgres) - A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
-*   [nuprl/10PL](https://github.com/nuprl/10PL) - 10 papers that all PhD students in programming languages ought to know, for some value of 10
-*   [paul-nechifor/ohmu](https://github.com/paul-nechifor/ohmu) - View space usage in your terminal.
-*   [redbooth/ssmp](https://github.com/redbooth/ssmp) - Stupid-Simple Messaging Protocol.
-*   [chriskempson/base16](https://github.com/chriskempson/base16) - An architecture for building themes
-*   [fastlane-old/deliver](https://github.com/fastlane-old/deliver) - Upload screenshots, metadata and your app to the App Store using a single command
-*   [dustinbrown/ansible-datadog](https://github.com/dustinbrown/ansible-datadog) - Ansible role for data dog agent
-*   [h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx) - Nginx HTTP server boilerplate configs
-*   [lukehoban/es6features](https://github.com/lukehoban/es6features) - Overview of ECMAScript 6 features
-*   [sufianrhazi/cryptogit](https://github.com/sufianrhazi/cryptogit) -
-*   [square/go-jose](https://github.com/square/go-jose) - An implementation of JOSE standards (JWE, JWS, JWT) in Go
-*   [nozzle/hugo-snippets](https://github.com/nozzle/hugo-snippets) - Convenient partials, layouts and shortcodes for Hugo (gohugo.io)
-*   [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) - A book series on JavaScript. @YDKJS on twitter.
-*   [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of amazingly awesome open source sysadmin resources inspired by Awesome PHP.
-*   [sathyamvellal/shenv](https://github.com/sathyamvellal/shenv) - A set of scripts to create custom shell environments for different activities
-*   [zenorocha/alfred-workflows](https://github.com/zenorocha/alfred-workflows) - :metal: A collection of Alfred 3 and 4 workflows that will rock your world
-*   [github/gitignore](https://github.com/github/gitignore) - A collection of useful .gitignore templates
-*   [oreillymedia/open_government](https://github.com/oreillymedia/open_government) - Open Government, released as part of #PDFtribute
-*   [mangini/gdocs2md](https://github.com/mangini/gdocs2md) - Convert a Google Drive Document to the Markdown format, suitable for publishing.
-*   [jsullivan/CSS3-Progress-bars](https://github.com/jsullivan/CSS3-Progress-bars) - Fluid progress bars created entirely with CSS3
-*   [bryanbibat/rails-3\_0-tutorial](https://github.com/bryanbibat/rails-3\_0-tutorial) - A free Rails 3.0 tutorial/manual
-*   [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) - Principles of Writing Consistent, Idiomatic JavaScript
-*   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
-*   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
-*   [schacon/recipes](https://github.com/schacon/recipes) -
-*   [Homebrew/legacy-homebrew](https://github.com/Homebrew/legacy-homebrew) - 💀 The former home of Homebrew/homebrew (deprecated)
-
 ## Ruby
 
 *   [braintree/pg_ha_migrations](https://github.com/braintree/pg_ha_migrations) - Enforces DDL/migration safety in Ruby on Rails project with an emphasis on explicitly choosing trade-offs and avoiding unnecessary magic.
@@ -3249,7 +3252,6 @@
 *   [hidroh/cucumber-api](https://github.com/hidroh/cucumber-api) - API validator in BBD style with Cucumber
 *   [halogenandtoast/oath](https://github.com/halogenandtoast/oath) - Oath is rails authentication made simple. Previously known as Monban
 *   [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
-*   [DamirSvrtan/fasterer](https://github.com/DamirSvrtan/fasterer) - :zap: Don't make your Rubies go fast. Make them go fasterer ™. :zap:
 *   [DamirSvrtan/fasterer](https://github.com/DamirSvrtan/fasterer) - :zap: Don't make your Rubies go fast. Make them go fasterer ™. :zap:
 *   [rails/rails-perftest](https://github.com/rails/rails-perftest) - Benchmark and profile your Rails apps
 *   [fastruby/fast-ruby](https://github.com/fastruby/fast-ruby) - :dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.
@@ -3611,8 +3613,6 @@
 *   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
 *   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
 *   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
-*   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
-*   [halostatue/transaction-simple](https://github.com/halostatue/transaction-simple) - Transaction::Simple for Ruby
 
 ## Vim script
 
