@@ -2379,7 +2379,7 @@
 *   [marktext/marktext](https://github.com/marktext/marktext) - 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
 *   [hezedu/history-navigation-vue](https://github.com/hezedu/history-navigation-vue) - Native-like navigation for web apps.
 *   [garytube/svelte-ie11](https://github.com/garytube/svelte-ie11) - Svelte  with IE11 Support  & fetch pollyfill  - For all of us who needs to support older Hardware
-*   [Budibase/budibase](https://github.com/Budibase/budibase) - Budibase is an open-source low-code platform for creating internal apps in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s 🚀
+*   [Budibase/budibase](https://github.com/Budibase/budibase) - Budibase is a low-code platform for creating internal apps, workflows, and admin panels in minutes. Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀
 *   [vueuse/vue-demi](https://github.com/vueuse/vue-demi) - 🎩 Creates Universal Library for Vue 2 & 3
 *   [Vincit/db-errors](https://github.com/Vincit/db-errors) - Unified node.js error API for mysql, postgres and sqlite3
 *   [jaredhanson/passport](https://github.com/jaredhanson/passport) - Simple, unobtrusive authentication for Node.js.
@@ -4051,7 +4051,7 @@
 ## Emacs Lisp
 
 *   [remacs/remacs](https://github.com/remacs/remacs) - Rust :heart: Emacs
-*   [hlissner/doom-emacs](https://github.com/hlissner/doom-emacs) - An Emacs framework for the stubborn martian hacker
+*   [doomemacs/doomemacs](https://github.com/doomemacs/doomemacs) - An Emacs framework for the stubborn martian hacker
 *   [cbarrett/etc](https://github.com/cbarrett/etc) - Various configuration files
 *   [thefrontside/frontmacs](https://github.com/thefrontside/frontmacs) - Package-based, web-centric, customizable, awesome-by-default, acceptance-tested Emacs distribution
 *   [the-ted/org-mind-map](https://github.com/the-ted/org-mind-map) - This is an emacs package that creates graphviz directed graphs.
