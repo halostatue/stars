@@ -442,7 +442,7 @@
 *   [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 *   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.
 *   [adobe/react-spectrum](https://github.com/adobe/react-spectrum) - A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.
-*   [TanStack/react-table](https://github.com/TanStack/react-table) - ⚛️ Hooks for building fast and extendable tables and datagrids for TS/JS, React, Vue, Solid
+*   [TanStack/react-table](https://github.com/TanStack/react-table) - 🤖 Headless UI for building fast and extendable tables and datagrids for TS/JS, React, Vue, Solid
 *   [aelbore/vite-plugin-test](https://github.com/aelbore/vite-plugin-test) - Vite plugin with mocha and puppeteer
 *   [aelbore/aria-vue](https://github.com/aelbore/aria-vue) - Testing tools for Vue components
 *   [SqrTT/prophet](https://github.com/SqrTT/prophet) - Prophet Debugger (SFCC sandboxes via SDAPI 2.0) extension for VS Code
@@ -2137,7 +2137,7 @@
 *   [cwbriones/scientist](https://github.com/cwbriones/scientist) - An elixir library for refactoring code, a port of GitHub's scientist
 *   [peburrows/river](https://github.com/peburrows/river) - An HTTP/2 client for Elixir (a work in progress!)
 *   [slogsdon/elixir-reverse-proxy](https://github.com/slogsdon/elixir-reverse-proxy) - A Plug based, reverse proxy server written in Elixir.
-*   [krzysztofmo/remote-ip-rewriter](https://github.com/krzysztofmo/remote-ip-rewriter) -
+*   [kmochejski/remote-ip-rewriter](https://github.com/kmochejski/remote-ip-rewriter) -
 *   [whatyouhide/redix_pubsub](https://github.com/whatyouhide/redix_pubsub) - Deprecated Redis Pub/Sub client for Elixir. Now built-in into Redix.
 *   [linjunpop/receipt_verifier](https://github.com/linjunpop/receipt_verifier) - ✅ Verify iOS App receipt with the App Store
 *   [keepcosmos/readability](https://github.com/keepcosmos/readability) - Readability is Elixir library for extracting and curating articles.
