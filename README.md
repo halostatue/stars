@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+*   [Odin](#odin)
 *   [Go](#go)
 *   [TypeScript](#typescript)
 *   [generic](#generic)
@@ -24,7 +25,6 @@
 *   [Java](#java)
 *   [Swift](#swift)
 *   [Objective-C](#objective-c)
-*   [C++](#c-1)
 *   [Vue](#vue)
 *   [Crystal](#crystal)
 *   [Lua](#lua)
@@ -32,7 +32,7 @@
 *   [HCL](#hcl)
 *   [Fennel](#fennel)
 *   [Clojure](#clojure)
-*   [C#](#c-2)
+*   [C#](#c-1)
 *   [Kotlin](#kotlin)
 *   [PLpgSQL](#plpgsql)
 *   [Perl](#perl)
@@ -42,6 +42,7 @@
 *   [Emacs Lisp](#emacs-lisp)
 *   [Gleam](#gleam)
 *   [PHP](#php)
+*   [C++](#c-2)
 *   [Dockerfile](#dockerfile)
 *   [Twig](#twig)
 *   [Haskell](#haskell)
@@ -84,6 +85,10 @@
 *   [Gherkin](#gherkin)
 *   [Oz](#oz)
 *   [TeX](#tex)
+
+## Odin
+
+*   [odin-lang/Odin](https://github.com/odin-lang/Odin) - Odin Programming Language
 
 ## Go
 
@@ -3861,47 +3866,6 @@
 *   [nevyn/cfxr](https://github.com/nevyn/cfxr) - \[cocoa] Mac port of sfxr with document support, etc
 *   [halostatue/coredata-easyfetch](https://github.com/halostatue/coredata-easyfetch) - A fast fetch based on example code by Matt Gallagher
 
-## C++
-
-*   [canonical/multipass](https://github.com/canonical/multipass) - Multipass orchestrates virtual Ubuntu instances
-*   [bytedance/terarkdb](https://github.com/bytedance/terarkdb) - A RocksDB compatible KV storage engine with better performance
-*   [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
-*   [duckdb/duckdb](https://github.com/duckdb/duckdb) - DuckDB is an in-process SQL OLAP Database Management System
-*   [google/tink](https://github.com/google/tink) - Tink is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and hard(er) to misuse.
-*   [typesense/typesense](https://github.com/typesense/typesense) - Open Source alternative to Algolia and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences
-*   [FastFilter/FilterPassword](https://github.com/FastFilter/FilterPassword) - Experiments in C++: Xor filters vs. Bloom filters
-*   [mawww/kakoune](https://github.com/mawww/kakoune) - mawww's experiment for a better code editor
-*   [romkatv/gitstatus](https://github.com/romkatv/gitstatus) - Git status for Bash and Zsh prompt
-*   [cmuratori/meow_hash](https://github.com/cmuratori/meow_hash) - Official version of the Meow hash, an extremely fast level 1 hash
-*   [OpenGenus/cosmos](https://github.com/OpenGenus/cosmos) - Hacktoberfest 2021 | World's largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |
-*   [kyleneideck/BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) - Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.
-*   [apple/foundationdb](https://github.com/apple/foundationdb) - FoundationDB - the open source, distributed, transactional key-value store
-*   [deadtrickster/prometheus_process_collector](https://github.com/deadtrickster/prometheus_process_collector) - Prometheus.io process collector in Erlang
-*   [google/libphonenumber](https://github.com/google/libphonenumber) - Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.
-*   [hzeller/timg](https://github.com/hzeller/timg) - A terminal image and video viewer.
-*   [arangodb/fuerte](https://github.com/arangodb/fuerte) - Low Level C++ Driver for ArangoDB
-*   [arangodb/velocypack](https://github.com/arangodb/velocypack) - A fast and compact format for serialization and storage
-*   [zeek/zeek](https://github.com/zeek/zeek) - Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.
-*   [baidu/bfs](https://github.com/baidu/bfs) - The Baidu File System.
-*   [eventql/eventql](https://github.com/eventql/eventql) - Distributed "massively parallel" SQL query engine
-*   [rethinkdb/rethinkdb](https://github.com/rethinkdb/rethinkdb) - The open-source database for the realtime web.
-*   [capnproto/capnproto](https://github.com/capnproto/capnproto) - Cap'n Proto serialization/RPC system - core tools and C++ library
-*   [realm/realm-core](https://github.com/realm/realm-core) - Core database component for the Realm Mobile Database SDKs
-*   [fanout/pushpin](https://github.com/fanout/pushpin) - Proxy server for adding push to your API
-*   [jsnell/ratas](https://github.com/jsnell/ratas) - A hierarchical timer wheel, for implementing timed event queues
-*   [arangodb/arangodb](https://github.com/arangodb/arangodb) - 🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.
-*   [wiseio/paratext](https://github.com/wiseio/paratext) - A library for reading text files over multiple cores.
-*   [davisp/jiffy](https://github.com/davisp/jiffy) - JSON NIFs for Erlang
-*   [preshing/junction](https://github.com/preshing/junction) - Concurrent data structures in C++
-*   [electronicarts/EASTL](https://github.com/electronicarts/EASTL) - EASTL stands for Electronic Arts Standard Template Library.  It is an extensive and robust implementation that has an emphasis on high performance.
-*   [MichaelRFairhurst/wake-compiler](https://github.com/MichaelRFairhurst/wake-compiler) - C++ compiler for the programming language Wake: a fast, expressive, typesafe language built with testability from the ground up.
-*   [ampas/CTL](https://github.com/ampas/CTL) - The Color Transformation Language (CTL)
-*   [ampas/aces_container](https://github.com/ampas/aces_container) - Reference Implementation of SMPTE ST2065-4
-*   [munificent/finch](https://github.com/munificent/finch) - The Finch programming language
-*   [tstack/lnav](https://github.com/tstack/lnav) - Log file navigator
-*   [ninja-build/ninja](https://github.com/ninja-build/ninja) - a small build system with a focus on speed
-*   [sol-prog/schm](https://github.com/sol-prog/schm) -
-
 ## Vue
 
 *   [AustinGil/vuetensils](https://github.com/AustinGil/vuetensils) - 🍴 A tasty toolset for Vue.js 🛠 - Lightweight, functional components to boost your next project.
@@ -4085,6 +4049,46 @@
 *   [Datawalke/Coordino](https://github.com/Datawalke/Coordino) - Self-hosted Knowledge Software your question & answer system written on top of the CakePHP Framework
 *   [phacility/phabricator](https://github.com/phacility/phabricator) - Effective June 1, 2021: Phabricator is no longer actively maintained.
 *   [phacility/arcanist](https://github.com/phacility/arcanist) - Command line interface for Phabricator
+
+## C++
+
+*   [bytedance/terarkdb](https://github.com/bytedance/terarkdb) - A RocksDB compatible KV storage engine with better performance
+*   [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
+*   [duckdb/duckdb](https://github.com/duckdb/duckdb) - DuckDB is an in-process SQL OLAP Database Management System
+*   [google/tink](https://github.com/google/tink) - Tink is a multi-language, cross-platform, open source library that provides cryptographic APIs that are secure, easy to use correctly, and hard(er) to misuse.
+*   [typesense/typesense](https://github.com/typesense/typesense) - Open Source alternative to Algolia and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences
+*   [FastFilter/FilterPassword](https://github.com/FastFilter/FilterPassword) - Experiments in C++: Xor filters vs. Bloom filters
+*   [mawww/kakoune](https://github.com/mawww/kakoune) - mawww's experiment for a better code editor
+*   [romkatv/gitstatus](https://github.com/romkatv/gitstatus) - Git status for Bash and Zsh prompt
+*   [cmuratori/meow_hash](https://github.com/cmuratori/meow_hash) - Official version of the Meow hash, an extremely fast level 1 hash
+*   [OpenGenus/cosmos](https://github.com/OpenGenus/cosmos) - Hacktoberfest 2021 | World's largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |
+*   [kyleneideck/BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic) - Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.
+*   [apple/foundationdb](https://github.com/apple/foundationdb) - FoundationDB - the open source, distributed, transactional key-value store
+*   [deadtrickster/prometheus_process_collector](https://github.com/deadtrickster/prometheus_process_collector) - Prometheus.io process collector in Erlang
+*   [google/libphonenumber](https://github.com/google/libphonenumber) - Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.
+*   [hzeller/timg](https://github.com/hzeller/timg) - A terminal image and video viewer.
+*   [arangodb/fuerte](https://github.com/arangodb/fuerte) - Low Level C++ Driver for ArangoDB
+*   [arangodb/velocypack](https://github.com/arangodb/velocypack) - A fast and compact format for serialization and storage
+*   [zeek/zeek](https://github.com/zeek/zeek) - Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.
+*   [baidu/bfs](https://github.com/baidu/bfs) - The Baidu File System.
+*   [eventql/eventql](https://github.com/eventql/eventql) - Distributed "massively parallel" SQL query engine
+*   [rethinkdb/rethinkdb](https://github.com/rethinkdb/rethinkdb) - The open-source database for the realtime web.
+*   [capnproto/capnproto](https://github.com/capnproto/capnproto) - Cap'n Proto serialization/RPC system - core tools and C++ library
+*   [realm/realm-core](https://github.com/realm/realm-core) - Core database component for the Realm Mobile Database SDKs
+*   [fanout/pushpin](https://github.com/fanout/pushpin) - Proxy server for adding push to your API
+*   [jsnell/ratas](https://github.com/jsnell/ratas) - A hierarchical timer wheel, for implementing timed event queues
+*   [arangodb/arangodb](https://github.com/arangodb/arangodb) - 🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.
+*   [wiseio/paratext](https://github.com/wiseio/paratext) - A library for reading text files over multiple cores.
+*   [davisp/jiffy](https://github.com/davisp/jiffy) - JSON NIFs for Erlang
+*   [preshing/junction](https://github.com/preshing/junction) - Concurrent data structures in C++
+*   [electronicarts/EASTL](https://github.com/electronicarts/EASTL) - EASTL stands for Electronic Arts Standard Template Library.  It is an extensive and robust implementation that has an emphasis on high performance.
+*   [MichaelRFairhurst/wake-compiler](https://github.com/MichaelRFairhurst/wake-compiler) - C++ compiler for the programming language Wake: a fast, expressive, typesafe language built with testability from the ground up.
+*   [ampas/CTL](https://github.com/ampas/CTL) - The Color Transformation Language (CTL)
+*   [ampas/aces_container](https://github.com/ampas/aces_container) - Reference Implementation of SMPTE ST2065-4
+*   [munificent/finch](https://github.com/munificent/finch) - The Finch programming language
+*   [tstack/lnav](https://github.com/tstack/lnav) - Log file navigator
+*   [ninja-build/ninja](https://github.com/ninja-build/ninja) - a small build system with a focus on speed
+*   [sol-prog/schm](https://github.com/sol-prog/schm) -
 
 ## Dockerfile
 
