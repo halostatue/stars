@@ -442,7 +442,7 @@
 *   [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 *   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.
 *   [adobe/react-spectrum](https://github.com/adobe/react-spectrum) - A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.
-*   [TanStack/react-table](https://github.com/TanStack/react-table) - 🤖 Headless UI for building fast and extendable tables and datagrids for TS/JS, React, Vue, Solid
+*   [TanStack/react-table](https://github.com/TanStack/react-table) - 🤖 Headless UI for building powerful tables & datagrids for TS/JS, React, Vue, Solid
 *   [aelbore/vite-plugin-test](https://github.com/aelbore/vite-plugin-test) - Vite plugin with mocha and puppeteer
 *   [aelbore/aria-vue](https://github.com/aelbore/aria-vue) - Testing tools for Vue components
 *   [SqrTT/prophet](https://github.com/SqrTT/prophet) - Prophet Debugger (SFCC sandboxes via SDAPI 2.0) extension for VS Code
