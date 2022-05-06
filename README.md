@@ -4,6 +4,8 @@
 
 ## Table of Contents
 
+*   [Elixir](#elixir)
+*   [Ruby](#ruby)
 *   [Odin](#odin)
 *   [Go](#go)
 *   [TypeScript](#typescript)
@@ -13,12 +15,10 @@
 *   [Shell](#shell)
 *   [CSS](#css)
 *   [Erlang](#erlang)
-*   [Elixir](#elixir)
 *   [JavaScript](#javascript)
 *   [Svelte](#svelte)
 *   [HTML](#html)
 *   [C](#c)
-*   [Ruby](#ruby)
 *   [Vim script](#vim-script)
 *   [Makefile](#makefile)
 *   [SCSS](#scss)
@@ -85,6 +85,1516 @@
 *   [Gherkin](#gherkin)
 *   [Oz](#oz)
 *   [TeX](#tex)
+
+## Elixir
+
+*   [michalmuskala/persistent_ets](https://github.com/michalmuskala/persistent_ets) -
+*   [fuelen/ecto_dev_logger](https://github.com/fuelen/ecto_dev_logger) - An alternative logger for Ecto queries
+*   [elpikel/ex_paginator](https://github.com/elpikel/ex_paginator) -
+*   [Recruitee/existence](https://github.com/Recruitee/existence) - Asynchronous dependency health checks library.
+*   [am-kantox/finitomata](https://github.com/am-kantox/finitomata) - FSM implementation generated from PlantUML textual representation
+*   [tashirosota/ecto_cellar](https://github.com/tashirosota/ecto_cellar) - 🍷Store changes to your models, for auditing or versioning. 
+*   [woylie/flop](https://github.com/woylie/flop) - Filtering, ordering and pagination for Ecto
+*   [am-kantox/telemetria](https://github.com/am-kantox/telemetria) - The helper application that simplifies and standardizes telemetry usage
+*   [am-kantox/formulae](https://github.com/am-kantox/formulae) - A set of function to deal with analytical formulae.
+*   [MikaAK/ecto_shorts](https://github.com/MikaAK/ecto_shorts) - Shortcuts for ecto
+*   [joseph-lozano/ice_cream](https://github.com/joseph-lozano/ice_cream) -
+*   [pawurb/ecto_psql_extras](https://github.com/pawurb/ecto_psql_extras) - Ecto PostgreSQL database performance insights. Locks, index usage, buffer cache hit ratios, vacuum stats and more.
+*   [drowzy/hxl](https://github.com/drowzy/hxl) - An Elixir implementation of HCL.
+*   [Qqwy/elixir-arrays](https://github.com/Qqwy/elixir-arrays) -    Well-structured Arrays with fast random-element-access for Elixir, offering a common interface with multiple implementations with varying performance guarantees that can be switched in your configuration.
+*   [sabiwara/aja](https://github.com/sabiwara/aja) - Extension of the Elixir standard library focused on data stuctures, data manipulation and performance
+*   [prodis/miss-elixir](https://github.com/prodis/miss-elixir) - Some functions that I miss in Elixir standard library (and maybe you too).
+*   [funbox/clean_mixer](https://github.com/funbox/clean_mixer) - Tools for code architecture analysis and linting
+*   [slab/delta-elixir](https://github.com/slab/delta-elixir) - Simple yet expressive format to describe contents and changes 🗃
+*   [jeepers3327/tabi](https://github.com/jeepers3327/tabi) - Dockerized chat app using Phoenix, React and Postgres
+*   [ajvondrak/bitwise_ip](https://github.com/ajvondrak/bitwise_ip) - Efficient IP address operations using bitwise arithmetic
+*   [tmbb/incendium](https://github.com/tmbb/incendium) - Easy flamegraphs to profile your web applications
+*   [dsdshcym/promox](https://github.com/dsdshcym/promox) - Protocol-based mocks and explicit contracts in Elixir
+*   [livebook-dev/livebook](https://github.com/livebook-dev/livebook) - Interactive and collaborative code notebooks for Elixir - built with Phoenix LiveView
+*   [elixir-toniq/regulator](https://github.com/elixir-toniq/regulator) - Adaptive concurrency limits for elixir
+*   [mhanberg/temple](https://github.com/mhanberg/temple) - An HTML DSL for Elixir and Phoenix
+*   [fremantle-industries/notified](https://github.com/fremantle-industries/notified) - An Elixir library for application notifications
+*   [fremantle-industries/notified_phoenix](https://github.com/fremantle-industries/notified_phoenix) - Phoenix live views for notified
+*   [slashdotdash/til](https://github.com/slashdotdash/til) - Today I Learned
+*   [papercups-io/papercups](https://github.com/papercups-io/papercups) - Open-source live customer chat
+*   [revelrylabs/elixir-nodejs](https://github.com/revelrylabs/elixir-nodejs) - An Elixir API for calling Node.js functions
+*   [still-ex/still](https://github.com/still-ex/still) - A composable Elixir static site generator
+*   [edgurgel/solid](https://github.com/edgurgel/solid) - Liquid template engine in Elixir
+*   [tanguilp/apiac_filter_throttler](https://github.com/tanguilp/apiac_filter_throttler) - APIac Elixir plug for throttling / rate limiting
+*   [tanguilp/apiac_filter_ip_blacklist](https://github.com/tanguilp/apiac_filter_ip_blacklist) - APIac Elixir plug for IP blacklisting
+*   [tanguilp/apiac_filter_ip_whitelist](https://github.com/tanguilp/apiac_filter_ip_whitelist) - APIac Elixir plug for IP whitelisting
+*   [tanguilp/apiac_auth_bearer](https://github.com/tanguilp/apiac_auth_bearer) - OAuth2 Bearer (RFC6750) plug for Elixir
+*   [tanguilp/apiac_auth_basic](https://github.com/tanguilp/apiac_auth_basic) - APIac Elixir plug for HTTP basic authorization
+*   [tanguilp/apiac_auth_mtls](https://github.com/tanguilp/apiac_auth_mtls) - APIac Elixir plug for mutual TLS authentication (RFC8705)
+*   [voltone/plug_signature](https://github.com/voltone/plug_signature) - Plug for verifying request signatures according to the IETF HTTP signatures draft specification
+*   [akoutmos/prom_ex](https://github.com/akoutmos/prom_ex) - An Elixir Prometheus metrics collection library built on top of Telemetry with accompanying Grafana dashboards
+*   [ueberauth/guardian](https://github.com/ueberauth/guardian) - Elixir Authentication
+*   [gordalina/hush](https://github.com/gordalina/hush) - Hush is a runtime configuration loader for Elixir applications
+*   [pentacent/keila](https://github.com/pentacent/keila) - Open Source Newsletter Tool.
+*   [ityonemo/ez](https://github.com/ityonemo/ez) - zig linear algebra bindings for nx
+*   [fishcakez/dbg](https://github.com/fishcakez/dbg) - Tracing for Elixir
+*   [gabiz/tracer](https://github.com/gabiz/tracer) - Elixir Tracing Framework
+*   [lpil/icalendar](https://github.com/lpil/icalendar) - 🗓️  A small library for reading and writing ICalendar files.
+*   [elixir-capsule/capsule](https://github.com/elixir-capsule/capsule) - Minimal, composable file storage for Elixir apps
+*   [subvisual/dictator](https://github.com/subvisual/dictator) - Dictates what your users see. Plug-based authorization.
+*   [chulkilee/ex_force](https://github.com/chulkilee/ex_force) - A Salesforce REST API wrapper for Elixir
+*   [ubotsxyz/stash](https://github.com/ubotsxyz/stash) - Multi-layer cache
+*   [ubotsxyz/tabler](https://github.com/ubotsxyz/tabler) -
+*   [integratedb/integrate](https://github.com/integratedb/integrate) - Core IntegrateDB source code repository.
+*   [doawoo/teex](https://github.com/doawoo/teex) - Use Elixir like a scripting language, across your system
+*   [pawurb/ecto_extras](https://github.com/pawurb/ecto_extras) - Ecto helper functions.
+*   [jonklein/niex](https://github.com/jonklein/niex) - Niex is an interactive Elixir code notebook built with Phoenix LiveView.
+*   [karolsluszniak/ex_check](https://github.com/karolsluszniak/ex_check) - One task to efficiently run all code analysis & testing tools in an Elixir project. Born out of 💜 to Elixir and pragmatism.
+*   [naps62/imageflow_ex](https://github.com/naps62/imageflow_ex) -
+*   [sasa1977/site_encrypt](https://github.com/sasa1977/site_encrypt) - Integrated certification via Let's encrypt for Elixir-powered sites
+*   [botsquad/bubble-match](https://github.com/botsquad/bubble-match) - NLU match expression engine
+*   [cblavier/changix](https://github.com/cblavier/changix) - Compile-time changelog features for Elixir
+*   [ityonemo/mavis](https://github.com/ityonemo/mavis) - opinionated typing library for elixir
+*   [ityonemo/selectrix](https://github.com/ityonemo/selectrix) - Static Typechecker for Elixir
+*   [wyeworks/elixir_console](https://github.com/wyeworks/elixir_console) - Elixir Web Console
+*   [tlux/sftp_client](https://github.com/tlux/sftp_client) - An Elixir SFTP Client that wraps Erlang's ssh and ssh_sftp.
+*   [elixir-depot/depot](https://github.com/elixir-depot/depot) -
+*   [discord/sorted_set_nif](https://github.com/discord/sorted_set_nif) - Elixir SortedSet backed by a Rust-based NIF
+*   [b-erdem/absinthe_permission](https://github.com/b-erdem/absinthe_permission) - Fine-grained Permission/Policy Checker Middleware for Absinthe
+*   [ayrat555/hornet](https://github.com/ayrat555/hornet) - Hornet is a simple library for stress testing
+*   [8thlight/ex_state](https://github.com/8thlight/ex_state) - Database-backed state machines and statecharts for Elixir
+*   [xavier/xlsx_reader](https://github.com/xavier/xlsx_reader) - A production-ready XLSX file reader for Elixir.
+*   [djm/table_rex](https://github.com/djm/table_rex) - An Elixir app which generates text-based tables for display
+*   [edisonywh/condiment](https://github.com/edisonywh/condiment) - 🍡  Add flavors to your context function without the hassles.
+*   [am-kantox/tempus](https://github.com/am-kantox/tempus) - Easy handling of time periods, like business days, holidays, etc.
+*   [Comcast/ctex](https://github.com/Comcast/ctex) - A Mix task and helpers for running common_test suites
+*   [devonestes/elixir-docker-challenge](https://github.com/devonestes/elixir-docker-challenge) - Can you configure a docker container and local node to establish a connection?!
+*   [benvp/liveview_autocomplete](https://github.com/benvp/liveview_autocomplete) - A simple but powerful autocomplete using Phoenix LiveView and Alpine.js
+*   [surface-ui/surface](https://github.com/surface-ui/surface) - A server-side rendering component library for Phoenix
+*   [gvaughn/path_express](https://github.com/gvaughn/path_express) - Nil-safe path navigation of nested Elixir data structures https://hexdocs.pm/path_express
+*   [akoutmos/unplug](https://github.com/akoutmos/unplug) - Unplug allows you to conditionally execute your Elixir plugs at run-time
+*   [akoutmos/replug](https://github.com/akoutmos/replug) - Dynamically configure your Elixir Plugs at run-time
+*   [azohra/ptolemy](https://github.com/azohra/ptolemy) - Elixir Application Environment Variable Management
+*   [amplifiedai/pretty](https://github.com/amplifiedai/pretty) - Inspect values with syntax colors despite your remote console.
+*   [sketch-hq/nicene](https://github.com/sketch-hq/nicene) - Additional Credo checks
+*   [dashbitco/nimble_totp](https://github.com/dashbitco/nimble_totp) - A tiny Elixir library for time-based one time passwords (TOTP)
+*   [dashbitco/nimble_publisher](https://github.com/dashbitco/nimble_publisher) - A minimal filesystem-based publishing engine with Markdown support and code highlighting
+*   [dashbitco/nimble_options](https://github.com/dashbitco/nimble_options) - A tiny library for validating and documenting high-level options
+*   [dashbitco/nimble_pool](https://github.com/dashbitco/nimble_pool) - A tiny resource-pool implementation for Elixir
+*   [artemeff/ouroboros](https://github.com/artemeff/ouroboros) -
+*   [supabase/realtime](https://github.com/supabase/realtime) - Listen to your to PostgreSQL database in realtime via websockets. Built with Elixir.
+*   [stride-nyc/remote_retro](https://github.com/stride-nyc/remote_retro) - Free, world-class retrospectives
+*   [plausible/analytics](https://github.com/plausible/analytics) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
+*   [satom99/warden](https://github.com/satom99/warden) - Authorization framework for Absinthe.
+*   [am-kantox/tyyppi](https://github.com/am-kantox/tyyppi) - Propagate specs to runtime types
+*   [ityonemo/state_server](https://github.com/ityonemo/state_server) - half gen_statem, half gen_server
+*   [ityonemo/net_address](https://github.com/ityonemo/net_address) - IP and Mac address tools for Elixir
+*   [ityonemo/icmp](https://github.com/ityonemo/icmp) - Icmp Ping for Elixir
+*   [ityonemo/zing](https://github.com/ityonemo/zing) - ICMP ping server for elixir
+*   [Qqwy/elixir-type_check](https://github.com/Qqwy/elixir-type_check) - TypeCheck: Fast and flexible runtime type-checking for your Elixir projects.
+*   [ityonemo/zigler](https://github.com/ityonemo/zigler) - zig nifs in elixir
+*   [ityonemo/erps](https://github.com/ityonemo/erps) - Remote Protocol call/cast server
+*   [dwyl/hits](https://github.com/dwyl/hits) - :chart_with_upwards_trend: General purpose hits (page views) counter
+*   [subvisual/fsmx](https://github.com/subvisual/fsmx) - A Finite-state machine implementation in Elixir, with opt-in Ecto friendliness
+*   [IvanRublev/Domo](https://github.com/IvanRublev/Domo) - A library to validate values of nested structs with their type spec t() and associated precondition functions
+*   [Qqwy/elixir-blocked](https://github.com/Qqwy/elixir-blocked) - An Elixir-library that helps you to keep track of when hotfixes can be removed by showing compile-time warnings when issues (in your project repository or any other source-code GitHub repository) are closed.
+*   [tmbb/expo](https://github.com/tmbb/expo) - PO file parser for Elixir
+*   [jungsoft/rajska](https://github.com/jungsoft/rajska) - Rajska is an elixir authorization library for Absinthe.
+*   [peek-travel/ecto_diff](https://github.com/peek-travel/ecto_diff) - Generates a data structure describing the difference between two ecto structs
+*   [fremantle-industries/stored](https://github.com/fremantle-industries/stored) - Store & retrieve structs against various backends with a simple lightweight API
+*   [billperegoy/graphql_builder](https://github.com/billperegoy/graphql_builder) - Library to build GraphQL queries and mutations from Elixir structs
+*   [mrmicahcooper/ecto_factory](https://github.com/mrmicahcooper/ecto_factory) - Easily generate data based on your ecto schemas.
+*   [joaomdmoura/machinery](https://github.com/joaomdmoura/machinery) - State machine thin layer for structs (+ GUI for Phoenix apps)
+*   [marcelotto/behaviour_reflection](https://github.com/marcelotto/behaviour_reflection) - Get all modules implementing an Elixir behaviour
+*   [am-kantox/cloister](https://github.com/am-kantox/cloister) - Lightweight Cluster handling with support for consensus and dynamic configuration
+*   [sneako/finch](https://github.com/sneako/finch) - Elixir HTTP client, focused on performance
+*   [elixir-toniq/vapor](https://github.com/elixir-toniq/vapor) - Runtime configuration system for Elixir
+*   [archan937/ex_united](https://github.com/archan937/ex_united) - Easily spawn Elixir nodes (supervising, Mix configured, easy asserted / refuted) within ExUnit tests
+*   [phoenixframework/phoenix_live_dashboard](https://github.com/phoenixframework/phoenix_live_dashboard) - Realtime dashboard with metrics, request logging, plus storage, OS and VM insights
+*   [mathieuprog/tz_extra](https://github.com/mathieuprog/tz_extra) - A few utilities to work with time zones in Elixir
+*   [blackode/custom-iex](https://github.com/blackode/custom-iex) - The custom iex configuration files
+*   [alexdesousa/ayesql](https://github.com/alexdesousa/ayesql) - Library for using raw SQL in Elixir
+*   [jackjoe/mailgun_logger](https://github.com/jackjoe/mailgun_logger) - Simple Mailgun log persistence in Phoenix/Elixir
+*   [DarkMarmot/elixir_sandbox](https://github.com/DarkMarmot/elixir_sandbox) - An Elixir Lua Sandbox built on top of Robert Virding's Luerl
+*   [mcrumm/guss](https://github.com/mcrumm/guss) - Generate Signed URLs for Google Cloud Storage
+*   [am-kantox/agency](https://github.com/am-kantox/agency) - One more unnecessary abstraction on top of `Agent`
+*   [co0lsky/deep-work-hours-phoenix](https://github.com/co0lsky/deep-work-hours-phoenix) - Deep Work Hours is a time tracking software built with Elixir, Phoenix, and Tailwind CSS.
+*   [hauleth/mix_unused](https://github.com/hauleth/mix_unused) - Find unused functions in your project
+*   [mathieuprog/tz](https://github.com/mathieuprog/tz) - Time zone support for Elixir
+*   [am-kantox/tarearbol](https://github.com/am-kantox/tarearbol) - More handy task runner, allowing retries, callbacks, assurance that the task succeeded, and more
+*   [devato/inertia_phoenix](https://github.com/devato/inertia_phoenix) - Inertiajs Adapter for Elixir Phoenix
+*   [ityonemo/librarian](https://github.com/ityonemo/librarian) - ssh library for elixir
+*   [peek-travel/cocktail](https://github.com/peek-travel/cocktail) - Elixir date recurrence library based on iCalendar events
+*   [pkinney/carmen](https://github.com/pkinney/carmen) -
+*   [msz/hammox](https://github.com/msz/hammox) - 🏝 automated contract testing via type checking for Elixir functions and mocks
+*   [gyson/ane](https://github.com/gyson/ane) - Ane (atomics and ets) is a library to share mutable data efficiently by utilizing atomics and ets modules.
+*   [gmtprime/skogsra](https://github.com/gmtprime/skogsra) - Library to manage OS environment variables and application configuration options with ease
+*   [princemaple/abnf_parsec](https://github.com/princemaple/abnf_parsec) - ABNF in, parser out
+*   [rupurt/schoolbus](https://github.com/rupurt/schoolbus) - Manage one or more PubSub instances using the Elixir registry
+*   [hauleth/plug_telemetry_server_timing](https://github.com/hauleth/plug_telemetry_server_timing) - Plug for providing Telemetry metrics within browser DevTools
+*   [virkillz/sveltex](https://github.com/virkillz/sveltex) - Elixir Phoenix + Svelte = ❤️
+*   [coingaming/loggable](https://github.com/coingaming/loggable) - Protocol for custom views of data in logs (hide sensitive data etc)
+*   [secomind/pretty_log](https://github.com/secomind/pretty_log) - An Elixir log formatter library.
+*   [erlef/website](https://github.com/erlef/website) - Erlang Ecosystem Foundation Website
+*   [evadne/etso](https://github.com/evadne/etso) - Ecto 3 adapter allowing use of Ecto schemas held in ETS tables
+*   [evadne/packmatic](https://github.com/evadne/packmatic) - Zipping on the fly
+*   [codedge-llc/commandex](https://github.com/codedge-llc/commandex) - Make Elixir actions a first-class data type.
+*   [tallarium/reverse_proxy_plug](https://github.com/tallarium/reverse_proxy_plug) - 🔛 an Elixir reverse proxy Plug with HTTP/2, chunked transfer and path proxying support
+*   [akoutmos/doctor](https://github.com/akoutmos/doctor) - Ensure that your Elixir project documentation is healthy
+*   [elixir-toniq/norm](https://github.com/elixir-toniq/norm) - Data specification and generation
+*   [OvermindDL1/gradualixir](https://github.com/OvermindDL1/gradualixir) - Gradualizer Mix Wrapper
+*   [erpuno/soa](https://github.com/erpuno/soa) - ☎️ SOA: Simple Object Access
+*   [iodevs/qr_code](https://github.com/iodevs/qr_code) - A library for generating QR code. https://hexdocs.pm/qr_code
+*   [akoutmos/telemetry_filter](https://github.com/akoutmos/telemetry_filter) - This plug acts as a wrapper around Plug.Telemetry to filter out certain events
+*   [mtrudel/thousand_island](https://github.com/mtrudel/thousand_island) - Thousand Island is a pure Elixir socket server
+*   [entropealabs/states_language](https://github.com/entropealabs/states_language) - Declaratively design state machines that compile to Elixir based :gen_statem processes with the StatesLanguage JSON specification
+*   [hqoss/rabbit_mq](https://github.com/hqoss/rabbit_mq) - 🐇 Build consistent and well-balanced Producer/Consumer pipelines
+*   [discord/gen_registry](https://github.com/discord/gen_registry) - Simple and efficient local Process Registry
+*   [StoiximanServices/ex_insights](https://github.com/StoiximanServices/ex_insights) - Elixir client library to log telemetry data on Azure Application Insights
+*   [jbenden/esshd](https://github.com/jbenden/esshd) - Simple SSH server for Elixir and Erlang applications.
+*   [elixir-ecto/tds](https://github.com/elixir-ecto/tds) - TDS Driver for Elixir
+*   [OvermindDL1/pid_file](https://github.com/OvermindDL1/pid_file) -
+*   [amalbuquerque/interceptor](https://github.com/amalbuquerque/interceptor) - Library to easily intercept Elixir function calls
+*   [hauleth/ecto_function](https://github.com/hauleth/ecto_function) - Simple macro for generating SQL's functions macro wrappers
+*   [hauleth/ecto_olap](https://github.com/hauleth/ecto_olap) - Data analytics helpers for Ecto and PostgreSQL
+*   [ympons/expreso](https://github.com/ympons/expreso) - :coffee: A boolean expression parser and evaluator in Elixir.
+*   [coryodaniel/talks](https://github.com/coryodaniel/talks) -
+*   [bitwalker/combine](https://github.com/bitwalker/combine) - A parser combinator library for Elixir projects
+*   [voltone/sbom](https://github.com/voltone/sbom) - Mix task to generate a Software Bill-of-Materials (SBoM) in CycloneDX format
+*   [oestrich/spigot](https://github.com/oestrich/spigot) - A telnet test server for Grapevine's web client
+*   [ForwardFinancing/plug_ip_whitelist](https://github.com/ForwardFinancing/plug_ip_whitelist) - Plug to Enforce IP Whitelisting in Elixir/Phoenix applications
+*   [TheFirstAvenger/ets](https://github.com/TheFirstAvenger/ets) - :ets, the Elixir way
+*   [framasoft/mobilizon](https://github.com/framasoft/mobilizon) - Gather, organize and mobilize yourselves with a convivial, ethical, and emancipating tool.
+*   [andrewtimberlake/trunk](https://github.com/andrewtimberlake/trunk) - 📦 A file attachment/storage library for Elixir 📎
+*   [rzane/file_store](https://github.com/rzane/file_store) - 🗄️ A unified interface for file storage backends
+*   [Qqwy/elixir-revisionair](https://github.com/Qqwy/elixir-revisionair) - Keep track of your data structure's revisions, persistence layer agnostic.
+*   [Qqwy/elixir-revisionair_ecto](https://github.com/Qqwy/elixir-revisionair_ecto) -   A Revisionair adapter based on Ecto. Allows you to persist and keep track of revisions of your data structures in any of Ecto's supported databases.
+*   [bbalser/brook](https://github.com/bbalser/brook) -
+*   [well-ironed/liveness](https://github.com/well-ironed/liveness) - A declarative busy wait
+*   [tinfoil/wormwood](https://github.com/tinfoil/wormwood) - Wormwood is a tiny library to aid in testing GraphQL queries against an Absinthe schema. It allows you to test your query documents inside ExUnit test modules, and requires no HTTP requests to occur during testing.
+*   [sumerman/recoverable_stream_ex](https://github.com/sumerman/recoverable_stream_ex) - Elixir stream-wrapper that transparently handles exceptions.
+*   [elixir-cldr/cldr_messages](https://github.com/elixir-cldr/cldr_messages) - Elixir implementation of the ICU message format
+*   [Cobenian/inet_cidr](https://github.com/Cobenian/inet_cidr) - CIDR library for Elixir that is compatible with Erlang's :inet and supports both IPv4 and IPv6
+*   [esl/MongoosePush](https://github.com/esl/MongoosePush) - MongoosePush is a simple Elixir RESTful service allowing to send push notification via FCM and/or APNS.
+*   [nerves-project/ring_logger](https://github.com/nerves-project/ring_logger) - Elixir Logger ring buffer backend
+*   [sasa1977/boundary](https://github.com/sasa1977/boundary) - Manage and restrain cross-module dependencies in Elixir projects
+*   [fuelen/bamboo_fallback](https://github.com/fuelen/bamboo_fallback) -
+*   [pushex-project/pushex](https://github.com/pushex-project/pushex) - Phoenix-based websocket push implementation
+*   [wrren/event.ex](https://github.com/wrren/event.ex) - Event Production and Consumption utility library for Elixir
+*   [narrowtux/batch_stage](https://github.com/narrowtux/batch_stage) - Elixir GenStage that batches events together so they are not sent one-by-one
+*   [koudelka/annelid](https://github.com/koudelka/annelid) - Unwelcome, Replicating, Evasive, Self-Healing Infrastructure for Elixir 💪🐛☣︎
+*   [tanguilp/asteroid](https://github.com/tanguilp/asteroid) - An OAuth2 and OpenID Connect server written in Elixir
+*   [slashmili/ex_guard](https://github.com/slashmili/ex_guard) - ExGuard is a mix command to handle events on file system modifications
+*   [DaoDeCyrus/towel](https://github.com/DaoDeCyrus/towel) - A simple Maybe monad for Elixir.
+*   [Strech/avrora](https://github.com/Strech/avrora) - A convenient Elixir library to work with Avro schemas and Confluent® Schema Registry
+*   [chazsconi/simple_auth](https://github.com/chazsconi/simple_auth) - Elixir authentication/authorisation library
+*   [discord/ex_hash_ring](https://github.com/discord/ex_hash_ring) - A fast consistent hash ring implementation in Elixir.
+*   [coosto/redex](https://github.com/coosto/redex) - Cloud-native Redis server implemented in Elixir
+*   [oltarasenko/epmdless-elixir-example](https://github.com/oltarasenko/epmdless-elixir-example) - A small example showing how to run EPMDLess with elixir (with traffic encryption)
+*   [mischov/meeseeks](https://github.com/mischov/meeseeks) - An Elixir library for parsing and extracting data from HTML and XML with CSS or XPath selectors.
+*   [appcues/strip_js](https://github.com/appcues/strip_js) - An Elixir library for stripping executable JS from HTML and CSS.
+*   [Dalgona/Serum](https://github.com/Dalgona/Serum) - Static website generator for Elixir fans
+*   [seanmor5/genex](https://github.com/seanmor5/genex) - Genetic Algorithms in Elixir!
+*   [sascha-wolf/knigge](https://github.com/sascha-wolf/knigge) - An opinionated way of dealing with behaviours
+*   [AnilRedshift/wand](https://github.com/AnilRedshift/wand) - CLI tool to manage elixir dependencies
+*   [opt-elixir/faktory_worker](https://github.com/opt-elixir/faktory_worker) - Elixir Faktory worker https://hexdocs.pm/faktory_worker
+*   [KamilLelonek/healthchex](https://github.com/KamilLelonek/healthchex) - A set of Plugs to be used for Kubernetes healthchecks.
+*   [wojtekmach/mini_repo](https://github.com/wojtekmach/mini_repo) - MiniRepo allows self-hosting of Hex packages.
+*   [Adzz/ecto_morph](https://github.com/Adzz/ecto_morph) -  morph your Ecto capabilities into the s t r a t o s p h e r e !
+*   [cainophile/cainophile](https://github.com/cainophile/cainophile) -
+*   [taxjar/date_time_parser](https://github.com/taxjar/date_time_parser) - Parse strings into DateTime, NaiveDateTime, Date, or Time  https://hexdocs.pm/date_time_parser
+*   [TheRealReal/ecto-ulid](https://github.com/TheRealReal/ecto-ulid) - Ecto ULID
+*   [omgnetwork/ex_ulid](https://github.com/omgnetwork/ex_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID) in Elixir
+*   [merongivian/ulid](https://github.com/merongivian/ulid) - Universally Unique Lexicographically Sortable Identifier implementation for Elixir
+*   [erikreedstrom/ulid](https://github.com/erikreedstrom/ulid) - Universally Unique Lexicographically Sortable Identifier
+*   [elixir-cldr/cldr_units](https://github.com/elixir-cldr/cldr_units) - Unit formatting (volume, area, length, ...) functions for the Common Locale Data Repository (CLDR)
+*   [dnlserrano/exavier](https://github.com/dnlserrano/exavier) - Elixir mutation testing library
+*   [amrfaissal/ex_ndjson](https://github.com/amrfaissal/ex_ndjson) - Implementation of Newline Delimited JSON (NDJSON) for Elixir
+*   [pedroassumpcao/incident](https://github.com/pedroassumpcao/incident) - Event Sourcing and CQRS library in Elixir
+*   [gpedic/ecto_shortuuid](https://github.com/gpedic/ecto_shortuuid) - Ecto type which adds support for ShortUUID in Ecto schemas
+*   [caredox/aws_ssm_provider](https://github.com/caredox/aws_ssm_provider) - A configuration provider for Distillery which handles AWS SSM parameters
+*   [hauleth/commoner](https://github.com/hauleth/commoner) -
+*   [edw/elixir-dataset](https://github.com/edw/elixir-dataset) - Dataset provides a simple abstraction for managing tabular sets of data
+*   [mbramson/two_factor_in_a_can](https://github.com/mbramson/two_factor_in_a_can) - Aims to be the most developer friendly Elixir/Erlang 2FA library in existence
+*   [bitwalker/exprotobuf](https://github.com/bitwalker/exprotobuf) - Protocol Buffers in Elixir made easy!
+*   [ironbay/brine](https://github.com/ironbay/brine) - Configuration loader for Elixir projects
+*   [sorentwo/flippant](https://github.com/sorentwo/flippant) - :traffic_light: Feature flipping for the Elixir world
+*   [hopsor/open_hours](https://github.com/hopsor/open_hours) - Time calculations using business hours
+*   [antonyshchenko/phoenix-audit-log-microservice](https://github.com/antonyshchenko/phoenix-audit-log-microservice) - Example microservice developed with Phoenix Framework
+*   [fazibear/export](https://github.com/fazibear/export) - Erlport wrapper for Elixir
+*   [farhadi/rate_limiter](https://github.com/farhadi/rate_limiter) - A high performance rate limiter on top of erlang atomics for Elixir
+*   [prodis/wannabe_bool_elixir](https://github.com/prodis/wannabe_bool_elixir) - If Atom, BitString, Integer and Float values wanna be a boolean value, they can using to_boolean/1 function.
+*   [opencensus-beam/opencensus_tesla](https://github.com/opencensus-beam/opencensus_tesla) - Tesla middleware for OpenCensus
+*   [opencensus-beam/opencensus_plug](https://github.com/opencensus-beam/opencensus_plug) - Opencensus integration with Elixir's Plug library
+*   [opencensus-beam/opencensus-chat](https://github.com/opencensus-beam/opencensus-chat) -
+*   [opencensus-beam/opencensus_phoenix](https://github.com/opencensus-beam/opencensus_phoenix) - OpenCensus instrumentation for the Phoenix framework
+*   [opencensus-beam/opencensus_elixir](https://github.com/opencensus-beam/opencensus_elixir) -
+*   [opencensus-beam/opencensus_absinthe](https://github.com/opencensus-beam/opencensus_absinthe) - Opencensus integration with Absinthe
+*   [beam-telemetry/telemetry_metrics_prometheus](https://github.com/beam-telemetry/telemetry_metrics_prometheus) - Complete Telemetry.Metrics Reporter solution for Prometheus
+*   [beam-telemetry/telemetry_metrics](https://github.com/beam-telemetry/telemetry_metrics) - Collect and aggregate Telemetry events over time
+*   [lucaong/cubdb](https://github.com/lucaong/cubdb) - Elixir embedded key/value database
+*   [handnot2/samly](https://github.com/handnot2/samly) - Elixir Plug library to enable SAML 2.0 SP SSO in Phoenix/Plug applications.
+*   [hexpm/bob](https://github.com/hexpm/bob) - The Builder
+*   [nsweeting/rabbit](https://github.com/nsweeting/rabbit) - Build Elixir applications with RabbitMQ
+*   [xou/elixlsx](https://github.com/xou/elixlsx) - An Elixir XLSX writer
+*   [cblage/elixir-json](https://github.com/cblage/elixir-json) - Native JSON library for Elixir
+*   [qcam/saxy](https://github.com/qcam/saxy) - Fast SAX parser and encoder for XML in Elixir
+*   [sorentwo/kiq](https://github.com/sorentwo/kiq) - :postbox: Robust job queue powered by GenStage and Redis
+*   [sorentwo/oban](https://github.com/sorentwo/oban) - 💎 Robust job processing in Elixir, backed by modern PostgreSQL
+*   [mirego/credo_naming](https://github.com/mirego/credo_naming) - 🏷 A suite of Credo checks to enforce naming best practices in an Elixir project
+*   [evadne/ets-playground](https://github.com/evadne/ets-playground) - Leveraging ETS Effectively
+*   [zorbash/observer_live](https://github.com/zorbash/observer_live) - A port of observer_cli using LiveView
+*   [IlyaOsotov/uribe](https://github.com/IlyaOsotov/uribe) - URI builder for elixir
+*   [am-kantox/easy_ets](https://github.com/am-kantox/easy_ets) - The very simple ETS wrapper simplifying cross-process ETS handling (like `Agent`, but `:ets`).
+*   [mirego/elixir-boilerplate](https://github.com/mirego/elixir-boilerplate) - ⚗ The stable base upon which we build our Elixir projects at Mirego.
+*   [madeinussr/exop](https://github.com/madeinussr/exop) - Elixir library that provides macros which allow you to encapsulate business logic and validate incoming parameters with predefined contract.
+*   [techgaun/zxcvbn-elixir](https://github.com/techgaun/zxcvbn-elixir) - Elixir implementation of zxcvbn by dropbox
+*   [llxff/coney](https://github.com/llxff/coney) - Consumer server for RabbitMQ with message publishing functionality.
+*   [riverrun/argon2\_elixir](https://github.com/riverrun/argon2\_elixir) - Elixir wrapper for the Argon2 password hashing algorithm
+*   [riverrun/phauxth](https://github.com/riverrun/phauxth) - Not actively maintained - Authentication library for Phoenix, and other Plug-based, web applications
+*   [lau/tzdata](https://github.com/lau/tzdata) - tzdata for Elixir. Born from the Calendar library.
+*   [elixir-mint/mint](https://github.com/elixir-mint/mint) - Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2.
+*   [elixir-mint/castore](https://github.com/elixir-mint/castore) - Up-to-date certificate store for Elixir.
+*   [phoenixframework/phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view) - Rich, real-time user experiences with server-rendered HTML
+*   [riverrun/comeonin](https://github.com/riverrun/comeonin) - Password hashing specification for the Elixir programming language
+*   [am-kantox/camarero](https://github.com/am-kantox/camarero) - Semi-static JSON API Scaffold for Elixir
+*   [am-kantox/ack](https://github.com/am-kantox/ack) - Tiny drop-in for painless acknowledgements across different applications.
+*   [am-kantox/envio](https://github.com/am-kantox/envio) - Application-wide registry with handy helpers to ease dispatching
+*   [danhper/elixir-browser](https://github.com/danhper/elixir-browser) - Browser detection for Elixir
+*   [rrrene/credo](https://github.com/rrrene/credo) - A static code analysis tool for the Elixir language with a focus on code consistency and teaching.
+*   [riverrun/one_time_pass_ecto](https://github.com/riverrun/one_time_pass_ecto) - No longer maintained - One-time password library with Ecto support (for Elixir)
+*   [whitfin/luger](https://github.com/whitfin/luger) - Handy logging plug for Elixir with IP and status support
+*   [whitfin/tiny](https://github.com/whitfin/tiny) - A small, fast and fully compliant JSON parser in Elixir
+*   [bitcrowd/sshkit.ex](https://github.com/bitcrowd/sshkit.ex) - An Elixir toolkit for performing tasks on one or more servers, built on top of Erlang’s SSH application.
+*   [Virviil/individual](https://github.com/Virviil/individual) - Cluster singleton supervision tree branches in Elixir
+*   [Virviil/swarmglobal](https://github.com/Virviil/swarmglobal) -
+*   [aquapm/aqua](https://github.com/aquapm/aqua) - Aqua project scaffoldment tool
+*   [elixir-cldr/cldr_numbers](https://github.com/elixir-cldr/cldr_numbers) - CLDR Number localisation and formatting
+*   [mrdimosthenis/emel](https://github.com/mrdimosthenis/emel) - Turn data into functions! A simple and functional machine learning library written in elixir.
+*   [gpedic/ex_shortuuid](https://github.com/gpedic/ex_shortuuid) - ShortUUID is a simple UUID shortener for Elixir.
+*   [Ianleeclark/Paseto](https://github.com/Ianleeclark/Paseto) - An Elixir implementation of Paseto (Platform-Agnostic Security Tokens)
+*   [dashbitco/broadway](https://github.com/dashbitco/broadway) - Concurrent and multi-stage data ingestion and data processing with Elixir
+*   [san650/one_plus_n_detector](https://github.com/san650/one_plus_n_detector) - Elixir library to help you detect 1+n queries in applications using Ecto
+*   [CrowdHailer/server_sent_event.ex](https://github.com/CrowdHailer/server_sent_event.ex) - Push updates to Web clients over HTTP or using dedicated server-push protocol
+*   [danschultzer/premailex](https://github.com/danschultzer/premailex) - Preflight for your HTML emails - inline styling and plain text.
+*   [boudra/whistle](https://github.com/boudra/whistle) - Build interactive web experiences with Elixir
+*   [well-ironed/fe](https://github.com/well-ironed/fe) - Functional Elixir
+*   [praxis-of-nines/khafra-search](https://github.com/praxis-of-nines/khafra-search) - A deployable service for a fast and reliable distributable search index
+*   [Decisiv/blunder](https://github.com/Decisiv/blunder) -  A common error struct for elixir apps
+*   [pragdave/component](https://github.com/pragdave/component) - Experiment in moving towards higher-level Elixir components
+*   [derekkraan/ranch_connection_drainer](https://github.com/derekkraan/ranch_connection_drainer) - Gracefully drain ranch connections (Cowboy / Plug / Phoenix servers)
+*   [romul/dbg_inspect](https://github.com/romul/dbg_inspect) - Implementation of dbg! Rust-macro for Elixir
+*   [discord/fastglobal](https://github.com/discord/fastglobal) - Fast no copy globals for Elixir & Erlang.
+*   [sheharyarn/que](https://github.com/sheharyarn/que) - Simple Job Processing in Elixir with Mnesia :zap:
+*   [orisons/rexjs-elixir](https://github.com/orisons/rexjs-elixir) - RexJS is library for reactivity between elixir data with front-end through javascript websockets.
+*   [orisons/y18n](https://github.com/orisons/y18n) - Internationalization library based on YAML files.
+*   [lucas-nelson/ex_logger_mock](https://github.com/lucas-nelson/ex_logger_mock) - A mock logging backend for Elixir unit tests
+*   [derekkraan/walkman](https://github.com/derekkraan/walkman) - Isolate tests from the real world, inspired by Ruby's VCR.
+*   [podium/procrastinator](https://github.com/podium/procrastinator) - Procrastinates work
+*   [joken-elixir/joken](https://github.com/joken-elixir/joken) - Elixir JWT library
+*   [rupurt/juice](https://github.com/rupurt/juice) - Reduce in memory data structures using a lightweight query language
+*   [polleverywhere/chaperon](https://github.com/polleverywhere/chaperon) - HTTP Service Performance & Load Testing Framework
+*   [serverboards/exosql](https://github.com/serverboards/exosql) - Generic SQL engine in Elixir that uses generic data extractors
+*   [msmykowski/double_bypass](https://github.com/msmykowski/double_bypass) - A simple wrapper for Bypass
+*   [DockYard/ecto_fixtures](https://github.com/DockYard/ecto_fixtures) - Fixtures for Elixir apps
+*   [bernardolins/fake_server](https://github.com/bernardolins/fake_server) - FakeServer integrates with ExUnit to make external APIs testing simpler
+*   [archan937/mecks_unit](https://github.com/archan937/mecks_unit) - A simple Elixir package to elegantly mock module functions within (asynchronous) ExUnit tests using Erlang's :meck library
+*   [expert360/absinthe_auth](https://github.com/expert360/absinthe_auth) - Authorisation for the Absinthe GraphQL library
+*   [nsweeting/authex](https://github.com/nsweeting/authex) - Authex is an opinionated JWT authentication and authorization library for Elixir.
+*   [andreapavoni/disco](https://github.com/andreapavoni/disco) - Simple, opinionated yet flexible library to build CQRS/ES driven systems 🕺
+*   [nocursor/ex-cid](https://github.com/nocursor/ex-cid) - Elixir library for creating self-describing content-addressed identifiers for distributed systems (CIDs).
+*   [astarte-platform/astarte](https://github.com/astarte-platform/astarte) - Core Astarte Repository
+*   [feymartynov/ex_operation](https://github.com/feymartynov/ex_operation) - A library for making domain operations in Elixir
+*   [Around25/apino](https://github.com/Around25/apino) - Apino is a BaaS service and code generator for Elixir applications
+*   [spawnfest/func_diff](https://github.com/spawnfest/func_diff) - Spawnfest 2018 project by Nordic Syntax Tree
+*   [spawnfest/spawn_api](https://github.com/spawnfest/spawn_api) - Spawnfest 2018 project by SpawnRB
+*   [spawnfest/raml_ama_ding_dong](https://github.com/spawnfest/raml_ama_ding_dong) - Spawnfest 2018 project by Fluid View Tribune
+*   [obrok/lens](https://github.com/obrok/lens) - A utility for working with nested data structures.
+*   [shufo/ex_doc_refined](https://github.com/shufo/ex_doc_refined) - A refined document viewer for Elixir and Phoenix
+*   [Ianleeclark/u2f_ex](https://github.com/Ianleeclark/u2f_ex) - A server-side U2F (Universal Second Factor) library in Elixir
+*   [devonestes/assertions](https://github.com/devonestes/assertions) - Helpful assertions for ExUnit
+*   [wasnotrice/clover](https://github.com/wasnotrice/clover) - A chat bot framework for Elixir applications
+*   [coryodaniel/speakeasy](https://github.com/coryodaniel/speakeasy) - Middleware based authorization for Absinthe GraphQL powered by Bodyguard
+*   [hansonkd/cables](https://github.com/hansonkd/cables) - Asynchronous  Multiplexed HTTP/2 Client for Elixir
+*   [shufo/log_viewer](https://github.com/shufo/log_viewer) - An Web based Log Viewer for Elixir and Phoenix
+*   [ResiliaDev/planga-phoenix](https://github.com/ResiliaDev/planga-phoenix) - Elixir+Phoenix integration for Planga, the Seamless Chat Service
+*   [mailman-elixir/mailman](https://github.com/mailman-elixir/mailman) - Mailman provides a clean way of defining mailers in your Elixir applications
+*   [straw-hat-labs/straw_hat_review](https://github.com/straw-hat-labs/straw_hat_review) - Review System
+*   [straw-hat-labs/straw_hat](https://github.com/straw-hat-labs/straw_hat) - Utility Package for Error Handling
+*   [straw-hat-labs/straw_hat_graphql](https://github.com/straw-hat-labs/straw_hat_graphql) - Utility Package for GraphQL
+*   [jfrolich/authorize](https://github.com/jfrolich/authorize) - Rule based authorization for Elixir
+*   [jfrolich/snapshot](https://github.com/jfrolich/snapshot) -
+*   [michalmuskala/phoenix_etag](https://github.com/michalmuskala/phoenix_etag) - ETag support for phoenix
+*   [sascha-wolf/etag_plug](https://github.com/sascha-wolf/etag_plug) - A simple to use shallow ETag plug
+*   [Nebo15/annon.api](https://github.com/Nebo15/annon.api) - Configurable API gateway that acts as a reverse proxy with a plugin system.
+*   [spandex-project/spandex](https://github.com/spandex-project/spandex) - A platform agnostic tracing library
+*   [oestrich/gossip-backbone](https://github.com/oestrich/gossip-backbone) - Common sync code for the Gossip "backbone"
+*   [oestrich/raisin](https://github.com/oestrich/raisin) - Moderation tools for the Gossip Network
+*   [oestrich/grapevine-legacy](https://github.com/oestrich/grapevine-legacy) - Grapevine player portal, part of the Gossip Network
+*   [oestrich/gossip-elixir](https://github.com/oestrich/gossip-elixir) - An Elixir client for Grapevine
+*   [sultaniman/every](https://github.com/sultaniman/every) - Calculate even time intervals
+*   [Nebo15/logger_json](https://github.com/Nebo15/logger_json) - JSON console backend for Elixir Logger.
+*   [rentpath/ex_json_logger](https://github.com/rentpath/ex_json_logger) -
+*   [whitfin/jumper](https://github.com/whitfin/jumper) - Jump consistent hash implementation in Elixir (without NIFs)
+*   [whitfin/unsafe](https://github.com/whitfin/unsafe) - Generate unsafe (!) bindings for Elixir functions
+*   [Frameio/herd](https://github.com/Frameio/herd) - Elixir cluster manager
+*   [BoweryFarming/peerage_ec2](https://github.com/BoweryFarming/peerage_ec2) - A Peerage provider for easy clustering on AWS EC2 and Elastic Beanstalk
+*   [bitwalker/ex_unit_clustered_case](https://github.com/bitwalker/ex_unit_clustered_case) - An extension for ExUnit for simplifying tests against a clustered application
+*   [bschmeck/slax](https://github.com/bschmeck/slax) - Elixir SAX Parser
+*   [oestrich/squabble](https://github.com/oestrich/squabble) - Simple leader election for Elixir applications
+*   [commanded/commanded](https://github.com/commanded/commanded) - Use Commanded to build Elixir CQRS/ES applications
+*   [liveforeverx/exrun](https://github.com/liveforeverx/exrun) - Runtime and debugging tools for elixir
+*   [whitfin/local-cluster](https://github.com/whitfin/local-cluster) - Easy local cluster creation for Elixir to aid in unit testing
+*   [mrluc/peerage](https://github.com/mrluc/peerage) - Easy Elixir clusters, pluggable discovery. DNS-based (Kubernetes, Weave), UDP multicast, others.
+*   [skirino/dist_agent](https://github.com/skirino/dist_agent) -
+*   [c-rack/cidr-elixir](https://github.com/c-rack/cidr-elixir) - Classless Inter-Domain Routing (CIDR) for Elixir
+*   [rdf-elixir/sparql_client](https://github.com/rdf-elixir/sparql_client) - A SPARQL client for Elixir
+*   [rdf-elixir/rdf-ex](https://github.com/rdf-elixir/rdf-ex) - An implementation of RDF for Elixir
+*   [rdf-elixir/sparql-ex](https://github.com/rdf-elixir/sparql-ex) - An implementation of SPARQL for Elixir
+*   [emerleite/video_watch_progress](https://github.com/emerleite/video_watch_progress) - Track video playback watch progress and allow the users to return at the same point they leave.
+*   [apdunston/notifier](https://github.com/apdunston/notifier) - OSX notifications in a pluggable architecture for other kinds of notifications.
+*   [fabianlindfors/parallel_task](https://github.com/fabianlindfors/parallel_task) - Elixir library to run multiple functions in parallel and capture the results
+*   [sheharyarn/memento](https://github.com/sheharyarn/memento) - Simple + Powerful interface to the Mnesia Distributed Database 💾
+*   [bechurch/shorten_api_tutorial](https://github.com/bechurch/shorten_api_tutorial) - 🔗How to make a link shortener using Elixir, Phoenix and Mnesia
+*   [almightycouch/gitgud](https://github.com/almightycouch/gitgud) - A Git source code management tool powered by Elixir with easy installation & high extensibility.
+*   [KamilLelonek/postgres-pubsub-elixir](https://github.com/KamilLelonek/postgres-pubsub-elixir) - PostgreSQL async notification via the LISTEN and NOTIFY in Elixir.
+*   [aaronrenner/constantizer](https://github.com/aaronrenner/constantizer) - Helpers to evaluate elixir functions at compile time instead of runtime
+*   [elixir-metadata-logger/metadata_logger_plug](https://github.com/elixir-metadata-logger/metadata_logger_plug) - Plug Middleware to log request and response into in metadata
+*   [elixir-metadata-logger/metadata_logger_tesla](https://github.com/elixir-metadata-logger/metadata_logger_tesla) - Tesla Middleware to log request and response into in metadata
+*   [zhongwencool/maxwell](https://github.com/zhongwencool/maxwell) - Maxwell is an HTTP client which support for middleware and multiple adapters.
+*   [doughsay/maxwell_request_id](https://github.com/doughsay/maxwell_request_id) - Maxwell middleware for adding x-request-id to outgoing requests.
+*   [CaptainFact/captain-fact-api](https://github.com/CaptainFact/captain-fact-api) - 🔎 CaptainFact - API. The one that serves and process all the data for https://captainfact.io
+*   [soundtrackyourbrand/defused](https://github.com/soundtrackyourbrand/defused) - A fuse wrapping macro for easy circuit breaking
+*   [gausby/tortoise](https://github.com/gausby/tortoise) - A MQTT Client written in Elixir
+*   [oestrich/grapevine](https://github.com/oestrich/grapevine) - The MUD Chat Network
+*   [derekkraan/delta_crdt_ex](https://github.com/derekkraan/delta_crdt_ex) - Use DeltaCrdt to build distributed applications in Elixir
+*   [derekkraan/horde](https://github.com/derekkraan/horde) - Horde is a distributed Supervisor and Registry backed by DeltaCrdt
+*   [petrohi/machine_gun](https://github.com/petrohi/machine_gun) - HTTP/1 and HTTP/2 client for Elixir. Based on Gun and Poolboy.
+*   [zorbash/opus](https://github.com/zorbash/opus) - A framework for pluggable business logic components
+*   [boydm/scenic](https://github.com/boydm/scenic) - Core Scenic library
+*   [JakeBecker/elixir-ls](https://github.com/JakeBecker/elixir-ls) - A frontend-independent IDE "smartness" server for Elixir. Implements the JSON-based "Language Server Protocol" standard and provides debugger support via VS Code's debugger protocol.
+*   [gmtprime/extatus](https://github.com/gmtprime/extatus) - App to report metrics to Prometheus from Elixir GenServers
+*   [wise-home/hub](https://github.com/wise-home/hub) - Pub-sub hub with pattern subscription
+*   [elixir-soap/soap](https://github.com/elixir-soap/soap) - SOAP client for Elixir programming language
+*   [elixir-lang/gen_stage](https://github.com/elixir-lang/gen_stage) - Producer and consumer actors with back-pressure for Elixir
+*   [bitwalker/libgraph](https://github.com/bitwalker/libgraph) - A graph data structure library for Elixir projects
+*   [arcz/libcluster_consul](https://github.com/arcz/libcluster_consul) - Consul strategy for libcluster
+*   [kyleaa/libcluster_ec2](https://github.com/kyleaa/libcluster_ec2) -
+*   [jeanparpaillon/quaff](https://github.com/jeanparpaillon/quaff) - Erlang/Elixir helpers
+*   [infinitered/maybe](https://github.com/infinitered/maybe) - Access Elixir maps and structs, protected from `nil`
+*   [byjpr/MapRewire](https://github.com/byjpr/MapRewire) - Syntactic sugar to bulk rekey maps
+*   [danschultzer/pow](https://github.com/danschultzer/pow) - Robust, modular, and extendable user authentication system
+*   [pow-auth/pow_assent](https://github.com/pow-auth/pow_assent) - Multi-provider authentication for your Pow enabled app
+*   [shankardevy/neem](https://github.com/shankardevy/neem) - A mini web framework built from scratch as explained in the book - Garuda - Demystify Phoenix Internals & Rebuild Phoenix Clone
+*   [shankardevy/mango](https://github.com/shankardevy/mango) - Ecommerce site that you will build while learning Mastering Phoenix Framework
+*   [aws-beam/aws-codegen](https://github.com/aws-beam/aws-codegen) - Code generator for AWS clients in Erlang and Elixir.
+*   [Skoda091/cognitex](https://github.com/Skoda091/cognitex) - Library for managing user accounts through AWS Cognito service.
+*   [mschae/cors_plug](https://github.com/mschae/cors_plug) - An Elixir Plug to add CORS.
+*   [bitwalker/toml-elixir](https://github.com/bitwalker/toml-elixir) - An implementation of TOML for Elixir projects, compliant with the latest specification
+*   [absinthe-graphql/absinthe_phoenix](https://github.com/absinthe-graphql/absinthe_phoenix) -
+*   [michalmuskala/decompile](https://github.com/michalmuskala/decompile) -
+*   [sasa1977/parent](https://github.com/sasa1977/parent) - Custom parenting of processes in Elixir
+*   [HugoLnx/acai-restaurant](https://github.com/HugoLnx/acai-restaurant) - A simple application using GenStage with pretty tracing for studying purposes.
+*   [tmbb/schism](https://github.com/tmbb/schism) - A library that makes it easy to have alternative implementation of functions for benchmarks
+*   [pragdave/mix_templates](https://github.com/pragdave/mix_templates) - Basis of an open templating system for mix. Also see mix_gen
+*   [abiko-search/tongue](https://github.com/abiko-search/tongue) - Elixir port of Nakatani Shuyo's natural language detector
+*   [heyoutline/cloud_watch](https://github.com/heyoutline/cloud_watch) - Logger backend for Elixir applications
+*   [mgwidmann/flames](https://github.com/mgwidmann/flames) - Real time error monitoring for Phoenix and Elixir applications.
+*   [globocom/alchemetrics_tesla](https://github.com/globocom/alchemetrics_tesla) - Tesla middleware to report external call metrics.
+*   [globocom/alchemetrics_web](https://github.com/globocom/alchemetrics_web) - Collect and report key metrics for a typical web application based on Phoenix and Ecto.
+*   [globocom/alchemetrics](https://github.com/globocom/alchemetrics) - Elixir metrics reporter and collector
+*   [ricn/rapport](https://github.com/ricn/rapport) - Rapport aims to provide a robust set of modules to generate HTML reports that both looks good in the browser and when being printed.
+*   [annkissam/common_graphql_client](https://github.com/annkissam/common_graphql_client) - Elixir GraphQL Client with HTTP and WebSocket Support
+*   [annkissam/absinthe_websocket](https://github.com/annkissam/absinthe_websocket) - Communicate with a Absinthe+Phoenix Endpoint over WebSockets
+*   [danielberkompas/number](https://github.com/danielberkompas/number) - ActionView::Helpers::NumberHelper for Elixir
+*   [sevenmind/kaufmann_ex](https://github.com/sevenmind/kaufmann_ex) - Kafka backed service library.
+*   [Kr00lIX/gen_worker](https://github.com/Kr00lIX/gen_worker) - Generic Worker behavior that helps to run task at a specific time with a specified frequency.
+*   [appcues/gen_retry](https://github.com/appcues/gen_retry) - Utilities for retrying Elixir functions, with configurable delay and backoff.
+*   [ericentin/gen_state_machine](https://github.com/ericentin/gen_state_machine) - An idiomatic Elixir wrapper for gen_statem in OTP 19 (and above).
+*   [sasa1977/erlangelist](https://github.com/sasa1977/erlangelist) - Source code of The Erlangelist blog
+*   [elixir-makeup/makeup](https://github.com/elixir-makeup/makeup) - Syntax highlighter for Elixir inspired by Pygments
+*   [nccgroup/sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework
+*   [ExHammer/hammer-plug](https://github.com/ExHammer/hammer-plug) - A plug to apply rate-limiting with Hammer
+*   [sheharyarn/ztd](https://github.com/sheharyarn/ztd) - Distributed (not really) real-time Todo App over RabbitMQ in Elixir 🐰⚡️🌐💧💻
+*   [ejpcmac/typed_struct](https://github.com/ejpcmac/typed_struct) - An Elixir library for defining structs with a type without writing boilerplate code.
+*   [CrowdHailer/pachyderm](https://github.com/CrowdHailer/pachyderm) - Virtual actors for elixir
+*   [AlloyCI/alloy_ci](https://github.com/AlloyCI/alloy_ci) - Continuous Integration, Deployment, and Delivery coordinator, written in Elixir.
+*   [thiamsantos/pwned](https://github.com/thiamsantos/pwned) - Check if your password has been pwned
+*   [twooster/strap](https://github.com/twooster/strap) - SRP (Secure Remote Password) 6/6a library for Elixir
+*   [CodeSteak/Flower](https://github.com/CodeSteak/Flower) - Bloom Filters in Elixir using Rust NIFs
+*   [gmcabrita/murmur](https://github.com/gmcabrita/murmur) - :speech_balloon: An implementation of the non-cryptographic hash Murmur3
+*   [gmcabrita/bloomex](https://github.com/gmcabrita/bloomex) - :hibiscus: A pure Elixir implementation of Scalable Bloom Filters
+*   [ex-aws/ex_aws_s3](https://github.com/ex-aws/ex_aws_s3) -
+*   [SiliconJungles/eqrcode](https://github.com/SiliconJungles/eqrcode) - Simple QRCode Generator in Elixir
+*   [beatrichartz/csv](https://github.com/beatrichartz/csv) - CSV Decoding and Encoding for Elixir
+*   [dashbitco/nimble_parsec](https://github.com/dashbitco/nimble_parsec) - A simple and fast library for text-based parser combinators
+*   [tallakt/codepagex](https://github.com/tallakt/codepagex) - Elixir string encoding conversion - like iconv but pure Elixir
+*   [meltwater/gen_rmq](https://github.com/meltwater/gen_rmq) - Elixir AMQP consumer and publisher behaviours
+*   [phoenixframework/firenest](https://github.com/phoenixframework/firenest) -
+*   [Nebo15/annon.ktl](https://github.com/Nebo15/annon.ktl) - `annonktl` is a Annon API Gateway management CLI.
+*   [Nebo15/ecto_mnesia](https://github.com/Nebo15/ecto_mnesia) - Ecto adapter for Mnesia Erlang term database.
+*   [annkissam/akd](https://github.com/annkissam/akd) - Elixir Deployment Automation Package
+*   [elixir-toniq/hlclock](https://github.com/elixir-toniq/hlclock) - Hybrid Logical Clocks for Elixir
+*   [CrowdHailer/watercooler](https://github.com/CrowdHailer/watercooler) - Building a distributed chatroom with Raxx.Kit
+*   [albert-io/optimal](https://github.com/albert-io/optimal) - A schema based keyword list option validator.
+*   [werbitzky/elastix](https://github.com/werbitzky/elastix) - A simple Elasticsearch REST client written in Elixir.
+*   [radar/elastic](https://github.com/radar/elastic) - A thin veneer over HTTPotion that talks to Elastic Search
+*   [danielberkompas/elasticsearch-elixir](https://github.com/danielberkompas/elasticsearch-elixir) - No-nonsense Elasticsearch library for Elixir
+*   [mobileoverlord/phoenix_client](https://github.com/mobileoverlord/phoenix_client) - Elixir Phoenix Client for Channels
+*   [danielberkompas/delegate_with_docs](https://github.com/danielberkompas/delegate_with_docs) - Delegate functions while preserving their docs
+*   [RobertDober/read_doc](https://github.com/RobertDober/read_doc) - An Elixir tool to extract docstrings into files, typically markdown files, as e.g. README.md
+*   [tyre/gutenex](https://github.com/tyre/gutenex) - Native PDF generation for Elixir
+*   [coletiv/puppeteer-pdf](https://github.com/coletiv/puppeteer-pdf) - PDF generation wrapper for Elixir using Puppeteer
+*   [nsweeting/stat_buffer](https://github.com/nsweeting/stat_buffer) - StatBuffer provides an efficient way to maintain persistable stat counts.
+*   [uesteibar/errol](https://github.com/uesteibar/errol) - Orchestrate RabbitMQ consumers in an OTP manner 📬
+*   [mirego/accent](https://github.com/mirego/accent) - The first developer-oriented translation tool. True asynchronous flow between translators and your team.
+*   [samsondav/rihanna_ui](https://github.com/samsondav/rihanna_ui) - A pretty UI for rihanna
+*   [samsondav/rihanna](https://github.com/samsondav/rihanna) - Rihanna is a high performance postgres-backed job queue for Elixir
+*   [aguxez/pastry](https://github.com/aguxez/pastry) - Turn maps and keyword lists into query strings.
+*   [sascha-wolf/brex](https://github.com/sascha-wolf/brex) - define, compose, and evaluate your business rules in Elixir
+*   [am-kantox/elixir-iteraptor](https://github.com/am-kantox/elixir-iteraptor) - Handy enumerable operations implementation.
+*   [vectordotdev/timber-elixir](https://github.com/vectordotdev/timber-elixir) - 🌲 Great Elixir logging made easy
+*   [ivx/ink](https://github.com/ivx/ink) - A Logger backend that logs JSON
+*   [vic/pond](https://github.com/vic/pond) - State aware Elixir functions without spawning processes
+*   [techgaun/ex_mustang](https://github.com/techgaun/ex_mustang) - :sparkles: A simple, clueless bot
+*   [mikejdorm/sftp_ex](https://github.com/mikejdorm/sftp_ex) -
+*   [straw-hat-labs/straw_hat_map](https://github.com/straw-hat-labs/straw_hat_map) - Map Information and Addresses Management
+*   [SpotIM/gen_spoxy](https://github.com/SpotIM/gen_spoxy) - **DEPRECATED** caching made fun!
+*   [unnawut/licensir](https://github.com/unnawut/licensir) - An Elixir mix task that lists all the licenses used by your Mix project dependencies.
+*   [boudra/alternate](https://github.com/boudra/alternate) - Plug and Phoenix helpers to localize your web app via the URL
+*   [smeevil/set_locale](https://github.com/smeevil/set_locale) - elixir phoenix plug that can extract locale from browser headers or paths for redirection and setting of get text locales
+*   [urbint/ex_dash](https://github.com/urbint/ex_dash) - Build a Dash Docset with your internal Elixir app
+*   [vic/mix_under](https://github.com/vic/mix_under) - Execute mix tasks under Elixir umbrella applications
+*   [oo6/mix-bump](https://github.com/oo6/mix-bump) - This is a simple mix task to version bump a mix project.
+*   [surik/mix_debeam](https://github.com/surik/mix_debeam) - MIX task to get Erlang code of Elixir module
+*   [aforward/version_tasks](https://github.com/aforward/version_tasks) - elixir mix task to automate the incrementation of your project
+*   [Recruitee/mix_docker](https://github.com/Recruitee/mix_docker) - Put your Elixir app production release inside minimal docker image
+*   [railsmechanic/nanoid](https://github.com/railsmechanic/nanoid) - Elixir port of NanoID, a secure and URL-friendly unique ID generator. https://hex.pm/packages/nanoid
+*   [minijackson/paddle](https://github.com/minijackson/paddle) - A library simplifying LDAP usage in Elixir projects
+*   [jmerriweather/exldap](https://github.com/jmerriweather/exldap) - A module for working with LDAP from Elixir
+*   [Overbryd/nodex](https://github.com/Overbryd/nodex) - A set of helper modules that enable you to work with distributed elixir and c-nodes.
+*   [quantum-elixir/quantum-core](https://github.com/quantum-elixir/quantum-core) - :watch: Cron-like job scheduler for Elixir
+*   [michalmuskala/format](https://github.com/michalmuskala/format) - A simple string formatter for Elixir
+*   [jakub-zawislak/formex_ecto](https://github.com/jakub-zawislak/formex_ecto) - Ecto integration for Formex
+*   [dunyakirkali/format_parser.ex](https://github.com/dunyakirkali/format_parser.ex) - The owls are not what they seem
+*   [linjunpop/receipt_decoder](https://github.com/linjunpop/receipt_decoder) - 🔑 Decode iOS App receipt in Elixir
+*   [CrowdHailer/git_status](https://github.com/CrowdHailer/git_status) - Compile time status of GIT repository for source code.
+*   [nsweeting/gen_queue](https://github.com/nsweeting/gen_queue) - Generic queues with adapter support for Elixir
+*   [duffelhq/paginator](https://github.com/duffelhq/paginator) - Cursor-based pagination for Elixir Ecto
+*   [michalmuskala/jason](https://github.com/michalmuskala/jason) - A blazing fast JSON parser and generator in pure Elixir.
+*   [Ethelo/kronky](https://github.com/Ethelo/kronky) - Kronky bridges the gap between Ecto and Absinthe GraphQL by listing validation messages in a mutation payload.
+*   [sikanhe/apollo-tracing-elixir](https://github.com/sikanhe/apollo-tracing-elixir) - Apollo Tracing middleware for Absinthe
+*   [soundtrackyourbrand/absinthe-metrics](https://github.com/soundtrackyourbrand/absinthe-metrics) - Pluggable metrics for Absinthe based GraphQL backends
+*   [urbint/bastion](https://github.com/urbint/bastion) -
+*   [soundtrackyourbrand/absinthe-throttle](https://github.com/soundtrackyourbrand/absinthe-throttle) - A pluggable throttling middleware for concurrent Absinthe queries
+*   [Financial-Times/tapper_absinthe_plug](https://github.com/Financial-Times/tapper_absinthe_plug) - Propagate the Tapper Id into the Absinthe context
+*   [Financial-Times/tapper_plug](https://github.com/Financial-Times/tapper_plug) - Plug integration for Tapper
+*   [LeToteTeam/band](https://github.com/LeToteTeam/band) - Its just a bunch of elixir instrumenters
+*   [kelvinst/plumbing](https://github.com/kelvinst/plumbing) - Useful functions to work with Elixir pipes.
+*   [codedge-llc/mapi](https://github.com/codedge-llc/mapi) - Turn your Elixir module into an HTTP microservice API
+*   [ruby2elixir/atomic_map](https://github.com/ruby2elixir/atomic_map) - A small utility to convert deep Elixir maps with mixed string/atom keys to atom-only keyed maps.
+*   [azranel/ecto_facade](https://github.com/azranel/ecto_facade) - Separate your read and write operations in replicated database setup
+*   [ejpcmac/expected](https://github.com/ejpcmac/expected) - An Elixir application for login and session management.
+*   [am-kantox/peluquero](https://github.com/am-kantox/peluquero) - RabbitMQ “middleware” that allows to act as a plug consuming many input exchanges, publishing to many outputs
+*   [ericentin/tqdm_elixir](https://github.com/ericentin/tqdm_elixir) - Add a progress bar to your enumerables in a second
+*   [nietaki/rexbug](https://github.com/nietaki/rexbug) - A thin Elixir wrapper for the redbug Erlang tracing debugger.
+*   [acutario/ravenx](https://github.com/acutario/ravenx) - Notification dispatch library for Elixir applications
+*   [KazuCocoa/http_proxy](https://github.com/KazuCocoa/http_proxy) - http proxy with Elixir. wait request with multi port and forward to each URIs
+*   [sealas/authtoken](https://github.com/sealas/authtoken) - Simplified encrypted authentication tokens using JWE
+*   [Betree/burnex](https://github.com/Betree/burnex) - 📨🔥 Elixir burner email (temporary address) detector
+*   [straw-hat-labs/straw_hat_mailer](https://github.com/straw-hat-labs/straw_hat_mailer) - Email Management
+*   [devonestes/fast-elixir](https://github.com/devonestes/fast-elixir) - :dash: Writing Fast Elixir :heart_eyes: -- Collect Common Elixir idioms.
+*   [amotion-city/lib_lat_lon](https://github.com/amotion-city/lib_lat_lon) - Handy geo coding against different providers
+*   [deadtrickster/prometheus-phoenix](https://github.com/deadtrickster/prometheus-phoenix) - Prometheus.io Phoenix instrumenter
+*   [jvoegele/external_service](https://github.com/jvoegele/external_service) - Elixir library for safely using any external service or API using automatic retry with rate limiting and circuit breakers.
+*   [deadtrickster/prometheus-ecto](https://github.com/deadtrickster/prometheus-ecto) - Prometheus.io collector for Elixir.Ecto
+*   [deadtrickster/prometheus-plugs](https://github.com/deadtrickster/prometheus-plugs) - Prometheus.erl Elixir Plugs
+*   [deadtrickster/prometheus.ex](https://github.com/deadtrickster/prometheus.ex) - Prometheus.io Elixir client
+*   [shinyscorpion/wobserver](https://github.com/shinyscorpion/wobserver) - Web based metrics, monitoring, and observer
+*   [welaika/sputnik](https://github.com/welaika/sputnik) - Crawling since 1957
+*   [ajvondrak/remote_ip](https://github.com/ajvondrak/remote_ip) - A plug to rewrite the Plug.Conn's remote_ip based on forwarding headers.
+*   [grych/ip2country](https://github.com/grych/ip2country) - Simple geolocating module (IP -> Country Code) with built-in database, for Elixir
+*   [michalmuskala/plug_attack](https://github.com/michalmuskala/plug_attack) - A plug building toolkit for blocking and throttling abusive requests
+*   [aviabird/gringotts](https://github.com/aviabird/gringotts) - A complete payment library for Elixir and Phoenix Framework
+*   [lulu-2021/content_indexer](https://github.com/lulu-2021/content_indexer) - index content using stemming & tf_idf matching
+*   [spawnfest/til](https://github.com/spawnfest/til) - by TIL
+*   [parody/flock](https://github.com/parody/flock) - by 0xfafafa
+*   [spawnfest/elixirbench](https://github.com/spawnfest/elixirbench) - Long Running Benchmarks for Elixir Projects. Spawnfest 2017 project winner :trophy:
+*   [sticksnleaves/bamboo_eex](https://github.com/sticksnleaves/bamboo_eex) - EEx template support for Bamboo
+*   [bitwalker/libring](https://github.com/bitwalker/libring) - A fast consistent hash ring implementation in Elixir
+*   [Nebo15/sage](https://github.com/Nebo15/sage) - A dependency-free tool to run distributed transactions in Elixir, inspired by Sagas pattern.
+*   [fredwu/opq](https://github.com/fredwu/opq) - Elixir queue! A simple, in-memory queue with worker pooling and rate limiting in Elixir.
+*   [koudelka/honeydew](https://github.com/koudelka/honeydew) - Job Queue for Elixir. Clustered or Local. Straight BEAM. Optional Ecto. 💪🍈
+*   [whatyouhide/stream_data](https://github.com/whatyouhide/stream_data) - Data generation and property-based testing for Elixir. 🔮
+*   [tmbb/ex_doc_makeup](https://github.com/tmbb/ex_doc_makeup) - ExDocs + Makeup
+*   [ggpasqualino/plug_checkup](https://github.com/ggpasqualino/plug_checkup) - PlugCheckup provides a Plug for adding simple health checks to your app
+*   [whitfin/child-spec-compat](https://github.com/whitfin/child-spec-compat) - Compatibility macros for Elixir v1.5+ child specifications
+*   [agalaframework/agala](https://github.com/agalaframework/agala) - Full featured messaging bot framework.
+*   [jeffutter/job_queue](https://github.com/jeffutter/job_queue) - Elixir Job/Worker Queue
+*   [otobus/event_bus](https://github.com/otobus/event_bus) - :surfer: Traceable, extendable and minimalist **event bus** implementation for Elixir with built-in **event store** and **event watcher** based on ETS.
+*   [ex-aws/ex_aws](https://github.com/ex-aws/ex_aws) - A flexible, easy to use set of clients AWS APIs for Elixir
+*   [Qqwy/elixir-okasaki](https://github.com/Qqwy/elixir-okasaki) - Multiple different implementations of efficient functional queues and dequeues for Elixir
+*   [mspanc/jumbo](https://github.com/mspanc/jumbo) - Reliable, OTP-style, lightweight job processing queue for the Elixir language
+*   [princemaple/elixir-queue](https://github.com/princemaple/elixir-queue) - Queue data structure for Elixir-lang
+*   [livehelpnow/fireworks](https://github.com/livehelpnow/fireworks) - Elixir work queue consumption for RabbitMQ
+*   [inside-track/itk_queue](https://github.com/inside-track/itk_queue) - Provides convenience methods for subscribing to queues and publishing messages.
+*   [Qqwy/elixir-number](https://github.com/Qqwy/elixir-number) - Numbers -- A generic wrapper to use *any* custom Numeric type in Elixir!
+*   [swelham/cashier](https://github.com/swelham/cashier) - Cashier is an Elixir library that aims to be an easy to use payment gateway, whilst offering the fault tolerance and scalability benefits of being built on top of Erlang/OTP
+*   [Harrisonl/Blex](https://github.com/Harrisonl/Blex) - A Developer focused Blogging platform
+*   [kipcole9/money](https://github.com/kipcole9/money) - Elixir implementation of Money with Currency
+*   [gutschilla/elixir-pdf-generator](https://github.com/gutschilla/elixir-pdf-generator) - Create PDFs with wkhtmltopdf or puppeteer/chromium from Elixir.
+*   [ex-aws/ex_aws_cloudwatch](https://github.com/ex-aws/ex_aws_cloudwatch) -
+*   [riverrun/not_qwerty123](https://github.com/riverrun/not_qwerty123) - Not actively maintained - Password strength checker and random password generator for Elixir
+*   [madeinussr/express](https://github.com/madeinussr/express) - Elixir library for sending iOS and Android push notifications. Supports Apple APNS (either certificate or jwt) and Google FCM services.
+*   [schurig/elixir-remote-monitor](https://github.com/schurig/elixir-remote-monitor) - ⎋ A Mix task that helps you to observe your remote elixir nodes from your local machine.
+*   [andrewMacmurray/phoenix-elm-scaffold](https://github.com/andrewMacmurray/phoenix-elm-scaffold) - Mix Task to generate an elm app inside a Phoenix (1.3) app
+*   [njonsson/example_files](https://github.com/njonsson/example_files) - Mix tasks for managing example files in your project
+*   [edib-tool/mix-edib](https://github.com/edib-tool/mix-edib) - A mix task for EDIB (elixir docker image builder)
+*   [absinthe-graphql/dataloader](https://github.com/absinthe-graphql/dataloader) - DataLoader for Elixir
+*   [assert-value/assert_value_elixir](https://github.com/assert-value/assert_value_elixir) - ExUnit's assert on steroids that writes and updates tests for you
+*   [labzero/bootleg](https://github.com/labzero/bootleg) - Simple deployment and server automation for Elixir.
+*   [labzero/bootleg_phoenix](https://github.com/labzero/bootleg_phoenix) - Provides Phoenix-specific Bootleg tasks.
+*   [uesteibar/neuron](https://github.com/uesteibar/neuron) - A GraphQL client for Elixir
+*   [derailed/ex_ray_tracers](https://github.com/derailed/ex_ray_tracers) - Sample Phoenix apps to demonstrate OpenTracing with Elixir
+*   [derailed/ex_ray](https://github.com/derailed/ex_ray) - An Elixir OpenTracing library based on Otter
+*   [Financial-Times/tapper](https://github.com/Financial-Times/tapper) - Zipkin client for Elixir
+*   [wojtekmach/shipit](https://github.com/wojtekmach/shipit) - ShipIt automates Hex package publishing to avoid common mistakes
+*   [dashbitco/mox](https://github.com/dashbitco/mox) - Mocks and explicit contracts in Elixir
+*   [nucleartide/errors](https://github.com/nucleartide/errors) - Error handling helpers for Elixir
+*   [maxneuvians/maple](https://github.com/maxneuvians/maple) - Elixir GraphQL Client | Compile time client code generator for GraphQL APIs based on introspection queries and schema files
+*   [PragTob/deep_merge](https://github.com/PragTob/deep_merge) - Deep (recursive) merge for maps, keywords and others in Elixir
+*   [fertapric/async_with](https://github.com/fertapric/async_with) - The asynchronous version of Elixir's "with", resolving the dependency graph and executing the clauses in the most performant way possible!
+*   [pramsky/eftp](https://github.com/pramsky/eftp) - Simple Elixir FTP Client
+*   [robmckinnon/data_morph](https://github.com/robmckinnon/data_morph) - Create streams of Elixir structs, maps with atom keys, and keyword lists from CSV/TSV data streams
+*   [CargoSense/ex_csv](https://github.com/CargoSense/ex_csv) - CSV for Elixir
+*   [Qqwy/elixir-map_diff](https://github.com/Qqwy/elixir-map_diff) - Calculates the difference between two (nested) maps,  and returns a map representing the patch of changes.
+*   [kagux/ex_debug_toolbar](https://github.com/kagux/ex_debug_toolbar) - A debug web toolbar for Phoenix projects to display all sorts of information about request
+*   [amberbit/mappable](https://github.com/amberbit/mappable) -
+*   [tompave/fun_with_flags_ui](https://github.com/tompave/fun_with_flags_ui) - Web dashboard for the FunWithFlags Elixir package
+*   [tompave/fun_with_flags](https://github.com/tompave/fun_with_flags) - Feature Flags/Toggles for Elixir
+*   [jeffkreeftmeijer/mix_proper](https://github.com/jeffkreeftmeijer/mix_proper) - Run PropEr test suites with mix. Inspired by rebar3\_proper.
+*   [DockYard/inquisitor](https://github.com/DockYard/inquisitor) - Composable query builder for Ecto
+*   [annkissam/rummage_ecto](https://github.com/annkissam/rummage_ecto) - Search, Sort and Pagination for ecto queries
+*   [dgvncsz0f/zipflow](https://github.com/dgvncsz0f/zipflow) - stream a zip archive while building it
+*   [beatrichartz/parallel_stream](https://github.com/beatrichartz/parallel_stream) - A parallelized stream implementation for Elixir
+*   [coryodaniel/arbor](https://github.com/coryodaniel/arbor) - Ecto elixir adjacency list and tree traversal. Supports Ecto versions 2 and 3.
+*   [danielberkompas/cloak](https://github.com/danielberkompas/cloak) - Elixir encryption library designed for Ecto
+*   [vic/verily](https://github.com/vic/verily) - Demo application for APW subscriptions via websockets
+*   [arjan/absinthe_dsl](https://github.com/arjan/absinthe_dsl) - Elixir DSL for constructing GraphQL queries
+*   [fourkio/reverse_proxy_elixir_phoenix](https://github.com/fourkio/reverse_proxy_elixir_phoenix) -
+*   [cgregfreeman/phoenix_rust_ports_and_nifs](https://github.com/cgregfreeman/phoenix_rust_ports_and_nifs) - Examples of Phoenix with Rust interfaces via both ports and nifs
+*   [JuneKelly/sneeze](https://github.com/JuneKelly/sneeze) - Render Elixir data-structures to HTML, inspired by Hiccup.
+*   [OvermindDL1/protocol_ex](https://github.com/OvermindDL1/protocol_ex) - Elixir Extended Protocol
+*   [sasa1977/con_cache](https://github.com/sasa1977/con_cache) - ets based key/value cache with row level isolated writes and ttl support
+*   [whitfin/cachex](https://github.com/whitfin/cachex) - A powerful caching library for Elixir with support for transactions, fallbacks and expirations
+*   [Azolo/websockex](https://github.com/Azolo/websockex) - An Elixir Websocket Client
+*   [wemake-services/recase](https://github.com/wemake-services/recase) - :recycle: Convert strings to any case.
+*   [elixir-cldr/cldr](https://github.com/elixir-cldr/cldr) - Elixir implementation of CLDR/ICU
+*   [pragdave/stream_perlin](https://github.com/pragdave/stream_perlin) - Generate a stream of floats that when plotted will look like a random but smooth curve. Uses the 1D Perlin algorithm.
+*   [pragdave/private](https://github.com/pragdave/private) - Make private functions public if Mix.env is :test. This allows them to be tested.
+*   [pragdave/diet](https://github.com/pragdave/diet) - Simple reducer-based state machine
+*   [pragdave/jeeves](https://github.com/pragdave/jeeves) -
+*   [swoosh/swoosh](https://github.com/swoosh/swoosh) - Compose, deliver and test your emails easily in Elixir
+*   [antonmi/flowex](https://github.com/antonmi/flowex) - Flow-Based Programming framework for Elixir
+*   [samueljseay/recaptcha](https://github.com/samueljseay/recaptcha) - A simple reCaptcha 2 library for Elixir applications.
+*   [smpoulsen/focus](https://github.com/smpoulsen/focus) - Lightweight Elixir lenses
+*   [shinyscorpion/task_bunny](https://github.com/shinyscorpion/task_bunny) - TaskBunny is a background processing application written in Elixir and uses RabbitMQ as a messaging backend
+*   [samueljseay/page_object](https://github.com/samueljseay/page_object) - Page Objects for Hound / Elixir
+*   [wojtekmach/acme_bank](https://github.com/wojtekmach/acme_bank) - An example ☂ project
+*   [rkotze/eye_drops](https://github.com/rkotze/eye_drops) - Configurable Elixir mix task to watch file changes and run the corresponding command.
+*   [boydm/phoenix_integration](https://github.com/boydm/phoenix_integration) - Lightweight server side integration test tools for Phoenix
+*   [vinsol/nectarcommerce](https://github.com/vinsol/nectarcommerce) - Quest for customizable E-commerce - the Elixir way
+*   [vinsol/worldly](https://github.com/vinsol/worldly) -
+*   [StoiximanServices/msgpack-elixir](https://github.com/StoiximanServices/msgpack-elixir) - MessagePack Implementation for Elixir / msgpack.org\[Elixir]
+*   [matthewlehner/phoenix-webpack-example](https://github.com/matthewlehner/phoenix-webpack-example) - Phoenix Framework with Webpack for asset compilation.
+*   [NoRedInk/until_then](https://github.com/NoRedInk/until_then) - Calculates offsets to regularly scheduled events.
+*   [vic/test_async](https://github.com/vic/test_async) - Make tests inside your ExUnit case to run async.
+*   [lpil/mix-test.watch](https://github.com/lpil/mix-test.watch) - 🎠   Because TDD is awesome
+*   [acutario/decoratex](https://github.com/acutario/decoratex) -
+*   [vic/params](https://github.com/vic/params) - Easy parameters validation/casting with Ecto.Schema, akin to Rails' strong parameters.
+*   [tatsuya6502/recon_ex](https://github.com/tatsuya6502/recon_ex) - Elixir wrapper for Recon, tools to diagnose Erlang VM safely in production
+*   [arjan/decorator](https://github.com/arjan/decorator) - Function decorators for Elixir
+*   [almassapargali/Sphinx](https://github.com/almassapargali/Sphinx) - Authorization library for Phoenix web framework
+*   [neopoly/neoboard](https://github.com/neopoly/neoboard) - A dashboard solution instrumenting Elixir, Phoenix and React
+*   [socialpaymentsbv/ex_phone_number](https://github.com/socialpaymentsbv/ex_phone_number) - Elixir port of libphonenumber
+*   [Nebo15/confex](https://github.com/Nebo15/confex) - Useful helper to read and use application configuration from environment variables.
+*   [bencoppock/bunyan](https://github.com/bencoppock/bunyan) - This is not the bunyan you're looking for—go here instead:
+*   [bleacherreport/plug_logger_json](https://github.com/bleacherreport/plug_logger_json) - Elixir Plug that formats http request logs as json
+*   [DaoDeCyrus/geocoder](https://github.com/DaoDeCyrus/geocoder) - An Elixir Geocoder/Reverse Geocoder
+*   [carnivalmobile/gcm](https://github.com/carnivalmobile/gcm) - Elixir library to send pushes through GCM/Firebase (HTTP only)
+*   [firestormforum/firestorm](https://github.com/firestormforum/firestorm) - An open-source forum engine, with an Elixir+Phoenix backend and an Elm frontend.
+*   [smpallen99/ex_admin](https://github.com/smpallen99/ex_admin) - ExAdmin is an auto administration package for Elixir and the Phoenix Framework
+*   [bryanjos/geo](https://github.com/bryanjos/geo) - A collection of GIS functions for Elixir
+*   [elixirkoans/elixir-koans](https://github.com/elixirkoans/elixir-koans) - Elixir learning exercises
+*   [codedge-llc/scribe](https://github.com/codedge-llc/scribe) - Pretty print tables of Elixir structs and maps
+*   [deltadoc/text_delta](https://github.com/deltadoc/text_delta) - Elixir counter-part of the Quill.js Delta library. Provides a baseline for Operational Transformation of rich text.
+*   [jclem/ot_ex](https://github.com/jclem/ot_ex) - OT algorithms for Elixir
+*   [carturoch/ex_uc](https://github.com/carturoch/ex_uc) - Elixir Unit Converter
+*   [edgurgel/verk](https://github.com/edgurgel/verk) - A job processing system that just verks! 🧛‍
+*   [crbelaus/trans](https://github.com/crbelaus/trans) - Embedded translations for Elixir
+*   [dashbitco/flow](https://github.com/dashbitco/flow) - Computational parallel flows on top of GenStage
+*   [philosodad/morphix](https://github.com/philosodad/morphix) - Tiny library of functions to perform transforms on maps and arrays.
+*   [codedge-llc/pigeon](https://github.com/codedge-llc/pigeon) - iOS and Android push notifications for Elixir
+*   [bitwalker/libcluster](https://github.com/bitwalker/libcluster) - Automatic cluster formation/healing for Elixir applications
+*   [bitwalker/swarm](https://github.com/bitwalker/swarm) - Easy clustering, registration, and distribution of worker processes for Erlang/Elixir
+*   [undeadlabs/discovery](https://github.com/undeadlabs/discovery) - An OTP application for auto-discovering services with Consul
+*   [h4cc/awesome-elixir](https://github.com/h4cc/awesome-elixir) - A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:
+*   [thechangelog/changelog.com](https://github.com/thechangelog/changelog.com) - Changelog is news and podcast for developers. This is our open source platform.
+*   [findmypast/Graphixir](https://github.com/findmypast/Graphixir) - Graphite framework written in elixir
+*   [findmypast/hex_web](https://github.com/findmypast/hex_web) - Fork of hex_web
+*   [rrrene/elixir-style-guide](https://github.com/rrrene/elixir-style-guide) - Style Guide for the Elixir language, implemented by Credo
+*   [dashbitco/nimble_csv](https://github.com/dashbitco/nimble_csv) - A simple and fast CSV parsing and dumping library for Elixir
+*   [ericentin/nifsy](https://github.com/ericentin/nifsy) - A nifty NIF for the FS, providing faster filesystem operations for Elixir
+*   [elixir-maru/maru](https://github.com/elixir-maru/maru) - Elixir RESTful Framework
+*   [hexpm/hexpm](https://github.com/hexpm/hexpm) - API server and website for Hex
+*   [wojtekmach/oop](https://github.com/wojtekmach/oop) - OOP in Elixir!
+*   [stephenmoloney/og](https://github.com/stephenmoloney/og) - Og is a small collection of logger helper functions in elixir.
+*   [hashrocket/gatling](https://github.com/hashrocket/gatling) - Deployment tool for Phoenix apps
+*   [CJPoll/subscribex](https://github.com/CJPoll/subscribex) -
+*   [matteosister/stopwatch](https://github.com/matteosister/stopwatch) -
+*   [appcues/stifle](https://github.com/appcues/stifle) - Trap, observe, and release an Elixir function's side effects
+*   [rubencaro/sshex](https://github.com/rubencaro/sshex) - Simple SSH helpers for Elixir. SSH is useful, but we all love SSHEx !
+*   [bettyblocks/sql_dust](https://github.com/bettyblocks/sql_dust) - Easy. Simple. Powerful. Generate (complex) SQL queries using magical Elixir SQL dust.
+*   [Stratus3D/Spout](https://github.com/Stratus3D/Spout) - A TAP producer that integrates with existing ExUnit tests via an ExUnit formatter
+*   [emancu/spirit](https://github.com/emancu/spirit) - A microframework for web development on Elixir
+*   [Theemuts/spaghetti_pool](https://github.com/Theemuts/spaghetti_pool) - A :gen_fsm-based attempt at a pool for concurrently reading/writing ETS tables
+*   [tyre/sorted_set](https://github.com/tyre/sorted_set) - Sorted Set library for Elixir
+*   [simonprev/solage](https://github.com/simonprev/solage) - Basic tools to implement a JSON API with awesome features taken from the jsonapi.org spec
+*   [h4cc/slugger](https://github.com/h4cc/slugger) - A Slugger for elixir.
+*   [camshaft/simple_secrets_ex](https://github.com/camshaft/simple_secrets_ex) - A simple, opinionated library for encrypting small packets of data securely.
+*   [ScrimpyCat/SimpleMarkdownEx](https://github.com/ScrimpyCat/SimpleMarkdownEx) - A simple and extendable Markdown to HTML converter for Elixir.
+*   [nico-amsterdam/simple_mem_cache](https://github.com/nico-amsterdam/simple_mem_cache) - Memory based caching with optional expiration after creation/modification/access, automatic value loading and time travel support.
+*   [alexandrubagu/simplehttp](https://github.com/alexandrubagu/simplehttp) - HTTP client for Elixir without dependencies
+*   [fredwu/simple_bayes](https://github.com/fredwu/simple_bayes) - A Naive Bayes machine learning implementation in Elixir.
+*   [PSPDFKit-labs/sidetask](https://github.com/PSPDFKit-labs/sidetask) - :awesome = Elixir's Task ++ Basho's sidejob library
+*   [whatyouhide/short_maps](https://github.com/whatyouhide/short_maps) - ⚠️Retired⚠️ library that provided a ~m sigil for ES6-like map destructuring in Elixir.
+*   [meyercm/shorter_maps](https://github.com/meyercm/shorter_maps) - Elixir ~M sigil for map shorthand. `~M{id, name} ~&gt; %{id: id, name: name}`
+*   [camshaft/shenu](https://github.com/camshaft/shenu) - set of utilities for parsing, handling, and comparing messages
+*   [cabol/ex_shards](https://github.com/cabol/ex_shards) - Elixir wrapper for cabol/shards .
+*   [patricksrobertson/secure_random.ex](https://github.com/patricksrobertson/secure_random.ex) - Convenience library for random base64 strings modeled after my love for Ruby's SecureRandom
+*   [stephenmoloney/scrivener_list](https://github.com/stephenmoloney/scrivener_list) - A Scrivener compatible extension that allows pagination of a list of elements.
+*   [beam-community/scrivener_headers](https://github.com/beam-community/scrivener_headers) - Scrivener pagination with headers and web linking
+*   [drewolson/scrivener_ecto](https://github.com/drewolson/scrivener_ecto) - Paginate your Ecto queries with Scrivener
+*   [drewolson/scrivener](https://github.com/drewolson/scrivener) - Pagination for the Elixir ecosystem
+*   [cwbriones/scientist](https://github.com/cwbriones/scientist) - An elixir library for refactoring code, a port of GitHub's scientist
+*   [peburrows/river](https://github.com/peburrows/river) - An HTTP/2 client for Elixir (a work in progress!)
+*   [slogsdon/elixir-reverse-proxy](https://github.com/slogsdon/elixir-reverse-proxy) - A Plug based, reverse proxy server written in Elixir.
+*   [kmochejski/remote-ip-rewriter](https://github.com/kmochejski/remote-ip-rewriter) -
+*   [whatyouhide/redix_pubsub](https://github.com/whatyouhide/redix_pubsub) - Deprecated Redis Pub/Sub client for Elixir. Now built-in into Redix.
+*   [linjunpop/receipt_verifier](https://github.com/linjunpop/receipt_verifier) - ✅ Verify iOS App receipt with the App Store
+*   [keepcosmos/readability](https://github.com/keepcosmos/readability) - Readability is Elixir library for extracting and curating articles.
+*   [Nebo15/rbmq](https://github.com/Nebo15/rbmq) - Simple API for spawning RabbitMQ Producers and Consumers.
+*   [CrowdHailer/raxx](https://github.com/CrowdHailer/raxx) - Interface for HTTP webservers, frameworks and clients
+*   [hayesgm/ravenex](https://github.com/hayesgm/ravenex) - Elixir client for Sentry
+*   [asaaki/ralitobu_plug](https://github.com/asaaki/ralitobu_plug) - Elixir Plug for Ralitobu, the Rate Limiter with Token Bucket algorithm
+*   [grempe/ex_rated](https://github.com/grempe/ex_rated) - ExRated, the Elixir OTP GenServer with the naughty name that allows you to rate-limit calls to any service that requires it.
+*   [asaaki/ralitobu](https://github.com/asaaki/ralitobu) - Rate Limiter with Token Bucket algorithm (Elixir)
+*   [kagux/turbolinks_plug](https://github.com/kagux/turbolinks_plug) - Phoenix plug to integrate with turbolinks
+*   [DavidAntaramian/tributary](https://github.com/DavidAntaramian/tributary) - A simple stream generation library for Ecto queries that facilitates more efficient paging of queries both in the database and in your Ecto-reliant applicaton.
+*   [RobertDober/traverse](https://github.com/RobertDober/traverse) - Traverse nested data structures in Elixir
+*   [kenta-aktsk/translator](https://github.com/kenta-aktsk/translator) - Model translation/globalization/localization library for Elixir
+*   [andrzejsliwa/tracing_helper](https://github.com/andrzejsliwa/tracing_helper) - Simple tracing helper for Elixir/Erlang
+*   [danielberkompas/immortal](https://github.com/danielberkompas/immortal) - Helper modules for OTP applications
+*   [joakimk/toniq](https://github.com/joakimk/toniq) - Simple and reliable background job processing library for Elixir.
+*   [ScrimpyCat/Tonic](https://github.com/ScrimpyCat/Tonic) - An Elixir DSL for conveniently loading binary data/files.
+*   [zamith/tomlex](https://github.com/zamith/tomlex) - A TOML parser for elixir
+*   [bitwalker/timex](https://github.com/bitwalker/timex) - A complete date/time library for Elixir projects.
+*   [infinitered/phoenix_base](https://github.com/infinitered/phoenix_base) - Template project for Phoenix
+*   [infinitered/thesis-phoenix](https://github.com/infinitered/thesis-phoenix) - A lightweight, bolt-on, intuitive content editing system for Elixir/Phoenix websites. Star this repo and follow along with our progress!
+*   [teamon/tesla](https://github.com/teamon/tesla) - The flexible HTTP client library for Elixir, with support for middleware and multiple adapters.
+*   [poteto/terraform](https://github.com/poteto/terraform) - A simple plug for incrementally transforming an API into Phoenix. Check out the blog post:
+*   [lpil/temporary-env](https://github.com/lpil/temporary-env) - A tool for managing application environment state within tests.
+*   [sorentwo/tempfile](https://github.com/sorentwo/tempfile) - Simple temporary file management for Elixir
+*   [andrewvy/TempDir](https://github.com/andrewvy/TempDir) - Simple Elixir Library for creating self-cleaning tmp directories
+*   [danhper/elixir-temp](https://github.com/danhper/elixir-temp) - Temporary files and directories for Elixir
+*   [eproxus/tap](https://github.com/eproxus/tap) - Recon wrapper for Elixir
+*   [TheFirstAvenger/elixir-tail](https://github.com/TheFirstAvenger/elixir-tail) -
+*   [anoskov/uuid5\_ecto_type](https://github.com/anoskov/uuid5\_ecto_type) - UUID v5 type for Ecto
+*   [zyro/elixir-uuid](https://github.com/zyro/elixir-uuid) - UUID generator and utilities for Elixir
+*   [suddenrushofsushi/url_tincture](https://github.com/suddenrushofsushi/url_tincture) - Sanity checks and canonicalization for HTTP(S) URLs
+*   [pezra/ex-uri-template](https://github.com/pezra/ex-uri-template) - RFC 6570 compliant URI template processor for Elixir
+*   [ueberauth/ueberauth](https://github.com/ueberauth/ueberauth) - An Elixir Authentication System for Plug-based Web Applications
+*   [zovafit/voxpop](https://github.com/zovafit/voxpop) -
+*   [CargoSense/vex](https://github.com/CargoSense/vex) - Data Validation for Elixir
+*   [sasa1977/workex](https://github.com/sasa1977/workex) - Load control in BEAM processes.
+*   [DaoDeCyrus/wizardry](https://github.com/DaoDeCyrus/wizardry) - Barebones user account framework for Phoenix Framework.
+*   [stuart/elixir-webdriver](https://github.com/stuart/elixir-webdriver) - WebDriver client for Elixir.
+*   [elixir-wallaby/wallaby](https://github.com/elixir-wallaby/wallaby) - Concurrent browser tests for your Elixir web apps.
+*   [elixir-ecto/connection](https://github.com/elixir-ecto/connection) - Connection behaviour for connection processes
+*   [gmtprime/y_process](https://github.com/gmtprime/y_process) - GenServer wrapper behaviour for pub/sub between processes using pg2 and Phoenix pub/sub (with any adapter) and a behaviour to create custom pub/sub backends.
+*   [gmtprime/exreg](https://github.com/gmtprime/exreg) - A simple process name registry using pg2
+*   [gmtprime/yggdrasil](https://github.com/gmtprime/yggdrasil) - Subscription and publishing server for Elixir applications.
+*   [matteosister/quick_chex](https://github.com/matteosister/quick_chex) - property based testing for elixir
+*   [danhper/pushex](https://github.com/danhper/pushex) - Push notifications for Elixir
+*   [heroiclabs/pulse](https://github.com/heroiclabs/pulse) - Service registration and discovery library for Elixir. Relies on etcd as an external service registry.
+*   [nubleer/project_info](https://github.com/nubleer/project_info) - A Elixir's mix task to get the current projects info
+*   [jeffreybaird/simple_bar](https://github.com/jeffreybaird/simple_bar) - The simplest elixir command line progress bar
+*   [henrik/progress_bar](https://github.com/henrik/progress_bar) - Command-line progress bars and spinners for Elixir.
+*   [polsab/pretty_hex](https://github.com/polsab/pretty_hex) - A binary hex dumping library in Elixir.
+*   [ma2gedev/power_assert_ex](https://github.com/ma2gedev/power_assert_ex) - Power Assert in Elixir. Shows evaluation results each expression.
+*   [elixir-ecto/postgrex](https://github.com/elixir-ecto/postgrex) - PostgreSQL driver for Elixir
+*   [talentdeficit/posterize](https://github.com/talentdeficit/posterize) - postgrex for erlang
+*   [alco/porcelain](https://github.com/alco/porcelain) - Work with external processes like a boss
+*   [rubencaro/populator](https://github.com/rubencaro/populator) - Dinamically populate supervisors
+*   [pragdave/pollution](https://github.com/pragdave/pollution) - Create streams of potentially complex type values for Elixir
+*   [system76/policy](https://github.com/system76/policy) -
+*   [ruby2elixir/plugin](https://github.com/ruby2elixir/plugin) - Plugin helps you to structure your business logic in composable blocks
+*   [ruby2elixir/rop](https://github.com/ruby2elixir/rop) - Railway Oriented Programming in Elixir
+*   [honeypotio/plug_utm](https://github.com/honeypotio/plug_utm) - UTM tracking parameters to cookies
+*   [jeffweiss/plug_statsd](https://github.com/jeffweiss/plug_statsd) - Send connection response time and count to statsd
+*   [anotherhale/secure_headers](https://github.com/anotherhale/secure_headers) - HTTP security headers for Phoenix/Plug
+*   [techgaun/plug_secex](https://github.com/techgaun/plug_secex) - Plug that adds various HTTP Headers to make Phoenix/Elixir app more secure
+*   [sugar-framework/sugar](https://github.com/sugar-framework/sugar) - Modular web framework for Elixir
+*   [mje113/plug_runtime](https://github.com/mje113/plug_runtime) - Time your requests
+*   [DevL/plug_require_header](https://github.com/DevL/plug_require_header) - An Elixir Plug for requiring and extracting a given header.
+*   [lpil/plug-redirect](https://github.com/lpil/plug-redirect) - A plug builder for redirecting requests.
+*   [tommy351/plug-proxy](https://github.com/tommy351/plug-proxy) - A plug for reverse proxy server.
+*   [bonyiii/plug_offline](https://github.com/bonyiii/plug_offline) - Offline Plug
+*   [manheim/amix](https://github.com/manheim/amix) - Plug for reporting to NewRelic
+*   [whatyouhide/plug_heartbeat](https://github.com/whatyouhide/plug_heartbeat) - A plug for responding to heartbeat requests.
+*   [graphql-elixir/plug_graphql](https://github.com/graphql-elixir/plug_graphql) - Plug (Phoenix) integration for GraphQL Elixir
+*   [obmarg/plug_fprof](https://github.com/obmarg/plug_fprof) - An Elixir Plug for profiling code with fprof.
+*   [kbrw/plug_forwarded_peer](https://github.com/kbrw/plug_forwarded_peer) - Very simple plug which reads `X-Forwarded-For` or `Forwarded` header according to rfc7239 and fill `conn.remote_ip` with the root client ip.
+*   [whatyouhide/corsica](https://github.com/whatyouhide/corsica) - Elixir library for dealing with CORS requests. 🏖
+*   [c-rack/plug_cloudflare](https://github.com/c-rack/plug_cloudflare) - Parses CloudFlare's CF-Connecting-IP header into Plug.Conn's remote_ip field.
+*   [bitgamma/plug_auth](https://github.com/bitgamma/plug_auth) - A collection of authentication-related plugs
+*   [nshafer/plug_assign](https://github.com/nshafer/plug_assign) - A simple plug to allow setting variables in a connection.
+*   [mneudert/plug_accesslog](https://github.com/mneudert/plug_accesslog) - Plug for writing access logs
+*   [camshaft/plug_accept_language](https://github.com/camshaft/plug_accept_language) - parse the accept-language header
+*   [pinx/plogger](https://github.com/pinx/plogger) - Piping Logger
+*   [ciaran/plist](https://github.com/ciaran/plist) - An Elixir library to parse files in Apple's binary property list format
+*   [joshrieken/plasm](https://github.com/joshrieken/plasm) - Ecto's composable query multitool (.count, .random, .earliest, .latest, .find, .at, .on, etc.)
+*   [jimsynz/pixie](https://github.com/jimsynz/pixie) - Pixie is a PubSub server, based on the Bayeux protocol and compatible with Faye written in Elixir.
+*   [jimsynz/pixie_ets](https://github.com/jimsynz/pixie_ets) - ETS Storage backend for Pixie.
+*   [bootstarted/pipeline](https://github.com/bootstarted/pipeline) - Monadic HTTP application composition for plug and friends.
+*   [pvdvreede/pinglix](https://github.com/pvdvreede/pinglix) - Plug compatible health check middleware based on pinglish.
+*   [manukall/phoenix_token_auth](https://github.com/manukall/phoenix_token_auth) - Token authentication solution for Phoenix. Useful for APIs for e.g. single page apps.
+*   [christopheradams/plug_rest](https://github.com/christopheradams/plug_rest) - REST behaviour and Plug router for hypermedia web applications in Elixir
+*   [christopheradams/phoenix_rest](https://github.com/christopheradams/phoenix_rest) - Resource routing and REST behaviour for Phoenix web applications
+*   [phoenixframework/phoenix_pubsub](https://github.com/phoenixframework/phoenix_pubsub) - Distributed PubSub and Presence platform for the Phoenix Framework
+*   [adam12/phoenix_mtm](https://github.com/adam12/phoenix_mtm) - A small collection of functions to make it easier working with many_to_many Ecto associations and checkboxes to create them.
+*   [smoku/phoenix_api_docs](https://github.com/smoku/phoenix_api_docs) - Phoenix API Docs
+*   [minibikini/paasaa](https://github.com/minibikini/paasaa) - Natural language detection for Elixir
+*   [robconery/moebius](https://github.com/robconery/moebius) - A functional query tool for Elixir
+*   [nerves-project/nerves](https://github.com/nerves-project/nerves) - Craft and deploy bulletproof embedded software in Elixir
+*   [Nebo15/multiverse](https://github.com/Nebo15/multiverse) - Elixir package that allows to add compatibility layers via API gateways.
+*   [christopheradams/multiplex](https://github.com/christopheradams/multiplex) - Phoenix router macro to dispatch multiple HTTP methods to a Plug
+*   [elixirmoney/money](https://github.com/elixirmoney/money) - Elixir library for working with Money safer, easier, and fun... Is an interpretation of the Fowler's Money pattern in fun.prog.
+*   [ericmj/decimal](https://github.com/ericmj/decimal) - Arbitrary precision decimal arithmetic
+*   [theocodes/monetized](https://github.com/theocodes/monetized) - A lightweight solution for handling and storing money.
+*   [mathewdgardner/momento](https://github.com/mathewdgardner/momento) - moment.js implemented in Elixir
+*   [mrluc/mex](https://github.com/mrluc/mex) - Readable, side-by-side macro-expansion display for Elixir's interactive shell.
+*   [folz/math](https://github.com/folz/math) - The missing Math module for Elixir.
+*   [jclem/logfmt-elixir](https://github.com/jclem/logfmt-elixir) - Decode and encode Logfmt lines in Elixir
+*   [22cans/exsyslog](https://github.com/22cans/exsyslog) - ExSyslog is a Elixir Logger custom backend to syslog.
+*   [khia/exlager](https://github.com/khia/exlager) - Elixir binding for lager
+*   [rrrene/inch_ex](https://github.com/rrrene/inch_ex) - Provides a Mix task that gives you hints where to improve your inline docs.
+*   [campezzi/ignorant](https://github.com/campezzi/ignorant) - Simplify comparison of Elixir data structures by ensuring fields are present but ignoring their values.
+*   [whitfin/hypex](https://github.com/whitfin/hypex) - Fast HyperLogLog implementation for Elixir/Erlang
+*   [jwarlander/hedwig_hipchat](https://github.com/jwarlander/hedwig_hipchat) - HipChat Adapter for Hedwig
+*   [hedwig-im/hedwig](https://github.com/hedwig-im/hedwig) - An Adapter-based Bot Framework for Elixir Applications
+*   [alco/hashids-elixir](https://github.com/alco/hashids-elixir) - Stringify your ids
+*   [ruby2elixir/plumber_girl](https://github.com/ruby2elixir/plumber_girl) - PlumberGirl takes care of your Elixir piping issues!
+*   [mweibel/facebook.ex](https://github.com/mweibel/facebook.ex) - Facebook Graph API Wrapper written in Elixir
+*   [thoughtbot/ex_machina](https://github.com/thoughtbot/ex_machina) - Create test data for Elixir applications
+*   [pezra/exhal](https://github.com/pezra/exhal) - Use HAL APIs with ease
+*   [scrogson/exgravatar](https://github.com/scrogson/exgravatar) - An Elixir module for generating Gravatar urls.
+*   [kbrw/exfsm](https://github.com/kbrw/exfsm) - Simple elixir library to define a static FSM.
+*   [appcues/exconstructor](https://github.com/appcues/exconstructor) - An Elixir library for generating struct constructors that handle external data with ease.
+*   [witchcrafters/quark](https://github.com/witchcrafters/quark) - Common combinators for Elixir
+*   [expede/exceptional](https://github.com/expede/exceptional) - Helpers for Elixir exceptions
+*   [sasa1977/exactor](https://github.com/sasa1977/exactor) - Helpers for simpler implementation of GenServer based processes
+*   [ammbot/event-nanny](https://github.com/ammbot/event-nanny) - Nanny for GenEvent
+*   [whitfin/eternal](https://github.com/whitfin/eternal) - Keep your ETS tables running forever using bouncing GenServers
+*   [eeue56/elmxir](https://github.com/eeue56/elmxir) - Interop tools for working with Elm in Elixir
+*   [nathanjohnson320/elmer](https://github.com/nathanjohnson320/elmer) - Elm tooling for elixir
+*   [elixirscript/elixirscript](https://github.com/elixirscript/elixirscript) - Converts Elixir to JavaScript
+*   [findmypast/vaultex](https://github.com/findmypast/vaultex) - HashiCorp Vault client for Elixir.
+*   [pragdave/earmark](https://github.com/pragdave/earmark) - Markdown parser for Elixir
+*   [lpil/dogma](https://github.com/lpil/dogma) - :closed_lock_with_key: A code style linter for Elixir
+*   [VoiceLayer/dispatch](https://github.com/VoiceLayer/dispatch) - A distributed service registry built on top of phoenix_pubsub.
+*   [TheRealReal/new-relixir](https://github.com/TheRealReal/new-relixir) - New Relic tracking for Phoenix and Plug applications.
+*   [nogates/discorelic](https://github.com/nogates/discorelic) - Elixir implementation of the NewRelic intrumentation PaaS
+*   [jeremyjh/dialyxir](https://github.com/jeremyjh/dialyxir) - Mix tasks to simplify use of Dialyzer in Elixir projects.
+*   [whitfin/deppie](https://github.com/whitfin/deppie) - Elixir's coolest deprecation logger
+*   [Willamin/delorean](https://github.com/Willamin/delorean) -
+*   [Qqwy/elixir-currying](https://github.com/Qqwy/elixir-currying) - Currying enables partial function application in Elixir.
+*   [os6sense/DefMemo](https://github.com/os6sense/DefMemo) - DefMemo - Ryuk's little puppy! Bring apples.
+*   [inaka/Dayron](https://github.com/inaka/Dayron) - A repository `similar` to Ecto.Repo that maps to an underlying http client, sending requests to an external rest api instead of a database
+*   [mykewould/crutches](https://github.com/mykewould/crutches) - Some Elixir support
+*   [skirino/croma](https://github.com/skirino/croma) - Elixir macro utilities to make type-based programming easier
+*   [antonmi/espec_phoenix](https://github.com/antonmi/espec_phoenix) - ESpec for Phoenix web framework.
+*   [pragdave/quixir](https://github.com/pragdave/quixir) - Property-based testing for Elixir
+*   [andrewtimberlake/migratrex](https://github.com/andrewtimberlake/migratrex) - Build up Ecto models and tests from an existing database
+*   [joshrieken/test_that_json_espec](https://github.com/joshrieken/test_that_json_espec) - Test That JSON! assertions for ESpec
+*   [apdunston/mix_test_notify](https://github.com/apdunston/mix_test_notify) - OSX notifications for mix test
+*   [ericmj/true_story](https://github.com/ericmj/true_story) - Make your tests tell a story
+*   [joshrieken/test_that_json](https://github.com/joshrieken/test_that_json) - JSON-related helpers for your Elixir testing needs
+*   [DockYard/valid_field](https://github.com/DockYard/valid_field) -
+*   [dantswain/mix_eunit](https://github.com/dantswain/mix_eunit) - A mix task to execute eunit tests.
+*   [batate/shouldi](https://github.com/batate/shouldi) - Elixir testing libraries with nested contexts, superior readability, and ease of use
+*   [parroty/excheck](https://github.com/parroty/excheck) - Property-based testing library for Elixir (QuickCheck style).
+*   [antonmi/espec](https://github.com/antonmi/espec) - Elixir Behaviour Driven Development
+*   [bitwalker/conform](https://github.com/bitwalker/conform) - Easy, powerful, and extendable configuration tooling for releases.
+*   [lucacorti/cartel](https://github.com/lucacorti/cartel) -  Multi platform, multi app push notifications
+*   [jarednorman/canada](https://github.com/jarednorman/canada) - Easy permission definitions in Elixir apps!
+*   [imranismail/can.ex](https://github.com/imranismail/can.ex) - Simplified authorization for Phoenix framework
+*   [PSPDFKit-labs/bypass](https://github.com/PSPDFKit-labs/bypass) - Bypass provides a quick way to create a custom plug that can be put in place instead of an actual HTTP server to return prebaked responses to client requests.
+*   [bitwalker/distillery](https://github.com/bitwalker/distillery) - Simplify deployments in Elixir with OTP releases!
+*   [CargoSense/briefly](https://github.com/CargoSense/briefly) - Simple, robust temporary file support for Elixir.
+*   [niahoo/blanket](https://github.com/niahoo/blanket) - Don't lose your ETS tables with Elixir
+*   [camshaft/bitfield.erl](https://github.com/camshaft/bitfield.erl) - Simple bitfields for erlang/elixir
+*   [willpenington/bin_format](https://github.com/willpenington/bin_format) - Parse and construct binaries in Elixir
+*   [alco/benchfella](https://github.com/alco/benchfella) - Microbenchmarking tool for Elixir
+*   [bencheeorg/benchee](https://github.com/bencheeorg/benchee) - Easy and extensible benchmarking in Elixir providing you with lots of statistics!
+*   [hahuang65/beaker](https://github.com/hahuang65/beaker) - A mirror for https://git.sr.ht/~hwrd/beaker
+*   [behe/batcher](https://github.com/behe/batcher) - Process a backlog of items after it has grown to a certain size or a defined time has passed
+*   [ananthakumaran/barlix](https://github.com/ananthakumaran/barlix) - Barcode generator for Elixir
+*   [jkakar/aws-codegen](https://github.com/jkakar/aws-codegen) - Code generator for AWS clients in Elixir.
+*   [meatherly/auto_doc](https://github.com/meatherly/auto_doc) - Create Web API documentation based on your ExUnit tests
+*   [schrockwell/bodyguard](https://github.com/schrockwell/bodyguard) - Simple authorization conventions for Phoenix apps
+*   [LeakyBucket/assembly_line](https://github.com/LeakyBucket/assembly_line) -
+*   [chvanikoff/apns4ex](https://github.com/chvanikoff/apns4ex) - APNS for Elixir
+*   [BjRo/apex](https://github.com/BjRo/apex) - Awesome printing for Elixir
+*   [pma/amqp](https://github.com/pma/amqp) - Idiomatic Elixir client for RabbitMQ
+*   [meh/amnesia](https://github.com/meh/amnesia) - Mnesia wrapper for Elixir.
+*   [witchcrafters/witchcraft](https://github.com/witchcrafters/witchcraft) - Monads and other dark magic for Elixir
+*   [witchcrafters/algae](https://github.com/witchcrafters/algae) - Bootstrapped algebraic data types for Elixir
+*   [elixir-toniq/alchemy](https://github.com/elixir-toniq/alchemy) - Perform experiments in production
+*   [getsentry/sentry-elixir](https://github.com/getsentry/sentry-elixir) - The official Elixir SDK for Sentry (sentry.io)
+*   [icidasset/ectograph](https://github.com/icidasset/ectograph) - Ectograph is a set of utility functions for using Ecto in combination with graphql-elixir/graphql
+*   [graphql-elixir/graphql_relay](https://github.com/graphql-elixir/graphql_relay) - Relay helpers for GraphQL Elixir
+*   [absinthe-graphql/absinthe_relay](https://github.com/absinthe-graphql/absinthe_relay) - Absinthe support for the Relay framework
+*   [absinthe-graphql/absinthe_plug](https://github.com/absinthe-graphql/absinthe_plug) - Plug support for Absinthe, the GraphQL toolkit for Elixir
+*   [graphql-elixir/graphql](https://github.com/graphql-elixir/graphql) - GraphQL Elixir
+*   [absinthe-graphql/absinthe](https://github.com/absinthe-graphql/absinthe) - The GraphQL toolkit for Elixir
+*   [OleMchls/elixir-hpack](https://github.com/OleMchls/elixir-hpack) - A Elixir implementation of the HPack protocol for HTTP/2 header compression
+*   [KazuCocoa/revision_plate_ex](https://github.com/KazuCocoa/revision_plate_ex) - Plug application and middleware that serves endpoint returns application's REVISION.
+*   [navinpeiris/logster](https://github.com/navinpeiris/logster) - Easily parsable single line, plain text and JSON logger for Plug and Phoenix applications
+*   [meadsteve/unit_fun](https://github.com/meadsteve/unit_fun) - 📏 Dimension based safety in elixir
+*   [robinhilliard/defunit](https://github.com/robinhilliard/defunit) - Macros for defining, converting, documenting and supporting static analysis of measurement unit types in Elixir
+*   [elixir-ecto/ecto](https://github.com/elixir-ecto/ecto) - A toolkit for data mapping and language integrated query.
+*   [devinus/poison](https://github.com/devinus/poison) - An incredibly fast, pure Elixir JSON library
+*   [carleryd/elm-hipster-stack](https://github.com/carleryd/elm-hipster-stack) - Simple project using Elm, Phoenix, GraphQL and PostgreSQL
+*   [phoenixframework/phoenix](https://github.com/phoenixframework/phoenix) - Peace of mind from prototype to production
+*   [hexedpackets/trot](https://github.com/hexedpackets/trot) - An Elixir web micro-framework.
+*   [elixir-plug/plug](https://github.com/elixir-plug/plug) - Compose web applications with functions
+*   [AntonFagerberg/rackla](https://github.com/AntonFagerberg/rackla) - Open Source API Gateway in Elixir
+*   [doomspork/hydra](https://github.com/doomspork/hydra) - Open source API gateway with integrated cache and data transformations.
+*   [fredwu/stemmer](https://github.com/fredwu/stemmer) - An English (Porter2) stemming implementation in Elixir.
+*   [bitwalker/exrm](https://github.com/bitwalker/exrm) - Automatically generate a release for your Elixir project!
+*   [dazuma/erl2ex](https://github.com/dazuma/erl2ex) - An Erlang to Elixir transpiler
+*   [thoughtbot/bamboo](https://github.com/thoughtbot/bamboo) - Testable, composable, and adapter based Elixir email library for devs that love piping.
+*   [J0/phoenix_gen_socket_client](https://github.com/J0/phoenix_gen_socket_client) - Socket client behaviour for phoenix channels
+*   [operable/cog](https://github.com/operable/cog) - Bringing the power of the command line to chat
+*   [sashaafm/exads](https://github.com/sashaafm/exads) - Algorithms and Data Structures collection in Elixir
+*   [lau/calendar](https://github.com/lau/calendar) - date-time and time zone handling in Elixir
+*   [pinterest/riffed](https://github.com/pinterest/riffed) - Provides idiomatic Elixir bindings for Apache Thrift
+*   [pinterest/elixometer](https://github.com/pinterest/elixometer) - A light Elixir wrapper around exometer.
+
+## Ruby
+
+*   [gregnavis/active_record_doctor](https://github.com/gregnavis/active_record_doctor) - Identify database issues before they hit production.
+*   [braintree/pg_ha_migrations](https://github.com/braintree/pg_ha_migrations) - Enforces DDL/migration safety in Ruby on Rails project with an emphasis on explicitly choosing trade-offs and avoiding unnecessary magic.
+*   [gel-rb/gel](https://github.com/gel-rb/gel) - A modern gem manager
+*   [testdouble/mocktail](https://github.com/testdouble/mocktail) -
+*   [grosser/single_cov](https://github.com/grosser/single_cov) - Actionable code coverage.
+*   [grosser/forking_test_runner](https://github.com/grosser/forking_test_runner) - Run every test in a fork to avoid pollution and get clean output per test
+*   [schmich/spicy-proton](https://github.com/schmich/spicy-proton) - Generate a random English adjective-noun word pair in Ruby
+*   [postmodern/rubygems-tasks](https://github.com/postmodern/rubygems-tasks) - Simple Rake tasks for managing and releasing Ruby projects.
+*   [larsch/ocra](https://github.com/larsch/ocra) - One-Click Ruby Application Builder
+*   [radeno/nanoid.rb](https://github.com/radeno/nanoid.rb) - Ruby implementation of Nanoid, secure URL-friendly unique ID generator
+*   [TypoCI/Marketplace-App](https://github.com/TypoCI/Marketplace-App) - Find Spelling errors in files within PRs
+*   [wework/we-call-gem](https://github.com/wework/we-call-gem) - Making healthy, happy HTTP calls
+*   [github/licensed](https://github.com/github/licensed) - A Ruby gem to cache and verify the licenses of dependencies
+*   [jamesmoriarty/forward-proxy](https://github.com/jamesmoriarty/forward-proxy) - Minimal forward proxy using 150LOC and only standard libraries.
+*   [FGtatsuro/cookiecutter-cookiecutter-template](https://github.com/FGtatsuro/cookiecutter-cookiecutter-template) - Cookiecutter template for Cookiecutter template.
+*   [abhaynikam/boring_generators](https://github.com/abhaynikam/boring_generators) - Boring generators aims to make your development faster by delegating boring setups to us.
+*   [thbar/kiba](https://github.com/thbar/kiba) - Data processing & ETL framework for Ruby
+*   [paul/progress_bar](https://github.com/paul/progress_bar) - A Ruby terminal progress_bar
+*   [joshbuddy/jsonpath](https://github.com/joshbuddy/jsonpath) - Ruby implementation of http://goessner.net/articles/JsonPath/
+*   [bibendi/dip](https://github.com/bibendi/dip) - Development-environment CLI program providing the native-like interaction with a Dockerized application.
+*   [ractor-tools/ractor-cache](https://github.com/ractor-tools/ractor-cache) - Gem to handle cached methods in a Ractor-friendly way
+*   [socketry/db](https://github.com/socketry/db) - Event-driven database drivers for streaming queries.
+*   [nguyenquangminh0711/ruby_jard](https://github.com/nguyenquangminh0711/ruby_jard) - Just Another Ruby Debugger. Provide a rich Terminal UI that visualizes everything your need, navigates your program with pleasure, stops at matter places only, reduces manual and mental efforts. You can now focus on real debugging.
+*   [Pluvie/italian-ruby](https://github.com/Pluvie/italian-ruby) - Program Ruby <3 in Italian <3
+*   [rdy/fixture_builder](https://github.com/rdy/fixture_builder) - fixture builder based on code from fixture scenarios
+*   [the-benchmarker/graphql-benchmarks](https://github.com/the-benchmarker/graphql-benchmarks) - GraphQL benchmarks using the-benchmarker framework.
+*   [soutaro/steep](https://github.com/soutaro/steep) - Static type checker for Ruby
+*   [david-a-wheeler/railroader](https://github.com/david-a-wheeler/railroader) - A static analysis security vulnerability scanner for Ruby on Rails applications (OSS fork of Brakeman)
+*   [ruby-next/ruby-next](https://github.com/ruby-next/ruby-next) - Ruby Next makes modern Ruby code run in older versions and alternative implementations
+*   [Shopify/deprecation_toolkit](https://github.com/Shopify/deprecation_toolkit) - ⚒Eliminate deprecations from your codebase ⚒
+*   [leihs/leihs](https://github.com/leihs/leihs) - leihs is an inventory management, procurement and lending system
+*   [loco2/lolsoap](https://github.com/loco2/lolsoap) - A library for dealing with SOAP requests and responses. We tear our hair out so you don't have to.
+*   [jbarnette/isolate](https://github.com/jbarnette/isolate) - Gem segregation.
+*   [dasch/avro_turf](https://github.com/dasch/avro_turf) - A library that makes it easier to use the Avro serialization format from Ruby.
+*   [automaticmode/active_workflow](https://github.com/automaticmode/active_workflow) - Polyglot workflows without leaving the comfort of your technology stack.
+*   [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) - Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
+*   [sdaubert/rasn1](https://github.com/sdaubert/rasn1) - Ruby ASN.1 library
+*   [ulfurinn/wongi-engine](https://github.com/ulfurinn/wongi-engine) - A rule engine written in Ruby.
+*   [CycloneDX/cyclonedx-ruby-gem](https://github.com/CycloneDX/cyclonedx-ruby-gem) - Creates CycloneDX Software Bill of Materials (SBOM) from Ruby projects
+*   [graphiti-api/graphiti](https://github.com/graphiti-api/graphiti) - Stylish Graph APIs
+*   [fnando/recurrence](https://github.com/fnando/recurrence) - A simple library that handles recurring events.
+*   [rossta/montrose](https://github.com/rossta/montrose) - Recurring events library for Ruby. Enumerable recurrence objects and convenient chainable interface.
+*   [zverok/time_calc](https://github.com/zverok/time_calc) - Simple time arithmetics in a modern, readable, idiomatic, no-"magic" Ruby.
+*   [jcs/rubywarden](https://github.com/jcs/rubywarden) - An unofficial, mostly Bitwarden-compatible API server written in Ruby (Sinatra and ActiveRecord)
+*   [donmelton/video_transcoding](https://github.com/donmelton/video_transcoding) - Tools to transcode, inspect and convert videos.
+*   [fetlife/scallop](https://github.com/fetlife/scallop) - Ergonomic shell wrapper for Ruby.
+*   [ankane/dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
+*   [testdouble/standard](https://github.com/testdouble/standard) - 🌟 Ruby Style Guide, with linter & automatic code fixer
+*   [testdouble/referral](https://github.com/testdouble/referral) - 🕵️‍♀️ Find, filter, and sort your Ruby code's definitions & references
+*   [sorbet/sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
+*   [SamSaffron/fast_blank](https://github.com/SamSaffron/fast_blank) -
+*   [malept/rusty_blank](https://github.com/malept/rusty_blank) - Proof-of-concept Rust + Ruby extension
+*   [woothee/woothee](https://github.com/woothee/woothee) - User-Agent parser/classifier for multi languages
+*   [ianks/fast_woothee](https://github.com/ianks/fast_woothee) -
+*   [malept/thermite](https://github.com/malept/thermite) - A Rake-based helper for building and distributing Rust-based Ruby extensions
+*   [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) - Ruby's Most Advanced Authentication Framework
+*   [Sorcery/sorcery](https://github.com/Sorcery/sorcery) - Magical Authentication
+*   [inspec/inspec](https://github.com/inspec/inspec) - InSpec: Auditing and Testing Framework
+*   [gauntlt/gauntlt](https://github.com/gauntlt/gauntlt) - a ruggedization framework that embodies the principle "be mean to your code"
+*   [reidmorrison/semantic_logger](https://github.com/reidmorrison/semantic_logger) - Semantic Logger is a feature rich logging framework, and replacement for existing Ruby & Rails loggers.
+*   [searls/todo_or_die](https://github.com/searls/todo_or_die) - Write TODOs in code that ensure you actually do them
+*   [rosenfeld/auto_reloader](https://github.com/rosenfeld/auto_reloader) - A transparent code reloader.
+*   [fxn/zeitwerk](https://github.com/fxn/zeitwerk) - Efficient and thread-safe code loader for Ruby
+*   [opal/opal](https://github.com/opal/opal) - Ruby ♥︎ JavaScript
+*   [ankane/strong_migrations](https://github.com/ankane/strong_migrations) - Catch unsafe migrations in development
+*   [geminabox/geminabox](https://github.com/geminabox/geminabox) - Really simple rubygem hosting
+*   [michaelfeathers/scythe](https://github.com/michaelfeathers/scythe) - A tool for detecting barely used code in production
+*   [yabeda-rb/example-prometheus](https://github.com/yabeda-rb/example-prometheus) - Easily runnable example to view how yabeda metrics works in action
+*   [socketry/falcon](https://github.com/socketry/falcon) - A high-performance web server for Ruby, supporting HTTP/1, HTTP/2 and TLS.
+*   [ClosureTree/closure_tree](https://github.com/ClosureTree/closure_tree) - Easily and efficiently make your ActiveRecord models support hierarchies
+*   [ClosureTree/with_advisory_lock](https://github.com/ClosureTree/with_advisory_lock) - Advisory locking for ActiveRecord
+*   [SamSaffron/lru_redux](https://github.com/SamSaffron/lru_redux) - An efficient optionally thread safe LRU Cache
+*   [Strech/sidekiq-prometheus-exporter](https://github.com/Strech/sidekiq-prometheus-exporter) - All the basic metrics of Sidekiq with pluggable contribs prepared for Prometheus
+*   [discourse/prometheus_exporter](https://github.com/discourse/prometheus_exporter) - A framework for collecting and aggregating prometheus metrics
+*   [deep-cover/deep-cover](https://github.com/deep-cover/deep-cover) - The best coverage tool for Ruby code
+*   [modern-project/modern-ruby](https://github.com/modern-project/modern-ruby) - An OpenAPI-first web server for Ruby/Rack.
+*   [reidmorrison/rails_semantic_logger](https://github.com/reidmorrison/rails_semantic_logger) - Rails Semantic Logger replaces the Rails default logger with Semantic Logger
+*   [onomojo/i18n-timezones](https://github.com/onomojo/i18n-timezones) - Rails I18n timezone translations
+*   [onomojo/i18n-country-translations](https://github.com/onomojo/i18n-country-translations) - This just contains i18n country translations
+*   [grosser/gettext_i18n_rails](https://github.com/grosser/gettext_i18n_rails) - Rails: FastGettext, I18n integration -- simple, threadsafe and fast!
+*   [grosser/fast_gettext](https://github.com/grosser/fast_gettext) - Ruby GetText, but 12x faster + 530x less garbage + simple + clean namespace + threadsafe + extendable + multiple backends
+*   [kematzy/roda-i18n](https://github.com/kematzy/roda-i18n) - Internationalisation (i18n) and localisation support for Roda apps \[http://roda.jeremyevans.net/].
+*   [twitter/twitter-cldr-rb](https://github.com/twitter/twitter-cldr-rb) - Ruby implementation of the ICU (International Components for Unicode) that uses the Common Locale Data Repository to format dates, plurals, and more.
+*   [jmhodges/rchardet](https://github.com/jmhodges/rchardet) - Character encoding auto-detection in Ruby. As smart as your browser. Open source.
+*   [hanami/hanami](https://github.com/hanami/hanami) - The web, with simplicity.
+*   [discourse/discourse](https://github.com/discourse/discourse) - A platform for community discussion. Free, open, simple.
+*   [moonglum/halunke](https://github.com/moonglum/halunke) - A dynamic OO language with ideas traditionally described as "functional"
+*   [tombenner/ru](https://github.com/tombenner/ru) - Ruby in your shell!
+*   [Lackoftactics/facebook_data_analyzer](https://github.com/Lackoftactics/facebook_data_analyzer) - Analyze facebook copy of your data with ruby language. Download zip file from facebook and get info about friends ranking by message, vocabulary,  contacts, friends added statistics and more
+*   [dependabot/elixir-security-advisories](https://github.com/dependabot/elixir-security-advisories) - Public database of Elixir security advisories
+*   [jhawthorn/discard](https://github.com/jhawthorn/discard) - 🃏🗑 Soft deletes for ActiveRecord done right
+*   [faye/faye-websocket-ruby](https://github.com/faye/faye-websocket-ruby) - Standards-compliant WebSocket client and server
+*   [imanel/websocket-ruby](https://github.com/imanel/websocket-ruby) - Universal Ruby library to handle WebSocket protocol
+*   [WeTransfer/format_parser](https://github.com/WeTransfer/format_parser) - file metadata parsing, done cheap
+*   [recurly/druuid](https://github.com/recurly/druuid) - Date-relative UUID generation: Ruby library
+*   [ankane/pghero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
+*   [pocke/mry](https://github.com/pocke/mry) - Mry Migrates .Rubocop.Yml
+*   [covermymeds/rubocop-thread_safety](https://github.com/covermymeds/rubocop-thread_safety) -
+*   [janlelis/relaxed.ruby.style](https://github.com/janlelis/relaxed.ruby.style) - A Relaxed Style Guide for Ruby & Configuration for RuboCop
+*   [JXA-Cookbook/JXA-Cookbook](https://github.com/JXA-Cookbook/JXA-Cookbook) - Cookbook for JavaScript for Automation in Mac OS X Yosemite
+*   [workshare/mini-check](https://github.com/workshare/mini-check) - Health checks for Rack apps
+*   [ankane/multiverse](https://github.com/ankane/multiverse) - Multiple databases for Rails :tada:
+*   [onetimesecret/onetimesecret](https://github.com/onetimesecret/onetimesecret) - Keep sensitive info out of your email & chat logs.
+*   [prometheus/client_ruby](https://github.com/prometheus/client_ruby) - Prometheus instrumentation library for Ruby applications
+*   [ankane/blazer](https://github.com/ankane/blazer) - Business intelligence made simple
+*   [DataDuckETL/DataDuck](https://github.com/DataDuckETL/DataDuck) - DataDuck ETL - the extract-transform-load framework for data warehousing
+*   [danger/danger](https://github.com/danger/danger) - 🚫 Stop saying "you forgot to …" in code review (in Ruby)
+*   [eapache/starscope](https://github.com/eapache/starscope) - Smart code search for Ruby, Go, and JavaScript
+*   [sdepold/sequel-paranoid](https://github.com/sdepold/sequel-paranoid) - A plugin for the Ruby ORM Sequel, that allows soft deletion of database entries.
+*   [junegunn/heytmux](https://github.com/junegunn/heytmux) - Tmux scripting made easy
+*   [peek/peek](https://github.com/peek/peek) - Take a peek into your Rails applications.
+*   [github-changelog-generator/github-changelog-generator](https://github.com/github-changelog-generator/github-changelog-generator) - Automatically generate change log from your tags, issues, labels and pull requests on GitHub.
+*   [carmen-ruby/carmen](https://github.com/carmen-ruby/carmen) - A repository of geographic regions for Ruby
+*   [collectiveidea/interactor](https://github.com/collectiveidea/interactor) - Interactor provides a common interface for performing complex user interactions.
+*   [geekq/workflow](https://github.com/geekq/workflow) - Ruby finite-state-machine-inspired API for modeling workflow
+*   [ruby-amqp/hutch](https://github.com/ruby-amqp/hutch) - A system for processing messages from RabbitMQ.
+*   [ruby-amqp/amq-protocol](https://github.com/ruby-amqp/amq-protocol) - AMQP 0.9.1 protocol serialization and deserialization implementation for Ruby (2.0+)
+*   [cloudamqp/ruby-rabbitmq](https://github.com/cloudamqp/ruby-rabbitmq) - A Ruby RabbitMQ client library based on FFI bindings for librabbitmq.
+*   [synthead/github-migrator](https://github.com/synthead/github-migrator) - A tool for migrating Bitbucket issues into GitHub as GitHub issues
+*   [shioyama/method_found](https://github.com/shioyama/method_found) - Intercept method_missing calls and do something useful.
+*   [byroot/bootscale](https://github.com/byroot/bootscale) - Speedup applications boot by caching require calls
+*   [Shopify/bootsnap](https://github.com/Shopify/bootsnap) - Boot large Ruby/Rails apps faster
+*   [mariusandra/insights_export](https://github.com/mariusandra/insights_export) - Export your database structure into config/insights.yml
+*   [pawandubey/cuckoo_filter](https://github.com/pawandubey/cuckoo_filter) - Pure Ruby Cuckoo Filter Implementation
+*   [frozon/passbook](https://github.com/frozon/passbook) - Passbook gem let's you create pkpass for passbook iOS 6
+*   [toretore/barby](https://github.com/toretore/barby) - The Ruby barcode generator
+*   [shairontoledo/rghost-barcode](https://github.com/shairontoledo/rghost-barcode) - RGhost Barcode is adapter from Barcode Writer. The Barcode Writer in Pure Postscript is an award-winning open source barcode maker, as used by NASA.
+*   [rpush/rpush](https://github.com/rpush/rpush) - The push notification service for Ruby.
+*   [nomad/dubai](https://github.com/nomad/dubai) - Generate and Preview Passbook Passes
+*   [nomad/cupertino](https://github.com/nomad/cupertino) - CLI for the Apple Dev Center
+*   [grocer/grocer](https://github.com/grocer/grocer) - Pushing your Apple notifications since 2012.
+*   [lfittl/activerecord-clean-db-structure](https://github.com/lfittl/activerecord-clean-db-structure) - Automatic cleanup for the Rails db/structure.sql file (ActiveRecord/PostgreSQL)
+*   [postalserver/postal](https://github.com/postalserver/postal) - ✉️ A fully featured open source mail delivery platform for incoming & outgoing e-mail
+*   [PierreRambaud/gemirro](https://github.com/PierreRambaud/gemirro) - Gem to automatically make a rubygems mirror.
+*   [shioyama/mobility](https://github.com/shioyama/mobility) - Pluggable Ruby translation framework
+*   [CocoaPods/Molinillo](https://github.com/CocoaPods/Molinillo) - A generic dependency resolution algorithm.
+*   [rubygems/gemstash](https://github.com/rubygems/gemstash) - A RubyGems.org cache and private gem server
+*   [github/github-ds](https://github.com/github/github-ds) - A collection of Ruby libraries for working with SQL on top of ActiveRecord's connection
+*   [simplabs/excellent](https://github.com/simplabs/excellent) - Source Code analysis gem for Ruby and Rails
+*   [jeremyevans/sequel-unsplit](https://github.com/jeremyevans/sequel-unsplit) - Ruby code rewriter that replaces symbols containing embedded qualification/aliasing with equivalent Sequel code
+*   [vasilakisfil/rails5\_api_tutorial](https://github.com/vasilakisfil/rails5\_api_tutorial) - Learn how to build a modern API on Michael Hartl's Rails 5 tutorial
+*   [jekyll/mercenary](https://github.com/jekyll/mercenary) - An easier way to build your command-line scripts in Ruby.
+*   [jeremyevans/erubi](https://github.com/jeremyevans/erubi) - Small ERB Implementation
+*   [nhoizey/jekyll-cloudinary](https://github.com/nhoizey/jekyll-cloudinary) - Jekyll plugin adding a Liquid tag for Cloudinary, for better responsive images
+*   [realm/jazzy](https://github.com/realm/jazzy) - Soulful docs for Swift & Objective-C
+*   [github/graphql-relay-walker](https://github.com/github/graphql-relay-walker) - Walk the graph
+*   [aleks/ansible-rails](https://github.com/aleks/ansible-rails) - Ansible: Ruby on Rails Server
+*   [awslabs/j2119](https://github.com/awslabs/j2119) - A general-purpose validator generator that uses RFC2119-style assertions as input.
+*   [apiqcms/kms](https://github.com/apiqcms/kms) - Simple and powerful Ruby on Rails CMS for developers
+*   [katafrakt/noaidi](https://github.com/katafrakt/noaidi) - Erlang-inspired modules with pattern matching
+*   [adamcooke/procodile](https://github.com/adamcooke/procodile) - 🐊 Run processes in the background (and foreground) on Mac & Linux from a Procfile (for production and/or development environments)
+*   [awslabs/statelint](https://github.com/awslabs/statelint) - A Ruby gem that provides a command-line validator for Amazon States Language JSON files.
+*   [hashicorp/vault-ruby](https://github.com/hashicorp/vault-ruby) - The official Ruby client for HashiCorp's Vault
+*   [hashicorp/vault-rails](https://github.com/hashicorp/vault-rails) - A Rails plugin for easily integrating Vault secrets
+*   [neillturner/kitchen-ansible](https://github.com/neillturner/kitchen-ansible) - Ansible Provisioner for Test Kitchen
+*   [jakesgordon/rack-rabbit](https://github.com/jakesgordon/rack-rabbit) - A Unicorn-style forking server for hosting rabbitMQ consumers as load balanced Rack apps
+*   [jiahaog/gitcloud](https://github.com/jiahaog/gitcloud) - Use GitHub for file hosting and indexing
+*   [flyerhzm/eager_group](https://github.com/flyerhzm/eager_group) - fix n+1 aggregate sql functions for rails
+*   [kschiess/parslet](https://github.com/kschiess/parslet) - A small PEG based parser library. See the Hacking page in the Wiki as well.
+*   [erichaydel/errdo](https://github.com/erichaydel/errdo) - A simple plugin to handle, log, and customize production errors in Rails applications
+*   [testdouble/suture](https://github.com/testdouble/suture) - 🏥 A Ruby gem that helps you refactor your legacy code
+*   [codervault/codervault](https://github.com/codervault/codervault) - An Open Source, Self-Hosted, Snippet Manager
+*   [github/github-graphql-rails-example](https://github.com/github/github-graphql-rails-example) - Example Rails app using GitHub's GraphQL API
+*   [github/graphql-client](https://github.com/github/graphql-client) - A Ruby library for declaring, composing and executing GraphQL queries
+*   [hone/mruby-cli](https://github.com/hone/mruby-cli) - mruby-cli is a platform to build native command line applications for Linux, Windows, and OS X. It provides the tools necessary for building a standalone binary of your application from any machine. Take advantage of the power of Ruby without the cross-platform dependency headaches that go with it.
+*   [rack-app/rack-app](https://github.com/rack-app/rack-app) - minimalist framework for building rack applications
+*   [jedld/resugan](https://github.com/jedld/resugan) - simple, powerful and unobstrusive event driven architecture framework for ruby
+*   [oddlyfunctional/know_it_all](https://github.com/oddlyfunctional/know_it_all) - Minimalistic authorization focused on APIs http://www.oddlyfunctional.com/know_it_all/
+*   [maetl/calyx](https://github.com/maetl/calyx) - A Ruby library for generating text with recursive template grammars.
+*   [newsdev/archieml-ruby](https://github.com/newsdev/archieml-ruby) - Ruby parser for the Archie Markup Language (ArchieML)
+*   [jbarnette/pinglish](https://github.com/jbarnette/pinglish) - A simple Rack middleware for checking application health.
+*   [chriswailes/RLTK](https://github.com/chriswailes/RLTK) - The Ruby Language Toolkit
+*   [palkan/logidze](https://github.com/palkan/logidze) - Database changes log for Rails
+*   [helpyio/helpy](https://github.com/helpyio/helpy) - Helpy is a modern, open source helpdesk customer support application. Features include knowledgebase, community discussions and support tickets integrated with email.
+*   [phoffer/crystalized_ruby](https://github.com/phoffer/crystalized_ruby) - Write native Ruby extensions in Crystal
+*   [rosenfeld/rails_compatible_cookies_utils](https://github.com/rosenfeld/rails_compatible_cookies_utils) - Provides utility methods to read and write cookies shared with a Rails app
+*   [rosenfeld/rack_web_console](https://github.com/rosenfeld/rack_web_console) - A web console for Rack apps.
+*   [tupl-tufts/rdl](https://github.com/tupl-tufts/rdl) - Types, type checking, and contracts for Ruby
+*   [rosenfeld/rack_toolkit](https://github.com/rosenfeld/rack_toolkit) - A dynamic Rack server and helper methods to help testing Rack apps.
+*   [kwatch/rack-test_app](https://github.com/kwatch/rack-test_app) - more intuitive testing helper library for Rack app
+*   [influitive/apartment](https://github.com/influitive/apartment) - Database multi-tenancy for Rack (and Rails) applications
+*   [fetlife/rollout](https://github.com/fetlife/rollout) - Feature flippers.
+*   [hashrocket/decent_exposure](https://github.com/hashrocket/decent_exposure) - A helper for creating declarative interfaces in controllers
+*   [adomokos/light-service](https://github.com/adomokos/light-service) - Series of Actions with an emphasis on simplicity.
+*   [AndrewRadev/vimrunner](https://github.com/AndrewRadev/vimrunner) - Control a vim instance through ruby code
+*   [marcelotto/sycamore](https://github.com/marcelotto/sycamore) - A tree data structure for Ruby
+*   [thoughtbot/suspenders](https://github.com/thoughtbot/suspenders) - A Rails template with our standard defaults, ready to deploy to Heroku.
+*   [grosser/parallel](https://github.com/grosser/parallel) - Ruby: parallel processing made simple and fast
+*   [danielpclark/faster_path](https://github.com/danielpclark/faster_path) - Faster Pathname handling for Ruby written in Rust
+*   [rmosolgo/graphql-batch-example](https://github.com/rmosolgo/graphql-batch-example) - Before & after example with shopify/graphql-batch
+*   [rmosolgo/graphql-libgraphqlparser-ruby](https://github.com/rmosolgo/graphql-libgraphqlparser-ruby) - libgraphqlparser + graphql gem
+*   [Shopify/graphql-batch](https://github.com/Shopify/graphql-batch) - A query batching executor for the graphql gem
+*   [christhekeele/clientele](https://github.com/christhekeele/clientele) - DSL for building RESTful API clients
+*   [seansellek/Related](https://github.com/seansellek/Related) - Pure Ruby relational algebra
+*   [dry-rb/dry-equalizer](https://github.com/dry-rb/dry-equalizer) - ⚠ DEPRECATED - Dry::Equalizer is now part of dry-core library ⚠
+*   [domcleal/spdx-licenses](https://github.com/domcleal/spdx-licenses) - SPDX license and identifier lookup
+*   [licensee/licensee](https://github.com/licensee/licensee) - A Ruby Gem to detect under what license a project is distributed.
+*   [pivotal/LicenseFinder](https://github.com/pivotal/LicenseFinder) - Find licenses for your project's dependencies.
+*   [salsify/goldiloader](https://github.com/salsify/goldiloader) - Just the right amount of Rails eager loading
+*   [pgeraghty/ansible-wrapper-ruby](https://github.com/pgeraghty/ansible-wrapper-ruby) - Ruby wrapper around Ansible
+*   [colstrom/ansible_galaxy](https://github.com/colstrom/ansible_galaxy) - Ruby Wrapper for Ansible Galaxy HTTP API
+*   [colstrom/ansible-galaxy-sync](https://github.com/colstrom/ansible-galaxy-sync) - Commandline Tool to Sync Ansible Galaxy Roles
+*   [tpickett66/ansible-vault-rb](https://github.com/tpickett66/ansible-vault-rb) - A Ruby implementation Ansible's vault file format
+*   [weareinteractive/gem-ansible-role](https://github.com/weareinteractive/gem-ansible-role) - Gem with some useful Ansible role command line tools.
+*   [flajann2/ansible-powerplay](https://github.com/flajann2/ansible-powerplay) - Run your Ansible playbooks in parallel with Powerplay!
+*   [bcoe/librarian-ansible](https://github.com/bcoe/librarian-ansible) - Port of librarian-chef, providing bundler functionality for Ansible roles.
+*   [amzn/oss-dashboard](https://github.com/amzn/oss-dashboard) - A dashboard for viewing many GitHub organizations at once.
+*   [ivantsepp/minitest-skip](https://github.com/ivantsepp/minitest-skip) - Alternative ways to skip tests in Minitest
+*   [ProctorU/policy-assertions](https://github.com/ProctorU/policy-assertions) - Minitest assertions for Pundit policies
+*   [kematzy/minitest-assert_errors](https://github.com/kematzy/minitest-assert_errors) - Adds Minitest assertions to test for errors raised or not raised by Minitest itself
+*   [jackc/edge](https://github.com/jackc/edge) - Edge provides graph functionality to ActiveRecord.
+*   [take-five/activerecord-hierarchical_query](https://github.com/take-five/activerecord-hierarchical_query) - Simple DSL for creating recursive queries with ActiveRecord
+*   [forward3d/uphold](https://github.com/forward3d/uphold) - A tool for programmatically verifying database backups
+*   [jeremyevans/sequel_postgresql_triggers](https://github.com/jeremyevans/sequel_postgresql_triggers) - Database enforced timestamps, immutable columns, and counter/sum caches
+*   [TalentBox/sequel_translatable](https://github.com/TalentBox/sequel_translatable) - Translate model attributes for sequel, fully tested.
+*   [binarypaladin/sequel-geocoder](https://github.com/binarypaladin/sequel-geocoder) -
+*   [Shopalytic/sequel_upsert](https://github.com/Shopalytic/sequel_upsert) - Upsert support for Sequel on Postgres
+*   [darrell/sequel-postgis](https://github.com/darrell/sequel-postgis) - Set of PostGIS functions for the Sequel ruby database toolkit
+*   [karthikv/model_schema](https://github.com/karthikv/model_schema) - Enforced, Annotated Schema for Ruby Sequel Models
+*   [arthurdandrea/sequel-activemodel](https://github.com/arthurdandrea/sequel-activemodel) - Provides Sequel::Model plugins that expose ActiveModel::Callbacks, ActiveModel::Translation and ActiveModel::Validations features to Sequel::Model
+*   [djellemah/philtre](https://github.com/djellemah/philtre) - It's the Sequel equivalent for Ransack, Metasearch, Searchlogic. If this doesn't make you fall in love, I don't know what will.
+*   [uhoh-itsmaciek/attr_pouch](https://github.com/uhoh-itsmaciek/attr_pouch) - Schema-less auxiliary attribute storage for Postgres via Sequel plugin
+*   [celsworth/sequel-pg_advisory_locking](https://github.com/celsworth/sequel-pg_advisory_locking) - Adds support for PostgreSQL's advisory locking to Sequel
+*   [chanks/sequel-advisory-locking](https://github.com/chanks/sequel-advisory-locking) - Sequel extension for easy management of advisory locks.
+*   [emartech/sequel-pool_cleaner](https://github.com/emartech/sequel-pool_cleaner) - Connection pool cleanup extension for Sequel.
+*   [mitchellhenke/sequel_id_pagination](https://github.com/mitchellhenke/sequel_id_pagination) -
+*   [chanks/sequel-seek-pagination](https://github.com/chanks/sequel-seek-pagination) -
+*   [chanks/sequel-full-text-search](https://github.com/chanks/sequel-full-text-search) -
+*   [uhoh-itsmaciek/attr_vault](https://github.com/uhoh-itsmaciek/attr_vault) - Simple at-rest encryption with key rotation for Sequel models
+*   [kematzy/sequel-audited](https://github.com/kematzy/sequel-audited) - A Sequel plugin that logs all changes made to a model, including who created, updated and destroyed the record, and what was changed and when the change was made
+*   [halfdan/sequel-revisions](https://github.com/halfdan/sequel-revisions) - A sequel plugin that tracks model changes in a separate `*_revisions` table.
+*   [bachue/sequel-unicache](https://github.com/bachue/sequel-unicache) - Write through and Read through caching library inspired by Cache Money, support Sequel 4
+*   [invisiblefunnel/sequel-transformer](https://github.com/invisiblefunnel/sequel-transformer) - Organize, document, and instrument data transformations with the Sequel database toolkit
+*   [jeremyevans/roda-sequel-stack](https://github.com/jeremyevans/roda-sequel-stack) - Application Skeleton For Roda/Sequel stack
+*   [zverok/sequel_marginalia](https://github.com/zverok/sequel_marginalia) - Port of 37 signals marginalia for use with Sequel
+*   [basecamp/marginalia](https://github.com/basecamp/marginalia) - Attach comments to ActiveRecord's SQL queries
+*   [jeremyevans/sequel](https://github.com/jeremyevans/sequel) - Sequel: The Database Toolkit for Ruby
+*   [rails-api/rails-api](https://github.com/rails-api/rails-api) - Rails for API only applications
+*   [rbCAS/CASino](https://github.com/rbCAS/CASino) - CASino is a Ruby-based Single Sign-On solution supporting the CAS standard
+*   [cucumber/aruba](https://github.com/cucumber/aruba) - Test command-line applications with Cucumber-Ruby, RSpec or Minitest.
+*   [ioquatix/latinum](https://github.com/ioquatix/latinum) - Latinum is a framework for resource and currency calculations.
+*   [litaio/lita](https://github.com/litaio/lita) - ChatOps for Ruby.
+*   [hidroh/cucumber-api](https://github.com/hidroh/cucumber-api) - API validator in BBD style with Cucumber
+*   [halogenandtoast/oath](https://github.com/halogenandtoast/oath) - Oath is rails authentication made simple. Previously known as Monban
+*   [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
+*   [DamirSvrtan/fasterer](https://github.com/DamirSvrtan/fasterer) - :zap: Don't make your Rubies go fast. Make them go fasterer ™. :zap:
+*   [rails/rails-perftest](https://github.com/rails/rails-perftest) - Benchmark and profile your Rails apps
+*   [fastruby/fast-ruby](https://github.com/fastruby/fast-ruby) - :dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.
+*   [projectblacklight/blacklight](https://github.com/projectblacklight/blacklight) - Blacklight provides a discovery interface for any Solr (http://lucene.apache.org/solr) index.
+*   [socketry/http-accept](https://github.com/socketry/http-accept) - Parse Accept and Accept-Language HTTP headers in Ruby.
+*   [PJK/libcbor-ruby](https://github.com/PJK/libcbor-ruby) - Ruby bindings for libcbor
+*   [cabo/cbor-diag](https://github.com/cabo/cbor-diag) - CBOR diagnostic utilities
+*   [janlelis/irbtools](https://github.com/janlelis/irbtools) - Improvements for Ruby's IRB console 💎︎
+*   [davearonson/EOTS](https://github.com/davearonson/EOTS) - Rails gem for describing, showing forms for, and delivering, multiple kinds of email
+*   [rmosolgo/graphql-ruby-demo](https://github.com/rmosolgo/graphql-ruby-demo) - Use graphql-ruby to expose a Rails app
+*   [rmosolgo/graphql-ruby](https://github.com/rmosolgo/graphql-ruby) - Ruby implementation of GraphQL
+*   [codeship/dns_deploy](https://github.com/codeship/dns_deploy) - Continuous Deployment for your DNS Records
+*   [bdevel/erb_sql_templates](https://github.com/bdevel/erb_sql_templates) - Ruby Gem to customize large SQL queries with ERB.
+*   [sufleR/sql_query](https://github.com/sufleR/sql_query) - Ruby gem to load SQL queries from `.sql.erb` templates using ERB.
+*   [KnapsackPro/knapsack_pro-ruby](https://github.com/KnapsackPro/knapsack_pro-ruby) - Knapsack Pro gem splits tests across parallel CI nodes and makes sure that tests will run in optimal time on each node.
+*   [httprb/http](https://github.com/httprb/http) - HTTP (The Gem! a.k.a. http.rb) - a fast Ruby HTTP client with a chainable API, streaming support, and timeouts
+*   [ankane/the-ultimate-guide-to-ruby-timeouts](https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts) - Timeouts for popular Ruby gems
+*   [reidmorrison/rocketjob](https://github.com/reidmorrison/rocketjob) - Ruby's missing background and batch processing system
+*   [rob-murray/five-star](https://github.com/rob-murray/five-star) - :star: FiveStar :star: is a library to build a rating system in Ruby
+*   [amatsuda/rfd](https://github.com/amatsuda/rfd) - Ruby on Files & Directories
+*   [amatsuda/active_decorator](https://github.com/amatsuda/active_decorator) - ORM agnostic truly Object-Oriented view helper for Rails 4, 5, and 6
+*   [amatsuda/motorhead](https://github.com/amatsuda/motorhead) - A Rails Engine framework that helps safe and rapid feature prototyping
+*   [stripe-archive/mosql](https://github.com/stripe-archive/mosql) - MongoDB → PostgreSQL streaming replication
+*   [Originate/weighted_score](https://github.com/Originate/weighted_score) - Calculate Weighted Scores
+*   [shrinerb/shrine](https://github.com/shrinerb/shrine) - File Attachment toolkit for Ruby applications
+*   [adamcooke/color_fun](https://github.com/adamcooke/color_fun) - A little gem for doing stuff with colors
+*   [digitalextremist/omnirepo](https://github.com/digitalextremist/omnirepo) - Create new omnibus repositories out of collections of existing git repositories.
+*   [moonlight-labs/watch](https://github.com/moonlight-labs/watch) - Rails engine enables Watch/Follow functionality between models including options to track views and trigger change notifications
+*   [Genki-S/ttnt](https://github.com/Genki-S/ttnt) - Test This, Not That! (Google Summer of Code 2015 project under Ruby on Rails)
+*   [AaronLasseigne/active_interaction](https://github.com/AaronLasseigne/active_interaction) - :briefcase: Manage application specific business logic.
+*   [stripe-archive/chalk-log](https://github.com/stripe-archive/chalk-log) - Chalk::Log adds a logger object to any class, which can be used for unstructured or semi-structured logging.
+*   [stripe/subprocess](https://github.com/stripe/subprocess) - A port of Python's subprocess module to Ruby
+*   [markbates/configatron](https://github.com/markbates/configatron) - A super cool, simple, and feature rich configuration system for Ruby apps.
+*   [stripe-archive/chalk-config](https://github.com/stripe-archive/chalk-config) - Maps on-disk config files into a loaded global configatron instance, taking into account your current environment.
+*   [jeremyevans/sequel_validation_helpers_block](https://github.com/jeremyevans/sequel_validation_helpers_block) - Allows easy determination of which validation rules apply to a given column, at the expense of increased verbosity
+*   [mlen/sequel_secure_password](https://github.com/mlen/sequel_secure_password) - Plugin that adds BCrypt authentication and password hashing to Sequel models.
+*   [sdepold/sequel-bit_fields](https://github.com/sdepold/sequel-bit_fields) - A sequel plugin that allows the use of integer columns to represent a big number of flags.
+*   [jackdempsey/sequel_polymorphic](https://github.com/jackdempsey/sequel_polymorphic) -
+*   [shadabahmed/logstasher](https://github.com/shadabahmed/logstasher) - Awesome rails logs
+*   [dwbutler/logstash-logger](https://github.com/dwbutler/logstash-logger) - Ruby logger that writes logstash events
+*   [thuss/standalone-migrations](https://github.com/thuss/standalone-migrations) - A gem to use Rails Database Migrations in non Rails projects
+*   [github/secure_headers](https://github.com/github/secure_headers) - Manages application of security headers with many safe defaults
+*   [ioquatix/process-group](https://github.com/ioquatix/process-group) - Manages a group of processes which can run concurrently using fibers.
+*   [chrisroberts/krakow](https://github.com/chrisroberts/krakow) - Ruby client library for NSQ
+*   [tmm1/test-queue](https://github.com/tmm1/test-queue) - parallel test runner for CI environments
+*   [fnando/test_notifier](https://github.com/fnando/test_notifier) - Display system notifications (dbus, growl and snarl) after running tests. It works on Mac OS X, Linux and Windows. Powerful when used with Autotest ZenTest gem for Rails apps.
+*   [chriskottom/minitest-flog](https://github.com/chriskottom/minitest-flog) - Flog integration for Minitest
+*   [adammck/minitest-stub-const](https://github.com/adammck/minitest-stub-const) - Stub constants for the duration of a block in MiniTest
+*   [jeremyevans/minitest-shared_description](https://github.com/jeremyevans/minitest-shared_description) - Support for shared specs and shared spec subclasses for Minitest
+*   [samg/diffy](https://github.com/samg/diffy) - Easy Diffing in Ruby
+*   [FooBarWidget/default_value_for](https://github.com/FooBarWidget/default_value_for) - Provides a way to specify default values for ActiveRecord models
+*   [kyrylo/multitrap](https://github.com/kyrylo/multitrap) - Allows Signal.trap to execute multiple callbacks
+*   [camertron/arel-helpers](https://github.com/camertron/arel-helpers) - Useful tools to help construct database queries with ActiveRecord and Arel.
+*   [raggi/hoe-gemspec2](https://github.com/raggi/hoe-gemspec2) - Adds gemspec generation support to Hoe
+*   [teoljungberg/minitest-documentation](https://github.com/teoljungberg/minitest-documentation) - Rspec like documentation formatter for Minitest
+*   [airbnb/synapse](https://github.com/airbnb/synapse) - A transparent service discovery framework for connecting an SOA
+*   [airbnb/nerve](https://github.com/airbnb/nerve) - A service registration daemon that performs health checks; companion to airbnb/synapse
+*   [MadRabbit/x-ray-machine](https://github.com/MadRabbit/x-ray-machine) - A logger/profiler that helps you to track heavy calls in rails apps
+*   [IFTTT/kashmir](https://github.com/IFTTT/kashmir) - Kashmir is a Ruby DSL that makes serializing and caching objects a snap.
+*   [FontCustom/fontcustom](https://github.com/FontCustom/fontcustom) - Generate custom icon webfonts from the comfort of the command line.
+*   [sorentwo/readthis](https://github.com/sorentwo/readthis) - :newspaper: Pooled active support compliant caching with redis
+*   [n8/multi_fetch_fragments](https://github.com/n8/multi_fetch_fragments) - Multi-fetch Fragments makes rendering and caching a collection of template partials easier and faster.
+*   [heapsource/active_model_otp](https://github.com/heapsource/active_model_otp) - Adds methods to set and authenticate against one time passwords (Two-Factor Authentication). Inspired in AM::SecurePassword
+*   [mdp/rotp](https://github.com/mdp/rotp) - Ruby One Time Password library
+*   [sds/overcommit](https://github.com/sds/overcommit) - A fully configurable and extendable Git hook manager
+*   [ybur-yug/gkv](https://github.com/ybur-yug/gkv) - Git as a KV store in Ruby
+*   [railsware/global](https://github.com/railsware/global) - "Global" provides accessor methods for your configuration data
+*   [bluerail/twitter-bootstrap-rails-confirm](https://github.com/bluerail/twitter-bootstrap-rails-confirm) - Confirm dialogs using Twitter Bootstrap
+*   [jasmine/jasmine-gem](https://github.com/jasmine/jasmine-gem) - Jasmine ruby gem
+*   [jfirebaugh/konacha](https://github.com/jfirebaugh/konacha) - Test your Rails application's JavaScript with the mocha test framework and chai assertion library
+*   [balinterdi/i15r](https://github.com/balinterdi/i15r) - Replaces plain text strings in your views and replaces them with I18n message strings so you only have to provide the translations (i15r = internationalizer)
+*   [tigrish/i18n-spec](https://github.com/tigrish/i18n-spec) - i18n-spec provides RSpec matchers for testing your locale files and their translations.
+*   [bachya/pinpress](https://github.com/bachya/pinpress) - A simple CLI to create text templates of Pinboard data.
+*   [railsware/http_logger](https://github.com/railsware/http_logger) - Log your http api calls just like SQL queries
+*   [flexera-public/right_develop](https://github.com/flexera-public/right_develop) - Developer tools
+*   [jbodah/spy_rb](https://github.com/jbodah/spy_rb) - :mag: Transparent Test Spies for Ruby
+*   [danmayer/churn](https://github.com/danmayer/churn) - Providing additional churn metrics over the original metric_fu churn
+*   [realdoug/omniauth-salesforce](https://github.com/realdoug/omniauth-salesforce) - OmniAuth strategy for salesforce.com
+*   [aaronpk/omniauth-indieauth](https://github.com/aaronpk/omniauth-indieauth) - IndieAuth strategy for OmniAuth
+*   [omniauth/omniauth-identity](https://github.com/omniauth/omniauth-identity) - A simple login and password strategy for OmniAuth.
+*   [zquestz/omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2) - Oauth2 strategy for Google
+*   [tstachl/omniauth-desk](https://github.com/tstachl/omniauth-desk) - Omniauth Strategy for Desk.com
+*   [marknadig/omniauth-azure-oauth2](https://github.com/marknadig/omniauth-azure-oauth2) -
+*   [mikekelly/hactor](https://github.com/mikekelly/hactor) - A framework for building hypermedia clients
+*   [gamache/hyperresource](https://github.com/gamache/hyperresource) - A self-inflating Ruby client for hypermedia APIs.  Not under active development.
+*   [pezra/hal-client](https://github.com/pezra/hal-client) - Use HAL APIs easily
+*   [tomstuart/monads](https://github.com/tomstuart/monads) - Simple Ruby implementations of some common monads.
+*   [simplificator/flatten_migrations](https://github.com/simplificator/flatten_migrations) - Flatten migrations into one
+*   [grosser/maxitest](https://github.com/grosser/maxitest) - Minitest + all the features you always wanted.
+*   [TwP/little-plugger](https://github.com/TwP/little-plugger) - A gems based plugin framework for Ruby
+*   [TwP/logging](https://github.com/TwP/logging) - A flexible logging library for use in Ruby programs based on the design of Java's log4j library.
+*   [jeremyevans/fixture_dependencies](https://github.com/jeremyevans/fixture_dependencies) - Sequel/ActiveRecord fixture loader that handles dependency graphs
+*   [danmayer/coverband](https://github.com/danmayer/coverband) - Ruby production code coverage collection and reporting (line of code usage)
+*   [Shopify/identity_cache](https://github.com/Shopify/identity_cache) - IdentityCache is a blob level caching solution to plug into Active Record. Don't #find, #fetch!
+*   [Saltside/thrifter](https://github.com/Saltside/thrifter) - Production ready thrift client with improved semantics
+*   [flood-io/ruby-jmeter](https://github.com/flood-io/ruby-jmeter) - A Ruby based DSL for building JMeter test plans
+*   [junegunn/redis-stat](https://github.com/junegunn/redis-stat) - (UNMAINTAINED) A real-time Redis monitoring tool
+*   [flyerhzm/bullet](https://github.com/flyerhzm/bullet) - help to kill N+1 queries and unused eager loading
+*   [tilo/smarter_csv](https://github.com/tilo/smarter_csv) - Ruby Gem for smarter importing of CSV Files as Array(s) of Hashes, with optional features for processing large files in parallel, embedded comments, unusual field- and record-separators, flexible mapping of CSV-headers to Hash-keys
+*   [mdh/ssm](https://github.com/mdh/ssm) - A Ruby Statemachine that focuses on events instead of states.
+*   [rouge-ruby/rouge](https://github.com/rouge-ruby/rouge) - A pure Ruby code highlighter that is compatible with Pygments
+*   [seattlerb/makerakeworkwell](https://github.com/seattlerb/makerakeworkwell) -
+*   [zendesk/curly](https://github.com/zendesk/curly) - The Curly template language allows separating your logic from the structure of your HTML templates.
+*   [hybridgroup/artoo](https://github.com/hybridgroup/artoo) - Ruby framework for robotics, drones, and the Internet of Things (IoT)
+*   [crohr/pkgr](https://github.com/crohr/pkgr) - Package any app into deb or rpm packages, using heroku buildpacks
+*   [lukaszkorecki/pkgr](https://github.com/lukaszkorecki/pkgr) - Package any app into deb or rpm packages, using heroku buildpacks
+*   [ruby-concurrency/concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) - Modern concurrency tools including agents, futures, promises, thread pools, supervisors, and more. Inspired by Erlang, Clojure, Scala, Go, Java, JavaScript, and classic concurrency patterns.
+*   [fastlane/fastlane](https://github.com/fastlane/fastlane) - 🚀 The easiest way to automate building and releasing your iOS and Android apps
+*   [bglusman/debt_ceiling](https://github.com/bglusman/debt_ceiling) - Get a grip on your technical debt
+*   [soundcloud/lhm](https://github.com/soundcloud/lhm) - Online MySQL schema migrations
+*   [thiagopradi/octopus](https://github.com/thiagopradi/octopus) - Database Sharding for ActiveRecord
+*   [lookout/statsd](https://github.com/lookout/statsd) - Ruby statsd
+*   [settingslogic/settingslogic](https://github.com/settingslogic/settingslogic) - A simple and straightforward settings solution that uses an ERB enabled YAML file and a singleton design pattern.
+*   [jwkoelewijn/batsir](https://github.com/jwkoelewijn/batsir) - Batsir is an execution platform for stage based operation queue execution
+*   [TalentBox/sequel-rails](https://github.com/TalentBox/sequel-rails) - A gem for using Sequel with Rails 4.x, 5.x, and 6.x
+*   [interagent/prmd](https://github.com/interagent/prmd) - JSON Schema tools and doc generation for HTTP APIs
+*   [iain/http_accept_language](https://github.com/iain/http_accept_language) - Ruby on Rails plugin. Fishes out the Accept-Language header into an array.
+*   [vmware-archive/sunspot_matchers](https://github.com/vmware-archive/sunspot_matchers) - RSpec matchers for testing Sunspot searches
+*   [glebm/order_query](https://github.com/glebm/order_query) - Find next / previous Active Record(s) in one query
+*   [voormedia/rails-erd](https://github.com/voormedia/rails-erd) - Generate Entity-Relationship Diagrams for Rails applications
+*   [thesurfingcat/timekeeper](https://github.com/thesurfingcat/timekeeper) - OLD Rails 2 - Time keeping app to record normal working hours plus out of hours time.
+*   [grosser/wwtd](https://github.com/grosser/wwtd) - WWTD: Travis simulator - faster + no more waiting for build emails
+*   [txus/kleisli](https://github.com/txus/kleisli) - Usable, idiomatic common monads in Ruby
+*   [mperham/connection_pool](https://github.com/mperham/connection_pool) - Generic connection pooling for Ruby
+*   [nateware/redis-objects](https://github.com/nateware/redis-objects) - Map Redis types directly to Ruby objects
+*   [haileys/fast_open_struct](https://github.com/haileys/fast_open_struct) - open struct that does not invalidate ruby's method cache every time it is instantiated
+*   [crepe/jsonite](https://github.com/crepe/jsonite) - A tiny, HAL-compliant JSON presenter for your Ruby APIs.
+*   [fetch/faraday_hal_middleware](https://github.com/fetch/faraday_hal_middleware) - Faraday Middleware for JSON HAL requests and responses
+*   [codegram/hypermodel](https://github.com/codegram/hypermodel) - Rails Responder to generate an automagic JSON HAL representation for your models
+*   [steveklabnik/rust_example](https://github.com/steveklabnik/rust_example) - A Ruby gem, implemented in Rust
+*   [steveklabnik/request_store](https://github.com/steveklabnik/request_store) - Per-request global storage for Rack.
+*   [DavidHuie/quartz](https://github.com/DavidHuie/quartz) - A gem for calling Go code from within your Ruby code
+*   [jjbohn/assert-moar](https://github.com/jjbohn/assert-moar) - Extra assertions for MiniTest
+*   [envygeeks/ruby-active_record_mocks](https://github.com/envygeeks/ruby-active_record_mocks) - ActiveRecord Mocking for RSpec and Minitest.
+*   [thelinuxlich/minimal_cuke](https://github.com/thelinuxlich/minimal_cuke) - A skeleton project to test external apps with Cucumber, Capybara, MiniTest and ZenTest
+*   [lauri/minitest-doctest](https://github.com/lauri/minitest-doctest) - Doctest for Ruby
+*   [lauri/minitest-apidoc](https://github.com/lauri/minitest-apidoc) - Test based API documentation generator for Ruby/Rack web apps
+*   [Apipie/apipie-rails](https://github.com/Apipie/apipie-rails) - Ruby on Rails API documentation tool
+*   [ttscoff/vitag](https://github.com/ttscoff/vitag) -
+*   [reidmorrison/symmetric-encryption](https://github.com/reidmorrison/symmetric-encryption) - Symmetric Encryption for Ruby Projects using OpenSSL
+*   [jmazzi/crypt_keeper](https://github.com/jmazzi/crypt_keeper) - Transparent ActiveRecord encryption
+*   [spikex/strongbox](https://github.com/spikex/strongbox) - Secures ActiveRecord attributes with public key encryption
+*   [attr-encrypted/encryptor](https://github.com/attr-encrypted/encryptor) - A simple wrapper for the standard ruby OpenSSL library
+*   [mbj/devtools](https://github.com/mbj/devtools) - The rake ci task!
+*   [mbj/unparser](https://github.com/mbj/unparser) - Turn Ruby AST into semantically equivalent Ruby source
+*   [whitequark/ast](https://github.com/whitequark/ast) - A library for working with Abstract Syntax Trees.
+*   [DavyJonesLocker/postgres_ext-serializers](https://github.com/DavyJonesLocker/postgres_ext-serializers) -
+*   [gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer) - Test your rendered HTML files to make sure they're accurate.
+*   [gjtorikian/extended-markdown-filter](https://github.com/gjtorikian/extended-markdown-filter) - Some additional Markdown formatting, for use in HTML::Pipeline
+*   [gjtorikian/jekyll-html-pipeline](https://github.com/gjtorikian/jekyll-html-pipeline) - Use GitHub's HTML::Pipeline, in Jekyll!
+*   [gjtorikian/html-pipeline](https://github.com/gjtorikian/html-pipeline) - HTML processing filters and utilities
+*   [webmachine/webmachine-ruby](https://github.com/webmachine/webmachine-ruby) - Webmachine, the HTTP toolkit (in Ruby)
+*   [trailblazer/trailblazer](https://github.com/trailblazer/trailblazer) - The advanced business logic framework for Ruby.
+*   [composite-primary-keys/composite_primary_keys](https://github.com/composite-primary-keys/composite_primary_keys) - Composite Primary Keys support for Active Record
+*   [busyloop/powerbar](https://github.com/busyloop/powerbar) - The last progressbar-library you'll ever need
+*   [sagivo/algorithms](https://github.com/sagivo/algorithms) - algorithms playground for common questions
+*   [matthewtodd/shoe](https://github.com/matthewtodd/shoe) - Configuration-free Rake tasks that read your gemspec.
+*   [r7kamura/autodoc](https://github.com/r7kamura/autodoc) - Generate documentation from your rack application & request-spec.
+*   [philcallister/rails-grape-entity](https://github.com/philcallister/rails-grape-entity) - Rails 4 + Grape API + Grape Entity + Swagger
+*   [richhollis/swagger-docs](https://github.com/richhollis/swagger-docs) - Generates swagger-ui json files for Rails APIs with a simple DSL.
+*   [Sutto/api_smith](https://github.com/Sutto/api_smith) - API Smith makes building structured API clients even simpler.
+*   [Sutto/rocket_pants](https://github.com/Sutto/rocket_pants) - API building tools on top of ActionController. Also, an awesome name.
+*   [square/fdoc](https://github.com/square/fdoc) - Documentation format and verification
+*   [kitchenplan/kitchenplan](https://github.com/kitchenplan/kitchenplan) - Kitchenplan is a small tool to fully automate the installation and configuration of an OSX workstation (or server for that matter) using Chef. But while doing so manually is not a trivial undertaking, Kitchenplan has abstracted away all the hard parts.
+*   [pivotal-sprout/sprout-osx-apps](https://github.com/pivotal-sprout/sprout-osx-apps) - Recipes to install applications on OS X, when homebrew isn't enough
+*   [omniauth/omniauth-oauth2](https://github.com/omniauth/omniauth-oauth2) - An abstract OAuth2 strategy for OmniAuth.
+*   [ruby-grape/grape](https://github.com/ruby-grape/grape) - An opinionated framework for creating REST-like APIs in Ruby.
+*   [ruby-grape/grape-entity](https://github.com/ruby-grape/grape-entity) - An API focused facade that sits on top of an object model.
+*   [agileanimal/grape-entity-matchers](https://github.com/agileanimal/grape-entity-matchers) - Shoulda-style matchers to help with testing grape entities.
+*   [ruby-grape/grape-swagger](https://github.com/ruby-grape/grape-swagger) - Add OAPI/swagger v2.0 compliant documentation to your grape API
+*   [bellycard/napa](https://github.com/bellycard/napa) - A simple framework for building APIs with Grape
+*   [hookercookerman/active_model_version_serializers](https://github.com/hookercookerman/active_model_version_serializers) - Versioning For ActiveModel::Serializer
+*   [mceachen/minitest-great_expectations](https://github.com/mceachen/minitest-great_expectations) - Generally useful additions to minitest's expectations
+*   [stephencelis/minifacture](https://github.com/stephencelis/minifacture) - factory_girl for minitest
+*   [subelsky/subelsky_power_tools](https://github.com/subelsky/subelsky_power_tools) - Various enhancements/patches I used early in my Ruby career
+*   [doorkeeper-gem/doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) - Doorkeeper is an OAuth 2 provider for Ruby on Rails / Grape.
+*   [opro/opro](https://github.com/opro/opro) -
+*   [zk-ruby/zk](https://github.com/zk-ruby/zk) - A High-Level wrapper for Apache's Zookeeper
+*   [pupeno/validation_auditor](https://github.com/pupeno/validation_auditor) - Log validation errors to the database for later inspection.
+*   [apotonick/roar-rails](https://github.com/apotonick/roar-rails) - Use Roar's representers in Rails.
+*   [trailblazer/roar](https://github.com/trailblazer/roar) - Parse and render REST API documents using representers.
+*   [rails/globalid](https://github.com/rails/globalid) - Identify app models with a URI
+*   [wsargent/circuit_breaker](https://github.com/wsargent/circuit_breaker) - Implementation of Michael Nygard's Circuit Breaker pattern in Ruby
+*   [sittercity/breaker_box](https://github.com/sittercity/breaker_box) - Circuit breakers in ruby
+*   [pedro/cb2](https://github.com/pedro/cb2) - Implementation of the circuit breaker pattern in Ruby, backed by Redis
+*   [YorickPeterse/oga](https://github.com/YorickPeterse/oga) - Read-only mirror of https://gitlab.com/yorickpeterse/oga
+*   [alisnic/nyny](https://github.com/alisnic/nyny) - a (ridiculously) small and powerful web framework.
+*   [eLocal/rain](https://github.com/eLocal/rain) - A Rails engine for organized, "one-button" deployment to your server cluster using Capistrano and Git. Make it rain.
+*   [payolapayments/payola](https://github.com/payolapayments/payola) - Drop-in Rails engine for accepting payments with Stripe
+*   [github/scientist](https://github.com/github/scientist) - :microscope: A Ruby library for carefully refactoring critical paths.
+*   [igrigorik/agent](https://github.com/igrigorik/agent) - Agent is an attempt at modelling Go-like concurrency, in Ruby
+*   [lostisland/faraday](https://github.com/lostisland/faraday) - Simple, but flexible HTTP client library, with support for multiple backends.
+*   [celluloid/celluloid](https://github.com/celluloid/celluloid) - Actor-based concurrent object framework for Ruby
+*   [ruby/did_you_mean](https://github.com/ruby/did_you_mean) - The gem that has been saving people from typos since 2014
+*   [reenhanced/gitreflow](https://github.com/reenhanced/gitreflow) - Reflow automatically creates pull requests, ensures the code review is approved, and squash merges finished branches to master with a great commit message template.
+*   [newrelic/centurion](https://github.com/newrelic/centurion) - A mass deployment tool for Docker fleets
+*   [praxis/praxis](https://github.com/praxis/praxis) - Praxis is a framework that focuses on both the design and implementation aspects of creating APIs.
+*   [praxis/attributor](https://github.com/praxis/attributor) - A powerful attribute and type management library for Ruby
+*   [stripe-archive/einhorn](https://github.com/stripe-archive/einhorn) - Einhorn: the language-independent shared socket manager
+*   [ahoward/sekrets](https://github.com/ahoward/sekrets) -     sekrets is a command line tool and library used to securely manage encrypted files and settings in your rails' applications and git repositories.
+*   [moserrya/knod](https://github.com/moserrya/knod) - A Tiny HTTP server for your current directory
+*   [xinminlabs/synvert-ruby](https://github.com/xinminlabs/synvert-ruby) - write snippet code to rewrite your project code
+*   [ankane/pretender](https://github.com/ankane/pretender) - Log in as another user in Rails
+*   [collectiveidea/audited](https://github.com/collectiveidea/audited) - Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models.
+*   [jgaskins/perpetuity](https://github.com/jgaskins/perpetuity) - Persistence gem for Ruby objects using the Data Mapper pattern
+*   [markevans/dragonfly](https://github.com/markevans/dragonfly) - A Ruby gem for on-the-fly processing - suitable for image uploading in Rails, Sinatra and much more!
+*   [airbnb/hammerspace](https://github.com/airbnb/hammerspace) - Off-heap large object storage
+*   [liftoffcli/liftoff](https://github.com/liftoffcli/liftoff) - CLI for creating and configuring new Xcode projects
+*   [garybernhardt/selecta](https://github.com/garybernhardt/selecta) - A fuzzy text selector for files and anything else you need to select. Use it from vim, from the command line, or anywhere you can run a shell command.
+*   [javan/whenever](https://github.com/javan/whenever) - Cron jobs in Ruby
+*   [getsentry/sentry-ruby](https://github.com/getsentry/sentry-ruby) - Sentry SDK for Ruby
+*   [Kong/unirest-ruby](https://github.com/Kong/unirest-ruby) - Unirest in Ruby: Simplified, lightweight HTTP client library.
+*   [pedro/moargration](https://github.com/pedro/moargration) - Helping you migrate MOAR
+*   [nytimes/tamper](https://github.com/nytimes/tamper) -
+*   [envato/heroku-deploy](https://github.com/envato/heroku-deploy) - Complete zero downtime deploys for Rails applications on Heroku
+*   [ConradIrwin/dotgpg](https://github.com/ConradIrwin/dotgpg) - A secure and easy-to-use store for your production secrets
+*   [samleb/sexy_scopes](https://github.com/samleb/sexy_scopes) - Stop writing SQL in your ActiveRecord scopes: embrace Ruby!
+*   [thoughtbot/pacecar](https://github.com/thoughtbot/pacecar) - Generated scopes for ActiveRecord classes
+*   [ruby2js/ruby2js](https://github.com/ruby2js/ruby2js) - Ruby to JavaScript conversion
+*   [rubys/wunderbar](https://github.com/rubys/wunderbar) - Easy HTML5 applications
+*   [WorkSimple/marketo](https://github.com/WorkSimple/marketo) - TODO: one-line summary of your gem
+*   [jugglebird/marketo](https://github.com/jugglebird/marketo) -
+*   [omniauth/omniauth](https://github.com/omniauth/omniauth) - OmniAuth is a flexible authentication system utilizing Rack middleware.
+*   [googleapis/signet](https://github.com/googleapis/signet) - Signet is an OAuth 1.0 / OAuth 2.0 implementation.
+*   [googleapis/google-api-ruby-client](https://github.com/googleapis/google-api-ruby-client) - REST client for Google APIs
+*   [nathankleyn/ruby-nlp](https://github.com/nathankleyn/ruby-nlp) - Various NLP tools for Ruby
+*   [vmware-archive/git_scripts](https://github.com/vmware-archive/git_scripts) - Developer workflow convenience scripts
+*   [deivid-rodriguez/pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) - Step-by-step debugging and stack navigation in Pry
+*   [deivid-rodriguez/byebug](https://github.com/deivid-rodriguez/byebug) - Debugging in Ruby 2
+*   [vcr/vcr](https://github.com/vcr/vcr) - Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
+*   [andrewculver/koudoku](https://github.com/andrewculver/koudoku) - Robust subscription support for Rails with Stripe.
+*   [gazay/gon](https://github.com/gazay/gon) - Your Rails variables in your JS
+*   [varvet/pundit](https://github.com/varvet/pundit) - Minimal authorization through OO design and pure Ruby classes
+*   [railsware/js-routes](https://github.com/railsware/js-routes) - Brings Rails named routes to javascript
+*   [BetterErrors/better_errors](https://github.com/BetterErrors/better_errors) - Better error page for Rack apps
+*   [mina-deploy/mina](https://github.com/mina-deploy/mina) - Blazing fast application deployment tool.
+*   [petergoldstein/dalli](https://github.com/petergoldstein/dalli) - High performance memcached client for Ruby
+*   [trulia/hologram](https://github.com/trulia/hologram) - A markdown based documentation system for style guides.
+*   [shageman/the_next_big_thing](https://github.com/shageman/the_next_big_thing) - Sample Rails app using vendored engines and gems to provide functionality
+*   [stephencelis/ghi](https://github.com/stephencelis/ghi) - GitHub Issues on the command line. Use your $EDITOR, not your browser.
+*   [devrieda/color_conversion](https://github.com/devrieda/color_conversion) - A ruby gem to perform color conversions
+*   [clauswitt/colorscheme](https://github.com/clauswitt/colorscheme) - Colorscheme gem
+*   [melborne/colorable](https://github.com/melborne/colorable) - A simple color handler which provide a conversion between colorname, RGB, HSB and HEX
+*   [jpmckinney/color-generator](https://github.com/jpmckinney/color-generator) - Ruby gem to randomly generate distinct colors with consistent lightness and saturation
+*   [quadule/colorscore](https://github.com/quadule/colorscore) - Finds the dominant colors in an image and scores them against a user-defined palette, using the CIE2000 Delta E formula.
+*   [retro/color_namer](https://github.com/retro/color_namer) - Color Namer enables you to name color from HTML hash or RGB value
+*   [codegram/colorant](https://github.com/codegram/colorant) - A small utility to get the colors of an image.
+*   [threedaymonk/colormath](https://github.com/threedaymonk/colormath) - Colour mathematics (RGB/HSL/blend) library for Ruby
+*   [brandonhilkert/sucker_punch](https://github.com/brandonhilkert/sucker_punch) - Sucker Punch is a Ruby asynchronous processing library using concurrent-ruby, heavily influenced by Sidekiq and girl_friday.
+*   [WinRb/vagrant-windows](https://github.com/WinRb/vagrant-windows) -
+*   [dotless-de/vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) - A Vagrant plugin to keep your VirtualBox Guest Additions up to date
+*   [virtuald/vagrant-rekey-ssh](https://github.com/virtuald/vagrant-rekey-ssh) - Obsolete after Vagrant 1.7. Vagrant plugin which plugs default gaping holes in a vagrant box
+*   [rainforestapp/vagrant-camera](https://github.com/rainforestapp/vagrant-camera) - Capture Screenshots of your Virtual Box Vagrant VM's
+*   [fgrehm/vagrant-cachier](https://github.com/fgrehm/vagrant-cachier) - Caffeine reducer
+*   [eddsteel/vagrant-box-version](https://github.com/eddsteel/vagrant-box-version) - Minimal vagrant plugin to handle version numbers in vagrant boxes
+*   [jedi4ever/sahara](https://github.com/jedi4ever/sahara) - a plugin for vagrant that allows you manage a sandbox state
+*   [fgrehm/ventriloquist](https://github.com/fgrehm/ventriloquist) - Development environments made easy
+*   [akshaymankar/copy_my_conf](https://github.com/akshaymankar/copy_my_conf) - Copy your configuration files into vagrant box while provisioning
+*   [devopsgroup-io/vagrant-digitalocean](https://github.com/devopsgroup-io/vagrant-digitalocean) - :droplet: A Vagrant provider plugin that manages DigitalOcean droplets.
+*   [mitchellh/vagrant-aws](https://github.com/mitchellh/vagrant-aws) - Use Vagrant to manage your EC2 and VPC instances.
+*   [mattes/vagrant-dnsmasq](https://github.com/mattes/vagrant-dnsmasq) - A Dnsmasq Vagrant plugin that manages the dnsmasq.conf file and /etc/resolver directory on your host system.
+*   [BerlinVagrant/vagrant-dns](https://github.com/BerlinVagrant/vagrant-dns) - A plugin to manage DNS records for vagrant environments
+*   [vagrant-landrush/landrush](https://github.com/vagrant-landrush/landrush) - A Vagrant plugin that provides a simple DNS server for Vagrant guests
+*   [svenfuchs/i18n-active_record](https://github.com/svenfuchs/i18n-active_record) - I18n ActiveRecord backend
+*   [chad/sigsurv](https://github.com/chad/sigsurv) - A stupid gem that provides a visual indicator of Ruby code complexity in the current directory.
+*   [jsanders/angular_rails_csrf](https://github.com/jsanders/angular_rails_csrf) - Rails integration for AngularJS style CSRF protection
+*   [jackc/surus](https://github.com/jackc/surus) - PostgreSQL extensions for ActiveRecord
+*   [benhoskings/babushka](https://github.com/benhoskings/babushka) - Test-driven sysadmin.
+*   [greyblake/mago](https://github.com/greyblake/mago) - Magic numbers detector for Ruby source code
+*   [adamsanderson/when-files-change](https://github.com/adamsanderson/when-files-change) - Whenever files in your working directory change, execute a command, such as "rake test".
+*   [chef/omnibus](https://github.com/chef/omnibus) - Easily create full-stack installers for your project across a variety of platforms.
+*   [ndbroadbent/turbo-sprockets-rails3](https://github.com/ndbroadbent/turbo-sprockets-rails3) - Speeds up your Rails 3 assets:precompile by only recompiling changed files, and only compiling once to generate all assets
+*   [mmcclimon/mr_poole](https://github.com/mmcclimon/mr_poole) - A butler for Jekyll
+*   [prerender/prerender_rails](https://github.com/prerender/prerender_rails) - Rails middleware gem for prerendering javascript-rendered pages on the fly for SEO
+*   [headius/ruby-atomic](https://github.com/headius/ruby-atomic) - Atomic reference implementation for Ruby
+*   [hamstergem/hamster](https://github.com/hamstergem/hamster) - Efficient, Immutable, Thread-Safe Collection classes for Ruby
+*   [square/maximum-awesome](https://github.com/square/maximum-awesome) - Config files for vim and tmux.
+*   [mislav/git-deploy](https://github.com/mislav/git-deploy) - git deployment made easy
+*   [technicalpickles/homesick](https://github.com/technicalpickles/homesick) - Your home directory is your castle. Don't leave your dotfiles behind.
+*   [reinh/statsd](https://github.com/reinh/statsd) - A Ruby Statsd client that isn't a direct port of the Python example code. Because Ruby isn't Python.
+*   [benjaminoakes/maid](https://github.com/benjaminoakes/maid) - Be lazy.  Let Maid clean up after you, based on rules you define.  Think of it as "Hazel for hackers".
+*   [ooyala/barkeep](https://github.com/ooyala/barkeep) - The friendly code review system.
+*   [rfunduk/shared-auth-example](https://github.com/rfunduk/shared-auth-example) - Example app as companion to ryanfunduk.com/shared-auth-for-rack-apps
+*   [skwp/dotfiles](https://github.com/skwp/dotfiles) - YADR - The best vim,git,zsh plugins and the cleanest vimrc you've ever seen
+*   [lonelyplanet/fozzie](https://github.com/lonelyplanet/fozzie) - fozzie gem
+*   [mperham/sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby
+*   [zuorasc/zuora](https://github.com/zuorasc/zuora) - ActiveModel backed Zuora integration
+*   [aussielunix/jenkins-appliance](https://github.com/aussielunix/jenkins-appliance) - ABANDONED - Jenkins appliance built with puppet + librarian-puppet
+*   [colinta/teacup](https://github.com/colinta/teacup) - This project has been sunset in favor of MotionKit
+*   [clayallsopp/rubymotion-tutorial](https://github.com/clayallsopp/rubymotion-tutorial) - RubyMotion-Tutorial
+*   [antifuchs/gmail-britta](https://github.com/antifuchs/gmail-britta) - Generate complex gmail filters via a neat little ruby DSL
+*   [jhuckabee/backbone_devise](https://github.com/jhuckabee/backbone_devise) - An example Rails app that uses a Backbone.js UI for user signup, authentication, and password retrieval.
+*   [heartsentwined/ember-auth-rails](https://github.com/heartsentwined/ember-auth-rails) - gem package for ember-auth
+*   [stouset/twitter_bootstrap_form_for](https://github.com/stouset/twitter_bootstrap_form_for) - A Rails FormBuilder DSL for generating Twitter Bootstrap forms
+*   [heartsentwined/ember-auth-rails-demo](https://github.com/heartsentwined/ember-auth-rails-demo) - rails + devise + ember-auth demo site
+*   [RobinBrouwer/bootstrap_flash_messages](https://github.com/RobinBrouwer/bootstrap_flash_messages) - Bootstrap alerts and Rails flash messages combined in one easy-to-use gem.
+*   [ctwise/alfred-workflows](https://github.com/ctwise/alfred-workflows) -
+*   [aprescott/serif](https://github.com/aprescott/serif) - Serif is a static site generator and blogging system powered by markdown files.
+*   [remi/teamocil](https://github.com/remi/teamocil) - There's no I in Teamocil. At least not where you think. Teamocil is a simple tool used to automatically create windows and panes in tmux with YAML files.
+*   [evendis/mandrill-rails](https://github.com/evendis/mandrill-rails) - Webhook processing and event decoration to make using Mandrill with Rails just that much easier
+*   [taskrabbit/storehouse](https://github.com/taskrabbit/storehouse) - Distributed Rack Caching
+*   [trisignia/mass_mandrill](https://github.com/trisignia/mass_mandrill) - mass_mandrill
+*   [wr0ngway/lumber](https://github.com/wr0ngway/lumber) - Lumber tries to make it easy to use the more robust log4r logging system within your rails application
+*   [layervault/psd.rb](https://github.com/layervault/psd.rb) - Parse Photoshop files in Ruby with ease
+*   [bbc/wraith](https://github.com/bbc/wraith) - Wraith — A responsive screenshot comparison tool
+*   [techbelly/web_regression](https://github.com/techbelly/web_regression) -  Tool for CSS Refactoring - diff current screenshot against a reference screenshot.
+*   [iSECPartners/tlspretense](https://github.com/iSECPartners/tlspretense) - A test framework for testing SSL/TLS client certificate validation.
+*   [phinze/puppet-sudoers](https://github.com/phinze/puppet-sudoers) - puppet module for managing sudoers
+*   [kneath/kss](https://github.com/kneath/kss) - A methodology for documenting CSS and generating styleguides.
+*   [halostatue/artifice](https://github.com/halostatue/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
+*   [halostatue/agio](https://github.com/halostatue/agio) - Pure Ruby HTML to Markdown Converter
+*   [halostatue/poole](https://github.com/halostatue/poole) -
+*   [halostatue/jruby-vijava](https://github.com/halostatue/jruby-vijava) - A simple wrapper around the VMware Infrastructure (vSphere) Java API for use with JRuby.
+*   [halostatue/minitar](https://github.com/halostatue/minitar) - Minimal pure-ruby support for POSIX tar(1) archives.
+*   [rkh/unpatched](https://github.com/rkh/unpatched) - Yet another WTF library!
+*   [halostatue/rubypython](https://github.com/halostatue/rubypython) - An in-process between Ruby and Python 2.
+*   [tmm1/rbtrace](https://github.com/tmm1/rbtrace) - like strace, but for ruby code
+*   [abuiles/placefinder](https://github.com/abuiles/placefinder) - The simplest ruby wrapper for placefinder's API.
+*   [jstorimer/kitabu](https://github.com/jstorimer/kitabu) - A framework for creating e-books from Markdown/Textile text markup using Ruby. Using the Prince PDF generator, you'll be able to get high quality PDFs.
+*   [halostatue/text-hyphen](https://github.com/halostatue/text-hyphen) - Text::Hyphen will hyphenate words using modified versions of TeX hyphenation patterns.
+*   [halostatue/tex-hyphen](https://github.com/halostatue/tex-hyphen) - A port of Perl's TeX::Hyphen to Ruby 1.6/1.8. This project has been superseded by Text::Hyphen
+*   [halostatue/text-reform](https://github.com/halostatue/text-reform) - Text::Reform reformats text according to formatting picture templates.
+*   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
+*   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
+*   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
+*   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
+*   [matadon/mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack.
+*   [github/github-services](https://github.com/github/github-services) - Legacy GitHub Services Integration
+*   [vcastellm/rubyamf_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
+*   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
+*   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
+*   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
+*   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
+*   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
+*   [svenfuchs/i18n-message](https://github.com/svenfuchs/i18n-message) - Object-oriented abstraction for looking up translations from I18n.translate
+*   [daeken/RMarshal](https://github.com/daeken/RMarshal) - Ruby gem to support the Python marshal format
+*   [halostatue/xcode-git-version](https://github.com/halostatue/xcode-git-version) - A script that I use for versioning builds using git. Supports both sharef and version-tag numbering.
+*   [augustl/net-http-cheat-sheet](https://github.com/augustl/net-http-cheat-sheet) - A collection of Ruby Net::HTTP examples.
+*   [cousine/downmark_it](https://github.com/cousine/downmark_it) - A Hpricot based HTML to markdown ruby library
+*   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
+*   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
+*   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
+*   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
+*   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
+*   [rick/linode](https://github.com/rick/linode) - Ruby wrapper for the Linode automation API
+*   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
+*   [progit/progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at [progit2](https://github.com/progit/progit2)
+*   [halostatue/uninheritable](https://github.com/halostatue/uninheritable) - Sample code demontrating how to make a class uninheritable in Ruby
+*   [jacius/nice-ffi](https://github.com/jacius/nice-ffi) - Nice-FFI: Convenience layer atop Ruby-FFI
+*   [savonrb/savon](https://github.com/savonrb/savon) - Heavy metal SOAP client
+*   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
+*   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
+*   [mdub/sham_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
+*   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
+*   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
+*   [codeplant/simple-navigation](https://github.com/codeplant/simple-navigation) - A ruby gem for creating navigations (with multiple levels) for your Rails, Sinatra or Padrino applications.  Render your navigation as html list, link list or breadcrumbs.
+*   [brynary/rack-bug](https://github.com/brynary/rack-bug) - Debugging toolbar for Rack applications implemented as middleware
+*   [jackowayed/sentdiff](https://github.com/jackowayed/sentdiff) - Diff that splits the files by sentences first. Made for editting text with somewhat-long paragraphs
+*   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
+*   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
+*   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
 
 ## Odin
 
@@ -1450,906 +2960,6 @@
 *   [heroku/vegur](https://github.com/heroku/vegur) - Vegur: HTTP Proxy Library
 *   [erlang/otp](https://github.com/erlang/otp) - Erlang/OTP
 
-## Elixir
-
-*   [fuelen/ecto_dev_logger](https://github.com/fuelen/ecto_dev_logger) - An alternative logger for Ecto queries
-*   [elpikel/ex_paginator](https://github.com/elpikel/ex_paginator) -
-*   [Recruitee/existence](https://github.com/Recruitee/existence) - Asynchronous dependency health checks library.
-*   [am-kantox/finitomata](https://github.com/am-kantox/finitomata) - FSM implementation generated from PlantUML textual representation
-*   [tashirosota/ecto_cellar](https://github.com/tashirosota/ecto_cellar) - 🍷Store changes to your models, for auditing or versioning. 
-*   [woylie/flop](https://github.com/woylie/flop) - Filtering, ordering and pagination for Ecto
-*   [am-kantox/telemetria](https://github.com/am-kantox/telemetria) - The helper application that simplifies and standardizes telemetry usage
-*   [am-kantox/formulae](https://github.com/am-kantox/formulae) - A set of function to deal with analytical formulae.
-*   [MikaAK/ecto_shorts](https://github.com/MikaAK/ecto_shorts) - Shortcuts for ecto
-*   [joseph-lozano/ice_cream](https://github.com/joseph-lozano/ice_cream) -
-*   [pawurb/ecto_psql_extras](https://github.com/pawurb/ecto_psql_extras) - Ecto PostgreSQL database performance insights. Locks, index usage, buffer cache hit ratios, vacuum stats and more.
-*   [drowzy/hxl](https://github.com/drowzy/hxl) - An Elixir implementation of HCL.
-*   [Qqwy/elixir-arrays](https://github.com/Qqwy/elixir-arrays) -    Well-structured Arrays with fast random-element-access for Elixir, offering a common interface with multiple implementations with varying performance guarantees that can be switched in your configuration.
-*   [sabiwara/aja](https://github.com/sabiwara/aja) - Extension of the Elixir standard library focused on data stuctures, data manipulation and performance
-*   [prodis/miss-elixir](https://github.com/prodis/miss-elixir) - Some functions that I miss in Elixir standard library (and maybe you too).
-*   [funbox/clean_mixer](https://github.com/funbox/clean_mixer) - Tools for code architecture analysis and linting
-*   [slab/delta-elixir](https://github.com/slab/delta-elixir) - Simple yet expressive format to describe contents and changes 🗃
-*   [jeepers3327/tabi](https://github.com/jeepers3327/tabi) - Dockerized chat app using Phoenix, React and Postgres
-*   [ajvondrak/bitwise_ip](https://github.com/ajvondrak/bitwise_ip) - Efficient IP address operations using bitwise arithmetic
-*   [tmbb/incendium](https://github.com/tmbb/incendium) - Easy flamegraphs to profile your web applications
-*   [dsdshcym/promox](https://github.com/dsdshcym/promox) - Protocol-based mocks and explicit contracts in Elixir
-*   [livebook-dev/livebook](https://github.com/livebook-dev/livebook) - Interactive and collaborative code notebooks for Elixir - built with Phoenix LiveView
-*   [elixir-toniq/regulator](https://github.com/elixir-toniq/regulator) - Adaptive concurrency limits for elixir
-*   [mhanberg/temple](https://github.com/mhanberg/temple) - An HTML DSL for Elixir and Phoenix
-*   [fremantle-industries/notified](https://github.com/fremantle-industries/notified) - An Elixir library for application notifications
-*   [fremantle-industries/notified_phoenix](https://github.com/fremantle-industries/notified_phoenix) - Phoenix live views for notified
-*   [slashdotdash/til](https://github.com/slashdotdash/til) - Today I Learned
-*   [papercups-io/papercups](https://github.com/papercups-io/papercups) - Open-source live customer chat
-*   [revelrylabs/elixir-nodejs](https://github.com/revelrylabs/elixir-nodejs) - An Elixir API for calling Node.js functions
-*   [still-ex/still](https://github.com/still-ex/still) - A composable Elixir static site generator
-*   [edgurgel/solid](https://github.com/edgurgel/solid) - Liquid template engine in Elixir
-*   [tanguilp/apiac_filter_throttler](https://github.com/tanguilp/apiac_filter_throttler) - APIac Elixir plug for throttling / rate limiting
-*   [tanguilp/apiac_filter_ip_blacklist](https://github.com/tanguilp/apiac_filter_ip_blacklist) - APIac Elixir plug for IP blacklisting
-*   [tanguilp/apiac_filter_ip_whitelist](https://github.com/tanguilp/apiac_filter_ip_whitelist) - APIac Elixir plug for IP whitelisting
-*   [tanguilp/apiac_auth_bearer](https://github.com/tanguilp/apiac_auth_bearer) - OAuth2 Bearer (RFC6750) plug for Elixir
-*   [tanguilp/apiac_auth_basic](https://github.com/tanguilp/apiac_auth_basic) - APIac Elixir plug for HTTP basic authorization
-*   [tanguilp/apiac_auth_mtls](https://github.com/tanguilp/apiac_auth_mtls) - APIac Elixir plug for mutual TLS authentication (RFC8705)
-*   [voltone/plug_signature](https://github.com/voltone/plug_signature) - Plug for verifying request signatures according to the IETF HTTP signatures draft specification
-*   [akoutmos/prom_ex](https://github.com/akoutmos/prom_ex) - An Elixir Prometheus metrics collection library built on top of Telemetry with accompanying Grafana dashboards
-*   [ueberauth/guardian](https://github.com/ueberauth/guardian) - Elixir Authentication
-*   [gordalina/hush](https://github.com/gordalina/hush) - Hush is a runtime configuration loader for Elixir applications
-*   [pentacent/keila](https://github.com/pentacent/keila) - Open Source Newsletter Tool.
-*   [ityonemo/ez](https://github.com/ityonemo/ez) - zig linear algebra bindings for nx
-*   [fishcakez/dbg](https://github.com/fishcakez/dbg) - Tracing for Elixir
-*   [gabiz/tracer](https://github.com/gabiz/tracer) - Elixir Tracing Framework
-*   [lpil/icalendar](https://github.com/lpil/icalendar) - 🗓️  A small library for reading and writing ICalendar files.
-*   [elixir-capsule/capsule](https://github.com/elixir-capsule/capsule) - Minimal, composable file storage for Elixir apps
-*   [subvisual/dictator](https://github.com/subvisual/dictator) - Dictates what your users see. Plug-based authorization.
-*   [chulkilee/ex_force](https://github.com/chulkilee/ex_force) - A Salesforce REST API wrapper for Elixir
-*   [ubotsxyz/stash](https://github.com/ubotsxyz/stash) - Multi-layer cache
-*   [ubotsxyz/tabler](https://github.com/ubotsxyz/tabler) -
-*   [integratedb/integrate](https://github.com/integratedb/integrate) - Core IntegrateDB source code repository.
-*   [doawoo/teex](https://github.com/doawoo/teex) - Use Elixir like a scripting language, across your system
-*   [pawurb/ecto_extras](https://github.com/pawurb/ecto_extras) - Ecto helper functions.
-*   [jonklein/niex](https://github.com/jonklein/niex) - Niex is an interactive Elixir code notebook built with Phoenix LiveView.
-*   [karolsluszniak/ex_check](https://github.com/karolsluszniak/ex_check) - One task to efficiently run all code analysis & testing tools in an Elixir project. Born out of 💜 to Elixir and pragmatism.
-*   [naps62/imageflow_ex](https://github.com/naps62/imageflow_ex) -
-*   [sasa1977/site_encrypt](https://github.com/sasa1977/site_encrypt) - Integrated certification via Let's encrypt for Elixir-powered sites
-*   [botsquad/bubble-match](https://github.com/botsquad/bubble-match) - NLU match expression engine
-*   [cblavier/changix](https://github.com/cblavier/changix) - Compile-time changelog features for Elixir
-*   [ityonemo/mavis](https://github.com/ityonemo/mavis) - opinionated typing library for elixir
-*   [ityonemo/selectrix](https://github.com/ityonemo/selectrix) - Static Typechecker for Elixir
-*   [wyeworks/elixir_console](https://github.com/wyeworks/elixir_console) - Elixir Web Console
-*   [tlux/sftp_client](https://github.com/tlux/sftp_client) - An Elixir SFTP Client that wraps Erlang's ssh and ssh_sftp.
-*   [elixir-depot/depot](https://github.com/elixir-depot/depot) -
-*   [discord/sorted_set_nif](https://github.com/discord/sorted_set_nif) - Elixir SortedSet backed by a Rust-based NIF
-*   [b-erdem/absinthe_permission](https://github.com/b-erdem/absinthe_permission) - Fine-grained Permission/Policy Checker Middleware for Absinthe
-*   [ayrat555/hornet](https://github.com/ayrat555/hornet) - Hornet is a simple library for stress testing
-*   [8thlight/ex_state](https://github.com/8thlight/ex_state) - Database-backed state machines and statecharts for Elixir
-*   [xavier/xlsx_reader](https://github.com/xavier/xlsx_reader) - A production-ready XLSX file reader for Elixir.
-*   [djm/table_rex](https://github.com/djm/table_rex) - An Elixir app which generates text-based tables for display
-*   [edisonywh/condiment](https://github.com/edisonywh/condiment) - 🍡  Add flavors to your context function without the hassles.
-*   [am-kantox/tempus](https://github.com/am-kantox/tempus) - Easy handling of time periods, like business days, holidays, etc.
-*   [Comcast/ctex](https://github.com/Comcast/ctex) - A Mix task and helpers for running common_test suites
-*   [devonestes/elixir-docker-challenge](https://github.com/devonestes/elixir-docker-challenge) - Can you configure a docker container and local node to establish a connection?!
-*   [benvp/liveview_autocomplete](https://github.com/benvp/liveview_autocomplete) - A simple but powerful autocomplete using Phoenix LiveView and Alpine.js
-*   [surface-ui/surface](https://github.com/surface-ui/surface) - A server-side rendering component library for Phoenix
-*   [gvaughn/path_express](https://github.com/gvaughn/path_express) - Nil-safe path navigation of nested Elixir data structures https://hexdocs.pm/path_express
-*   [akoutmos/unplug](https://github.com/akoutmos/unplug) - Unplug allows you to conditionally execute your Elixir plugs at run-time
-*   [akoutmos/replug](https://github.com/akoutmos/replug) - Dynamically configure your Elixir Plugs at run-time
-*   [azohra/ptolemy](https://github.com/azohra/ptolemy) - Elixir Application Environment Variable Management
-*   [amplifiedai/pretty](https://github.com/amplifiedai/pretty) - Inspect values with syntax colors despite your remote console.
-*   [sketch-hq/nicene](https://github.com/sketch-hq/nicene) - Additional Credo checks
-*   [dashbitco/nimble_totp](https://github.com/dashbitco/nimble_totp) - A tiny Elixir library for time-based one time passwords (TOTP)
-*   [dashbitco/nimble_publisher](https://github.com/dashbitco/nimble_publisher) - A minimal filesystem-based publishing engine with Markdown support and code highlighting
-*   [dashbitco/nimble_options](https://github.com/dashbitco/nimble_options) - A tiny library for validating and documenting high-level options
-*   [dashbitco/nimble_pool](https://github.com/dashbitco/nimble_pool) - A tiny resource-pool implementation for Elixir
-*   [artemeff/ouroboros](https://github.com/artemeff/ouroboros) -
-*   [supabase/realtime](https://github.com/supabase/realtime) - Listen to your to PostgreSQL database in realtime via websockets. Built with Elixir.
-*   [stride-nyc/remote_retro](https://github.com/stride-nyc/remote_retro) - Free, world-class retrospectives
-*   [plausible/analytics](https://github.com/plausible/analytics) - Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
-*   [satom99/warden](https://github.com/satom99/warden) - Authorization framework for Absinthe.
-*   [am-kantox/tyyppi](https://github.com/am-kantox/tyyppi) - Propagate specs to runtime types
-*   [ityonemo/state_server](https://github.com/ityonemo/state_server) - half gen_statem, half gen_server
-*   [ityonemo/net_address](https://github.com/ityonemo/net_address) - IP and Mac address tools for Elixir
-*   [ityonemo/icmp](https://github.com/ityonemo/icmp) - Icmp Ping for Elixir
-*   [ityonemo/zing](https://github.com/ityonemo/zing) - ICMP ping server for elixir
-*   [Qqwy/elixir-type_check](https://github.com/Qqwy/elixir-type_check) - TypeCheck: Fast and flexible runtime type-checking for your Elixir projects.
-*   [ityonemo/zigler](https://github.com/ityonemo/zigler) - zig nifs in elixir
-*   [ityonemo/erps](https://github.com/ityonemo/erps) - Remote Protocol call/cast server
-*   [dwyl/hits](https://github.com/dwyl/hits) - :chart_with_upwards_trend: General purpose hits (page views) counter
-*   [subvisual/fsmx](https://github.com/subvisual/fsmx) - A Finite-state machine implementation in Elixir, with opt-in Ecto friendliness
-*   [IvanRublev/Domo](https://github.com/IvanRublev/Domo) - A library to validate values of nested structs with their type spec t() and associated precondition functions
-*   [Qqwy/elixir-blocked](https://github.com/Qqwy/elixir-blocked) - An Elixir-library that helps you to keep track of when hotfixes can be removed by showing compile-time warnings when issues (in your project repository or any other source-code GitHub repository) are closed.
-*   [tmbb/expo](https://github.com/tmbb/expo) - PO file parser for Elixir
-*   [jungsoft/rajska](https://github.com/jungsoft/rajska) - Rajska is an elixir authorization library for Absinthe.
-*   [peek-travel/ecto_diff](https://github.com/peek-travel/ecto_diff) - Generates a data structure describing the difference between two ecto structs
-*   [fremantle-industries/stored](https://github.com/fremantle-industries/stored) - Store & retrieve structs against various backends with a simple lightweight API
-*   [billperegoy/graphql_builder](https://github.com/billperegoy/graphql_builder) - Library to build GraphQL queries and mutations from Elixir structs
-*   [mrmicahcooper/ecto_factory](https://github.com/mrmicahcooper/ecto_factory) - Easily generate data based on your ecto schemas.
-*   [joaomdmoura/machinery](https://github.com/joaomdmoura/machinery) - State machine thin layer for structs (+ GUI for Phoenix apps)
-*   [marcelotto/behaviour_reflection](https://github.com/marcelotto/behaviour_reflection) - Get all modules implementing an Elixir behaviour
-*   [am-kantox/cloister](https://github.com/am-kantox/cloister) - Lightweight Cluster handling with support for consensus and dynamic configuration
-*   [sneako/finch](https://github.com/sneako/finch) - Elixir HTTP client, focused on performance
-*   [elixir-toniq/vapor](https://github.com/elixir-toniq/vapor) - Runtime configuration system for Elixir
-*   [archan937/ex_united](https://github.com/archan937/ex_united) - Easily spawn Elixir nodes (supervising, Mix configured, easy asserted / refuted) within ExUnit tests
-*   [phoenixframework/phoenix_live_dashboard](https://github.com/phoenixframework/phoenix_live_dashboard) - Realtime dashboard with metrics, request logging, plus storage, OS and VM insights
-*   [mathieuprog/tz_extra](https://github.com/mathieuprog/tz_extra) - A few utilities to work with time zones in Elixir
-*   [blackode/custom-iex](https://github.com/blackode/custom-iex) - The custom iex configuration files
-*   [alexdesousa/ayesql](https://github.com/alexdesousa/ayesql) - Library for using raw SQL in Elixir
-*   [jackjoe/mailgun_logger](https://github.com/jackjoe/mailgun_logger) - Simple Mailgun log persistence in Phoenix/Elixir
-*   [DarkMarmot/elixir_sandbox](https://github.com/DarkMarmot/elixir_sandbox) - An Elixir Lua Sandbox built on top of Robert Virding's Luerl
-*   [mcrumm/guss](https://github.com/mcrumm/guss) - Generate Signed URLs for Google Cloud Storage
-*   [am-kantox/agency](https://github.com/am-kantox/agency) - One more unnecessary abstraction on top of `Agent`
-*   [co0lsky/deep-work-hours-phoenix](https://github.com/co0lsky/deep-work-hours-phoenix) - Deep Work Hours is a time tracking software built with Elixir, Phoenix, and Tailwind CSS.
-*   [hauleth/mix_unused](https://github.com/hauleth/mix_unused) - Find unused functions in your project
-*   [mathieuprog/tz](https://github.com/mathieuprog/tz) - Time zone support for Elixir
-*   [am-kantox/tarearbol](https://github.com/am-kantox/tarearbol) - More handy task runner, allowing retries, callbacks, assurance that the task succeeded, and more
-*   [devato/inertia_phoenix](https://github.com/devato/inertia_phoenix) - Inertiajs Adapter for Elixir Phoenix
-*   [ityonemo/librarian](https://github.com/ityonemo/librarian) - ssh library for elixir
-*   [peek-travel/cocktail](https://github.com/peek-travel/cocktail) - Elixir date recurrence library based on iCalendar events
-*   [pkinney/carmen](https://github.com/pkinney/carmen) -
-*   [msz/hammox](https://github.com/msz/hammox) - 🏝 automated contract testing via type checking for Elixir functions and mocks
-*   [gyson/ane](https://github.com/gyson/ane) - Ane (atomics and ets) is a library to share mutable data efficiently by utilizing atomics and ets modules.
-*   [gmtprime/skogsra](https://github.com/gmtprime/skogsra) - Library to manage OS environment variables and application configuration options with ease
-*   [princemaple/abnf_parsec](https://github.com/princemaple/abnf_parsec) - ABNF in, parser out
-*   [rupurt/schoolbus](https://github.com/rupurt/schoolbus) - Manage one or more PubSub instances using the Elixir registry
-*   [hauleth/plug_telemetry_server_timing](https://github.com/hauleth/plug_telemetry_server_timing) - Plug for providing Telemetry metrics within browser DevTools
-*   [virkillz/sveltex](https://github.com/virkillz/sveltex) - Elixir Phoenix + Svelte = ❤️
-*   [coingaming/loggable](https://github.com/coingaming/loggable) - Protocol for custom views of data in logs (hide sensitive data etc)
-*   [secomind/pretty_log](https://github.com/secomind/pretty_log) - An Elixir log formatter library.
-*   [erlef/website](https://github.com/erlef/website) - Erlang Ecosystem Foundation Website
-*   [evadne/etso](https://github.com/evadne/etso) - Ecto 3 adapter allowing use of Ecto schemas held in ETS tables
-*   [evadne/packmatic](https://github.com/evadne/packmatic) - Zipping on the fly
-*   [codedge-llc/commandex](https://github.com/codedge-llc/commandex) - Make Elixir actions a first-class data type.
-*   [tallarium/reverse_proxy_plug](https://github.com/tallarium/reverse_proxy_plug) - 🔛 an Elixir reverse proxy Plug with HTTP/2, chunked transfer and path proxying support
-*   [akoutmos/doctor](https://github.com/akoutmos/doctor) - Ensure that your Elixir project documentation is healthy
-*   [elixir-toniq/norm](https://github.com/elixir-toniq/norm) - Data specification and generation
-*   [OvermindDL1/gradualixir](https://github.com/OvermindDL1/gradualixir) - Gradualizer Mix Wrapper
-*   [erpuno/soa](https://github.com/erpuno/soa) - ☎️ SOA: Simple Object Access
-*   [iodevs/qr_code](https://github.com/iodevs/qr_code) - A library for generating QR code. https://hexdocs.pm/qr_code
-*   [akoutmos/telemetry_filter](https://github.com/akoutmos/telemetry_filter) - This plug acts as a wrapper around Plug.Telemetry to filter out certain events
-*   [mtrudel/thousand_island](https://github.com/mtrudel/thousand_island) - Thousand Island is a pure Elixir socket server
-*   [entropealabs/states_language](https://github.com/entropealabs/states_language) - Declaratively design state machines that compile to Elixir based :gen_statem processes with the StatesLanguage JSON specification
-*   [hqoss/rabbit_mq](https://github.com/hqoss/rabbit_mq) - 🐇 Build consistent and well-balanced Producer/Consumer pipelines
-*   [discord/gen_registry](https://github.com/discord/gen_registry) - Simple and efficient local Process Registry
-*   [StoiximanServices/ex_insights](https://github.com/StoiximanServices/ex_insights) - Elixir client library to log telemetry data on Azure Application Insights
-*   [jbenden/esshd](https://github.com/jbenden/esshd) - Simple SSH server for Elixir and Erlang applications.
-*   [elixir-ecto/tds](https://github.com/elixir-ecto/tds) - TDS Driver for Elixir
-*   [OvermindDL1/pid_file](https://github.com/OvermindDL1/pid_file) -
-*   [amalbuquerque/interceptor](https://github.com/amalbuquerque/interceptor) - Library to easily intercept Elixir function calls
-*   [hauleth/ecto_function](https://github.com/hauleth/ecto_function) - Simple macro for generating SQL's functions macro wrappers
-*   [hauleth/ecto_olap](https://github.com/hauleth/ecto_olap) - Data analytics helpers for Ecto and PostgreSQL
-*   [ympons/expreso](https://github.com/ympons/expreso) - :coffee: A boolean expression parser and evaluator in Elixir.
-*   [coryodaniel/talks](https://github.com/coryodaniel/talks) -
-*   [bitwalker/combine](https://github.com/bitwalker/combine) - A parser combinator library for Elixir projects
-*   [voltone/sbom](https://github.com/voltone/sbom) - Mix task to generate a Software Bill-of-Materials (SBoM) in CycloneDX format
-*   [oestrich/spigot](https://github.com/oestrich/spigot) - A telnet test server for Grapevine's web client
-*   [ForwardFinancing/plug_ip_whitelist](https://github.com/ForwardFinancing/plug_ip_whitelist) - Plug to Enforce IP Whitelisting in Elixir/Phoenix applications
-*   [TheFirstAvenger/ets](https://github.com/TheFirstAvenger/ets) - :ets, the Elixir way
-*   [framasoft/mobilizon](https://github.com/framasoft/mobilizon) - Gather, organize and mobilize yourselves with a convivial, ethical, and emancipating tool.
-*   [andrewtimberlake/trunk](https://github.com/andrewtimberlake/trunk) - 📦 A file attachment/storage library for Elixir 📎
-*   [rzane/file_store](https://github.com/rzane/file_store) - 🗄️ A unified interface for file storage backends
-*   [Qqwy/elixir-revisionair](https://github.com/Qqwy/elixir-revisionair) - Keep track of your data structure's revisions, persistence layer agnostic.
-*   [Qqwy/elixir-revisionair_ecto](https://github.com/Qqwy/elixir-revisionair_ecto) -   A Revisionair adapter based on Ecto. Allows you to persist and keep track of revisions of your data structures in any of Ecto's supported databases.
-*   [bbalser/brook](https://github.com/bbalser/brook) -
-*   [well-ironed/liveness](https://github.com/well-ironed/liveness) - A declarative busy wait
-*   [tinfoil/wormwood](https://github.com/tinfoil/wormwood) - Wormwood is a tiny library to aid in testing GraphQL queries against an Absinthe schema. It allows you to test your query documents inside ExUnit test modules, and requires no HTTP requests to occur during testing.
-*   [sumerman/recoverable_stream_ex](https://github.com/sumerman/recoverable_stream_ex) - Elixir stream-wrapper that transparently handles exceptions.
-*   [elixir-cldr/cldr_messages](https://github.com/elixir-cldr/cldr_messages) - Elixir implementation of the ICU message format
-*   [Cobenian/inet_cidr](https://github.com/Cobenian/inet_cidr) - CIDR library for Elixir that is compatible with Erlang's :inet and supports both IPv4 and IPv6
-*   [esl/MongoosePush](https://github.com/esl/MongoosePush) - MongoosePush is a simple Elixir RESTful service allowing to send push notification via FCM and/or APNS.
-*   [nerves-project/ring_logger](https://github.com/nerves-project/ring_logger) - Elixir Logger ring buffer backend
-*   [sasa1977/boundary](https://github.com/sasa1977/boundary) - Manage and restrain cross-module dependencies in Elixir projects
-*   [fuelen/bamboo_fallback](https://github.com/fuelen/bamboo_fallback) -
-*   [pushex-project/pushex](https://github.com/pushex-project/pushex) - Phoenix-based websocket push implementation
-*   [wrren/event.ex](https://github.com/wrren/event.ex) - Event Production and Consumption utility library for Elixir
-*   [narrowtux/batch_stage](https://github.com/narrowtux/batch_stage) - Elixir GenStage that batches events together so they are not sent one-by-one
-*   [koudelka/annelid](https://github.com/koudelka/annelid) - Unwelcome, Replicating, Evasive, Self-Healing Infrastructure for Elixir 💪🐛☣︎
-*   [tanguilp/asteroid](https://github.com/tanguilp/asteroid) - An OAuth2 and OpenID Connect server written in Elixir
-*   [slashmili/ex_guard](https://github.com/slashmili/ex_guard) - ExGuard is a mix command to handle events on file system modifications
-*   [DaoDeCyrus/towel](https://github.com/DaoDeCyrus/towel) - A simple Maybe monad for Elixir.
-*   [Strech/avrora](https://github.com/Strech/avrora) - A convenient Elixir library to work with Avro schemas and Confluent® Schema Registry
-*   [chazsconi/simple_auth](https://github.com/chazsconi/simple_auth) - Elixir authentication/authorisation library
-*   [discord/ex_hash_ring](https://github.com/discord/ex_hash_ring) - A fast consistent hash ring implementation in Elixir.
-*   [coosto/redex](https://github.com/coosto/redex) - Cloud-native Redis server implemented in Elixir
-*   [oltarasenko/epmdless-elixir-example](https://github.com/oltarasenko/epmdless-elixir-example) - A small example showing how to run EPMDLess with elixir (with traffic encryption)
-*   [mischov/meeseeks](https://github.com/mischov/meeseeks) - An Elixir library for parsing and extracting data from HTML and XML with CSS or XPath selectors.
-*   [appcues/strip_js](https://github.com/appcues/strip_js) - An Elixir library for stripping executable JS from HTML and CSS.
-*   [Dalgona/Serum](https://github.com/Dalgona/Serum) - Static website generator for Elixir fans
-*   [seanmor5/genex](https://github.com/seanmor5/genex) - Genetic Algorithms in Elixir!
-*   [sascha-wolf/knigge](https://github.com/sascha-wolf/knigge) - An opinionated way of dealing with behaviours
-*   [AnilRedshift/wand](https://github.com/AnilRedshift/wand) - CLI tool to manage elixir dependencies
-*   [opt-elixir/faktory_worker](https://github.com/opt-elixir/faktory_worker) - Elixir Faktory worker https://hexdocs.pm/faktory_worker
-*   [KamilLelonek/healthchex](https://github.com/KamilLelonek/healthchex) - A set of Plugs to be used for Kubernetes healthchecks.
-*   [wojtekmach/mini_repo](https://github.com/wojtekmach/mini_repo) - MiniRepo allows self-hosting of Hex packages.
-*   [Adzz/ecto_morph](https://github.com/Adzz/ecto_morph) -  morph your Ecto capabilities into the s t r a t o s p h e r e !
-*   [cainophile/cainophile](https://github.com/cainophile/cainophile) -
-*   [taxjar/date_time_parser](https://github.com/taxjar/date_time_parser) - Parse strings into DateTime, NaiveDateTime, Date, or Time  https://hexdocs.pm/date_time_parser
-*   [TheRealReal/ecto-ulid](https://github.com/TheRealReal/ecto-ulid) - Ecto ULID
-*   [omgnetwork/ex_ulid](https://github.com/omgnetwork/ex_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID) in Elixir
-*   [merongivian/ulid](https://github.com/merongivian/ulid) - Universally Unique Lexicographically Sortable Identifier implementation for Elixir
-*   [erikreedstrom/ulid](https://github.com/erikreedstrom/ulid) - Universally Unique Lexicographically Sortable Identifier
-*   [elixir-cldr/cldr_units](https://github.com/elixir-cldr/cldr_units) - Unit formatting (volume, area, length, ...) functions for the Common Locale Data Repository (CLDR)
-*   [dnlserrano/exavier](https://github.com/dnlserrano/exavier) - Elixir mutation testing library
-*   [amrfaissal/ex_ndjson](https://github.com/amrfaissal/ex_ndjson) - Implementation of Newline Delimited JSON (NDJSON) for Elixir
-*   [pedroassumpcao/incident](https://github.com/pedroassumpcao/incident) - Event Sourcing and CQRS library in Elixir
-*   [gpedic/ecto_shortuuid](https://github.com/gpedic/ecto_shortuuid) - Ecto type which adds support for ShortUUID in Ecto schemas
-*   [caredox/aws_ssm_provider](https://github.com/caredox/aws_ssm_provider) - A configuration provider for Distillery which handles AWS SSM parameters
-*   [hauleth/commoner](https://github.com/hauleth/commoner) -
-*   [edw/elixir-dataset](https://github.com/edw/elixir-dataset) - Dataset provides a simple abstraction for managing tabular sets of data
-*   [mbramson/two_factor_in_a_can](https://github.com/mbramson/two_factor_in_a_can) - Aims to be the most developer friendly Elixir/Erlang 2FA library in existence
-*   [bitwalker/exprotobuf](https://github.com/bitwalker/exprotobuf) - Protocol Buffers in Elixir made easy!
-*   [ironbay/brine](https://github.com/ironbay/brine) - Configuration loader for Elixir projects
-*   [sorentwo/flippant](https://github.com/sorentwo/flippant) - :traffic_light: Feature flipping for the Elixir world
-*   [hopsor/open_hours](https://github.com/hopsor/open_hours) - Time calculations using business hours
-*   [antonyshchenko/phoenix-audit-log-microservice](https://github.com/antonyshchenko/phoenix-audit-log-microservice) - Example microservice developed with Phoenix Framework
-*   [fazibear/export](https://github.com/fazibear/export) - Erlport wrapper for Elixir
-*   [farhadi/rate_limiter](https://github.com/farhadi/rate_limiter) - A high performance rate limiter on top of erlang atomics for Elixir
-*   [prodis/wannabe_bool_elixir](https://github.com/prodis/wannabe_bool_elixir) - If Atom, BitString, Integer and Float values wanna be a boolean value, they can using to_boolean/1 function.
-*   [opencensus-beam/opencensus_tesla](https://github.com/opencensus-beam/opencensus_tesla) - Tesla middleware for OpenCensus
-*   [opencensus-beam/opencensus_plug](https://github.com/opencensus-beam/opencensus_plug) - Opencensus integration with Elixir's Plug library
-*   [opencensus-beam/opencensus-chat](https://github.com/opencensus-beam/opencensus-chat) -
-*   [opencensus-beam/opencensus_phoenix](https://github.com/opencensus-beam/opencensus_phoenix) - OpenCensus instrumentation for the Phoenix framework
-*   [opencensus-beam/opencensus_elixir](https://github.com/opencensus-beam/opencensus_elixir) -
-*   [opencensus-beam/opencensus_absinthe](https://github.com/opencensus-beam/opencensus_absinthe) - Opencensus integration with Absinthe
-*   [beam-telemetry/telemetry_metrics_prometheus](https://github.com/beam-telemetry/telemetry_metrics_prometheus) - Complete Telemetry.Metrics Reporter solution for Prometheus
-*   [beam-telemetry/telemetry_metrics](https://github.com/beam-telemetry/telemetry_metrics) - Collect and aggregate Telemetry events over time
-*   [lucaong/cubdb](https://github.com/lucaong/cubdb) - Elixir embedded key/value database
-*   [handnot2/samly](https://github.com/handnot2/samly) - Elixir Plug library to enable SAML 2.0 SP SSO in Phoenix/Plug applications.
-*   [hexpm/bob](https://github.com/hexpm/bob) - The Builder
-*   [nsweeting/rabbit](https://github.com/nsweeting/rabbit) - Build Elixir applications with RabbitMQ
-*   [xou/elixlsx](https://github.com/xou/elixlsx) - An Elixir XLSX writer
-*   [cblage/elixir-json](https://github.com/cblage/elixir-json) - Native JSON library for Elixir
-*   [qcam/saxy](https://github.com/qcam/saxy) - Fast SAX parser and encoder for XML in Elixir
-*   [sorentwo/kiq](https://github.com/sorentwo/kiq) - :postbox: Robust job queue powered by GenStage and Redis
-*   [sorentwo/oban](https://github.com/sorentwo/oban) - 💎 Robust job processing in Elixir, backed by modern PostgreSQL
-*   [mirego/credo_naming](https://github.com/mirego/credo_naming) - 🏷 A suite of Credo checks to enforce naming best practices in an Elixir project
-*   [evadne/ets-playground](https://github.com/evadne/ets-playground) - Leveraging ETS Effectively
-*   [zorbash/observer_live](https://github.com/zorbash/observer_live) - A port of observer_cli using LiveView
-*   [IlyaOsotov/uribe](https://github.com/IlyaOsotov/uribe) - URI builder for elixir
-*   [am-kantox/easy_ets](https://github.com/am-kantox/easy_ets) - The very simple ETS wrapper simplifying cross-process ETS handling (like `Agent`, but `:ets`).
-*   [mirego/elixir-boilerplate](https://github.com/mirego/elixir-boilerplate) - ⚗ The stable base upon which we build our Elixir projects at Mirego.
-*   [madeinussr/exop](https://github.com/madeinussr/exop) - Elixir library that provides macros which allow you to encapsulate business logic and validate incoming parameters with predefined contract.
-*   [techgaun/zxcvbn-elixir](https://github.com/techgaun/zxcvbn-elixir) - Elixir implementation of zxcvbn by dropbox
-*   [llxff/coney](https://github.com/llxff/coney) - Consumer server for RabbitMQ with message publishing functionality.
-*   [riverrun/argon2\_elixir](https://github.com/riverrun/argon2\_elixir) - Elixir wrapper for the Argon2 password hashing algorithm
-*   [riverrun/phauxth](https://github.com/riverrun/phauxth) - Not actively maintained - Authentication library for Phoenix, and other Plug-based, web applications
-*   [lau/tzdata](https://github.com/lau/tzdata) - tzdata for Elixir. Born from the Calendar library.
-*   [elixir-mint/mint](https://github.com/elixir-mint/mint) - Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2.
-*   [elixir-mint/castore](https://github.com/elixir-mint/castore) - Up-to-date certificate store for Elixir.
-*   [phoenixframework/phoenix_live_view](https://github.com/phoenixframework/phoenix_live_view) - Rich, real-time user experiences with server-rendered HTML
-*   [riverrun/comeonin](https://github.com/riverrun/comeonin) - Password hashing specification for the Elixir programming language
-*   [am-kantox/camarero](https://github.com/am-kantox/camarero) - Semi-static JSON API Scaffold for Elixir
-*   [am-kantox/ack](https://github.com/am-kantox/ack) - Tiny drop-in for painless acknowledgements across different applications.
-*   [am-kantox/envio](https://github.com/am-kantox/envio) - Application-wide registry with handy helpers to ease dispatching
-*   [danhper/elixir-browser](https://github.com/danhper/elixir-browser) - Browser detection for Elixir
-*   [rrrene/credo](https://github.com/rrrene/credo) - A static code analysis tool for the Elixir language with a focus on code consistency and teaching.
-*   [riverrun/one_time_pass_ecto](https://github.com/riverrun/one_time_pass_ecto) - No longer maintained - One-time password library with Ecto support (for Elixir)
-*   [whitfin/luger](https://github.com/whitfin/luger) - Handy logging plug for Elixir with IP and status support
-*   [whitfin/tiny](https://github.com/whitfin/tiny) - A small, fast and fully compliant JSON parser in Elixir
-*   [bitcrowd/sshkit.ex](https://github.com/bitcrowd/sshkit.ex) - An Elixir toolkit for performing tasks on one or more servers, built on top of Erlang’s SSH application.
-*   [Virviil/individual](https://github.com/Virviil/individual) - Cluster singleton supervision tree branches in Elixir
-*   [Virviil/swarmglobal](https://github.com/Virviil/swarmglobal) -
-*   [aquapm/aqua](https://github.com/aquapm/aqua) - Aqua project scaffoldment tool
-*   [elixir-cldr/cldr_numbers](https://github.com/elixir-cldr/cldr_numbers) - CLDR Number localisation and formatting
-*   [mrdimosthenis/emel](https://github.com/mrdimosthenis/emel) - Turn data into functions! A simple and functional machine learning library written in elixir.
-*   [gpedic/ex_shortuuid](https://github.com/gpedic/ex_shortuuid) - ShortUUID is a simple UUID shortener for Elixir.
-*   [Ianleeclark/Paseto](https://github.com/Ianleeclark/Paseto) - An Elixir implementation of Paseto (Platform-Agnostic Security Tokens)
-*   [dashbitco/broadway](https://github.com/dashbitco/broadway) - Concurrent and multi-stage data ingestion and data processing with Elixir
-*   [san650/one_plus_n_detector](https://github.com/san650/one_plus_n_detector) - Elixir library to help you detect 1+n queries in applications using Ecto
-*   [CrowdHailer/server_sent_event.ex](https://github.com/CrowdHailer/server_sent_event.ex) - Push updates to Web clients over HTTP or using dedicated server-push protocol
-*   [danschultzer/premailex](https://github.com/danschultzer/premailex) - Preflight for your HTML emails - inline styling and plain text.
-*   [boudra/whistle](https://github.com/boudra/whistle) - Build interactive web experiences with Elixir
-*   [well-ironed/fe](https://github.com/well-ironed/fe) - Functional Elixir
-*   [praxis-of-nines/khafra-search](https://github.com/praxis-of-nines/khafra-search) - A deployable service for a fast and reliable distributable search index
-*   [Decisiv/blunder](https://github.com/Decisiv/blunder) -  A common error struct for elixir apps
-*   [pragdave/component](https://github.com/pragdave/component) - Experiment in moving towards higher-level Elixir components
-*   [derekkraan/ranch_connection_drainer](https://github.com/derekkraan/ranch_connection_drainer) - Gracefully drain ranch connections (Cowboy / Plug / Phoenix servers)
-*   [romul/dbg_inspect](https://github.com/romul/dbg_inspect) - Implementation of dbg! Rust-macro for Elixir
-*   [discord/fastglobal](https://github.com/discord/fastglobal) - Fast no copy globals for Elixir & Erlang.
-*   [sheharyarn/que](https://github.com/sheharyarn/que) - Simple Job Processing in Elixir with Mnesia :zap:
-*   [orisons/rexjs-elixir](https://github.com/orisons/rexjs-elixir) - RexJS is library for reactivity between elixir data with front-end through javascript websockets.
-*   [orisons/y18n](https://github.com/orisons/y18n) - Internationalization library based on YAML files.
-*   [lucas-nelson/ex_logger_mock](https://github.com/lucas-nelson/ex_logger_mock) - A mock logging backend for Elixir unit tests
-*   [derekkraan/walkman](https://github.com/derekkraan/walkman) - Isolate tests from the real world, inspired by Ruby's VCR.
-*   [podium/procrastinator](https://github.com/podium/procrastinator) - Procrastinates work
-*   [joken-elixir/joken](https://github.com/joken-elixir/joken) - Elixir JWT library
-*   [rupurt/juice](https://github.com/rupurt/juice) - Reduce in memory data structures using a lightweight query language
-*   [polleverywhere/chaperon](https://github.com/polleverywhere/chaperon) - HTTP Service Performance & Load Testing Framework
-*   [serverboards/exosql](https://github.com/serverboards/exosql) - Generic SQL engine in Elixir that uses generic data extractors
-*   [msmykowski/double_bypass](https://github.com/msmykowski/double_bypass) - A simple wrapper for Bypass
-*   [DockYard/ecto_fixtures](https://github.com/DockYard/ecto_fixtures) - Fixtures for Elixir apps
-*   [bernardolins/fake_server](https://github.com/bernardolins/fake_server) - FakeServer integrates with ExUnit to make external APIs testing simpler
-*   [archan937/mecks_unit](https://github.com/archan937/mecks_unit) - A simple Elixir package to elegantly mock module functions within (asynchronous) ExUnit tests using Erlang's :meck library
-*   [expert360/absinthe_auth](https://github.com/expert360/absinthe_auth) - Authorisation for the Absinthe GraphQL library
-*   [nsweeting/authex](https://github.com/nsweeting/authex) - Authex is an opinionated JWT authentication and authorization library for Elixir.
-*   [andreapavoni/disco](https://github.com/andreapavoni/disco) - Simple, opinionated yet flexible library to build CQRS/ES driven systems 🕺
-*   [nocursor/ex-cid](https://github.com/nocursor/ex-cid) - Elixir library for creating self-describing content-addressed identifiers for distributed systems (CIDs).
-*   [astarte-platform/astarte](https://github.com/astarte-platform/astarte) - Core Astarte Repository
-*   [feymartynov/ex_operation](https://github.com/feymartynov/ex_operation) - A library for making domain operations in Elixir
-*   [Around25/apino](https://github.com/Around25/apino) - Apino is a BaaS service and code generator for Elixir applications
-*   [spawnfest/func_diff](https://github.com/spawnfest/func_diff) - Spawnfest 2018 project by Nordic Syntax Tree
-*   [spawnfest/spawn_api](https://github.com/spawnfest/spawn_api) - Spawnfest 2018 project by SpawnRB
-*   [spawnfest/raml_ama_ding_dong](https://github.com/spawnfest/raml_ama_ding_dong) - Spawnfest 2018 project by Fluid View Tribune
-*   [obrok/lens](https://github.com/obrok/lens) - A utility for working with nested data structures.
-*   [shufo/ex_doc_refined](https://github.com/shufo/ex_doc_refined) - A refined document viewer for Elixir and Phoenix
-*   [Ianleeclark/u2f_ex](https://github.com/Ianleeclark/u2f_ex) - A server-side U2F (Universal Second Factor) library in Elixir
-*   [devonestes/assertions](https://github.com/devonestes/assertions) - Helpful assertions for ExUnit
-*   [wasnotrice/clover](https://github.com/wasnotrice/clover) - A chat bot framework for Elixir applications
-*   [coryodaniel/speakeasy](https://github.com/coryodaniel/speakeasy) - Middleware based authorization for Absinthe GraphQL powered by Bodyguard
-*   [hansonkd/cables](https://github.com/hansonkd/cables) - Asynchronous  Multiplexed HTTP/2 Client for Elixir
-*   [shufo/log_viewer](https://github.com/shufo/log_viewer) - An Web based Log Viewer for Elixir and Phoenix
-*   [ResiliaDev/planga-phoenix](https://github.com/ResiliaDev/planga-phoenix) - Elixir+Phoenix integration for Planga, the Seamless Chat Service
-*   [mailman-elixir/mailman](https://github.com/mailman-elixir/mailman) - Mailman provides a clean way of defining mailers in your Elixir applications
-*   [straw-hat-labs/straw_hat_review](https://github.com/straw-hat-labs/straw_hat_review) - Review System
-*   [straw-hat-labs/straw_hat](https://github.com/straw-hat-labs/straw_hat) - Utility Package for Error Handling
-*   [straw-hat-labs/straw_hat_graphql](https://github.com/straw-hat-labs/straw_hat_graphql) - Utility Package for GraphQL
-*   [jfrolich/authorize](https://github.com/jfrolich/authorize) - Rule based authorization for Elixir
-*   [jfrolich/snapshot](https://github.com/jfrolich/snapshot) -
-*   [michalmuskala/phoenix_etag](https://github.com/michalmuskala/phoenix_etag) - ETag support for phoenix
-*   [sascha-wolf/etag_plug](https://github.com/sascha-wolf/etag_plug) - A simple to use shallow ETag plug
-*   [Nebo15/annon.api](https://github.com/Nebo15/annon.api) - Configurable API gateway that acts as a reverse proxy with a plugin system.
-*   [spandex-project/spandex](https://github.com/spandex-project/spandex) - A platform agnostic tracing library
-*   [oestrich/gossip-backbone](https://github.com/oestrich/gossip-backbone) - Common sync code for the Gossip "backbone"
-*   [oestrich/raisin](https://github.com/oestrich/raisin) - Moderation tools for the Gossip Network
-*   [oestrich/grapevine-legacy](https://github.com/oestrich/grapevine-legacy) - Grapevine player portal, part of the Gossip Network
-*   [oestrich/gossip-elixir](https://github.com/oestrich/gossip-elixir) - An Elixir client for Grapevine
-*   [sultaniman/every](https://github.com/sultaniman/every) - Calculate even time intervals
-*   [Nebo15/logger_json](https://github.com/Nebo15/logger_json) - JSON console backend for Elixir Logger.
-*   [rentpath/ex_json_logger](https://github.com/rentpath/ex_json_logger) -
-*   [whitfin/jumper](https://github.com/whitfin/jumper) - Jump consistent hash implementation in Elixir (without NIFs)
-*   [whitfin/unsafe](https://github.com/whitfin/unsafe) - Generate unsafe (!) bindings for Elixir functions
-*   [Frameio/herd](https://github.com/Frameio/herd) - Elixir cluster manager
-*   [BoweryFarming/peerage_ec2](https://github.com/BoweryFarming/peerage_ec2) - A Peerage provider for easy clustering on AWS EC2 and Elastic Beanstalk
-*   [bitwalker/ex_unit_clustered_case](https://github.com/bitwalker/ex_unit_clustered_case) - An extension for ExUnit for simplifying tests against a clustered application
-*   [bschmeck/slax](https://github.com/bschmeck/slax) - Elixir SAX Parser
-*   [oestrich/squabble](https://github.com/oestrich/squabble) - Simple leader election for Elixir applications
-*   [commanded/commanded](https://github.com/commanded/commanded) - Use Commanded to build Elixir CQRS/ES applications
-*   [liveforeverx/exrun](https://github.com/liveforeverx/exrun) - Runtime and debugging tools for elixir
-*   [whitfin/local-cluster](https://github.com/whitfin/local-cluster) - Easy local cluster creation for Elixir to aid in unit testing
-*   [mrluc/peerage](https://github.com/mrluc/peerage) - Easy Elixir clusters, pluggable discovery. DNS-based (Kubernetes, Weave), UDP multicast, others.
-*   [skirino/dist_agent](https://github.com/skirino/dist_agent) -
-*   [c-rack/cidr-elixir](https://github.com/c-rack/cidr-elixir) - Classless Inter-Domain Routing (CIDR) for Elixir
-*   [rdf-elixir/sparql_client](https://github.com/rdf-elixir/sparql_client) - A SPARQL client for Elixir
-*   [rdf-elixir/rdf-ex](https://github.com/rdf-elixir/rdf-ex) - An implementation of RDF for Elixir
-*   [rdf-elixir/sparql-ex](https://github.com/rdf-elixir/sparql-ex) - An implementation of SPARQL for Elixir
-*   [emerleite/video_watch_progress](https://github.com/emerleite/video_watch_progress) - Track video playback watch progress and allow the users to return at the same point they leave.
-*   [apdunston/notifier](https://github.com/apdunston/notifier) - OSX notifications in a pluggable architecture for other kinds of notifications.
-*   [fabianlindfors/parallel_task](https://github.com/fabianlindfors/parallel_task) - Elixir library to run multiple functions in parallel and capture the results
-*   [sheharyarn/memento](https://github.com/sheharyarn/memento) - Simple + Powerful interface to the Mnesia Distributed Database 💾
-*   [bechurch/shorten_api_tutorial](https://github.com/bechurch/shorten_api_tutorial) - 🔗How to make a link shortener using Elixir, Phoenix and Mnesia
-*   [almightycouch/gitgud](https://github.com/almightycouch/gitgud) - A Git source code management tool powered by Elixir with easy installation & high extensibility.
-*   [KamilLelonek/postgres-pubsub-elixir](https://github.com/KamilLelonek/postgres-pubsub-elixir) - PostgreSQL async notification via the LISTEN and NOTIFY in Elixir.
-*   [aaronrenner/constantizer](https://github.com/aaronrenner/constantizer) - Helpers to evaluate elixir functions at compile time instead of runtime
-*   [elixir-metadata-logger/metadata_logger_plug](https://github.com/elixir-metadata-logger/metadata_logger_plug) - Plug Middleware to log request and response into in metadata
-*   [elixir-metadata-logger/metadata_logger_tesla](https://github.com/elixir-metadata-logger/metadata_logger_tesla) - Tesla Middleware to log request and response into in metadata
-*   [zhongwencool/maxwell](https://github.com/zhongwencool/maxwell) - Maxwell is an HTTP client which support for middleware and multiple adapters.
-*   [doughsay/maxwell_request_id](https://github.com/doughsay/maxwell_request_id) - Maxwell middleware for adding x-request-id to outgoing requests.
-*   [CaptainFact/captain-fact-api](https://github.com/CaptainFact/captain-fact-api) - 🔎 CaptainFact - API. The one that serves and process all the data for https://captainfact.io
-*   [soundtrackyourbrand/defused](https://github.com/soundtrackyourbrand/defused) - A fuse wrapping macro for easy circuit breaking
-*   [gausby/tortoise](https://github.com/gausby/tortoise) - A MQTT Client written in Elixir
-*   [oestrich/grapevine](https://github.com/oestrich/grapevine) - The MUD Chat Network
-*   [derekkraan/delta_crdt_ex](https://github.com/derekkraan/delta_crdt_ex) - Use DeltaCrdt to build distributed applications in Elixir
-*   [derekkraan/horde](https://github.com/derekkraan/horde) - Horde is a distributed Supervisor and Registry backed by DeltaCrdt
-*   [petrohi/machine_gun](https://github.com/petrohi/machine_gun) - HTTP/1 and HTTP/2 client for Elixir. Based on Gun and Poolboy.
-*   [zorbash/opus](https://github.com/zorbash/opus) - A framework for pluggable business logic components
-*   [boydm/scenic](https://github.com/boydm/scenic) - Core Scenic library
-*   [JakeBecker/elixir-ls](https://github.com/JakeBecker/elixir-ls) - A frontend-independent IDE "smartness" server for Elixir. Implements the JSON-based "Language Server Protocol" standard and provides debugger support via VS Code's debugger protocol.
-*   [gmtprime/extatus](https://github.com/gmtprime/extatus) - App to report metrics to Prometheus from Elixir GenServers
-*   [wise-home/hub](https://github.com/wise-home/hub) - Pub-sub hub with pattern subscription
-*   [elixir-soap/soap](https://github.com/elixir-soap/soap) - SOAP client for Elixir programming language
-*   [elixir-lang/gen_stage](https://github.com/elixir-lang/gen_stage) - Producer and consumer actors with back-pressure for Elixir
-*   [bitwalker/libgraph](https://github.com/bitwalker/libgraph) - A graph data structure library for Elixir projects
-*   [arcz/libcluster_consul](https://github.com/arcz/libcluster_consul) - Consul strategy for libcluster
-*   [kyleaa/libcluster_ec2](https://github.com/kyleaa/libcluster_ec2) -
-*   [jeanparpaillon/quaff](https://github.com/jeanparpaillon/quaff) - Erlang/Elixir helpers
-*   [infinitered/maybe](https://github.com/infinitered/maybe) - Access Elixir maps and structs, protected from `nil`
-*   [byjpr/MapRewire](https://github.com/byjpr/MapRewire) - Syntactic sugar to bulk rekey maps
-*   [danschultzer/pow](https://github.com/danschultzer/pow) - Robust, modular, and extendable user authentication system
-*   [pow-auth/pow_assent](https://github.com/pow-auth/pow_assent) - Multi-provider authentication for your Pow enabled app
-*   [shankardevy/neem](https://github.com/shankardevy/neem) - A mini web framework built from scratch as explained in the book - Garuda - Demystify Phoenix Internals & Rebuild Phoenix Clone
-*   [shankardevy/mango](https://github.com/shankardevy/mango) - Ecommerce site that you will build while learning Mastering Phoenix Framework
-*   [aws-beam/aws-codegen](https://github.com/aws-beam/aws-codegen) - Code generator for AWS clients in Erlang and Elixir.
-*   [Skoda091/cognitex](https://github.com/Skoda091/cognitex) - Library for managing user accounts through AWS Cognito service.
-*   [mschae/cors_plug](https://github.com/mschae/cors_plug) - An Elixir Plug to add CORS.
-*   [bitwalker/toml-elixir](https://github.com/bitwalker/toml-elixir) - An implementation of TOML for Elixir projects, compliant with the latest specification
-*   [absinthe-graphql/absinthe_phoenix](https://github.com/absinthe-graphql/absinthe_phoenix) -
-*   [michalmuskala/decompile](https://github.com/michalmuskala/decompile) -
-*   [sasa1977/parent](https://github.com/sasa1977/parent) - Custom parenting of processes in Elixir
-*   [HugoLnx/acai-restaurant](https://github.com/HugoLnx/acai-restaurant) - A simple application using GenStage with pretty tracing for studying purposes.
-*   [tmbb/schism](https://github.com/tmbb/schism) - A library that makes it easy to have alternative implementation of functions for benchmarks
-*   [pragdave/mix_templates](https://github.com/pragdave/mix_templates) - Basis of an open templating system for mix. Also see mix_gen
-*   [abiko-search/tongue](https://github.com/abiko-search/tongue) - Elixir port of Nakatani Shuyo's natural language detector
-*   [heyoutline/cloud_watch](https://github.com/heyoutline/cloud_watch) - Logger backend for Elixir applications
-*   [mgwidmann/flames](https://github.com/mgwidmann/flames) - Real time error monitoring for Phoenix and Elixir applications.
-*   [globocom/alchemetrics_tesla](https://github.com/globocom/alchemetrics_tesla) - Tesla middleware to report external call metrics.
-*   [globocom/alchemetrics_web](https://github.com/globocom/alchemetrics_web) - Collect and report key metrics for a typical web application based on Phoenix and Ecto.
-*   [globocom/alchemetrics](https://github.com/globocom/alchemetrics) - Elixir metrics reporter and collector
-*   [ricn/rapport](https://github.com/ricn/rapport) - Rapport aims to provide a robust set of modules to generate HTML reports that both looks good in the browser and when being printed.
-*   [annkissam/common_graphql_client](https://github.com/annkissam/common_graphql_client) - Elixir GraphQL Client with HTTP and WebSocket Support
-*   [annkissam/absinthe_websocket](https://github.com/annkissam/absinthe_websocket) - Communicate with a Absinthe+Phoenix Endpoint over WebSockets
-*   [danielberkompas/number](https://github.com/danielberkompas/number) - ActionView::Helpers::NumberHelper for Elixir
-*   [sevenmind/kaufmann_ex](https://github.com/sevenmind/kaufmann_ex) - Kafka backed service library.
-*   [Kr00lIX/gen_worker](https://github.com/Kr00lIX/gen_worker) - Generic Worker behavior that helps to run task at a specific time with a specified frequency.
-*   [appcues/gen_retry](https://github.com/appcues/gen_retry) - Utilities for retrying Elixir functions, with configurable delay and backoff.
-*   [ericentin/gen_state_machine](https://github.com/ericentin/gen_state_machine) - An idiomatic Elixir wrapper for gen_statem in OTP 19 (and above).
-*   [sasa1977/erlangelist](https://github.com/sasa1977/erlangelist) - Source code of The Erlangelist blog
-*   [elixir-makeup/makeup](https://github.com/elixir-makeup/makeup) - Syntax highlighter for Elixir inspired by Pygments
-*   [nccgroup/sobelow](https://github.com/nccgroup/sobelow) - Security-focused static analysis for the Phoenix Framework
-*   [ExHammer/hammer-plug](https://github.com/ExHammer/hammer-plug) - A plug to apply rate-limiting with Hammer
-*   [sheharyarn/ztd](https://github.com/sheharyarn/ztd) - Distributed (not really) real-time Todo App over RabbitMQ in Elixir 🐰⚡️🌐💧💻
-*   [ejpcmac/typed_struct](https://github.com/ejpcmac/typed_struct) - An Elixir library for defining structs with a type without writing boilerplate code.
-*   [CrowdHailer/pachyderm](https://github.com/CrowdHailer/pachyderm) - Virtual actors for elixir
-*   [AlloyCI/alloy_ci](https://github.com/AlloyCI/alloy_ci) - Continuous Integration, Deployment, and Delivery coordinator, written in Elixir.
-*   [thiamsantos/pwned](https://github.com/thiamsantos/pwned) - Check if your password has been pwned
-*   [twooster/strap](https://github.com/twooster/strap) - SRP (Secure Remote Password) 6/6a library for Elixir
-*   [CodeSteak/Flower](https://github.com/CodeSteak/Flower) - Bloom Filters in Elixir using Rust NIFs
-*   [gmcabrita/murmur](https://github.com/gmcabrita/murmur) - :speech_balloon: An implementation of the non-cryptographic hash Murmur3
-*   [gmcabrita/bloomex](https://github.com/gmcabrita/bloomex) - :hibiscus: A pure Elixir implementation of Scalable Bloom Filters
-*   [ex-aws/ex_aws_s3](https://github.com/ex-aws/ex_aws_s3) -
-*   [SiliconJungles/eqrcode](https://github.com/SiliconJungles/eqrcode) - Simple QRCode Generator in Elixir
-*   [beatrichartz/csv](https://github.com/beatrichartz/csv) - CSV Decoding and Encoding for Elixir
-*   [dashbitco/nimble_parsec](https://github.com/dashbitco/nimble_parsec) - A simple and fast library for text-based parser combinators
-*   [tallakt/codepagex](https://github.com/tallakt/codepagex) - Elixir string encoding conversion - like iconv but pure Elixir
-*   [meltwater/gen_rmq](https://github.com/meltwater/gen_rmq) - Elixir AMQP consumer and publisher behaviours
-*   [phoenixframework/firenest](https://github.com/phoenixframework/firenest) -
-*   [Nebo15/annon.ktl](https://github.com/Nebo15/annon.ktl) - `annonktl` is a Annon API Gateway management CLI.
-*   [Nebo15/ecto_mnesia](https://github.com/Nebo15/ecto_mnesia) - Ecto adapter for Mnesia Erlang term database.
-*   [annkissam/akd](https://github.com/annkissam/akd) - Elixir Deployment Automation Package
-*   [elixir-toniq/hlclock](https://github.com/elixir-toniq/hlclock) - Hybrid Logical Clocks for Elixir
-*   [CrowdHailer/watercooler](https://github.com/CrowdHailer/watercooler) - Building a distributed chatroom with Raxx.Kit
-*   [albert-io/optimal](https://github.com/albert-io/optimal) - A schema based keyword list option validator.
-*   [werbitzky/elastix](https://github.com/werbitzky/elastix) - A simple Elasticsearch REST client written in Elixir.
-*   [radar/elastic](https://github.com/radar/elastic) - A thin veneer over HTTPotion that talks to Elastic Search
-*   [danielberkompas/elasticsearch-elixir](https://github.com/danielberkompas/elasticsearch-elixir) - No-nonsense Elasticsearch library for Elixir
-*   [mobileoverlord/phoenix_client](https://github.com/mobileoverlord/phoenix_client) - Elixir Phoenix Client for Channels
-*   [danielberkompas/delegate_with_docs](https://github.com/danielberkompas/delegate_with_docs) - Delegate functions while preserving their docs
-*   [RobertDober/read_doc](https://github.com/RobertDober/read_doc) - An Elixir tool to extract docstrings into files, typically markdown files, as e.g. README.md
-*   [tyre/gutenex](https://github.com/tyre/gutenex) - Native PDF generation for Elixir
-*   [coletiv/puppeteer-pdf](https://github.com/coletiv/puppeteer-pdf) - PDF generation wrapper for Elixir using Puppeteer
-*   [nsweeting/stat_buffer](https://github.com/nsweeting/stat_buffer) - StatBuffer provides an efficient way to maintain persistable stat counts.
-*   [uesteibar/errol](https://github.com/uesteibar/errol) - Orchestrate RabbitMQ consumers in an OTP manner 📬
-*   [mirego/accent](https://github.com/mirego/accent) - The first developer-oriented translation tool. True asynchronous flow between translators and your team.
-*   [samsondav/rihanna_ui](https://github.com/samsondav/rihanna_ui) - A pretty UI for rihanna
-*   [samsondav/rihanna](https://github.com/samsondav/rihanna) - Rihanna is a high performance postgres-backed job queue for Elixir
-*   [aguxez/pastry](https://github.com/aguxez/pastry) - Turn maps and keyword lists into query strings.
-*   [sascha-wolf/brex](https://github.com/sascha-wolf/brex) - define, compose, and evaluate your business rules in Elixir
-*   [am-kantox/elixir-iteraptor](https://github.com/am-kantox/elixir-iteraptor) - Handy enumerable operations implementation.
-*   [vectordotdev/timber-elixir](https://github.com/vectordotdev/timber-elixir) - 🌲 Great Elixir logging made easy
-*   [ivx/ink](https://github.com/ivx/ink) - A Logger backend that logs JSON
-*   [vic/pond](https://github.com/vic/pond) - State aware Elixir functions without spawning processes
-*   [techgaun/ex_mustang](https://github.com/techgaun/ex_mustang) - :sparkles: A simple, clueless bot
-*   [mikejdorm/sftp_ex](https://github.com/mikejdorm/sftp_ex) -
-*   [straw-hat-labs/straw_hat_map](https://github.com/straw-hat-labs/straw_hat_map) - Map Information and Addresses Management
-*   [SpotIM/gen_spoxy](https://github.com/SpotIM/gen_spoxy) - **DEPRECATED** caching made fun!
-*   [unnawut/licensir](https://github.com/unnawut/licensir) - An Elixir mix task that lists all the licenses used by your Mix project dependencies.
-*   [boudra/alternate](https://github.com/boudra/alternate) - Plug and Phoenix helpers to localize your web app via the URL
-*   [smeevil/set_locale](https://github.com/smeevil/set_locale) - elixir phoenix plug that can extract locale from browser headers or paths for redirection and setting of get text locales
-*   [urbint/ex_dash](https://github.com/urbint/ex_dash) - Build a Dash Docset with your internal Elixir app
-*   [vic/mix_under](https://github.com/vic/mix_under) - Execute mix tasks under Elixir umbrella applications
-*   [oo6/mix-bump](https://github.com/oo6/mix-bump) - This is a simple mix task to version bump a mix project.
-*   [surik/mix_debeam](https://github.com/surik/mix_debeam) - MIX task to get Erlang code of Elixir module
-*   [aforward/version_tasks](https://github.com/aforward/version_tasks) - elixir mix task to automate the incrementation of your project
-*   [Recruitee/mix_docker](https://github.com/Recruitee/mix_docker) - Put your Elixir app production release inside minimal docker image
-*   [railsmechanic/nanoid](https://github.com/railsmechanic/nanoid) - Elixir port of NanoID, a secure and URL-friendly unique ID generator. https://hex.pm/packages/nanoid
-*   [minijackson/paddle](https://github.com/minijackson/paddle) - A library simplifying LDAP usage in Elixir projects
-*   [jmerriweather/exldap](https://github.com/jmerriweather/exldap) - A module for working with LDAP from Elixir
-*   [Overbryd/nodex](https://github.com/Overbryd/nodex) - A set of helper modules that enable you to work with distributed elixir and c-nodes.
-*   [quantum-elixir/quantum-core](https://github.com/quantum-elixir/quantum-core) - :watch: Cron-like job scheduler for Elixir
-*   [michalmuskala/format](https://github.com/michalmuskala/format) - A simple string formatter for Elixir
-*   [jakub-zawislak/formex_ecto](https://github.com/jakub-zawislak/formex_ecto) - Ecto integration for Formex
-*   [dunyakirkali/format_parser.ex](https://github.com/dunyakirkali/format_parser.ex) - The owls are not what they seem
-*   [linjunpop/receipt_decoder](https://github.com/linjunpop/receipt_decoder) - 🔑 Decode iOS App receipt in Elixir
-*   [CrowdHailer/git_status](https://github.com/CrowdHailer/git_status) - Compile time status of GIT repository for source code.
-*   [nsweeting/gen_queue](https://github.com/nsweeting/gen_queue) - Generic queues with adapter support for Elixir
-*   [duffelhq/paginator](https://github.com/duffelhq/paginator) - Cursor-based pagination for Elixir Ecto
-*   [michalmuskala/jason](https://github.com/michalmuskala/jason) - A blazing fast JSON parser and generator in pure Elixir.
-*   [Ethelo/kronky](https://github.com/Ethelo/kronky) - Kronky bridges the gap between Ecto and Absinthe GraphQL by listing validation messages in a mutation payload.
-*   [sikanhe/apollo-tracing-elixir](https://github.com/sikanhe/apollo-tracing-elixir) - Apollo Tracing middleware for Absinthe
-*   [soundtrackyourbrand/absinthe-metrics](https://github.com/soundtrackyourbrand/absinthe-metrics) - Pluggable metrics for Absinthe based GraphQL backends
-*   [urbint/bastion](https://github.com/urbint/bastion) -
-*   [soundtrackyourbrand/absinthe-throttle](https://github.com/soundtrackyourbrand/absinthe-throttle) - A pluggable throttling middleware for concurrent Absinthe queries
-*   [Financial-Times/tapper_absinthe_plug](https://github.com/Financial-Times/tapper_absinthe_plug) - Propagate the Tapper Id into the Absinthe context
-*   [Financial-Times/tapper_plug](https://github.com/Financial-Times/tapper_plug) - Plug integration for Tapper
-*   [LeToteTeam/band](https://github.com/LeToteTeam/band) - Its just a bunch of elixir instrumenters
-*   [kelvinst/plumbing](https://github.com/kelvinst/plumbing) - Useful functions to work with Elixir pipes.
-*   [codedge-llc/mapi](https://github.com/codedge-llc/mapi) - Turn your Elixir module into an HTTP microservice API
-*   [ruby2elixir/atomic_map](https://github.com/ruby2elixir/atomic_map) - A small utility to convert deep Elixir maps with mixed string/atom keys to atom-only keyed maps.
-*   [azranel/ecto_facade](https://github.com/azranel/ecto_facade) - Separate your read and write operations in replicated database setup
-*   [ejpcmac/expected](https://github.com/ejpcmac/expected) - An Elixir application for login and session management.
-*   [am-kantox/peluquero](https://github.com/am-kantox/peluquero) - RabbitMQ “middleware” that allows to act as a plug consuming many input exchanges, publishing to many outputs
-*   [ericentin/tqdm_elixir](https://github.com/ericentin/tqdm_elixir) - Add a progress bar to your enumerables in a second
-*   [nietaki/rexbug](https://github.com/nietaki/rexbug) - A thin Elixir wrapper for the redbug Erlang tracing debugger.
-*   [acutario/ravenx](https://github.com/acutario/ravenx) - Notification dispatch library for Elixir applications
-*   [KazuCocoa/http_proxy](https://github.com/KazuCocoa/http_proxy) - http proxy with Elixir. wait request with multi port and forward to each URIs
-*   [sealas/authtoken](https://github.com/sealas/authtoken) - Simplified encrypted authentication tokens using JWE
-*   [Betree/burnex](https://github.com/Betree/burnex) - 📨🔥 Elixir burner email (temporary address) detector
-*   [straw-hat-labs/straw_hat_mailer](https://github.com/straw-hat-labs/straw_hat_mailer) - Email Management
-*   [devonestes/fast-elixir](https://github.com/devonestes/fast-elixir) - :dash: Writing Fast Elixir :heart_eyes: -- Collect Common Elixir idioms.
-*   [amotion-city/lib_lat_lon](https://github.com/amotion-city/lib_lat_lon) - Handy geo coding against different providers
-*   [deadtrickster/prometheus-phoenix](https://github.com/deadtrickster/prometheus-phoenix) - Prometheus.io Phoenix instrumenter
-*   [jvoegele/external_service](https://github.com/jvoegele/external_service) - Elixir library for safely using any external service or API using automatic retry with rate limiting and circuit breakers.
-*   [deadtrickster/prometheus-ecto](https://github.com/deadtrickster/prometheus-ecto) - Prometheus.io collector for Elixir.Ecto
-*   [deadtrickster/prometheus-plugs](https://github.com/deadtrickster/prometheus-plugs) - Prometheus.erl Elixir Plugs
-*   [deadtrickster/prometheus.ex](https://github.com/deadtrickster/prometheus.ex) - Prometheus.io Elixir client
-*   [shinyscorpion/wobserver](https://github.com/shinyscorpion/wobserver) - Web based metrics, monitoring, and observer
-*   [welaika/sputnik](https://github.com/welaika/sputnik) - Crawling since 1957
-*   [ajvondrak/remote_ip](https://github.com/ajvondrak/remote_ip) - A plug to rewrite the Plug.Conn's remote_ip based on forwarding headers.
-*   [grych/ip2country](https://github.com/grych/ip2country) - Simple geolocating module (IP -> Country Code) with built-in database, for Elixir
-*   [michalmuskala/plug_attack](https://github.com/michalmuskala/plug_attack) - A plug building toolkit for blocking and throttling abusive requests
-*   [aviabird/gringotts](https://github.com/aviabird/gringotts) - A complete payment library for Elixir and Phoenix Framework
-*   [lulu-2021/content_indexer](https://github.com/lulu-2021/content_indexer) - index content using stemming & tf_idf matching
-*   [spawnfest/til](https://github.com/spawnfest/til) - by TIL
-*   [parody/flock](https://github.com/parody/flock) - by 0xfafafa
-*   [spawnfest/elixirbench](https://github.com/spawnfest/elixirbench) - Long Running Benchmarks for Elixir Projects. Spawnfest 2017 project winner :trophy:
-*   [sticksnleaves/bamboo_eex](https://github.com/sticksnleaves/bamboo_eex) - EEx template support for Bamboo
-*   [bitwalker/libring](https://github.com/bitwalker/libring) - A fast consistent hash ring implementation in Elixir
-*   [Nebo15/sage](https://github.com/Nebo15/sage) - A dependency-free tool to run distributed transactions in Elixir, inspired by Sagas pattern.
-*   [fredwu/opq](https://github.com/fredwu/opq) - Elixir queue! A simple, in-memory queue with worker pooling and rate limiting in Elixir.
-*   [koudelka/honeydew](https://github.com/koudelka/honeydew) - Job Queue for Elixir. Clustered or Local. Straight BEAM. Optional Ecto. 💪🍈
-*   [whatyouhide/stream_data](https://github.com/whatyouhide/stream_data) - Data generation and property-based testing for Elixir. 🔮
-*   [tmbb/ex_doc_makeup](https://github.com/tmbb/ex_doc_makeup) - ExDocs + Makeup
-*   [ggpasqualino/plug_checkup](https://github.com/ggpasqualino/plug_checkup) - PlugCheckup provides a Plug for adding simple health checks to your app
-*   [whitfin/child-spec-compat](https://github.com/whitfin/child-spec-compat) - Compatibility macros for Elixir v1.5+ child specifications
-*   [agalaframework/agala](https://github.com/agalaframework/agala) - Full featured messaging bot framework.
-*   [jeffutter/job_queue](https://github.com/jeffutter/job_queue) - Elixir Job/Worker Queue
-*   [otobus/event_bus](https://github.com/otobus/event_bus) - :surfer: Traceable, extendable and minimalist **event bus** implementation for Elixir with built-in **event store** and **event watcher** based on ETS.
-*   [ex-aws/ex_aws](https://github.com/ex-aws/ex_aws) - A flexible, easy to use set of clients AWS APIs for Elixir
-*   [Qqwy/elixir-okasaki](https://github.com/Qqwy/elixir-okasaki) - Multiple different implementations of efficient functional queues and dequeues for Elixir
-*   [mspanc/jumbo](https://github.com/mspanc/jumbo) - Reliable, OTP-style, lightweight job processing queue for the Elixir language
-*   [princemaple/elixir-queue](https://github.com/princemaple/elixir-queue) - Queue data structure for Elixir-lang
-*   [livehelpnow/fireworks](https://github.com/livehelpnow/fireworks) - Elixir work queue consumption for RabbitMQ
-*   [inside-track/itk_queue](https://github.com/inside-track/itk_queue) - Provides convenience methods for subscribing to queues and publishing messages.
-*   [Qqwy/elixir-number](https://github.com/Qqwy/elixir-number) - Numbers -- A generic wrapper to use *any* custom Numeric type in Elixir!
-*   [swelham/cashier](https://github.com/swelham/cashier) - Cashier is an Elixir library that aims to be an easy to use payment gateway, whilst offering the fault tolerance and scalability benefits of being built on top of Erlang/OTP
-*   [Harrisonl/Blex](https://github.com/Harrisonl/Blex) - A Developer focused Blogging platform
-*   [kipcole9/money](https://github.com/kipcole9/money) - Elixir implementation of Money with Currency
-*   [gutschilla/elixir-pdf-generator](https://github.com/gutschilla/elixir-pdf-generator) - Create PDFs with wkhtmltopdf or puppeteer/chromium from Elixir.
-*   [ex-aws/ex_aws_cloudwatch](https://github.com/ex-aws/ex_aws_cloudwatch) -
-*   [riverrun/not_qwerty123](https://github.com/riverrun/not_qwerty123) - Not actively maintained - Password strength checker and random password generator for Elixir
-*   [madeinussr/express](https://github.com/madeinussr/express) - Elixir library for sending iOS and Android push notifications. Supports Apple APNS (either certificate or jwt) and Google FCM services.
-*   [schurig/elixir-remote-monitor](https://github.com/schurig/elixir-remote-monitor) - ⎋ A Mix task that helps you to observe your remote elixir nodes from your local machine.
-*   [andrewMacmurray/phoenix-elm-scaffold](https://github.com/andrewMacmurray/phoenix-elm-scaffold) - Mix Task to generate an elm app inside a Phoenix (1.3) app
-*   [njonsson/example_files](https://github.com/njonsson/example_files) - Mix tasks for managing example files in your project
-*   [edib-tool/mix-edib](https://github.com/edib-tool/mix-edib) - A mix task for EDIB (elixir docker image builder)
-*   [absinthe-graphql/dataloader](https://github.com/absinthe-graphql/dataloader) - DataLoader for Elixir
-*   [assert-value/assert_value_elixir](https://github.com/assert-value/assert_value_elixir) - ExUnit's assert on steroids that writes and updates tests for you
-*   [labzero/bootleg](https://github.com/labzero/bootleg) - Simple deployment and server automation for Elixir.
-*   [labzero/bootleg_phoenix](https://github.com/labzero/bootleg_phoenix) - Provides Phoenix-specific Bootleg tasks.
-*   [uesteibar/neuron](https://github.com/uesteibar/neuron) - A GraphQL client for Elixir
-*   [derailed/ex_ray_tracers](https://github.com/derailed/ex_ray_tracers) - Sample Phoenix apps to demonstrate OpenTracing with Elixir
-*   [derailed/ex_ray](https://github.com/derailed/ex_ray) - An Elixir OpenTracing library based on Otter
-*   [Financial-Times/tapper](https://github.com/Financial-Times/tapper) - Zipkin client for Elixir
-*   [wojtekmach/shipit](https://github.com/wojtekmach/shipit) - ShipIt automates Hex package publishing to avoid common mistakes
-*   [dashbitco/mox](https://github.com/dashbitco/mox) - Mocks and explicit contracts in Elixir
-*   [nucleartide/errors](https://github.com/nucleartide/errors) - Error handling helpers for Elixir
-*   [maxneuvians/maple](https://github.com/maxneuvians/maple) - Elixir GraphQL Client | Compile time client code generator for GraphQL APIs based on introspection queries and schema files
-*   [PragTob/deep_merge](https://github.com/PragTob/deep_merge) - Deep (recursive) merge for maps, keywords and others in Elixir
-*   [fertapric/async_with](https://github.com/fertapric/async_with) - The asynchronous version of Elixir's "with", resolving the dependency graph and executing the clauses in the most performant way possible!
-*   [pramsky/eftp](https://github.com/pramsky/eftp) - Simple Elixir FTP Client
-*   [robmckinnon/data_morph](https://github.com/robmckinnon/data_morph) - Create streams of Elixir structs, maps with atom keys, and keyword lists from CSV/TSV data streams
-*   [CargoSense/ex_csv](https://github.com/CargoSense/ex_csv) - CSV for Elixir
-*   [Qqwy/elixir-map_diff](https://github.com/Qqwy/elixir-map_diff) - Calculates the difference between two (nested) maps,  and returns a map representing the patch of changes.
-*   [kagux/ex_debug_toolbar](https://github.com/kagux/ex_debug_toolbar) - A debug web toolbar for Phoenix projects to display all sorts of information about request
-*   [amberbit/mappable](https://github.com/amberbit/mappable) -
-*   [tompave/fun_with_flags_ui](https://github.com/tompave/fun_with_flags_ui) - Web dashboard for the FunWithFlags Elixir package
-*   [tompave/fun_with_flags](https://github.com/tompave/fun_with_flags) - Feature Flags/Toggles for Elixir
-*   [jeffkreeftmeijer/mix_proper](https://github.com/jeffkreeftmeijer/mix_proper) - Run PropEr test suites with mix. Inspired by rebar3\_proper.
-*   [DockYard/inquisitor](https://github.com/DockYard/inquisitor) - Composable query builder for Ecto
-*   [annkissam/rummage_ecto](https://github.com/annkissam/rummage_ecto) - Search, Sort and Pagination for ecto queries
-*   [dgvncsz0f/zipflow](https://github.com/dgvncsz0f/zipflow) - stream a zip archive while building it
-*   [beatrichartz/parallel_stream](https://github.com/beatrichartz/parallel_stream) - A parallelized stream implementation for Elixir
-*   [coryodaniel/arbor](https://github.com/coryodaniel/arbor) - Ecto elixir adjacency list and tree traversal. Supports Ecto versions 2 and 3.
-*   [danielberkompas/cloak](https://github.com/danielberkompas/cloak) - Elixir encryption library designed for Ecto
-*   [vic/verily](https://github.com/vic/verily) - Demo application for APW subscriptions via websockets
-*   [arjan/absinthe_dsl](https://github.com/arjan/absinthe_dsl) - Elixir DSL for constructing GraphQL queries
-*   [fourkio/reverse_proxy_elixir_phoenix](https://github.com/fourkio/reverse_proxy_elixir_phoenix) -
-*   [cgregfreeman/phoenix_rust_ports_and_nifs](https://github.com/cgregfreeman/phoenix_rust_ports_and_nifs) - Examples of Phoenix with Rust interfaces via both ports and nifs
-*   [JuneKelly/sneeze](https://github.com/JuneKelly/sneeze) - Render Elixir data-structures to HTML, inspired by Hiccup.
-*   [OvermindDL1/protocol_ex](https://github.com/OvermindDL1/protocol_ex) - Elixir Extended Protocol
-*   [sasa1977/con_cache](https://github.com/sasa1977/con_cache) - ets based key/value cache with row level isolated writes and ttl support
-*   [whitfin/cachex](https://github.com/whitfin/cachex) - A powerful caching library for Elixir with support for transactions, fallbacks and expirations
-*   [Azolo/websockex](https://github.com/Azolo/websockex) - An Elixir Websocket Client
-*   [wemake-services/recase](https://github.com/wemake-services/recase) - :recycle: Convert strings to any case.
-*   [elixir-cldr/cldr](https://github.com/elixir-cldr/cldr) - Elixir implementation of CLDR/ICU
-*   [pragdave/stream_perlin](https://github.com/pragdave/stream_perlin) - Generate a stream of floats that when plotted will look like a random but smooth curve. Uses the 1D Perlin algorithm.
-*   [pragdave/private](https://github.com/pragdave/private) - Make private functions public if Mix.env is :test. This allows them to be tested.
-*   [pragdave/diet](https://github.com/pragdave/diet) - Simple reducer-based state machine
-*   [pragdave/jeeves](https://github.com/pragdave/jeeves) -
-*   [swoosh/swoosh](https://github.com/swoosh/swoosh) - Compose, deliver and test your emails easily in Elixir
-*   [antonmi/flowex](https://github.com/antonmi/flowex) - Flow-Based Programming framework for Elixir
-*   [samueljseay/recaptcha](https://github.com/samueljseay/recaptcha) - A simple reCaptcha 2 library for Elixir applications.
-*   [smpoulsen/focus](https://github.com/smpoulsen/focus) - Lightweight Elixir lenses
-*   [shinyscorpion/task_bunny](https://github.com/shinyscorpion/task_bunny) - TaskBunny is a background processing application written in Elixir and uses RabbitMQ as a messaging backend
-*   [samueljseay/page_object](https://github.com/samueljseay/page_object) - Page Objects for Hound / Elixir
-*   [wojtekmach/acme_bank](https://github.com/wojtekmach/acme_bank) - An example ☂ project
-*   [rkotze/eye_drops](https://github.com/rkotze/eye_drops) - Configurable Elixir mix task to watch file changes and run the corresponding command.
-*   [boydm/phoenix_integration](https://github.com/boydm/phoenix_integration) - Lightweight server side integration test tools for Phoenix
-*   [vinsol/nectarcommerce](https://github.com/vinsol/nectarcommerce) - Quest for customizable E-commerce - the Elixir way
-*   [vinsol/worldly](https://github.com/vinsol/worldly) -
-*   [StoiximanServices/msgpack-elixir](https://github.com/StoiximanServices/msgpack-elixir) - MessagePack Implementation for Elixir / msgpack.org\[Elixir]
-*   [matthewlehner/phoenix-webpack-example](https://github.com/matthewlehner/phoenix-webpack-example) - Phoenix Framework with Webpack for asset compilation.
-*   [NoRedInk/until_then](https://github.com/NoRedInk/until_then) - Calculates offsets to regularly scheduled events.
-*   [vic/test_async](https://github.com/vic/test_async) - Make tests inside your ExUnit case to run async.
-*   [lpil/mix-test.watch](https://github.com/lpil/mix-test.watch) - 🎠   Because TDD is awesome
-*   [acutario/decoratex](https://github.com/acutario/decoratex) -
-*   [vic/params](https://github.com/vic/params) - Easy parameters validation/casting with Ecto.Schema, akin to Rails' strong parameters.
-*   [tatsuya6502/recon_ex](https://github.com/tatsuya6502/recon_ex) - Elixir wrapper for Recon, tools to diagnose Erlang VM safely in production
-*   [arjan/decorator](https://github.com/arjan/decorator) - Function decorators for Elixir
-*   [almassapargali/Sphinx](https://github.com/almassapargali/Sphinx) - Authorization library for Phoenix web framework
-*   [neopoly/neoboard](https://github.com/neopoly/neoboard) - A dashboard solution instrumenting Elixir, Phoenix and React
-*   [socialpaymentsbv/ex_phone_number](https://github.com/socialpaymentsbv/ex_phone_number) - Elixir port of libphonenumber
-*   [Nebo15/confex](https://github.com/Nebo15/confex) - Useful helper to read and use application configuration from environment variables.
-*   [bencoppock/bunyan](https://github.com/bencoppock/bunyan) - This is not the bunyan you're looking for—go here instead:
-*   [bleacherreport/plug_logger_json](https://github.com/bleacherreport/plug_logger_json) - Elixir Plug that formats http request logs as json
-*   [DaoDeCyrus/geocoder](https://github.com/DaoDeCyrus/geocoder) - An Elixir Geocoder/Reverse Geocoder
-*   [carnivalmobile/gcm](https://github.com/carnivalmobile/gcm) - Elixir library to send pushes through GCM/Firebase (HTTP only)
-*   [firestormforum/firestorm](https://github.com/firestormforum/firestorm) - An open-source forum engine, with an Elixir+Phoenix backend and an Elm frontend.
-*   [smpallen99/ex_admin](https://github.com/smpallen99/ex_admin) - ExAdmin is an auto administration package for Elixir and the Phoenix Framework
-*   [bryanjos/geo](https://github.com/bryanjos/geo) - A collection of GIS functions for Elixir
-*   [elixirkoans/elixir-koans](https://github.com/elixirkoans/elixir-koans) - Elixir learning exercises
-*   [codedge-llc/scribe](https://github.com/codedge-llc/scribe) - Pretty print tables of Elixir structs and maps
-*   [deltadoc/text_delta](https://github.com/deltadoc/text_delta) - Elixir counter-part of the Quill.js Delta library. Provides a baseline for Operational Transformation of rich text.
-*   [jclem/ot_ex](https://github.com/jclem/ot_ex) - OT algorithms for Elixir
-*   [carturoch/ex_uc](https://github.com/carturoch/ex_uc) - Elixir Unit Converter
-*   [edgurgel/verk](https://github.com/edgurgel/verk) - A job processing system that just verks! 🧛‍
-*   [crbelaus/trans](https://github.com/crbelaus/trans) - Embedded translations for Elixir
-*   [dashbitco/flow](https://github.com/dashbitco/flow) - Computational parallel flows on top of GenStage
-*   [philosodad/morphix](https://github.com/philosodad/morphix) - Tiny library of functions to perform transforms on maps and arrays.
-*   [codedge-llc/pigeon](https://github.com/codedge-llc/pigeon) - iOS and Android push notifications for Elixir
-*   [bitwalker/libcluster](https://github.com/bitwalker/libcluster) - Automatic cluster formation/healing for Elixir applications
-*   [bitwalker/swarm](https://github.com/bitwalker/swarm) - Easy clustering, registration, and distribution of worker processes for Erlang/Elixir
-*   [undeadlabs/discovery](https://github.com/undeadlabs/discovery) - An OTP application for auto-discovering services with Consul
-*   [h4cc/awesome-elixir](https://github.com/h4cc/awesome-elixir) - A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:
-*   [thechangelog/changelog.com](https://github.com/thechangelog/changelog.com) - Changelog is news and podcast for developers. This is our open source platform.
-*   [findmypast/Graphixir](https://github.com/findmypast/Graphixir) - Graphite framework written in elixir
-*   [findmypast/hex_web](https://github.com/findmypast/hex_web) - Fork of hex_web
-*   [rrrene/elixir-style-guide](https://github.com/rrrene/elixir-style-guide) - Style Guide for the Elixir language, implemented by Credo
-*   [dashbitco/nimble_csv](https://github.com/dashbitco/nimble_csv) - A simple and fast CSV parsing and dumping library for Elixir
-*   [ericentin/nifsy](https://github.com/ericentin/nifsy) - A nifty NIF for the FS, providing faster filesystem operations for Elixir
-*   [elixir-maru/maru](https://github.com/elixir-maru/maru) - Elixir RESTful Framework
-*   [hexpm/hexpm](https://github.com/hexpm/hexpm) - API server and website for Hex
-*   [wojtekmach/oop](https://github.com/wojtekmach/oop) - OOP in Elixir!
-*   [stephenmoloney/og](https://github.com/stephenmoloney/og) - Og is a small collection of logger helper functions in elixir.
-*   [hashrocket/gatling](https://github.com/hashrocket/gatling) - Deployment tool for Phoenix apps
-*   [CJPoll/subscribex](https://github.com/CJPoll/subscribex) -
-*   [matteosister/stopwatch](https://github.com/matteosister/stopwatch) -
-*   [appcues/stifle](https://github.com/appcues/stifle) - Trap, observe, and release an Elixir function's side effects
-*   [rubencaro/sshex](https://github.com/rubencaro/sshex) - Simple SSH helpers for Elixir. SSH is useful, but we all love SSHEx !
-*   [bettyblocks/sql_dust](https://github.com/bettyblocks/sql_dust) - Easy. Simple. Powerful. Generate (complex) SQL queries using magical Elixir SQL dust.
-*   [Stratus3D/Spout](https://github.com/Stratus3D/Spout) - A TAP producer that integrates with existing ExUnit tests via an ExUnit formatter
-*   [emancu/spirit](https://github.com/emancu/spirit) - A microframework for web development on Elixir
-*   [Theemuts/spaghetti_pool](https://github.com/Theemuts/spaghetti_pool) - A :gen_fsm-based attempt at a pool for concurrently reading/writing ETS tables
-*   [tyre/sorted_set](https://github.com/tyre/sorted_set) - Sorted Set library for Elixir
-*   [simonprev/solage](https://github.com/simonprev/solage) - Basic tools to implement a JSON API with awesome features taken from the jsonapi.org spec
-*   [h4cc/slugger](https://github.com/h4cc/slugger) - A Slugger for elixir.
-*   [camshaft/simple_secrets_ex](https://github.com/camshaft/simple_secrets_ex) - A simple, opinionated library for encrypting small packets of data securely.
-*   [ScrimpyCat/SimpleMarkdownEx](https://github.com/ScrimpyCat/SimpleMarkdownEx) - A simple and extendable Markdown to HTML converter for Elixir.
-*   [nico-amsterdam/simple_mem_cache](https://github.com/nico-amsterdam/simple_mem_cache) - Memory based caching with optional expiration after creation/modification/access, automatic value loading and time travel support.
-*   [alexandrubagu/simplehttp](https://github.com/alexandrubagu/simplehttp) - HTTP client for Elixir without dependencies
-*   [fredwu/simple_bayes](https://github.com/fredwu/simple_bayes) - A Naive Bayes machine learning implementation in Elixir.
-*   [PSPDFKit-labs/sidetask](https://github.com/PSPDFKit-labs/sidetask) - :awesome = Elixir's Task ++ Basho's sidejob library
-*   [whatyouhide/short_maps](https://github.com/whatyouhide/short_maps) - ⚠️Retired⚠️ library that provided a ~m sigil for ES6-like map destructuring in Elixir.
-*   [meyercm/shorter_maps](https://github.com/meyercm/shorter_maps) - Elixir ~M sigil for map shorthand. `~M{id, name} ~&gt; %{id: id, name: name}`
-*   [camshaft/shenu](https://github.com/camshaft/shenu) - set of utilities for parsing, handling, and comparing messages
-*   [cabol/ex_shards](https://github.com/cabol/ex_shards) - Elixir wrapper for cabol/shards .
-*   [patricksrobertson/secure_random.ex](https://github.com/patricksrobertson/secure_random.ex) - Convenience library for random base64 strings modeled after my love for Ruby's SecureRandom
-*   [stephenmoloney/scrivener_list](https://github.com/stephenmoloney/scrivener_list) - A Scrivener compatible extension that allows pagination of a list of elements.
-*   [beam-community/scrivener_headers](https://github.com/beam-community/scrivener_headers) - Scrivener pagination with headers and web linking
-*   [drewolson/scrivener_ecto](https://github.com/drewolson/scrivener_ecto) - Paginate your Ecto queries with Scrivener
-*   [drewolson/scrivener](https://github.com/drewolson/scrivener) - Pagination for the Elixir ecosystem
-*   [cwbriones/scientist](https://github.com/cwbriones/scientist) - An elixir library for refactoring code, a port of GitHub's scientist
-*   [peburrows/river](https://github.com/peburrows/river) - An HTTP/2 client for Elixir (a work in progress!)
-*   [slogsdon/elixir-reverse-proxy](https://github.com/slogsdon/elixir-reverse-proxy) - A Plug based, reverse proxy server written in Elixir.
-*   [kmochejski/remote-ip-rewriter](https://github.com/kmochejski/remote-ip-rewriter) -
-*   [whatyouhide/redix_pubsub](https://github.com/whatyouhide/redix_pubsub) - Deprecated Redis Pub/Sub client for Elixir. Now built-in into Redix.
-*   [linjunpop/receipt_verifier](https://github.com/linjunpop/receipt_verifier) - ✅ Verify iOS App receipt with the App Store
-*   [keepcosmos/readability](https://github.com/keepcosmos/readability) - Readability is Elixir library for extracting and curating articles.
-*   [Nebo15/rbmq](https://github.com/Nebo15/rbmq) - Simple API for spawning RabbitMQ Producers and Consumers.
-*   [CrowdHailer/raxx](https://github.com/CrowdHailer/raxx) - Interface for HTTP webservers, frameworks and clients
-*   [hayesgm/ravenex](https://github.com/hayesgm/ravenex) - Elixir client for Sentry
-*   [asaaki/ralitobu_plug](https://github.com/asaaki/ralitobu_plug) - Elixir Plug for Ralitobu, the Rate Limiter with Token Bucket algorithm
-*   [grempe/ex_rated](https://github.com/grempe/ex_rated) - ExRated, the Elixir OTP GenServer with the naughty name that allows you to rate-limit calls to any service that requires it.
-*   [asaaki/ralitobu](https://github.com/asaaki/ralitobu) - Rate Limiter with Token Bucket algorithm (Elixir)
-*   [kagux/turbolinks_plug](https://github.com/kagux/turbolinks_plug) - Phoenix plug to integrate with turbolinks
-*   [DavidAntaramian/tributary](https://github.com/DavidAntaramian/tributary) - A simple stream generation library for Ecto queries that facilitates more efficient paging of queries both in the database and in your Ecto-reliant applicaton.
-*   [RobertDober/traverse](https://github.com/RobertDober/traverse) - Traverse nested data structures in Elixir
-*   [kenta-aktsk/translator](https://github.com/kenta-aktsk/translator) - Model translation/globalization/localization library for Elixir
-*   [andrzejsliwa/tracing_helper](https://github.com/andrzejsliwa/tracing_helper) - Simple tracing helper for Elixir/Erlang
-*   [danielberkompas/immortal](https://github.com/danielberkompas/immortal) - Helper modules for OTP applications
-*   [joakimk/toniq](https://github.com/joakimk/toniq) - Simple and reliable background job processing library for Elixir.
-*   [ScrimpyCat/Tonic](https://github.com/ScrimpyCat/Tonic) - An Elixir DSL for conveniently loading binary data/files.
-*   [zamith/tomlex](https://github.com/zamith/tomlex) - A TOML parser for elixir
-*   [bitwalker/timex](https://github.com/bitwalker/timex) - A complete date/time library for Elixir projects.
-*   [infinitered/phoenix_base](https://github.com/infinitered/phoenix_base) - Template project for Phoenix
-*   [infinitered/thesis-phoenix](https://github.com/infinitered/thesis-phoenix) - A lightweight, bolt-on, intuitive content editing system for Elixir/Phoenix websites. Star this repo and follow along with our progress!
-*   [teamon/tesla](https://github.com/teamon/tesla) - The flexible HTTP client library for Elixir, with support for middleware and multiple adapters.
-*   [poteto/terraform](https://github.com/poteto/terraform) - A simple plug for incrementally transforming an API into Phoenix. Check out the blog post:
-*   [lpil/temporary-env](https://github.com/lpil/temporary-env) - A tool for managing application environment state within tests.
-*   [sorentwo/tempfile](https://github.com/sorentwo/tempfile) - Simple temporary file management for Elixir
-*   [andrewvy/TempDir](https://github.com/andrewvy/TempDir) - Simple Elixir Library for creating self-cleaning tmp directories
-*   [danhper/elixir-temp](https://github.com/danhper/elixir-temp) - Temporary files and directories for Elixir
-*   [eproxus/tap](https://github.com/eproxus/tap) - Recon wrapper for Elixir
-*   [TheFirstAvenger/elixir-tail](https://github.com/TheFirstAvenger/elixir-tail) -
-*   [anoskov/uuid5\_ecto_type](https://github.com/anoskov/uuid5\_ecto_type) - UUID v5 type for Ecto
-*   [zyro/elixir-uuid](https://github.com/zyro/elixir-uuid) - UUID generator and utilities for Elixir
-*   [suddenrushofsushi/url_tincture](https://github.com/suddenrushofsushi/url_tincture) - Sanity checks and canonicalization for HTTP(S) URLs
-*   [pezra/ex-uri-template](https://github.com/pezra/ex-uri-template) - RFC 6570 compliant URI template processor for Elixir
-*   [ueberauth/ueberauth](https://github.com/ueberauth/ueberauth) - An Elixir Authentication System for Plug-based Web Applications
-*   [zovafit/voxpop](https://github.com/zovafit/voxpop) -
-*   [CargoSense/vex](https://github.com/CargoSense/vex) - Data Validation for Elixir
-*   [sasa1977/workex](https://github.com/sasa1977/workex) - Load control in BEAM processes.
-*   [DaoDeCyrus/wizardry](https://github.com/DaoDeCyrus/wizardry) - Barebones user account framework for Phoenix Framework.
-*   [stuart/elixir-webdriver](https://github.com/stuart/elixir-webdriver) - WebDriver client for Elixir.
-*   [elixir-wallaby/wallaby](https://github.com/elixir-wallaby/wallaby) - Concurrent browser tests for your Elixir web apps.
-*   [elixir-ecto/connection](https://github.com/elixir-ecto/connection) - Connection behaviour for connection processes
-*   [gmtprime/y_process](https://github.com/gmtprime/y_process) - GenServer wrapper behaviour for pub/sub between processes using pg2 and Phoenix pub/sub (with any adapter) and a behaviour to create custom pub/sub backends.
-*   [gmtprime/exreg](https://github.com/gmtprime/exreg) - A simple process name registry using pg2
-*   [gmtprime/yggdrasil](https://github.com/gmtprime/yggdrasil) - Subscription and publishing server for Elixir applications.
-*   [matteosister/quick_chex](https://github.com/matteosister/quick_chex) - property based testing for elixir
-*   [danhper/pushex](https://github.com/danhper/pushex) - Push notifications for Elixir
-*   [heroiclabs/pulse](https://github.com/heroiclabs/pulse) - Service registration and discovery library for Elixir. Relies on etcd as an external service registry.
-*   [nubleer/project_info](https://github.com/nubleer/project_info) - A Elixir's mix task to get the current projects info
-*   [jeffreybaird/simple_bar](https://github.com/jeffreybaird/simple_bar) - The simplest elixir command line progress bar
-*   [henrik/progress_bar](https://github.com/henrik/progress_bar) - Command-line progress bars and spinners for Elixir.
-*   [polsab/pretty_hex](https://github.com/polsab/pretty_hex) - A binary hex dumping library in Elixir.
-*   [ma2gedev/power_assert_ex](https://github.com/ma2gedev/power_assert_ex) - Power Assert in Elixir. Shows evaluation results each expression.
-*   [elixir-ecto/postgrex](https://github.com/elixir-ecto/postgrex) - PostgreSQL driver for Elixir
-*   [talentdeficit/posterize](https://github.com/talentdeficit/posterize) - postgrex for erlang
-*   [alco/porcelain](https://github.com/alco/porcelain) - Work with external processes like a boss
-*   [rubencaro/populator](https://github.com/rubencaro/populator) - Dinamically populate supervisors
-*   [pragdave/pollution](https://github.com/pragdave/pollution) - Create streams of potentially complex type values for Elixir
-*   [system76/policy](https://github.com/system76/policy) -
-*   [ruby2elixir/plugin](https://github.com/ruby2elixir/plugin) - Plugin helps you to structure your business logic in composable blocks
-*   [ruby2elixir/rop](https://github.com/ruby2elixir/rop) - Railway Oriented Programming in Elixir
-*   [honeypotio/plug_utm](https://github.com/honeypotio/plug_utm) - UTM tracking parameters to cookies
-*   [jeffweiss/plug_statsd](https://github.com/jeffweiss/plug_statsd) - Send connection response time and count to statsd
-*   [anotherhale/secure_headers](https://github.com/anotherhale/secure_headers) - HTTP security headers for Phoenix/Plug
-*   [techgaun/plug_secex](https://github.com/techgaun/plug_secex) - Plug that adds various HTTP Headers to make Phoenix/Elixir app more secure
-*   [sugar-framework/sugar](https://github.com/sugar-framework/sugar) - Modular web framework for Elixir
-*   [mje113/plug_runtime](https://github.com/mje113/plug_runtime) - Time your requests
-*   [DevL/plug_require_header](https://github.com/DevL/plug_require_header) - An Elixir Plug for requiring and extracting a given header.
-*   [lpil/plug-redirect](https://github.com/lpil/plug-redirect) - A plug builder for redirecting requests.
-*   [tommy351/plug-proxy](https://github.com/tommy351/plug-proxy) - A plug for reverse proxy server.
-*   [bonyiii/plug_offline](https://github.com/bonyiii/plug_offline) - Offline Plug
-*   [manheim/amix](https://github.com/manheim/amix) - Plug for reporting to NewRelic
-*   [whatyouhide/plug_heartbeat](https://github.com/whatyouhide/plug_heartbeat) - A plug for responding to heartbeat requests.
-*   [graphql-elixir/plug_graphql](https://github.com/graphql-elixir/plug_graphql) - Plug (Phoenix) integration for GraphQL Elixir
-*   [obmarg/plug_fprof](https://github.com/obmarg/plug_fprof) - An Elixir Plug for profiling code with fprof.
-*   [kbrw/plug_forwarded_peer](https://github.com/kbrw/plug_forwarded_peer) - Very simple plug which reads `X-Forwarded-For` or `Forwarded` header according to rfc7239 and fill `conn.remote_ip` with the root client ip.
-*   [whatyouhide/corsica](https://github.com/whatyouhide/corsica) - Elixir library for dealing with CORS requests. 🏖
-*   [c-rack/plug_cloudflare](https://github.com/c-rack/plug_cloudflare) - Parses CloudFlare's CF-Connecting-IP header into Plug.Conn's remote_ip field.
-*   [bitgamma/plug_auth](https://github.com/bitgamma/plug_auth) - A collection of authentication-related plugs
-*   [nshafer/plug_assign](https://github.com/nshafer/plug_assign) - A simple plug to allow setting variables in a connection.
-*   [mneudert/plug_accesslog](https://github.com/mneudert/plug_accesslog) - Plug for writing access logs
-*   [camshaft/plug_accept_language](https://github.com/camshaft/plug_accept_language) - parse the accept-language header
-*   [pinx/plogger](https://github.com/pinx/plogger) - Piping Logger
-*   [ciaran/plist](https://github.com/ciaran/plist) - An Elixir library to parse files in Apple's binary property list format
-*   [joshrieken/plasm](https://github.com/joshrieken/plasm) - Ecto's composable query multitool (.count, .random, .earliest, .latest, .find, .at, .on, etc.)
-*   [jimsynz/pixie](https://github.com/jimsynz/pixie) - Pixie is a PubSub server, based on the Bayeux protocol and compatible with Faye written in Elixir.
-*   [jimsynz/pixie_ets](https://github.com/jimsynz/pixie_ets) - ETS Storage backend for Pixie.
-*   [bootstarted/pipeline](https://github.com/bootstarted/pipeline) - Monadic HTTP application composition for plug and friends.
-*   [pvdvreede/pinglix](https://github.com/pvdvreede/pinglix) - Plug compatible health check middleware based on pinglish.
-*   [manukall/phoenix_token_auth](https://github.com/manukall/phoenix_token_auth) - Token authentication solution for Phoenix. Useful for APIs for e.g. single page apps.
-*   [christopheradams/plug_rest](https://github.com/christopheradams/plug_rest) - REST behaviour and Plug router for hypermedia web applications in Elixir
-*   [christopheradams/phoenix_rest](https://github.com/christopheradams/phoenix_rest) - Resource routing and REST behaviour for Phoenix web applications
-*   [phoenixframework/phoenix_pubsub](https://github.com/phoenixframework/phoenix_pubsub) - Distributed PubSub and Presence platform for the Phoenix Framework
-*   [adam12/phoenix_mtm](https://github.com/adam12/phoenix_mtm) - A small collection of functions to make it easier working with many_to_many Ecto associations and checkboxes to create them.
-*   [smoku/phoenix_api_docs](https://github.com/smoku/phoenix_api_docs) - Phoenix API Docs
-*   [minibikini/paasaa](https://github.com/minibikini/paasaa) - Natural language detection for Elixir
-*   [robconery/moebius](https://github.com/robconery/moebius) - A functional query tool for Elixir
-*   [nerves-project/nerves](https://github.com/nerves-project/nerves) - Craft and deploy bulletproof embedded software in Elixir
-*   [Nebo15/multiverse](https://github.com/Nebo15/multiverse) - Elixir package that allows to add compatibility layers via API gateways.
-*   [christopheradams/multiplex](https://github.com/christopheradams/multiplex) - Phoenix router macro to dispatch multiple HTTP methods to a Plug
-*   [elixirmoney/money](https://github.com/elixirmoney/money) - Elixir library for working with Money safer, easier, and fun... Is an interpretation of the Fowler's Money pattern in fun.prog.
-*   [ericmj/decimal](https://github.com/ericmj/decimal) - Arbitrary precision decimal arithmetic
-*   [theocodes/monetized](https://github.com/theocodes/monetized) - A lightweight solution for handling and storing money.
-*   [mathewdgardner/momento](https://github.com/mathewdgardner/momento) - moment.js implemented in Elixir
-*   [mrluc/mex](https://github.com/mrluc/mex) - Readable, side-by-side macro-expansion display for Elixir's interactive shell.
-*   [folz/math](https://github.com/folz/math) - The missing Math module for Elixir.
-*   [jclem/logfmt-elixir](https://github.com/jclem/logfmt-elixir) - Decode and encode Logfmt lines in Elixir
-*   [22cans/exsyslog](https://github.com/22cans/exsyslog) - ExSyslog is a Elixir Logger custom backend to syslog.
-*   [khia/exlager](https://github.com/khia/exlager) - Elixir binding for lager
-*   [rrrene/inch_ex](https://github.com/rrrene/inch_ex) - Provides a Mix task that gives you hints where to improve your inline docs.
-*   [campezzi/ignorant](https://github.com/campezzi/ignorant) - Simplify comparison of Elixir data structures by ensuring fields are present but ignoring their values.
-*   [whitfin/hypex](https://github.com/whitfin/hypex) - Fast HyperLogLog implementation for Elixir/Erlang
-*   [jwarlander/hedwig_hipchat](https://github.com/jwarlander/hedwig_hipchat) - HipChat Adapter for Hedwig
-*   [hedwig-im/hedwig](https://github.com/hedwig-im/hedwig) - An Adapter-based Bot Framework for Elixir Applications
-*   [alco/hashids-elixir](https://github.com/alco/hashids-elixir) - Stringify your ids
-*   [ruby2elixir/plumber_girl](https://github.com/ruby2elixir/plumber_girl) - PlumberGirl takes care of your Elixir piping issues!
-*   [mweibel/facebook.ex](https://github.com/mweibel/facebook.ex) - Facebook Graph API Wrapper written in Elixir
-*   [thoughtbot/ex_machina](https://github.com/thoughtbot/ex_machina) - Create test data for Elixir applications
-*   [pezra/exhal](https://github.com/pezra/exhal) - Use HAL APIs with ease
-*   [scrogson/exgravatar](https://github.com/scrogson/exgravatar) - An Elixir module for generating Gravatar urls.
-*   [kbrw/exfsm](https://github.com/kbrw/exfsm) - Simple elixir library to define a static FSM.
-*   [appcues/exconstructor](https://github.com/appcues/exconstructor) - An Elixir library for generating struct constructors that handle external data with ease.
-*   [witchcrafters/quark](https://github.com/witchcrafters/quark) - Common combinators for Elixir
-*   [expede/exceptional](https://github.com/expede/exceptional) - Helpers for Elixir exceptions
-*   [sasa1977/exactor](https://github.com/sasa1977/exactor) - Helpers for simpler implementation of GenServer based processes
-*   [ammbot/event-nanny](https://github.com/ammbot/event-nanny) - Nanny for GenEvent
-*   [whitfin/eternal](https://github.com/whitfin/eternal) - Keep your ETS tables running forever using bouncing GenServers
-*   [eeue56/elmxir](https://github.com/eeue56/elmxir) - Interop tools for working with Elm in Elixir
-*   [nathanjohnson320/elmer](https://github.com/nathanjohnson320/elmer) - Elm tooling for elixir
-*   [elixirscript/elixirscript](https://github.com/elixirscript/elixirscript) - Converts Elixir to JavaScript
-*   [findmypast/vaultex](https://github.com/findmypast/vaultex) - HashiCorp Vault client for Elixir.
-*   [pragdave/earmark](https://github.com/pragdave/earmark) - Markdown parser for Elixir
-*   [lpil/dogma](https://github.com/lpil/dogma) - :closed_lock_with_key: A code style linter for Elixir
-*   [VoiceLayer/dispatch](https://github.com/VoiceLayer/dispatch) - A distributed service registry built on top of phoenix_pubsub.
-*   [TheRealReal/new-relixir](https://github.com/TheRealReal/new-relixir) - New Relic tracking for Phoenix and Plug applications.
-*   [nogates/discorelic](https://github.com/nogates/discorelic) - Elixir implementation of the NewRelic intrumentation PaaS
-*   [jeremyjh/dialyxir](https://github.com/jeremyjh/dialyxir) - Mix tasks to simplify use of Dialyzer in Elixir projects.
-*   [whitfin/deppie](https://github.com/whitfin/deppie) - Elixir's coolest deprecation logger
-*   [Willamin/delorean](https://github.com/Willamin/delorean) -
-*   [Qqwy/elixir-currying](https://github.com/Qqwy/elixir-currying) - Currying enables partial function application in Elixir.
-*   [os6sense/DefMemo](https://github.com/os6sense/DefMemo) - DefMemo - Ryuk's little puppy! Bring apples.
-*   [inaka/Dayron](https://github.com/inaka/Dayron) - A repository `similar` to Ecto.Repo that maps to an underlying http client, sending requests to an external rest api instead of a database
-*   [mykewould/crutches](https://github.com/mykewould/crutches) - Some Elixir support
-*   [skirino/croma](https://github.com/skirino/croma) - Elixir macro utilities to make type-based programming easier
-*   [antonmi/espec_phoenix](https://github.com/antonmi/espec_phoenix) - ESpec for Phoenix web framework.
-*   [pragdave/quixir](https://github.com/pragdave/quixir) - Property-based testing for Elixir
-*   [andrewtimberlake/migratrex](https://github.com/andrewtimberlake/migratrex) - Build up Ecto models and tests from an existing database
-*   [joshrieken/test_that_json_espec](https://github.com/joshrieken/test_that_json_espec) - Test That JSON! assertions for ESpec
-*   [apdunston/mix_test_notify](https://github.com/apdunston/mix_test_notify) - OSX notifications for mix test
-*   [ericmj/true_story](https://github.com/ericmj/true_story) - Make your tests tell a story
-*   [joshrieken/test_that_json](https://github.com/joshrieken/test_that_json) - JSON-related helpers for your Elixir testing needs
-*   [DockYard/valid_field](https://github.com/DockYard/valid_field) -
-*   [dantswain/mix_eunit](https://github.com/dantswain/mix_eunit) - A mix task to execute eunit tests.
-*   [batate/shouldi](https://github.com/batate/shouldi) - Elixir testing libraries with nested contexts, superior readability, and ease of use
-*   [parroty/excheck](https://github.com/parroty/excheck) - Property-based testing library for Elixir (QuickCheck style).
-*   [antonmi/espec](https://github.com/antonmi/espec) - Elixir Behaviour Driven Development
-*   [bitwalker/conform](https://github.com/bitwalker/conform) - Easy, powerful, and extendable configuration tooling for releases.
-*   [lucacorti/cartel](https://github.com/lucacorti/cartel) -  Multi platform, multi app push notifications
-*   [jarednorman/canada](https://github.com/jarednorman/canada) - Easy permission definitions in Elixir apps!
-*   [imranismail/can.ex](https://github.com/imranismail/can.ex) - Simplified authorization for Phoenix framework
-*   [PSPDFKit-labs/bypass](https://github.com/PSPDFKit-labs/bypass) - Bypass provides a quick way to create a custom plug that can be put in place instead of an actual HTTP server to return prebaked responses to client requests.
-*   [bitwalker/distillery](https://github.com/bitwalker/distillery) - Simplify deployments in Elixir with OTP releases!
-*   [CargoSense/briefly](https://github.com/CargoSense/briefly) - Simple, robust temporary file support for Elixir.
-*   [niahoo/blanket](https://github.com/niahoo/blanket) - Don't lose your ETS tables with Elixir
-*   [camshaft/bitfield.erl](https://github.com/camshaft/bitfield.erl) - Simple bitfields for erlang/elixir
-*   [willpenington/bin_format](https://github.com/willpenington/bin_format) - Parse and construct binaries in Elixir
-*   [alco/benchfella](https://github.com/alco/benchfella) - Microbenchmarking tool for Elixir
-*   [bencheeorg/benchee](https://github.com/bencheeorg/benchee) - Easy and extensible benchmarking in Elixir providing you with lots of statistics!
-*   [hahuang65/beaker](https://github.com/hahuang65/beaker) - A mirror for https://git.sr.ht/~hwrd/beaker
-*   [behe/batcher](https://github.com/behe/batcher) - Process a backlog of items after it has grown to a certain size or a defined time has passed
-*   [ananthakumaran/barlix](https://github.com/ananthakumaran/barlix) - Barcode generator for Elixir
-*   [jkakar/aws-codegen](https://github.com/jkakar/aws-codegen) - Code generator for AWS clients in Elixir.
-*   [meatherly/auto_doc](https://github.com/meatherly/auto_doc) - Create Web API documentation based on your ExUnit tests
-*   [schrockwell/bodyguard](https://github.com/schrockwell/bodyguard) - Simple authorization conventions for Phoenix apps
-*   [LeakyBucket/assembly_line](https://github.com/LeakyBucket/assembly_line) -
-*   [chvanikoff/apns4ex](https://github.com/chvanikoff/apns4ex) - APNS for Elixir
-*   [BjRo/apex](https://github.com/BjRo/apex) - Awesome printing for Elixir
-*   [pma/amqp](https://github.com/pma/amqp) - Idiomatic Elixir client for RabbitMQ
-*   [meh/amnesia](https://github.com/meh/amnesia) - Mnesia wrapper for Elixir.
-*   [witchcrafters/witchcraft](https://github.com/witchcrafters/witchcraft) - Monads and other dark magic for Elixir
-*   [witchcrafters/algae](https://github.com/witchcrafters/algae) - Bootstrapped algebraic data types for Elixir
-*   [elixir-toniq/alchemy](https://github.com/elixir-toniq/alchemy) - Perform experiments in production
-*   [getsentry/sentry-elixir](https://github.com/getsentry/sentry-elixir) - The official Elixir SDK for Sentry (sentry.io)
-*   [icidasset/ectograph](https://github.com/icidasset/ectograph) - Ectograph is a set of utility functions for using Ecto in combination with graphql-elixir/graphql
-*   [graphql-elixir/graphql_relay](https://github.com/graphql-elixir/graphql_relay) - Relay helpers for GraphQL Elixir
-*   [absinthe-graphql/absinthe_relay](https://github.com/absinthe-graphql/absinthe_relay) - Absinthe support for the Relay framework
-*   [absinthe-graphql/absinthe_plug](https://github.com/absinthe-graphql/absinthe_plug) - Plug support for Absinthe, the GraphQL toolkit for Elixir
-*   [graphql-elixir/graphql](https://github.com/graphql-elixir/graphql) - GraphQL Elixir
-*   [absinthe-graphql/absinthe](https://github.com/absinthe-graphql/absinthe) - The GraphQL toolkit for Elixir
-*   [OleMchls/elixir-hpack](https://github.com/OleMchls/elixir-hpack) - A Elixir implementation of the HPack protocol for HTTP/2 header compression
-*   [KazuCocoa/revision_plate_ex](https://github.com/KazuCocoa/revision_plate_ex) - Plug application and middleware that serves endpoint returns application's REVISION.
-*   [navinpeiris/logster](https://github.com/navinpeiris/logster) - Easily parsable single line, plain text and JSON logger for Plug and Phoenix applications
-*   [meadsteve/unit_fun](https://github.com/meadsteve/unit_fun) - 📏 Dimension based safety in elixir
-*   [robinhilliard/defunit](https://github.com/robinhilliard/defunit) - Macros for defining, converting, documenting and supporting static analysis of measurement unit types in Elixir
-*   [elixir-ecto/ecto](https://github.com/elixir-ecto/ecto) - A toolkit for data mapping and language integrated query.
-*   [devinus/poison](https://github.com/devinus/poison) - An incredibly fast, pure Elixir JSON library
-*   [carleryd/elm-hipster-stack](https://github.com/carleryd/elm-hipster-stack) - Simple project using Elm, Phoenix, GraphQL and PostgreSQL
-*   [phoenixframework/phoenix](https://github.com/phoenixframework/phoenix) - Peace of mind from prototype to production
-*   [hexedpackets/trot](https://github.com/hexedpackets/trot) - An Elixir web micro-framework.
-*   [elixir-plug/plug](https://github.com/elixir-plug/plug) - Compose web applications with functions
-*   [AntonFagerberg/rackla](https://github.com/AntonFagerberg/rackla) - Open Source API Gateway in Elixir
-*   [doomspork/hydra](https://github.com/doomspork/hydra) - Open source API gateway with integrated cache and data transformations.
-*   [fredwu/stemmer](https://github.com/fredwu/stemmer) - An English (Porter2) stemming implementation in Elixir.
-*   [bitwalker/exrm](https://github.com/bitwalker/exrm) - Automatically generate a release for your Elixir project!
-*   [dazuma/erl2ex](https://github.com/dazuma/erl2ex) - An Erlang to Elixir transpiler
-*   [thoughtbot/bamboo](https://github.com/thoughtbot/bamboo) - Testable, composable, and adapter based Elixir email library for devs that love piping.
-*   [J0/phoenix_gen_socket_client](https://github.com/J0/phoenix_gen_socket_client) - Socket client behaviour for phoenix channels
-*   [operable/cog](https://github.com/operable/cog) - Bringing the power of the command line to chat
-*   [sashaafm/exads](https://github.com/sashaafm/exads) - Algorithms and Data Structures collection in Elixir
-*   [lau/calendar](https://github.com/lau/calendar) - date-time and time zone handling in Elixir
-*   [pinterest/riffed](https://github.com/pinterest/riffed) - Provides idiomatic Elixir bindings for Apache Thrift
-*   [pinterest/elixometer](https://github.com/pinterest/elixometer) - A light Elixir wrapper around exometer.
-
 ## JavaScript
 
 *   [srmullen/svelte-reactive-css-preprocess](https://github.com/srmullen/svelte-reactive-css-preprocess) - Automatically update your styles when a svelte variable changes.
@@ -2451,7 +3061,6 @@
 *   [yjs/yjs](https://github.com/yjs/yjs) - Shared data types for building collaborative software
 *   [CoreyGinnivan/system-uicons](https://github.com/CoreyGinnivan/system-uicons) - System UIcons is an icon library design for systems and products. Use how you want, without attribution.
 *   [vue-leaflet/Vue2Leaflet](https://github.com/vue-leaflet/Vue2Leaflet) - Vue 2 components for Leaflet maps
-*   [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) - 🍃 JavaScript library for mobile-friendly interactive maps 🇺🇦
 *   [leaflet-extras/leaflet-providers](https://github.com/leaflet-extras/leaflet-providers) - An extension to Leaflet that contains configurations for various free tile providers.
 *   [datopian/portal.js](https://github.com/datopian/portal.js) - 🌀 Next generation Javascript framework for rapidly building rich data portals.
 *   [NeXTs/Clusterize.js](https://github.com/NeXTs/Clusterize.js) - Tiny vanilla JS plugin to display large data sets easily
@@ -3009,615 +3618,6 @@
 *   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
 *   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
 *   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
-*   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
-
-## Ruby
-
-*   [braintree/pg_ha_migrations](https://github.com/braintree/pg_ha_migrations) - Enforces DDL/migration safety in Ruby on Rails project with an emphasis on explicitly choosing trade-offs and avoiding unnecessary magic.
-*   [gel-rb/gel](https://github.com/gel-rb/gel) - A modern gem manager
-*   [testdouble/mocktail](https://github.com/testdouble/mocktail) -
-*   [grosser/single_cov](https://github.com/grosser/single_cov) - Actionable code coverage.
-*   [grosser/forking_test_runner](https://github.com/grosser/forking_test_runner) - Run every test in a fork to avoid pollution and get clean output per test
-*   [schmich/spicy-proton](https://github.com/schmich/spicy-proton) - Generate a random English adjective-noun word pair in Ruby
-*   [postmodern/rubygems-tasks](https://github.com/postmodern/rubygems-tasks) - Simple Rake tasks for managing and releasing Ruby projects.
-*   [larsch/ocra](https://github.com/larsch/ocra) - One-Click Ruby Application Builder
-*   [radeno/nanoid.rb](https://github.com/radeno/nanoid.rb) - Ruby implementation of Nanoid, secure URL-friendly unique ID generator
-*   [TypoCI/Marketplace-App](https://github.com/TypoCI/Marketplace-App) - Find Spelling errors in files within PRs
-*   [wework/we-call-gem](https://github.com/wework/we-call-gem) - Making healthy, happy HTTP calls
-*   [github/licensed](https://github.com/github/licensed) - A Ruby gem to cache and verify the licenses of dependencies
-*   [jamesmoriarty/forward-proxy](https://github.com/jamesmoriarty/forward-proxy) - Minimal forward proxy using 150LOC and only standard libraries.
-*   [FGtatsuro/cookiecutter-cookiecutter-template](https://github.com/FGtatsuro/cookiecutter-cookiecutter-template) - Cookiecutter template for Cookiecutter template.
-*   [abhaynikam/boring_generators](https://github.com/abhaynikam/boring_generators) - Boring generators aims to make your development faster by delegating boring setups to us.
-*   [thbar/kiba](https://github.com/thbar/kiba) - Data processing & ETL framework for Ruby
-*   [paul/progress_bar](https://github.com/paul/progress_bar) - A Ruby terminal progress_bar
-*   [joshbuddy/jsonpath](https://github.com/joshbuddy/jsonpath) - Ruby implementation of http://goessner.net/articles/JsonPath/
-*   [bibendi/dip](https://github.com/bibendi/dip) - Development-environment CLI program providing the native-like interaction with a Dockerized application.
-*   [ractor-tools/ractor-cache](https://github.com/ractor-tools/ractor-cache) - Gem to handle cached methods in a Ractor-friendly way
-*   [socketry/db](https://github.com/socketry/db) - Event-driven database drivers for streaming queries.
-*   [nguyenquangminh0711/ruby_jard](https://github.com/nguyenquangminh0711/ruby_jard) - Just Another Ruby Debugger. Provide a rich Terminal UI that visualizes everything your need, navigates your program with pleasure, stops at matter places only, reduces manual and mental efforts. You can now focus on real debugging.
-*   [Pluvie/italian-ruby](https://github.com/Pluvie/italian-ruby) - Program Ruby <3 in Italian <3
-*   [rdy/fixture_builder](https://github.com/rdy/fixture_builder) - fixture builder based on code from fixture scenarios
-*   [the-benchmarker/graphql-benchmarks](https://github.com/the-benchmarker/graphql-benchmarks) - GraphQL benchmarks using the-benchmarker framework.
-*   [soutaro/steep](https://github.com/soutaro/steep) - Static type checker for Ruby
-*   [david-a-wheeler/railroader](https://github.com/david-a-wheeler/railroader) - A static analysis security vulnerability scanner for Ruby on Rails applications (OSS fork of Brakeman)
-*   [ruby-next/ruby-next](https://github.com/ruby-next/ruby-next) - Ruby Next makes modern Ruby code run in older versions and alternative implementations
-*   [Shopify/deprecation_toolkit](https://github.com/Shopify/deprecation_toolkit) - ⚒Eliminate deprecations from your codebase ⚒
-*   [leihs/leihs](https://github.com/leihs/leihs) - leihs is an inventory management, procurement and lending system
-*   [loco2/lolsoap](https://github.com/loco2/lolsoap) - A library for dealing with SOAP requests and responses. We tear our hair out so you don't have to.
-*   [jbarnette/isolate](https://github.com/jbarnette/isolate) - Gem segregation.
-*   [dasch/avro_turf](https://github.com/dasch/avro_turf) - A library that makes it easier to use the Avro serialization format from Ruby.
-*   [automaticmode/active_workflow](https://github.com/automaticmode/active_workflow) - Polyglot workflows without leaving the comfort of your technology stack.
-*   [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) - Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬
-*   [sdaubert/rasn1](https://github.com/sdaubert/rasn1) - Ruby ASN.1 library
-*   [ulfurinn/wongi-engine](https://github.com/ulfurinn/wongi-engine) - A rule engine written in Ruby.
-*   [CycloneDX/cyclonedx-ruby-gem](https://github.com/CycloneDX/cyclonedx-ruby-gem) - Creates CycloneDX Software Bill of Materials (SBOM) from Ruby projects
-*   [graphiti-api/graphiti](https://github.com/graphiti-api/graphiti) - Stylish Graph APIs
-*   [fnando/recurrence](https://github.com/fnando/recurrence) - A simple library that handles recurring events.
-*   [rossta/montrose](https://github.com/rossta/montrose) - Recurring events library for Ruby. Enumerable recurrence objects and convenient chainable interface.
-*   [zverok/time_calc](https://github.com/zverok/time_calc) - Simple time arithmetics in a modern, readable, idiomatic, no-"magic" Ruby.
-*   [jcs/rubywarden](https://github.com/jcs/rubywarden) - An unofficial, mostly Bitwarden-compatible API server written in Ruby (Sinatra and ActiveRecord)
-*   [donmelton/video_transcoding](https://github.com/donmelton/video_transcoding) - Tools to transcode, inspect and convert videos.
-*   [fetlife/scallop](https://github.com/fetlife/scallop) - Ergonomic shell wrapper for Ruby.
-*   [ankane/dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
-*   [testdouble/standard](https://github.com/testdouble/standard) - 🌟 Ruby Style Guide, with linter & automatic code fixer
-*   [testdouble/referral](https://github.com/testdouble/referral) - 🕵️‍♀️ Find, filter, and sort your Ruby code's definitions & references
-*   [sorbet/sorbet](https://github.com/sorbet/sorbet) - A fast, powerful type checker designed for Ruby
-*   [SamSaffron/fast_blank](https://github.com/SamSaffron/fast_blank) -
-*   [malept/rusty_blank](https://github.com/malept/rusty_blank) - Proof-of-concept Rust + Ruby extension
-*   [woothee/woothee](https://github.com/woothee/woothee) - User-Agent parser/classifier for multi languages
-*   [ianks/fast_woothee](https://github.com/ianks/fast_woothee) -
-*   [malept/thermite](https://github.com/malept/thermite) - A Rake-based helper for building and distributing Rust-based Ruby extensions
-*   [jeremyevans/rodauth](https://github.com/jeremyevans/rodauth) - Ruby's Most Advanced Authentication Framework
-*   [Sorcery/sorcery](https://github.com/Sorcery/sorcery) - Magical Authentication
-*   [inspec/inspec](https://github.com/inspec/inspec) - InSpec: Auditing and Testing Framework
-*   [gauntlt/gauntlt](https://github.com/gauntlt/gauntlt) - a ruggedization framework that embodies the principle "be mean to your code"
-*   [reidmorrison/semantic_logger](https://github.com/reidmorrison/semantic_logger) - Semantic Logger is a feature rich logging framework, and replacement for existing Ruby & Rails loggers.
-*   [searls/todo_or_die](https://github.com/searls/todo_or_die) - Write TODOs in code that ensure you actually do them
-*   [rosenfeld/auto_reloader](https://github.com/rosenfeld/auto_reloader) - A transparent code reloader.
-*   [fxn/zeitwerk](https://github.com/fxn/zeitwerk) - Efficient and thread-safe code loader for Ruby
-*   [opal/opal](https://github.com/opal/opal) - Ruby ♥︎ JavaScript
-*   [ankane/strong_migrations](https://github.com/ankane/strong_migrations) - Catch unsafe migrations in development
-*   [geminabox/geminabox](https://github.com/geminabox/geminabox) - Really simple rubygem hosting
-*   [michaelfeathers/scythe](https://github.com/michaelfeathers/scythe) - A tool for detecting barely used code in production
-*   [yabeda-rb/example-prometheus](https://github.com/yabeda-rb/example-prometheus) - Easily runnable example to view how yabeda metrics works in action
-*   [socketry/falcon](https://github.com/socketry/falcon) - A high-performance web server for Ruby, supporting HTTP/1, HTTP/2 and TLS.
-*   [ClosureTree/closure_tree](https://github.com/ClosureTree/closure_tree) - Easily and efficiently make your ActiveRecord models support hierarchies
-*   [ClosureTree/with_advisory_lock](https://github.com/ClosureTree/with_advisory_lock) - Advisory locking for ActiveRecord
-*   [SamSaffron/lru_redux](https://github.com/SamSaffron/lru_redux) - An efficient optionally thread safe LRU Cache
-*   [Strech/sidekiq-prometheus-exporter](https://github.com/Strech/sidekiq-prometheus-exporter) - All the basic metrics of Sidekiq with pluggable contribs prepared for Prometheus
-*   [discourse/prometheus_exporter](https://github.com/discourse/prometheus_exporter) - A framework for collecting and aggregating prometheus metrics
-*   [deep-cover/deep-cover](https://github.com/deep-cover/deep-cover) - The best coverage tool for Ruby code
-*   [modern-project/modern-ruby](https://github.com/modern-project/modern-ruby) - An OpenAPI-first web server for Ruby/Rack.
-*   [reidmorrison/rails_semantic_logger](https://github.com/reidmorrison/rails_semantic_logger) - Rails Semantic Logger replaces the Rails default logger with Semantic Logger
-*   [onomojo/i18n-timezones](https://github.com/onomojo/i18n-timezones) - Rails I18n timezone translations
-*   [onomojo/i18n-country-translations](https://github.com/onomojo/i18n-country-translations) - This just contains i18n country translations
-*   [grosser/gettext_i18n_rails](https://github.com/grosser/gettext_i18n_rails) - Rails: FastGettext, I18n integration -- simple, threadsafe and fast!
-*   [grosser/fast_gettext](https://github.com/grosser/fast_gettext) - Ruby GetText, but 12x faster + 530x less garbage + simple + clean namespace + threadsafe + extendable + multiple backends
-*   [kematzy/roda-i18n](https://github.com/kematzy/roda-i18n) - Internationalisation (i18n) and localisation support for Roda apps \[http://roda.jeremyevans.net/].
-*   [twitter/twitter-cldr-rb](https://github.com/twitter/twitter-cldr-rb) - Ruby implementation of the ICU (International Components for Unicode) that uses the Common Locale Data Repository to format dates, plurals, and more.
-*   [jmhodges/rchardet](https://github.com/jmhodges/rchardet) - Character encoding auto-detection in Ruby. As smart as your browser. Open source.
-*   [hanami/hanami](https://github.com/hanami/hanami) - The web, with simplicity.
-*   [discourse/discourse](https://github.com/discourse/discourse) - A platform for community discussion. Free, open, simple.
-*   [moonglum/halunke](https://github.com/moonglum/halunke) - A dynamic OO language with ideas traditionally described as "functional"
-*   [tombenner/ru](https://github.com/tombenner/ru) - Ruby in your shell!
-*   [Lackoftactics/facebook_data_analyzer](https://github.com/Lackoftactics/facebook_data_analyzer) - Analyze facebook copy of your data with ruby language. Download zip file from facebook and get info about friends ranking by message, vocabulary,  contacts, friends added statistics and more
-*   [dependabot/elixir-security-advisories](https://github.com/dependabot/elixir-security-advisories) - Public database of Elixir security advisories
-*   [jhawthorn/discard](https://github.com/jhawthorn/discard) - 🃏🗑 Soft deletes for ActiveRecord done right
-*   [faye/faye-websocket-ruby](https://github.com/faye/faye-websocket-ruby) - Standards-compliant WebSocket client and server
-*   [imanel/websocket-ruby](https://github.com/imanel/websocket-ruby) - Universal Ruby library to handle WebSocket protocol
-*   [WeTransfer/format_parser](https://github.com/WeTransfer/format_parser) - file metadata parsing, done cheap
-*   [recurly/druuid](https://github.com/recurly/druuid) - Date-relative UUID generation: Ruby library
-*   [ankane/pghero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
-*   [pocke/mry](https://github.com/pocke/mry) - Mry Migrates .Rubocop.Yml
-*   [covermymeds/rubocop-thread_safety](https://github.com/covermymeds/rubocop-thread_safety) -
-*   [janlelis/relaxed.ruby.style](https://github.com/janlelis/relaxed.ruby.style) - A Relaxed Style Guide for Ruby & Configuration for RuboCop
-*   [JXA-Cookbook/JXA-Cookbook](https://github.com/JXA-Cookbook/JXA-Cookbook) - Cookbook for JavaScript for Automation in Mac OS X Yosemite
-*   [workshare/mini-check](https://github.com/workshare/mini-check) - Health checks for Rack apps
-*   [ankane/multiverse](https://github.com/ankane/multiverse) - Multiple databases for Rails :tada:
-*   [onetimesecret/onetimesecret](https://github.com/onetimesecret/onetimesecret) - Keep sensitive info out of your email & chat logs.
-*   [prometheus/client_ruby](https://github.com/prometheus/client_ruby) - Prometheus instrumentation library for Ruby applications
-*   [ankane/blazer](https://github.com/ankane/blazer) - Business intelligence made simple
-*   [DataDuckETL/DataDuck](https://github.com/DataDuckETL/DataDuck) - DataDuck ETL - the extract-transform-load framework for data warehousing
-*   [danger/danger](https://github.com/danger/danger) - 🚫 Stop saying "you forgot to …" in code review (in Ruby)
-*   [eapache/starscope](https://github.com/eapache/starscope) - Smart code search for Ruby, Go, and JavaScript
-*   [sdepold/sequel-paranoid](https://github.com/sdepold/sequel-paranoid) - A plugin for the Ruby ORM Sequel, that allows soft deletion of database entries.
-*   [junegunn/heytmux](https://github.com/junegunn/heytmux) - Tmux scripting made easy
-*   [peek/peek](https://github.com/peek/peek) - Take a peek into your Rails applications.
-*   [github-changelog-generator/github-changelog-generator](https://github.com/github-changelog-generator/github-changelog-generator) - Automatically generate change log from your tags, issues, labels and pull requests on GitHub.
-*   [carmen-ruby/carmen](https://github.com/carmen-ruby/carmen) - A repository of geographic regions for Ruby
-*   [collectiveidea/interactor](https://github.com/collectiveidea/interactor) - Interactor provides a common interface for performing complex user interactions.
-*   [geekq/workflow](https://github.com/geekq/workflow) - Ruby finite-state-machine-inspired API for modeling workflow
-*   [ruby-amqp/hutch](https://github.com/ruby-amqp/hutch) - A system for processing messages from RabbitMQ.
-*   [ruby-amqp/amq-protocol](https://github.com/ruby-amqp/amq-protocol) - AMQP 0.9.1 protocol serialization and deserialization implementation for Ruby (2.0+)
-*   [cloudamqp/ruby-rabbitmq](https://github.com/cloudamqp/ruby-rabbitmq) - A Ruby RabbitMQ client library based on FFI bindings for librabbitmq.
-*   [synthead/github-migrator](https://github.com/synthead/github-migrator) - A tool for migrating Bitbucket issues into GitHub as GitHub issues
-*   [shioyama/method_found](https://github.com/shioyama/method_found) - Intercept method_missing calls and do something useful.
-*   [byroot/bootscale](https://github.com/byroot/bootscale) - Speedup applications boot by caching require calls
-*   [Shopify/bootsnap](https://github.com/Shopify/bootsnap) - Boot large Ruby/Rails apps faster
-*   [mariusandra/insights_export](https://github.com/mariusandra/insights_export) - Export your database structure into config/insights.yml
-*   [pawandubey/cuckoo_filter](https://github.com/pawandubey/cuckoo_filter) - Pure Ruby Cuckoo Filter Implementation
-*   [frozon/passbook](https://github.com/frozon/passbook) - Passbook gem let's you create pkpass for passbook iOS 6
-*   [toretore/barby](https://github.com/toretore/barby) - The Ruby barcode generator
-*   [shairontoledo/rghost-barcode](https://github.com/shairontoledo/rghost-barcode) - RGhost Barcode is adapter from Barcode Writer. The Barcode Writer in Pure Postscript is an award-winning open source barcode maker, as used by NASA.
-*   [rpush/rpush](https://github.com/rpush/rpush) - The push notification service for Ruby.
-*   [nomad/dubai](https://github.com/nomad/dubai) - Generate and Preview Passbook Passes
-*   [nomad/cupertino](https://github.com/nomad/cupertino) - CLI for the Apple Dev Center
-*   [grocer/grocer](https://github.com/grocer/grocer) - Pushing your Apple notifications since 2012.
-*   [lfittl/activerecord-clean-db-structure](https://github.com/lfittl/activerecord-clean-db-structure) - Automatic cleanup for the Rails db/structure.sql file (ActiveRecord/PostgreSQL)
-*   [postalserver/postal](https://github.com/postalserver/postal) - ✉️ A fully featured open source mail delivery platform for incoming & outgoing e-mail
-*   [PierreRambaud/gemirro](https://github.com/PierreRambaud/gemirro) - Gem to automatically make a rubygems mirror.
-*   [shioyama/mobility](https://github.com/shioyama/mobility) - Pluggable Ruby translation framework
-*   [CocoaPods/Molinillo](https://github.com/CocoaPods/Molinillo) - A generic dependency resolution algorithm.
-*   [rubygems/gemstash](https://github.com/rubygems/gemstash) - A RubyGems.org cache and private gem server
-*   [github/github-ds](https://github.com/github/github-ds) - A collection of Ruby libraries for working with SQL on top of ActiveRecord's connection
-*   [simplabs/excellent](https://github.com/simplabs/excellent) - Source Code analysis gem for Ruby and Rails
-*   [jeremyevans/sequel-unsplit](https://github.com/jeremyevans/sequel-unsplit) - Ruby code rewriter that replaces symbols containing embedded qualification/aliasing with equivalent Sequel code
-*   [vasilakisfil/rails5\_api_tutorial](https://github.com/vasilakisfil/rails5\_api_tutorial) - Learn how to build a modern API on Michael Hartl's Rails 5 tutorial
-*   [jekyll/mercenary](https://github.com/jekyll/mercenary) - An easier way to build your command-line scripts in Ruby.
-*   [jeremyevans/erubi](https://github.com/jeremyevans/erubi) - Small ERB Implementation
-*   [nhoizey/jekyll-cloudinary](https://github.com/nhoizey/jekyll-cloudinary) - Jekyll plugin adding a Liquid tag for Cloudinary, for better responsive images
-*   [realm/jazzy](https://github.com/realm/jazzy) - Soulful docs for Swift & Objective-C
-*   [github/graphql-relay-walker](https://github.com/github/graphql-relay-walker) - Walk the graph
-*   [aleks/ansible-rails](https://github.com/aleks/ansible-rails) - Ansible: Ruby on Rails Server
-*   [awslabs/j2119](https://github.com/awslabs/j2119) - A general-purpose validator generator that uses RFC2119-style assertions as input.
-*   [apiqcms/kms](https://github.com/apiqcms/kms) - Simple and powerful Ruby on Rails CMS for developers
-*   [katafrakt/noaidi](https://github.com/katafrakt/noaidi) - Erlang-inspired modules with pattern matching
-*   [adamcooke/procodile](https://github.com/adamcooke/procodile) - 🐊 Run processes in the background (and foreground) on Mac & Linux from a Procfile (for production and/or development environments)
-*   [awslabs/statelint](https://github.com/awslabs/statelint) - A Ruby gem that provides a command-line validator for Amazon States Language JSON files.
-*   [hashicorp/vault-ruby](https://github.com/hashicorp/vault-ruby) - The official Ruby client for HashiCorp's Vault
-*   [hashicorp/vault-rails](https://github.com/hashicorp/vault-rails) - A Rails plugin for easily integrating Vault secrets
-*   [neillturner/kitchen-ansible](https://github.com/neillturner/kitchen-ansible) - Ansible Provisioner for Test Kitchen
-*   [jakesgordon/rack-rabbit](https://github.com/jakesgordon/rack-rabbit) - A Unicorn-style forking server for hosting rabbitMQ consumers as load balanced Rack apps
-*   [jiahaog/gitcloud](https://github.com/jiahaog/gitcloud) - Use GitHub for file hosting and indexing
-*   [flyerhzm/eager_group](https://github.com/flyerhzm/eager_group) - fix n+1 aggregate sql functions for rails
-*   [kschiess/parslet](https://github.com/kschiess/parslet) - A small PEG based parser library. See the Hacking page in the Wiki as well.
-*   [erichaydel/errdo](https://github.com/erichaydel/errdo) - A simple plugin to handle, log, and customize production errors in Rails applications
-*   [testdouble/suture](https://github.com/testdouble/suture) - 🏥 A Ruby gem that helps you refactor your legacy code
-*   [codervault/codervault](https://github.com/codervault/codervault) - An Open Source, Self-Hosted, Snippet Manager
-*   [github/github-graphql-rails-example](https://github.com/github/github-graphql-rails-example) - Example Rails app using GitHub's GraphQL API
-*   [github/graphql-client](https://github.com/github/graphql-client) - A Ruby library for declaring, composing and executing GraphQL queries
-*   [hone/mruby-cli](https://github.com/hone/mruby-cli) - mruby-cli is a platform to build native command line applications for Linux, Windows, and OS X. It provides the tools necessary for building a standalone binary of your application from any machine. Take advantage of the power of Ruby without the cross-platform dependency headaches that go with it.
-*   [rack-app/rack-app](https://github.com/rack-app/rack-app) - minimalist framework for building rack applications
-*   [jedld/resugan](https://github.com/jedld/resugan) - simple, powerful and unobstrusive event driven architecture framework for ruby
-*   [oddlyfunctional/know_it_all](https://github.com/oddlyfunctional/know_it_all) - Minimalistic authorization focused on APIs http://www.oddlyfunctional.com/know_it_all/
-*   [maetl/calyx](https://github.com/maetl/calyx) - A Ruby library for generating text with recursive template grammars.
-*   [newsdev/archieml-ruby](https://github.com/newsdev/archieml-ruby) - Ruby parser for the Archie Markup Language (ArchieML)
-*   [jbarnette/pinglish](https://github.com/jbarnette/pinglish) - A simple Rack middleware for checking application health.
-*   [chriswailes/RLTK](https://github.com/chriswailes/RLTK) - The Ruby Language Toolkit
-*   [palkan/logidze](https://github.com/palkan/logidze) - Database changes log for Rails
-*   [helpyio/helpy](https://github.com/helpyio/helpy) - Helpy is a modern, open source helpdesk customer support application. Features include knowledgebase, community discussions and support tickets integrated with email.
-*   [phoffer/crystalized_ruby](https://github.com/phoffer/crystalized_ruby) - Write native Ruby extensions in Crystal
-*   [rosenfeld/rails_compatible_cookies_utils](https://github.com/rosenfeld/rails_compatible_cookies_utils) - Provides utility methods to read and write cookies shared with a Rails app
-*   [rosenfeld/rack_web_console](https://github.com/rosenfeld/rack_web_console) - A web console for Rack apps.
-*   [tupl-tufts/rdl](https://github.com/tupl-tufts/rdl) - Types, type checking, and contracts for Ruby
-*   [rosenfeld/rack_toolkit](https://github.com/rosenfeld/rack_toolkit) - A dynamic Rack server and helper methods to help testing Rack apps.
-*   [kwatch/rack-test_app](https://github.com/kwatch/rack-test_app) - more intuitive testing helper library for Rack app
-*   [influitive/apartment](https://github.com/influitive/apartment) - Database multi-tenancy for Rack (and Rails) applications
-*   [fetlife/rollout](https://github.com/fetlife/rollout) - Feature flippers.
-*   [hashrocket/decent_exposure](https://github.com/hashrocket/decent_exposure) - A helper for creating declarative interfaces in controllers
-*   [adomokos/light-service](https://github.com/adomokos/light-service) - Series of Actions with an emphasis on simplicity.
-*   [AndrewRadev/vimrunner](https://github.com/AndrewRadev/vimrunner) - Control a vim instance through ruby code
-*   [marcelotto/sycamore](https://github.com/marcelotto/sycamore) - A tree data structure for Ruby
-*   [thoughtbot/suspenders](https://github.com/thoughtbot/suspenders) - A Rails template with our standard defaults, ready to deploy to Heroku.
-*   [grosser/parallel](https://github.com/grosser/parallel) - Ruby: parallel processing made simple and fast
-*   [danielpclark/faster_path](https://github.com/danielpclark/faster_path) - Faster Pathname handling for Ruby written in Rust
-*   [rmosolgo/graphql-batch-example](https://github.com/rmosolgo/graphql-batch-example) - Before & after example with shopify/graphql-batch
-*   [rmosolgo/graphql-libgraphqlparser-ruby](https://github.com/rmosolgo/graphql-libgraphqlparser-ruby) - libgraphqlparser + graphql gem
-*   [Shopify/graphql-batch](https://github.com/Shopify/graphql-batch) - A query batching executor for the graphql gem
-*   [christhekeele/clientele](https://github.com/christhekeele/clientele) - DSL for building RESTful API clients
-*   [seansellek/Related](https://github.com/seansellek/Related) - Pure Ruby relational algebra
-*   [dry-rb/dry-equalizer](https://github.com/dry-rb/dry-equalizer) - ⚠ DEPRECATED - Dry::Equalizer is now part of dry-core library ⚠
-*   [domcleal/spdx-licenses](https://github.com/domcleal/spdx-licenses) - SPDX license and identifier lookup
-*   [licensee/licensee](https://github.com/licensee/licensee) - A Ruby Gem to detect under what license a project is distributed.
-*   [pivotal/LicenseFinder](https://github.com/pivotal/LicenseFinder) - Find licenses for your project's dependencies.
-*   [salsify/goldiloader](https://github.com/salsify/goldiloader) - Just the right amount of Rails eager loading
-*   [pgeraghty/ansible-wrapper-ruby](https://github.com/pgeraghty/ansible-wrapper-ruby) - Ruby wrapper around Ansible
-*   [colstrom/ansible_galaxy](https://github.com/colstrom/ansible_galaxy) - Ruby Wrapper for Ansible Galaxy HTTP API
-*   [colstrom/ansible-galaxy-sync](https://github.com/colstrom/ansible-galaxy-sync) - Commandline Tool to Sync Ansible Galaxy Roles
-*   [tpickett66/ansible-vault-rb](https://github.com/tpickett66/ansible-vault-rb) - A Ruby implementation Ansible's vault file format
-*   [weareinteractive/gem-ansible-role](https://github.com/weareinteractive/gem-ansible-role) - Gem with some useful Ansible role command line tools.
-*   [flajann2/ansible-powerplay](https://github.com/flajann2/ansible-powerplay) - Run your Ansible playbooks in parallel with Powerplay!
-*   [bcoe/librarian-ansible](https://github.com/bcoe/librarian-ansible) - Port of librarian-chef, providing bundler functionality for Ansible roles.
-*   [amzn/oss-dashboard](https://github.com/amzn/oss-dashboard) - A dashboard for viewing many GitHub organizations at once.
-*   [ivantsepp/minitest-skip](https://github.com/ivantsepp/minitest-skip) - Alternative ways to skip tests in Minitest
-*   [ProctorU/policy-assertions](https://github.com/ProctorU/policy-assertions) - Minitest assertions for Pundit policies
-*   [kematzy/minitest-assert_errors](https://github.com/kematzy/minitest-assert_errors) - Adds Minitest assertions to test for errors raised or not raised by Minitest itself
-*   [jackc/edge](https://github.com/jackc/edge) - Edge provides graph functionality to ActiveRecord.
-*   [take-five/activerecord-hierarchical_query](https://github.com/take-five/activerecord-hierarchical_query) - Simple DSL for creating recursive queries with ActiveRecord
-*   [forward3d/uphold](https://github.com/forward3d/uphold) - A tool for programmatically verifying database backups
-*   [jeremyevans/sequel_postgresql_triggers](https://github.com/jeremyevans/sequel_postgresql_triggers) - Database enforced timestamps, immutable columns, and counter/sum caches
-*   [TalentBox/sequel_translatable](https://github.com/TalentBox/sequel_translatable) - Translate model attributes for sequel, fully tested.
-*   [binarypaladin/sequel-geocoder](https://github.com/binarypaladin/sequel-geocoder) -
-*   [Shopalytic/sequel_upsert](https://github.com/Shopalytic/sequel_upsert) - Upsert support for Sequel on Postgres
-*   [darrell/sequel-postgis](https://github.com/darrell/sequel-postgis) - Set of PostGIS functions for the Sequel ruby database toolkit
-*   [karthikv/model_schema](https://github.com/karthikv/model_schema) - Enforced, Annotated Schema for Ruby Sequel Models
-*   [arthurdandrea/sequel-activemodel](https://github.com/arthurdandrea/sequel-activemodel) - Provides Sequel::Model plugins that expose ActiveModel::Callbacks, ActiveModel::Translation and ActiveModel::Validations features to Sequel::Model
-*   [djellemah/philtre](https://github.com/djellemah/philtre) - It's the Sequel equivalent for Ransack, Metasearch, Searchlogic. If this doesn't make you fall in love, I don't know what will.
-*   [uhoh-itsmaciek/attr_pouch](https://github.com/uhoh-itsmaciek/attr_pouch) - Schema-less auxiliary attribute storage for Postgres via Sequel plugin
-*   [celsworth/sequel-pg_advisory_locking](https://github.com/celsworth/sequel-pg_advisory_locking) - Adds support for PostgreSQL's advisory locking to Sequel
-*   [chanks/sequel-advisory-locking](https://github.com/chanks/sequel-advisory-locking) - Sequel extension for easy management of advisory locks.
-*   [emartech/sequel-pool_cleaner](https://github.com/emartech/sequel-pool_cleaner) - Connection pool cleanup extension for Sequel.
-*   [mitchellhenke/sequel_id_pagination](https://github.com/mitchellhenke/sequel_id_pagination) -
-*   [chanks/sequel-seek-pagination](https://github.com/chanks/sequel-seek-pagination) -
-*   [chanks/sequel-full-text-search](https://github.com/chanks/sequel-full-text-search) -
-*   [uhoh-itsmaciek/attr_vault](https://github.com/uhoh-itsmaciek/attr_vault) - Simple at-rest encryption with key rotation for Sequel models
-*   [kematzy/sequel-audited](https://github.com/kematzy/sequel-audited) - A Sequel plugin that logs all changes made to a model, including who created, updated and destroyed the record, and what was changed and when the change was made
-*   [halfdan/sequel-revisions](https://github.com/halfdan/sequel-revisions) - A sequel plugin that tracks model changes in a separate `*_revisions` table.
-*   [bachue/sequel-unicache](https://github.com/bachue/sequel-unicache) - Write through and Read through caching library inspired by Cache Money, support Sequel 4
-*   [invisiblefunnel/sequel-transformer](https://github.com/invisiblefunnel/sequel-transformer) - Organize, document, and instrument data transformations with the Sequel database toolkit
-*   [jeremyevans/roda-sequel-stack](https://github.com/jeremyevans/roda-sequel-stack) - Application Skeleton For Roda/Sequel stack
-*   [zverok/sequel_marginalia](https://github.com/zverok/sequel_marginalia) - Port of 37 signals marginalia for use with Sequel
-*   [basecamp/marginalia](https://github.com/basecamp/marginalia) - Attach comments to ActiveRecord's SQL queries
-*   [jeremyevans/sequel](https://github.com/jeremyevans/sequel) - Sequel: The Database Toolkit for Ruby
-*   [rails-api/rails-api](https://github.com/rails-api/rails-api) - Rails for API only applications
-*   [rbCAS/CASino](https://github.com/rbCAS/CASino) - CASino is a Ruby-based Single Sign-On solution supporting the CAS standard
-*   [cucumber/aruba](https://github.com/cucumber/aruba) - Test command-line applications with Cucumber-Ruby, RSpec or Minitest.
-*   [ioquatix/latinum](https://github.com/ioquatix/latinum) - Latinum is a framework for resource and currency calculations.
-*   [litaio/lita](https://github.com/litaio/lita) - ChatOps for Ruby.
-*   [hidroh/cucumber-api](https://github.com/hidroh/cucumber-api) - API validator in BBD style with Cucumber
-*   [halogenandtoast/oath](https://github.com/halogenandtoast/oath) - Oath is rails authentication made simple. Previously known as Monban
-*   [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
-*   [DamirSvrtan/fasterer](https://github.com/DamirSvrtan/fasterer) - :zap: Don't make your Rubies go fast. Make them go fasterer ™. :zap:
-*   [rails/rails-perftest](https://github.com/rails/rails-perftest) - Benchmark and profile your Rails apps
-*   [fastruby/fast-ruby](https://github.com/fastruby/fast-ruby) - :dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.
-*   [projectblacklight/blacklight](https://github.com/projectblacklight/blacklight) - Blacklight provides a discovery interface for any Solr (http://lucene.apache.org/solr) index.
-*   [socketry/http-accept](https://github.com/socketry/http-accept) - Parse Accept and Accept-Language HTTP headers in Ruby.
-*   [PJK/libcbor-ruby](https://github.com/PJK/libcbor-ruby) - Ruby bindings for libcbor
-*   [cabo/cbor-diag](https://github.com/cabo/cbor-diag) - CBOR diagnostic utilities
-*   [janlelis/irbtools](https://github.com/janlelis/irbtools) - Improvements for Ruby's IRB console 💎︎
-*   [davearonson/EOTS](https://github.com/davearonson/EOTS) - Rails gem for describing, showing forms for, and delivering, multiple kinds of email
-*   [rmosolgo/graphql-ruby-demo](https://github.com/rmosolgo/graphql-ruby-demo) - Use graphql-ruby to expose a Rails app
-*   [rmosolgo/graphql-ruby](https://github.com/rmosolgo/graphql-ruby) - Ruby implementation of GraphQL
-*   [codeship/dns_deploy](https://github.com/codeship/dns_deploy) - Continuous Deployment for your DNS Records
-*   [bdevel/erb_sql_templates](https://github.com/bdevel/erb_sql_templates) - Ruby Gem to customize large SQL queries with ERB.
-*   [sufleR/sql_query](https://github.com/sufleR/sql_query) - Ruby gem to load SQL queries from `.sql.erb` templates using ERB.
-*   [KnapsackPro/knapsack_pro-ruby](https://github.com/KnapsackPro/knapsack_pro-ruby) - Knapsack Pro gem splits tests across parallel CI nodes and makes sure that tests will run in optimal time on each node.
-*   [httprb/http](https://github.com/httprb/http) - HTTP (The Gem! a.k.a. http.rb) - a fast Ruby HTTP client with a chainable API, streaming support, and timeouts
-*   [ankane/the-ultimate-guide-to-ruby-timeouts](https://github.com/ankane/the-ultimate-guide-to-ruby-timeouts) - Timeouts for popular Ruby gems
-*   [reidmorrison/rocketjob](https://github.com/reidmorrison/rocketjob) - Ruby's missing background and batch processing system
-*   [rob-murray/five-star](https://github.com/rob-murray/five-star) - :star: FiveStar :star: is a library to build a rating system in Ruby
-*   [amatsuda/rfd](https://github.com/amatsuda/rfd) - Ruby on Files & Directories
-*   [amatsuda/active_decorator](https://github.com/amatsuda/active_decorator) - ORM agnostic truly Object-Oriented view helper for Rails 4, 5, and 6
-*   [amatsuda/motorhead](https://github.com/amatsuda/motorhead) - A Rails Engine framework that helps safe and rapid feature prototyping
-*   [stripe-archive/mosql](https://github.com/stripe-archive/mosql) - MongoDB → PostgreSQL streaming replication
-*   [Originate/weighted_score](https://github.com/Originate/weighted_score) - Calculate Weighted Scores
-*   [shrinerb/shrine](https://github.com/shrinerb/shrine) - File Attachment toolkit for Ruby applications
-*   [adamcooke/color_fun](https://github.com/adamcooke/color_fun) - A little gem for doing stuff with colors
-*   [digitalextremist/omnirepo](https://github.com/digitalextremist/omnirepo) - Create new omnibus repositories out of collections of existing git repositories.
-*   [moonlight-labs/watch](https://github.com/moonlight-labs/watch) - Rails engine enables Watch/Follow functionality between models including options to track views and trigger change notifications
-*   [Genki-S/ttnt](https://github.com/Genki-S/ttnt) - Test This, Not That! (Google Summer of Code 2015 project under Ruby on Rails)
-*   [AaronLasseigne/active_interaction](https://github.com/AaronLasseigne/active_interaction) - :briefcase: Manage application specific business logic.
-*   [stripe-archive/chalk-log](https://github.com/stripe-archive/chalk-log) - Chalk::Log adds a logger object to any class, which can be used for unstructured or semi-structured logging.
-*   [stripe/subprocess](https://github.com/stripe/subprocess) - A port of Python's subprocess module to Ruby
-*   [markbates/configatron](https://github.com/markbates/configatron) - A super cool, simple, and feature rich configuration system for Ruby apps.
-*   [stripe-archive/chalk-config](https://github.com/stripe-archive/chalk-config) - Maps on-disk config files into a loaded global configatron instance, taking into account your current environment.
-*   [jeremyevans/sequel_validation_helpers_block](https://github.com/jeremyevans/sequel_validation_helpers_block) - Allows easy determination of which validation rules apply to a given column, at the expense of increased verbosity
-*   [mlen/sequel_secure_password](https://github.com/mlen/sequel_secure_password) - Plugin that adds BCrypt authentication and password hashing to Sequel models.
-*   [sdepold/sequel-bit_fields](https://github.com/sdepold/sequel-bit_fields) - A sequel plugin that allows the use of integer columns to represent a big number of flags.
-*   [jackdempsey/sequel_polymorphic](https://github.com/jackdempsey/sequel_polymorphic) -
-*   [shadabahmed/logstasher](https://github.com/shadabahmed/logstasher) - Awesome rails logs
-*   [dwbutler/logstash-logger](https://github.com/dwbutler/logstash-logger) - Ruby logger that writes logstash events
-*   [thuss/standalone-migrations](https://github.com/thuss/standalone-migrations) - A gem to use Rails Database Migrations in non Rails projects
-*   [github/secure_headers](https://github.com/github/secure_headers) - Manages application of security headers with many safe defaults
-*   [ioquatix/process-group](https://github.com/ioquatix/process-group) - Manages a group of processes which can run concurrently using fibers.
-*   [chrisroberts/krakow](https://github.com/chrisroberts/krakow) - Ruby client library for NSQ
-*   [tmm1/test-queue](https://github.com/tmm1/test-queue) - parallel test runner for CI environments
-*   [fnando/test_notifier](https://github.com/fnando/test_notifier) - Display system notifications (dbus, growl and snarl) after running tests. It works on Mac OS X, Linux and Windows. Powerful when used with Autotest ZenTest gem for Rails apps.
-*   [chriskottom/minitest-flog](https://github.com/chriskottom/minitest-flog) - Flog integration for Minitest
-*   [adammck/minitest-stub-const](https://github.com/adammck/minitest-stub-const) - Stub constants for the duration of a block in MiniTest
-*   [jeremyevans/minitest-shared_description](https://github.com/jeremyevans/minitest-shared_description) - Support for shared specs and shared spec subclasses for Minitest
-*   [samg/diffy](https://github.com/samg/diffy) - Easy Diffing in Ruby
-*   [FooBarWidget/default_value_for](https://github.com/FooBarWidget/default_value_for) - Provides a way to specify default values for ActiveRecord models
-*   [kyrylo/multitrap](https://github.com/kyrylo/multitrap) - Allows Signal.trap to execute multiple callbacks
-*   [camertron/arel-helpers](https://github.com/camertron/arel-helpers) - Useful tools to help construct database queries with ActiveRecord and Arel.
-*   [raggi/hoe-gemspec2](https://github.com/raggi/hoe-gemspec2) - Adds gemspec generation support to Hoe
-*   [teoljungberg/minitest-documentation](https://github.com/teoljungberg/minitest-documentation) - Rspec like documentation formatter for Minitest
-*   [airbnb/synapse](https://github.com/airbnb/synapse) - A transparent service discovery framework for connecting an SOA
-*   [airbnb/nerve](https://github.com/airbnb/nerve) - A service registration daemon that performs health checks; companion to airbnb/synapse
-*   [MadRabbit/x-ray-machine](https://github.com/MadRabbit/x-ray-machine) - A logger/profiler that helps you to track heavy calls in rails apps
-*   [IFTTT/kashmir](https://github.com/IFTTT/kashmir) - Kashmir is a Ruby DSL that makes serializing and caching objects a snap.
-*   [FontCustom/fontcustom](https://github.com/FontCustom/fontcustom) - Generate custom icon webfonts from the comfort of the command line.
-*   [sorentwo/readthis](https://github.com/sorentwo/readthis) - :newspaper: Pooled active support compliant caching with redis
-*   [n8/multi_fetch_fragments](https://github.com/n8/multi_fetch_fragments) - Multi-fetch Fragments makes rendering and caching a collection of template partials easier and faster.
-*   [heapsource/active_model_otp](https://github.com/heapsource/active_model_otp) - Adds methods to set and authenticate against one time passwords (Two-Factor Authentication). Inspired in AM::SecurePassword
-*   [mdp/rotp](https://github.com/mdp/rotp) - Ruby One Time Password library
-*   [sds/overcommit](https://github.com/sds/overcommit) - A fully configurable and extendable Git hook manager
-*   [ybur-yug/gkv](https://github.com/ybur-yug/gkv) - Git as a KV store in Ruby
-*   [railsware/global](https://github.com/railsware/global) - "Global" provides accessor methods for your configuration data
-*   [bluerail/twitter-bootstrap-rails-confirm](https://github.com/bluerail/twitter-bootstrap-rails-confirm) - Confirm dialogs using Twitter Bootstrap
-*   [jasmine/jasmine-gem](https://github.com/jasmine/jasmine-gem) - Jasmine ruby gem
-*   [jfirebaugh/konacha](https://github.com/jfirebaugh/konacha) - Test your Rails application's JavaScript with the mocha test framework and chai assertion library
-*   [balinterdi/i15r](https://github.com/balinterdi/i15r) - Replaces plain text strings in your views and replaces them with I18n message strings so you only have to provide the translations (i15r = internationalizer)
-*   [tigrish/i18n-spec](https://github.com/tigrish/i18n-spec) - i18n-spec provides RSpec matchers for testing your locale files and their translations.
-*   [bachya/pinpress](https://github.com/bachya/pinpress) - A simple CLI to create text templates of Pinboard data.
-*   [railsware/http_logger](https://github.com/railsware/http_logger) - Log your http api calls just like SQL queries
-*   [flexera-public/right_develop](https://github.com/flexera-public/right_develop) - Developer tools
-*   [jbodah/spy_rb](https://github.com/jbodah/spy_rb) - :mag: Transparent Test Spies for Ruby
-*   [danmayer/churn](https://github.com/danmayer/churn) - Providing additional churn metrics over the original metric_fu churn
-*   [realdoug/omniauth-salesforce](https://github.com/realdoug/omniauth-salesforce) - OmniAuth strategy for salesforce.com
-*   [aaronpk/omniauth-indieauth](https://github.com/aaronpk/omniauth-indieauth) - IndieAuth strategy for OmniAuth
-*   [omniauth/omniauth-identity](https://github.com/omniauth/omniauth-identity) - A simple login and password strategy for OmniAuth.
-*   [zquestz/omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2) - Oauth2 strategy for Google
-*   [tstachl/omniauth-desk](https://github.com/tstachl/omniauth-desk) - Omniauth Strategy for Desk.com
-*   [marknadig/omniauth-azure-oauth2](https://github.com/marknadig/omniauth-azure-oauth2) -
-*   [mikekelly/hactor](https://github.com/mikekelly/hactor) - A framework for building hypermedia clients
-*   [gamache/hyperresource](https://github.com/gamache/hyperresource) - A self-inflating Ruby client for hypermedia APIs.  Not under active development.
-*   [pezra/hal-client](https://github.com/pezra/hal-client) - Use HAL APIs easily
-*   [tomstuart/monads](https://github.com/tomstuart/monads) - Simple Ruby implementations of some common monads.
-*   [simplificator/flatten_migrations](https://github.com/simplificator/flatten_migrations) - Flatten migrations into one
-*   [grosser/maxitest](https://github.com/grosser/maxitest) - Minitest + all the features you always wanted.
-*   [TwP/little-plugger](https://github.com/TwP/little-plugger) - A gems based plugin framework for Ruby
-*   [TwP/logging](https://github.com/TwP/logging) - A flexible logging library for use in Ruby programs based on the design of Java's log4j library.
-*   [jeremyevans/fixture_dependencies](https://github.com/jeremyevans/fixture_dependencies) - Sequel/ActiveRecord fixture loader that handles dependency graphs
-*   [danmayer/coverband](https://github.com/danmayer/coverband) - Ruby production code coverage collection and reporting (line of code usage)
-*   [Shopify/identity_cache](https://github.com/Shopify/identity_cache) - IdentityCache is a blob level caching solution to plug into Active Record. Don't #find, #fetch!
-*   [Saltside/thrifter](https://github.com/Saltside/thrifter) - Production ready thrift client with improved semantics
-*   [flood-io/ruby-jmeter](https://github.com/flood-io/ruby-jmeter) - A Ruby based DSL for building JMeter test plans
-*   [junegunn/redis-stat](https://github.com/junegunn/redis-stat) - (UNMAINTAINED) A real-time Redis monitoring tool
-*   [flyerhzm/bullet](https://github.com/flyerhzm/bullet) - help to kill N+1 queries and unused eager loading
-*   [tilo/smarter_csv](https://github.com/tilo/smarter_csv) - Ruby Gem for smarter importing of CSV Files as Array(s) of Hashes, with optional features for processing large files in parallel, embedded comments, unusual field- and record-separators, flexible mapping of CSV-headers to Hash-keys
-*   [mdh/ssm](https://github.com/mdh/ssm) - A Ruby Statemachine that focuses on events instead of states.
-*   [rouge-ruby/rouge](https://github.com/rouge-ruby/rouge) - A pure Ruby code highlighter that is compatible with Pygments
-*   [seattlerb/makerakeworkwell](https://github.com/seattlerb/makerakeworkwell) -
-*   [zendesk/curly](https://github.com/zendesk/curly) - The Curly template language allows separating your logic from the structure of your HTML templates.
-*   [hybridgroup/artoo](https://github.com/hybridgroup/artoo) - Ruby framework for robotics, drones, and the Internet of Things (IoT)
-*   [crohr/pkgr](https://github.com/crohr/pkgr) - Package any app into deb or rpm packages, using heroku buildpacks
-*   [lukaszkorecki/pkgr](https://github.com/lukaszkorecki/pkgr) - Package any app into deb or rpm packages, using heroku buildpacks
-*   [ruby-concurrency/concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) - Modern concurrency tools including agents, futures, promises, thread pools, supervisors, and more. Inspired by Erlang, Clojure, Scala, Go, Java, JavaScript, and classic concurrency patterns.
-*   [fastlane/fastlane](https://github.com/fastlane/fastlane) - 🚀 The easiest way to automate building and releasing your iOS and Android apps
-*   [bglusman/debt_ceiling](https://github.com/bglusman/debt_ceiling) - Get a grip on your technical debt
-*   [soundcloud/lhm](https://github.com/soundcloud/lhm) - Online MySQL schema migrations
-*   [thiagopradi/octopus](https://github.com/thiagopradi/octopus) - Database Sharding for ActiveRecord
-*   [lookout/statsd](https://github.com/lookout/statsd) - Ruby statsd
-*   [settingslogic/settingslogic](https://github.com/settingslogic/settingslogic) - A simple and straightforward settings solution that uses an ERB enabled YAML file and a singleton design pattern.
-*   [jwkoelewijn/batsir](https://github.com/jwkoelewijn/batsir) - Batsir is an execution platform for stage based operation queue execution
-*   [TalentBox/sequel-rails](https://github.com/TalentBox/sequel-rails) - A gem for using Sequel with Rails 4.x, 5.x, and 6.x
-*   [interagent/prmd](https://github.com/interagent/prmd) - JSON Schema tools and doc generation for HTTP APIs
-*   [iain/http_accept_language](https://github.com/iain/http_accept_language) - Ruby on Rails plugin. Fishes out the Accept-Language header into an array.
-*   [vmware-archive/sunspot_matchers](https://github.com/vmware-archive/sunspot_matchers) - RSpec matchers for testing Sunspot searches
-*   [glebm/order_query](https://github.com/glebm/order_query) - Find next / previous Active Record(s) in one query
-*   [voormedia/rails-erd](https://github.com/voormedia/rails-erd) - Generate Entity-Relationship Diagrams for Rails applications
-*   [thesurfingcat/timekeeper](https://github.com/thesurfingcat/timekeeper) - OLD Rails 2 - Time keeping app to record normal working hours plus out of hours time.
-*   [grosser/wwtd](https://github.com/grosser/wwtd) - WWTD: Travis simulator - faster + no more waiting for build emails
-*   [txus/kleisli](https://github.com/txus/kleisli) - Usable, idiomatic common monads in Ruby
-*   [mperham/connection_pool](https://github.com/mperham/connection_pool) - Generic connection pooling for Ruby
-*   [nateware/redis-objects](https://github.com/nateware/redis-objects) - Map Redis types directly to Ruby objects
-*   [haileys/fast_open_struct](https://github.com/haileys/fast_open_struct) - open struct that does not invalidate ruby's method cache every time it is instantiated
-*   [crepe/jsonite](https://github.com/crepe/jsonite) - A tiny, HAL-compliant JSON presenter for your Ruby APIs.
-*   [fetch/faraday_hal_middleware](https://github.com/fetch/faraday_hal_middleware) - Faraday Middleware for JSON HAL requests and responses
-*   [codegram/hypermodel](https://github.com/codegram/hypermodel) - Rails Responder to generate an automagic JSON HAL representation for your models
-*   [steveklabnik/rust_example](https://github.com/steveklabnik/rust_example) - A Ruby gem, implemented in Rust
-*   [steveklabnik/request_store](https://github.com/steveklabnik/request_store) - Per-request global storage for Rack.
-*   [DavidHuie/quartz](https://github.com/DavidHuie/quartz) - A gem for calling Go code from within your Ruby code
-*   [jjbohn/assert-moar](https://github.com/jjbohn/assert-moar) - Extra assertions for MiniTest
-*   [envygeeks/ruby-active_record_mocks](https://github.com/envygeeks/ruby-active_record_mocks) - ActiveRecord Mocking for RSpec and Minitest.
-*   [thelinuxlich/minimal_cuke](https://github.com/thelinuxlich/minimal_cuke) - A skeleton project to test external apps with Cucumber, Capybara, MiniTest and ZenTest
-*   [lauri/minitest-doctest](https://github.com/lauri/minitest-doctest) - Doctest for Ruby
-*   [lauri/minitest-apidoc](https://github.com/lauri/minitest-apidoc) - Test based API documentation generator for Ruby/Rack web apps
-*   [Apipie/apipie-rails](https://github.com/Apipie/apipie-rails) - Ruby on Rails API documentation tool
-*   [ttscoff/vitag](https://github.com/ttscoff/vitag) -
-*   [reidmorrison/symmetric-encryption](https://github.com/reidmorrison/symmetric-encryption) - Symmetric Encryption for Ruby Projects using OpenSSL
-*   [jmazzi/crypt_keeper](https://github.com/jmazzi/crypt_keeper) - Transparent ActiveRecord encryption
-*   [spikex/strongbox](https://github.com/spikex/strongbox) - Secures ActiveRecord attributes with public key encryption
-*   [attr-encrypted/encryptor](https://github.com/attr-encrypted/encryptor) - A simple wrapper for the standard ruby OpenSSL library
-*   [mbj/devtools](https://github.com/mbj/devtools) - The rake ci task!
-*   [mbj/unparser](https://github.com/mbj/unparser) - Turn Ruby AST into semantically equivalent Ruby source
-*   [whitequark/ast](https://github.com/whitequark/ast) - A library for working with Abstract Syntax Trees.
-*   [DavyJonesLocker/postgres_ext-serializers](https://github.com/DavyJonesLocker/postgres_ext-serializers) -
-*   [gjtorikian/html-proofer](https://github.com/gjtorikian/html-proofer) - Test your rendered HTML files to make sure they're accurate.
-*   [gjtorikian/extended-markdown-filter](https://github.com/gjtorikian/extended-markdown-filter) - Some additional Markdown formatting, for use in HTML::Pipeline
-*   [gjtorikian/jekyll-html-pipeline](https://github.com/gjtorikian/jekyll-html-pipeline) - Use GitHub's HTML::Pipeline, in Jekyll!
-*   [gjtorikian/html-pipeline](https://github.com/gjtorikian/html-pipeline) - HTML processing filters and utilities
-*   [webmachine/webmachine-ruby](https://github.com/webmachine/webmachine-ruby) - Webmachine, the HTTP toolkit (in Ruby)
-*   [trailblazer/trailblazer](https://github.com/trailblazer/trailblazer) - The advanced business logic framework for Ruby.
-*   [composite-primary-keys/composite_primary_keys](https://github.com/composite-primary-keys/composite_primary_keys) - Composite Primary Keys support for Active Record
-*   [busyloop/powerbar](https://github.com/busyloop/powerbar) - The last progressbar-library you'll ever need
-*   [sagivo/algorithms](https://github.com/sagivo/algorithms) - algorithms playground for common questions
-*   [matthewtodd/shoe](https://github.com/matthewtodd/shoe) - Configuration-free Rake tasks that read your gemspec.
-*   [r7kamura/autodoc](https://github.com/r7kamura/autodoc) - Generate documentation from your rack application & request-spec.
-*   [philcallister/rails-grape-entity](https://github.com/philcallister/rails-grape-entity) - Rails 4 + Grape API + Grape Entity + Swagger
-*   [richhollis/swagger-docs](https://github.com/richhollis/swagger-docs) - Generates swagger-ui json files for Rails APIs with a simple DSL.
-*   [Sutto/api_smith](https://github.com/Sutto/api_smith) - API Smith makes building structured API clients even simpler.
-*   [Sutto/rocket_pants](https://github.com/Sutto/rocket_pants) - API building tools on top of ActionController. Also, an awesome name.
-*   [square/fdoc](https://github.com/square/fdoc) - Documentation format and verification
-*   [kitchenplan/kitchenplan](https://github.com/kitchenplan/kitchenplan) - Kitchenplan is a small tool to fully automate the installation and configuration of an OSX workstation (or server for that matter) using Chef. But while doing so manually is not a trivial undertaking, Kitchenplan has abstracted away all the hard parts.
-*   [pivotal-sprout/sprout-osx-apps](https://github.com/pivotal-sprout/sprout-osx-apps) - Recipes to install applications on OS X, when homebrew isn't enough
-*   [omniauth/omniauth-oauth2](https://github.com/omniauth/omniauth-oauth2) - An abstract OAuth2 strategy for OmniAuth.
-*   [ruby-grape/grape](https://github.com/ruby-grape/grape) - An opinionated framework for creating REST-like APIs in Ruby.
-*   [ruby-grape/grape-entity](https://github.com/ruby-grape/grape-entity) - An API focused facade that sits on top of an object model.
-*   [agileanimal/grape-entity-matchers](https://github.com/agileanimal/grape-entity-matchers) - Shoulda-style matchers to help with testing grape entities.
-*   [ruby-grape/grape-swagger](https://github.com/ruby-grape/grape-swagger) - Add OAPI/swagger v2.0 compliant documentation to your grape API
-*   [bellycard/napa](https://github.com/bellycard/napa) - A simple framework for building APIs with Grape
-*   [hookercookerman/active_model_version_serializers](https://github.com/hookercookerman/active_model_version_serializers) - Versioning For ActiveModel::Serializer
-*   [mceachen/minitest-great_expectations](https://github.com/mceachen/minitest-great_expectations) - Generally useful additions to minitest's expectations
-*   [stephencelis/minifacture](https://github.com/stephencelis/minifacture) - factory_girl for minitest
-*   [subelsky/subelsky_power_tools](https://github.com/subelsky/subelsky_power_tools) - Various enhancements/patches I used early in my Ruby career
-*   [doorkeeper-gem/doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) - Doorkeeper is an OAuth 2 provider for Ruby on Rails / Grape.
-*   [opro/opro](https://github.com/opro/opro) -
-*   [zk-ruby/zk](https://github.com/zk-ruby/zk) - A High-Level wrapper for Apache's Zookeeper
-*   [pupeno/validation_auditor](https://github.com/pupeno/validation_auditor) - Log validation errors to the database for later inspection.
-*   [apotonick/roar-rails](https://github.com/apotonick/roar-rails) - Use Roar's representers in Rails.
-*   [trailblazer/roar](https://github.com/trailblazer/roar) - Parse and render REST API documents using representers.
-*   [rails/globalid](https://github.com/rails/globalid) - Identify app models with a URI
-*   [wsargent/circuit_breaker](https://github.com/wsargent/circuit_breaker) - Implementation of Michael Nygard's Circuit Breaker pattern in Ruby
-*   [sittercity/breaker_box](https://github.com/sittercity/breaker_box) - Circuit breakers in ruby
-*   [pedro/cb2](https://github.com/pedro/cb2) - Implementation of the circuit breaker pattern in Ruby, backed by Redis
-*   [YorickPeterse/oga](https://github.com/YorickPeterse/oga) - Read-only mirror of https://gitlab.com/yorickpeterse/oga
-*   [alisnic/nyny](https://github.com/alisnic/nyny) - a (ridiculously) small and powerful web framework.
-*   [eLocal/rain](https://github.com/eLocal/rain) - A Rails engine for organized, "one-button" deployment to your server cluster using Capistrano and Git. Make it rain.
-*   [payolapayments/payola](https://github.com/payolapayments/payola) - Drop-in Rails engine for accepting payments with Stripe
-*   [github/scientist](https://github.com/github/scientist) - :microscope: A Ruby library for carefully refactoring critical paths.
-*   [igrigorik/agent](https://github.com/igrigorik/agent) - Agent is an attempt at modelling Go-like concurrency, in Ruby
-*   [lostisland/faraday](https://github.com/lostisland/faraday) - Simple, but flexible HTTP client library, with support for multiple backends.
-*   [celluloid/celluloid](https://github.com/celluloid/celluloid) - Actor-based concurrent object framework for Ruby
-*   [ruby/did_you_mean](https://github.com/ruby/did_you_mean) - The gem that has been saving people from typos since 2014
-*   [reenhanced/gitreflow](https://github.com/reenhanced/gitreflow) - Reflow automatically creates pull requests, ensures the code review is approved, and squash merges finished branches to master with a great commit message template.
-*   [newrelic/centurion](https://github.com/newrelic/centurion) - A mass deployment tool for Docker fleets
-*   [praxis/praxis](https://github.com/praxis/praxis) - Praxis is a framework that focuses on both the design and implementation aspects of creating APIs.
-*   [praxis/attributor](https://github.com/praxis/attributor) - A powerful attribute and type management library for Ruby
-*   [stripe-archive/einhorn](https://github.com/stripe-archive/einhorn) - Einhorn: the language-independent shared socket manager
-*   [ahoward/sekrets](https://github.com/ahoward/sekrets) -     sekrets is a command line tool and library used to securely manage encrypted files and settings in your rails' applications and git repositories.
-*   [moserrya/knod](https://github.com/moserrya/knod) - A Tiny HTTP server for your current directory
-*   [xinminlabs/synvert-ruby](https://github.com/xinminlabs/synvert-ruby) - write snippet code to rewrite your project code
-*   [ankane/pretender](https://github.com/ankane/pretender) - Log in as another user in Rails
-*   [collectiveidea/audited](https://github.com/collectiveidea/audited) - Audited (formerly acts_as_audited) is an ORM extension that logs all changes to your Rails models.
-*   [jgaskins/perpetuity](https://github.com/jgaskins/perpetuity) - Persistence gem for Ruby objects using the Data Mapper pattern
-*   [markevans/dragonfly](https://github.com/markevans/dragonfly) - A Ruby gem for on-the-fly processing - suitable for image uploading in Rails, Sinatra and much more!
-*   [airbnb/hammerspace](https://github.com/airbnb/hammerspace) - Off-heap large object storage
-*   [liftoffcli/liftoff](https://github.com/liftoffcli/liftoff) - CLI for creating and configuring new Xcode projects
-*   [garybernhardt/selecta](https://github.com/garybernhardt/selecta) - A fuzzy text selector for files and anything else you need to select. Use it from vim, from the command line, or anywhere you can run a shell command.
-*   [javan/whenever](https://github.com/javan/whenever) - Cron jobs in Ruby
-*   [getsentry/sentry-ruby](https://github.com/getsentry/sentry-ruby) - Sentry SDK for Ruby
-*   [Kong/unirest-ruby](https://github.com/Kong/unirest-ruby) - Unirest in Ruby: Simplified, lightweight HTTP client library.
-*   [pedro/moargration](https://github.com/pedro/moargration) - Helping you migrate MOAR
-*   [nytimes/tamper](https://github.com/nytimes/tamper) -
-*   [envato/heroku-deploy](https://github.com/envato/heroku-deploy) - Complete zero downtime deploys for Rails applications on Heroku
-*   [ConradIrwin/dotgpg](https://github.com/ConradIrwin/dotgpg) - A secure and easy-to-use store for your production secrets
-*   [samleb/sexy_scopes](https://github.com/samleb/sexy_scopes) - Stop writing SQL in your ActiveRecord scopes: embrace Ruby!
-*   [thoughtbot/pacecar](https://github.com/thoughtbot/pacecar) - Generated scopes for ActiveRecord classes
-*   [ruby2js/ruby2js](https://github.com/ruby2js/ruby2js) - Ruby to JavaScript conversion
-*   [rubys/wunderbar](https://github.com/rubys/wunderbar) - Easy HTML5 applications
-*   [WorkSimple/marketo](https://github.com/WorkSimple/marketo) - TODO: one-line summary of your gem
-*   [jugglebird/marketo](https://github.com/jugglebird/marketo) -
-*   [omniauth/omniauth](https://github.com/omniauth/omniauth) - OmniAuth is a flexible authentication system utilizing Rack middleware.
-*   [googleapis/signet](https://github.com/googleapis/signet) - Signet is an OAuth 1.0 / OAuth 2.0 implementation.
-*   [googleapis/google-api-ruby-client](https://github.com/googleapis/google-api-ruby-client) - REST client for Google APIs
-*   [nathankleyn/ruby-nlp](https://github.com/nathankleyn/ruby-nlp) - Various NLP tools for Ruby
-*   [vmware-archive/git_scripts](https://github.com/vmware-archive/git_scripts) - Developer workflow convenience scripts
-*   [deivid-rodriguez/pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) - Step-by-step debugging and stack navigation in Pry
-*   [deivid-rodriguez/byebug](https://github.com/deivid-rodriguez/byebug) - Debugging in Ruby 2
-*   [vcr/vcr](https://github.com/vcr/vcr) - Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
-*   [andrewculver/koudoku](https://github.com/andrewculver/koudoku) - Robust subscription support for Rails with Stripe.
-*   [gazay/gon](https://github.com/gazay/gon) - Your Rails variables in your JS
-*   [varvet/pundit](https://github.com/varvet/pundit) - Minimal authorization through OO design and pure Ruby classes
-*   [railsware/js-routes](https://github.com/railsware/js-routes) - Brings Rails named routes to javascript
-*   [BetterErrors/better_errors](https://github.com/BetterErrors/better_errors) - Better error page for Rack apps
-*   [mina-deploy/mina](https://github.com/mina-deploy/mina) - Blazing fast application deployment tool.
-*   [petergoldstein/dalli](https://github.com/petergoldstein/dalli) - High performance memcached client for Ruby
-*   [trulia/hologram](https://github.com/trulia/hologram) - A markdown based documentation system for style guides.
-*   [shageman/the_next_big_thing](https://github.com/shageman/the_next_big_thing) - Sample Rails app using vendored engines and gems to provide functionality
-*   [stephencelis/ghi](https://github.com/stephencelis/ghi) - GitHub Issues on the command line. Use your $EDITOR, not your browser.
-*   [devrieda/color_conversion](https://github.com/devrieda/color_conversion) - A ruby gem to perform color conversions
-*   [clauswitt/colorscheme](https://github.com/clauswitt/colorscheme) - Colorscheme gem
-*   [melborne/colorable](https://github.com/melborne/colorable) - A simple color handler which provide a conversion between colorname, RGB, HSB and HEX
-*   [jpmckinney/color-generator](https://github.com/jpmckinney/color-generator) - Ruby gem to randomly generate distinct colors with consistent lightness and saturation
-*   [quadule/colorscore](https://github.com/quadule/colorscore) - Finds the dominant colors in an image and scores them against a user-defined palette, using the CIE2000 Delta E formula.
-*   [retro/color_namer](https://github.com/retro/color_namer) - Color Namer enables you to name color from HTML hash or RGB value
-*   [codegram/colorant](https://github.com/codegram/colorant) - A small utility to get the colors of an image.
-*   [threedaymonk/colormath](https://github.com/threedaymonk/colormath) - Colour mathematics (RGB/HSL/blend) library for Ruby
-*   [brandonhilkert/sucker_punch](https://github.com/brandonhilkert/sucker_punch) - Sucker Punch is a Ruby asynchronous processing library using concurrent-ruby, heavily influenced by Sidekiq and girl_friday.
-*   [WinRb/vagrant-windows](https://github.com/WinRb/vagrant-windows) -
-*   [dotless-de/vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) - A Vagrant plugin to keep your VirtualBox Guest Additions up to date
-*   [virtuald/vagrant-rekey-ssh](https://github.com/virtuald/vagrant-rekey-ssh) - Obsolete after Vagrant 1.7. Vagrant plugin which plugs default gaping holes in a vagrant box
-*   [rainforestapp/vagrant-camera](https://github.com/rainforestapp/vagrant-camera) - Capture Screenshots of your Virtual Box Vagrant VM's
-*   [fgrehm/vagrant-cachier](https://github.com/fgrehm/vagrant-cachier) - Caffeine reducer
-*   [eddsteel/vagrant-box-version](https://github.com/eddsteel/vagrant-box-version) - Minimal vagrant plugin to handle version numbers in vagrant boxes
-*   [jedi4ever/sahara](https://github.com/jedi4ever/sahara) - a plugin for vagrant that allows you manage a sandbox state
-*   [fgrehm/ventriloquist](https://github.com/fgrehm/ventriloquist) - Development environments made easy
-*   [akshaymankar/copy_my_conf](https://github.com/akshaymankar/copy_my_conf) - Copy your configuration files into vagrant box while provisioning
-*   [devopsgroup-io/vagrant-digitalocean](https://github.com/devopsgroup-io/vagrant-digitalocean) - :droplet: A Vagrant provider plugin that manages DigitalOcean droplets.
-*   [mitchellh/vagrant-aws](https://github.com/mitchellh/vagrant-aws) - Use Vagrant to manage your EC2 and VPC instances.
-*   [mattes/vagrant-dnsmasq](https://github.com/mattes/vagrant-dnsmasq) - A Dnsmasq Vagrant plugin that manages the dnsmasq.conf file and /etc/resolver directory on your host system.
-*   [BerlinVagrant/vagrant-dns](https://github.com/BerlinVagrant/vagrant-dns) - A plugin to manage DNS records for vagrant environments
-*   [vagrant-landrush/landrush](https://github.com/vagrant-landrush/landrush) - A Vagrant plugin that provides a simple DNS server for Vagrant guests
-*   [svenfuchs/i18n-active_record](https://github.com/svenfuchs/i18n-active_record) - I18n ActiveRecord backend
-*   [chad/sigsurv](https://github.com/chad/sigsurv) - A stupid gem that provides a visual indicator of Ruby code complexity in the current directory.
-*   [jsanders/angular_rails_csrf](https://github.com/jsanders/angular_rails_csrf) - Rails integration for AngularJS style CSRF protection
-*   [jackc/surus](https://github.com/jackc/surus) - PostgreSQL extensions for ActiveRecord
-*   [benhoskings/babushka](https://github.com/benhoskings/babushka) - Test-driven sysadmin.
-*   [greyblake/mago](https://github.com/greyblake/mago) - Magic numbers detector for Ruby source code
-*   [adamsanderson/when-files-change](https://github.com/adamsanderson/when-files-change) - Whenever files in your working directory change, execute a command, such as "rake test".
-*   [chef/omnibus](https://github.com/chef/omnibus) - Easily create full-stack installers for your project across a variety of platforms.
-*   [ndbroadbent/turbo-sprockets-rails3](https://github.com/ndbroadbent/turbo-sprockets-rails3) - Speeds up your Rails 3 assets:precompile by only recompiling changed files, and only compiling once to generate all assets
-*   [mmcclimon/mr_poole](https://github.com/mmcclimon/mr_poole) - A butler for Jekyll
-*   [prerender/prerender_rails](https://github.com/prerender/prerender_rails) - Rails middleware gem for prerendering javascript-rendered pages on the fly for SEO
-*   [headius/ruby-atomic](https://github.com/headius/ruby-atomic) - Atomic reference implementation for Ruby
-*   [hamstergem/hamster](https://github.com/hamstergem/hamster) - Efficient, Immutable, Thread-Safe Collection classes for Ruby
-*   [square/maximum-awesome](https://github.com/square/maximum-awesome) - Config files for vim and tmux.
-*   [mislav/git-deploy](https://github.com/mislav/git-deploy) - git deployment made easy
-*   [technicalpickles/homesick](https://github.com/technicalpickles/homesick) - Your home directory is your castle. Don't leave your dotfiles behind.
-*   [reinh/statsd](https://github.com/reinh/statsd) - A Ruby Statsd client that isn't a direct port of the Python example code. Because Ruby isn't Python.
-*   [benjaminoakes/maid](https://github.com/benjaminoakes/maid) - Be lazy.  Let Maid clean up after you, based on rules you define.  Think of it as "Hazel for hackers".
-*   [ooyala/barkeep](https://github.com/ooyala/barkeep) - The friendly code review system.
-*   [rfunduk/shared-auth-example](https://github.com/rfunduk/shared-auth-example) - Example app as companion to ryanfunduk.com/shared-auth-for-rack-apps
-*   [skwp/dotfiles](https://github.com/skwp/dotfiles) - YADR - The best vim,git,zsh plugins and the cleanest vimrc you've ever seen
-*   [lonelyplanet/fozzie](https://github.com/lonelyplanet/fozzie) - fozzie gem
-*   [mperham/sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby
-*   [zuorasc/zuora](https://github.com/zuorasc/zuora) - ActiveModel backed Zuora integration
-*   [aussielunix/jenkins-appliance](https://github.com/aussielunix/jenkins-appliance) - ABANDONED - Jenkins appliance built with puppet + librarian-puppet
-*   [colinta/teacup](https://github.com/colinta/teacup) - This project has been sunset in favor of MotionKit
-*   [clayallsopp/rubymotion-tutorial](https://github.com/clayallsopp/rubymotion-tutorial) - RubyMotion-Tutorial
-*   [antifuchs/gmail-britta](https://github.com/antifuchs/gmail-britta) - Generate complex gmail filters via a neat little ruby DSL
-*   [jhuckabee/backbone_devise](https://github.com/jhuckabee/backbone_devise) - An example Rails app that uses a Backbone.js UI for user signup, authentication, and password retrieval.
-*   [heartsentwined/ember-auth-rails](https://github.com/heartsentwined/ember-auth-rails) - gem package for ember-auth
-*   [stouset/twitter_bootstrap_form_for](https://github.com/stouset/twitter_bootstrap_form_for) - A Rails FormBuilder DSL for generating Twitter Bootstrap forms
-*   [heartsentwined/ember-auth-rails-demo](https://github.com/heartsentwined/ember-auth-rails-demo) - rails + devise + ember-auth demo site
-*   [RobinBrouwer/bootstrap_flash_messages](https://github.com/RobinBrouwer/bootstrap_flash_messages) - Bootstrap alerts and Rails flash messages combined in one easy-to-use gem.
-*   [ctwise/alfred-workflows](https://github.com/ctwise/alfred-workflows) -
-*   [aprescott/serif](https://github.com/aprescott/serif) - Serif is a static site generator and blogging system powered by markdown files.
-*   [remi/teamocil](https://github.com/remi/teamocil) - There's no I in Teamocil. At least not where you think. Teamocil is a simple tool used to automatically create windows and panes in tmux with YAML files.
-*   [evendis/mandrill-rails](https://github.com/evendis/mandrill-rails) - Webhook processing and event decoration to make using Mandrill with Rails just that much easier
-*   [taskrabbit/storehouse](https://github.com/taskrabbit/storehouse) - Distributed Rack Caching
-*   [trisignia/mass_mandrill](https://github.com/trisignia/mass_mandrill) - mass_mandrill
-*   [wr0ngway/lumber](https://github.com/wr0ngway/lumber) - Lumber tries to make it easy to use the more robust log4r logging system within your rails application
-*   [layervault/psd.rb](https://github.com/layervault/psd.rb) - Parse Photoshop files in Ruby with ease
-*   [bbc/wraith](https://github.com/bbc/wraith) - Wraith — A responsive screenshot comparison tool
-*   [techbelly/web_regression](https://github.com/techbelly/web_regression) -  Tool for CSS Refactoring - diff current screenshot against a reference screenshot.
-*   [iSECPartners/tlspretense](https://github.com/iSECPartners/tlspretense) - A test framework for testing SSL/TLS client certificate validation.
-*   [phinze/puppet-sudoers](https://github.com/phinze/puppet-sudoers) - puppet module for managing sudoers
-*   [kneath/kss](https://github.com/kneath/kss) - A methodology for documenting CSS and generating styleguides.
-*   [halostatue/artifice](https://github.com/halostatue/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
-*   [halostatue/agio](https://github.com/halostatue/agio) - Pure Ruby HTML to Markdown Converter
-*   [halostatue/poole](https://github.com/halostatue/poole) -
-*   [halostatue/jruby-vijava](https://github.com/halostatue/jruby-vijava) - A simple wrapper around the VMware Infrastructure (vSphere) Java API for use with JRuby.
-*   [halostatue/minitar](https://github.com/halostatue/minitar) - Minimal pure-ruby support for POSIX tar(1) archives.
-*   [rkh/unpatched](https://github.com/rkh/unpatched) - Yet another WTF library!
-*   [halostatue/rubypython](https://github.com/halostatue/rubypython) - An in-process between Ruby and Python 2.
-*   [tmm1/rbtrace](https://github.com/tmm1/rbtrace) - like strace, but for ruby code
-*   [abuiles/placefinder](https://github.com/abuiles/placefinder) - The simplest ruby wrapper for placefinder's API.
-*   [jstorimer/kitabu](https://github.com/jstorimer/kitabu) - A framework for creating e-books from Markdown/Textile text markup using Ruby. Using the Prince PDF generator, you'll be able to get high quality PDFs.
-*   [halostatue/text-hyphen](https://github.com/halostatue/text-hyphen) - Text::Hyphen will hyphenate words using modified versions of TeX hyphenation patterns.
-*   [halostatue/tex-hyphen](https://github.com/halostatue/tex-hyphen) - A port of Perl's TeX::Hyphen to Ruby 1.6/1.8. This project has been superseded by Text::Hyphen
-*   [halostatue/text-reform](https://github.com/halostatue/text-reform) - Text::Reform reformats text according to formatting picture templates.
-*   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
-*   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
-*   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
-*   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
-*   [matadon/mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack.
-*   [github/github-services](https://github.com/github/github-services) - Legacy GitHub Services Integration
-*   [vcastellm/rubyamf_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
-*   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
-*   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
-*   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
-*   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
-*   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
-*   [svenfuchs/i18n-message](https://github.com/svenfuchs/i18n-message) - Object-oriented abstraction for looking up translations from I18n.translate
-*   [daeken/RMarshal](https://github.com/daeken/RMarshal) - Ruby gem to support the Python marshal format
-*   [halostatue/xcode-git-version](https://github.com/halostatue/xcode-git-version) - A script that I use for versioning builds using git. Supports both sharef and version-tag numbering.
-*   [augustl/net-http-cheat-sheet](https://github.com/augustl/net-http-cheat-sheet) - A collection of Ruby Net::HTTP examples.
-*   [cousine/downmark_it](https://github.com/cousine/downmark_it) - A Hpricot based HTML to markdown ruby library
-*   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
-*   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
-*   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
-*   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
-*   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
-*   [rick/linode](https://github.com/rick/linode) - Ruby wrapper for the Linode automation API
-*   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
-*   [progit/progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at [progit2](https://github.com/progit/progit2)
-*   [halostatue/uninheritable](https://github.com/halostatue/uninheritable) - Sample code demontrating how to make a class uninheritable in Ruby
-*   [jacius/nice-ffi](https://github.com/jacius/nice-ffi) - Nice-FFI: Convenience layer atop Ruby-FFI
-*   [savonrb/savon](https://github.com/savonrb/savon) - Heavy metal SOAP client
-*   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
-*   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
-*   [mdub/sham_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
-*   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
-*   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
-*   [codeplant/simple-navigation](https://github.com/codeplant/simple-navigation) - A ruby gem for creating navigations (with multiple levels) for your Rails, Sinatra or Padrino applications.  Render your navigation as html list, link list or breadcrumbs.
-*   [brynary/rack-bug](https://github.com/brynary/rack-bug) - Debugging toolbar for Rack applications implemented as middleware
-*   [jackowayed/sentdiff](https://github.com/jackowayed/sentdiff) - Diff that splits the files by sentences first. Made for editting text with somewhat-long paragraphs
-*   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
-*   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
-*   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
 
 ## Vim script
 
