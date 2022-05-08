@@ -2727,7 +2727,7 @@
 
 *   [ellie/atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
 *   [Shopify/shadowenv](https://github.com/Shopify/shadowenv) - reversible directory-local environment variable manipulations
-*   [Qovery/replibyte](https://github.com/Qovery/replibyte) - Seed your development database with real data ⚡️
+*   [Qovery/Replibyte](https://github.com/Qovery/Replibyte) - Seed your development database with real data ⚡️
 *   [tarikeshaq/update-notifier](https://github.com/tarikeshaq/update-notifier) - Update notifier for crates on crates.io
 *   [fabianlindfors/reshape](https://github.com/fabianlindfors/reshape) - An easy-to-use, zero-downtime schema migration tool for Postgres
 *   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
