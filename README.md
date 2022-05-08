@@ -926,7 +926,7 @@
 *   [lastbackend/lastbackend](https://github.com/lastbackend/lastbackend) - System for containerized apps management. From build to scaling.
 *   [hashicorp/vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper) - Vault SSH Agent is used to enable one time keys and passwords
 *   [campoy/jsonenums](https://github.com/campoy/jsonenums) - This tool is similar to golang.org/x/tools/cmd/stringer but generates MarshalJSON and UnmarshalJSON methods.
-*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more. A true successor of expressjs and laravel | 谢谢 https://github.com/kataras/iris/issues/1329 |
+*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. A wonderful alternative to expressjs. Supports AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more. A true successor of expressjs and laravel | 谢谢 https://github.com/kataras/iris/issues/1329 |
 *   [simon-engledew/gocmdpev](https://github.com/simon-engledew/gocmdpev) - A command-line GO Postgres query visualizer, heavily inspired by pev (https://github.com/AlexTatiyants/pev)
 *   [radovskyb/go-packages](https://github.com/radovskyb/go-packages) - A large repository of code and documented examples for Go's standard package library.
 *   [genuinetools/certok](https://github.com/genuinetools/certok) - Command line tool to check the validity and expiration dates of SSL certificates.
@@ -1754,7 +1754,7 @@
 *   [bitwalker/timex](https://github.com/bitwalker/timex) - A complete date/time library for Elixir projects.
 *   [infinitered/phoenix_base](https://github.com/infinitered/phoenix_base) - Template project for Phoenix
 *   [infinitered/thesis-phoenix](https://github.com/infinitered/thesis-phoenix) - A lightweight, bolt-on, intuitive content editing system for Elixir/Phoenix websites. Star this repo and follow along with our progress!
-*   [teamon/tesla](https://github.com/teamon/tesla) - The flexible HTTP client library for Elixir, with support for middleware and multiple adapters.
+*   [elixir-tesla/tesla](https://github.com/elixir-tesla/tesla) - The flexible HTTP client library for Elixir, with support for middleware and multiple adapters.
 *   [poteto/terraform](https://github.com/poteto/terraform) - A simple plug for incrementally transforming an API into Phoenix. Check out the blog post:
 *   [lpil/temporary-env](https://github.com/lpil/temporary-env) - A tool for managing application environment state within tests.
 *   [sorentwo/tempfile](https://github.com/sorentwo/tempfile) - Simple temporary file management for Elixir
