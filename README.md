@@ -146,7 +146,7 @@
 *   [zanaca/docker-dns](https://github.com/zanaca/docker-dns) - DNS server for your docker containers. Allowing you to access them with a domain name, without exposing ANY port. Allowing access from you linux, mac or windows browser!
 *   [kolypto/j2cli](https://github.com/kolypto/j2cli) - Jinja2 Command-Line Tool, reworked
 *   [TheLocehiliosan/yadm](https://github.com/TheLocehiliosan/yadm) - Yet Another Dotfiles Manager
-*   [andreasjansson/envtpl](https://github.com/andreasjansson/envtpl) - Render jinja2 templates on the command line with shell environment variables
+*   [envtpl/envtpl](https://github.com/envtpl/envtpl) - Render jinja2 templates on the command line with shell environment variables
 *   [andrewbihl/bsed](https://github.com/andrewbihl/bsed) - Simple SQL-like syntax on top of Perl text processing.
 *   [opsschool/curriculum](https://github.com/opsschool/curriculum) - Ops School Curriculum
 *   [lyft/cartography](https://github.com/lyft/cartography) - Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
