@@ -1,4 +1,4 @@
-# <%= username %> GitHub Stars
+# @<%= username %>'s Stars
 
 <% const myStars = stars.reduce((a, [g, r], ) => a.set(g, r), new Map()) %>
 <% const keys = Array.from(myStars.keys()).sort() %>
@@ -10,10 +10,7 @@
 <% for (let grouping of keys) { %>
 ## <%= grouping %>
 
-
 <% const repos = myStars.get(grouping) %>
-> <%= repos[0].keys().join(', ') %>
-
-<% for (let repo of repos) {%>- [<%= repo.full_name %>](%<= repo.html_url %>) - <%= repo.description %>
+<% for (let repo of repos) {%>- [<%= repo.full_name %>](<%= repo.html_url %>) - <%= repo.description %>
 <% } %>
 <% } %>
