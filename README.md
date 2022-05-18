@@ -1442,7 +1442,7 @@
 ## Go
 
 *   [pulumi/pulumi](https://github.com/pulumi/pulumi) - Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language, Your Way 🚀
-*   [sourcegraph/doctree](https://github.com/sourcegraph/doctree) - First-class library docs tool: supports every language, symbol search, finds usage examples automagically. Based on tree-sitter, runnable standalone or via http://doctree.org
+*   [sourcegraph/doctree](https://github.com/sourcegraph/doctree) - First-class library documentation for every language (based on tree-sitter), with symbol search & more. Lightweight single binary, run locally or self-host. Surfaces usage examples via Sourcegraph.
 *   [benbjohnson/postlite](https://github.com/benbjohnson/postlite) - Postgres wire compatible SQLite proxy.
 *   [bitfield/script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
 *   [ariga/atlas](https://github.com/ariga/atlas) - A database toolkit
