@@ -354,6 +354,7 @@
 
 ## Elixir
 
+*   [eigr/massa](https://github.com/eigr/massa) - A Stateful Serveless framework on the BEAM VM
 *   [orsinium-labs/re](https://github.com/orsinium-labs/re) - Elixir library for writing readable regexes in functional style
 *   [xtian/plug\_content\_security\_policy](https://github.com/xtian/plug_content_security_policy) - Plug module for generating a Content Security Policy header
 *   [michalmuskala/persistent\_ets](https://github.com/michalmuskala/persistent_ets) -
@@ -3430,7 +3431,6 @@
 *   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
 *   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
 *   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
-*   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
 
 ## Rust
 
