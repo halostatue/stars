@@ -181,6 +181,7 @@
 *   [leahneukirchen/nq](https://github.com/leahneukirchen/nq) - Unix command line queue utility
 *   [libgit2/rugged](https://github.com/libgit2/rugged) - ruby bindings to libgit2
 *   [mruby/mruby](https://github.com/mruby/mruby) - Lightweight Ruby
+*   [ampas/CTL](https://github.com/ampas/CTL) - The Color Transformation Language (CTL)
 *   [silentbicycle/sample](https://github.com/silentbicycle/sample) - filter for random sampling of input
 *   [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
 *   [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language. Wren is a small, fast, class-based concurrent scripting language.
@@ -248,7 +249,6 @@
 *   [preshing/junction](https://github.com/preshing/junction) - Concurrent data structures in C++
 *   [electronicarts/EASTL](https://github.com/electronicarts/EASTL) - EASTL stands for Electronic Arts Standard Template Library.  It is an extensive and robust implementation that has an emphasis on high performance.
 *   [MichaelRFairhurst/wake-compiler](https://github.com/MichaelRFairhurst/wake-compiler) - C++ compiler for the programming language Wake: a fast, expressive, typesafe language built with testability from the ground up.
-*   [ampas/CTL](https://github.com/ampas/CTL) - The Color Transformation Language (CTL)
 *   [ampas/aces\_container](https://github.com/ampas/aces_container) - Reference Implementation of SMPTE ST2065-4
 *   [munificent/finch](https://github.com/munificent/finch) - The Finch programming language
 *   [tstack/lnav](https://github.com/tstack/lnav) - Log file navigator
