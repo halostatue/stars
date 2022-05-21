@@ -1282,7 +1282,6 @@
 *   [the-ted/org-mind-map](https://github.com/the-ted/org-mind-map) - This is an emacs package that creates graphviz directed graphs.
 *   [bnbeckwith/writegood-mode](https://github.com/bnbeckwith/writegood-mode) - Minor mode for Emacs to improve English writing
 *   [danielberkompas/spacemacs-dberkom](https://github.com/danielberkompas/spacemacs-dberkom) -
-*   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
 
 ## Erlang
 
@@ -3686,7 +3685,7 @@
 *   [bats-core/bats-core](https://github.com/bats-core/bats-core) - Bash Automated Testing System
 *   [ghaiklor/backup-my-github](https://github.com/ghaiklor/backup-my-github) - Clones all your repositories to local machine
 *   [Nebo15/annon.infra](https://github.com/Nebo15/annon.infra) - Infrastructure helpers for Annon API Gateway.
-*   [moonglum/dotfiles](https://github.com/moonglum/dotfiles) - The Vagrant Box I do almost all my work in
+*   [moonglum/dotfiles](https://github.com/moonglum/dotfiles) - My work setup
 *   [ianmiell/gitdags](https://github.com/ianmiell/gitdags) - Create Your Own Git Diagrams
 *   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing) - :zap: From finding text to search and replace, from sorting to beautifying text and more :art:
 *   [modernish/modernish](https://github.com/modernish/modernish) - Modernish is a library for writing robust, portable, readable, and powerful programs for POSIX-based shells and utilities.
@@ -3784,6 +3783,7 @@
 *   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
 *   [scmbreeze/scm\_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
 *   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
+*   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
 *   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 *   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 *   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
