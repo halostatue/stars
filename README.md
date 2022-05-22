@@ -4045,14 +4045,14 @@
 *   [hotwired/stimulus](https://github.com/hotwired/stimulus) - A modest JavaScript framework for the HTML you already have
 *   [meetalva/alva](https://github.com/meetalva/alva) - Create living prototypes with code components.
 *   [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) - 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!
-*   [APIs-guru/graphql-faker](https://github.com/APIs-guru/graphql-faker) - 🎲 Mock or extend your GraphQL API with faked data. No coding required.
+*   [IvanGoncharov/graphql-faker](https://github.com/IvanGoncharov/graphql-faker) - 🎲 Mock or extend your GraphQL API with faked data. No coding required.
 *   [jiayihu/pretty-algorithms](https://github.com/jiayihu/pretty-algorithms) - 🌊 Pretty, common and useful algorithms with modern JS and beautiful tests
 *   [Malpaux/apollo-offline](https://github.com/Malpaux/apollo-offline) - An offline toolkit for the Apollo client
 *   [cdmbase/graphql-rabbitmq-subscriptions](https://github.com/cdmbase/graphql-rabbitmq-subscriptions) - A graphql subscriptions implementation using rabbimq and apollo's graphql-subscriptions
 *   [cdmbase/graphql-server-rabbitmq](https://github.com/cdmbase/graphql-server-rabbitmq) - Production-ready Node.js GraphQL server for RabbitMQ
 *   [antonycourtney/tad](https://github.com/antonycourtney/tad) - A desktop application for viewing and analyzing tabular data
 *   [homebridge/homebridge](https://github.com/homebridge/homebridge) - HomeKit support for the impatient.
-*   [APIs-guru/graphql-voyager](https://github.com/APIs-guru/graphql-voyager) - 🛰️ Represent any GraphQL API as an interactive graph
+*   [IvanGoncharov/graphql-voyager](https://github.com/IvanGoncharov/graphql-voyager) - 🛰️ Represent any GraphQL API as an interactive graph
 *   [apache/superset](https://github.com/apache/superset) - Apache Superset is a Data Visualization and Data Exploration Platform
 *   [bdash-app/bdash](https://github.com/bdash-app/bdash) - Simple SQL Client for lightweight data analysis.
 *   [parrot-translate/parrot](https://github.com/parrot-translate/parrot) - Self-hosted Localization Management Platform built with Go and Angular
