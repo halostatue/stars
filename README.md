@@ -204,7 +204,6 @@
 *   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
 *   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
 *   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
-*   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
 ## C\#
 
@@ -354,6 +353,7 @@
 
 ## Elixir
 
+*   [wojtekmach/req](https://github.com/wojtekmach/req) - Req is a batteries-included HTTP client for Elixir.
 *   [eigr/massa](https://github.com/eigr/massa) - A Stateful Serveless framework on the BEAM VM
 *   [orsinium-labs/re](https://github.com/orsinium-labs/re) - Elixir library for writing readable regexes in functional style
 *   [xtian/plug\_content\_security\_policy](https://github.com/xtian/plug_content_security_policy) - Plug module for generating a Content Security Policy header
