@@ -314,7 +314,6 @@
 *   [cognitect/transit-format](https://github.com/cognitect/transit-format) - A data interchange format.
 *   [Factual/drake](https://github.com/Factual/drake) - Data workflow tool, like a "Make for data"
 *   [cmonty/brainiac](https://github.com/cmonty/brainiac) - An awesome HUD
-*   [mmcgrana/ring](https://github.com/mmcgrana/ring) - Clojure web application library: abstracts HTTP to allow modular and concise webapps
 
 ## CoffeeScript
 
@@ -1441,6 +1440,8 @@
 
 ## Go
 
+*   [uber-common/cadence-samples](https://github.com/uber-common/cadence-samples) -
+*   [checkr/states-language-cadence](https://github.com/checkr/states-language-cadence) - States Language on Cadence
 *   [pulumi/pulumi](https://github.com/pulumi/pulumi) - Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language, Your Way 🚀
 *   [sourcegraph/doctree](https://github.com/sourcegraph/doctree) - First-class library documentation for every language (based on tree-sitter), with symbol search & more. Lightweight single binary, run locally or self-host. Surfaces usage examples via Sourcegraph.
 *   [benbjohnson/postlite](https://github.com/benbjohnson/postlite) - Postgres wire compatible SQLite proxy.
@@ -1916,6 +1917,7 @@
 
 ## JavaScript
 
+*   [bayre/svelte-markdoc](https://github.com/bayre/svelte-markdoc) - Markdoc preprocessor for Svelte
 *   [join-monster/join-monster](https://github.com/join-monster/join-monster) - A GraphQL to SQL query execution layer for query planning and batch data fetching.
 *   [srmullen/svelte-reactive-css-preprocess](https://github.com/srmullen/svelte-reactive-css-preprocess) - Automatically update your styles when a svelte variable changes.
 *   [jiangfengming/svelte-preprocess-css-hash](https://github.com/jiangfengming/svelte-preprocess-css-hash) -
@@ -2595,7 +2597,6 @@
 *   [ryancdotorg/ssh-chain](https://github.com/ryancdotorg/ssh-chain) -
 *   [sarabander/sicp-pdf](https://github.com/sarabander/sicp-pdf) - SICP PDF with Texinfo and LaTeX source
 *   [unixorn/miyamoto](https://github.com/unixorn/miyamoto) - Masterless puppet with S3
-*   [beyondgrep/ack1](https://github.com/beyondgrep/ack1) - This repository is for ack 1.x, which is **no longer being maintained**.  DO NOT SUBMIT ISSUES HERE.  ack 2.0 has a new GitHub project at
 
 ## PowerShell
 
@@ -2823,6 +2824,7 @@
 
 ## Ruby
 
+*   [coinbase/cadence-ruby](https://github.com/coinbase/cadence-ruby) - Ruby SDK for Cadence
 *   [djezzzl/n1\_loader](https://github.com/djezzzl/n1_loader) - Loader to solve N+1 issues for good. Highly recommended for GraphQL API.
 *   [gregnavis/active\_record\_doctor](https://github.com/gregnavis/active_record_doctor) - Identify database issues before they hit production.
 *   [braintree/pg\_ha\_migrations](https://github.com/braintree/pg_ha_migrations) - Enforces DDL/migration safety in Ruby on Rails project with an emphasis on explicitly choosing trade-offs and avoiding unnecessary magic.
@@ -3425,11 +3427,6 @@
 *   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
 *   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
 *   [codeplant/simple-navigation](https://github.com/codeplant/simple-navigation) - A ruby gem for creating navigations (with multiple levels) for your Rails, Sinatra or Padrino applications.  Render your navigation as html list, link list or breadcrumbs.
-*   [brynary/rack-bug](https://github.com/brynary/rack-bug) - Debugging toolbar for Rack applications implemented as middleware
-*   [jackowayed/sentdiff](https://github.com/jackowayed/sentdiff) - Diff that splits the files by sentences first. Made for editting text with somewhat-long paragraphs
-*   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
-*   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
-*   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
 
 ## Rust
 
@@ -3906,6 +3903,10 @@
 
 ## TypeScript
 
+*   [wobsoriano/vite-plugin-markdoc](https://github.com/wobsoriano/vite-plugin-markdoc) - Markdoc plugin for Vite
+*   [wobsoriano/vue-markdoc](https://github.com/wobsoriano/vue-markdoc) - Vue renderer for Markdoc
+*   [wobsoriano/vite-plugin-markdoc-vue](https://github.com/wobsoriano/vite-plugin-markdoc-vue) - Render Markdoc extended markdowns as Vue components.
+*   [markdoc/markdoc](https://github.com/markdoc/markdoc) - A powerful, flexible, Markdown-based authoring framework.
 *   [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) - Low code project to build admin panels, internal tools, and dashboards. Integrates with 15+ databases and any API.
 *   [shoelace-style/shoelace](https://github.com/shoelace-style/shoelace) - A collection of professionally designed, every day UI components built on Web standards. Works with all framework as well as regular HTML/CSS/JS. 🥾
 *   [changesets/changesets](https://github.com/changesets/changesets) - 🦋       A way to manage your versioning and changelogs with a focus on monorepos
@@ -4128,7 +4129,6 @@
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
 *   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
 *   [msanders/cocoa.vim](https://github.com/msanders/cocoa.vim) - Vim plugin for Cocoa/Objective-C development. No longer actively developed.
-*   [msanders/snipmate.vim](https://github.com/msanders/snipmate.vim) - snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
 
 ## Vue
 
