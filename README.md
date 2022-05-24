@@ -1440,6 +1440,7 @@
 
 ## Go
 
+*   [timbray/quamina](https://github.com/timbray/quamina) -
 *   [uber-common/cadence-samples](https://github.com/uber-common/cadence-samples) -
 *   [checkr/states-language-cadence](https://github.com/checkr/states-language-cadence) - States Language on Cadence
 *   [pulumi/pulumi](https://github.com/pulumi/pulumi) - Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language, Your Way 🚀
@@ -3426,7 +3427,6 @@
 *   [mdub/sham\_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
 *   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
 *   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
-*   [codeplant/simple-navigation](https://github.com/codeplant/simple-navigation) - A ruby gem for creating navigations (with multiple levels) for your Rails, Sinatra or Padrino applications.  Render your navigation as html list, link list or breadcrumbs.
 
 ## Rust
 
@@ -3451,7 +3451,7 @@
 *   [raphlinus/pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) -
 *   [Doctave/doctave-markdown](https://github.com/Doctave/doctave-markdown) - Doctave-specific markdown parser
 *   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - Powerful, fast, and an easy to use search engine
-*   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a diff that understands syntax 🟥🟩
+*   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
 *   [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust.
 *   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
 *   [federico-terzi/espanso](https://github.com/federico-terzi/espanso) - Cross-platform Text Expander written in Rust
