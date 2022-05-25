@@ -4137,7 +4137,7 @@
 *   [mikerodham/vue-dropdowns](https://github.com/mikerodham/vue-dropdowns) - A better way to display select boxes when using `v-for` on objects.
 *   [lusaxweb/vuesax](https://github.com/lusaxweb/vuesax) - New Framework Components for Vue.js 2
 *   [ClickerMonkey/dayspan-vuetify](https://github.com/ClickerMonkey/dayspan-vuetify) - A collection of components that visualizes DaySpan Calendars and Schedules using Vuetify
-*   [frappe/books](https://github.com/frappe/books) - Free Desktop Accounting Software for small-businesses and freelancers.
+*   [frappe/books](https://github.com/frappe/books) - Free desktop accounting software for small-businesses and freelancers.
 *   [BinarCode/vue-form-wizard](https://github.com/BinarCode/vue-form-wizard) - Vue.js 2 wizard
 *   [mathieustan/vue-notification](https://github.com/mathieustan/vue-notification) -  A clean and nice notification system for VueJs
 *   [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - 👽 Open source API development ecosystem - https://hoppscotch.io
