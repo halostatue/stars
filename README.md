@@ -353,7 +353,7 @@
 ## Elixir
 
 *   [wojtekmach/req](https://github.com/wojtekmach/req) - Req is a batteries-included HTTP client for Elixir.
-*   [eigr/massa](https://github.com/eigr/massa) - A Stateful Serveless framework on the BEAM VM
+*   [eigr/massa](https://github.com/eigr/massa) - A Stateful Serverless framework on the BEAM VM
 *   [orsinium-labs/re](https://github.com/orsinium-labs/re) - Elixir library for writing readable regexes in functional style
 *   [xtian/plug\_content\_security\_policy](https://github.com/xtian/plug_content_security_policy) - Plug module for generating a Content Security Policy header
 *   [michalmuskala/persistent\_ets](https://github.com/michalmuskala/persistent_ets) -
