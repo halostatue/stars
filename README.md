@@ -1918,6 +1918,8 @@
 
 ## JavaScript
 
+*   [automerge/automerge-rs](https://github.com/automerge/automerge-rs) - Rust implementation of automerge
+*   [automerge/automerge](https://github.com/automerge/automerge) - A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.
 *   [bayre/svelte-markdoc](https://github.com/bayre/svelte-markdoc) - Markdoc preprocessor for Svelte
 *   [join-monster/join-monster](https://github.com/join-monster/join-monster) - A GraphQL to SQL query execution layer for query planning and batch data fetching.
 *   [srmullen/svelte-reactive-css-preprocess](https://github.com/srmullen/svelte-reactive-css-preprocess) - Automatically update your styles when a svelte variable changes.
@@ -3426,7 +3428,6 @@
 *   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
 *   [mdub/sham\_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
 *   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
-*   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
 
 ## Rust
 
@@ -3785,7 +3786,6 @@
 *   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 *   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
 *   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
-*   [halostatue/ryanb-dotfiles-fork](https://github.com/halostatue/ryanb-dotfiles-fork) - config files for zsh, bash, completions, gem, git, irb, rails
 
 ## Smalltalk
 
