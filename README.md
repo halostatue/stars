@@ -202,8 +202,6 @@
 *   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
 *   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
 *   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
-*   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
-*   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
 
 ## C\#
 
@@ -330,6 +328,8 @@
 
 ## Crystal
 
+*   [naqvis/crystar](https://github.com/naqvis/crystar) - Crystal language Tar Module implements access to tar archives.
+*   [veelenga/awesome-crystal](https://github.com/veelenga/awesome-crystal) - :gem: A collection of awesome Crystal libraries, tools, frameworks and software
 *   [luckyframework/lucky](https://github.com/luckyframework/lucky) - A full-featured Crystal web framework that catches bugs for you, runs incredibly fast, and helps you write code that lasts.
 *   [Sija/raven.cr](https://github.com/Sija/raven.cr) - Raven is a Crystal client for Sentry
 *   [mint-lang/mint](https://github.com/mint-lang/mint) - :leaves: A refreshing programming language for the front-end web.
@@ -1440,7 +1440,7 @@
 
 ## Go
 
-*   [timbray/quamina](https://github.com/timbray/quamina) -
+*   [timbray/quamina](https://github.com/timbray/quamina) - Home of Quamina, a fast pattern-matching library in Go
 *   [uber-common/cadence-samples](https://github.com/uber-common/cadence-samples) -
 *   [checkr/states-language-cadence](https://github.com/checkr/states-language-cadence) - States Language on Cadence
 *   [pulumi/pulumi](https://github.com/pulumi/pulumi) - Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language, Your Way 🚀
@@ -2067,6 +2067,7 @@
 *   [carbon-app/carbon](https://github.com/carbon-app/carbon) - :black\_heart: Create and share beautiful images of your source code
 *   [sentient-lang/sentient-lang](https://github.com/sentient-lang/sentient-lang) - The Sentient Programming Language.
 *   [eight04/rollup-plugin-iife](https://github.com/eight04/rollup-plugin-iife) - Convert ES modules into IIFEs.
+*   [acode/cli](https://github.com/acode/cli) - Autocode CLI and standard library tooling
 *   [acode/cli](https://github.com/acode/cli) - Autocode CLI and standard library tooling
 *   [unyo/webpgp](https://github.com/unyo/webpgp) - The server code for an online PGP encryption/decryption service. Private keys are stored in the database encrypted with a symmetric key, which when fetched by the webpage is decrypted using javascript. 2 Factor Auth enabled.
 *   [ricklamers/gridstudio](https://github.com/ricklamers/gridstudio) - Grid studio is a web-based application for data science with full integration of open source data science frameworks and languages.
@@ -3427,7 +3428,6 @@
 *   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
 *   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
 *   [mdub/sham\_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
-*   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
 
 ## Rust
 
@@ -3942,7 +3942,7 @@
 *   [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 *   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.
 *   [adobe/react-spectrum](https://github.com/adobe/react-spectrum) - A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.
-*   [TanStack/react-table](https://github.com/TanStack/react-table) - 🤖 Headless UI for building powerful tables & datagrids for TS/JS, React, Vue, Solid
+*   [TanStack/table](https://github.com/TanStack/table) - 🤖 Headless UI for building powerful tables & datagrids for TS/JS, React, Vue, Solid
 *   [aelbore/vite-plugin-test](https://github.com/aelbore/vite-plugin-test) - Vite plugin with mocha and puppeteer
 *   [aelbore/aria-vue](https://github.com/aelbore/aria-vue) - Testing tools for Vue components
 *   [SqrTT/prophet](https://github.com/SqrTT/prophet) - Prophet Debugger (SFCC sandboxes via SDAPI 2.0) extension for VS Code
@@ -3991,6 +3991,7 @@
 *   [championswimmer/vuex-persist](https://github.com/championswimmer/vuex-persist) - A Vuex plugin to persist the store. (Fully Typescript enabled)
 *   [slorber/awesome-debounce-promise](https://github.com/slorber/awesome-debounce-promise) - Debounce your API calls easily and stay in promised land.
 *   [kamilkisiela/graphql-config](https://github.com/kamilkisiela/graphql-config) - One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)
+*   [frappe/books](https://github.com/frappe/books) - Free desktop accounting software for small-businesses and freelancers.
 *   [vueuse/vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
 *   [logaretm/vee-validate](https://github.com/logaretm/vee-validate) - ✅  Form Validation for Vue.js
 *   [samdenty/gqless](https://github.com/samdenty/gqless) - a GraphQL client without queries
@@ -4137,7 +4138,6 @@
 *   [mikerodham/vue-dropdowns](https://github.com/mikerodham/vue-dropdowns) - A better way to display select boxes when using `v-for` on objects.
 *   [lusaxweb/vuesax](https://github.com/lusaxweb/vuesax) - New Framework Components for Vue.js 2
 *   [ClickerMonkey/dayspan-vuetify](https://github.com/ClickerMonkey/dayspan-vuetify) - A collection of components that visualizes DaySpan Calendars and Schedules using Vuetify
-*   [frappe/books](https://github.com/frappe/books) - Free desktop accounting software for small-businesses and freelancers.
 *   [BinarCode/vue-form-wizard](https://github.com/BinarCode/vue-form-wizard) - Vue.js 2 wizard
 *   [mathieustan/vue-notification](https://github.com/mathieustan/vue-notification) -  A clean and nice notification system for VueJs
 *   [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - 👽 Open source API development ecosystem - https://hoppscotch.io
