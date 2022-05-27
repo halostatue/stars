@@ -352,6 +352,9 @@
 
 ## Elixir
 
+*   [elixir-nx/complex](https://github.com/elixir-nx/complex) - Elixir library for types and mathematical functions for complex numbers
+*   [elixir-nx/nx](https://github.com/elixir-nx/nx) - Multi-dimensional arrays (tensors) and numerical definitions for Elixir
+*   [elixir-nx/explorer](https://github.com/elixir-nx/explorer) - Series (one-dimensional) and dataframes (two-dimensional) for fast data exploration in Elixir
 *   [wojtekmach/req](https://github.com/wojtekmach/req) - Req is a batteries-included HTTP client for Elixir.
 *   [eigr/massa](https://github.com/eigr/massa) - A Stateful Serverless framework on the BEAM VM
 *   [orsinium-labs/re](https://github.com/orsinium-labs/re) - Elixir library for writing readable regexes in functional style
@@ -1440,6 +1443,7 @@
 
 ## Go
 
+*   [k0kubun/sqldef](https://github.com/k0kubun/sqldef) - Idempotent schema management for MySQL, PostgreSQL, and more
 *   [timbray/quamina](https://github.com/timbray/quamina) - Home of Quamina, a fast pattern-matching library in Go
 *   [uber-common/cadence-samples](https://github.com/uber-common/cadence-samples) -
 *   [checkr/states-language-cadence](https://github.com/checkr/states-language-cadence) - States Language on Cadence
@@ -1764,10 +1768,14 @@
 
 ## HCL
 
+*   [goci-io/aws-cloudfront-s3](https://github.com/goci-io/aws-cloudfront-s3) - Provisions a private AWS S3 Bucket and Cloudfront Distribution with optional DNS Records and Certificates
+*   [InterweaveCloud/terraform-aws-s3-cloudfront-static-website](https://github.com/InterweaveCloud/terraform-aws-s3-cloudfront-static-website) - Terraform Module for an Amazon Static Website using a private S3 bucket and CloudFront.
+*   [nathanielassis/terrafrom-aws-s3-static-website-hosting](https://github.com/nathanielassis/terrafrom-aws-s3-static-website-hosting) - Deploy an AWS static website using Cloudfront distribution and an S3 hardened private bucket.
 *   [cisagov/dmarc-import-tf-module](https://github.com/cisagov/dmarc-import-tf-module) - Terraform code to create AWS infrastructure for parsing DMARC aggregate reports.
 
 ## HTML
 
+*   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
 *   [GoogleChromeLabs/container-query-polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill) - A polyfill for CSS Container Queries
 *   [weshatheleopard/rubyXL](https://github.com/weshatheleopard/rubyXL) - Ruby lib for reading/writing/modifying .xlsx and .xlsm files
 *   [vinooniv/video-bg-blur](https://github.com/vinooniv/video-bg-blur) - blur video stream background with WebRTC and TensorFlow.js
@@ -1918,6 +1926,8 @@
 
 ## JavaScript
 
+*   [oasys/terraform-aws-cloudfront-auth](https://github.com/oasys/terraform-aws-cloudfront-auth) - Terraform module to build a website protected by OpenID authentication provider using a private S3 bucket fronted by Cloudfront and Lambda@Edge.
+*   [fonoster/fonoster](https://github.com/fonoster/fonoster) - 🚀 The open-source alternative to Twilio
 *   [automerge/automerge-rs](https://github.com/automerge/automerge-rs) - Rust implementation of automerge
 *   [automerge/automerge](https://github.com/automerge/automerge) - A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.
 *   [bayre/svelte-markdoc](https://github.com/bayre/svelte-markdoc) - Markdoc preprocessor for Svelte
@@ -2067,7 +2077,6 @@
 *   [carbon-app/carbon](https://github.com/carbon-app/carbon) - :black\_heart: Create and share beautiful images of your source code
 *   [sentient-lang/sentient-lang](https://github.com/sentient-lang/sentient-lang) - The Sentient Programming Language.
 *   [eight04/rollup-plugin-iife](https://github.com/eight04/rollup-plugin-iife) - Convert ES modules into IIFEs.
-*   [acode/cli](https://github.com/acode/cli) - Autocode CLI and standard library tooling
 *   [acode/cli](https://github.com/acode/cli) - Autocode CLI and standard library tooling
 *   [unyo/webpgp](https://github.com/unyo/webpgp) - The server code for an online PGP encryption/decryption service. Private keys are stored in the database encrypted with a symmetric key, which when fetched by the webpage is decrypted using javascript. 2 Factor Auth enabled.
 *   [ricklamers/gridstudio](https://github.com/ricklamers/gridstudio) - Grid studio is a web-based application for data science with full integration of open source data science frameworks and languages.
@@ -2392,8 +2401,6 @@
 *   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
 *   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
 *   [schacon/showoff-wrangling-git](https://github.com/schacon/showoff-wrangling-git) - Wrangling Git ShowOff presentation from LCA2010
-*   [tonytomov/jqGrid](https://github.com/tonytomov/jqGrid) - jQuery grid plugin
-*   [runpaint/vim-recipes](https://github.com/runpaint/vim-recipes) - A cookbook for the Vim text editor.
 
 ## Jinja
 
@@ -2812,7 +2819,6 @@
 *   [bitly/data\_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
 *   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
 *   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
-*   [schacon/hg-git](https://github.com/schacon/hg-git) - mercurial to git bridge, pushed to directly from the hg-git plugin in Hg
 
 ## R
 
@@ -2828,6 +2834,8 @@
 
 ## Ruby
 
+*   [ruby/debug](https://github.com/ruby/debug) - Debugging functionality for Ruby
+*   [rubymem/bundler-leak](https://github.com/rubymem/bundler-leak) - Known-leaky gems verification for bundler: `bundle leak` to check your app and find leaky gems in your Gemfile :gem::droplet:
 *   [coinbase/cadence-ruby](https://github.com/coinbase/cadence-ruby) - Ruby SDK for Cadence
 *   [djezzzl/n1\_loader](https://github.com/djezzzl/n1_loader) - Loader to solve N+1 issues for good. Highly recommended for GraphQL API.
 *   [gregnavis/active\_record\_doctor](https://github.com/gregnavis/active_record_doctor) - Identify database issues before they hit production.
@@ -3423,14 +3431,10 @@
 *   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
 *   [progit/progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at [progit2](https://github.com/progit/progit2)
 *   [halostatue/uninheritable](https://github.com/halostatue/uninheritable) - Sample code demontrating how to make a class uninheritable in Ruby
-*   [jacius/nice-ffi](https://github.com/jacius/nice-ffi) - Nice-FFI: Convenience layer atop Ruby-FFI
-*   [savonrb/savon](https://github.com/savonrb/savon) - Heavy metal SOAP client
-*   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
-*   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
-*   [mdub/sham\_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
 
 ## Rust
 
+*   [obi1kenobi/trustfall](https://github.com/obi1kenobi/trustfall) - A new, datasource-agnostic way to connect and query datasets
 *   [ellie/atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
 *   [Shopify/shadowenv](https://github.com/Shopify/shadowenv) - reversible directory-local environment variable manipulations
 *   [Qovery/Replibyte](https://github.com/Qovery/Replibyte) - Seed your development database with real data ⚡️
@@ -3785,7 +3789,6 @@
 *   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 *   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 *   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
-*   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
 
 ## Smalltalk
 
@@ -3942,7 +3945,7 @@
 *   [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 *   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.
 *   [adobe/react-spectrum](https://github.com/adobe/react-spectrum) - A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.
-*   [TanStack/table](https://github.com/TanStack/table) - 🤖 Headless UI for building powerful tables & datagrids for TS/JS, React, Vue, Solid
+*   [TanStack/table](https://github.com/TanStack/table) - 🤖 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table
 *   [aelbore/vite-plugin-test](https://github.com/aelbore/vite-plugin-test) - Vite plugin with mocha and puppeteer
 *   [aelbore/aria-vue](https://github.com/aelbore/aria-vue) - Testing tools for Vue components
 *   [SqrTT/prophet](https://github.com/SqrTT/prophet) - Prophet Debugger (SFCC sandboxes via SDAPI 2.0) extension for VS Code
@@ -4120,7 +4123,6 @@
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
 *   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
-*   [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic) - Syntax checking hacks for vim
 
 ## VimL
 
@@ -4129,7 +4131,6 @@
 *   [stefanoverna/vim-i18n](https://github.com/stefanoverna/vim-i18n) - Vim plugin to easily add I18n translations to your Rails project
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
 *   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
-*   [msanders/cocoa.vim](https://github.com/msanders/cocoa.vim) - Vim plugin for Cocoa/Objective-C development. No longer actively developed.
 
 ## Vue
 
@@ -4327,4 +4328,3 @@
 *   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [schacon/recipes](https://github.com/schacon/recipes) -
-*   [Homebrew/legacy-homebrew](https://github.com/Homebrew/legacy-homebrew) - 💀 The former home of Homebrew/homebrew (deprecated)
