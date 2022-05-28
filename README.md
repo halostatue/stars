@@ -1807,7 +1807,6 @@
 *   [CrowdHailer/raxx\_kit](https://github.com/CrowdHailer/raxx_kit) - Get started with Raxx + Elixir
 *   [jfrolich/smoothie](https://github.com/jfrolich/smoothie) - Beautiful emails for your elixir application
 *   [google/web-starter-kit](https://github.com/google/web-starter-kit) - Web Starter Kit - a workflow for multi-device websites
-*   [GitAlias/gitalias](https://github.com/GitAlias/gitalias) - Git alias commands for faster easier version control
 *   [munificent/craftinginterpreters](https://github.com/munificent/craftinginterpreters) - Repository for the book "Crafting Interpreters"
 *   [edenspiekermann/a11y-toggle](https://github.com/edenspiekermann/a11y-toggle) - A tiny script for accessible content toggles.
 *   [toptal/webdevchecklist.com](https://github.com/toptal/webdevchecklist.com) - Web Developer Checklist
@@ -4273,6 +4272,7 @@
 *   [forter/security-101-for-saas-startups](https://github.com/forter/security-101-for-saas-startups) - security tips for startups
 *   [teesloane/Auth-Boss](https://github.com/teesloane/Auth-Boss) - 🔒 Become an Auth Boss. Learn about different authentication methodologies on the web.
 *   [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) - Use your macOS terminal shell to do awesome things.
+*   [GitAlias/gitalias](https://github.com/GitAlias/gitalias) - Git alias commands for faster easier version control
 *   [255kb/stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A collection of services with great free tiers for developers on a budget. Sponsored by Mockoon, the best mock API tool. https://mockoon.com
 *   [brettchalupa/developer-interview-questions](https://github.com/brettchalupa/developer-interview-questions) - Questions to ask when interviewing for a software developer position
 *   [rstacruz/webpack-tricks](https://github.com/rstacruz/webpack-tricks) - Tips and tricks in using Webpack
