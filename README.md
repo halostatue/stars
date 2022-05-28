@@ -1443,6 +1443,8 @@
 
 ## Go
 
+*   [livekit/livekit](https://github.com/livekit/livekit) - Scalable, high-performance WebRTC SFU. SDKs in JavaScript, React, React Native, Flutter, Swift, Kotlin, Unity/C#, Go, Ruby and Node.
+*   [zitadel/zitadel](https://github.com/zitadel/zitadel) - ZITADEL - The best of Auth0 and Keycloak combined. Built for the serverless era.
 *   [k0kubun/sqldef](https://github.com/k0kubun/sqldef) - Idempotent schema management for MySQL, PostgreSQL, and more
 *   [timbray/quamina](https://github.com/timbray/quamina) - Home of Quamina, a fast pattern-matching library in Go
 *   [uber-common/cadence-samples](https://github.com/uber-common/cadence-samples) -
@@ -3428,8 +3430,6 @@
 *   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
 *   [rick/linode](https://github.com/rick/linode) - Ruby wrapper for the Linode automation API
 *   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
-*   [progit/progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at [progit2](https://github.com/progit/progit2)
-*   [halostatue/uninheritable](https://github.com/halostatue/uninheritable) - Sample code demontrating how to make a class uninheritable in Ruby
 
 ## Rust
 
