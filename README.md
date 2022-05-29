@@ -352,6 +352,7 @@
 
 ## Elixir
 
+*   [firezone/firezone](https://github.com/firezone/firezone) - WireGuard®-based VPN server and firewall
 *   [elixir-nx/complex](https://github.com/elixir-nx/complex) - Elixir library for types and mathematical functions for complex numbers
 *   [elixir-nx/nx](https://github.com/elixir-nx/nx) - Multi-dimensional arrays (tensors) and numerical definitions for Elixir
 *   [elixir-nx/explorer](https://github.com/elixir-nx/explorer) - Series (one-dimensional) and dataframes (two-dimensional) for fast data exploration in Elixir
@@ -2634,6 +2635,7 @@
 
 ## Python
 
+*   [octodns/octodns](https://github.com/octodns/octodns) - Tools for managing DNS across multiple providers
 *   [open-feature/spec](https://github.com/open-feature/spec) - OpenFeature specification
 *   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
 *   [httpie/httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie
@@ -3428,8 +3430,6 @@
 *   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
 *   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
 *   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
-*   [rick/linode](https://github.com/rick/linode) - Ruby wrapper for the Linode automation API
-*   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
 
 ## Rust
 
@@ -3905,6 +3905,7 @@
 
 ## TypeScript
 
+*   [formkit/auto-animate](https://github.com/formkit/auto-animate) - A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
 *   [wobsoriano/vite-plugin-markdoc](https://github.com/wobsoriano/vite-plugin-markdoc) - Markdoc plugin for Vite
 *   [wobsoriano/vue-markdoc](https://github.com/wobsoriano/vue-markdoc) - Vue renderer for Markdoc
 *   [wobsoriano/vite-plugin-markdoc-vue](https://github.com/wobsoriano/vite-plugin-markdoc-vue) - Render Markdoc extended markdowns as Vue components.
@@ -4129,7 +4130,6 @@
 *   [xolox/vim-misc](https://github.com/xolox/vim-misc) - Miscellaneous auto-load Vim scripts
 *   [stefanoverna/vim-i18n](https://github.com/stefanoverna/vim-i18n) - Vim plugin to easily add I18n translations to your Rails project
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
-*   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
 
 ## Vue
 
