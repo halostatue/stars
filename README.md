@@ -1984,7 +1984,6 @@
 *   [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool
 *   [validatorjs/validator.js](https://github.com/validatorjs/validator.js) - String validation
 *   [techgaun/kattu](https://github.com/techgaun/kattu) - Run commands quietly unless the command fails
-*   [google/zx](https://github.com/google/zx) - A tool for writing better scripts
 *   [ai/nanoid](https://github.com/ai/nanoid) - A tiny (130 bytes), secure, URL-friendly, unique string ID generator for JavaScript
 *   [philipwalton/rollup-native-modules-boilerplate](https://github.com/philipwalton/rollup-native-modules-boilerplate) - A demo app showcasing the use of real JavaScript modules in production—complete with cross-browser fallbacks for legacy browsers.
 *   [lowdefy/lowdefy](https://github.com/lowdefy/lowdefy) - An open-source, self-hosted, low-code framework to build internal tools, web apps, admin panels, BI dashboards, workflows, and CRUD apps with YAML or JSON.
@@ -3960,6 +3959,7 @@
 *   [honzaap/Systemizer](https://github.com/honzaap/Systemizer) - A system design tool that allows you to simulate data flow of distributed systems.
 *   [edmundhung/maildog](https://github.com/edmundhung/maildog) - 🐶 Hosting your own email forwarding service on AWS and managing it with Github Actions
 *   [obahareth/are-you-es5](https://github.com/obahareth/are-you-es5) - A package to help you find out which of your node\_modules aren't ES5 so you can add them to your Webpack/Rollup/Parcel transpilation steps.
+*   [google/zx](https://github.com/google/zx) - A tool for writing better scripts
 *   [nocodb/nocodb](https://github.com/nocodb/nocodb) - 🔥 🔥 🔥 Open Source Airtable Alternative - turns any MySQL, Postgres, SQLite into a Spreadsheet with REST APIs.
 *   [niieani/hashids.js](https://github.com/niieani/hashids.js) - A small JavaScript library to generate YouTube-like ids from numbers.
 *   [Elderjs/elderjs](https://github.com/Elderjs/elderjs) - Elder.js is an opinionated static site generator and web framework for Svelte built with SEO in mind.
