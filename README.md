@@ -3612,6 +3612,7 @@
 
 ## Scala
 
+*   [flix/flix](https://github.com/flix/flix) - The Flix Programming Language
 *   [enso-org/enso](https://github.com/enso-org/enso) - Hybrid visual and textual functional programming.
 *   [prisma/prisma1](https://github.com/prisma/prisma1) - 💾 Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)
 *   [rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Removes large or troublesome blobs like git-filter-branch does, but faster. And written in Scala
@@ -3786,7 +3787,6 @@
 *   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
 *   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 *   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
-*   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
 
 ## Smalltalk
 
