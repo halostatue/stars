@@ -215,6 +215,7 @@
 
 ## C++
 
+*   [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
 *   [bytedance/terarkdb](https://github.com/bytedance/terarkdb) - A RocksDB compatible KV storage engine with better performance
 *   [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
 *   [duckdb/duckdb](https://github.com/duckdb/duckdb) - DuckDB is an in-process SQL OLAP Database Management System
@@ -3428,10 +3429,10 @@
 *   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
 *   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
 *   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
-*   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
 
 ## Rust
 
+*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices.
 *   [obi1kenobi/trustfall](https://github.com/obi1kenobi/trustfall) - A new, datasource-agnostic way to connect and query datasets
 *   [ellie/atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
 *   [Shopify/shadowenv](https://github.com/Shopify/shadowenv) - reversible directory-local environment variable manipulations
@@ -3786,7 +3787,6 @@
 *   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
 *   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
 *   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
-*   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 
 ## Smalltalk
 
