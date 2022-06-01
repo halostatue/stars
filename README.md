@@ -7,6 +7,7 @@
 *   [API Blueprint](#api-blueprint)
 *   [AppleScript](#applescript)
 *   [Assembly](#assembly)
+*   [Ballerina](#ballerina)
 *   [C](#c)
 *   [C#](#c-1)
 *   [C++](#c-2)
@@ -97,6 +98,10 @@
 ## Assembly
 
 *   [atesgoral/hrm-solutions](https://github.com/atesgoral/hrm-solutions) - Human Resource Machine solutions and size/speed hacks
+
+## Ballerina
+
+*   [ballerina-platform/ballerina-lang](https://github.com/ballerina-platform/ballerina-lang) - The Ballerina Programming Language
 
 ## C
 
@@ -1445,6 +1450,7 @@
 
 ## Go
 
+*   [turbot/steampipe](https://github.com/turbot/steampipe) - Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.
 *   [livekit/livekit](https://github.com/livekit/livekit) - Scalable, high-performance WebRTC SFU. SDKs in JavaScript, React, React Native, Flutter, Swift, Kotlin, Unity/C#, Go, Ruby and Node.
 *   [zitadel/zitadel](https://github.com/zitadel/zitadel) - ZITADEL - The best of Auth0 and Keycloak combined. Built for the serverless era.
 *   [k0kubun/sqldef](https://github.com/k0kubun/sqldef) - Idempotent schema management for MySQL, PostgreSQL, and more
@@ -1466,7 +1472,7 @@
 *   [infracost/infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests💰📉 Love your cloud bill!
 *   [cbuschka/tfvm](https://github.com/cbuschka/tfvm) - Terraform Version Manager - Always the right terraform version for your project
 *   [charmbracelet/soft-serve](https://github.com/charmbracelet/soft-serve) - A tasty, self-hostable Git server for the command line🍦
-*   [zinclabs/zinc](https://github.com/zinclabs/zinc) - Zinc Search engine. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
+*   [zinclabs/zinc](https://github.com/zinclabs/zinc) - ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go.
 *   [earthly/earthly](https://github.com/earthly/earthly) - The effortless CI/CD framework that runs anywhere
 *   [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 *   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
@@ -1900,7 +1906,6 @@
 *   [linkedin/cruise-control](https://github.com/linkedin/cruise-control) - Cruise-control is the first of its kind to fully automate the dynamic workload rebalance and self-healing of a Kafka cluster. It provides great value to Kafka users by simplifying the operation of Kafka clusters.
 *   [confluentinc/ksql](https://github.com/confluentinc/ksql) - The database purpose-built for stream processing applications.
 *   [square/keywhiz](https://github.com/square/keywhiz) - A system for distributing and managing secrets
-*   [ballerina-platform/ballerina-lang](https://github.com/ballerina-platform/ballerina-lang) - The Ballerina Programming Language
 *   [zxing/zxing](https://github.com/zxing/zxing) - ZXing ("Zebra Crossing") barcode scanning library for Java, Android
 *   [qdb-io/qdb-server](https://github.com/qdb-io/qdb-server) - Persistent message queues with replay
 *   [twitter/nodes](https://github.com/twitter/nodes) -  A library to implement asynchronous dependency graphs for services in Java
@@ -3429,7 +3434,6 @@
 *   [cousine/downmark\_it](https://github.com/cousine/downmark_it) - A Hpricot based HTML to markdown ruby library
 *   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 *   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
-*   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
 
 ## Rust
 
