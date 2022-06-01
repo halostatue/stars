@@ -2759,7 +2759,7 @@
 *   [lightbulb-framework/lightbulb-framework](https://github.com/lightbulb-framework/lightbulb-framework) - Tools for auditing WAFS
 *   [eudicots/Cactus](https://github.com/eudicots/Cactus) - Static site generator for designers. Uses Python and Django templates.
 *   [guyzmo/git-repo](https://github.com/guyzmo/git-repo) - Git-Repo: CLI utility to manage git services from your workspace
-*   [seveas/git-spindle](https://github.com/seveas/git-spindle) - Command-line interface to GitHub and other central git services
+*   [seveas/git-spindle](https://github.com/seveas/git-spindle) - Abandoned command-line interface to GitHub and other central git services
 *   [mzucker/noteshrink](https://github.com/mzucker/noteshrink) - Convert scans of handwritten notes to beautiful, compact PDFs
 *   [reorx/httpstat](https://github.com/reorx/httpstat) - curl statistics made simple
 *   [Netflix/bless](https://github.com/Netflix/bless) - Repository for BLESS, an SSH Certificate Authority that runs as a AWS Lambda function
@@ -2838,6 +2838,7 @@
 
 ## Ruby
 
+*   [kgiszczak/shale](https://github.com/kgiszczak/shale) - Shale is a Ruby object mapper and serializer for JSON, YAML and XML. It allows you to parse JSON, YAML and XML data and convert it into Ruby data structures, as well as serialize data structures into JSON, YAML or XML.
 *   [ruby/debug](https://github.com/ruby/debug) - Debugging functionality for Ruby
 *   [rubymem/bundler-leak](https://github.com/rubymem/bundler-leak) - Known-leaky gems verification for bundler: `bundle leak` to check your app and find leaky gems in your Gemfile :gem::droplet:
 *   [coinbase/cadence-ruby](https://github.com/coinbase/cadence-ruby) - Ruby SDK for Cadence
@@ -3429,7 +3430,6 @@
 *   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 *   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
 *   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
-*   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
 
 ## Rust
 
@@ -3969,7 +3969,7 @@
 *   [ever-co/ever-traduora](https://github.com/ever-co/ever-traduora) - Ever® Traduora - Open-Source Translation Management Platform
 *   [ustaxes/UsTaxes](https://github.com/ustaxes/UsTaxes) - Tax filing web application
 *   [opticdev/optic](https://github.com/opticdev/optic) - Track and review API changes as a team
-*   [vscode-neovim/vscode-neovim](https://github.com/vscode-neovim/vscode-neovim) - Vim-mode for Visual Studio Code using embedded Neovim
+*   [vscode-neovim/vscode-neovim](https://github.com/vscode-neovim/vscode-neovim) - Vim-mode for VS Code using embedded Neovim
 *   [timkendall/tql](https://github.com/timkendall/tql) - A GraphQL query builder for TypeScript. Avoid the pain of codegen.
 *   [danger/danger-js](https://github.com/danger/danger-js) - ⚠️ Stop saying "you forgot to …" in code review
 *   [alexreardon/tiny-invariant](https://github.com/alexreardon/tiny-invariant) - A tiny invariant function
