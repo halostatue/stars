@@ -1808,6 +1808,7 @@
 *   [boudra/jaxon](https://github.com/boudra/jaxon) - Streaming JSON parser for Elixir
 *   [juliancwirko/s-chat-app](https://github.com/juliancwirko/s-chat-app) - SimpleChat.Support - Open Source Live Chat App
 *   [slikts/concurrency-glossary](https://github.com/slikts/concurrency-glossary) - 🦑 Informal definitions of terms used in concurrency modeling
+*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
 *   [foundation/foundation-emails](https://github.com/foundation/foundation-emails) - Quickly create responsive HTML emails that work on any device and client. Even Outlook.
 *   [TedGoas/Cerberus](https://github.com/TedGoas/Cerberus) - A few simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail.
 *   [fossas/commons-clause](https://github.com/fossas/commons-clause) - A license condition for source-available sustainability.
@@ -4238,7 +4239,6 @@
 *   [inaka/guidelines](https://github.com/inaka/guidelines) - General Inaka Guidelines
 *   [elves/awesome-elvish](https://github.com/elves/awesome-elvish) - The official list of awesome unofficial Elvish modules
 *   [InQuest/awesome-yara](https://github.com/InQuest/awesome-yara) - A curated list of awesome YARA rules, tools, and people.
-*   [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) - Defines a common protocol for language servers.
 *   [caquino/bash-functions](https://github.com/caquino/bash-functions) - A collection of BASH Functions
 *   [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist) - 🎮 The only Front-End Performance Checklist that runs faster than the others
 *   [joelparkerhenderson/ways-of-working](https://github.com/joelparkerhenderson/ways-of-working) - Ways of Working (WoW) a.k.a. ground rules, aspirations, team norms, team values, working agreements, shared expectations, and group understandings
