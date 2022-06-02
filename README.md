@@ -1427,7 +1427,6 @@
 *   [sqor/CommonServiceInterface](https://github.com/sqor/CommonServiceInterface) - Generic gen\_server for unified service behaviour
 *   [lfe/lfe](https://github.com/lfe/lfe) - Lisp Flavoured Erlang (LFE)
 *   [heroku/vegur](https://github.com/heroku/vegur) - Vegur: HTTP Proxy Library
-*   [erlang/otp](https://github.com/erlang/otp) - Erlang/OTP
 
 ## F\#
 
@@ -2561,6 +2560,7 @@
 
 ## PHP
 
+*   [passbolt/passbolt\_api](https://github.com/passbolt/passbolt_api) - Passbolt CE Backend, a JSON API written with Cakephp
 *   [matomo-org/matomo](https://github.com/matomo-org/matomo) - Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests!
 *   [compucorp/civibooking](https://github.com/compucorp/civibooking) - CiviBooking is a CiviCRM extension defining a resource booking application that runs on top of the CiviCRM platform.
 *   [etsy/411](https://github.com/etsy/411) - An Alert Management Web Application
@@ -3947,7 +3947,7 @@
 *   [tsedio/tsed](https://github.com/tsedio/tsed) -  :triangular\_ruler:  Ts.ED is a Node.js and TypeScript framework on top of Express to write your application with TypeScript (or ES6). It provides a lot of decorators and guideline to make your code more readable and less error-prone.
 *   [FormidableLabs/urql](https://github.com/FormidableLabs/urql) - The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.
 *   [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
-*   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.
+*   [radix-ui/primitives](https://github.com/radix-ui/primitives) - An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.
 *   [adobe/react-spectrum](https://github.com/adobe/react-spectrum) - A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.
 *   [TanStack/table](https://github.com/TanStack/table) - 🤖 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table
 *   [aelbore/vite-plugin-test](https://github.com/aelbore/vite-plugin-test) - Vite plugin with mocha and puppeteer
