@@ -2688,7 +2688,7 @@
 *   [City-of-Helsinki/respa](https://github.com/City-of-Helsinki/respa) - Resource reservation and management app and API
 *   [jarun/buku](https://github.com/jarun/buku) - :bookmark: Personal mini-web in text
 *   [mosegontar/Pinku](https://github.com/mosegontar/Pinku) - A Pinboard-to-buku importation utility
-*   [kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
+*   [kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools and file-types to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
 *   [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
 *   [dogsheep/healthkit-to-sqlite](https://github.com/dogsheep/healthkit-to-sqlite) - Convert an Apple Healthkit export zip to a SQLite database
 *   [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate) - Web based localization tool with tight version control integration.
