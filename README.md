@@ -1427,6 +1427,7 @@
 *   [sqor/CommonServiceInterface](https://github.com/sqor/CommonServiceInterface) - Generic gen\_server for unified service behaviour
 *   [lfe/lfe](https://github.com/lfe/lfe) - Lisp Flavoured Erlang (LFE)
 *   [heroku/vegur](https://github.com/heroku/vegur) - Vegur: HTTP Proxy Library
+*   [erlang/otp](https://github.com/erlang/otp) - Erlang/OTP
 
 ## F\#
 
@@ -3378,7 +3379,6 @@
 *   [ooyala/barkeep](https://github.com/ooyala/barkeep) - The friendly code review system.
 *   [rfunduk/shared-auth-example](https://github.com/rfunduk/shared-auth-example) - Example app as companion to ryanfunduk.com/shared-auth-for-rack-apps
 *   [skwp/dotfiles](https://github.com/skwp/dotfiles) - YADR - The best vim,git,zsh plugins and the cleanest vimrc you've ever seen
-*   [lonelyplanet/fozzie](https://github.com/lonelyplanet/fozzie) - fozzie gem
 *   [mperham/sidekiq](https://github.com/mperham/sidekiq) - Simple, efficient background processing for Ruby
 *   [zuorasc/zuora](https://github.com/zuorasc/zuora) - ActiveModel backed Zuora integration
 *   [aussielunix/jenkins-appliance](https://github.com/aussielunix/jenkins-appliance) - ABANDONED - Jenkins appliance built with puppet + librarian-puppet
@@ -3849,7 +3849,7 @@
 *   [johnpatrickmorgan/wtfautolayout](https://github.com/johnpatrickmorgan/wtfautolayout) - The source code for Why The Failure, Auto Layout?
 *   [remind101/AutoGraph](https://github.com/remind101/AutoGraph) - A GraphQL Client in Swift
 *   [GraphQLSwift/GraphQL](https://github.com/GraphQLSwift/GraphQL) - The Swift GraphQL implementation for macOS and Linux
-*   [MrLotU/SwiftPrometheus](https://github.com/MrLotU/SwiftPrometheus) - Client side Prometheus library in Swift
+*   [swift-server-community/SwiftPrometheus](https://github.com/swift-server-community/SwiftPrometheus) - Client side Prometheus library in Swift
 *   [orlandos-nl/IkigaJSON](https://github.com/orlandos-nl/IkigaJSON) - A high performance JSON library in Swift
 *   [apple/swift-log](https://github.com/apple/swift-log) - A Logging API for Swift
 *   [Kitura/LoggerAPI](https://github.com/Kitura/LoggerAPI) - Logger protocol
