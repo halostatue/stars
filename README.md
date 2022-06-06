@@ -4237,7 +4237,7 @@
 *   [ankane/production\_rails](https://github.com/ankane/production_rails) - Best practices for running Rails in production
 *   [grahamjenson/list\_of\_recommender\_systems](https://github.com/grahamjenson/list_of_recommender_systems) - A List of Recommender Systems and Resources
 *   [inaka/guidelines](https://github.com/inaka/guidelines) - General Inaka Guidelines
-*   [elves/awesome-elvish](https://github.com/elves/awesome-elvish) - The official list of awesome unofficial Elvish modules
+*   [elves/awesome-elvish](https://github.com/elves/awesome-elvish) - A curated list of awesome Elvish packages, modules, and tools that support Elvish
 *   [InQuest/awesome-yara](https://github.com/InQuest/awesome-yara) - A curated list of awesome YARA rules, tools, and people.
 *   [caquino/bash-functions](https://github.com/caquino/bash-functions) - A collection of BASH Functions
 *   [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist) - 🎮 The only Front-End Performance Checklist that runs faster than the others
