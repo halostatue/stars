@@ -1771,6 +1771,7 @@
 *   [StackExchange/blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git/Mercurial/Subversion
 *   [gogs/gogs](https://github.com/gogs/gogs) - Gogs is a painless self-hosted Git service
 *   [thomasboyt/go-selecta](https://github.com/thomasboyt/go-selecta) - port of @garybernhardt's selecta to go
+*   [evanpurkhiser/dots](https://github.com/evanpurkhiser/dots) - A portable tool for managing a single set of dotfiles in an organized fashion
 *   [pksunkara/alpaca](https://github.com/pksunkara/alpaca) - Given a web API, Generate client libraries in node, php, python, ruby
 *   [HouzuoGuo/DBGo](https://github.com/HouzuoGuo/DBGo) - This is a programming exercise, do not use in serious code.
 *   [bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) - Go Memcached client library #golang
@@ -2821,7 +2822,6 @@
 *   [Kozea/WeasyPrint](https://github.com/Kozea/WeasyPrint) - The awesome document factory
 *   [cwoac/nvvim](https://github.com/cwoac/nvvim) - Notational Velocity inspired mode for vim
 *   [rupa/epub](https://github.com/rupa/epub) - python/curses cli epub reader
-*   [evanpurkhiser/dots](https://github.com/evanpurkhiser/dots) - A portable tool for managing a single set of dotfiles in an organized fashion
 *   [sloria/TextBlob](https://github.com/sloria/TextBlob) - Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.
 *   [vim-vdebug/vdebug](https://github.com/vim-vdebug/vdebug) - Multi-language DBGP debugger client for Vim (PHP, Python, Perl, Ruby, etc.)
 *   [apenwarr/redo](https://github.com/apenwarr/redo) - Smaller, easier, more powerful, and more reliable than make.  An implementation of djb's redo.
