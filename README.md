@@ -510,7 +510,7 @@
 *   [secomind/pretty\_log](https://github.com/secomind/pretty_log) - An Elixir log formatter library.
 *   [erlef/website](https://github.com/erlef/website) - Erlang Ecosystem Foundation Website
 *   [evadne/etso](https://github.com/evadne/etso) - Ecto 3 adapter allowing use of Ecto schemas held in ETS tables
-*   [evadne/packmatic](https://github.com/evadne/packmatic) - Zipping on the fly
+*   [evadne/packmatic](https://github.com/evadne/packmatic) - Zipping on the fly — Generate downloadable Zip streams by aggregating File or URL Sources
 *   [codedge-llc/commandex](https://github.com/codedge-llc/commandex) - Make Elixir actions a first-class data type.
 *   [tallarium/reverse\_proxy\_plug](https://github.com/tallarium/reverse_proxy_plug) - 🔛 an Elixir reverse proxy Plug with HTTP/2, chunked transfer and path proxying support
 *   [akoutmos/doctor](https://github.com/akoutmos/doctor) - Ensure that your Elixir project documentation is healthy
