@@ -220,6 +220,8 @@
 
 ## C++
 
+*   [natalie-lang/natalie\_parser](https://github.com/natalie-lang/natalie_parser) - NatalieParser is a zero-dependency, from-scratch, hand-written recursive descent parser for the Ruby Programming Language.
+*   [pgmodeler/pgmodeler](https://github.com/pgmodeler/pgmodeler) - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
 *   [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
 *   [bytedance/terarkdb](https://github.com/bytedance/terarkdb) - A RocksDB compatible KV storage engine with better performance
 *   [WerWolv/ImHex](https://github.com/WerWolv/ImHex) - 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
@@ -1790,6 +1792,7 @@
 
 ## HTML
 
+*   [triska/the-power-of-prolog](https://github.com/triska/the-power-of-prolog) - Introduction to modern Prolog
 *   [bego-talks/e2e-workshop](https://github.com/bego-talks/e2e-workshop) -
 *   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
 *   [GoogleChromeLabs/container-query-polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill) - A polyfill for CSS Container Queries
@@ -2414,7 +2417,6 @@
 *   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
 *   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
 *   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
-*   [schacon/showoff-wrangling-git](https://github.com/schacon/showoff-wrangling-git) - Wrangling Git ShowOff presentation from LCA2010
 
 ## Jinja
 
@@ -2848,6 +2850,8 @@
 
 ## Ruby
 
+*   [natalie-lang/natalie](https://github.com/natalie-lang/natalie) - a unique Ruby implementation, compiled to C++ (WIP)
+*   [ruby-syntax-tree/syntax\_tree](https://github.com/ruby-syntax-tree/syntax_tree) - A fast Ruby parser and formatter
 *   [kgiszczak/shale](https://github.com/kgiszczak/shale) - Shale is a Ruby object mapper and serializer for JSON, YAML and XML. It allows you to parse JSON, YAML and XML data and convert it into Ruby data structures, as well as serialize data structures into JSON, YAML or XML.
 *   [ruby/debug](https://github.com/ruby/debug) - Debugging functionality for Ruby
 *   [rubymem/bundler-leak](https://github.com/rubymem/bundler-leak) - Known-leaky gems verification for bundler: `bundle leak` to check your app and find leaky gems in your Gemfile :gem::droplet:
@@ -3431,13 +3435,10 @@
 *   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
 *   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
 *   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
-*   [svenfuchs/i18n-message](https://github.com/svenfuchs/i18n-message) - Object-oriented abstraction for looking up translations from I18n.translate
-*   [daeken/RMarshal](https://github.com/daeken/RMarshal) - Ruby gem to support the Python marshal format
-*   [halostatue/xcode-git-version](https://github.com/halostatue/xcode-git-version) - A script that I use for versioning builds using git. Supports both sharef and version-tag numbering.
-*   [augustl/net-http-cheat-sheet](https://github.com/augustl/net-http-cheat-sheet) - A collection of Ruby Net::HTTP examples.
 
 ## Rust
 
+*   [codabrink/tolkien](https://github.com/codabrink/tolkien) - A ruby tokenizer and type inferencer written in Rust (an experiment)
 *   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices.
 *   [obi1kenobi/trustfall](https://github.com/obi1kenobi/trustfall) - A new, datasource-agnostic way to connect and query datasets
 *   [ellie/atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
@@ -3606,6 +3607,7 @@
 
 ## SCSS
 
+*   [picocss/pico](https://github.com/picocss/pico) - Minimal CSS Framework for semantic HTML
 *   [divio/diataxis-documentation-framework](https://github.com/divio/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
 *   [ingram-projects/animxyz](https://github.com/ingram-projects/animxyz) - The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.
 *   [balmjs/balm-ui](https://github.com/balmjs/balm-ui) - :diamonds: A modular and customizable UI library based on Material Design and Vue
@@ -3791,8 +3793,6 @@
 *   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
 *   [scmbreeze/scm\_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
 *   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
-*   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
-*   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 
 ## Smalltalk
 
