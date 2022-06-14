@@ -105,6 +105,7 @@
 
 ## C
 
+*   [deadpixi/mtm](https://github.com/deadpixi/mtm) - Perhaps the smallest useful terminal multiplexer in the world.
 *   [skarnet/s6](https://github.com/skarnet/s6) - The s6 supervision suite.
 *   [czekster/markov](https://github.com/czekster/markov) - Materials for book: "Markov Chains for programmers"
 *   [DrPostgres/pg\_plan\_guarantee](https://github.com/DrPostgres/pg_plan_guarantee) - Postgres Query Optimizer Extension that guarantees your desired plan will not change
@@ -206,7 +207,6 @@
 *   [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
 *   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
 *   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
-*   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
 
 ## C\#
 
@@ -1451,10 +1451,11 @@
 
 ## Go
 
+*   [dpapathanasiou/simple-graph](https://github.com/dpapathanasiou/simple-graph) - This is a simple graph database in SQLite, inspired by "SQLite as a document database"
 *   [sigstore/cosign](https://github.com/sigstore/cosign) - Container Signing
 *   [ory/keto](https://github.com/ory/keto) - Open Source (Go) implementation of "Zanzibar: Google's Consistent, Global Authorization System". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
 *   [ory/oathkeeper](https://github.com/ory/oathkeeper) - A cloud native Identity & Access Proxy / API (IAP) and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP(s) requests. Inspired by the BeyondCorp / Zero Trust white paper. Written in Go.
-*   [ory/kratos](https://github.com/ory/kratos) - Next-gen identity server (think Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, profile management, identity schemas, social sign in, registration, account recovery, passwordless. Golang, headless, API-only - without templating or theming headaches. Available as a cloud service.
+*   [ory/kratos](https://github.com/ory/kratos) - Next-gen identity server (think Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, TOTP, WebAuthn, profile management, identity schemas, social sign in, registration, account recovery, passwordless. Golang, headless, API-only - without templating or theming headaches. Available as a cloud service.
 *   [github/smimesign](https://github.com/github/smimesign) - An S/MIME signing utility for use with Git
 *   [sigstore/gitsign](https://github.com/sigstore/gitsign) - Keyless Git signing using Sigstore
 *   [turbot/steampipe](https://github.com/turbot/steampipe) - Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.
@@ -1491,7 +1492,7 @@
 *   [docker-slim/docker-slim](https://github.com/docker-slim/docker-slim) - DockerSlim (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
 *   [nginx-proxy/docker-gen](https://github.com/nginx-proxy/docker-gen) - Generate files from docker container meta-data
 *   [cue-lang/cue](https://github.com/cue-lang/cue) - The new home of the CUE language! Validate and define text-based and dynamic configuration
-*   [authzed/spicedb](https://github.com/authzed/spicedb) - SpiceDB: Open source permissions database inspired by Google Zanzibar
+*   [authzed/spicedb](https://github.com/authzed/spicedb) - Open source permissions database inspired by Google Zanzibar
 *   [juanfont/headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server
 *   [tilt-dev/tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes.
 *   [DarthSim/overmind](https://github.com/DarthSim/overmind) - Process manager for Procfile-based applications and tmux
@@ -1883,6 +1884,8 @@
 
 ## Java
 
+*   [vmware/hillview](https://github.com/vmware/hillview) - Big data spreadsheet
+*   [vmware/differential-datalog](https://github.com/vmware/differential-datalog) - DDlog is a programming language for incremental computation. It is well suited for writing programs that continuously update their output in response to input changes. A DDlog programmer does not write incremental algorithms; instead they specify the desired input-output mapping in a declarative manner.
 *   [gaul/s3proxy](https://github.com/gaul/s3proxy) - Access other storage backends via the S3 API
 *   [mathgladiator/adama-lang](https://github.com/mathgladiator/adama-lang) - A programming language for board games powered by the JVM. It is a data-centric programming language which enables building tiny persistent game servers which radically reduce engineering and operational costs for board games.
 *   [iterate-ch/cyberduck](https://github.com/iterate-ch/cyberduck) - Cyberduck is a libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift file transfer client for Mac and Windows.
@@ -3431,10 +3434,6 @@
 *   [github/github-services](https://github.com/github/github-services) - Legacy GitHub Services Integration
 *   [vcastellm/rubyamf\_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
 *   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
-*   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
-*   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
-*   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
-*   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
 
 ## Rust
 
@@ -3909,6 +3908,8 @@
 
 ## TypeScript
 
+*   [vilterp/datalog-ts](https://github.com/vilterp/datalog-ts) - a datalog interpreter in typescript
+*   [CondeNast/atjson](https://github.com/CondeNast/atjson) - atjson is a living content format for annotating content
 *   [formkit/auto-animate](https://github.com/formkit/auto-animate) - A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
 *   [wobsoriano/vite-plugin-markdoc](https://github.com/wobsoriano/vite-plugin-markdoc) - Markdoc plugin for Vite
 *   [wobsoriano/vue-markdoc](https://github.com/wobsoriano/vue-markdoc) - Vue renderer for Markdoc
@@ -4126,7 +4127,6 @@
 *   [halostatue/vim-config](https://github.com/halostatue/vim-config) - My new vim config.
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
-*   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
 
 ## VimL
 
