@@ -75,7 +75,6 @@
 *   [Svelte](#svelte)
 *   [Swift](#swift)
 *   [TLA](#tla)
-*   [TeX](#tex)
 *   [Twig](#twig)
 *   [TypeScript](#typescript)
 *   [V](#v)
@@ -206,7 +205,6 @@
 *   [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
 *   [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
 *   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
-*   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
 
 ## C\#
 
@@ -1451,6 +1449,7 @@
 
 ## Go
 
+*   [marouni/adr](https://github.com/marouni/adr) - A minimalist command line tool written in Go to work with Architecture Decision Records
 *   [dpapathanasiou/simple-graph](https://github.com/dpapathanasiou/simple-graph) - This is a simple graph database in SQLite, inspired by "SQLite as a document database"
 *   [sigstore/cosign](https://github.com/sigstore/cosign) - Container Signing
 *   [ory/keto](https://github.com/ory/keto) - Open Source (Go) implementation of "Zanzibar: Google's Consistent, Global Authorization System". Ships gRPC, REST APIs, newSQL, and an easy and granular permission language. Supports ACL, RBAC, and other access models.
@@ -1946,6 +1945,8 @@
 
 ## JavaScript
 
+*   [adr/adr-log](https://github.com/adr/adr-log) -  Generate an architectural decision record log (adr-log) out of architectural decision records (ADRs)
+*   [accessibilitysupported/a11ysupport.io](https://github.com/accessibilitysupported/a11ysupport.io) - Accessibility Support data for various HTML, ARIA, CSS, and SVG features
 *   [oasys/terraform-aws-cloudfront-auth](https://github.com/oasys/terraform-aws-cloudfront-auth) - Terraform module to build a website protected by OpenID authentication provider using a private S3 bucket fronted by Cloudfront and Lambda@Edge.
 *   [fonoster/fonoster](https://github.com/fonoster/fonoster) - 🚀 The open-source alternative to Twilio
 *   [automerge/automerge-rs](https://github.com/automerge/automerge-rs) - Rust implementation of automerge
@@ -2652,6 +2653,8 @@
 
 ## Python
 
+*   [mrwilson/adr-viewer](https://github.com/mrwilson/adr-viewer) - Generate easy-to-read web pages for your Architecture Decision Records
+*   [opinionated-digital-center/pyadr](https://github.com/opinionated-digital-center/pyadr) - CLI to help with an ADR lifecycle process (proposal|acceptance|rejection|deprecation|superseding) based on Markdown files and git.
 *   [octodns/octodns](https://github.com/octodns/octodns) - Tools for managing DNS across multiple providers
 *   [open-feature/spec](https://github.com/open-feature/spec) - OpenFeature specification
 *   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
@@ -2836,8 +2839,6 @@
 *   [bslatkin/dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.
 *   [xavierd/clang\_complete](https://github.com/xavierd/clang_complete) - Vim plugin that use clang for completing C/C++ code.
 *   [bitly/data\_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
-*   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
-*   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
 
 ## R
 
@@ -2853,6 +2854,7 @@
 
 ## Ruby
 
+*   [nepalez/pg\_trunk](https://github.com/nepalez/pg_trunk) - Empower PostgreSQL migrations in Rails app
 *   [natalie-lang/natalie](https://github.com/natalie-lang/natalie) - a unique Ruby implementation, compiled to C++ (WIP)
 *   [ruby-syntax-tree/syntax\_tree](https://github.com/ruby-syntax-tree/syntax_tree) - A fast Ruby parser and formatter
 *   [kgiszczak/shale](https://github.com/kgiszczak/shale) - Shale is a Ruby object mapper and serializer for JSON, YAML and XML. It allows you to parse JSON, YAML and XML data and convert it into Ruby data structures, as well as serialize data structures into JSON, YAML or XML.
@@ -3431,9 +3433,6 @@
 *   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
 *   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
 *   [matadon/mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack.
-*   [github/github-services](https://github.com/github/github-services) - Legacy GitHub Services Integration
-*   [vcastellm/rubyamf\_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
-*   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
 
 ## Rust
 
@@ -3791,7 +3790,6 @@
 *   [jgallen23/mongroup](https://github.com/jgallen23/mongroup) - Monitor a group of processes with mon
 *   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
 *   [scmbreeze/scm\_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
-*   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
 
 ## Smalltalk
 
@@ -3898,16 +3896,13 @@
 
 *   [lemmy/BlockingQueue](https://github.com/lemmy/BlockingQueue) - Tutorial "Weeks of debugging can save you hours of TLA+".  Each git commit introduces a new concept => check the git history!
 
-## TeX
-
-*   [adityam/filter](https://github.com/adityam/filter) - ConTeXt module to process contents of a start-stop environment through an external program
-
 ## Twig
 
 *   [pelias/pelias](https://github.com/pelias/pelias) - Pelias is a modular open-source geocoder using Elasticsearch.
 
 ## TypeScript
 
+*   [thomvaill/log4brains](https://github.com/thomvaill/log4brains) - ✍️ Log and publish your architecture decisions (ADR)
 *   [vilterp/datalog-ts](https://github.com/vilterp/datalog-ts) - a datalog interpreter in typescript
 *   [CondeNast/atjson](https://github.com/CondeNast/atjson) - atjson is a living content format for annotating content
 *   [formkit/auto-animate](https://github.com/formkit/auto-animate) - A zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Vue, or any other JavaScript application.
@@ -4167,6 +4162,7 @@
 
 ## miscellaneous
 
+*   [adr/madr](https://github.com/adr/madr) - Markdown Architectural Decision Records
 *   [sqlsite/awesome-sqlite](https://github.com/sqlsite/awesome-sqlite) - A curated list of awesome things related to SQLite
 *   [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2022
 *   [simonw/shot-scraper-template](https://github.com/simonw/shot-scraper-template) - Template repository for setting up shot-scraper
