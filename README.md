@@ -3815,7 +3815,7 @@
 *   [pavish/select-madu](https://github.com/pavish/select-madu) - SelectMadu is a replacement for the select menu with support for searching, multiple selections, async loading, animations and more.
 *   [thecodejack/svelte-file-dropzone](https://github.com/thecodejack/svelte-file-dropzone) - Svelte component for fileupload
 *   [simeydotme/svelte-range-slider-pips](https://github.com/simeydotme/svelte-range-slider-pips) - Multi-Thumb, Accessible, Beautiful Range Slider with Pips
-*   [arabdevelop/svelte-formly](https://github.com/arabdevelop/svelte-formly) - Generator dynamic forms for Svelte JS
+*   [dyaliCode/svelte-formly](https://github.com/dyaliCode/svelte-formly) - Generator dynamic forms for Svelte JS
 *   [agustinl/svelte-tags-input](https://github.com/agustinl/svelte-tags-input) - Fully customizable Svelte component to enter tags
 *   [pstanoev/simple-svelte-autocomplete](https://github.com/pstanoev/simple-svelte-autocomplete) - Simple Autocomplete / typeahead component for Svelte
 *   [6eDesign/svelte-calendar](https://github.com/6eDesign/svelte-calendar) - A lightweight datepicker with neat animations and a unique UX.
