@@ -17,6 +17,7 @@
 *   [Common Lisp](#common-lisp)
 *   [Crystal](#crystal)
 *   [D](#d)
+*   [Dart](#dart)
 *   [Dockerfile](#dockerfile)
 *   [Elixir](#elixir)
 *   [Elm](#elm)
@@ -104,6 +105,7 @@
 
 ## C
 
+*   [iCyberon/pg\_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator for PostgreSQL, using hashids
 *   [deadpixi/mtm](https://github.com/deadpixi/mtm) - Perhaps the smallest useful terminal multiplexer in the world.
 *   [skarnet/s6](https://github.com/skarnet/s6) - The s6 supervision suite.
 *   [czekster/markov](https://github.com/czekster/markov) - Materials for book: "Markov Chains for programmers"
@@ -305,7 +307,6 @@
 *   [mozilla/Fira](https://github.com/mozilla/Fira) - Mozilla's new typeface, used in Firefox OS
 *   [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
 *   [mmozuras/git-playback](https://github.com/mmozuras/git-playback) - Create visual playback of your commits
-*   [codeplant/simple-navigation-demo](https://github.com/codeplant/simple-navigation-demo) - This is a sample application demonstrating the use of the simple-navigation gem. There's code for Rails 2, Rails 3, Rails4, Sinatra and Padrino.
 
 ## Clojure
 
@@ -347,6 +348,10 @@
 *   [dlang/dmd](https://github.com/dlang/dmd) - dmd D Programming Language compiler
 *   [eBay/tsv-utils](https://github.com/eBay/tsv-utils) - eBay's TSV Utilities: Command line tools for large, tabular data files. Filtering, statistics, sampling, joins and more.
 
+## Dart
+
+*   [olexale/hashids](https://github.com/olexale/hashids) - A small Dart class to generate YouTube-like hashes from one or many numbers. see https://hashids.org
+
 ## Dockerfile
 
 *   [hexops/dockerfile](https://github.com/hexops/dockerfile) - Dockerfile best-practices for writing production-worthy Docker images.
@@ -358,6 +363,8 @@
 
 ## Elixir
 
+*   [dark-elixir/dark\_matter](https://github.com/dark-elixir/dark_matter) -
+*   [tanguilp/apiac](https://github.com/tanguilp/apiac) - APIac: API access control for elixir
 *   [firezone/firezone](https://github.com/firezone/firezone) - WireGuard®-based VPN server and firewall
 *   [elixir-nx/complex](https://github.com/elixir-nx/complex) - Elixir library for types and mathematical functions for complex numbers
 *   [elixir-nx/nx](https://github.com/elixir-nx/nx) - Multi-dimensional arrays (tensors) and numerical definitions for Elixir
@@ -1294,6 +1301,7 @@
 
 ## Erlang
 
+*   [snaiper80/hashids-erlang](https://github.com/snaiper80/hashids-erlang) - The Erlang port of Hashid to generate YouTube-like hashids from one or many numbers.
 *   [isacssouza/erlgrind](https://github.com/isacssouza/erlgrind) - Convert fprof to callgring output
 *   [inaka/sheldon](https://github.com/inaka/sheldon) - Very Simple Erlang Spell Checker
 *   [okeuday/reltool\_util](https://github.com/okeuday/reltool_util) - Erlang reltool utility functionality application
@@ -1449,6 +1457,7 @@
 
 ## Go
 
+*   [speps/go-hashids](https://github.com/speps/go-hashids) - Go (golang) implementation of http://www.hashids.org
 *   [marouni/adr](https://github.com/marouni/adr) - A minimalist command line tool written in Go to work with Architecture Decision Records
 *   [dpapathanasiou/simple-graph](https://github.com/dpapathanasiou/simple-graph) - This is a simple graph database in SQLite, inspired by "SQLite as a document database"
 *   [sigstore/cosign](https://github.com/sigstore/cosign) - Container Signing
@@ -2341,7 +2350,7 @@
 *   [ziyasal/scientist.js](https://github.com/ziyasal/scientist.js) - :microscope:  A JavaScript interpretation of the Ruby library Scientist, a library for carefully refactoring critical paths.
 *   [SocketCluster/socketcluster](https://github.com/SocketCluster/socketcluster) - Highly scalable realtime framework
 *   [mholt/curl-to-go](https://github.com/mholt/curl-to-go) - Convert curl commands to Go code in your browser
-*   [lerna/lerna](https://github.com/lerna/lerna) - :dragon: A tool for managing JavaScript projects with multiple packages.
+*   [lerna/lerna](https://github.com/lerna/lerna) - :dragon: Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.
 *   [ELLIOTTCABLE/pin-cushion](https://github.com/ELLIOTTCABLE/pin-cushion) - Simple, maintained CLI interface to the Pinboard.in API.
 *   [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) - The OpenAPI Specification Repository
 *   [LeaVerou/bliss](https://github.com/LeaVerou/bliss) - Blissful JavaScript
@@ -2419,8 +2428,6 @@
 *   [cmod/bibliotype](https://github.com/cmod/bibliotype) - A base for longform tablet typography in HTML
 *   [LockerProject/Locker](https://github.com/LockerProject/Locker) - Locker - the "me" platform
 *   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
-*   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
-*   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
 
 ## Jinja
 
@@ -2442,6 +2449,7 @@
 
 ## Kotlin
 
+*   [leprosus/kotlin-hashids](https://github.com/leprosus/kotlin-hashids) - Kotlin hashids hash function
 *   [metriql/metriql](https://github.com/metriql/metriql) - The metrics layer for your data. Join us at https://metriql.com/slack
 
 ## LFE
@@ -2550,9 +2558,6 @@
 *   [atomicbird/atomictools](https://github.com/atomicbird/atomictools) - Useful Objective-C stuff
 *   [jamztang/JTRevealSidebarDemo](https://github.com/jamztang/JTRevealSidebarDemo) - (demo) A carefully implemented iOS objective-c library to mimic the sidebar layout of the new Facebook app and Path 2.0 app.
 *   [ddeville/DDProgressView](https://github.com/ddeville/DDProgressView) - A custom UIProgressView à la Twitter for iPhone
-*   [rsms/kod](https://github.com/rsms/kod) - Programmers' editor for OS X \[DEAD PROJECT]
-*   [Simbul/baker](https://github.com/Simbul/baker) - The HTML5 ebook framework to publish interactive books & magazines on iPad & iPhone using simply open web standards
-*   [nevyn/cfxr](https://github.com/nevyn/cfxr) - \[cocoa] Mac port of sfxr with document support, etc
 
 ## Objective-C++
 
@@ -2594,6 +2599,7 @@
 
 ## PLpgSQL
 
+*   [array-analytics/plpg\_hashids](https://github.com/array-analytics/plpg_hashids) - Short unique id generator for PostgreSQL in plpgsql, using hashids.org
 *   [nearform/temporal\_tables](https://github.com/nearform/temporal_tables) - Postgresql temporal\_tables extension in PL/pgSQL, without the need for external c extension.
 *   [pgpartman/pg\_partman](https://github.com/pgpartman/pg_partman) - Partition management extension for PostgreSQL
 *   [theory/pgtap](https://github.com/theory/pgtap) - PostgreSQL Unit Testing Suite
@@ -2838,7 +2844,6 @@
 *   [facebookarchive/huxley](https://github.com/facebookarchive/huxley) - A testing system for catching visual regressions in Web applications.
 *   [bslatkin/dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.
 *   [xavierd/clang\_complete](https://github.com/xavierd/clang_complete) - Vim plugin that use clang for completing C/C++ code.
-*   [bitly/data\_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
 
 ## R
 
@@ -2854,6 +2859,7 @@
 
 ## Ruby
 
+*   [peterhellberg/hashids.rb](https://github.com/peterhellberg/hashids.rb) - A small Ruby gem to generate YouTube-like hashes from one or many numbers. Use hashids when you do not want to expose your database ids to the user.
 *   [nepalez/pg\_trunk](https://github.com/nepalez/pg_trunk) - Empower PostgreSQL migrations in Rails app
 *   [natalie-lang/natalie](https://github.com/natalie-lang/natalie) - a unique Ruby implementation, compiled to C++ (WIP)
 *   [ruby-syntax-tree/syntax\_tree](https://github.com/ruby-syntax-tree/syntax_tree) - A fast Ruby parser and formatter
@@ -3431,8 +3437,6 @@
 *   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
 *   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
 *   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
-*   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
-*   [matadon/mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack.
 
 ## Rust
 
@@ -3828,6 +3832,7 @@
 
 ## Swift
 
+*   [malczak/hashids](https://github.com/malczak/hashids) - Hashids, ported for Swift (http://www.hashids.org)
 *   [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive) - Store SSH keys in the Secure Enclave
 *   [jdek/openwith](https://github.com/jdek/openwith) - A small utility to specify which application bundle should open specific file extensions on macOS.
 *   [uptech/git-ps](https://github.com/uptech/git-ps) - Patch Stack workflow CLI extension for Git
@@ -3902,6 +3907,7 @@
 
 ## TypeScript
 
+*   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is the Next-Generation API Developer Platform.
 *   [thomvaill/log4brains](https://github.com/thomvaill/log4brains) - ✍️ Log and publish your architecture decisions (ADR)
 *   [vilterp/datalog-ts](https://github.com/vilterp/datalog-ts) - a datalog interpreter in typescript
 *   [CondeNast/atjson](https://github.com/CondeNast/atjson) - atjson is a living content format for annotating content
@@ -4121,7 +4127,6 @@
 *   [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) - Base16 for Vim
 *   [halostatue/vim-config](https://github.com/halostatue/vim-config) - My new vim config.
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
-*   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
 
 ## VimL
 
@@ -4327,4 +4332,3 @@
 *   [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) - Principles of Writing Consistent, Idiomatic JavaScript
 *   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
-*   [schacon/recipes](https://github.com/schacon/recipes) -
