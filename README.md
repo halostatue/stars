@@ -105,6 +105,7 @@
 
 ## C
 
+*   [jart/bestline](https://github.com/jart/bestline) - ANSI Standard X3.64 Teletypewriter Command Session Library
 *   [iCyberon/pg\_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator for PostgreSQL, using hashids
 *   [deadpixi/mtm](https://github.com/deadpixi/mtm) - Perhaps the smallest useful terminal multiplexer in the world.
 *   [skarnet/s6](https://github.com/skarnet/s6) - The s6 supervision suite.
@@ -220,6 +221,7 @@
 
 ## C++
 
+*   [ValeLang/Vale](https://github.com/ValeLang/Vale) - Compiler for the Vale programming language - http://vale.dev/
 *   [natalie-lang/natalie\_parser](https://github.com/natalie-lang/natalie_parser) - NatalieParser is a zero-dependency, from-scratch, hand-written recursive descent parser for the Ruby Programming Language.
 *   [pgmodeler/pgmodeler](https://github.com/pgmodeler/pgmodeler) - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
 *   [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
@@ -1950,7 +1952,6 @@
 *   [pinterest/secor](https://github.com/pinterest/secor) - Secor is a service implementing Kafka log persistence
 *   [headius/jo](https://github.com/headius/jo) - Implementation of key Go (lang) features for (J)Ruby
 *   [headius/thread\_safe](https://github.com/headius/thread_safe) - This project has been absorbed by ruby-concurrency/concurrent-ruby
-*   [starpos/vmbkp](https://github.com/starpos/vmbkp) - An Online Backup Tool for VMware vSphere  (OBSOLETE)
 
 ## JavaScript
 
@@ -2843,7 +2844,6 @@
 *   [AnAppAMonth/FogTracker](https://github.com/AnAppAMonth/FogTracker) - Two-way integration of FogBugz and Pivotal Tracker, written in Python and for Google AppEngine.
 *   [facebookarchive/huxley](https://github.com/facebookarchive/huxley) - A testing system for catching visual regressions in Web applications.
 *   [bslatkin/dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.
-*   [xavierd/clang\_complete](https://github.com/xavierd/clang_complete) - Vim plugin that use clang for completing C/C++ code.
 
 ## R
 
@@ -3440,6 +3440,7 @@
 
 ## Rust
 
+*   [jfecher/ante](https://github.com/jfecher/ante) - A safe, easy systems language
 *   [codabrink/tolkien](https://github.com/codabrink/tolkien) - A ruby tokenizer and type inferencer written in Rust (an experiment)
 *   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices.
 *   [obi1kenobi/trustfall](https://github.com/obi1kenobi/trustfall) - A new, datasource-agnostic way to connect and query datasets
@@ -4126,7 +4127,6 @@
 *   [Shougo/unite.vim](https://github.com/Shougo/unite.vim) - :dragon: Unite and create user interfaces
 *   [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) - Base16 for Vim
 *   [halostatue/vim-config](https://github.com/halostatue/vim-config) - My new vim config.
-*   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 
 ## VimL
 
