@@ -105,6 +105,7 @@
 
 ## C
 
+*   [YuriyGuts/persistent-touch-id-sudo](https://github.com/YuriyGuts/persistent-touch-id-sudo) - Configures PAM on macOS via a Launch Daemon so that Touch ID for sudo is always available and persists across OS upgrades
 *   [jart/bestline](https://github.com/jart/bestline) - ANSI Standard X3.64 Teletypewriter Command Session Library
 *   [iCyberon/pg\_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator for PostgreSQL, using hashids
 *   [deadpixi/mtm](https://github.com/deadpixi/mtm) - Perhaps the smallest useful terminal multiplexer in the world.
@@ -2428,7 +2429,6 @@
 *   [apneadiving/Google-Maps-for-Rails](https://github.com/apneadiving/Google-Maps-for-Rails) - Enables easy Google map + overlays creation in Ruby apps
 *   [cmod/bibliotype](https://github.com/cmod/bibliotype) - A base for longform tablet typography in HTML
 *   [LockerProject/Locker](https://github.com/LockerProject/Locker) - Locker - the "me" platform
-*   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
 
 ## Jinja
 
@@ -3436,7 +3436,6 @@
 *   [halostatue/text-reform](https://github.com/halostatue/text-reform) - Text::Reform reformats text according to formatting picture templates.
 *   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
 *   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
-*   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
 
 ## Rust
 
@@ -3632,7 +3631,7 @@
 
 ## Shell
 
-*   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - Automatically 🧽 clean fish shell history from typos
+*   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - Automatically 🧽 clean fish history from typos
 *   [ttscoff/fish\_files](https://github.com/ttscoff/fish_files) -
 *   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 *   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
@@ -3833,6 +3832,7 @@
 
 ## Swift
 
+*   [sindresorhus/macos-trash](https://github.com/sindresorhus/macos-trash) - Move files and folders to the trash
 *   [malczak/hashids](https://github.com/malczak/hashids) - Hashids, ported for Swift (http://www.hashids.org)
 *   [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive) - Store SSH keys in the Secure Enclave
 *   [jdek/openwith](https://github.com/jdek/openwith) - A small utility to specify which application bundle should open specific file extensions on macOS.
