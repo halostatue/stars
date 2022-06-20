@@ -3632,7 +3632,7 @@
 
 ## Shell
 
-*   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - 🧽 Clean fish shell command history from typos automatically
+*   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - Automatically 🧽 clean fish shell history from typos
 *   [ttscoff/fish\_files](https://github.com/ttscoff/fish_files) -
 *   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 *   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
