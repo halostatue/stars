@@ -2428,7 +2428,6 @@
 *   [photo/frontend](https://github.com/photo/frontend) - The official @github repository of the Trovebox frontend software. A photo sharing and photo management web interface for data stored "in the cloud" (i.e. Amazon S3, Rackspace CloudFiles, Google Storage).
 *   [apneadiving/Google-Maps-for-Rails](https://github.com/apneadiving/Google-Maps-for-Rails) - Enables easy Google map + overlays creation in Ruby apps
 *   [cmod/bibliotype](https://github.com/cmod/bibliotype) - A base for longform tablet typography in HTML
-*   [LockerProject/Locker](https://github.com/LockerProject/Locker) - Locker - the "me" platform
 
 ## Jinja
 
@@ -2498,6 +2497,7 @@
 
 ## Nim
 
+*   [zedeus/nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end
 *   [andreaferretti/rosencrantz](https://github.com/andreaferretti/rosencrantz) - A web DSL for Nim
 
 ## Nunjucks
@@ -3435,7 +3435,6 @@
 *   [halostatue/tex-hyphen](https://github.com/halostatue/tex-hyphen) - A port of Perl's TeX::Hyphen to Ruby 1.6/1.8. This project has been superseded by Text::Hyphen
 *   [halostatue/text-reform](https://github.com/halostatue/text-reform) - Text::Reform reformats text according to formatting picture templates.
 *   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
-*   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
 
 ## Rust
 
@@ -4137,6 +4136,7 @@
 
 ## Vue
 
+*   [kochrt/markwhen](https://github.com/kochrt/markwhen) - Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
 *   [AustinGil/vuetensils](https://github.com/AustinGil/vuetensils) - 🍴 A tasty toolset for Vue.js 🛠 - Lightweight, functional components to boost your next project.
 *   [johnpapa/heroes-vue](https://github.com/johnpapa/heroes-vue) - Tour of Heroes app written with Vue
 *   [mikerodham/vue-dropdowns](https://github.com/mikerodham/vue-dropdowns) - A better way to display select boxes when using `v-for` on objects.
