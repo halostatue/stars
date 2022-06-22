@@ -105,6 +105,8 @@
 
 ## C
 
+*   [koute/bytehound](https://github.com/koute/bytehound) - A memory profiler for Linux.
+*   [coder-mike/microvium](https://github.com/coder-mike/microvium) - A compact, embeddable scripting engine for applications and microcontrollers for executing programs written in a subset of the JavaScript language.
 *   [YuriyGuts/persistent-touch-id-sudo](https://github.com/YuriyGuts/persistent-touch-id-sudo) - Configures PAM on macOS via a Launch Daemon so that Touch ID for sudo is always available and persists across OS upgrades
 *   [jart/bestline](https://github.com/jart/bestline) - ANSI Standard X3.64 Teletypewriter Command Session Library
 *   [iCyberon/pg\_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator for PostgreSQL, using hashids
@@ -1459,6 +1461,7 @@
 
 ## Go
 
+*   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 *   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
 *   [speps/go-hashids](https://github.com/speps/go-hashids) - Go (golang) implementation of http://www.hashids.org
 *   [marouni/adr](https://github.com/marouni/adr) - A minimalist command line tool written in Go to work with Architecture Decision Records
@@ -2427,7 +2430,6 @@
 *   [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 *   [photo/frontend](https://github.com/photo/frontend) - The official @github repository of the Trovebox frontend software. A photo sharing and photo management web interface for data stored "in the cloud" (i.e. Amazon S3, Rackspace CloudFiles, Google Storage).
 *   [apneadiving/Google-Maps-for-Rails](https://github.com/apneadiving/Google-Maps-for-Rails) - Enables easy Google map + overlays creation in Ruby apps
-*   [cmod/bibliotype](https://github.com/cmod/bibliotype) - A base for longform tablet typography in HTML
 
 ## Jinja
 
@@ -2596,7 +2598,6 @@
 *   [straup/parallel-flickr](https://github.com/straup/parallel-flickr) -
 *   [Datawalke/Coordino](https://github.com/Datawalke/Coordino) - Self-hosted Knowledge Software your question & answer system written on top of the CakePHP Framework
 *   [phacility/phabricator](https://github.com/phacility/phabricator) - Effective June 1, 2021: Phabricator is no longer actively maintained.
-*   [phacility/arcanist](https://github.com/phacility/arcanist) - Command line interface for Phabricator
 
 ## PLpgSQL
 
@@ -3434,7 +3435,6 @@
 *   [halostatue/text-hyphen](https://github.com/halostatue/text-hyphen) - Text::Hyphen will hyphenate words using modified versions of TeX hyphenation patterns.
 *   [halostatue/tex-hyphen](https://github.com/halostatue/tex-hyphen) - A port of Perl's TeX::Hyphen to Ruby 1.6/1.8. This project has been superseded by Text::Hyphen
 *   [halostatue/text-reform](https://github.com/halostatue/text-reform) - Text::Reform reformats text according to formatting picture templates.
-*   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
 
 ## Rust
 
