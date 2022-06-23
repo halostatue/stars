@@ -46,6 +46,7 @@
 *   [Liquid](#liquid)
 *   [Lua](#lua)
 *   [Makefile](#makefile)
+*   [Markdown](#markdown)
 *   [Nim](#nim)
 *   [Nunjucks](#nunjucks)
 *   [OCaml](#ocaml)
@@ -335,7 +336,6 @@
 
 *   [google/lisp-koans](https://github.com/google/lisp-koans) - Common Lisp Koans is a language learning exercise in the same vein as the ruby koans, python koans and others.   It is a port of the prior koans with some modifications to highlight lisp-specific features.  Structured as ordered groups of broken unit tests, the project guides the learner progressively through many Common Lisp language features.
 *   [dimitri/pgloader](https://github.com/dimitri/pgloader) - Migrate to PostgreSQL in a single command!
-*   [fukamachi/clack](https://github.com/fukamachi/clack) - Web server abstraction layer for Common Lisp
 
 ## Crystal
 
@@ -2497,6 +2497,10 @@
 *   [theory/kv-pair](https://github.com/theory/kv-pair) - A key/value pair data type for PostgreSQL
 *   [bitemyapp/learnhaskell](https://github.com/bitemyapp/learnhaskell) - Learn Haskell
 
+## Markdown
+
+*   [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) - A curation of prompts, plugins & other resources for Fish. 🐚
+
 ## Nim
 
 *   [zedeus/nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end
@@ -2661,6 +2665,7 @@
 
 ## Python
 
+*   [datafold/data-diff](https://github.com/datafold/data-diff) - Efficiently diff rows across two different databases.
 *   [mrwilson/adr-viewer](https://github.com/mrwilson/adr-viewer) - Generate easy-to-read web pages for your Architecture Decision Records
 *   [opinionated-digital-center/pyadr](https://github.com/opinionated-digital-center/pyadr) - CLI to help with an ADR lifecycle process (proposal|acceptance|rejection|deprecation|superseding) based on Markdown files and git.
 *   [octodns/octodns](https://github.com/octodns/octodns) - Tools for managing DNS across multiple providers
@@ -4303,7 +4308,6 @@
 *   [markets/awesome-ruby](https://github.com/markets/awesome-ruby) - :gem: A collection of awesome Ruby libraries, tools, frameworks and software
 *   [OWASP/DevGuide](https://github.com/OWASP/DevGuide) - The OWASP Guide
 *   [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) - Security Guide for Developers (实用性开发人员安全须知)
-*   [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) - A curation of prompts, plugins & other resources for Fish. 🐚
 *   [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - :iphone: Collaborative List of Open-Source iOS Apps
 *   [berneout/authors-certificate](https://github.com/berneout/authors-certificate) - practical provenance for the GitHub-and-npm set
 *   [dbohdan/structured-text-tools](https://github.com/dbohdan/structured-text-tools) - A list of command line tools for manipulating structured text data
