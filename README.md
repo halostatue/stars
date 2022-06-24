@@ -336,6 +336,7 @@
 
 *   [google/lisp-koans](https://github.com/google/lisp-koans) - Common Lisp Koans is a language learning exercise in the same vein as the ruby koans, python koans and others.   It is a port of the prior koans with some modifications to highlight lisp-specific features.  Structured as ordered groups of broken unit tests, the project guides the learner progressively through many Common Lisp language features.
 *   [dimitri/pgloader](https://github.com/dimitri/pgloader) - Migrate to PostgreSQL in a single command!
+*   [fukamachi/clack](https://github.com/fukamachi/clack) - Web server abstraction layer for Common Lisp
 
 ## Crystal
 
@@ -1499,7 +1500,7 @@
 *   [containers/podman](https://github.com/containers/podman) - Podman: A tool for managing OCI containers and pods.
 *   [abiosoft/colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup
 *   [imgproxy/imgproxy](https://github.com/imgproxy/imgproxy) - Fast and secure standalone server for resizing and converting remote images
-*   [ycd/dstp](https://github.com/ycd/dstp) - 🧪 Run common networking tests against your site.
+*   [ycd/dstp](https://github.com/ycd/dstp) - 🧪 Run common networking tests against any site.
 *   [apptainer/singularity](https://github.com/apptainer/singularity) - Singularity has been EOL'ed, see Apptainer
 *   [gotify/server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
 *   [benhoyt/simplelists](https://github.com/benhoyt/simplelists) - Tiny to-do list web app written in Go
@@ -1676,7 +1677,7 @@
 *   [lastbackend/lastbackend](https://github.com/lastbackend/lastbackend) - System for containerized apps management. From build to scaling.
 *   [hashicorp/vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper) - Vault SSH Agent is used to enable one time keys and passwords
 *   [campoy/jsonenums](https://github.com/campoy/jsonenums) - This tool is similar to golang.org/x/tools/cmd/stringer but generates MarshalJSON and UnmarshalJSON methods.
-*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. Priceless API. The true successor of expressjs | 谢谢 |
+*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. Minimum resources, better performance. Iris is environmentally friendly :leaves:  | 谢谢 |
 *   [simon-engledew/gocmdpev](https://github.com/simon-engledew/gocmdpev) - A command-line GO Postgres query visualizer, heavily inspired by pev (https://github.com/AlexTatiyants/pev)
 *   [radovskyb/go-packages](https://github.com/radovskyb/go-packages) - A large repository of code and documented examples for Go's standard package library.
 *   [genuinetools/certok](https://github.com/genuinetools/certok) - Command line tool to check the validity and expiration dates of SSL certificates.
@@ -2674,6 +2675,7 @@
 *   [httpie/httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie
 *   [afroisalreadyinu/miniboss](https://github.com/afroisalreadyinu/miniboss) - The most versatile way to manage containers locally
 *   [djrobstep/migra](https://github.com/djrobstep/migra) - Like diff but for PostgreSQL schemas
+*   [divio/diataxis-documentation-framework](https://github.com/divio/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
 *   [oilshell/oil](https://github.com/oilshell/oil) - Oil is a new Unix shell.  It's our upgrade path from bash to a better language and runtime.  It's also for Python and JavaScript users who avoid shell!
 *   [typhoon-data-org/typhoon-orchestrator](https://github.com/typhoon-data-org/typhoon-orchestrator) - Create elegant data pipelines and deploy to AWS Lambda or Airflow
 *   [jeroenjanssens/sample](https://github.com/jeroenjanssens/sample) - Filter lines from standard input according to some probability, with a given delay, and for a certain duration.
@@ -3614,7 +3616,6 @@
 ## SCSS
 
 *   [picocss/pico](https://github.com/picocss/pico) - Minimal CSS Framework for semantic HTML
-*   [divio/diataxis-documentation-framework](https://github.com/divio/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
 *   [ingram-projects/animxyz](https://github.com/ingram-projects/animxyz) - The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.
 *   [balmjs/balm-ui](https://github.com/balmjs/balm-ui) - :diamonds: A modular and customizable UI library based on Material Design and Vue
 *   [vapid/vapid](https://github.com/vapid/vapid) - Vapid is an intentionally simple content management system built on the idea that you can create a custom dashboard without ever leaving the HTML.
@@ -3977,7 +3978,6 @@
 *   [fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) - Browser fingerprinting library with the highest accuracy and stability.
 *   [mattpocock/xstate-catalogue](https://github.com/mattpocock/xstate-catalogue) - Professionally designed, interactive state machines
 *   [Daninet/hash-wasm](https://github.com/Daninet/hash-wasm) - Lightning fast hash functions using hand-tuned WebAssembly binaries
-*   [ever-co/ever-traduora](https://github.com/ever-co/ever-traduora) - Ever® Traduora - Open-Source Translation Management Platform
 *   [ustaxes/UsTaxes](https://github.com/ustaxes/UsTaxes) - Tax filing web application
 *   [opticdev/optic](https://github.com/opticdev/optic) - Track and review API changes as a team
 *   [vscode-neovim/vscode-neovim](https://github.com/vscode-neovim/vscode-neovim) - Vim-mode for VS Code using embedded Neovim
