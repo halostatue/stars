@@ -77,6 +77,7 @@
 *   [Svelte](#svelte)
 *   [Swift](#swift)
 *   [TLA](#tla)
+*   [TeX](#tex)
 *   [Twig](#twig)
 *   [TypeScript](#typescript)
 *   [V](#v)
@@ -211,6 +212,12 @@
 *   [wg/wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
 *   [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
 *   [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
+*   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
+*   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
+*   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
+*   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
+*   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
+*   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
 ## C\#
 
@@ -312,6 +319,7 @@
 *   [mozilla/Fira](https://github.com/mozilla/Fira) - Mozilla's new typeface, used in Firefox OS
 *   [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
 *   [mmozuras/git-playback](https://github.com/mmozuras/git-playback) - Create visual playback of your commits
+*   [codeplant/simple-navigation-demo](https://github.com/codeplant/simple-navigation-demo) - This is a sample application demonstrating the use of the simple-navigation gem. There's code for Rails 2, Rails 3, Rails4, Sinatra and Padrino.
 
 ## Clojure
 
@@ -324,6 +332,7 @@
 *   [cognitect/transit-format](https://github.com/cognitect/transit-format) - A data interchange format.
 *   [Factual/drake](https://github.com/Factual/drake) - Data workflow tool, like a "Make for data"
 *   [cmonty/brainiac](https://github.com/cmonty/brainiac) - An awesome HUD
+*   [mmcgrana/ring](https://github.com/mmcgrana/ring) - Clojure web application library: abstracts HTTP to allow modular and concise webapps
 
 ## CoffeeScript
 
@@ -1440,6 +1449,7 @@
 *   [sqor/CommonServiceInterface](https://github.com/sqor/CommonServiceInterface) - Generic gen\_server for unified service behaviour
 *   [lfe/lfe](https://github.com/lfe/lfe) - Lisp Flavoured Erlang (LFE)
 *   [heroku/vegur](https://github.com/heroku/vegur) - Vegur: HTTP Proxy Library
+*   [erlang/otp](https://github.com/erlang/otp) - Erlang/OTP
 
 ## F\#
 
@@ -1794,6 +1804,7 @@
 *   [HouzuoGuo/DBGo](https://github.com/HouzuoGuo/DBGo) - This is a programming exercise, do not use in serious code.
 *   [bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) - Go Memcached client library #golang
 *   [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
+*   [github/hub](https://github.com/github/hub) - A command-line tool that makes git easier to use with GitHub.
 
 ## Groovy
 
@@ -1808,6 +1819,7 @@
 
 ## HTML
 
+*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine
 *   [triska/the-power-of-prolog](https://github.com/triska/the-power-of-prolog) - Introduction to modern Prolog
 *   [bego-talks/e2e-workshop](https://github.com/bego-talks/e2e-workshop) -
 *   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
@@ -1892,6 +1904,7 @@
 *   [Gabriella439/bench](https://github.com/Gabriella439/bench) - Command-line benchmark tool
 *   [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 *   [mightybyte/monad-challenges](https://github.com/mightybyte/monad-challenges) - A set of challenges for jump starting your understanding of monads.
+*   [jaspervdj/hakyll](https://github.com/jaspervdj/hakyll) - A static website compiler library in Haskell
 
 ## Haxe
 
@@ -1957,6 +1970,7 @@
 *   [pinterest/secor](https://github.com/pinterest/secor) - Secor is a service implementing Kafka log persistence
 *   [headius/jo](https://github.com/headius/jo) - Implementation of key Go (lang) features for (J)Ruby
 *   [headius/thread\_safe](https://github.com/headius/thread_safe) - This project has been absorbed by ruby-concurrency/concurrent-ruby
+*   [starpos/vmbkp](https://github.com/starpos/vmbkp) - An Online Backup Tool for VMware vSphere  (OBSOLETE)
 
 ## JavaScript
 
@@ -2431,6 +2445,14 @@
 *   [twbs/bootstrap](https://github.com/twbs/bootstrap) - The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 *   [photo/frontend](https://github.com/photo/frontend) - The official @github repository of the Trovebox frontend software. A photo sharing and photo management web interface for data stored "in the cloud" (i.e. Amazon S3, Rackspace CloudFiles, Google Storage).
 *   [apneadiving/Google-Maps-for-Rails](https://github.com/apneadiving/Google-Maps-for-Rails) - Enables easy Google map + overlays creation in Ruby apps
+*   [cmod/bibliotype](https://github.com/cmod/bibliotype) - A base for longform tablet typography in HTML
+*   [LockerProject/Locker](https://github.com/LockerProject/Locker) - Locker - the "me" platform
+*   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
+*   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
+*   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
+*   [schacon/showoff-wrangling-git](https://github.com/schacon/showoff-wrangling-git) - Wrangling Git ShowOff presentation from LCA2010
+*   [tonytomov/jqGrid](https://github.com/tonytomov/jqGrid) - jQuery grid plugin
+*   [runpaint/vim-recipes](https://github.com/runpaint/vim-recipes) - A cookbook for the Vim text editor.
 
 ## Jinja
 
@@ -2566,6 +2588,10 @@
 *   [atomicbird/atomictools](https://github.com/atomicbird/atomictools) - Useful Objective-C stuff
 *   [jamztang/JTRevealSidebarDemo](https://github.com/jamztang/JTRevealSidebarDemo) - (demo) A carefully implemented iOS objective-c library to mimic the sidebar layout of the new Facebook app and Path 2.0 app.
 *   [ddeville/DDProgressView](https://github.com/ddeville/DDProgressView) - A custom UIProgressView à la Twitter for iPhone
+*   [rsms/kod](https://github.com/rsms/kod) - Programmers' editor for OS X \[DEAD PROJECT]
+*   [Simbul/baker](https://github.com/Simbul/baker) - The HTML5 ebook framework to publish interactive books & magazines on iPad & iPhone using simply open web standards
+*   [nevyn/cfxr](https://github.com/nevyn/cfxr) - \[cocoa] Mac port of sfxr with document support, etc
+*   [halostatue/coredata-easyfetch](https://github.com/halostatue/coredata-easyfetch) - A fast fetch based on example code by Matt Gallagher
 
 ## Objective-C++
 
@@ -2603,6 +2629,7 @@
 *   [straup/parallel-flickr](https://github.com/straup/parallel-flickr) -
 *   [Datawalke/Coordino](https://github.com/Datawalke/Coordino) - Self-hosted Knowledge Software your question & answer system written on top of the CakePHP Framework
 *   [phacility/phabricator](https://github.com/phacility/phabricator) - Effective June 1, 2021: Phabricator is no longer actively maintained.
+*   [phacility/arcanist](https://github.com/phacility/arcanist) - Command line interface for Phabricator
 
 ## PLpgSQL
 
@@ -2641,6 +2668,7 @@
 *   [ryancdotorg/ssh-chain](https://github.com/ryancdotorg/ssh-chain) -
 *   [sarabander/sicp-pdf](https://github.com/sarabander/sicp-pdf) - SICP PDF with Texinfo and LaTeX source
 *   [unixorn/miyamoto](https://github.com/unixorn/miyamoto) - Masterless puppet with S3
+*   [beyondgrep/ack1](https://github.com/beyondgrep/ack1) - This repository is for ack 1.x, which is **no longer being maintained**.  DO NOT SUBMIT ISSUES HERE.  ack 2.0 has a new GitHub project at
 
 ## PowerShell
 
@@ -2666,6 +2694,7 @@
 
 ## Python
 
+*   [ridiculousfish/littlecheck](https://github.com/ridiculousfish/littlecheck) - Test driver for command line tools
 *   [datafold/data-diff](https://github.com/datafold/data-diff) - Efficiently diff rows across two different databases.
 *   [mrwilson/adr-viewer](https://github.com/mrwilson/adr-viewer) - Generate easy-to-read web pages for your Architecture Decision Records
 *   [opinionated-digital-center/pyadr](https://github.com/opinionated-digital-center/pyadr) - CLI to help with an ADR lifecycle process (proposal|acceptance|rejection|deprecation|superseding) based on Markdown files and git.
@@ -2852,6 +2881,11 @@
 *   [AnAppAMonth/FogTracker](https://github.com/AnAppAMonth/FogTracker) - Two-way integration of FogBugz and Pivotal Tracker, written in Python and for Google AppEngine.
 *   [facebookarchive/huxley](https://github.com/facebookarchive/huxley) - A testing system for catching visual regressions in Web applications.
 *   [bslatkin/dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.
+*   [xavierd/clang\_complete](https://github.com/xavierd/clang_complete) - Vim plugin that use clang for completing C/C++ code.
+*   [bitly/data\_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
+*   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
+*   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
+*   [schacon/hg-git](https://github.com/schacon/hg-git) - mercurial to git bridge, pushed to directly from the hg-git plugin in Hg
 
 ## R
 
@@ -3442,6 +3476,52 @@
 *   [halostatue/text-hyphen](https://github.com/halostatue/text-hyphen) - Text::Hyphen will hyphenate words using modified versions of TeX hyphenation patterns.
 *   [halostatue/tex-hyphen](https://github.com/halostatue/tex-hyphen) - A port of Perl's TeX::Hyphen to Ruby 1.6/1.8. This project has been superseded by Text::Hyphen
 *   [halostatue/text-reform](https://github.com/halostatue/text-reform) - Text::Reform reformats text according to formatting picture templates.
+*   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
+*   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
+*   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
+*   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
+*   [matadon/mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack.
+*   [github/github-services](https://github.com/github/github-services) - Legacy GitHub Services Integration
+*   [vcastellm/rubyamf\_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
+*   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
+*   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
+*   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
+*   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
+*   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
+*   [svenfuchs/i18n-message](https://github.com/svenfuchs/i18n-message) - Object-oriented abstraction for looking up translations from I18n.translate
+*   [daeken/RMarshal](https://github.com/daeken/RMarshal) - Ruby gem to support the Python marshal format
+*   [halostatue/xcode-git-version](https://github.com/halostatue/xcode-git-version) - A script that I use for versioning builds using git. Supports both sharef and version-tag numbering.
+*   [augustl/net-http-cheat-sheet](https://github.com/augustl/net-http-cheat-sheet) - A collection of Ruby Net::HTTP examples.
+*   [cousine/downmark\_it](https://github.com/cousine/downmark_it) - A Hpricot based HTML to markdown ruby library
+*   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
+*   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
+*   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
+*   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
+*   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
+*   [rick/linode](https://github.com/rick/linode) - Ruby wrapper for the Linode automation API
+*   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
+*   [progit/progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at [progit2](https://github.com/progit/progit2)
+*   [halostatue/uninheritable](https://github.com/halostatue/uninheritable) - Sample code demontrating how to make a class uninheritable in Ruby
+*   [jacius/nice-ffi](https://github.com/jacius/nice-ffi) - Nice-FFI: Convenience layer atop Ruby-FFI
+*   [savonrb/savon](https://github.com/savonrb/savon) - Heavy metal SOAP client
+*   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
+*   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
+*   [mdub/sham\_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
+*   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
+*   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
+*   [codeplant/simple-navigation](https://github.com/codeplant/simple-navigation) - A ruby gem for creating navigations (with multiple levels) for your Rails, Sinatra or Padrino applications.  Render your navigation as html list, link list or breadcrumbs.
+*   [brynary/rack-bug](https://github.com/brynary/rack-bug) - Debugging toolbar for Rack applications implemented as middleware
+*   [jackowayed/sentdiff](https://github.com/jackowayed/sentdiff) - Diff that splits the files by sentences first. Made for editting text with somewhat-long paragraphs
+*   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
+*   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
+*   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
+*   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
+*   [halostatue/transaction-simple](https://github.com/halostatue/transaction-simple) - Transaction::Simple for Ruby
+*   [halostatue/text-formatting](https://github.com/halostatue/text-formatting) - Text Formatting tools for Ruby
+*   [halostatue/ruwiki](https://github.com/halostatue/ruwiki) - Ruwiki. This is a dead project and is only preserved for historical reasons.
+*   [mime-types/ruby-mime-types](https://github.com/mime-types/ruby-mime-types) - Ruby MIME type registry library
+*   [halostatue/color](https://github.com/halostatue/color) - Color tools for Ruby.
+*   [ruby-i18n/i18n](https://github.com/ruby-i18n/i18n) - Internationalization (i18n) library for Ruby
 
 ## Rust
 
@@ -3636,6 +3716,7 @@
 
 ## Shell
 
+*   [ridiculousfish/git-prev-next](https://github.com/ridiculousfish/git-prev-next) - Simple way to edit in a git commit history
 *   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - Automatically 🧽 clean fish history from typos
 *   [ttscoff/fish\_files](https://github.com/ttscoff/fish_files) -
 *   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
@@ -3799,6 +3880,14 @@
 *   [jgallen23/mongroup](https://github.com/jgallen23/mongroup) - Monitor a group of processes with mon
 *   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
 *   [scmbreeze/scm\_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
+*   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
+*   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
+*   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
+*   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+*   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
+*   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
+*   [halostatue/ryanb-dotfiles-fork](https://github.com/halostatue/ryanb-dotfiles-fork) - config files for zsh, bash, completions, gem, git, irb, rails
+*   [wesabe/git-tools](https://github.com/wesabe/git-tools) - Tools for managing remote git repositories.
 
 ## Smalltalk
 
@@ -3907,12 +3996,17 @@
 
 *   [lemmy/BlockingQueue](https://github.com/lemmy/BlockingQueue) - Tutorial "Weeks of debugging can save you hours of TLA+".  Each git commit introduces a new concept => check the git history!
 
+## TeX
+
+*   [adityam/filter](https://github.com/adityam/filter) - ConTeXt module to process contents of a start-stop environment through an external program
+
 ## Twig
 
 *   [pelias/pelias](https://github.com/pelias/pelias) - Pelias is a modular open-source geocoder using Elasticsearch.
 
 ## TypeScript
 
+*   [vitest-dev/vitest](https://github.com/vitest-dev/vitest) - A Vite-native test framework. It's fast!
 *   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is the Next-Generation API Developer Platform.
 *   [thomvaill/log4brains](https://github.com/thomvaill/log4brains) - ✍️ Log and publish your architecture decisions (ADR)
 *   [vilterp/datalog-ts](https://github.com/vilterp/datalog-ts) - a datalog interpreter in typescript
@@ -4131,6 +4225,11 @@
 *   [Shougo/unite.vim](https://github.com/Shougo/unite.vim) - :dragon: Unite and create user interfaces
 *   [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) - Base16 for Vim
 *   [halostatue/vim-config](https://github.com/halostatue/vim-config) - My new vim config.
+*   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
+*   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
+*   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
+*   [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic) - Syntax checking hacks for vim
+*   [tpope/vim-git](https://github.com/tpope/vim-git) - Vim Git runtime files
 
 ## VimL
 
@@ -4138,6 +4237,9 @@
 *   [xolox/vim-misc](https://github.com/xolox/vim-misc) - Miscellaneous auto-load Vim scripts
 *   [stefanoverna/vim-i18n](https://github.com/stefanoverna/vim-i18n) - Vim plugin to easily add I18n translations to your Rails project
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
+*   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
+*   [msanders/cocoa.vim](https://github.com/msanders/cocoa.vim) - Vim plugin for Cocoa/Objective-C development. No longer actively developed.
+*   [msanders/snipmate.vim](https://github.com/msanders/snipmate.vim) - snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
 
 ## Vue
 
@@ -4336,3 +4438,5 @@
 *   [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) - Principles of Writing Consistent, Idiomatic JavaScript
 *   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
+*   [schacon/recipes](https://github.com/schacon/recipes) -
+*   [Homebrew/legacy-homebrew](https://github.com/Homebrew/legacy-homebrew) - 💀 The former home of Homebrew/homebrew (deprecated)
