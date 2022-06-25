@@ -3353,7 +3353,7 @@
 *   [newrelic/centurion](https://github.com/newrelic/centurion) - A mass deployment tool for Docker fleets
 *   [praxis/praxis](https://github.com/praxis/praxis) - Praxis is a framework that focuses on both the design and implementation aspects of creating APIs.
 *   [praxis/attributor](https://github.com/praxis/attributor) - A powerful attribute and type management library for Ruby
-*   [stripe-archive/einhorn](https://github.com/stripe-archive/einhorn) - Einhorn: the language-independent shared socket manager
+*   [contribsys/einhorn](https://github.com/contribsys/einhorn) - Einhorn: the language-independent shared socket manager
 *   [ahoward/sekrets](https://github.com/ahoward/sekrets) -     sekrets is a command line tool and library used to securely manage encrypted files and settings in your rails' applications and git repositories.
 *   [moserrya/knod](https://github.com/moserrya/knod) - A Tiny HTTP server for your current directory
 *   [xinminlabs/synvert-ruby](https://github.com/xinminlabs/synvert-ruby) - write snippet code to rewrite your project code
@@ -3521,7 +3521,6 @@
 *   [halostatue/ruwiki](https://github.com/halostatue/ruwiki) - Ruwiki. This is a dead project and is only preserved for historical reasons.
 *   [mime-types/ruby-mime-types](https://github.com/mime-types/ruby-mime-types) - Ruby MIME type registry library
 *   [halostatue/color](https://github.com/halostatue/color) - Color tools for Ruby.
-*   [ruby-i18n/i18n](https://github.com/ruby-i18n/i18n) - Internationalization (i18n) library for Ruby
 
 ## Rust
 
@@ -3926,6 +3925,7 @@
 
 ## Swift
 
+*   [p0deje/Maccy](https://github.com/p0deje/Maccy) - Lightweight clipboard manager for macOS
 *   [sindresorhus/macos-trash](https://github.com/sindresorhus/macos-trash) - Move files and folders to the trash
 *   [malczak/hashids](https://github.com/malczak/hashids) - Hashids, ported for Swift (http://www.hashids.org)
 *   [maxgoedjen/secretive](https://github.com/maxgoedjen/secretive) - Store SSH keys in the Secure Enclave
