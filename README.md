@@ -69,6 +69,7 @@
 *   [Ruby](#ruby)
 *   [Rust](#rust)
 *   [SCSS](#scss)
+*   [SVG](#svg)
 *   [Scala](#scala)
 *   [Shell](#shell)
 *   [Smalltalk](#smalltalk)
@@ -2023,7 +2024,6 @@
 *   [vitaly-t/pg-promise](https://github.com/vitaly-t/pg-promise) - PostgreSQL interface for Node.js
 *   [twilio/video-quickstart-js](https://github.com/twilio/video-quickstart-js) - A quickstart and code samples for Twilio Video JavaScript SDK. https://www.twilio.com/docs/video
 *   [RocketChat/Rocket.Chat.Livechat](https://github.com/RocketChat/Rocket.Chat.Livechat) - New Livechat client written in Preact
-*   [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) - The communications platform that puts data protection first.
 *   [you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs) - List of functions which you can use to replace moment.js + ESLint Plugin
 *   [ndp/git-cheatsheet](https://github.com/ndp/git-cheatsheet) - Interactive cheatsheet, visualization of git.
 *   [medusajs/medusa](https://github.com/medusajs/medusa) - The open-source Shopify alternative ⚡️
@@ -3520,10 +3520,10 @@
 *   [halostatue/text-formatting](https://github.com/halostatue/text-formatting) - Text Formatting tools for Ruby
 *   [halostatue/ruwiki](https://github.com/halostatue/ruwiki) - Ruwiki. This is a dead project and is only preserved for historical reasons.
 *   [mime-types/ruby-mime-types](https://github.com/mime-types/ruby-mime-types) - Ruby MIME type registry library
-*   [halostatue/color](https://github.com/halostatue/color) - Color tools for Ruby.
 
 ## Rust
 
+*   [prql/prql](https://github.com/prql/prql) - PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
 *   [jfecher/ante](https://github.com/jfecher/ante) - A safe, easy systems language
 *   [codabrink/tolkien](https://github.com/codabrink/tolkien) - A ruby tokenizer and type inferencer written in Rust (an experiment)
 *   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices.
@@ -3705,6 +3705,10 @@
 *   [zellwk/mappy-breakpoints](https://github.com/zellwk/mappy-breakpoints) - Breakpoints with Maps in Sass
 *   [slatedocs/slate](https://github.com/slatedocs/slate) - Beautiful static documentation for your API
 
+## SVG
+
+*   [n3r4zzurr0/svg-spinners](https://github.com/n3r4zzurr0/svg-spinners) - A collection of 24 x 24 dp SVG spinners!
+
 ## Scala
 
 *   [flix/flix](https://github.com/flix/flix) - The Flix Programming Language
@@ -3715,6 +3719,7 @@
 
 ## Shell
 
+*   [Mythra/typeish](https://github.com/Mythra/typeish) - A runtime type checker for bash.... in bash. I'm not sorry.
 *   [ridiculousfish/git-prev-next](https://github.com/ridiculousfish/git-prev-next) - Simple way to edit in a git commit history
 *   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - Automatically 🧽 clean fish history from typos
 *   [ttscoff/fish\_files](https://github.com/ttscoff/fish_files) -
@@ -3886,7 +3891,6 @@
 *   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
 *   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
 *   [halostatue/ryanb-dotfiles-fork](https://github.com/halostatue/ryanb-dotfiles-fork) - config files for zsh, bash, completions, gem, git, irb, rails
-*   [wesabe/git-tools](https://github.com/wesabe/git-tools) - Tools for managing remote git repositories.
 
 ## Smalltalk
 
@@ -4061,6 +4065,7 @@
 *   [cloudflare/miniflare](https://github.com/cloudflare/miniflare) - 🔥 Fully-local simulator for Cloudflare Workers
 *   [twilio/twilio-video-app-react](https://github.com/twilio/twilio-video-app-react) - A collaboration application built with the twilio-video.js SDK and React.js
 *   [RocketChat/Rocket.Chat.js.SDK](https://github.com/RocketChat/Rocket.Chat.js.SDK) - Utility for apps and bots to interact with Rocket.Chat via DDP and/or API
+*   [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) - The communications platform that puts data protection first.
 *   [johnspurlock/app-privacy-report-viewer](https://github.com/johnspurlock/app-privacy-report-viewer) - Local viewer for App Privacy Reports in iOS 15
 *   [ajv-validator/ajv](https://github.com/ajv-validator/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927)
 *   [honzaap/Systemizer](https://github.com/honzaap/Systemizer) - A system design tool that allows you to simulate data flow of distributed systems.
@@ -4229,7 +4234,6 @@
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
 *   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
 *   [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic) - Syntax checking hacks for vim
-*   [tpope/vim-git](https://github.com/tpope/vim-git) - Vim Git runtime files
 
 ## VimL
 
