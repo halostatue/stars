@@ -642,13 +642,13 @@
 *   [IlyaOsotov/uribe](https://github.com/IlyaOsotov/uribe) - URI builder for elixir
 *   [am-kantox/easy\_ets](https://github.com/am-kantox/easy_ets) - The very simple ETS wrapper simplifying cross-process ETS handling (like `Agent`, but `:ets`).
 *   [mirego/elixir-boilerplate](https://github.com/mirego/elixir-boilerplate) - ⚗ The stable base upon which we build our Elixir projects at Mirego.
-*   [madeinussr/exop](https://github.com/madeinussr/exop) - Elixir library that provides macros which allow you to encapsulate business logic and validate incoming parameters with predefined contract.
+*   [implicitly-awesome/exop](https://github.com/implicitly-awesome/exop) - Elixir library that provides macros which allow you to encapsulate business logic and validate incoming parameters with predefined contract.
 *   [techgaun/zxcvbn-elixir](https://github.com/techgaun/zxcvbn-elixir) - Elixir implementation of zxcvbn by dropbox
 *   [llxff/coney](https://github.com/llxff/coney) - Consumer server for RabbitMQ with message publishing functionality.
 *   [riverrun/argon2\_elixir](https://github.com/riverrun/argon2_elixir) - Elixir wrapper for the Argon2 password hashing algorithm
 *   [riverrun/phauxth](https://github.com/riverrun/phauxth) - Not actively maintained - Authentication library for Phoenix, and other Plug-based, web applications
 *   [lau/tzdata](https://github.com/lau/tzdata) - tzdata for Elixir. Born from the Calendar library.
-*   [elixir-mint/mint](https://github.com/elixir-mint/mint) - Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2.
+*   [elixir-mint/mint](https://github.com/elixir-mint/mint) - Functional HTTP client for Elixir with support for HTTP/1 and HTTP/2 🌱
 *   [elixir-mint/castore](https://github.com/elixir-mint/castore) - Up-to-date certificate store for Elixir.
 *   [phoenixframework/phoenix\_live\_view](https://github.com/phoenixframework/phoenix_live_view) - Rich, real-time user experiences with server-rendered HTML
 *   [riverrun/comeonin](https://github.com/riverrun/comeonin) - Password hashing specification for the Elixir programming language
@@ -940,7 +940,7 @@
 *   [gutschilla/elixir-pdf-generator](https://github.com/gutschilla/elixir-pdf-generator) - Create PDFs with wkhtmltopdf or puppeteer/chromium from Elixir.
 *   [ex-aws/ex\_aws\_cloudwatch](https://github.com/ex-aws/ex_aws_cloudwatch) -
 *   [riverrun/not\_qwerty123](https://github.com/riverrun/not_qwerty123) - Not actively maintained - Password strength checker and random password generator for Elixir
-*   [madeinussr/express](https://github.com/madeinussr/express) - Elixir library for sending iOS and Android push notifications. Supports Apple APNS (either certificate or jwt) and Google FCM services.
+*   [implicitly-awesome/express](https://github.com/implicitly-awesome/express) - Elixir library for sending iOS and Android push notifications. Supports Apple APNS (either certificate or jwt) and Google FCM services.
 *   [schurig/elixir-remote-monitor](https://github.com/schurig/elixir-remote-monitor) - ⎋ A Mix task that helps you to observe your remote elixir nodes from your local machine.
 *   [andrewMacmurray/phoenix-elm-scaffold](https://github.com/andrewMacmurray/phoenix-elm-scaffold) - Mix Task to generate an elm app inside a Phoenix (1.3) app
 *   [njonsson/example\_files](https://github.com/njonsson/example_files) - Mix tasks for managing example files in your project
@@ -2901,6 +2901,7 @@
 
 ## Ruby
 
+*   [shayonj/pg-osc](https://github.com/shayonj/pg-osc) - Easy CLI tool for making zero downtime schema changes and backfills  in PostgreSQL
 *   [peterhellberg/hashids.rb](https://github.com/peterhellberg/hashids.rb) - A small Ruby gem to generate YouTube-like hashes from one or many numbers. Use hashids when you do not want to expose your database ids to the user.
 *   [nepalez/pg\_trunk](https://github.com/nepalez/pg_trunk) - Empower PostgreSQL migrations in Rails app
 *   [natalie-lang/natalie](https://github.com/natalie-lang/natalie) - a unique Ruby implementation, compiled to C++ (WIP)
@@ -3516,10 +3517,6 @@
 *   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
 *   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
 *   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
-*   [halostatue/transaction-simple](https://github.com/halostatue/transaction-simple) - Transaction::Simple for Ruby
-*   [halostatue/text-formatting](https://github.com/halostatue/text-formatting) - Text Formatting tools for Ruby
-*   [halostatue/ruwiki](https://github.com/halostatue/ruwiki) - Ruwiki. This is a dead project and is only preserved for historical reasons.
-*   [mime-types/ruby-mime-types](https://github.com/mime-types/ruby-mime-types) - Ruby MIME type registry library
 
 ## Rust
 
@@ -3719,6 +3716,7 @@
 
 ## Shell
 
+*   [dataegret/pg-utils](https://github.com/dataegret/pg-utils) - Useful PostgreSQL utilities
 *   [Mythra/typeish](https://github.com/Mythra/typeish) - A runtime type checker for bash.... in bash. I'm not sorry.
 *   [ridiculousfish/git-prev-next](https://github.com/ridiculousfish/git-prev-next) - Simple way to edit in a git commit history
 *   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - Automatically 🧽 clean fish history from typos
@@ -4010,6 +4008,7 @@
 
 ## TypeScript
 
+*   [micleyman/sveltekit-ory-starter](https://github.com/micleyman/sveltekit-ory-starter) - An unstyled starter template for a modern Svelte Kit app, secured using Ory's open source libraries.
 *   [vitest-dev/vitest](https://github.com/vitest-dev/vitest) - A Vite-native test framework. It's fast!
 *   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is the Next-Generation API Developer Platform.
 *   [thomvaill/log4brains](https://github.com/thomvaill/log4brains) - ✍️ Log and publish your architecture decisions (ADR)
@@ -4278,6 +4277,7 @@
 
 ## miscellaneous
 
+*   [ioguix/pgsql-bloat-estimation](https://github.com/ioguix/pgsql-bloat-estimation) - Queries to mesure statistical bloat in indexes and tables for PostgreSQL
 *   [adr/madr](https://github.com/adr/madr) - Markdown Architectural Decision Records
 *   [sqlsite/awesome-sqlite](https://github.com/sqlsite/awesome-sqlite) - A curated list of awesome things related to SQLite
 *   [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) - 🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2022
