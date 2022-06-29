@@ -46,7 +46,6 @@
 *   [Liquid](#liquid)
 *   [Lua](#lua)
 *   [Makefile](#makefile)
-*   [Markdown](#markdown)
 *   [Nim](#nim)
 *   [Nunjucks](#nunjucks)
 *   [OCaml](#ocaml)
@@ -218,7 +217,6 @@
 *   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
 *   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
 *   [singpolyma/mnemonicode](https://github.com/singpolyma/mnemonicode) - Fork of http://web.archive.org/web/20101031205747/http://www.tothink.com/mnemonic/
-*   [lloyd/yajl](https://github.com/lloyd/yajl) - A fast streaming JSON parsing library in C.
 
 ## C\#
 
@@ -232,6 +230,7 @@
 
 ## C++
 
+*   [jarulraj/sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
 *   [ValeLang/Vale](https://github.com/ValeLang/Vale) - Compiler for the Vale programming language - http://vale.dev/
 *   [natalie-lang/natalie\_parser](https://github.com/natalie-lang/natalie_parser) - NatalieParser is a zero-dependency, from-scratch, hand-written recursive descent parser for the Ruby Programming Language.
 *   [pgmodeler/pgmodeler](https://github.com/pgmodeler/pgmodeler) - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
@@ -333,7 +332,6 @@
 *   [cognitect/transit-format](https://github.com/cognitect/transit-format) - A data interchange format.
 *   [Factual/drake](https://github.com/Factual/drake) - Data workflow tool, like a "Make for data"
 *   [cmonty/brainiac](https://github.com/cmonty/brainiac) - An awesome HUD
-*   [mmcgrana/ring](https://github.com/mmcgrana/ring) - Clojure web application library: abstracts HTTP to allow modular and concise webapps
 
 ## CoffeeScript
 
@@ -1316,6 +1314,7 @@
 
 ## Erlang
 
+*   [erlydtl/erlydtl](https://github.com/erlydtl/erlydtl) - Django templates for Erlang
 *   [snaiper80/hashids-erlang](https://github.com/snaiper80/hashids-erlang) - The Erlang port of Hashid to generate YouTube-like hashids from one or many numbers.
 *   [isacssouza/erlgrind](https://github.com/isacssouza/erlgrind) - Convert fprof to callgring output
 *   [inaka/sheldon](https://github.com/inaka/sheldon) - Very Simple Erlang Spell Checker
@@ -1473,6 +1472,11 @@
 
 ## Go
 
+*   [argoproj/argo-cd](https://github.com/argoproj/argo-cd) - Declarative continuous deployment for Kubernetes.
+*   [crossplane/crossplane](https://github.com/crossplane/crossplane) - Cloud Native Control Planes
+*   [cossacklabs/acra](https://github.com/cossacklabs/acra) - Database security suite. Database proxy with field-level encryption, search through encrypted data, SQL injections prevention, intrusion detection, honeypots. Supports client-side and proxy-side ("transparent") encryption. SQL, NoSQL.
+*   [lesovsky/noisia](https://github.com/lesovsky/noisia) - Harmful workload generator for PostgreSQL
+*   [mgartner/pg\_flame](https://github.com/mgartner/pg_flame) - A flamegraph generator for Postgres EXPLAIN ANALYZE output.
 *   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 *   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
 *   [speps/go-hashids](https://github.com/speps/go-hashids) - Go (golang) implementation of http://www.hashids.org
@@ -1913,6 +1917,7 @@
 
 ## Java
 
+*   [datahub-project/datahub](https://github.com/datahub-project/datahub) - The Metadata Platform for the Modern Data Stack
 *   [vmware/hillview](https://github.com/vmware/hillview) - Big data spreadsheet
 *   [vmware/differential-datalog](https://github.com/vmware/differential-datalog) - DDlog is a programming language for incremental computation. It is well suited for writing programs that continuously update their output in response to input changes. A DDlog programmer does not write incremental algorithms; instead they specify the desired input-output mapping in a declarative manner.
 *   [gaul/s3proxy](https://github.com/gaul/s3proxy) - Access other storage backends via the S3 API
@@ -1975,6 +1980,8 @@
 
 ## JavaScript
 
+*   [ory/milestone-action](https://github.com/ory/milestone-action) -
+*   [ory/label-sync-action](https://github.com/ory/label-sync-action) -
 *   [adr/adr-log](https://github.com/adr/adr-log) -  Generate an architectural decision record log (adr-log) out of architectural decision records (ADRs)
 *   [accessibilitysupported/a11ysupport.io](https://github.com/accessibilitysupported/a11ysupport.io) - Accessibility Support data for various HTML, ARIA, CSS, and SVG features
 *   [oasys/terraform-aws-cloudfront-auth](https://github.com/oasys/terraform-aws-cloudfront-auth) - Terraform module to build a website protected by OpenID authentication provider using a private S3 bucket fronted by Cloudfront and Lambda@Edge.
@@ -2076,7 +2083,7 @@
 *   [vue-a11y/vue-accessible-multiselect](https://github.com/vue-a11y/vue-accessible-multiselect) - Vue.js accessible multiselect component
 *   [vue-a11y/vue-axe](https://github.com/vue-a11y/vue-axe) - Accessibility auditing for Vue.js applications.
 *   [vue-a11y/vue-announcer](https://github.com/vue-a11y/vue-announcer) - A simple way with Vue to announce any useful information for screen readers.
-*   [mikecao/umami](https://github.com/mikecao/umami) - Umami is a simple, fast, privacy-focused alternative to Google Analytics.
+*   [umami-software/umami](https://github.com/umami-software/umami) - Umami is a simple, fast, privacy-focused alternative to Google Analytics.
 *   [dmonad/crdt-benchmarks](https://github.com/dmonad/crdt-benchmarks) - A collection of CRDT benchmarks
 *   [yjs/yjs](https://github.com/yjs/yjs) - Shared data types for building collaborative software
 *   [CoreyGinnivan/system-uicons](https://github.com/CoreyGinnivan/system-uicons) - System UIcons is an icon library design for systems and products. Use how you want, without attribution.
@@ -2520,10 +2527,6 @@
 *   [theory/kv-pair](https://github.com/theory/kv-pair) - A key/value pair data type for PostgreSQL
 *   [bitemyapp/learnhaskell](https://github.com/bitemyapp/learnhaskell) - Learn Haskell
 
-## Markdown
-
-*   [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) - A curation of prompts, plugins & other resources for Fish. 🐚
-
 ## Nim
 
 *   [zedeus/nitter](https://github.com/zedeus/nitter) - Alternative Twitter front-end
@@ -2668,7 +2671,6 @@
 *   [ryancdotorg/ssh-chain](https://github.com/ryancdotorg/ssh-chain) -
 *   [sarabander/sicp-pdf](https://github.com/sarabander/sicp-pdf) - SICP PDF with Texinfo and LaTeX source
 *   [unixorn/miyamoto](https://github.com/unixorn/miyamoto) - Masterless puppet with S3
-*   [beyondgrep/ack1](https://github.com/beyondgrep/ack1) - This repository is for ack 1.x, which is **no longer being maintained**.  DO NOT SUBMIT ISSUES HERE.  ack 2.0 has a new GitHub project at
 
 ## PowerShell
 
@@ -3511,12 +3513,6 @@
 *   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
 *   [seaofclouds/compass-sinatra](https://github.com/seaofclouds/compass-sinatra) - a simple starting point for those wanting to explore compass with sinatra.
 *   [codeplant/simple-navigation](https://github.com/codeplant/simple-navigation) - A ruby gem for creating navigations (with multiple levels) for your Rails, Sinatra or Padrino applications.  Render your navigation as html list, link list or breadcrumbs.
-*   [brynary/rack-bug](https://github.com/brynary/rack-bug) - Debugging toolbar for Rack applications implemented as middleware
-*   [jackowayed/sentdiff](https://github.com/jackowayed/sentdiff) - Diff that splits the files by sentences first. Made for editting text with somewhat-long paragraphs
-*   [hanklords/shared-mime-info](https://github.com/hanklords/shared-mime-info) - Library to guess the MIME type of a file with both filename lookup and magic file detection
-*   [sinatra/sinatra](https://github.com/sinatra/sinatra) - Classy web-development dressed in a DSL (official / canonical repo)
-*   [geokit/geokit-rails](https://github.com/geokit/geokit-rails) - Official Geokit plugin for Rails/ActiveRecord. Provides location-based goodness for your Rails app. Requires the Geokit gem.
-*   [geokit/geokit](https://github.com/geokit/geokit) - Official Geokit Gem. Geokit gem provides geocoding and distance/heading calculations. Pair with the geokit-rails plugin for full-fledged location-based app functionality.
 
 ## Rust
 
@@ -4242,7 +4238,6 @@
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
 *   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
 *   [msanders/cocoa.vim](https://github.com/msanders/cocoa.vim) - Vim plugin for Cocoa/Objective-C development. No longer actively developed.
-*   [msanders/snipmate.vim](https://github.com/msanders/snipmate.vim) - snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
 
 ## Vue
 
@@ -4414,6 +4409,7 @@
 *   [markets/awesome-ruby](https://github.com/markets/awesome-ruby) - :gem: A collection of awesome Ruby libraries, tools, frameworks and software
 *   [OWASP/DevGuide](https://github.com/OWASP/DevGuide) - The OWASP Guide
 *   [FallibleInc/security-guide-for-developers](https://github.com/FallibleInc/security-guide-for-developers) - Security Guide for Developers (实用性开发人员安全须知)
+*   [jorgebucaran/awsm.fish](https://github.com/jorgebucaran/awsm.fish) - A curation of prompts, plugins & other resources for Fish. 🐚
 *   [dkhamsing/open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps) - :iphone: Collaborative List of Open-Source iOS Apps
 *   [berneout/authors-certificate](https://github.com/berneout/authors-certificate) - practical provenance for the GitHub-and-npm set
 *   [dbohdan/structured-text-tools](https://github.com/dbohdan/structured-text-tools) - A list of command line tools for manipulating structured text data
