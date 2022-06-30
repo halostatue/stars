@@ -215,7 +215,6 @@
 *   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
 *   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
 *   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
-*   [nodejs/http-parser](https://github.com/nodejs/http-parser) - http request/response parser for c
 
 ## C\#
 
@@ -375,6 +374,8 @@
 
 ## Elixir
 
+*   [nhpip/history](https://github.com/nhpip/history) - An improved history for the Elixir IEx shell
+*   [am-kantox/siblings](https://github.com/am-kantox/siblings) - The partitioned dynamic supervision of FSM-backed workers
 *   [dark-elixir/dark\_matter](https://github.com/dark-elixir/dark_matter) -
 *   [tanguilp/apiac](https://github.com/tanguilp/apiac) - APIac: API access control for elixir
 *   [firezone/firezone](https://github.com/firezone/firezone) - WireGuard®-based VPN server and firewall
@@ -1471,6 +1472,7 @@
 
 ## Go
 
+*   [grbac/grbac](https://github.com/grbac/grbac) - Graph Role-Based Access Control by Animeshon
 *   [jaxxstorm/aws-sso-creds](https://github.com/jaxxstorm/aws-sso-creds) - Get AWS SSO temporary creds from an SSO profile
 *   [argoproj/argo-cd](https://github.com/argoproj/argo-cd) - Declarative continuous deployment for Kubernetes.
 *   [crossplane/crossplane](https://github.com/crossplane/crossplane) - Cloud Native Control Planes
@@ -2461,7 +2463,6 @@
 *   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
 *   [schacon/showoff-wrangling-git](https://github.com/schacon/showoff-wrangling-git) - Wrangling Git ShowOff presentation from LCA2010
 *   [tonytomov/jqGrid](https://github.com/tonytomov/jqGrid) - jQuery grid plugin
-*   [runpaint/vim-recipes](https://github.com/runpaint/vim-recipes) - A cookbook for the Vim text editor.
 
 ## Jinja
 
@@ -3512,7 +3513,6 @@
 *   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
 *   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
 *   [mdub/sham\_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
-*   [alexreisner/geocoder](https://github.com/alexreisner/geocoder) - Complete Ruby geocoding solution.
 
 ## Rust
 
