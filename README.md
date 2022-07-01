@@ -3750,7 +3750,7 @@
 *   [getsentry/self-hosted](https://github.com/getsentry/self-hosted) - Sentry, feature-complete and packaged up for low-volume deployments and proofs-of-concept
 *   [cyberark/bash-lib](https://github.com/cyberark/bash-lib) - Library for bash utility methods and tools
 *   [envwarden/envwarden](https://github.com/envwarden/envwarden) - Manage your server secrets with Bitwarden
-*   [theory/pgenv](https://github.com/theory/pgenv) - PostgreSQL binary manger
+*   [theory/pgenv](https://github.com/theory/pgenv) - PostgreSQL binary manager
 *   [docker-library/golang](https://github.com/docker-library/golang) - Docker Official Image packaging for golang
 *   [docker-library/ruby](https://github.com/docker-library/ruby) - Docker Official Image packaging for Ruby
 *   [pawelduda/fzf-live-repl](https://github.com/pawelduda/fzf-live-repl) - Turn your fzf into a live REPL
