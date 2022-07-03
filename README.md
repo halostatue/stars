@@ -472,7 +472,7 @@
 *   [sketch-hq/nicene](https://github.com/sketch-hq/nicene) - Additional Credo checks
 *   [dashbitco/nimble\_totp](https://github.com/dashbitco/nimble_totp) - A tiny Elixir library for time-based one time passwords (TOTP)
 *   [dashbitco/nimble\_publisher](https://github.com/dashbitco/nimble_publisher) - A minimal filesystem-based publishing engine with Markdown support and code highlighting
-*   [dashbitco/nimble\_options](https://github.com/dashbitco/nimble_options) - A tiny library for validating and documenting high-level options
+*   [dashbitco/nimble\_options](https://github.com/dashbitco/nimble_options) - A tiny library for validating and documenting high-level options. 💽
 *   [dashbitco/nimble\_pool](https://github.com/dashbitco/nimble_pool) - A tiny resource-pool implementation for Elixir
 *   [artemeff/ouroboros](https://github.com/artemeff/ouroboros) -
 *   [supabase/realtime](https://github.com/supabase/realtime) - Listen to your to PostgreSQL database in realtime via websockets. Built with Elixir.
@@ -3868,7 +3868,7 @@
 *   [Bash-it/bash-it](https://github.com/Bash-it/bash-it) - A community Bash framework.
 *   [iaindooley/pickdrop](https://github.com/iaindooley/pickdrop) - A unix shell script which allows you to "pick" files one at a time and then drop them in one place
 *   [vincentbernat/zshrc](https://github.com/vincentbernat/zshrc) - My .zshrc
-*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - ⏰ Countdown timer with several modes written in Zsh shell script.
+*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - ⏰ Countdown timer with several modes written in Zsh shell script
 *   [paulirish/dotfiles](https://github.com/paulirish/dotfiles) - paul's shell, git, etc config files. also homebrew, migration setup. good stuff.
 *   [simonwhitaker/gibo](https://github.com/simonwhitaker/gibo) - Easy access to gitignore boilerplates
 *   [catenate/credo](https://github.com/catenate/credo) - Many small scripts generate, comprise, and run a build system. (An adaptation of djb's "redo" build-tool idea.)
