@@ -307,7 +307,7 @@
 *   [EthicalSource/contributor\_covenant](https://github.com/EthicalSource/contributor_covenant) - Pledge your respect and appreciation for contributors of all kinds to your open source project.
 *   [VitoVan/wonder-color](https://github.com/VitoVan/wonder-color) - Translate Text to Color
 *   [kilianc/rtail](https://github.com/kilianc/rtail) - rtail(1) - Terminal output to the browser in seconds, using UNIX pipes.
-*   [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme) - Tomorrow Theme now lives on at https://github.com/chriskempson/base16
+*   [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme) - Tomorrow Theme
 *   [mquan/lavish](https://github.com/mquan/lavish) - a rails app that generates Bootstrap color scheme from an image
 *   [hahahana/bootstrap\_sass\_examples](https://github.com/hahahana/bootstrap_sass_examples) - Bootstrap examples done in Rails 4 with bootstrap-sass
 *   [dhg/Skeleton](https://github.com/dhg/Skeleton) - Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development
@@ -2463,6 +2463,7 @@
 *   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
 *   [schacon/showoff-wrangling-git](https://github.com/schacon/showoff-wrangling-git) - Wrangling Git ShowOff presentation from LCA2010
 *   [tonytomov/jqGrid](https://github.com/tonytomov/jqGrid) - jQuery grid plugin
+*   [runpaint/vim-recipes](https://github.com/runpaint/vim-recipes) - A cookbook for the Vim text editor.
 
 ## Jinja
 
@@ -2890,6 +2891,7 @@
 *   [bitly/data\_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
 *   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
 *   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
+*   [schacon/hg-git](https://github.com/schacon/hg-git) - mercurial to git bridge, pushed to directly from the hg-git plugin in Hg
 
 ## R
 
@@ -2910,7 +2912,7 @@
 *   [nepalez/pg\_trunk](https://github.com/nepalez/pg_trunk) - Empower PostgreSQL migrations in Rails app
 *   [natalie-lang/natalie](https://github.com/natalie-lang/natalie) - a unique Ruby implementation, compiled to C++ (WIP)
 *   [ruby-syntax-tree/syntax\_tree](https://github.com/ruby-syntax-tree/syntax_tree) - A fast Ruby parser and formatter
-*   [kgiszczak/shale](https://github.com/kgiszczak/shale) - Shale is a Ruby object mapper and serializer for JSON, YAML and XML. It allows you to parse JSON, YAML and XML data and convert it into Ruby data structures, as well as serialize data structures into JSON, YAML or XML.
+*   [kgiszczak/shale](https://github.com/kgiszczak/shale) - Shale is a Ruby object mapper and serializer for JSON, YAML, TOML and XML. It allows you to parse JSON, YAML, TML and XML data and convert it into Ruby data structures, as well as serialize data structures into JSON, YAML, TOML or XML.
 *   [ruby/debug](https://github.com/ruby/debug) - Debugging functionality for Ruby
 *   [rubymem/bundler-leak](https://github.com/rubymem/bundler-leak) - Known-leaky gems verification for bundler: `bundle leak` to check your app and find leaky gems in your Gemfile :gem::droplet:
 *   [coinbase/cadence-ruby](https://github.com/coinbase/cadence-ruby) - Ruby SDK for Cadence
@@ -3800,7 +3802,7 @@
 *   [kedarvj/mysqldumpsplitter](https://github.com/kedarvj/mysqldumpsplitter) - MySQL Dump splitter to split / extract databases & tables from mysqldump
 *   [larkery/zsh](https://github.com/larkery/zsh) -
 *   [larkery/zsh-histdb](https://github.com/larkery/zsh-histdb) - A slightly better history for zsh
-*   [kaitai-io/kaitai\_struct](https://github.com/kaitai-io/kaitai_struct) - Kaitai Struct: declarative language to generate binary data parsers in C++ / C# / Go / Java / JavaScript / Lua / Perl / PHP / Python / Ruby
+*   [kaitai-io/kaitai\_struct](https://github.com/kaitai-io/kaitai_struct) - Kaitai Struct: declarative language to generate binary data parsers in C++ / C# / Go / Java / JavaScript / Lua / Nim / Perl / PHP / Python / Ruby
 *   [jcsalterego/historian](https://github.com/jcsalterego/historian) - Command-line utility for managing shell history in a SQLite database.
 *   [robertfoss/audio\_shop](https://github.com/robertfoss/audio_shop) - Your friendly neighbourhood script for mangling images or video using audio editing tools
 *   [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love) - Papers from the computer science community to read and discuss.
@@ -3825,7 +3827,7 @@
 *   [mafredri/zsh-async](https://github.com/mafredri/zsh-async) - Because your terminal should be able to perform tasks asynchronously without external tools!
 *   [reedes/vim-one](https://github.com/reedes/vim-one) - Because Vim's +clientserver is awesome
 *   [rgcr/m-cli](https://github.com/rgcr/m-cli) -  Swiss Army Knife for macOS
-*   [jorgebucaran/fisher](https://github.com/jorgebucaran/fisher) - A plugin manager for Fish.
+*   [jorgebucaran/fisher](https://github.com/jorgebucaran/fisher) - A plugin manager for 🪝Fish.
 *   [guarinogabriel/Mac-CLI](https://github.com/guarinogabriel/Mac-CLI) -  OS X command line tools for developers – The ultimate tool to manage your Mac. It provides a huge set of command line commands that automatize the usage of your OS X system.
 *   [doda-zz/twofishes-canned](https://github.com/doda-zz/twofishes-canned) - Free & ready-to-use geocoder
 *   [FusionAuth/security-scripts](https://github.com/FusionAuth/security-scripts) - Scripts built from our Guide to User Data Security
@@ -4222,7 +4224,6 @@
 *   [mmozuras/vimfiles](https://github.com/mmozuras/vimfiles) - The ~/.vim I use
 *   [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) - True Sublime Text style multiple selections for Vim
 *   [Shougo/unite.vim](https://github.com/Shougo/unite.vim) - :dragon: Unite and create user interfaces
-*   [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) - Base16 for Vim
 *   [halostatue/vim-config](https://github.com/halostatue/vim-config) - My new vim config.
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
@@ -4418,7 +4419,6 @@
 *   [nuprl/10PL](https://github.com/nuprl/10PL) - 10 papers that all PhD students in programming languages ought to know, for some value of 10
 *   [paul-nechifor/ohmu](https://github.com/paul-nechifor/ohmu) - View space usage in your terminal.
 *   [redbooth/ssmp](https://github.com/redbooth/ssmp) - Stupid-Simple Messaging Protocol.
-*   [chriskempson/base16](https://github.com/chriskempson/base16) - An architecture for building themes
 *   [fastlane-old/deliver](https://github.com/fastlane-old/deliver) - Upload screenshots, metadata and your app to the App Store using a single command
 *   [dustinbrown/ansible-datadog](https://github.com/dustinbrown/ansible-datadog) - Ansible role for data dog agent
 *   [h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx) - Nginx HTTP server boilerplate configs
