@@ -3645,6 +3645,7 @@
 *   [mesalock-linux/mesalink](https://github.com/mesalock-linux/mesalink) - OpenSSL compatibility layer for the Rust SSL/TLS stack
 *   [xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) - A modern editor with a backend written in Rust.
 *   [neithernut/git-dit](https://github.com/neithernut/git-dit) - Decentralized Issue Tracking for git
+*   [enso-org/enso](https://github.com/enso-org/enso) - Hybrid visual and textual functional programming.
 *   [yewstack/yew](https://github.com/yewstack/yew) - Rust / Wasm framework for building client web apps
 *   [tikv/rust-prometheus](https://github.com/tikv/rust-prometheus) - Prometheus instrumentation library for Rust applications
 *   [koute/stdweb](https://github.com/koute/stdweb) - A standard library for the client-side Web
@@ -3706,7 +3707,6 @@
 ## Scala
 
 *   [flix/flix](https://github.com/flix/flix) - The Flix Programming Language
-*   [enso-org/enso](https://github.com/enso-org/enso) - Hybrid visual and textual functional programming.
 *   [prisma/prisma1](https://github.com/prisma/prisma1) - 💾 Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)
 *   [rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Removes large or troublesome blobs like git-filter-branch does, but faster. And written in Scala
 *   [mesos/chronos](https://github.com/mesos/chronos) - Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules
