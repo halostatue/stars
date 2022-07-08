@@ -1472,6 +1472,7 @@
 
 ## Go
 
+*   [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) - Open Source realtime backend in 1 file
 *   [grbac/grbac](https://github.com/grbac/grbac) - Graph Role-Based Access Control by Animeshon
 *   [jaxxstorm/aws-sso-creds](https://github.com/jaxxstorm/aws-sso-creds) - Get AWS SSO temporary creds from an SSO profile
 *   [argoproj/argo-cd](https://github.com/argoproj/argo-cd) - Declarative continuous deployment for Kubernetes.
@@ -2616,6 +2617,7 @@
 
 ## PHP
 
+*   [presentator/presentator](https://github.com/presentator/presentator) - Design presentation and collaboration platform
 *   [passbolt/passbolt\_api](https://github.com/passbolt/passbolt_api) - Passbolt CE Backend, a JSON API written with Cakephp
 *   [matomo-org/matomo](https://github.com/matomo-org/matomo) - Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites & apps and visualise this data and extract insights. Privacy is built-in. We love Pull Requests!
 *   [compucorp/civibooking](https://github.com/compucorp/civibooking) - CiviBooking is a CiviCRM extension defining a resource booking application that runs on top of the CiviCRM platform.
@@ -3509,8 +3511,6 @@
 *   [jacius/nice-ffi](https://github.com/jacius/nice-ffi) - Nice-FFI: Convenience layer atop Ruby-FFI
 *   [savonrb/savon](https://github.com/savonrb/savon) - Heavy metal SOAP client
 *   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
-*   [norman/nearby](https://github.com/norman/nearby) - Quick and easy geocoding using Geonames.org data and TokyoCabinet.
-*   [mdub/sham\_rack](https://github.com/mdub/sham_rack) - run Rack applications in-process, without a server
 
 ## Rust
 
