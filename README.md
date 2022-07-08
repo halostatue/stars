@@ -1320,7 +1320,7 @@
 *   [inaka/sheldon](https://github.com/inaka/sheldon) - Very Simple Erlang Spell Checker
 *   [okeuday/reltool\_util](https://github.com/okeuday/reltool_util) - Erlang reltool utility functionality application
 *   [g-andrade/tls\_certificate\_check](https://github.com/g-andrade/tls_certificate_check) - CA store + Partial chain handler
-*   [exograd/erl-hotp](https://github.com/exograd/erl-hotp) - HOTP and TOTP algorithms in Erlang.
+*   [gearnode/erl-hotp](https://github.com/gearnode/erl-hotp) - HOTP and TOTP algorithms in Erlang.
 *   [exograd/erl-ksuid](https://github.com/exograd/erl-ksuid) - KSUID generation and manipulation in Erlang.
 *   [webmachine/webmachine](https://github.com/webmachine/webmachine) - A REST-based system for building web applications.
 *   [mdsebald/cerlc](https://github.com/mdsebald/cerlc) - A Native Erlang Library of CRC Algorithms.
@@ -2918,7 +2918,7 @@
 *   [djezzzl/n1\_loader](https://github.com/djezzzl/n1_loader) - Loader to solve N+1 issues for good. Highly recommended for GraphQL API.
 *   [gregnavis/active\_record\_doctor](https://github.com/gregnavis/active_record_doctor) - Identify database issues before they hit production.
 *   [braintree/pg\_ha\_migrations](https://github.com/braintree/pg_ha_migrations) - Enforces DDL/migration safety in Ruby on Rails project with an emphasis on explicitly choosing trade-offs and avoiding unnecessary magic.
-*   [gel-rb/gel](https://github.com/gel-rb/gel) - A modern gem manager
+*   [gel-rb/gel](https://github.com/gel-rb/gel) - A modern gem manager: Gel is a lightweight alternative to Bundler
 *   [testdouble/mocktail](https://github.com/testdouble/mocktail) -
 *   [grosser/single\_cov](https://github.com/grosser/single_cov) - Actionable code coverage.
 *   [grosser/forking\_test\_runner](https://github.com/grosser/forking_test_runner) - Run every test in a fork to avoid pollution and get clean output per test
