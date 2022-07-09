@@ -229,7 +229,6 @@
 ## C++
 
 *   [jarulraj/sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
-*   [ValeLang/Vale](https://github.com/ValeLang/Vale) - Compiler for the Vale programming language - http://vale.dev/
 *   [natalie-lang/natalie\_parser](https://github.com/natalie-lang/natalie_parser) - NatalieParser is a zero-dependency, from-scratch, hand-written recursive descent parser for the Ruby Programming Language.
 *   [pgmodeler/pgmodeler](https://github.com/pgmodeler/pgmodeler) - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
 *   [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) - A modern replacement for Redis and Memcached
@@ -3704,6 +3703,7 @@
 
 ## Scala
 
+*   [ValeLang/Vale](https://github.com/ValeLang/Vale) - Compiler for the Vale programming language - http://vale.dev/
 *   [flix/flix](https://github.com/flix/flix) - The Flix Programming Language
 *   [prisma/prisma1](https://github.com/prisma/prisma1) - 💾 Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)
 *   [rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Removes large or troublesome blobs like git-filter-branch does, but faster. And written in Scala
@@ -3882,7 +3882,6 @@
 *   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 *   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 *   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
-*   [micha/resty](https://github.com/micha/resty) - Little command line REST client that you can use in pipelines (bash or zsh).
 
 ## Smalltalk
 
@@ -4002,6 +4001,7 @@
 
 ## TypeScript
 
+*   [coder/code-server](https://github.com/coder/code-server) - VS Code in the browser
 *   [esseswann/graphql-binary](https://github.com/esseswann/graphql-binary) - GraphQL binary protocol for smaller network traffic and parsing performance
 *   [micleyman/sveltekit-ory-starter](https://github.com/micleyman/sveltekit-ory-starter) - An unstyled starter template for a modern Svelte Kit app, secured using Ory's open source libraries.
 *   [vitest-dev/vitest](https://github.com/vitest-dev/vitest) - A Vite-native test framework. It's fast!
@@ -4304,7 +4304,7 @@
 *   [fernet/spec](https://github.com/fernet/spec) - Spec and acceptance tests for the Fernet format.
 *   [cyclejs-community/awesome-cyclejs](https://github.com/cyclejs-community/awesome-cyclejs) - A curated list of awesome Cycle.js resources
 *   [Atarity/deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas) - List of "only yours" cloud services for everyday needs :black\_flag:
-*   [basecamp/policies](https://github.com/basecamp/policies) - Basecamp policies, terms, and legal. Share them; reuse them; contribute to them.
+*   [basecamp/policies](https://github.com/basecamp/policies) - 37signals policies, terms, and legal. Share them; reuse them; contribute to them.
 *   [pcmarks/mdns\_lite](https://github.com/pcmarks/mdns_lite) - A simple implementation of an mDNS (multicast Domain Name System) server.
 *   [planetjekyll/awesome-jekyll-plugins](https://github.com/planetjekyll/awesome-jekyll-plugins) - A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)
 *   [gleam-lang/suggestions](https://github.com/gleam-lang/suggestions) - 📙 A place for ideas and feedback
