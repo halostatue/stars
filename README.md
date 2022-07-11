@@ -4267,7 +4267,7 @@
 
 ## Zig
 
-*   [Jarred-Sumner/bun](https://github.com/Jarred-Sumner/bun) - Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one.
+*   [oven-sh/bun](https://github.com/oven-sh/bun) - Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one.
 *   [Hejsil/mecha](https://github.com/Hejsil/mecha) - A parser combinator library for Zig
 
 ## miscellaneous
