@@ -3868,7 +3868,7 @@
 *   [Bash-it/bash-it](https://github.com/Bash-it/bash-it) - A community Bash framework.
 *   [iaindooley/pickdrop](https://github.com/iaindooley/pickdrop) - A unix shell script which allows you to "pick" files one at a time and then drop them in one place
 *   [vincentbernat/zshrc](https://github.com/vincentbernat/zshrc) - My .zshrc
-*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - ⏰ Countdown timer with several modes written in Zsh shell script
+*   [ggustafsson/Tim](https://github.com/ggustafsson/Tim) - ⏰ Countdown timer with several modes written in Zsh shell script. ABANDONED PROJECT!
 *   [paulirish/dotfiles](https://github.com/paulirish/dotfiles) - paul's shell, git, etc config files. also homebrew, migration setup. good stuff.
 *   [simonwhitaker/gibo](https://github.com/simonwhitaker/gibo) - Easy access to gitignore boilerplates
 *   [catenate/credo](https://github.com/catenate/credo) - Many small scripts generate, comprise, and run a build system. (An adaptation of djb's "redo" build-tool idea.)
