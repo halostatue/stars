@@ -373,6 +373,7 @@
 
 ## Elixir
 
+*   [woylie/let\_me](https://github.com/woylie/let_me) - Authorization library for Elixir
 *   [nhpip/history](https://github.com/nhpip/history) - An improved history for the Elixir IEx shell
 *   [am-kantox/siblings](https://github.com/am-kantox/siblings) - The partitioned dynamic supervision of FSM-backed workers
 *   [dark-elixir/dark\_matter](https://github.com/dark-elixir/dark_matter) -
@@ -1984,6 +1985,7 @@
 
 ## JavaScript
 
+*   [nomadic-labs/safesupport-chatbox](https://github.com/nomadic-labs/safesupport-chatbox) - An embeddable chatbox built on Matrix
 *   [jaxxstorm/action-install-gh-release](https://github.com/jaxxstorm/action-install-gh-release) - GitHub Action to install the Github Release binaries
 *   [ory/milestone-action](https://github.com/ory/milestone-action) -
 *   [ory/label-sync-action](https://github.com/ory/label-sync-action) -
@@ -2699,6 +2701,7 @@
 
 ## Python
 
+*   [facundoolano/software-papers](https://github.com/facundoolano/software-papers) - 📚 A curated list of papers for Software Engineers
 *   [ridiculousfish/littlecheck](https://github.com/ridiculousfish/littlecheck) - Test driver for command line tools
 *   [datafold/data-diff](https://github.com/datafold/data-diff) - Efficiently diff rows across two different databases.
 *   [mrwilson/adr-viewer](https://github.com/mrwilson/adr-viewer) - Generate easy-to-read web pages for your Architecture Decision Records
@@ -3507,12 +3510,10 @@
 *   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
 *   [progit/progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at [progit2](https://github.com/progit/progit2)
 *   [halostatue/uninheritable](https://github.com/halostatue/uninheritable) - Sample code demontrating how to make a class uninheritable in Ruby
-*   [jacius/nice-ffi](https://github.com/jacius/nice-ffi) - Nice-FFI: Convenience layer atop Ruby-FFI
-*   [savonrb/savon](https://github.com/savonrb/savon) - Heavy metal SOAP client
-*   [rspec/rspec-core](https://github.com/rspec/rspec-core) - RSpec runner and formatters
 
 ## Rust
 
+*   [nitnelave/lldap](https://github.com/nitnelave/lldap) - Light LDAP implementation
 *   [zesterer/tao](https://github.com/zesterer/tao) - A statically-typed functional language with generics, typeclasses, sum types, pattern-matching, first-class functions, currying, algebraic effects, associated types, good diagnostics, etc.
 *   [prql/prql](https://github.com/prql/prql) - PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
 *   [jfecher/ante](https://github.com/jfecher/ante) - A safe, easy systems language
@@ -3711,6 +3712,7 @@
 
 ## Shell
 
+*   [osousa/livematrix](https://github.com/osousa/livematrix) - Livechat integration for your website, using matrix.
 *   [dataegret/pg-utils](https://github.com/dataegret/pg-utils) - Useful PostgreSQL utilities
 *   [Mythra/typeish](https://github.com/Mythra/typeish) - A runtime type checker for bash.... in bash. I'm not sorry.
 *   [ridiculousfish/git-prev-next](https://github.com/ridiculousfish/git-prev-next) - Simple way to edit in a git commit history
@@ -4001,6 +4003,7 @@
 
 ## TypeScript
 
+*   [vector-im/chatterbox](https://github.com/vector-im/chatterbox) - Chatterbox lets you securely embed Hydrogen on any website!
 *   [coder/code-server](https://github.com/coder/code-server) - VS Code in the browser
 *   [esseswann/graphql-binary](https://github.com/esseswann/graphql-binary) - GraphQL binary protocol for smaller network traffic and parsing performance
 *   [micleyman/sveltekit-ory-starter](https://github.com/micleyman/sveltekit-ory-starter) - An unstyled starter template for a modern Svelte Kit app, secured using Ory's open source libraries.
@@ -4226,7 +4229,6 @@
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
 *   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
-*   [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic) - Syntax checking hacks for vim
 
 ## VimL
 
@@ -4235,7 +4237,6 @@
 *   [stefanoverna/vim-i18n](https://github.com/stefanoverna/vim-i18n) - Vim plugin to easily add I18n translations to your Rails project
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
 *   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
-*   [msanders/cocoa.vim](https://github.com/msanders/cocoa.vim) - Vim plugin for Cocoa/Objective-C development. No longer actively developed.
 
 ## Vue
 
@@ -4439,4 +4440,3 @@
 *   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [schacon/recipes](https://github.com/schacon/recipes) -
-*   [Homebrew/legacy-homebrew](https://github.com/Homebrew/legacy-homebrew) - 💀 The former home of Homebrew/homebrew (deprecated)
