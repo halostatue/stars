@@ -373,6 +373,7 @@
 
 ## Elixir
 
+*   [mtrudel/bandit](https://github.com/mtrudel/bandit) - Bandit is a pure Elixir HTTP server for Plug applications
 *   [woylie/let\_me](https://github.com/woylie/let_me) - Authorization library for Elixir
 *   [nhpip/history](https://github.com/nhpip/history) - An improved history for the Elixir IEx shell
 *   [am-kantox/siblings](https://github.com/am-kantox/siblings) - The partitioned dynamic supervision of FSM-backed workers
@@ -1985,6 +1986,7 @@
 
 ## JavaScript
 
+*   [fastify/fastify-dx](https://github.com/fastify/fastify-dx) - A Full Stack Framework based on Fastify and Vite. Built for great developer experience without compromising on performance and stability.
 *   [nomadic-labs/safesupport-chatbox](https://github.com/nomadic-labs/safesupport-chatbox) - An embeddable chatbox built on Matrix
 *   [jaxxstorm/action-install-gh-release](https://github.com/jaxxstorm/action-install-gh-release) - GitHub Action to install the Github Release binaries
 *   [ory/milestone-action](https://github.com/ory/milestone-action) -
@@ -3508,8 +3510,6 @@
 *   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
 *   [rick/linode](https://github.com/rick/linode) - Ruby wrapper for the Linode automation API
 *   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
-*   [progit/progit](https://github.com/progit/progit) - Pro Git Book Content, 1st Edition - This content is deprecated. See 2nd edition at [progit2](https://github.com/progit/progit2)
-*   [halostatue/uninheritable](https://github.com/halostatue/uninheritable) - Sample code demontrating how to make a class uninheritable in Ruby
 
 ## Rust
 
