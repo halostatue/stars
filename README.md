@@ -218,6 +218,7 @@
 
 ## C\#
 
+*   [dafny-lang/dafny](https://github.com/dafny-lang/dafny) - Dafny is a verification-aware programming language
 *   [hellgrenj/Rumpel](https://github.com/hellgrenj/Rumpel) - Simple, opinionated and automated consumer-driven contract testing for your JSON API's
 *   [inkle/ink](https://github.com/inkle/ink) - inkle's open source scripting language for writing interactive narrative.
 *   [kreeben/resin](https://github.com/kreeben/resin) - Hardware-accelerated vector database and search engine. Available as a HTTP service or as an embedded library.
@@ -1986,6 +1987,8 @@
 
 ## JavaScript
 
+*   [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - ⚡️ A curated list of awesome things related to Vite.js
+*   [bigskysoftware/\_hyperscript](https://github.com/bigskysoftware/_hyperscript) - a small scripting language for the web
 *   [fastify/fastify-dx](https://github.com/fastify/fastify-dx) - A Full Stack Framework based on Fastify and Vite. Built for great developer experience without compromising on performance and stability.
 *   [nomadic-labs/safesupport-chatbox](https://github.com/nomadic-labs/safesupport-chatbox) - An embeddable chatbox built on Matrix
 *   [jaxxstorm/action-install-gh-release](https://github.com/jaxxstorm/action-install-gh-release) - GitHub Action to install the Github Release binaries
@@ -3508,8 +3511,6 @@
 *   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
 *   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
 *   [unwire/handsoap](https://github.com/unwire/handsoap) - Handsoap is a library for creating SOAP clients in Ruby
-*   [rick/linode](https://github.com/rick/linode) - Ruby wrapper for the Linode automation API
-*   [progit/book-examples](https://github.com/progit/book-examples) - Examples of scripts from the book
 
 ## Rust
 
@@ -3883,7 +3884,6 @@
 *   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
 *   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 *   [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - 🙃   A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
-*   [rvm/rvm](https://github.com/rvm/rvm) - Ruby enVironment Manager (RVM)
 
 ## Smalltalk
 
@@ -4236,7 +4236,6 @@
 *   [xolox/vim-misc](https://github.com/xolox/vim-misc) - Miscellaneous auto-load Vim scripts
 *   [stefanoverna/vim-i18n](https://github.com/stefanoverna/vim-i18n) - Vim plugin to easily add I18n translations to your Rails project
 *   [lukaszkorecki/DotVim](https://github.com/lukaszkorecki/DotVim) - My vim configuration
-*   [spiiph/vim-space](https://github.com/spiiph/vim-space) - space.vim - Smart Space key for Vim
 
 ## Vue
 
@@ -4273,6 +4272,7 @@
 
 ## miscellaneous
 
+*   [aweijnitz/recipe-el\_fuego\_viviente](https://github.com/aweijnitz/recipe-el_fuego_viviente) - Fermented Chili "Open Sauce" - My most starred repo has no code in it!
 *   [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) - List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
 *   [ioguix/pgsql-bloat-estimation](https://github.com/ioguix/pgsql-bloat-estimation) - Queries to mesure statistical bloat in indexes and tables for PostgreSQL
 *   [adr/madr](https://github.com/adr/madr) - Markdown Architectural Decision Records
