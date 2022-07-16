@@ -538,7 +538,7 @@
 *   [akoutmos/doctor](https://github.com/akoutmos/doctor) - Ensure that your Elixir project documentation is healthy
 *   [elixir-toniq/norm](https://github.com/elixir-toniq/norm) - Data specification and generation
 *   [OvermindDL1/gradualixir](https://github.com/OvermindDL1/gradualixir) - Gradualizer Mix Wrapper
-*   [erpuno/soa](https://github.com/erpuno/soa) - ☎️ SOA: Simple Object Access
+*   [erpuno/soa](https://github.com/erpuno/soa) - ☎️ SOA: Бібліотека SOAP
 *   [iodevs/qr\_code](https://github.com/iodevs/qr_code) - A library for generating QR code. https://hexdocs.pm/qr\_code
 *   [akoutmos/telemetry\_filter](https://github.com/akoutmos/telemetry_filter) - This plug acts as a wrapper around Plug.Telemetry to filter out certain events
 *   [mtrudel/thousand\_island](https://github.com/mtrudel/thousand_island) - Thousand Island is a pure Elixir socket server
