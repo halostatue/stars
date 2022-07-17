@@ -1474,6 +1474,7 @@
 
 ## Go
 
+*   [miniscruff/changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options
 *   [Permify/permify](https://github.com/Permify/permify) - Permify is an open-source authorization service & policy engine based on Google Zanzibar.
 *   [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) - Open Source realtime backend in 1 file
 *   [grbac/grbac](https://github.com/grbac/grbac) - Graph Role-Based Access Control by Animeshon
@@ -3511,7 +3512,6 @@
 *   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 *   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
 *   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
-*   [rspec/rspec-dev](https://github.com/rspec/rspec-dev) - RSpec development environment
 
 ## Rust
 
