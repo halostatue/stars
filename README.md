@@ -218,6 +218,7 @@
 
 ## C\#
 
+*   [microsoft/sbom-tool](https://github.com/microsoft/sbom-tool) - The SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.
 *   [dafny-lang/dafny](https://github.com/dafny-lang/dafny) - Dafny is a verification-aware programming language
 *   [hellgrenj/Rumpel](https://github.com/hellgrenj/Rumpel) - Simple, opinionated and automated consumer-driven contract testing for your JSON API's
 *   [inkle/ink](https://github.com/inkle/ink) - inkle's open source scripting language for writing interactive narrative.
@@ -1451,7 +1452,6 @@
 *   [sqor/CommonServiceInterface](https://github.com/sqor/CommonServiceInterface) - Generic gen\_server for unified service behaviour
 *   [lfe/lfe](https://github.com/lfe/lfe) - Lisp Flavoured Erlang (LFE)
 *   [heroku/vegur](https://github.com/heroku/vegur) - Vegur: HTTP Proxy Library
-*   [erlang/otp](https://github.com/erlang/otp) - Erlang/OTP
 
 ## F\#
 
@@ -1474,6 +1474,7 @@
 
 ## Go
 
+*   [anchore/syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems
 *   [miniscruff/changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options
 *   [Permify/permify](https://github.com/Permify/permify) - Permify is an open-source authorization service & policy engine based on Google Zanzibar.
 *   [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) - Open Source realtime backend in 1 file
@@ -1917,7 +1918,6 @@
 *   [Gabriella439/bench](https://github.com/Gabriella439/bench) - Command-line benchmark tool
 *   [PostgREST/postgrest](https://github.com/PostgREST/postgrest) - REST API for any Postgres database
 *   [mightybyte/monad-challenges](https://github.com/mightybyte/monad-challenges) - A set of challenges for jump starting your understanding of monads.
-*   [jaspervdj/hakyll](https://github.com/jaspervdj/hakyll) - A static website compiler library in Haskell
 
 ## Haxe
 
@@ -3510,8 +3510,6 @@
 *   [augustl/net-http-cheat-sheet](https://github.com/augustl/net-http-cheat-sheet) - A collection of Ruby Net::HTTP examples.
 *   [cousine/downmark\_it](https://github.com/cousine/downmark_it) - A Hpricot based HTML to markdown ruby library
 *   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
-*   [dbrady/geocode](https://github.com/dbrady/geocode) - Ruby library and CLI tool to geocode and reverse geocode.
-*   [sickill/racksh](https://github.com/sickill/racksh) - Console for Rack based ruby web apps
 
 ## Rust
 
@@ -4003,6 +4001,8 @@
 
 ## TypeScript
 
+*   [lunasec-io/lunasec](https://github.com/lunasec-io/lunasec) - LunaSec - Open Source AppSec platform that automatically notifies you the next time vulnerabilities like Log4Shell or node-ipc happen. Track your dependencies and builds in a centralized service. Get started in one-click via our GitHub App or host it yourself. https://github.com/apps/lunatrace-by-lunasec/
+*   [backstage/backstage](https://github.com/backstage/backstage) - Backstage is an open platform for building developer portals
 *   [vector-im/chatterbox](https://github.com/vector-im/chatterbox) - Chatterbox lets you securely embed Hydrogen on any website!
 *   [coder/code-server](https://github.com/coder/code-server) - VS Code in the browser
 *   [esseswann/graphql-binary](https://github.com/esseswann/graphql-binary) - GraphQL binary protocol for smaller network traffic and parsing performance
