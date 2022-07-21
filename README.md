@@ -3879,6 +3879,7 @@
 *   [jgallen23/mongroup](https://github.com/jgallen23/mongroup) - Monitor a group of processes with mon
 *   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
 *   [scmbreeze/scm\_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
+*   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
 *   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
 *   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
@@ -4226,7 +4227,6 @@
 *   [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) - True Sublime Text style multiple selections for Vim
 *   [Shougo/unite.vim](https://github.com/Shougo/unite.vim) - :dragon: Unite and create user interfaces
 *   [halostatue/vim-config](https://github.com/halostatue/vim-config) - My new vim config.
-*   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
 *   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
 
