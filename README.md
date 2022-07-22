@@ -1701,7 +1701,7 @@
 *   [lastbackend/lastbackend](https://github.com/lastbackend/lastbackend) - System for containerized apps management. From build to scaling.
 *   [hashicorp/vault-ssh-helper](https://github.com/hashicorp/vault-ssh-helper) - Vault SSH Agent is used to enable one time keys and passwords
 *   [campoy/jsonenums](https://github.com/campoy/jsonenums) - This tool is similar to golang.org/x/tools/cmd/stringer but generates MarshalJSON and UnmarshalJSON methods.
-*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. Unbeatable cost-performance ratio :leaves: :rocket: | 谢谢 |
+*   [kataras/iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. Easy to learn. Fast development with Code you control. Unbeatable cost-performance ratio :leaves: :rocket: | 谢谢 |
 *   [simon-engledew/gocmdpev](https://github.com/simon-engledew/gocmdpev) - A command-line GO Postgres query visualizer, heavily inspired by pev (https://github.com/AlexTatiyants/pev)
 *   [radovskyb/go-packages](https://github.com/radovskyb/go-packages) - A large repository of code and documented examples for Go's standard package library.
 *   [genuinetools/certok](https://github.com/genuinetools/certok) - Command line tool to check the validity and expiration dates of SSL certificates.
@@ -1818,7 +1818,6 @@
 *   [HouzuoGuo/DBGo](https://github.com/HouzuoGuo/DBGo) - This is a programming exercise, do not use in serious code.
 *   [bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) - Go Memcached client library #golang
 *   [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
-*   [github/hub](https://github.com/github/hub) - A command-line tool that makes git easier to use with GitHub.
 
 ## Groovy
 
@@ -2606,7 +2605,6 @@
 *   [rsms/kod](https://github.com/rsms/kod) - Programmers' editor for OS X \[DEAD PROJECT]
 *   [Simbul/baker](https://github.com/Simbul/baker) - The HTML5 ebook framework to publish interactive books & magazines on iPad & iPhone using simply open web standards
 *   [nevyn/cfxr](https://github.com/nevyn/cfxr) - \[cocoa] Mac port of sfxr with document support, etc
-*   [halostatue/coredata-easyfetch](https://github.com/halostatue/coredata-easyfetch) - A fast fetch based on example code by Matt Gallagher
 
 ## Objective-C++
 
@@ -2916,6 +2914,9 @@
 
 ## Ruby
 
+*   [bridgetownrb/serbea](https://github.com/bridgetownrb/serbea) - The Ruby template engine you didn't realize you needed. Until now.
+*   [bridgetownrb/bridgetown](https://github.com/bridgetownrb/bridgetown) - A next-generation progressive site generator & fullstack framework, powered by Ruby
+*   [fedora-ruby/gem-compare](https://github.com/fedora-ruby/gem-compare) - A RubyGems plugin that compares versions of the given gem
 *   [shayonj/pg-osc](https://github.com/shayonj/pg-osc) - Easy CLI tool for making zero downtime schema changes and backfills  in PostgreSQL
 *   [peterhellberg/hashids.rb](https://github.com/peterhellberg/hashids.rb) - A small Ruby gem to generate YouTube-like hashes from one or many numbers. Use hashids when you do not want to expose your database ids to the user.
 *   [nepalez/pg\_trunk](https://github.com/nepalez/pg_trunk) - Empower PostgreSQL migrations in Rails app
@@ -3508,11 +3509,10 @@
 *   [daeken/RMarshal](https://github.com/daeken/RMarshal) - Ruby gem to support the Python marshal format
 *   [halostatue/xcode-git-version](https://github.com/halostatue/xcode-git-version) - A script that I use for versioning builds using git. Supports both sharef and version-tag numbering.
 *   [augustl/net-http-cheat-sheet](https://github.com/augustl/net-http-cheat-sheet) - A collection of Ruby Net::HTTP examples.
-*   [cousine/downmark\_it](https://github.com/cousine/downmark_it) - A Hpricot based HTML to markdown ruby library
-*   [rest-client/rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
 
 ## Rust
 
+*   [supabase/pg\_jsonschema](https://github.com/supabase/pg_jsonschema) - PostgreSQL extension providing JSON Schema validation
 *   [nitnelave/lldap](https://github.com/nitnelave/lldap) - Light LDAP implementation
 *   [zesterer/tao](https://github.com/zesterer/tao) - A statically-typed functional language with generics, typeclasses, sum types, pattern-matching, first-class functions, currying, algebraic effects, associated types, good diagnostics, etc.
 *   [prql/prql](https://github.com/prql/prql) - PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
