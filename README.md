@@ -2906,7 +2906,7 @@
 
 ## Racket
 
-*   [mbutterick/pollen](https://github.com/mbutterick/pollen) - book-publishing system
+*   [mbutterick/pollen](https://github.com/mbutterick/pollen) - book-publishing system \[mirror of main repo at https://git.matthewbutterick.com/mbutterick/pollen]
 
 ## Raku
 
