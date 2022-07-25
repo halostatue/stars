@@ -2171,7 +2171,7 @@
 *   [Rich-Harris/degit](https://github.com/Rich-Harris/degit) - Straightforward project scaffolding
 *   [nolanlawson/pinafore](https://github.com/nolanlawson/pinafore) - Alternative web client for Mastodon
 *   [jaredpalmer/tsdx](https://github.com/jaredpalmer/tsdx) - Zero-config CLI for TypeScript package development
-*   [nefe/You-Dont-Need-jQuery](https://github.com/nefe/You-Dont-Need-jQuery) - Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.
+*   [camsong/You-Dont-Need-jQuery](https://github.com/camsong/You-Dont-Need-jQuery) - Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.
 *   [sveltejs/eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3) - An ESLint plugin for Svelte v3 components.
 *   [sveltejs/template-webpack](https://github.com/sveltejs/template-webpack) - Template for building basic Svelte applications with webpack
 *   [sveltejs/svelte-loader](https://github.com/sveltejs/svelte-loader) - Webpack loader for svelte components.
@@ -3518,7 +3518,7 @@
 *   [prql/prql](https://github.com/prql/prql) - PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
 *   [jfecher/ante](https://github.com/jfecher/ante) - A safe, easy systems language
 *   [codabrink/tolkien](https://github.com/codabrink/tolkien) - A ruby tokenizer and type inferencer written in Rust (an experiment)
-*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices.
+*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices from anywhere at anytime.
 *   [obi1kenobi/trustfall](https://github.com/obi1kenobi/trustfall) - A new, datasource-agnostic way to connect and query datasets
 *   [ellie/atuin](https://github.com/ellie/atuin) - 🐢 Magical shell history
 *   [Shopify/shadowenv](https://github.com/Shopify/shadowenv) - reversible directory-local environment variable manipulations
