@@ -1832,7 +1832,7 @@
 
 ## HTML
 
-*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine
+*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine, crawl & index websites you want with a simple set of rules
 *   [triska/the-power-of-prolog](https://github.com/triska/the-power-of-prolog) - Introduction to modern Prolog
 *   [bego-talks/e2e-workshop](https://github.com/bego-talks/e2e-workshop) -
 *   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
