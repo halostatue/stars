@@ -1324,7 +1324,7 @@
 *   [okeuday/reltool\_util](https://github.com/okeuday/reltool_util) - Erlang reltool utility functionality application
 *   [g-andrade/tls\_certificate\_check](https://github.com/g-andrade/tls_certificate_check) - CA store + Partial chain handler
 *   [gearnode/erl-hotp](https://github.com/gearnode/erl-hotp) - HOTP and TOTP algorithms in Erlang.
-*   [exograd/erl-ksuid](https://github.com/exograd/erl-ksuid) - KSUID generation and manipulation in Erlang.
+*   [gearnode/erl-ksuid](https://github.com/gearnode/erl-ksuid) - KSUID generation and manipulation in Erlang.
 *   [webmachine/webmachine](https://github.com/webmachine/webmachine) - A REST-based system for building web applications.
 *   [mdsebald/cerlc](https://github.com/mdsebald/cerlc) - A Native Erlang Library of CRC Algorithms.
 *   [1ma/branca-erl](https://github.com/1ma/branca-erl) - An Erlang implementation of the Branca specification for authenticated and encrypted tokens
