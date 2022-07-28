@@ -3848,7 +3848,7 @@
 *   [CISOfy/lynis](https://github.com/CISOfy/lynis) - Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.
 *   [StreakyCobra/gws](https://github.com/StreakyCobra/gws) - Colorful KISS helper for git workspaces
 *   [lukaszkorecki/DotFiles](https://github.com/lukaszkorecki/DotFiles) - ~/.DotFiles
-*   [SixArm/sixarm\_git\_gitconfig](https://github.com/SixArm/sixarm_git_gitconfig) - SixArm.com: Git: gitconfig files, aliases, colors, branches, etc.
+*   [SixArm/sixarm-git-gitconfig](https://github.com/SixArm/sixarm-git-gitconfig) - SixArm.com → Git → gitconfig files, aliases, colors, branches, etc.
 *   [felipec/git-remote-hg](https://github.com/felipec/git-remote-hg) - Transparent bidirectional bridge between Git and Mercurial for Git
 *   [myArchivedProjects/git-remote-gcrypt](https://github.com/myArchivedProjects/git-remote-gcrypt) - git-remote-gcrypt: A git remote helper for GPG-encrypted remotes
 *   [shellfire-dev/shellfire](https://github.com/shellfire-dev/shellfire) - A repository of namespaced, composable shell (bash, sh and dash) function libraries. Takes aware the pain of shell scripting, making it robust and reusable. Includes secure curl usage, JSON, XML and Debian control file parsers, dependency documentation via attributes, and more. Batteries ARE included.
