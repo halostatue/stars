@@ -439,8 +439,8 @@
 *   [elixir-capsule/capsule](https://github.com/elixir-capsule/capsule) - Minimal, composable file storage for Elixir apps
 *   [subvisual/dictator](https://github.com/subvisual/dictator) - Dictates what your users see. Plug-based authorization.
 *   [chulkilee/ex\_force](https://github.com/chulkilee/ex_force) - A Salesforce REST API wrapper for Elixir
-*   [ubotsxyz/stash](https://github.com/ubotsxyz/stash) - Multi-layer cache
-*   [ubotsxyz/tabler](https://github.com/ubotsxyz/tabler) -
+*   [ubotsco/stash](https://github.com/ubotsco/stash) - Multi-layer cache
+*   [ubotsco/tabler](https://github.com/ubotsco/tabler) -
 *   [integratedb/integrate](https://github.com/integratedb/integrate) - Core IntegrateDB source code repository.
 *   [doawoo/teex](https://github.com/doawoo/teex) - Use Elixir like a scripting language, across your system
 *   [pawurb/ecto\_extras](https://github.com/pawurb/ecto_extras) - Ecto helper functions.
@@ -2163,7 +2163,7 @@
 *   [ottomatica/slim](https://github.com/ottomatica/slim) - Build and run tiny vms from Dockerfiles. Small and sleek.
 *   [jsuites/jsuites](https://github.com/jsuites/jsuites) - jSuites is a collection of lightweight common required javascript web components. It is composed of fully responsive vanilla plugins to help you bring the best user experience to your projects, independent of the platform. Same JS codebase across different platforms.
 *   [colmsjo/github-issues-export](https://github.com/colmsjo/github-issues-export) - Export github issues to a CSV file (developed in NodeJS)
-*   [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Open source Node.js Headless CMS to easily build customisable APIs
+*   [strapi/strapi](https://github.com/strapi/strapi) - 🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
 *   [FredKSchott/pika-pack](https://github.com/FredKSchott/pika-pack) - 📦⚡️ Build your npm package using composable plugins. https://www.pika.dev/blog/introducing-pika-pack/
 *   [paulmillr/es6-shim](https://github.com/paulmillr/es6-shim) - ECMAScript 6 compatibility shims for legacy JS engines
 *   [zloirock/core-js](https://github.com/zloirock/core-js) - Standard Library
@@ -2708,6 +2708,7 @@
 
 ## Python
 
+*   [bridgecrewio/AirIAM](https://github.com/bridgecrewio/AirIAM) - Least privilege AWS IAM Terraformer
 *   [facundoolano/software-papers](https://github.com/facundoolano/software-papers) - 📚 A curated list of papers for Software Engineers
 *   [ridiculousfish/littlecheck](https://github.com/ridiculousfish/littlecheck) - Test driver for command line tools
 *   [datafold/data-diff](https://github.com/datafold/data-diff) - Efficiently diff rows across two different databases.
@@ -3882,7 +3883,6 @@
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
 *   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
-*   [nvie/gitflow](https://github.com/nvie/gitflow) - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 
 ## Smalltalk
 
