@@ -2725,7 +2725,6 @@
 *   [typhoon-data-org/typhoon-orchestrator](https://github.com/typhoon-data-org/typhoon-orchestrator) - Create elegant data pipelines and deploy to AWS Lambda or Airflow
 *   [jeroenjanssens/sample](https://github.com/jeroenjanssens/sample) - Filter lines from standard input according to some probability, with a given delay, and for a certain duration.
 *   [mystor/git-revise](https://github.com/mystor/git-revise) - A handy tool for doing efficient in-memory commit rebases & fixups
-*   [stacked-git/stgit](https://github.com/stacked-git/stgit) - Stacked Git
 *   [akornor/playlistor](https://github.com/akornor/playlistor) - 🎶Apple Music  ↔️ Spotify playlist convertor.
 *   [ssh-mitm/ssh-mitm](https://github.com/ssh-mitm/ssh-mitm) - ssh mitm server for security audits supporting public key authentication, session hijacking and file manipulation
 *   [unixorn/lima-xbar-plugin](https://github.com/unixorn/lima-xbar-plugin) - xbar/Swiftbar plugin to control lima-vm
@@ -3530,6 +3529,7 @@
 *   [yoav-lavi/melody](https://github.com/yoav-lavi/melody) - Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
 *   [svix/svix-webhooks](https://github.com/svix/svix-webhooks) - The enterprise-ready webhooks service 🦀
 *   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session-lived containers for advanced browser-based applications.
+*   [stacked-git/stgit](https://github.com/stacked-git/stgit) - Stacked Git
 *   [gitext-rs/git-stack](https://github.com/gitext-rs/git-stack) - Stacked branch management for Git
 *   [arxanas/git-branchless](https://github.com/arxanas/git-branchless) - High-velocity, monorepo-scale workflow for Git
 *   [osohq/oso](https://github.com/osohq/oso) - Oso is a batteries-included framework for building authorization in your application.
@@ -3849,7 +3849,7 @@
 *   [CISOfy/lynis](https://github.com/CISOfy/lynis) - Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.
 *   [StreakyCobra/gws](https://github.com/StreakyCobra/gws) - Colorful KISS helper for git workspaces
 *   [lukaszkorecki/DotFiles](https://github.com/lukaszkorecki/DotFiles) - ~/.DotFiles
-*   [SixArm/sixarm-git-gitconfig](https://github.com/SixArm/sixarm-git-gitconfig) - SixArm.com → Git → gitconfig files, aliases, colors, branches, etc.
+*   [SixArm/gitconfig-settings](https://github.com/SixArm/gitconfig-settings) - gitconfig setttings, files, aliases, colors, branches, etc.
 *   [felipec/git-remote-hg](https://github.com/felipec/git-remote-hg) - Transparent bidirectional bridge between Git and Mercurial for Git
 *   [myArchivedProjects/git-remote-gcrypt](https://github.com/myArchivedProjects/git-remote-gcrypt) - git-remote-gcrypt: A git remote helper for GPG-encrypted remotes
 *   [shellfire-dev/shellfire](https://github.com/shellfire-dev/shellfire) - A repository of namespaced, composable shell (bash, sh and dash) function libraries. Takes aware the pain of shell scripting, making it robust and reusable. Includes secure curl usage, JSON, XML and Debian control file parsers, dependency documentation via attributes, and more. Batteries ARE included.
