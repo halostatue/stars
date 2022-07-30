@@ -1489,7 +1489,7 @@
 *   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 *   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
 *   [speps/go-hashids](https://github.com/speps/go-hashids) - Go (golang) implementation of http://www.hashids.org
-*   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - WunderGraph is the Next-Generation API Developer Platform.
+*   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - The Serverless API Developer Platform
 *   [marouni/adr](https://github.com/marouni/adr) - A minimalist command line tool written in Go to work with Architecture Decision Records
 *   [dpapathanasiou/simple-graph](https://github.com/dpapathanasiou/simple-graph) - This is a simple graph database in SQLite, inspired by "SQLite as a document database"
 *   [sigstore/cosign](https://github.com/sigstore/cosign) - Container Signing
@@ -2423,7 +2423,6 @@
 *   [mulesoft/api-console](https://github.com/mulesoft/api-console) - An interactive REST console based on RAML/OAS files
 *   [mulesoft/api-designer](https://github.com/mulesoft/api-designer) - A web editor for creating and sharing RAML API specifications
 *   [hakimel/Fokus](https://github.com/hakimel/Fokus) -
-*   [gionkunz/chartist-js](https://github.com/gionkunz/chartist-js) - Simple responsive charts
 *   [katiefenn/parker](https://github.com/katiefenn/parker) - Stylesheet analysis tool.
 *   [contentful/contentful.js](https://github.com/contentful/contentful.js) - JavaScript library for Contentful's Delivery API (node & browser)
 *   [mattbaker/ruby-heap-viz](https://github.com/mattbaker/ruby-heap-viz) - An interactive Ruby Object Graph Visualization
@@ -4182,6 +4181,7 @@
 *   [witheve/Eve](https://github.com/witheve/Eve) - Better tools for thought
 *   [helmetjs/helmet](https://github.com/helmetjs/helmet) - Help secure Express apps with various HTTP headers
 *   [reduxjs/redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
+*   [gionkunz/chartist-js](https://github.com/gionkunz/chartist-js) - Simple responsive charts
 
 ## V
 
