@@ -230,6 +230,7 @@
 
 ## C++
 
+*   [manticoresoftware/manticoresearch](https://github.com/manticoresoftware/manticoresearch) - Easy to use open source fast database for search | Good alternative to Elasticsearch now | Drop-in replacement for E in the ELK soon
 *   [jarulraj/sqlcheck](https://github.com/jarulraj/sqlcheck) - Automatically identify anti-patterns in SQL queries
 *   [natalie-lang/natalie\_parser](https://github.com/natalie-lang/natalie_parser) - NatalieParser is a zero-dependency, from-scratch, hand-written recursive descent parser for the Ruby Programming Language.
 *   [pgmodeler/pgmodeler](https://github.com/pgmodeler/pgmodeler) - Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
@@ -2470,7 +2471,6 @@
 *   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
 *   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
 *   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
-*   [schacon/showoff-wrangling-git](https://github.com/schacon/showoff-wrangling-git) - Wrangling Git ShowOff presentation from LCA2010
 
 ## Jinja
 
@@ -4349,7 +4349,7 @@
 *   [InQuest/awesome-yara](https://github.com/InQuest/awesome-yara) - A curated list of awesome YARA rules, tools, and people.
 *   [caquino/bash-functions](https://github.com/caquino/bash-functions) - A collection of BASH Functions
 *   [thedaviddias/Front-End-Performance-Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist) - 🎮 The only Front-End Performance Checklist that runs faster than the others
-*   [joelparkerhenderson/ways-of-working](https://github.com/joelparkerhenderson/ways-of-working) - Ways of Working (WoW) a.k.a. ground rules, aspirations, team norms, team values, working agreements, shared expectations, and group understandings
+*   [joelparkerhenderson/ways-of-working](https://github.com/joelparkerhenderson/ways-of-working) - Ways of Working (WoW) with team principles, values, ground rules, aspirations, norms, working agreements, shared expectations, and group understandings
 *   [Nicd/mbu](https://github.com/Nicd/mbu) - Repo moved to:
 *   [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) - The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
 *   [vue-bulma/vue-admin](https://github.com/vue-bulma/vue-admin) - We are refactoring it, using the latest Vue and Bulma. WIP
