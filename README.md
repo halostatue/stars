@@ -1475,6 +1475,7 @@
 
 ## Go
 
+*   [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
 *   [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - a personal key-value store
 *   [anchore/syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems
 *   [miniscruff/changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options
@@ -2561,6 +2562,7 @@
 
 ## Objective-C
 
+*   [SAP/macOS-enterprise-privileges](https://github.com/SAP/macOS-enterprise-privileges) - For Mac users in an Enterprise environment, this app gives the User control over administration of their machine by elevating their level of access to Administrator privileges on macOS.  Users can set the time frame using Preferences to perform specific tasks such as install or remove an application.
 *   [heyvito/podman-macos](https://github.com/heyvito/podman-macos) - 📦  Podman frontend for macOS
 *   [dteoh/SlowQuitApps](https://github.com/dteoh/SlowQuitApps) - Add a global delay to Command-Q to stop accidental app quits.
 *   [packagesdev/unexpectedly](https://github.com/packagesdev/unexpectedly) - macOS utility to browse crash logs
@@ -2759,7 +2761,7 @@
 *   [City-of-Helsinki/respa](https://github.com/City-of-Helsinki/respa) - Resource reservation and management app and API
 *   [jarun/buku](https://github.com/jarun/buku) - :bookmark: Personal mini-web in text
 *   [mosegontar/Pinku](https://github.com/mosegontar/Pinku) - A Pinboard-to-buku importation utility
-*   [kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools and file-types to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
+*   [kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc) - CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
 *   [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) - SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
 *   [dogsheep/healthkit-to-sqlite](https://github.com/dogsheep/healthkit-to-sqlite) - Convert an Apple Healthkit export zip to a SQLite database
 *   [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate) - Web based localization tool with tight version control integration.
@@ -3506,8 +3508,6 @@
 *   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
 *   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
 *   [svenfuchs/i18n-message](https://github.com/svenfuchs/i18n-message) - Object-oriented abstraction for looking up translations from I18n.translate
-*   [daeken/RMarshal](https://github.com/daeken/RMarshal) - Ruby gem to support the Python marshal format
-*   [halostatue/xcode-git-version](https://github.com/halostatue/xcode-git-version) - A script that I use for versioning builds using git. Supports both sharef and version-tag numbering.
 
 ## Rust
 
@@ -3712,6 +3712,7 @@
 
 ## Shell
 
+*   [sgmills/PrivilegesDemoter](https://github.com/sgmills/PrivilegesDemoter) - Tool for use with Privileges.app
 *   [osousa/livematrix](https://github.com/osousa/livematrix) - Livechat integration for your website, using matrix.
 *   [dataegret/pg-utils](https://github.com/dataegret/pg-utils) - Useful PostgreSQL utilities
 *   [Mythra/typeish](https://github.com/Mythra/typeish) - A runtime type checker for bash.... in bash. I'm not sorry.
@@ -3881,7 +3882,6 @@
 *   [scmbreeze/scm\_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
 *   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
-*   [gf3/dotfiles](https://github.com/gf3/dotfiles) - Configurations for the tools I use every day
 
 ## Smalltalk
 
