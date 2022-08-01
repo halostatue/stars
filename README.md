@@ -1491,7 +1491,7 @@
 *   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 *   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
 *   [speps/go-hashids](https://github.com/speps/go-hashids) - Go (golang) implementation of http://www.hashids.org
-*   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - The Serverless API Developer Platform
+*   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - Serverless API Gateway for GraphQL, REST, gRPC, Kafka and more with a focus on API Composition & Integration.
 *   [marouni/adr](https://github.com/marouni/adr) - A minimalist command line tool written in Go to work with Architecture Decision Records
 *   [dpapathanasiou/simple-graph](https://github.com/dpapathanasiou/simple-graph) - This is a simple graph database in SQLite, inspired by "SQLite as a document database"
 *   [sigstore/cosign](https://github.com/sigstore/cosign) - Container Signing
