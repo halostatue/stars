@@ -1475,6 +1475,7 @@
 
 ## Go
 
+*   [kffl/speedbump](https://github.com/kffl/speedbump) - TCP proxy for simulating variable, yet predictable network latency :globe\_with\_meridians::hourglass\_flowing\_sand:
 *   [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
 *   [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - a personal key-value store
 *   [anchore/syft](https://github.com/anchore/syft) - CLI tool and library for generating a Software Bill of Materials from container images and filesystems
@@ -3507,7 +3508,6 @@
 *   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
 *   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
 *   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
-*   [svenfuchs/i18n-message](https://github.com/svenfuchs/i18n-message) - Object-oriented abstraction for looking up translations from I18n.translate
 
 ## Rust
 
