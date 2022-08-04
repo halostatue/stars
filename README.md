@@ -1318,6 +1318,7 @@
 
 ## Erlang
 
+*   [WhatsApp/eqwalizer](https://github.com/WhatsApp/eqwalizer) - A type-checker for Erlang
 *   [erlydtl/erlydtl](https://github.com/erlydtl/erlydtl) - Django templates for Erlang
 *   [snaiper80/hashids-erlang](https://github.com/snaiper80/hashids-erlang) - The Erlang port of Hashid to generate YouTube-like hashids from one or many numbers.
 *   [isacssouza/erlgrind](https://github.com/isacssouza/erlgrind) - Convert fprof to callgring output
@@ -3507,7 +3508,6 @@
 *   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
 *   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
 *   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
-*   [ruby/ruby](https://github.com/ruby/ruby) - The Ruby Programming Language \[mirror]
 
 ## Rust
 
