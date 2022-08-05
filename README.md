@@ -2483,6 +2483,7 @@
 
 ## Julia
 
+*   [nealmckee/penumbra](https://github.com/nealmckee/penumbra) - Penumbra Color Theme
 *   [JuliaAttic/Color.jl](https://github.com/JuliaAttic/Color.jl) - Basic color manipulation utilities.
 
 ## Jupyter Notebook
@@ -3507,7 +3508,6 @@
 *   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
 *   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
 *   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
-*   [jenkinsci/jenkins.rb](https://github.com/jenkinsci/jenkins.rb) - Deprecated, see https://www.jenkins.io/jep/7
 
 ## Rust
 
