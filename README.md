@@ -667,7 +667,6 @@
 *   [Virviil/swarmglobal](https://github.com/Virviil/swarmglobal) -
 *   [aquapm/aqua](https://github.com/aquapm/aqua) - Aqua project scaffoldment tool
 *   [elixir-cldr/cldr\_numbers](https://github.com/elixir-cldr/cldr_numbers) - CLDR Number localisation and formatting
-*   [mrdimosthenis/emel](https://github.com/mrdimosthenis/emel) - Turn data into functions! A simple and functional machine learning library written in elixir.
 *   [gpedic/ex\_shortuuid](https://github.com/gpedic/ex_shortuuid) - ShortUUID is a simple UUID shortener for Elixir.
 *   [Ianleeclark/Paseto](https://github.com/Ianleeclark/Paseto) - An Elixir implementation of Paseto (Platform-Agnostic Security Tokens)
 *   [dashbitco/broadway](https://github.com/dashbitco/broadway) - Concurrent and multi-stage data ingestion and data processing with Elixir
@@ -1473,6 +1472,7 @@
 *   [gleam-lang/awesome-gleam](https://github.com/gleam-lang/awesome-gleam) - 💯 A collection of Gleam libraries, projects, and resources
 *   [gleam-lang/otp](https://github.com/gleam-lang/otp) - 📫 Fault tolerant multicore programs with actors
 *   [gleam-lang/stdlib](https://github.com/gleam-lang/stdlib) - 🎁  Gleam's standard library
+*   [mrdimosthenis/emel](https://github.com/mrdimosthenis/emel) - A simple and functional machine learning library for the Erlang ecosystem
 
 ## Go
 
