@@ -1476,6 +1476,7 @@
 
 ## Go
 
+*   [serhack/pdf-diff](https://github.com/serhack/pdf-diff) - A tool for visualizing differences between two pdf files.
 *   [kffl/speedbump](https://github.com/kffl/speedbump) - TCP proxy for simulating variable, yet predictable network latency :globe\_with\_meridians::hourglass\_flowing\_sand:
 *   [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
 *   [maxmunzel/kvass](https://github.com/maxmunzel/kvass) - a personal key-value store
@@ -3506,7 +3507,6 @@
 *   [vcastellm/rubyamf\_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
 *   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
 *   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
-*   [sinefunc/sinatra-i18n](https://github.com/sinefunc/sinatra-i18n) -
 
 ## Rust
 
@@ -4181,7 +4181,7 @@
 *   [witheve/Eve](https://github.com/witheve/Eve) - Better tools for thought
 *   [helmetjs/helmet](https://github.com/helmetjs/helmet) - Help secure Express apps with various HTTP headers
 *   [reduxjs/redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
-*   [gionkunz/chartist-js](https://github.com/gionkunz/chartist-js) - Simple responsive charts
+*   [chartist-js/chartist](https://github.com/chartist-js/chartist) - Simple responsive charts
 
 ## V
 
