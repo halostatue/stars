@@ -107,6 +107,7 @@
 
 ## C
 
+*   [trealla-prolog/trealla](https://github.com/trealla-prolog/trealla) - A compact, efficient Prolog interpreter written in plain-old C.
 *   [koute/bytehound](https://github.com/koute/bytehound) - A memory profiler for Linux.
 *   [coder-mike/microvium](https://github.com/coder-mike/microvium) - A compact, embeddable scripting engine for applications and microcontrollers for executing programs written in a subset of the JavaScript language.
 *   [YuriyGuts/persistent-touch-id-sudo](https://github.com/YuriyGuts/persistent-touch-id-sudo) - Configures PAM on macOS via a Launch Daemon so that Touch ID for sudo is always available and persists across OS upgrades
@@ -214,7 +215,6 @@
 *   [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
 *   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
 *   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
-*   [antirez/linenoise](https://github.com/antirez/linenoise) - A small self-contained alternative to readline and libedit
 
 ## C\#
 
@@ -1476,6 +1476,7 @@
 
 ## Go
 
+*   [ichiban/prolog](https://github.com/ichiban/prolog) - The only reasonable scripting engine for Go.
 *   [serhack/pdf-diff](https://github.com/serhack/pdf-diff) - A tool for visualizing differences between two pdf files.
 *   [kffl/speedbump](https://github.com/kffl/speedbump) - TCP proxy for simulating variable, yet predictable network latency :globe\_with\_meridians::hourglass\_flowing\_sand:
 *   [charmbracelet/gum](https://github.com/charmbracelet/gum) - A tool for glamorous shell scripts 🎀
@@ -1994,6 +1995,7 @@
 
 ## JavaScript
 
+*   [tau-prolog/tau-prolog](https://github.com/tau-prolog/tau-prolog) - An open source Prolog interpreter in JavaScript
 *   [LeaVerou/color.js](https://github.com/LeaVerou/color.js) - Color conversion & manipulation library by the editors of the CSS Color specifications
 *   [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - ⚡️ A curated list of awesome things related to Vite.js
 *   [bigskysoftware/\_hyperscript](https://github.com/bigskysoftware/_hyperscript) - a small scripting language for the web
@@ -3506,7 +3508,6 @@
 *   [github/github-services](https://github.com/github/github-services) - Legacy GitHub Services Integration
 *   [vcastellm/rubyamf\_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
 *   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
-*   [wycats/artifice](https://github.com/wycats/artifice) - Replaces Net::HTTP with a subclass that routes all requests to a Rack application
 
 ## Rust
 
@@ -4228,7 +4229,6 @@
 *   [Shougo/unite.vim](https://github.com/Shougo/unite.vim) - :dragon: Unite and create user interfaces
 *   [halostatue/vim-config](https://github.com/halostatue/vim-config) - My new vim config.
 *   [carlhuda/janus](https://github.com/carlhuda/janus) - Vim distribution
-*   [henrik/dotfiles](https://github.com/henrik/dotfiles) - Dotfiles.
 
 ## VimL
 
