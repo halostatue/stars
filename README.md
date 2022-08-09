@@ -376,6 +376,12 @@
 
 ## Elixir
 
+*   [hrzndhrn/recode](https://github.com/hrzndhrn/recode) -
+*   [wojtekmach/fix](https://github.com/wojtekmach/fix) -
+*   [doorgan/sourceror](https://github.com/doorgan/sourceror) - Utilities to manipulate Elixir source code
+*   [mobius-home/nexus](https://github.com/mobius-home/nexus) - Centralized metrics server for IoT devices
+*   [mobius-home/mobius\_nexus\_reporter](https://github.com/mobius-home/mobius_nexus_reporter) - Mobius remote reporter implementation for the Nexus server
+*   [mobius-home/mobius](https://github.com/mobius-home/mobius) - Library for localized telemetry metrics reporting
 *   [mtrudel/bandit](https://github.com/mtrudel/bandit) - Bandit is a pure Elixir HTTP server for Plug applications
 *   [woylie/let\_me](https://github.com/woylie/let_me) - Authorization library for Elixir
 *   [nhpip/history](https://github.com/nhpip/history) - An improved history for the Elixir IEx shell
@@ -2904,8 +2910,6 @@
 *   [bslatkin/dpxdt](https://github.com/bslatkin/dpxdt) - Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.
 *   [xavierd/clang\_complete](https://github.com/xavierd/clang_complete) - Vim plugin that use clang for completing C/C++ code.
 *   [bitly/data\_hacks](https://github.com/bitly/data_hacks) - Command line utilities for data analysis
-*   [apenwarr/sshuttle](https://github.com/apenwarr/sshuttle) - Wrong project!  You should head over to http://github.com/sshuttle/sshuttle
-*   [ASKBOT/askbot-devel](https://github.com/ASKBOT/askbot-devel) - Askbot is a Django/Python Q\&A forum. **Contributors README**: https://github.com/ASKBOT/askbot-devel#how-to-contribute. Commercial hosting of Askbot and support are available at https://askbot.com
 
 ## R
 
@@ -3505,9 +3509,6 @@
 *   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
 *   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
 *   [matadon/mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack.
-*   [github/github-services](https://github.com/github/github-services) - Legacy GitHub Services Integration
-*   [vcastellm/rubyamf\_plugin](https://github.com/vcastellm/rubyamf_plugin) - Official RubyAMF Rails plugin repository
-*   [gollum/gollum](https://github.com/gollum/gollum) - A simple, Git-powered wiki with a sweet API and local frontend.
 
 ## Rust
 
@@ -3881,7 +3882,6 @@
 *   [holman/spark](https://github.com/holman/spark) -  ▁▂▃▅▂▇ in your shell.
 *   [scmbreeze/scm\_breeze](https://github.com/scmbreeze/scm_breeze) - Adds numbered shortcuts to the output git status, and much more
 *   [richtaur/dotfiles](https://github.com/richtaur/dotfiles) - @richtaur's computing configuration (deprecated)
-*   [phbaer/lxc-tools](https://github.com/phbaer/lxc-tools) - Admin tools for LXC
 
 ## Smalltalk
 
