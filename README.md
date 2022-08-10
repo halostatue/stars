@@ -12,6 +12,7 @@
 *   [C#](#c-1)
 *   [C++](#c-2)
 *   [CSS](#css)
+*   [CUE](#cue)
 *   [Clojure](#clojure)
 *   [CoffeeScript](#coffeescript)
 *   [Common Lisp](#common-lisp)
@@ -319,6 +320,10 @@
 *   [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
 *   [mmozuras/git-playback](https://github.com/mmozuras/git-playback) - Create visual playback of your commits
 *   [codeplant/simple-navigation-demo](https://github.com/codeplant/simple-navigation-demo) - This is a sample application demonstrating the use of the simple-navigation gem. There's code for Rails 2, Rails 3, Rails4, Sinatra and Padrino.
+
+## CUE
+
+*   [dagger/dagger](https://github.com/dagger/dagger) - A portable devkit for CI/CD pipelines
 
 ## Clojure
 
@@ -1481,6 +1486,7 @@
 
 ## Go
 
+*   [charmbracelet/skate](https://github.com/charmbracelet/skate) - A personal key value store 🛼
 *   [recode-sh/cli](https://github.com/recode-sh/cli) - A CLI to create remote development environments in your cloud provider account in seconds
 *   [tylertreat/comcast](https://github.com/tylertreat/comcast) - Simulating shitty network connections so you can build better systems.
 *   [ichiban/prolog](https://github.com/ichiban/prolog) - The only reasonable scripting engine for Go.
@@ -2616,7 +2622,6 @@
 *   [jamztang/JTRevealSidebarDemo](https://github.com/jamztang/JTRevealSidebarDemo) - (demo) A carefully implemented iOS objective-c library to mimic the sidebar layout of the new Facebook app and Path 2.0 app.
 *   [ddeville/DDProgressView](https://github.com/ddeville/DDProgressView) - A custom UIProgressView à la Twitter for iPhone
 *   [rsms/kod](https://github.com/rsms/kod) - Programmers' editor for OS X \[DEAD PROJECT]
-*   [Simbul/baker](https://github.com/Simbul/baker) - The HTML5 ebook framework to publish interactive books & magazines on iPad & iPhone using simply open web standards
 
 ## Objective-C++
 
@@ -3507,7 +3512,6 @@
 *   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
 *   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
 *   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
-*   [matadon/mizuno](https://github.com/matadon/mizuno) - Jetty-powered running shoes for JRuby/Rack.
 
 ## Rust
 
@@ -4052,7 +4056,7 @@
 *   [aelbore/aria-vue](https://github.com/aelbore/aria-vue) - Testing tools for Vue components
 *   [SqrTT/prophet](https://github.com/SqrTT/prophet) - Prophet Debugger (SFCC sandboxes via SDAPI 2.0) extension for VS Code
 *   [tsconfig/bases](https://github.com/tsconfig/bases) - Hosts TSConfigs to extend in a TypeScript app, tuned to a particular runtime environment
-*   [withastro/astro](https://github.com/withastro/astro) - Build fast websites, faster. 🚀🧑‍🚀✨
+*   [withastro/astro](https://github.com/withastro/astro) - Build faster websites with Astro's next-gen island architecture 🏝✨
 *   [nestjs/nest](https://github.com/nestjs/nest) - A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications on top of TypeScript & JavaScript (ES6, ES7, ES8) 🚀
 *   [cloudflare/miniflare](https://github.com/cloudflare/miniflare) - 🔥 Fully-local simulator for Cloudflare Workers
 *   [twilio/twilio-video-app-react](https://github.com/twilio/twilio-video-app-react) - A collaboration application built with the twilio-video.js SDK and React.js
