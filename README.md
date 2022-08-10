@@ -77,7 +77,6 @@
 *   [Svelte](#svelte)
 *   [Swift](#swift)
 *   [TLA](#tla)
-*   [TeX](#tex)
 *   [Twig](#twig)
 *   [TypeScript](#typescript)
 *   [V](#v)
@@ -214,7 +213,6 @@
 *   [pozorvlak/libtap](https://github.com/pozorvlak/libtap) - Testing library for C, implementing the Test Anything Protocol. Written by Nik Clayton.
 *   [bumptech/stud](https://github.com/bumptech/stud) - The Scalable TLS Unwrapping Daemon
 *   [fletcher/peg-multimarkdown](https://github.com/fletcher/peg-multimarkdown) - An implementation of MultiMarkdown in C, using a PEG grammar - a fork of jgm's peg-markdown. No longer under active development - see MMD 5.
-*   [b4winckler/macvim](https://github.com/b4winckler/macvim) - Vim - the text editor - for Mac OS X
 
 ## C\#
 
@@ -274,6 +272,7 @@
 
 ## CSS
 
+*   [unbalancedparentheses/spawnedshelter](https://github.com/unbalancedparentheses/spawnedshelter) - :blue\_book: Erlang Spawned Shelter. Erlang and Elixir training with the best articles, videos, books and talks🎓
 *   [matthewhowell/reasonable-colors](https://github.com/matthewhowell/reasonable-colors) - Reasonable Colors is an open-source color system that makes it easy to build accessible, nice-looking color palettes.
 *   [AgnosticUI/agnosticui](https://github.com/AgnosticUI/agnosticui) - AgnosticUI is a set of UI primitives that start their lives in clean HTML and CSS. These standards compliant components are then copied to our framework implementations in: React, Vue 3, Angular, and Svelte.
 *   [evildmp/diataxis-documentation-framework](https://github.com/evildmp/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
@@ -1482,6 +1481,8 @@
 
 ## Go
 
+*   [recode-sh/cli](https://github.com/recode-sh/cli) - A CLI to create remote development environments in your cloud provider account in seconds
+*   [tylertreat/comcast](https://github.com/tylertreat/comcast) - Simulating shitty network connections so you can build better systems.
 *   [ichiban/prolog](https://github.com/ichiban/prolog) - The only reasonable scripting engine for Go.
 *   [serhack/pdf-diff](https://github.com/serhack/pdf-diff) - A tool for visualizing differences between two pdf files.
 *   [kffl/speedbump](https://github.com/kffl/speedbump) - TCP proxy for simulating variable, yet predictable network latency :globe\_with\_meridians::hourglass\_flowing\_sand:
@@ -1849,7 +1850,6 @@
 *   [triska/the-power-of-prolog](https://github.com/triska/the-power-of-prolog) - Introduction to modern Prolog
 *   [bego-talks/e2e-workshop](https://github.com/bego-talks/e2e-workshop) -
 *   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
-*   [GoogleChromeLabs/container-query-polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill) - A polyfill for CSS Container Queries
 *   [weshatheleopard/rubyXL](https://github.com/weshatheleopard/rubyXL) - Ruby lib for reading/writing/modifying .xlsx and .xlsm files
 *   [vinooniv/video-bg-blur](https://github.com/vinooniv/video-bg-blur) - blur video stream background with WebRTC and TensorFlow.js
 *   [tabler/tabler](https://github.com/tabler/tabler) - Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap
@@ -2294,7 +2294,7 @@
 *   [chrispsn/mesh](https://github.com/chrispsn/mesh) - Visualise data and edit JavaScript code using a spreadsheet interface.
 *   [lipp/login-with](https://github.com/lipp/login-with) - Stateless login-with microservice for OAuth
 *   [mgechev/github-contributors-list](https://github.com/mgechev/github-contributors-list) - Node.js script, which outputs all the contributors for given open GitHub project
-*   [gilbitron/Raneto](https://github.com/gilbitron/Raneto) - Markdown powered Knowledgebase for Nodejs
+*   [ryanlelek/Raneto](https://github.com/ryanlelek/Raneto) - Markdown powered Knowledgebase for Nodejs
 *   [golden-layout/golden-layout](https://github.com/golden-layout/golden-layout) - A multi window layout manager for webapps
 *   [ecrmnn/collect.js](https://github.com/ecrmnn/collect.js) - 💎  Convenient and dependency free wrapper for working with arrays and objects
 *   [jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp) - 1kB-ish JavaScript framework for building hypertext applications.
@@ -2617,7 +2617,6 @@
 *   [ddeville/DDProgressView](https://github.com/ddeville/DDProgressView) - A custom UIProgressView à la Twitter for iPhone
 *   [rsms/kod](https://github.com/rsms/kod) - Programmers' editor for OS X \[DEAD PROJECT]
 *   [Simbul/baker](https://github.com/Simbul/baker) - The HTML5 ebook framework to publish interactive books & magazines on iPad & iPhone using simply open web standards
-*   [nevyn/cfxr](https://github.com/nevyn/cfxr) - \[cocoa] Mac port of sfxr with document support, etc
 
 ## Objective-C++
 
@@ -3991,10 +3990,6 @@
 
 *   [lemmy/BlockingQueue](https://github.com/lemmy/BlockingQueue) - Tutorial "Weeks of debugging can save you hours of TLA+".  Each git commit introduces a new concept => check the git history!
 
-## TeX
-
-*   [adityam/filter](https://github.com/adityam/filter) - ConTeXt module to process contents of a start-stop environment through an external program
-
 ## Twig
 
 *   [pelias/pelias](https://github.com/pelias/pelias) - Pelias is a modular open-source geocoder using Elasticsearch.
@@ -4042,6 +4037,7 @@
 *   [vuejs/pinia](https://github.com/vuejs/pinia) - 🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support
 *   [microsoft/playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.
 *   [phiresky/sql.js-httpvfs](https://github.com/phiresky/sql.js-httpvfs) -
+*   [GoogleChromeLabs/container-query-polyfill](https://github.com/GoogleChromeLabs/container-query-polyfill) - A polyfill for CSS Container Queries
 *   [rancher-sandbox/rancher-desktop](https://github.com/rancher-sandbox/rancher-desktop) - Container Management and Kubernetes on the Desktop
 *   [saisandeepvaddi/ten-hands](https://github.com/saisandeepvaddi/ten-hands) - ⚡ Simplest way to organize and run command-line tasks
 *   [windicss/windicss](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
@@ -4103,7 +4099,7 @@
 *   [kamilkisiela/graphql-config](https://github.com/kamilkisiela/graphql-config) - One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)
 *   [frappe/books](https://github.com/frappe/books) - Free desktop accounting software for small-businesses and freelancers.
 *   [vueuse/vueuse](https://github.com/vueuse/vueuse) - Collection of essential Vue Composition Utilities for Vue 2 and 3
-*   [logaretm/vee-validate](https://github.com/logaretm/vee-validate) - ✅  Form Validation for Vue.js
+*   [logaretm/vee-validate](https://github.com/logaretm/vee-validate) - ✅  Painless Vue forms
 *   [samdenty/gqless](https://github.com/samdenty/gqless) - a GraphQL client without queries
 *   [Novvum/graphql-birdseye](https://github.com/Novvum/graphql-birdseye) - View any GraphQL schema as a dynamic and interactive graph. 🦅
 *   [dalibo/pev2](https://github.com/dalibo/pev2) - Postgres Explain Visualizer 2
