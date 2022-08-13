@@ -380,6 +380,8 @@
 
 ## Elixir
 
+*   [mirego/mix\_audit](https://github.com/mirego/mix_audit) - 🕵️‍♀️ MixAudit provides a mix deps.audit task to scan a project Mix dependencies for known Elixir security vulnerabilities
+*   [mirego/elixir-security-advisories](https://github.com/mirego/elixir-security-advisories) - Public database of Elixir security advisories pulled from GitHub Advisory Database
 *   [hrzndhrn/recode](https://github.com/hrzndhrn/recode) -
 *   [wojtekmach/fix](https://github.com/wojtekmach/fix) -
 *   [doorgan/sourceror](https://github.com/doorgan/sourceror) - Utilities to manipulate Elixir source code
@@ -603,7 +605,7 @@
 *   [Dalgona/Serum](https://github.com/Dalgona/Serum) - Static website generator for Elixir fans
 *   [seanmor5/genex](https://github.com/seanmor5/genex) - Genetic Algorithms in Elixir!
 *   [sascha-wolf/knigge](https://github.com/sascha-wolf/knigge) - An opinionated way of dealing with behaviours
-*   [AnilRedshift/wand](https://github.com/AnilRedshift/wand) - CLI tool to manage elixir dependencies
+*   [intentionally-left-nil/wand](https://github.com/intentionally-left-nil/wand) - CLI tool to manage elixir dependencies
 *   [opt-elixir/faktory\_worker](https://github.com/opt-elixir/faktory_worker) - Elixir Faktory worker https://hexdocs.pm/faktory\_worker
 *   [KamilLelonek/healthchex](https://github.com/KamilLelonek/healthchex) - A set of Plugs to be used for Kubernetes healthchecks.
 *   [wojtekmach/mini\_repo](https://github.com/wojtekmach/mini_repo) - MiniRepo allows self-hosting of Hex packages.
@@ -952,7 +954,6 @@
 *   [ex-aws/ex\_aws\_cloudwatch](https://github.com/ex-aws/ex_aws_cloudwatch) -
 *   [riverrun/not\_qwerty123](https://github.com/riverrun/not_qwerty123) - Not actively maintained - Password strength checker and random password generator for Elixir
 *   [implicitly-awesome/express](https://github.com/implicitly-awesome/express) - Elixir library for sending iOS and Android push notifications. Supports Apple APNS (either certificate or jwt) and Google FCM services.
-*   [schurig/elixir-remote-monitor](https://github.com/schurig/elixir-remote-monitor) - ⎋ A Mix task that helps you to observe your remote elixir nodes from your local machine.
 *   [andrewMacmurray/phoenix-elm-scaffold](https://github.com/andrewMacmurray/phoenix-elm-scaffold) - Mix Task to generate an elm app inside a Phoenix (1.3) app
 *   [njonsson/example\_files](https://github.com/njonsson/example_files) - Mix tasks for managing example files in your project
 *   [edib-tool/mix-edib](https://github.com/edib-tool/mix-edib) - A mix task for EDIB (elixir docker image builder)
@@ -2621,7 +2622,6 @@
 *   [atomicbird/atomictools](https://github.com/atomicbird/atomictools) - Useful Objective-C stuff
 *   [jamztang/JTRevealSidebarDemo](https://github.com/jamztang/JTRevealSidebarDemo) - (demo) A carefully implemented iOS objective-c library to mimic the sidebar layout of the new Facebook app and Path 2.0 app.
 *   [ddeville/DDProgressView](https://github.com/ddeville/DDProgressView) - A custom UIProgressView à la Twitter for iPhone
-*   [rsms/kod](https://github.com/rsms/kod) - Programmers' editor for OS X \[DEAD PROJECT]
 
 ## Objective-C++
 
