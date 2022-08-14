@@ -3915,7 +3915,7 @@
 *   [xelaok/svelte-media-query](https://github.com/xelaok/svelte-media-query) - CSS media queries in Svelte
 *   [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify alternative.
 *   [evidence-dev/evidence](https://github.com/evidence-dev/evidence) - Evidence enables analysts to deliver a polished business intelligence system using SQL and markdown
-*   [Tommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app) - Ionic UI showcase app - try Ionic UI and directly go to API or source code
+*   [Tommertom/svelte-ionic-app](https://github.com/Tommertom/svelte-ionic-app) - Ionic  UI showcase app - try Ionic UI  and directly go to API or source code (Svelte, Angular, Vue, Vanilla and React)
 *   [TheComputerM/svelte-materialify](https://github.com/TheComputerM/svelte-materialify) - A Material UI Design Component library for Svelte heavily inspired by vuetify.
 *   [illright/attractions](https://github.com/illright/attractions) - A pretty cool UI kit for Svelte
 *   [AlexxNB/svelte-chota](https://github.com/AlexxNB/svelte-chota) - Svelte UI components based on super lightweight chota CSS framework.
