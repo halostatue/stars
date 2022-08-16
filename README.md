@@ -382,7 +382,7 @@
 
 *   [mirego/mix\_audit](https://github.com/mirego/mix_audit) - 🕵️‍♀️ MixAudit provides a mix deps.audit task to scan a project Mix dependencies for known Elixir security vulnerabilities
 *   [mirego/elixir-security-advisories](https://github.com/mirego/elixir-security-advisories) - Public database of Elixir security advisories pulled from GitHub Advisory Database
-*   [hrzndhrn/recode](https://github.com/hrzndhrn/recode) -
+*   [hrzndhrn/recode](https://github.com/hrzndhrn/recode) - A linter with autocorrection and a refactoring tool.
 *   [wojtekmach/fix](https://github.com/wojtekmach/fix) -
 *   [doorgan/sourceror](https://github.com/doorgan/sourceror) - Utilities to manipulate Elixir source code
 *   [mobius-home/nexus](https://github.com/mobius-home/nexus) - Centralized metrics server for IoT devices
@@ -3164,14 +3164,14 @@
 *   [karthikv/model\_schema](https://github.com/karthikv/model_schema) - Enforced, Annotated Schema for Ruby Sequel Models
 *   [arthurdandrea/sequel-activemodel](https://github.com/arthurdandrea/sequel-activemodel) - Provides Sequel::Model plugins that expose ActiveModel::Callbacks, ActiveModel::Translation and ActiveModel::Validations features to Sequel::Model
 *   [djellemah/philtre](https://github.com/djellemah/philtre) - It's the Sequel equivalent for Ransack, Metasearch, Searchlogic. If this doesn't make you fall in love, I don't know what will.
-*   [uhoh-itsmaciek/attr\_pouch](https://github.com/uhoh-itsmaciek/attr_pouch) - Schema-less auxiliary attribute storage for Postgres via Sequel plugin
+*   [msakrejda/attr\_pouch](https://github.com/msakrejda/attr_pouch) - Schema-less auxiliary attribute storage for Postgres via Sequel plugin
 *   [celsworth/sequel-pg\_advisory\_locking](https://github.com/celsworth/sequel-pg_advisory_locking) - Adds support for PostgreSQL's advisory locking to Sequel
 *   [chanks/sequel-advisory-locking](https://github.com/chanks/sequel-advisory-locking) - Sequel extension for easy management of advisory locks.
 *   [emartech/sequel-pool\_cleaner](https://github.com/emartech/sequel-pool_cleaner) - Connection pool cleanup extension for Sequel.
 *   [mitchellhenke/sequel\_id\_pagination](https://github.com/mitchellhenke/sequel_id_pagination) -
 *   [chanks/sequel-seek-pagination](https://github.com/chanks/sequel-seek-pagination) -
 *   [chanks/sequel-full-text-search](https://github.com/chanks/sequel-full-text-search) -
-*   [uhoh-itsmaciek/attr\_vault](https://github.com/uhoh-itsmaciek/attr_vault) - Simple at-rest encryption with key rotation for Sequel models
+*   [msakrejda/attr\_vault](https://github.com/msakrejda/attr_vault) - Simple at-rest encryption with key rotation for Sequel models
 *   [kematzy/sequel-audited](https://github.com/kematzy/sequel-audited) - A Sequel plugin that logs all changes made to a model, including who created, updated and destroyed the record, and what was changed and when the change was made
 *   [halfdan/sequel-revisions](https://github.com/halfdan/sequel-revisions) - A sequel plugin that tracks model changes in a separate `*_revisions` table.
 *   [bachue/sequel-unicache](https://github.com/bachue/sequel-unicache) - Write through and Read through caching library inspired by Cache Money, support Sequel 4
