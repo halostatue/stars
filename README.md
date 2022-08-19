@@ -81,9 +81,11 @@
 *   [Twig](#twig)
 *   [TypeScript](#typescript)
 *   [V](#v)
-*   [Vim script](#vim-script)
+*   [Vim Script](#vim-script)
+*   [Vim script](#vim-script-1)
 *   [VimL](#viml)
 *   [Vue](#vue)
+*   [Wren](#wren)
 *   [XSLT](#xslt)
 *   [Yacc](#yacc)
 *   [Zig](#zig)
@@ -198,7 +200,6 @@
 *   [ampas/CTL](https://github.com/ampas/CTL) - The Color Transformation Language (CTL)
 *   [silentbicycle/sample](https://github.com/silentbicycle/sample) - filter for random sampling of input
 *   [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
-*   [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language. Wren is a small, fast, class-based concurrent scripting language.
 *   [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
 *   [robertdavidgraham/isowall](https://github.com/robertdavidgraham/isowall) - This is a mini-firewall that completely isolates a target device from the local network.
 *   [hroptatyr/dateutils](https://github.com/hroptatyr/dateutils) - nifty command line date and time utilities; fast date calculations and conversion in the shell
@@ -319,7 +320,6 @@
 *   [mozilla/Fira](https://github.com/mozilla/Fira) - Mozilla's new typeface, used in Firefox OS
 *   [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
 *   [mmozuras/git-playback](https://github.com/mmozuras/git-playback) - Create visual playback of your commits
-*   [codeplant/simple-navigation-demo](https://github.com/codeplant/simple-navigation-demo) - This is a sample application demonstrating the use of the simple-navigation gem. There's code for Rails 2, Rails 3, Rails4, Sinatra and Padrino.
 
 ## CUE
 
@@ -380,6 +380,9 @@
 
 ## Elixir
 
+*   [ahamez/secret\_agent](https://github.com/ahamez/secret_agent) - An Elixir library to manage secrets
+*   [MikaAK/request\_cache\_plug](https://github.com/MikaAK/request_cache_plug) - Request caching for Phoenix & Absinthe (GraphQL), short circuiting even the JSON decoding/encoding
+*   [ucbi/graphql\_document](https://github.com/ucbi/graphql_document) - Build GraphQL document strings from Elixir primitives
 *   [mirego/mix\_audit](https://github.com/mirego/mix_audit) - 🕵️‍♀️ MixAudit provides a mix deps.audit task to scan a project Mix dependencies for known Elixir security vulnerabilities
 *   [mirego/elixir-security-advisories](https://github.com/mirego/elixir-security-advisories) - 🛡 Public database of Elixir security advisories pulled from GitHub Advisory Database
 *   [hrzndhrn/recode](https://github.com/hrzndhrn/recode) - A linter with autocorrection and a refactoring tool.
@@ -1851,7 +1854,6 @@
 
 ## HTML
 
-*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine, crawl & index websites you want with a simple set of rules
 *   [triska/the-power-of-prolog](https://github.com/triska/the-power-of-prolog) - Introduction to modern Prolog
 *   [bego-talks/e2e-workshop](https://github.com/bego-talks/e2e-workshop) -
 *   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
@@ -2005,6 +2007,7 @@
 
 ## JavaScript
 
+*   [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate) - Debug your GitHub Actions via SSH by using tmate to get access to the runner system itself.
 *   [tau-prolog/tau-prolog](https://github.com/tau-prolog/tau-prolog) - An open source Prolog interpreter in JavaScript
 *   [LeaVerou/color.js](https://github.com/LeaVerou/color.js) - Color conversion & manipulation library by the editors of the CSS Color specifications
 *   [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - ⚡️ A curated list of awesome things related to Vite.js
@@ -2484,8 +2487,6 @@
 *   [cmod/bibliotype](https://github.com/cmod/bibliotype) - A base for longform tablet typography in HTML
 *   [LockerProject/Locker](https://github.com/LockerProject/Locker) - Locker - the "me" platform
 *   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
-*   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
-*   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
 
 ## Jinja
 
@@ -2714,13 +2715,14 @@
 ## PureScript
 
 *   [id3as/purescript-erl-pinto](https://github.com/id3as/purescript-erl-pinto) - An opinionated OTP framework wrapper
-*   [feramhq/transity](https://github.com/feramhq/transity) - Keep track of your 💵, 🕘, 🐖, 🐄, 🍻 on your command line
+*   [feramhq/Transity](https://github.com/feramhq/Transity) - Keep track of your 💵, 🕘, 🐖, 🐄, 🍻 on your command line
 *   [purescript-halogen/purescript-halogen](https://github.com/purescript-halogen/purescript-halogen) - A declarative, type-safe UI library for PureScript.
 *   [alexmingoia/purescript-pux](https://github.com/alexmingoia/purescript-pux) - Build type-safe web apps with PureScript.
 *   [paf31/purescript-thermite](https://github.com/paf31/purescript-thermite) - A simple PureScript wrapper for React
 
 ## Python
 
+*   [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - Rich-cli is a command line toolbox for fancy output in the terminal
 *   [ossillate-inc/packj](https://github.com/ossillate-inc/packj) - The vetting tool 🚀 behind our large-scale security analysis platform to detect malicious/risky open-source packages
 *   [bridgecrewio/AirIAM](https://github.com/bridgecrewio/AirIAM) - Least privilege AWS IAM Terraformer
 *   [facundoolano/software-papers](https://github.com/facundoolano/software-papers) - 📚 A curated list of papers for Software Engineers
@@ -2731,7 +2733,7 @@
 *   [octodns/octodns](https://github.com/octodns/octodns) - Tools for managing DNS across multiple providers
 *   [open-feature/spec](https://github.com/open-feature/spec) - OpenFeature specification
 *   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
-*   [httpie/httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie
+*   [httpie/httpie](https://github.com/httpie/httpie) - 🥧 HTTPie for Terminal — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 *   [afroisalreadyinu/miniboss](https://github.com/afroisalreadyinu/miniboss) - The most versatile way to manage containers locally
 *   [djrobstep/migra](https://github.com/djrobstep/migra) - Like diff but for PostgreSQL schemas
 *   [divio/diataxis-documentation-framework](https://github.com/divio/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
@@ -3509,7 +3511,6 @@
 *   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
 *   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
 *   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
-*   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
 
 ## Rust
 
@@ -3517,6 +3518,7 @@
 *   [nitnelave/lldap](https://github.com/nitnelave/lldap) - Light LDAP implementation
 *   [zesterer/tao](https://github.com/zesterer/tao) - A statically-typed functional language with generics, typeclasses, sum types, pattern-matching, first-class functions, currying, algebraic effects, associated types, good diagnostics, etc.
 *   [prql/prql](https://github.com/prql/prql) - PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
+*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine, crawl & index websites/files you want with a simple set of rules
 *   [jfecher/ante](https://github.com/jfecher/ante) - A safe, easy systems language
 *   [codabrink/tolkien](https://github.com/codabrink/tolkien) - A ruby tokenizer and type inferencer written in Rust (an experiment)
 *   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices from anywhere at anytime.
@@ -3529,7 +3531,7 @@
 *   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
 *   [yoav-lavi/melody](https://github.com/yoav-lavi/melody) - Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
 *   [svix/svix-webhooks](https://github.com/svix/svix-webhooks) - The enterprise-ready webhooks service 🦀
-*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session-lived containers for advanced browser-based applications.
+*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session backend orchestrator for ambitious browser-based apps.
 *   [stacked-git/stgit](https://github.com/stacked-git/stgit) - Stacked Git
 *   [gitext-rs/git-stack](https://github.com/gitext-rs/git-stack) - Stacked branch management for Git
 *   [arxanas/git-branchless](https://github.com/arxanas/git-branchless) - High-velocity, monorepo-scale workflow for Git
@@ -3542,7 +3544,7 @@
 *   [fcsonline/drill](https://github.com/fcsonline/drill) - Drill is an HTTP load testing application written in Rust
 *   [raphlinus/pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) -
 *   [Doctave/doctave-markdown](https://github.com/Doctave/doctave-markdown) - Doctave-specific markdown parser
-*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - An open-source, lightning-fast, and hyper-relevant search engine that fits effortlessly into your apps, websites, and workflow.
+*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
 *   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
 *   [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
 *   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
@@ -3593,7 +3595,7 @@
 *   [lunaryorn/mdcat](https://github.com/lunaryorn/mdcat) - cat for markdown
 *   [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
 *   [ubnt-intrepid/dot](https://github.com/ubnt-intrepid/dot) - Yet another management tool for dotfiles
-*   [lumen/lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation, designed for WebAssembly
+*   [GetFirefly/firefly](https://github.com/GetFirefly/firefly) - An alternative BEAM implementation, designed for WebAssembly
 *   [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
 *   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
 *   [artichoke/artichoke](https://github.com/artichoke/artichoke) - 💎 Artichoke is a Ruby made with Rust
@@ -3631,14 +3633,14 @@
 *   [assert-rs/dir-diff](https://github.com/assert-rs/dir-diff) - Are the contents of two directories different?
 *   [assert-rs/assert\_fs](https://github.com/assert-rs/assert_fs) - Filesystem fixtures and assertions.
 *   [rust-cli/confy](https://github.com/rust-cli/confy) - 🛋 Zero-boilerplate configuration management in Rust
-*   [rust-cli/clap-port-flag](https://github.com/rust-cli/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
-*   [rust-cli/clap-md](https://github.com/rust-cli/clap-md) - Generate Markdown documentation for clap application definitions
+*   [clap-rs/clap-port-flag](https://github.com/clap-rs/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
+*   [clap-rs/clap-md](https://github.com/clap-rs/clap-md) - Generate Markdown documentation for clap application definitions
 *   [rust-cli/man](https://github.com/rust-cli/man) - Generate structured man pages
-*   [rust-cli/clap-permission-flag](https://github.com/rust-cli/clap-permission-flag) - Drop permissions of a CLI using structopt
+*   [clap-rs/clap-permission-flag](https://github.com/clap-rs/clap-permission-flag) - Drop permissions of a CLI using structopt
 *   [rust-cli/cli-template](https://github.com/rust-cli/cli-template) - Cargo template for generating CLIs
-*   [rust-cli/clap-log-flag](https://github.com/rust-cli/clap-log-flag) - Add a logger to CLIs using structopt
+*   [clap-rs/clap-log-flag](https://github.com/clap-rs/clap-log-flag) - Add a logger to CLIs using structopt
 *   [rust-cli/human-panic](https://github.com/rust-cli/human-panic) - 😱 Panic messages for humans.
-*   [rust-cli/clap-verbosity-flag](https://github.com/rust-cli/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
+*   [clap-rs/clap-verbosity-flag](https://github.com/clap-rs/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
 *   [thuleqaid/rust-chardet](https://github.com/thuleqaid/rust-chardet) - rust version of chardet
 *   [actix/actix](https://github.com/actix/actix) - Actor framework for Rust.
 *   [nuew/postgres-inet](https://github.com/nuew/postgres-inet) - Cidr and Inet support for rust-postgres
@@ -3719,7 +3721,7 @@
 *   [dataegret/pg-utils](https://github.com/dataegret/pg-utils) - Useful PostgreSQL utilities
 *   [Mythra/typeish](https://github.com/Mythra/typeish) - A runtime type checker for bash.... in bash. I'm not sorry.
 *   [ridiculousfish/git-prev-next](https://github.com/ridiculousfish/git-prev-next) - Simple way to edit in a git commit history
-*   [meaningful-ooo/sponge](https://github.com/meaningful-ooo/sponge) - 🧽 Automatically clean fish history from typos
+*   [meaningful-ooo/sponge](https://github.com/meaningful-ooo/sponge) - 🧽 Clean fish history from typos automatically
 *   [ttscoff/fish\_files](https://github.com/ttscoff/fish_files) -
 *   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 *   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
@@ -4114,7 +4116,7 @@
 *   [staltz/xstream](https://github.com/staltz/xstream) - An extremely intuitive, small, and fast functional reactive stream library for JavaScript
 *   [GoogleChromeLabs/comlink](https://github.com/GoogleChromeLabs/comlink) - Comlink makes WebWorkers enjoyable.
 *   [outline/outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, feature rich, and markdown compatible.
-*   [1milligram/csslayout](https://github.com/1milligram/csslayout) - A collection of popular layouts and patterns made with CSS. Now it has 100+ patterns and continues growing!
+*   [phuocng/csslayout](https://github.com/phuocng/csslayout) - A collection of popular layouts and patterns made with CSS. Now it has 100+ patterns and continues growing!
 *   [voldikss/coc-todolist](https://github.com/voldikss/coc-todolist) - \[Deprecated due to an unfixable bug and crappy design]🕐 Todolist/task manager extension for (Neo)Vim
 *   [posva/vue-promised](https://github.com/posva/vue-promised) - 💝 Composable Promises & Promises as components
 *   [zalando-incubator/graphql-jit](https://github.com/zalando-incubator/graphql-jit) - GraphQL execution using a JIT compiler
@@ -4189,9 +4191,16 @@
 
 *   [vlang/v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. Supports automatic C => V translation. https://vlang.io
 
-## Vim script
+## Vim Script
 
 *   [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) - Auto configurations for Language Server for vim-lsp
+*   [junegunn/dotfiles](https://github.com/junegunn/dotfiles) - :house\_with\_garden: It's personal
+*   [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Today I Learned
+*   [Julian/dotfiles](https://github.com/Julian/dotfiles) - A work in progress. Forever.
+*   [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - lean & mean status/tabline for vim that's light as air
+
+## Vim script
+
 *   [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot) - A solid language pack for Vim.
 *   [luizribeiro/vim-cooklang](https://github.com/luizribeiro/vim-cooklang) - A cooklang syntax highlighting plugin for vim.
 *   [iberianpig/tig-explorer.vim](https://github.com/iberianpig/tig-explorer.vim) - Vim plugin to use Tig as a git client. Seamless switching between vim and Tig with opening in the same buffer.
@@ -4212,18 +4221,14 @@
 *   [Shougo/shougo-s-github](https://github.com/Shougo/shougo-s-github) - Shougo's git repository - vim, zsh, screen, etc...
 *   [rstacruz/vim-fastunite](https://github.com/rstacruz/vim-fastunite) - Search for files fast
 *   [hashrocket/vim-hashrocket](https://github.com/hashrocket/vim-hashrocket) - Mappings we find useful
-*   [junegunn/dotfiles](https://github.com/junegunn/dotfiles) - :house\_with\_garden: It's personal
 *   [ackyshake/VimCompletesMe](https://github.com/ackyshake/VimCompletesMe) - You don't Complete Me; Vim Completes Me! A super simple, super minimal, super light-weight tab completion plugin for Vim.
 *   [jordwalke/VimBox](https://github.com/jordwalke/VimBox) - Simple, Modern MacVim Configuration
 *   [preservim/vim-thematic](https://github.com/preservim/vim-thematic) - Alter Vim's appearance to suit your task & environ
 *   [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more
-*   [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Today I Learned
 *   [mhinz/vim-galore](https://github.com/mhinz/vim-galore) - :mortar\_board: All things Vim!
 *   [whatyouhide/vim-gotham](https://github.com/whatyouhide/vim-gotham) - Code never sleeps in Gotham City. 🌃
-*   [Julian/dotfiles](https://github.com/Julian/dotfiles) - A work in progress. Forever.
 *   [mattn/vim-gist](https://github.com/mattn/vim-gist) - Vim plugin for Gist
 *   [itspriddle/vim-marked](https://github.com/itspriddle/vim-marked) - Open the current Markdown buffer in Marked.app
-*   [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - lean & mean status/tabline for vim that's light as air
 *   [glejeune/.dotrc](https://github.com/glejeune/.dotrc) - My dot files for vim, zsh, ...
 *   [mmozuras/vimfiles](https://github.com/mmozuras/vimfiles) - The ~/.vim I use
 *   [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) - True Sublime Text style multiple selections for Vim
@@ -4255,6 +4260,10 @@
 *   [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - Tool for visualizing GitHub profiles
 *   [epicmaxco/epic-spinners](https://github.com/epicmaxco/epic-spinners) - Easy to use css spinners collection with Vue.js integration
 *   [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) - Free and Beautiful Vue 3 Admin Template
+
+## Wren
+
+*   [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language. Wren is a small, fast, class-based concurrent scripting language.
 
 ## XSLT
 
@@ -4439,4 +4448,3 @@
 *   [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) - Principles of Writing Consistent, Idiomatic JavaScript
 *   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
-*   [schacon/recipes](https://github.com/schacon/recipes) -
