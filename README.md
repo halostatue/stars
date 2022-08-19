@@ -381,7 +381,7 @@
 ## Elixir
 
 *   [mirego/mix\_audit](https://github.com/mirego/mix_audit) - 🕵️‍♀️ MixAudit provides a mix deps.audit task to scan a project Mix dependencies for known Elixir security vulnerabilities
-*   [mirego/elixir-security-advisories](https://github.com/mirego/elixir-security-advisories) - Public database of Elixir security advisories pulled from GitHub Advisory Database
+*   [mirego/elixir-security-advisories](https://github.com/mirego/elixir-security-advisories) - 🛡 Public database of Elixir security advisories pulled from GitHub Advisory Database
 *   [hrzndhrn/recode](https://github.com/hrzndhrn/recode) - A linter with autocorrection and a refactoring tool.
 *   [wojtekmach/fix](https://github.com/wojtekmach/fix) -
 *   [doorgan/sourceror](https://github.com/doorgan/sourceror) - Utilities to manipulate Elixir source code
@@ -1509,7 +1509,6 @@
 *   [wailsapp/wails](https://github.com/wailsapp/wails) - Create beautiful applications using Go
 *   [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
 *   [speps/go-hashids](https://github.com/speps/go-hashids) - Go (golang) implementation of http://www.hashids.org
-*   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - Serverless API Gateway for GraphQL, REST, gRPC, Kafka and more with a focus on API Composition & Integration.
 *   [marouni/adr](https://github.com/marouni/adr) - A minimalist command line tool written in Go to work with Architecture Decision Records
 *   [dpapathanasiou/simple-graph](https://github.com/dpapathanasiou/simple-graph) - This is a simple graph database in SQLite, inspired by "SQLite as a document database"
 *   [sigstore/cosign](https://github.com/sigstore/cosign) - Container Signing
@@ -1921,7 +1920,6 @@
 *   [quickstrom/quickstrom](https://github.com/quickstrom/quickstrom) - High-confidence browser testing
 *   [purerl/purerl](https://github.com/purerl/purerl) - Erlang backend for the PureScript compiler
 *   [github/semantic](https://github.com/github/semantic) - Parsing, analyzing, and comparing source code across many languages
-*   [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.
 *   [aviaviavi/toodles](https://github.com/aviaviavi/toodles) - Project management directly from the TODOs in your codebase
 *   [fossas/fossa-cli](https://github.com/fossas/fossa-cli) - Fast, portable and reliable dependency analysis for any codebase.  Supports license & vulnerability scanning for large monoliths.  Language-agnostic; integrates with 20+ build systems.
 *   [joshuaclayton/unused](https://github.com/joshuaclayton/unused) - Deprecated; see https://github.com/unused-code/unused
@@ -2276,7 +2274,7 @@
 *   [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) - A utility-first CSS framework for rapid UI development.
 *   [js-joda/js-joda](https://github.com/js-joda/js-joda) - :clock2: Immutable date and time library for javascript
 *   [moment/luxon](https://github.com/moment/luxon) - ⏱ A library for working with dates and times in JS
-*   [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) - :white\_check\_mark:  The Node.js best practices list (June 2022)
+*   [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) - :white\_check\_mark:  The Node.js best practices list (August 2022)
 *   [google/bottery](https://github.com/google/bottery) -
 *   [SparkPost/heml](https://github.com/SparkPost/heml) - HEML is an open source markup language for building responsive email.
 *   [ryanburgess/engineer-manager](https://github.com/ryanburgess/engineer-manager) - A list of engineering manager resource links.
@@ -3721,7 +3719,7 @@
 *   [dataegret/pg-utils](https://github.com/dataegret/pg-utils) - Useful PostgreSQL utilities
 *   [Mythra/typeish](https://github.com/Mythra/typeish) - A runtime type checker for bash.... in bash. I'm not sorry.
 *   [ridiculousfish/git-prev-next](https://github.com/ridiculousfish/git-prev-next) - Simple way to edit in a git commit history
-*   [andreiborisov/sponge](https://github.com/andreiborisov/sponge) - Automatically 🧽 clean fish history from typos
+*   [meaningful-ooo/sponge](https://github.com/meaningful-ooo/sponge) - 🧽 Automatically clean fish history from typos
 *   [ttscoff/fish\_files](https://github.com/ttscoff/fish_files) -
 *   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 *   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
@@ -4007,6 +4005,7 @@
 *   [esseswann/graphql-binary](https://github.com/esseswann/graphql-binary) - GraphQL binary protocol for smaller network traffic and parsing performance
 *   [micleyman/sveltekit-ory-starter](https://github.com/micleyman/sveltekit-ory-starter) - An unstyled starter template for a modern Svelte Kit app, secured using Ory's open source libraries.
 *   [vitest-dev/vitest](https://github.com/vitest-dev/vitest) - A Vite-native test framework. It's fast!
+*   [wundergraph/wundergraph](https://github.com/wundergraph/wundergraph) - Serverless API Gateway for GraphQL, REST, gRPC, Kafka and more with a focus on API Composition & Integration.
 *   [thomvaill/log4brains](https://github.com/thomvaill/log4brains) - ✍️ Log and publish your architecture decisions (ADR)
 *   [vilterp/datalog-ts](https://github.com/vilterp/datalog-ts) - a datalog interpreter in typescript
 *   [CondeNast/atjson](https://github.com/CondeNast/atjson) - atjson is a living content format for annotating content
@@ -4139,6 +4138,7 @@
 *   [Kong/httpsnippet](https://github.com/Kong/httpsnippet) - HTTP Request snippet generator for many languages & libraries
 *   [ClickerMonkey/vuex-router-actions](https://github.com/ClickerMonkey/vuex-router-actions) - Streamline complex Vuex actions and have fast and secure asynchronous routing in your app.
 *   [Urigo/graphql-cli](https://github.com/Urigo/graphql-cli) - 📟  Command line tool for common GraphQL development workflows
+*   [hasura/graphql-engine](https://github.com/hasura/graphql-engine) - Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.
 *   [nexe/nexe](https://github.com/nexe/nexe) - 🎉 create a single executable out of your node.js apps
 *   [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - :zap: The one-liner node.js http-proxy middleware for connect, express, next.js and more
 *   [graphql-editor/graphql-editor](https://github.com/graphql-editor/graphql-editor) - 📺 Visual Editor & GraphQL IDE. Draw GraphQL schemas using visual 🔷 nodes and explore GraphQL API with beautiful UI. Even 🐒 can do that!
