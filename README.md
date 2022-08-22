@@ -319,7 +319,6 @@
 *   [mozilla/Fira](https://github.com/mozilla/Fira) - Mozilla's new typeface, used in Firefox OS
 *   [toland/qlmarkdown](https://github.com/toland/qlmarkdown) - QuickLook generator for Markdown files.
 *   [mmozuras/git-playback](https://github.com/mmozuras/git-playback) - Create visual playback of your commits
-*   [codeplant/simple-navigation-demo](https://github.com/codeplant/simple-navigation-demo) - This is a sample application demonstrating the use of the simple-navigation gem. There's code for Rails 2, Rails 3, Rails4, Sinatra and Padrino.
 
 ## CUE
 
@@ -2721,6 +2720,7 @@
 
 ## Python
 
+*   [Textualize/rich-cli](https://github.com/Textualize/rich-cli) - Rich-cli is a command line toolbox for fancy output in the terminal
 *   [ossillate-inc/packj](https://github.com/ossillate-inc/packj) - The vetting tool 🚀 behind our large-scale security analysis platform to detect malicious/risky open-source packages
 *   [bridgecrewio/AirIAM](https://github.com/bridgecrewio/AirIAM) - Least privilege AWS IAM Terraformer
 *   [facundoolano/software-papers](https://github.com/facundoolano/software-papers) - 📚 A curated list of papers for Software Engineers
