@@ -4114,7 +4114,7 @@
 *   [staltz/xstream](https://github.com/staltz/xstream) - An extremely intuitive, small, and fast functional reactive stream library for JavaScript
 *   [GoogleChromeLabs/comlink](https://github.com/GoogleChromeLabs/comlink) - Comlink makes WebWorkers enjoyable.
 *   [outline/outline](https://github.com/outline/outline) - The fastest wiki and knowledge base for growing teams. Beautiful, feature rich, and markdown compatible.
-*   [1milligram/csslayout](https://github.com/1milligram/csslayout) - A collection of popular layouts and patterns made with CSS. Now it has 100+ patterns and continues growing!
+*   [phuocng/csslayout](https://github.com/phuocng/csslayout) - A collection of popular layouts and patterns made with CSS. Now it has 100+ patterns and continues growing!
 *   [voldikss/coc-todolist](https://github.com/voldikss/coc-todolist) - \[Deprecated due to an unfixable bug and crappy design]🕐 Todolist/task manager extension for (Neo)Vim
 *   [posva/vue-promised](https://github.com/posva/vue-promised) - 💝 Composable Promises & Promises as components
 *   [zalando-incubator/graphql-jit](https://github.com/zalando-incubator/graphql-jit) - GraphQL execution using a JIT compiler
