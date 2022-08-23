@@ -3631,14 +3631,14 @@
 *   [assert-rs/dir-diff](https://github.com/assert-rs/dir-diff) - Are the contents of two directories different?
 *   [assert-rs/assert\_fs](https://github.com/assert-rs/assert_fs) - Filesystem fixtures and assertions.
 *   [rust-cli/confy](https://github.com/rust-cli/confy) - 🛋 Zero-boilerplate configuration management in Rust
-*   [rust-cli/clap-port-flag](https://github.com/rust-cli/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
-*   [rust-cli/clap-md](https://github.com/rust-cli/clap-md) - Generate Markdown documentation for clap application definitions
+*   [clap-rs/clap-port-flag](https://github.com/clap-rs/clap-port-flag) - Easily add a --port flag to CLIs using Structopt
+*   [clap-rs/clap-md](https://github.com/clap-rs/clap-md) - Generate Markdown documentation for clap application definitions
 *   [rust-cli/man](https://github.com/rust-cli/man) - Generate structured man pages
-*   [rust-cli/clap-permission-flag](https://github.com/rust-cli/clap-permission-flag) - Drop permissions of a CLI using structopt
+*   [clap-rs/clap-permission-flag](https://github.com/clap-rs/clap-permission-flag) - Drop permissions of a CLI using structopt
 *   [rust-cli/cli-template](https://github.com/rust-cli/cli-template) - Cargo template for generating CLIs
-*   [rust-cli/clap-log-flag](https://github.com/rust-cli/clap-log-flag) - Add a logger to CLIs using structopt
+*   [clap-rs/clap-log-flag](https://github.com/clap-rs/clap-log-flag) - Add a logger to CLIs using structopt
 *   [rust-cli/human-panic](https://github.com/rust-cli/human-panic) - 😱 Panic messages for humans.
-*   [rust-cli/clap-verbosity-flag](https://github.com/rust-cli/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
+*   [clap-rs/clap-verbosity-flag](https://github.com/clap-rs/clap-verbosity-flag) - Easily add a --verbose flag to CLIs using Structopt
 *   [thuleqaid/rust-chardet](https://github.com/thuleqaid/rust-chardet) - rust version of chardet
 *   [actix/actix](https://github.com/actix/actix) - Actor framework for Rust.
 *   [nuew/postgres-inet](https://github.com/nuew/postgres-inet) - Cidr and Inet support for rust-postgres
