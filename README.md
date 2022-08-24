@@ -379,6 +379,7 @@
 
 ## Elixir
 
+*   [ucbi/graphql\_document](https://github.com/ucbi/graphql_document) - Build GraphQL document strings from Elixir primitives
 *   [mirego/mix\_audit](https://github.com/mirego/mix_audit) - 🕵️‍♀️ MixAudit provides a mix deps.audit task to scan a project Mix dependencies for known Elixir security vulnerabilities
 *   [mirego/elixir-security-advisories](https://github.com/mirego/elixir-security-advisories) - 🛡 Public database of Elixir security advisories pulled from GitHub Advisory Database
 *   [hrzndhrn/recode](https://github.com/hrzndhrn/recode) - A linter with autocorrection and a refactoring tool.
@@ -2731,7 +2732,7 @@
 *   [octodns/octodns](https://github.com/octodns/octodns) - Tools for managing DNS across multiple providers
 *   [open-feature/spec](https://github.com/open-feature/spec) - OpenFeature specification
 *   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives) - Awesome list of open-source startup alternatives to well-known SaaS products 🚀
-*   [httpie/httpie](https://github.com/httpie/httpie) - As easy as /aitch-tee-tee-pie/ 🥧 Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. https://twitter.com/httpie
+*   [httpie/httpie](https://github.com/httpie/httpie) - 🥧 HTTPie for Terminal — modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more.
 *   [afroisalreadyinu/miniboss](https://github.com/afroisalreadyinu/miniboss) - The most versatile way to manage containers locally
 *   [djrobstep/migra](https://github.com/djrobstep/migra) - Like diff but for PostgreSQL schemas
 *   [divio/diataxis-documentation-framework](https://github.com/divio/diataxis-documentation-framework) - "The Grand Unified Theory of Documentation" (David Laing) - a popular and transformative documentation authoring framework
@@ -3509,7 +3510,6 @@
 *   [protobuf-ruby/beefcake](https://github.com/protobuf-ruby/beefcake) - A sane Google Protocol Buffers library for Ruby
 *   [pry/pry](https://github.com/pry/pry) - A runtime developer console and IRB alternative with powerful introspection capabilities.
 *   [ricodigo/shapado](https://github.com/ricodigo/shapado) - Free and open source Q\&A software, open source stackoverflow style app written in ruby, rails, mongomapper and mongodb.
-*   [codeplant/sinatra-simple-navigation](https://github.com/codeplant/sinatra-simple-navigation) - A Sinatra extension to enable creating navigations with the simple-navigation gem. Also works for Padrino.
 
 ## Rust
 
