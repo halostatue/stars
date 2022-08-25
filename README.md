@@ -81,7 +81,8 @@
 *   [Twig](#twig)
 *   [TypeScript](#typescript)
 *   [V](#v)
-*   [Vim script](#vim-script)
+*   [Vim Script](#vim-script)
+*   [Vim script](#vim-script-1)
 *   [VimL](#viml)
 *   [Vue](#vue)
 *   [XSLT](#xslt)
@@ -4189,9 +4190,12 @@
 
 *   [vlang/v](https://github.com/vlang/v) - Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. Supports automatic C => V translation. https://vlang.io
 
-## Vim script
+## Vim Script
 
 *   [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) - Auto configurations for Language Server for vim-lsp
+
+## Vim script
+
 *   [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot) - A solid language pack for Vim.
 *   [luizribeiro/vim-cooklang](https://github.com/luizribeiro/vim-cooklang) - A cooklang syntax highlighting plugin for vim.
 *   [iberianpig/tig-explorer.vim](https://github.com/iberianpig/tig-explorer.vim) - Vim plugin to use Tig as a git client. Seamless switching between vim and Tig with opening in the same buffer.
