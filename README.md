@@ -379,6 +379,7 @@
 
 ## Elixir
 
+*   [MikaAK/request\_cache\_plug](https://github.com/MikaAK/request_cache_plug) - Request caching for Phoenix & Absinthe (GraphQL), short circuiting even the JSON decoding/encoding
 *   [ucbi/graphql\_document](https://github.com/ucbi/graphql_document) - Build GraphQL document strings from Elixir primitives
 *   [mirego/mix\_audit](https://github.com/mirego/mix_audit) - 🕵️‍♀️ MixAudit provides a mix deps.audit task to scan a project Mix dependencies for known Elixir security vulnerabilities
 *   [mirego/elixir-security-advisories](https://github.com/mirego/elixir-security-advisories) - 🛡 Public database of Elixir security advisories pulled from GitHub Advisory Database
@@ -2485,7 +2486,6 @@
 *   [LockerProject/Locker](https://github.com/LockerProject/Locker) - Locker - the "me" platform
 *   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
 *   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
-*   [Treesaver/treesaver](https://github.com/Treesaver/treesaver) - JavaScript library for creating column and page-based layouts
 
 ## Jinja
 
