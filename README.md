@@ -1853,7 +1853,7 @@
 
 ## HTML
 
-*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine, crawl & index websites you want with a simple set of rules
+*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine, crawl & index websites/files you want with a simple set of rules
 *   [triska/the-power-of-prolog](https://github.com/triska/the-power-of-prolog) - Introduction to modern Prolog
 *   [bego-talks/e2e-workshop](https://github.com/bego-talks/e2e-workshop) -
 *   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
@@ -4193,6 +4193,7 @@
 ## Vim Script
 
 *   [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) - Auto configurations for Language Server for vim-lsp
+*   [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - lean & mean status/tabline for vim that's light as air
 
 ## Vim script
 
@@ -4227,7 +4228,6 @@
 *   [Julian/dotfiles](https://github.com/Julian/dotfiles) - A work in progress. Forever.
 *   [mattn/vim-gist](https://github.com/mattn/vim-gist) - Vim plugin for Gist
 *   [itspriddle/vim-marked](https://github.com/itspriddle/vim-marked) - Open the current Markdown buffer in Marked.app
-*   [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - lean & mean status/tabline for vim that's light as air
 *   [glejeune/.dotrc](https://github.com/glejeune/.dotrc) - My dot files for vim, zsh, ...
 *   [mmozuras/vimfiles](https://github.com/mmozuras/vimfiles) - The ~/.vim I use
 *   [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) - True Sublime Text style multiple selections for Vim
