@@ -2007,6 +2007,7 @@
 
 ## JavaScript
 
+*   [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate) - Debug your GitHub Actions via SSH by using tmate to get access to the runner system itself.
 *   [tau-prolog/tau-prolog](https://github.com/tau-prolog/tau-prolog) - An open source Prolog interpreter in JavaScript
 *   [LeaVerou/color.js](https://github.com/LeaVerou/color.js) - Color conversion & manipulation library by the editors of the CSS Color specifications
 *   [vitejs/awesome-vite](https://github.com/vitejs/awesome-vite) - ⚡️ A curated list of awesome things related to Vite.js
@@ -2486,7 +2487,6 @@
 *   [cmod/bibliotype](https://github.com/cmod/bibliotype) - A base for longform tablet typography in HTML
 *   [LockerProject/Locker](https://github.com/LockerProject/Locker) - Locker - the "me" platform
 *   [headjs/headjs](https://github.com/headjs/headjs) - The only script in your HEAD.
-*   [davatron5000/Lettering.js](https://github.com/davatron5000/Lettering.js) - A lightweight, easy to use Javascript \<span> injector for radical Web Typography
 
 ## Jinja
 
@@ -3594,7 +3594,7 @@
 *   [lunaryorn/mdcat](https://github.com/lunaryorn/mdcat) - cat for markdown
 *   [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) - A command-line benchmarking tool
 *   [ubnt-intrepid/dot](https://github.com/ubnt-intrepid/dot) - Yet another management tool for dotfiles
-*   [lumen/lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation, designed for WebAssembly
+*   [GetFirefly/firefly](https://github.com/GetFirefly/firefly) - An alternative BEAM implementation, designed for WebAssembly
 *   [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVMs for serverless computing.
 *   [getzola/zola](https://github.com/getzola/zola) - A fast static site generator in a single binary with everything built-in. https://www.getzola.org
 *   [artichoke/artichoke](https://github.com/artichoke/artichoke) - 💎 Artichoke is a Ruby made with Rust
