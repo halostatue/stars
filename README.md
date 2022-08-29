@@ -2715,7 +2715,7 @@
 ## PureScript
 
 *   [id3as/purescript-erl-pinto](https://github.com/id3as/purescript-erl-pinto) - An opinionated OTP framework wrapper
-*   [feramhq/transity](https://github.com/feramhq/transity) - Keep track of your 💵, 🕘, 🐖, 🐄, 🍻 on your command line
+*   [feramhq/Transity](https://github.com/feramhq/Transity) - Keep track of your 💵, 🕘, 🐖, 🐄, 🍻 on your command line
 *   [purescript-halogen/purescript-halogen](https://github.com/purescript-halogen/purescript-halogen) - A declarative, type-safe UI library for PureScript.
 *   [alexmingoia/purescript-pux](https://github.com/alexmingoia/purescript-pux) - Build type-safe web apps with PureScript.
 *   [paf31/purescript-thermite](https://github.com/paf31/purescript-thermite) - A simple PureScript wrapper for React
