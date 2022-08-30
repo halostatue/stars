@@ -3531,7 +3531,7 @@
 *   [rapiz1/rathole](https://github.com/rapiz1/rathole) - A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok.
 *   [yoav-lavi/melody](https://github.com/yoav-lavi/melody) - Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
 *   [svix/svix-webhooks](https://github.com/svix/svix-webhooks) - The enterprise-ready webhooks service 🦀
-*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session-lived containers for advanced browser-based applications.
+*   [drifting-in-space/spawner](https://github.com/drifting-in-space/spawner) - Session backend orchestrator for ambitious browser-based apps.
 *   [stacked-git/stgit](https://github.com/stacked-git/stgit) - Stacked Git
 *   [gitext-rs/git-stack](https://github.com/gitext-rs/git-stack) - Stacked branch management for Git
 *   [arxanas/git-branchless](https://github.com/arxanas/git-branchless) - High-velocity, monorepo-scale workflow for Git
