@@ -380,6 +380,7 @@
 
 ## Elixir
 
+*   [ahamez/secret\_agent](https://github.com/ahamez/secret_agent) - An Elixir library to manage secrets
 *   [MikaAK/request\_cache\_plug](https://github.com/MikaAK/request_cache_plug) - Request caching for Phoenix & Absinthe (GraphQL), short circuiting even the JSON decoding/encoding
 *   [ucbi/graphql\_document](https://github.com/ucbi/graphql_document) - Build GraphQL document strings from Elixir primitives
 *   [mirego/mix\_audit](https://github.com/mirego/mix_audit) - 🕵️‍♀️ MixAudit provides a mix deps.audit task to scan a project Mix dependencies for known Elixir security vulnerabilities
@@ -1853,7 +1854,6 @@
 
 ## HTML
 
-*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine, crawl & index websites/files you want with a simple set of rules
 *   [triska/the-power-of-prolog](https://github.com/triska/the-power-of-prolog) - Introduction to modern Prolog
 *   [bego-talks/e2e-workshop](https://github.com/bego-talks/e2e-workshop) -
 *   [btwb/oban\_migrations\_sql](https://github.com/btwb/oban_migrations_sql) - Generate Oban migrations as plain SQL files
@@ -3518,6 +3518,7 @@
 *   [nitnelave/lldap](https://github.com/nitnelave/lldap) - Light LDAP implementation
 *   [zesterer/tao](https://github.com/zesterer/tao) - A statically-typed functional language with generics, typeclasses, sum types, pattern-matching, first-class functions, currying, algebraic effects, associated types, good diagnostics, etc.
 *   [prql/prql](https://github.com/prql/prql) - PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
+*   [a5huynh/spyglass](https://github.com/a5huynh/spyglass) - A personal search engine, crawl & index websites/files you want with a simple set of rules
 *   [jfecher/ante](https://github.com/jfecher/ante) - A safe, easy systems language
 *   [codabrink/tolkien](https://github.com/codabrink/tolkien) - A ruby tokenizer and type inferencer written in Rust (an experiment)
 *   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - Open source virtual / remote desktop infrastructure for everyone! The open source TeamViewer alternative. Display and control your PC and Android devices from anywhere at anytime.
@@ -3543,7 +3544,7 @@
 *   [fcsonline/drill](https://github.com/fcsonline/drill) - Drill is an HTTP load testing application written in Rust
 *   [raphlinus/pulldown-cmark](https://github.com/raphlinus/pulldown-cmark) -
 *   [Doctave/doctave-markdown](https://github.com/Doctave/doctave-markdown) - Doctave-specific markdown parser
-*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - An open-source, lightning-fast, and hyper-relevant search engine that fits effortlessly into your apps, websites, and workflow.
+*   [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) - A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow.
 *   [Wilfred/difftastic](https://github.com/Wilfred/difftastic) - a structural diff that understands syntax 🟥🟩
 *   [reacherhq/check-if-email-exists](https://github.com/reacherhq/check-if-email-exists) - Check if an email address exists without sending any email, written in Rust. Comes with a ⚙️ HTTP backend.
 *   [helix-editor/helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
@@ -4193,6 +4194,7 @@
 ## Vim Script
 
 *   [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) - Auto configurations for Language Server for vim-lsp
+*   [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Today I Learned
 *   [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - lean & mean status/tabline for vim that's light as air
 
 ## Vim script
@@ -4222,7 +4224,6 @@
 *   [jordwalke/VimBox](https://github.com/jordwalke/VimBox) - Simple, Modern MacVim Configuration
 *   [preservim/vim-thematic](https://github.com/preservim/vim-thematic) - Alter Vim's appearance to suit your task & environ
 *   [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more
-*   [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Today I Learned
 *   [mhinz/vim-galore](https://github.com/mhinz/vim-galore) - :mortar\_board: All things Vim!
 *   [whatyouhide/vim-gotham](https://github.com/whatyouhide/vim-gotham) - Code never sleeps in Gotham City. 🌃
 *   [Julian/dotfiles](https://github.com/Julian/dotfiles) - A work in progress. Forever.
@@ -4443,4 +4444,3 @@
 *   [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) - Principles of Writing Consistent, Idiomatic JavaScript
 *   [sinatra/rack-protection](https://github.com/sinatra/rack-protection) - NOTE: This project has been merged upstream to sinatra/sinatra
 *   [sinatra/sinatra-contrib](https://github.com/sinatra/sinatra-contrib) - NOTE: This project has been merged upstream to sinatra/sinatra
-*   [schacon/recipes](https://github.com/schacon/recipes) -
