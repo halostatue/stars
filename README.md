@@ -85,6 +85,7 @@
 *   [Vim script](#vim-script-1)
 *   [VimL](#viml)
 *   [Vue](#vue)
+*   [Wren](#wren)
 *   [XSLT](#xslt)
 *   [Yacc](#yacc)
 *   [Zig](#zig)
@@ -199,7 +200,6 @@
 *   [ampas/CTL](https://github.com/ampas/CTL) - The Color Transformation Language (CTL)
 *   [silentbicycle/sample](https://github.com/silentbicycle/sample) - filter for random sampling of input
 *   [ohler55/oj](https://github.com/ohler55/oj) - Optimized JSON
-*   [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language. Wren is a small, fast, class-based concurrent scripting language.
 *   [nothings/stb](https://github.com/nothings/stb) - stb single-file public domain libraries for C/C++
 *   [robertdavidgraham/isowall](https://github.com/robertdavidgraham/isowall) - This is a mini-firewall that completely isolates a target device from the local network.
 *   [hroptatyr/dateutils](https://github.com/hroptatyr/dateutils) - nifty command line date and time utilities; fast date calculations and conversion in the shell
@@ -3721,7 +3721,7 @@
 *   [dataegret/pg-utils](https://github.com/dataegret/pg-utils) - Useful PostgreSQL utilities
 *   [Mythra/typeish](https://github.com/Mythra/typeish) - A runtime type checker for bash.... in bash. I'm not sorry.
 *   [ridiculousfish/git-prev-next](https://github.com/ridiculousfish/git-prev-next) - Simple way to edit in a git commit history
-*   [meaningful-ooo/sponge](https://github.com/meaningful-ooo/sponge) - 🧽 Automatically clean fish history from typos
+*   [meaningful-ooo/sponge](https://github.com/meaningful-ooo/sponge) - 🧽 Clean fish history from typos automatically
 *   [ttscoff/fish\_files](https://github.com/ttscoff/fish_files) -
 *   [xwmx/nb](https://github.com/xwmx/nb) - CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 *   [kaleidoscope-app/man-diff](https://github.com/kaleidoscope-app/man-diff) - Compare man pages between macOS Big Sur and macOS Monterey
@@ -4194,6 +4194,7 @@
 ## Vim Script
 
 *   [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) - Auto configurations for Language Server for vim-lsp
+*   [junegunn/dotfiles](https://github.com/junegunn/dotfiles) - :house\_with\_garden: It's personal
 *   [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Today I Learned
 *   [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - lean & mean status/tabline for vim that's light as air
 
@@ -4219,7 +4220,6 @@
 *   [Shougo/shougo-s-github](https://github.com/Shougo/shougo-s-github) - Shougo's git repository - vim, zsh, screen, etc...
 *   [rstacruz/vim-fastunite](https://github.com/rstacruz/vim-fastunite) - Search for files fast
 *   [hashrocket/vim-hashrocket](https://github.com/hashrocket/vim-hashrocket) - Mappings we find useful
-*   [junegunn/dotfiles](https://github.com/junegunn/dotfiles) - :house\_with\_garden: It's personal
 *   [ackyshake/VimCompletesMe](https://github.com/ackyshake/VimCompletesMe) - You don't Complete Me; Vim Completes Me! A super simple, super minimal, super light-weight tab completion plugin for Vim.
 *   [jordwalke/VimBox](https://github.com/jordwalke/VimBox) - Simple, Modern MacVim Configuration
 *   [preservim/vim-thematic](https://github.com/preservim/vim-thematic) - Alter Vim's appearance to suit your task & environ
@@ -4260,6 +4260,10 @@
 *   [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) - Tool for visualizing GitHub profiles
 *   [epicmaxco/epic-spinners](https://github.com/epicmaxco/epic-spinners) - Easy to use css spinners collection with Vue.js integration
 *   [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) - Free and Beautiful Vue 3 Admin Template
+
+## Wren
+
+*   [wren-lang/wren](https://github.com/wren-lang/wren) - The Wren Programming Language. Wren is a small, fast, class-based concurrent scripting language.
 
 ## XSLT
 
