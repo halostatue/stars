@@ -4196,6 +4196,7 @@
 *   [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) - Auto configurations for Language Server for vim-lsp
 *   [junegunn/dotfiles](https://github.com/junegunn/dotfiles) - :house\_with\_garden: It's personal
 *   [jbranchaud/til](https://github.com/jbranchaud/til) - :memo: Today I Learned
+*   [Julian/dotfiles](https://github.com/Julian/dotfiles) - A work in progress. Forever.
 *   [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - lean & mean status/tabline for vim that's light as air
 
 ## Vim script
@@ -4226,7 +4227,6 @@
 *   [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons) - Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more
 *   [mhinz/vim-galore](https://github.com/mhinz/vim-galore) - :mortar\_board: All things Vim!
 *   [whatyouhide/vim-gotham](https://github.com/whatyouhide/vim-gotham) - Code never sleeps in Gotham City. 🌃
-*   [Julian/dotfiles](https://github.com/Julian/dotfiles) - A work in progress. Forever.
 *   [mattn/vim-gist](https://github.com/mattn/vim-gist) - Vim plugin for Gist
 *   [itspriddle/vim-marked](https://github.com/itspriddle/vim-marked) - Open the current Markdown buffer in Marked.app
 *   [glejeune/.dotrc](https://github.com/glejeune/.dotrc) - My dot files for vim, zsh, ...
