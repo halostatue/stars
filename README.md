@@ -390,7 +390,7 @@
 *   [doorgan/sourceror](https://github.com/doorgan/sourceror) - Utilities to manipulate Elixir source code
 *   [mobius-home/nexus](https://github.com/mobius-home/nexus) - Centralized metrics server for IoT devices
 *   [mobius-home/mobius\_nexus\_reporter](https://github.com/mobius-home/mobius_nexus_reporter) - Mobius remote reporter implementation for the Nexus server
-*   [mobius-home/mobius](https://github.com/mobius-home/mobius) - Library for localized telemetry metrics reporting
+*   [mobius-home/mobius](https://github.com/mobius-home/mobius) - Library for localized telemetry reporting
 *   [mtrudel/bandit](https://github.com/mtrudel/bandit) - Bandit is a pure Elixir HTTP server for Plug applications
 *   [woylie/let\_me](https://github.com/woylie/let_me) - Authorization library for Elixir
 *   [nhpip/history](https://github.com/nhpip/history) - An improved history for the Elixir IEx shell
@@ -3710,7 +3710,7 @@
 
 *   [ValeLang/Vale](https://github.com/ValeLang/Vale) - Compiler for the Vale programming language - http://vale.dev/
 *   [flix/flix](https://github.com/flix/flix) - The Flix Programming Language
-*   [prisma/prisma1](https://github.com/prisma/prisma1) - 💾 Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)
+*   [prisma/prisma1](https://github.com/prisma/prisma1) - 💾 Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB) \[deprecated]
 *   [rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner) - Removes large or troublesome blobs like git-filter-branch does, but faster. And written in Scala
 *   [mesos/chronos](https://github.com/mesos/chronos) - Fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules
 
