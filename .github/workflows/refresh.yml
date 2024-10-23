@@ -1,4 +1,4 @@
-name: Update stars list
+name: Refresh stars and regenerate
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     - cron: '0 3 * * *'
 
 jobs:
-  build:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
