@@ -9,11 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Awesome generator
-        uses: simonecorsi/mawesome@v2
+      - uses: actions/checkout@v4
+      - uses: halostatue/starlist@v1.0.0
         with:
-          api-token: ${{ secrets.API_TOKEN }}
-          github-email: ${{ secrets.USER_EMAIL }}
-          github-name: ${{ github.repository_owner }}
-          template-path: .github/mawesome/template.md.ejs
+          token: ${{ secrets.API_TOKEN }}
+          git_email: ${{ secrets.USER_EMAIL }}
+          git_name: ${{ github.repository_owner }}
