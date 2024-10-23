@@ -1286,7 +1286,7 @@
 *   [bitwalker/swarm](https://github.com/bitwalker/swarm) - Easy clustering, registration, and distribution of worker processes for Erlang/Elixir
 *   [undeadlabs/discovery](https://github.com/undeadlabs/discovery) - An OTP application for auto-discovering services with Consul
 *   [h4cc/awesome-elixir](https://github.com/h4cc/awesome-elixir) - A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:
-*   [thechangelog/changelog.com](https://github.com/thechangelog/changelog.com) - Changelog is news and podcast for developers. This is our open source platform.
+*   [thechangelog/changelog.com](https://github.com/thechangelog/changelog.com) - Changelog makes world-class developer pods. This is our open source platform.
 *   [findmypast/Graphixir](https://github.com/findmypast/Graphixir) - Graphite framework written in elixir
 *   [findmypast/hex\_web](https://github.com/findmypast/hex_web) - Fork of hex\_web
 *   [rrrene/elixir-style-guide](https://github.com/rrrene/elixir-style-guide) - Style Guide for the Elixir language, implemented by Credo
@@ -3125,6 +3125,7 @@
 ## PLpgSQL
 
 *   [NikolayS/postgres\_dba](https://github.com/NikolayS/postgres_dba) - The missing set of useful tools for Postgres DBAs and all engineers
+*   [tembo-io/pgmq](https://github.com/tembo-io/pgmq) - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
 *   [supabase/dbdev](https://github.com/supabase/dbdev) - Database Package Registry for Postgres
 *   [array-analytics/plpg\_hashids](https://github.com/array-analytics/plpg_hashids) - Short unique id generator for PostgreSQL in plpgsql, using hashids.org
 *   [nearform/temporal\_tables](https://github.com/nearform/temporal_tables) - Postgresql temporal\_tables extension in PL/pgSQL, without the need for external c extension.
@@ -3307,7 +3308,7 @@
 *   [envtpl/envtpl](https://github.com/envtpl/envtpl) - Render jinja2 templates on the command line with shell environment variables
 *   [andrewbihl/bsed](https://github.com/andrewbihl/bsed) - Simple SQL-like syntax on top of Perl text processing.
 *   [opsschool/curriculum](https://github.com/opsschool/curriculum) - Ops School Curriculum
-*   [lyft/cartography](https://github.com/lyft/cartography) - Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
+*   [cartography-cncf/cartography](https://github.com/cartography-cncf/cartography) - Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
 *   [minimaxir/automl-gs](https://github.com/minimaxir/automl-gs) - Provide an input CSV and a target field to predict, generate a model + code to run it.
 *   [great-expectations/great\_expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
 *   [BayesWitnesses/m2cgen](https://github.com/BayesWitnesses/m2cgen) - Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby, F#, Rust) with zero dependencies
@@ -4064,7 +4065,7 @@
 *   [paradedb/paradedb](https://github.com/paradedb/paradedb) - Postgres for Search and Analytics
 *   [rustcoreutils/posixutils-rs](https://github.com/rustcoreutils/posixutils-rs) - Core POSIX command line utilities in safe Rust
 *   [tcdi/plrust](https://github.com/tcdi/plrust) - A Rust procedural language handler for PostgreSQL
-*   [mehcode/config-rs](https://github.com/mehcode/config-rs) - ⚙️ Layered configuration system for Rust applications (with strong support for 12-factor applications).
+*   [rust-cli/config-rs](https://github.com/rust-cli/config-rs) - ⚙️ Layered configuration system for Rust applications (with strong support for 12-factor applications).
 *   [seekbytes/IPA](https://github.com/seekbytes/IPA) - GUI analyzer for deep-diving into PDF files. Detect malicious payloads, understand object relationships, and extract key information for threat analysis.
 *   [mitsuhiko/minijinja](https://github.com/mitsuhiko/minijinja) - MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2
 *   [iex-rs/iex](https://github.com/iex-rs/iex) - Idiomatic exceptions for Rust
@@ -4114,7 +4115,6 @@
 *   [zkat/miette](https://github.com/zkat/miette) - Fancy extension for std::error::Error with pretty, detailed diagnostic printing.
 *   [dtolnay/thiserror](https://github.com/dtolnay/thiserror) - derive(Error) for struct and enum error types
 *   [dtolnay/anyhow](https://github.com/dtolnay/anyhow) - Flexible concrete Error type built on std::error::Error
-*   [tembo-io/pgmq](https://github.com/tembo-io/pgmq) - A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.
 *   [tembo-io/pg\_later](https://github.com/tembo-io/pg_later) - Execute SQL now and get the results later.
 *   [fmeringdal/covert](https://github.com/fmeringdal/covert) -
 *   [rhaiscript/rhai](https://github.com/rhaiscript/rhai) - Rhai - An embedded scripting language for Rust.
