@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: halostatue/starlist@v1.0.0
+      - uses: halostatue/starlist@v1.1.2
         with:
           token: ${{ secrets.API_TOKEN }}
-          git_email: ${{ secrets.USER_EMAIL }}
-          git_name: ${{ github.repository_owner }}
+          config: |
+            git:
+              email: ${{ secrets.USER_EMAIL }}
+              name: ${{ github.repository_owner }}

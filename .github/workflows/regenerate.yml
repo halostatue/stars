@@ -11,7 +11,9 @@ jobs:
       - uses: halostatue/starlist@main
         with:
           token: ${{ secrets.API_TOKEN }}
-          git_email: ${{ secrets.USER_EMAIL }}
-          git_name: ${{ github.repository_owner }}
-          load_stars_from_json: true
-
+          config: |
+            git:
+              email: ${{ secrets.USER_EMAIL }}
+              name: ${{ github.repository_owner }}
+            stars:
+              source: file
