@@ -1,0 +1,11 @@
+rules:
+  secrets-outside-env:
+    ignore:
+      - refresh.yml:29:22
+      - refresh.yml:32:26
+      - regenerate.yml:27:22
+      - regenerate.yml:32:26
+    # config:
+    #   allow:
+    #     - API_TOKEN
+    #     - USER_EMAIL

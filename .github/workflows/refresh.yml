@@ -5,15 +5,29 @@ on:
   schedule:
     - cron: '0 3 * * *'
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
 jobs:
   refresh:
+    name: Refresh stars and regenerate
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # This updates the contents.
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: halostatue/starlist@v1.1.2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - uses: halostatue/starlist@bbe91395bf6156b51f1ea9d5b874e53b7ae37aaf # v2.0.0
         with:
           token: ${{ secrets.API_TOKEN }}
           config: |
-            git:
-              email: ${{ secrets.USER_EMAIL }}
-              name: ${{ github.repository_owner }}
+            [git.committer]
+            email = "${{ secrets.USER_EMAIL }}"
+            name = "${{ github.repository_owner }}"
