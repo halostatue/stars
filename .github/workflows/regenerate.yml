@@ -15,19 +15,15 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write # This updates the contents.
+      contents: write # This workflow updates the contents.
 
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
-      - uses: halostatue/starlist@bbe91395bf6156b51f1ea9d5b874e53b7ae37aaf # v2.0.0
+      - uses: halostatue/starlist@d2d5ce64e6010b6234ac3c67cf43631cc9605c10 # v2.0.2
         with:
           token: ${{ secrets.API_TOKEN }}
           config: |
             fetch.source = "file"
-
-            [git.committer]
-            email = "${{ secrets.USER_EMAIL }}"
-            name = "${{ github.repository_owner }}"
