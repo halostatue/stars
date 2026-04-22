@@ -18,11 +18,23 @@ jobs:
       contents: write # This workflow updates the contents.
 
     steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df # v2.18.0
+        with:
+          egress-policy: audit
+          # disable-sudo: true
+          # egress-policy: block
+          # allowed-endpoints: >
+          #   api.github.com:443
+          #   ghcr.io:443
+          #   github.com:443
+          #   pkg-containers.githubusercontent.com:443
+
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
 
-      - uses: halostatue/starlist@a33d130bda7dbbe986984c623e5a2d64af976479 # v2.1.0
+      - uses: halostatue/starlist@e6a4ad7b0248eaeeb058734cce2a89ff7a8949a7 # v3.0.0
         with:
           token: ${{ secrets.API_TOKEN }}
           config: |
