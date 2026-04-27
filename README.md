@@ -2,9 +2,9 @@
 
 > :star: generated with [halostatue/starlist](https://github.com/halostatue/starlist)
 
-Last updated 2026-04-26 04:20:59
+Last updated 2026-04-27 04:26:00
 
-4910 stars in 19 years
+4909 stars in 19 years
 
 ## Table of Contents
 
@@ -41,7 +41,7 @@ Last updated 2026-04-26 04:20:59
 
 - [2023](stars/2023.md) (401 repos)
 
-- [2024](stars/2024.md) (327 repos)
+- [2024](stars/2024.md) (326 repos)
 
 - [2025](stars/2025.md) (126 repos)
 
